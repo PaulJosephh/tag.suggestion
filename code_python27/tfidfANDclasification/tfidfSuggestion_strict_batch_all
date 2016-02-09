@@ -1,0 +1,23 @@
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xtoutchilink/ toutchilink --n 10 > ../../results/tfidfsuggestion/toutchilink10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xjosdblog/ josdblog --n 10 > ../../results/tfidfsuggestion/josdblog10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xparalipomenes/ paralipomenes --n 10 > ../../results/tfidfsuggestion/paralipomenes10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xdomotique34/ domotique34 --n 10 > ../../results/tfidfsuggestion/domotique3410.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xmaisonetdomotique/ maisonetdomotique --n 10 > ../../results/tfidfsuggestion/maisonetdomotique10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xshots/ shots --n 10 > ../../results/tfidfsuggestion/shots10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xlagourmandiseselonangie/ lagourmandiseselonangie --n 10 > ../../results/tfidfsuggestion/lagourmandiseselonangie10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xfrancoischarlet/ francoischarlet --n 10 > ../../results/tfidfsuggestion/francoischarlet10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xbcommebon/ bcommebon --n 10 > ../../results/tfidfsuggestion/bcommebon10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xprendreuncafe/ prendreuncafe --n 10 > ../../results/tfidfsuggestion/prendreuncafe10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xroxarmy/ roxarmy --n 10 > ../../results/tfidfsuggestion/roxarmy10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xbeaualalouche/ beaualalouche --n 10 > ../../results/tfidfsuggestion/beaualalouche10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xcoupleofpixels/ coupleofpixels --n 10 > ../../results/tfidfsuggestion/coupleofpixels10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xdomadoo/ domadoo --n 10 > ../../results/tfidfsuggestion/domadoo10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xjulsa/ julsa --n 10 > ../../results/tfidfsuggestion/julsa10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xpechedegourmand/ pechedegourmand --n 10 > ../../results/tfidfsuggestion/pechedegourmand10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xphilippebilger/ philippebilger --n 10 > ../../results/tfidfsuggestion/philippebilger10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xjurilexblog/ jurilexblog --n 10 > ../../results/tfidfsuggestion/jurilexblog10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xjohncouscous/ johncouscous --n 10 > ../../results/tfidfsuggestion/johncouscous10.eval
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xjournaldugamer/ journaldugamer --n 10 > ../../results/tfidfsuggestion/journaldugamer10.eval
+
+
+
