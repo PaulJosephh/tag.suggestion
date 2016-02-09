@@ -1,0 +1,23 @@
+<document>
+	<date>2005-01-19</date>
+        <title>Installation de Ubuntu</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Bon, premier constat, Firefox y est en version 0.9.3 :-/, et Thunderbird n'y est tout simplement pas :eek: Qu'a cela ne tienne, un bon vieux  apt-get upgrade mozilla-firefox  et  apt-get install mozilla-thunderbird  des familles devraient suffire   ... Et noooon   il faut modifier le sources.list d'apt pour qu'il prenne en compte les paquets universels de debian. Heureusement, un frontend graphique d'apt est disponible sous Gnome (2.8), Synaptic, qui permet de selectionner les depots que l'on souhaite consulter  
+
+ En client ftp, je me suis mis  gFtp  : tout roule  
+
+ Damned, un souci : le plugin Flash Player 7 pour Firefox ne m'affiche pas les typos utilisees par les composants, genre TextArea... Ah ba non, suis-je bete :dent:, c'est normal : Arial (la typo par defaut des composants) n'est pas installee sur la distro   allez zou, un coup de  sudo apt-get install msttcorefonts  et les typos manquantes sont installees  
+
+ Par defaut je trouvais que Gnome ramais un poil, malgre la presence d'une honete nVidia geForce2 MX 32 Mo... Hop un coup de  sudo apt-get install nvidia-glx  ameliore grandement tout ca  
+
+ Bref, voici mes premieres impressions en vrac, mais pour un premier contact avec cette distribution je suis litteralement seduit. Seule dernier souci insoluble, pas d'IDE Flash sous Linux   Je met tous mes espoirs dans  mtasc , le compilateur swf libre en ligne de commande  
+
+ Edit :  En surfant sur  Distrowatch  ce matin j'ai eu la bonne surprise de constater qu'Ubuntu vient de passer en tete des distributions Linux   Je dois dire que depuis l'installation de cette derniere, je ne travaille quasiment plus sous Windows   Reste toujours ce probleme d'authoring Flash, vivement un IDE libre ! Le bonheur serait absolu  
+        </text>
+</document>

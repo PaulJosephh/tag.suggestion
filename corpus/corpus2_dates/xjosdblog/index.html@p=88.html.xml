@@ -1,0 +1,21 @@
+<document>
+	<date>2007-11-13</date>
+        <title>Qui fait quoi : commande top</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+                <category>Systeme</category>
+        </categories_set>
+        <text>
+                                                La commande  top 
+ 
+Pour afficher laide, taper  h 
+Pour selectionner la colonne de tri, taper  F O 
+Pour filtrer suivant un utilisateur, taper  u 
+Pour tuer un processus, taper  k 
+Pour redefinir la priorite dun processus, taper  r 
+Pour quitter cette commande, taper  q 
+        </text>
+</document>

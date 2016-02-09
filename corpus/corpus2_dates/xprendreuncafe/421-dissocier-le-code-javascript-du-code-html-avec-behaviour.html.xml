@@ -1,0 +1,93 @@
+<document>
+	<date>2006-03-20</date>
+        <title>Dissocier le code javascript du code HTML avec Behaviour</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>dev</tag>
+                <tag>javascript</tag>
+                <tag>tutoriel</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Suite a un commentaire sur le billet en question, la librairie  Behaviour  s'est rappellee a mon bon souvenir et averee tout a fait indiquee pour palier a cet epineux probleme. Son utilisation est tres simple et utilise la syntaxe  CSS  pour cibler les elements  DOM  auxquels appliquer certains  comportements   [ 1 ] . 
+
+
+ Ainsi, apres avoir inclus la librairie dans votre page et au lieu d'ecrire quelque chose du genre: 
+
+ a   id = "monlien"   href = "#ancre"   onclick = "new Effect.ScrollTo('ancre', .7);return false"  Test /a  
+
+
+ ... nous allons (enfin !) pouvoir dissocier la partie HTML de la partie javascript. Ainsi nous obtenons, pour le code HTML: 
+
+ a   id = "monlien"   href = "#ancre"  Test /a  
+
+
+ Et pour la partie javascript, dans un fichier separe: 
+
+ var  rules =  { 
+   'a#monlien'  :  function   ( element )   { 
+    element. onclick  =  function ( )   { 
+       new  Effect. ScrollTo   ( 
+         'ancre' ,
+         { duration: . 7 } 
+       ) ;
+       return   false ;
+     } 
+   } 
+ } 
+Behaviour. register ( rules ) ; 
+
+
+ Vous noterez qu'on cible directement notre lien par son identifiant  DOM , ( #monlien ) - comme on le ferait dans une simple feuille de style  CSS  - et qu'on lui assigne une fonction javascript incluant les instructions que nous placions auparavant au sein de l'attribut  onclick  de la balise. 
+
+
+ Vous allez me dire, quel interet de remplacer un code simple et peu volumineux par cet amas de code javascript? Par exemple, imaginons que nous voulons utiliser l'effet javascript  ScrollTo  sur  tous  les liens hypertextes contenant une reference a une ancre nommee de notre page... Notre  regle comportementale  devient tout simplement: 
+
+ var  rules =  { 
+   // Liens et scrollTo automatiques sur tous les liens pointant 
+   // vers une ancre dans la page courante 
+   'a'  :  function   ( element )   { 
+     var  pos = element. href . indexOf ( '#' ) ;
+     if   ( pos )   { 
+       var  target = element. href . substring ( pos +  1 , element. href . length ) ;
+       if   ( $ ( target ) )   { 
+        element. onclick  =  function ( )   { 
+           new  Effect. ScrollTo   ( 
+            target,
+             { duration: . 5 } 
+           ) ;
+           return   false ;
+         } 
+       } 
+     } 
+   } 
+ } ;
+Behaviour. register ( rules ) ; 
+
+
+ Voila, vous venez d'appliquer un comportement a tout un ensemble d'elements  [ 2 ]  (toutes les balises  a /  du document), et ce  sans avoir a modifier une ligne de votre code HTML . 
+
+
+ Il est bien evidemment possible de chainer les declarations de comportements, de la maniere suivante: 
+
+ var  rules =  { 
+   'a'  :  function   ( element )   { 
+   } ,
+   'p'  :  function   ( element )   { 
+   } ,
+   'li'  :  function   ( element )   { 
+   } 
+ } ;
+Behaviour. register ( rules ) ; 
+
+
+ Mine de rien, nous venons de mettre en place une sorte de  feuille de comportements , dissociee de la semantique de la page et de ses regles de mise en forme. Les perspectives sont enormes mais c'est surtout en maintenabilite que les gains seront les plus substentiels, un argument de poids face a nos chers clients ferus d 'inflation du perimetre fonctionnel  (copyright  Glagla  2006)  
+ Notes 
+ [ 1 ] ... voila donc d'ou vient le nom de la librairie  
+ [ 2 ] Cette fonction est grandement ameliorable, bien entendu. 
+ 
+        </text>
+</document>

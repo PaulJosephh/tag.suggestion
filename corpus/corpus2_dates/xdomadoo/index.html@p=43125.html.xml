@@ -1,0 +1,27 @@
+<document>
+	<date>2014-12-01</date>
+        <title>Guide dinstallation de la box domotique VeraEdge de VERA CONTROL</title>
+        <author> Maximin </author>
+        <tags_set>
+                <tag>box domotique</tag>
+                <tag>domotique</tag>
+                <tag>guide</tag>
+                <tag>installation</tag>
+                <tag>tuto</tag>
+                <tag>vera control</tag>
+                <tag>vera edge</tag>
+                <tag>wifi</tag>
+                <tag>z-wave plus</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Vera</category>
+                <category>Guide Domotique Z-Wave</category>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         Annoncee la semaine derniere, la Vera Edge vient de debarquersur le marche.Nous avons pu la tester et ainsi vous proposerun guide dinstallation en exclusivite de ce tout nouveau controleur  domotique Z-Wave Plus Plus puissante, plus pratique, plus petite, plus simple dutilisation et de configuration que ses petites surs, la nouvelle Vera a tout dune grande. A travers cet article, nous allons vous guiderpas a pas dans linstallation de la box. Si ce nest pas deja fait, je vous invite a lire  notre article de presentation de la Vera Edge. 1. Deballage Tout dabord le packaging. Beaucoup plus travaille que sur les anciennes versions, ilest egalement minimaliste. Pas de place pour le superflu, toute les faces vous donne des informations sur le systeme. Rien a voir avec lemballage des autres versions. La VeraEdge est fournie avec son alimentation et un cable  ethernet On retrouve sur le dessus lemplacement des 5 LEDs dindication de fonctionnement de la box. La connectique est presente au dos, soit un port  RJ45 Ethernet USB Deux boutons sur le cote,un pour la synchronisation, un autre pour le  Wi-Fi En la placant a cote de la VeraLite et de la Vera3, on se rend compte de la taille de la VeraEdge.Que ce soit en epaisseur, taille ou poids, tout a ete reduit au maximum afin de proposer un controleur qui soitle plus discret possible. 2. Mise enroute Il faudra en premier lieurelier le cable reseau auportLANde la VeraEdge et a un routeur pour que la box se connecte a votre reseau domestique. Puis alimenter le controleur grace a son alimentation reliee sur secteur et sur leconnecteur au dos de la box. On attend ensuite quelques minutes jusqua ce que toutes les LEDs soient allumees fixes, que la LED reseau clignote, puis on se rend a ladresse indiquee sur le sticker posee sur la box. 3. Premiere configuration Une fois que la Vera est alimentee et mise en route, on se connecte sur le portail web de  Vera Control http://home.getvera.com/users/login Comme vu precedemment, doivent etre branches dans lordre le cable reseau puis lalimentation, et bien sassurer que toutes les LEDs sont allumees. Si vous etes un nouvel utilisateur, il faudra creer un compte en cliquant sur Create an account, sinon on se connecte eton clique sur Login. Le systeme assigne ensuite notre controleur a notre compte. On accede enfin a notre dashboard UI7. Lors de la premiere connexion, un tutoriel nous explique comment naviguer dans les differents menus, ce tutoriel et redeclenchable depuis la page daide accessible en cliquant sur le point dinterrogation tout en haut a droite. Vous pouvez desormais profiter de toutes les possibilites quoffre le systeme VeraEdge. Nousallons la mettre en condition reellespendant plusieursjours. Jessayerai, en une semaine, de tester unmaximum de fonctionnalites du controleur et tout types de peripheriques. Jaimerai vous proposerun test le plus complet possible pour la semaine prochaine! En attendant, vous pouvez trouver  la Vera Edge sur la boutique Domadoo au prix de 189,99  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Jeedom  Guide dutilisation du detecteur dinondation Fibaro FGFS-001 END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,24 @@
+<document>
+	<date>2010-07-30</date>
+        <title>Manipulation par lots du nom de fichier de photos avec mtadonnes exif</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+                <category>Photo &amp; Video</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Copier la date/heure des metadonnees exif vers la date/heure des fichiers :
+  jhead -ft *.JPG 
+Ajouter 1h30mn a lheure des metadonnees exif des fichiers :
+  jhead -ta+1:30 *.JPG 
+Ajouter la date/heure des metadonnees exif au debut des noms de fichier :
+  exiv2 -r '%Y-%m-%d-(%H-%M-%S)_:basename:' *.JPG 
+Supprimer la date/heure ajoutee ci-dessus au debut des noms de fichier :
+  rename 's/.*)_//' *.JPG 
+ Renommer en masse les photos avec date/heure systeme et exif 
+        </text>
+</document>

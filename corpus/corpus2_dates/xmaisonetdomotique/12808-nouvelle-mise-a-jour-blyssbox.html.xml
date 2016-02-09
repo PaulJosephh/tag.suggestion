@@ -1,0 +1,16 @@
+<document>
+	<date>2012-12-04</date>
+        <title>
+Nouvelle mise  jour BlyssBox</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Blyssbox</tag>
+        </tags_set>
+        <categories_set>
+                <category>BlyssBox</category>
+                <category>Domotique</category>
+                <category>News</category>
+        </categories_set>
+        <text>Une nouvelle mise a jour est disponible pour la  Blyssbox  depuis quelques jours.     Elle concerne principalement la correction de bugs: Fonctionnement optimal des scenarios avec des dispositifs de commande de chauffage (cest de saison !) Prise en compte des temperatures negatives remontees par la station meteo Suppression des conflits en cas de cohabitation sur le meme reseau avec des cameras IP autres que Blyss Rafraichissement des etats des ouvrants sur certains systemes dexploitation  Vous pouvez effectuer la mise a jour quand vous le souhaitez (contrairement a dautres box qui les imposent): A proximite de votre Blyssbox : il vous suffit simplement de la redemarrer grace au bouton situe a larriere et de patienter le temps de cette mise a jour. Ne surtout pas eteindre votre Blyssbox avant la fin de la mise a jour, confirmee par un message audio. A distance : il suffit simplement de vous connecter a votre interface WEB (https://www.liveez.castorama.fr) puis dans la fenetre qui saffiche, daccepter la mise a jour et de patienter jusquau redemarrage de votre Blyssbox confirme par les icones de connectivite en bleu. Cette mise a jour arrive presquun mois jour pour jour apres la derniere, signe que les equipes sont au travail ;-)   Blyssbox 
+        </text>
+</document>

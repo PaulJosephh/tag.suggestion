@@ -1,0 +1,14 @@
+<document>
+	<date>2012-05-22</date>
+        <title>Tellstick : Pilotez votre systme domotique Chacon</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Telldus</category>
+        </categories_set>
+        <text>
+                                                          Il est possible de piloter votre systeme  domotique Chacon USB TellStick   Lexemple suivant va vous montrer comment piloter un  recepteur Pour commencer, connectez le  TellStick USB TelldusCenter  que vous avez prealablement installe  Dans longlet New, cliquez sur  New device   Dans la rubrique  Remoteswitchs/ Chacon Self learning on/off   Choisissez le code que vous desirez (Randomize selectionne un remote code au hasard). Donnez un nom a votre Recepteur (obligatoire). Cliquez sur  Save Vous avez cree votre premier recepteur, ce sera la meme demarche pour dautres du meme type.  Ensuite, revenez a la  premiere fenetre  Pour que TelldusCenter, via le  TellStick Activez  la fonction  association   bouton daffectation  Cliquez ensuite sur  Learn action  . Le recepteur emet alors  deux signaux sonores, et la lampe clignote 2 fois  Le recepteur est desormais associe a linterface  TellStick    Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

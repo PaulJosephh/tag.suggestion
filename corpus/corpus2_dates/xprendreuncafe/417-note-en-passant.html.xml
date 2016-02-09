@@ -1,0 +1,28 @@
+<document>
+	<date>2006-03-19</date>
+        <title>Note en passant</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>apache</tag>
+                <tag>grumph</tag>
+                <tag>prendreuncafe</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Pour interdire le  leeching  d'images depuis les comptes de  myspace.com : 
+
+
+ RewriteEngine On
+RewriteCond   %{HTTP_REFERER} ^.*myspace.com.*$ [NC]
+RewriteRule   .*\.(gif|jpg|jpeg|swf|png)$ http://www.prendreuncafe.com/images/antileech.jpg [NC] 
+
+
+ Edit :  Encore plus efficace et economique, le  deni total : 
+
+
+ RewriteEngine On
+RewriteCond   %{HTTP_REFERER} ^.*myspace.com.*$ [NC]
+ReWriteRule   .*\.(gif|png|jpg|jpeg|swf)$     - [F] 
+        </text>
+</document>

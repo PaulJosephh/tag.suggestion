@@ -1,0 +1,14 @@
+<document>
+	<date>2011-05-20</date>
+        <title>Nouveau Firmware en Franais pour le contrleur VERA !</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          Le dernier firmware (1.1.1265) pour le  controleur domotique VERA Pour rappel, le controleur  VERA Z-Wave Infrarouge X10  DSC Ce firmware est une mise a jour importante puisquil corrige des bugs, apporte le support de nouveaux modules et corrige le probleme de routage de la puce  Z-Wave On notera par exemple les ameliorations suivantes : Correction dans la gestion des peripherique  UPnP Correction dun bug qui empechait de supprimer certains modules Possibilite de lister tous les modules dans une scene, sans etre oblige de faire groupe par groupe Certification du moteur  Z-Wave Sigma Designs Support de nouveaux modules, comme le Home Energy Meter d Aeon Labs Amelioration du support de linfra rouge, avec notamment possibilite dapprendre des codes a la  VERA Possibilite de controler des appareils audio video dans une scene Nouvelle interface pour le magasin dapplications  MIOS Optimisation de la memoire (logs, notamment)   Le details des modifications apportees est disponible  ici Bravo et merci a Cedric du blog  Maison et Domotique Source :  Maison et Domotique  Retrouvez le controleur VERA sur la boutique  Domadoo  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

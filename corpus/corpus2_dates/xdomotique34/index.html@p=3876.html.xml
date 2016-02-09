@@ -1,0 +1,106 @@
+<document>
+	<date>2013-04-01</date>
+        <title>TEST Home Control 2 de MyFox : Tableau de bord et enregistrement de priphrique</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Alarme</category>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ Dans le  precedent article  je vous ai presente la box ainsi que son installation. Nous allons voir comment se presente le tableau de bord ainsi que lenregistrement dun module ou peripherique. 
+ 
+ Presentation du portail Web 
+ 
+ 
+ Tout en haut de linterface Web, on trouve letat de la box (eventuel probleme de connexion, de batterie, si des piles de capteurs sont defectueuses). 
+ Sur la partie centrale, on a 5 paves : 
+ Protection 
+ Desactivee : Pas besoin dexplication 
+ Partielle :Ideal pour vousprotegeren etant chez vous. Le systeme reste en eveil de maniere specifiques pour ne pas vousconsiderercomme un intrus. 
+ Totale :Le systeme bascule en vigilance maximale. Les capteurs sont actives pourprevenirdes effractions ou des accidents pouvant survenir en votre absence 
+ Camera 
+ Dans le pack que jai recu il ny avait pas de camera je nai donc pu tester. Je navais pas a disposition de camera  My Fox 
+  
+ Mes scenarios 
+ Nous verrons dans le prochain article comment creer des scenarios. 
+  
+ Mes equipements 
+ Est regroupe sur ce pave tous les equipements tels que les prises electriques, mais pas seulement ca. On y retrouve tout ce qui est automatisme douvrant (modules pour volets roulant ou portail), la gestion du chauffage, des eclairages. 
+  
+ Historique : 
+ Sur ce pave, on retrouve tous les faits qui se sont deroules, tel que lajout de nouveaux composants, les mises a jour, les activations et desactivations du systeme. 
+  
+ Sur la partie gauche on trouve 5 menus 
+  
+ Tableau de bord 
+ Il regroupe les 5 paves que nous venons de decouvrir 
+  
+ Mon systeme 
+ Tous vos elements sont regroupes par categorie comme la centrale(votre box ou vos box HC2), la securite (capteur TAG, detecteur de mouvement), les appareils domestiques (capteur de temperature/ luminosite), cameras, equipements electriques (prise electrique commandee DIO), et automatisme (modules volets roulant, portail). 
+ 
+ Mes scenarios 
+ Seront recapitules tous vos scenaris ainsi que vos groupes (ensembles de peripheriques permettant detre geresrapidement). 
+ 
+ Mes alertes 
+ Cest sur ce menu que vous pourrez gerer les destinataires ainsi que les modes de transmission de ces alertes (email, sms, et alerte vocale), bien sur tout dependra de la  solution  que vous aurez choisi. 
+ 
+ Mes services 
+ Cette partie regroupe la solution que vous avez choisi ainsi que les diverses options que vous avez choisies ou que vous pouvez souscrire. 
+ 
+  
+ 
+ Nous allons faire un petit recapitulatif de tout ceci en video. 
+ 
+ Ajout de module 
+  
+ Pour ajouter un materiel il faut se rendre dans le menu ou onglet Mon systeme puis de cliquer sur ajouter un appareil petit cadre vert a droite. 
+ 
+  
+ jai donc choisi dajouter une prise electrique commandee. Apres avoir cliquer sur Ajouter un appareil, un autre menu souvre faisant apparaitre toutes les categories dappareils (securites, appareils domotiques, camera, equipements electriques, automatismes). Je vais donc choisir equipements electriques 
+ 
+  
+ Je selectionne le module qui correspond alequipementque je veux installer (la prise electrique commandee DIO First) et je suis les indications de la Box. 
+ 
+ vous nommez votre nouveau peripherique 
+ 
+ on se rend a nouveau sur longlet mon systeme, et un clic sur equipements electrique. Vous devez voir votre nouveau peripherique pret a lemploi. 
+ 
+ Comme vous avez pu le voir, il est tres facile dajouter un peripherique, la box encore une fois vous guide pas a pas pour installer vos peripheriques (de plus ils sont facilement identifiables grace a leurs illustrations). 
+ la preuve en video 
+ 
+Apres avoir vu la presentation de la box, lajout de materiel, nous verrons dans le prochain article, comment creer un scenario. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

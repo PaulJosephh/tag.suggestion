@@ -1,0 +1,76 @@
+<document>
+	<date>2013-08-12</date>
+        <title>SARAH ou comment toucher du doigt le futur de la domotique ;) (source : Developpez.com)</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+  
+  
+ On entend chaque annee parler de domotique, les industriels nous promettent des frigo intelligent, une gestion intelligente de notre consommation electrique 
+Mais quen est-il aujourdhui ? On a effectivement beaucoup de produits a notre disposition permettant de controler nos lumieres, chauffage mais sans reel chef dorchestre. 
+ 
+ Presentation de SARAH 
+SARAH (Self Actuated Residential Automated Habitat) peut paraitre au premier abord de la science fiction, car ce projet permet simplement de centraliser le pilotage de votre domotique a la voix mais aussi avec des gestes, des QR codes, une planification 
+Si JP Encausse indique modestement sur son site que lidee de SARAH est davoir une maison intelligente a limage de la serie EUREKA, le projet tient effectivement ses promesses. 
+ Le logiciel est distribue sous licence opensource WTFPL* sinterface sur la Kinect* de Microsoft, et utilise cette brique materiel pour recuperer la voix / les gestes que vous faites. 
+ *Note: vous pouvez utiliser un simple Micro a la place de Kinect si vous ne souhaitez pas utiliser la reconnaissance gestuelle 
+*WTFPL (Do What The Fuck You Want To Public License) 
+ Mais ce nest pas tout 
+Ce programme permet non seulement de piloter des objets domotique, mais egalement daller chercher des informations sur le web et les lire grace a une synthese vocale (horaires de cinema, de bus) 
+Lapplication est portable (pas dinstallation) et la reconnaissance Microsoft est locale (pas de PRISM effect) 
+ Petite parenthese technique 
+SARAH fonctionne sur une architecture client/serveur (le client C# et le serveur en NodeJS) 
+Lidee est de proposer un framework aux presque non informaticien: 
+ Les plugins sont en JavaScript (le langage le plus utilise sur GitHub) 
+ On ne code pas du C# juste du XML 
+Plus de detail sur larchitecture ici: 
+note: Il y a aussi un moteur de regles a la IFTTT* pour faire communiquer les objets entre eux. Ainsi que dautres experimentations reconnaissance faciale, fond vert streame en WebSoket, etc  
+ *IFTTT: IF This Then That http://en.wikipedia.org/wiki/IFTTT 
+ Un projet de plus en plus populaire qui vit et auquel on contribue activement 
+Certains utilisateurs developpent, ou vous meme pouvez developper des plugins et les mettent a disposition de la communaute (si vous le souhaitez) 
+La liste impressionnante de plugins : 
+Pour information, 1500 telechargements de la v2.8 et bientot 400 personnes dans la communaute Google Plus 
+ En savoir plus 
+Je vous invite a regarder cette video de presentation du projet: 
+ http://www.youtube.com/watch?v=YKBrISsg__E 
+Dans cette video vous pourrez voir des choses aussi simple que demander lheure a des actions plus interessantes comme obtenir la temperature dune piece, allumer/eteindre une lumiere, jouer de la musique 
+ Conclusion 
+SARAH nest pas un jeune projet qui se lance, il a deja un an et continue detre developpe avec passion, il ne cesse devoluer et gagne vraiment a etre connu 
+Le site : http://encausse.wordpress.com/s-a-r-a-h/ 
+  
+ source :  Developpez.com 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

@@ -1,0 +1,147 @@
+<document>
+	<date>2007-02-07</date>
+        <title>Crer un projet Symfony  partir des dpts Subversion sous Ubuntu</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>framework</tag>
+                <tag>php</tag>
+                <tag>subversion</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Un des gros avantages du framework  Symfony , c'est qu'il est  regulierement mis a jour . En ce sens, l'utilisation de  liaisons externes Subversion  permet de s'affranchir des operations recurrentes de mise a jour manuelles du code du framework. 
+
+
+ Seul prerequis pour mettre en oeuvre la technique decrite ci-apres,  avoir acces a un depot Subversion  pour y stocker son propre projet personnel. 
+
+
+ Voyons donc comment creer un projet Symfony  from scratch  a partir des sources du depot officiel, sous  Ubuntu  par exemple... 
+
+
+ Conventions 
+
+
+ Nous admettrons que nous avons mis en place un depot Subversion et que celui-ci est accessible a l'URL  http://trac.mondomaine.tld/svn/monprojet . 
+
+
+ Creation du projet subversion 
+
+
+ $ mkdir monprojet   cd monprojet 
+
+
+ On versionne notre projet nouvellement cree dans Subversion et on en fait un  checkout  en suivant: 
+
+
+ $ echo "Mon projet README"  README
+$ svn import -m "Initial import" . http://trac.mondomaine.tld/svn/monprojet
+$ rm README  svn co http://trac.mondomaine.tld/svn/monprojet . 
+
+
+ Liaison des sources de Symfony 
+
+
+ On recupere le contenu integral du trunk de Symfony dans un repertoire virtuel  vendor/symfony , grace a un  svn:externals : 
+
+
+ $ mkdir vendor  svn add vendor
+$ svn propset svn:externals "symfony http://svn.symfony-project.com/trunk/" vendor 
+
+
+ On commite: 
+
+
+ $ svn commit -m "Added svn:externals to sf trunk in vendor/" vendor/ 
+
+
+ On oublie pas d'updater: 
+
+
+ $ svn up 
+
+
+ L'integralite du trunk de Symfony est alors telecharge en local (cela peut prendre un peu de temps). 
+
+
+ Creation du projet Symfony 
+
+
+ Pour bien utiliser les capacites de Subversion par la suite, on cree un repertoire  trunk  dans lequel nous allons initialiser notre projet Symfony: 
+
+
+ $ mkdir trunk  cd trunk
+$ ../vendor/symfony/data/bin/symfony init-project monprojet 
+
+
+ De meme, on cree en meme temps les traditionnels repertoires  branches  et  tags : 
+
+
+ $ cd ..
+$ mkdir branches tags 
+
+
+ Pour l'heure, un ls -l nous donne a la racine du projet subversion: 
+
+
+ $ ls -l
+total 20
+drwxr-xr-x  2 niko niko 4096 2007-02-07 17:02 branches
+-rw-r--r--  1 niko niko   95 2007-02-07 16:47 README
+drwxr-xr-x  2 niko niko 4096 2007-02-07 17:02 tags
+drwxr-xr-x 13 niko niko 4096 2007-02-07 16:59 trunk
+drwxr-xr-x  4 niko niko 4096 2007-02-07 16:56 vendor 
+
+
+ Configuration du projet Symfony 
+
+
+ Il faut maintenant configurer le projet Symfony pour qu'il sache trouver les librairies de base que nous avons precedemment recupere - et surtout que le projet soit portable -, en editant le fichier  trunk/config/config.php : 
+
+
+ $sf_symfony_lib_dir  = dirname(__FILE__).'/../../vendor/symfony/lib';
+$sf_symfony_data_dir = dirname(__FILE__).'/../../vendor/symfony/data'; 
+
+
+ On teste l'installation en lancant la commande  ./symfony -T  depuis la racine du projet Symfony: 
+
+
+ $ cd trunk
+$ ./symfony -T 
+
+
+ Si ca marche, on ajoute tout ce qui est nouveau fichier, et on commite en suivant: 
+
+
+ $ cd ..
+$ svn stat | grep ? | awk '{ print $2 }' | xargs svn add
+$ svn commit -m "File structure created, sf project initialized" . 
+
+
+ On pourra egalement faire un lien symbolique vers le repertoire  web/sf , ou bien le definir en tant qu'alias dans le vhost apache: 
+
+
+ VirtualHost toto.monprojet.tld
+  (...)
+  alias /sf /path/to/vendor/data/web/sf
+  (...)
+/VirtualHost 
+
+
+ Conclusion 
+
+
+ L'avantage de toutes ces manipulations est que desormais, un  svn up  mettra a jour non seulement les fichiers de notre application, mais egalement le framework en lui-meme. Les eternels grincheux crieront au loup quand au danger de lier une version de developpement (trunk), je leur repondrai qu'un  svn:externals  peut tout aussi bien pointer vers une revision ou un tag particulier. 
+
+
+ Par exemple, si vous desirez eviter de lier le trunk de Symfony, vous pouvez lier la version 1.0RC2 en specifiant son url dans votre  svn:externals : 
+
+
+ $ svn propset svn:externals "symfony http://svn.symfony-project.com/tags/RELEASE_1_0_0_rc2/" vendor 
+
+
+ Pour la suite, je vous renvoie a la  documentation officielle de Symfony   
+        </text>
+</document>

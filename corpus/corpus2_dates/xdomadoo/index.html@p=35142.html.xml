@@ -1,0 +1,44 @@
+<document>
+	<date>2014-06-11</date>
+        <title>Guide dutilisation du dtecteur de choc Vision Security ZS5101 avec le Home Center 2 et Home Center Lite</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>detecteur de choc</tag>
+                <tag>fibaro</tag>
+                <tag>guide</tag>
+                <tag>hc lite</tag>
+                <tag>hc2</tag>
+                <tag>Home Center 2</tag>
+                <tag>home center lite</tag>
+                <tag>tuto</tag>
+                <tag>vision security</tag>
+                <tag>z-wave</tag>
+                <tag>zs5101</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Z-Wave</category>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                         Le Home Center 2 communique nativement en utilisant la technologie Z-Wave detecteurde choc Vision Security ZS5101 Z-Wave Nous ne verrons que lintegration du module avec les box  domotique Fibaro guide dinstallation du detecteur de choc Vision Security ZS5101 1- Inclusion Rendez-vous sur linterface de votre controleur. Cliquez sur Modules (onglet disponible dans le menu situe en haut de votre interface). Cliquez ensuite sur Add or remove device situe a gauche de votre interface. Cliquez sur le bouton Ajouter dans la rubrique Ajouter un module pour inclure ce module (si votre module a deja ete inclus dans un autre reseau  Z-Wave Apres avoir clique sur Ajouter (dans la rubrique Ajouter un module), une nouvelle fenetre nommee Ajout des modules apparait avec un compte a rebours durant lequel vous devez maintenir appuye au moins 1 seconde le bouton dapprentissage (le bouton dinclusion de votre module  Z-Wave Ce bouton dapprentissage est situe a linterieur du module (languette metallique). Une fois que votre module est detecte par votre Home Center 2, celui-ci va etre configure automatiquement et est disponible dans linterface de votre controleur dans la rubrique Modules. Vous pouvez desormais visualiser si il y a une detection de choc ou non ainsi quune detection de sabotage ou non. 2- Configuration Apres avoir correctement installe votre module, vous allez pouvoir configurer ses parametres en cliquant sur licone cle a molette ou sur lidentifiant de votre module dans le menu Modules situe a gauche de votre interface. Dans la categorie General de votre module, vous pouvez indiquer son nom, la piece dans laquelle il se situe. Vous pouvez egalement visualiser les informations de ce module : genre, type de module, fabricant, version, configuration et ID. Dans la categorie Avance, vous pouvez visualiser et configurer des parametres supplementaires. Voici les parametres que vous pouvez configurer : Avance : Intervalle de reveil(s) : Intervalle de reveil de ce module. Celui-ci se reveillera periodiquement en notifiant le controleur (etat batterie) et permettra ainsi daugmenter la longevite des piles mais en contre partie, les requetes vers ce module seront emises lors de son reveil. Delai entre chaque interrogation : Vous pouvez definir un temps pour demander a ce dispositif si il est vivant plus frequemment que dans le reglage dun delai dinterrogation du  Z-Wave Z-Wave Ne pas marquer comme mort : Votre dispositif ne doit pas etre marque comme mort, meme si vous le desactivez. Notify when battery low via e-mail : Etre averti en recevant une notification par email lorsque la batterie est faible. Save logs to Event Panel :Sauvegarder les journauxdans le panneaudevenements. Alarm settings : Vous pouvez exclure votre detecteur du systeme dalarme ou armer celui-ci avec un retard ou bien declencher lalarme apres un delai defini. Sensor arming conditions : Vous specifiez les conditions qui doivent etre remplies pour armer le detecteur. Cette fonction permet au detecteur de sarmer en fonction de letat dautres appareils (par exemple : si un volet est ferme). Minformer : Par  SMS SMS Par email : Vous etes informe par email pour toute action du module (allumage, extinction ou changement de statut). Par notification Push : Vous recevez une alerte dinformation sur lecran de votre tablette ou smartphone pour toute action du module (allumage, extinction ou changement de statut). Description du module :Vous pouvez decrire votre module. Associations :Vous pouvez associer ce module avec un autre sans devoir passer par le controleur (sans creer de scenario). Les associations ne dependent pas du controleur. Configuration : Configurer les valeurs par defaut : Vous pouvez configurer les valeurs par defaut. Reload parameters : Vous pouvez recharger les parametres. 3- Exemple de scene Votre imagination est la seule limite pour creer une scene. Nous vous presentons dans cet article un premier exemple de scene en utilisant la methode blocs graphiques (option disponible sur le Home Center 2 et Home Center Lite) et un second exemple de scene en utilisant la programmation en LUA (option uniquement disponible sur le Home Center 2. Cette option permet de realiser des scenes plus elaborees). Vous devez en premier lieu vous rendre dans la rubrique Scenes situe en haut, dans le menu de votre interface puis cliquezsur Ajouter dans la rubrique Ajouter une scene. Dans General, vous pouvez configurer le nom de la scene et la piece dans laquelle elle se situe, loption dafficher ou non la scene dans linterface, la commande vocale pour mettre en marche ou arret la scene, une option dactivation de la scene, que celle-ci se lance lors du demarrage du Home Center 2, la proteger avec mot de passe et permettre ou non a une alarme qui senclenche darreter la scene. Rendez-vous ensuite dans la rubrique Avance pour creer votre scene. 3.1-Blocs graphiques (Home Center 2 et Home Center Lite) : Pour creer une scene en utilisant la methode des blocs graphiques, cliquez sur Ajouter dans Ajouter une scene en utilisant les blocs graphiques. Cliquez ensuite sur le bouton +. Un menu apparait pour choisir vos composants. Lorsque vous selectionnez un composant (exemple : module), un bouton condition est disponible et vous devez choisir parmi les options suivantes : Et, Ou, Alors. Nous realisons la scene suivante : Si mon detecteur de choc  Vision Security Noubliez pas de sauvegarder en cliquant sur Sauver. Veuillez noter que loption  Detection de choc  dans Triggering device est cochee. Cela signifie que votre scene senclenche automatiquement des la detection dun choc (ou sabotage). 3.2-Programmation LUA (Home Center 2 uniquement) : Une autre option pour creer votre scene est en LUA. Cliquez sur Ajouter dans la rubrique Ajouter une scene en LUA. Vous pouvez desormais ecrire votre scene en LUA. Voici un exemple de scene : Si mon detecteur de choc  Vision Security Etape 1 : Identifier les numeros ID de vos modules Vous devez connaitre les numeros identifiants des modules (ID) :  Detecteur de choc  Vision Security 681  Module Wall Plug FGWPE-101 :  678 (Pour retrouver vos numeros identifiants des modules, accedez a la rubrique Modules dans votre interface puis cliquez sur loutil en forme de cle a molette sur votre module. Vous etes ensuite sur la rubrique General de votre module et pouvez visualiser son numero ID). Etape 2: Rediger votre scene (fonctions, numeros ID, type daction) Etant donne que nous voulons un declenchement automatique dans notre exemple, nous devons utiliser la fonction Trigger IF THEN Call ID SI  Vision Security ALORS ON FIN  Pour letat du detecteur de choc, la valeur  1 detection de choc 0 aucune detection de choc  Une action secrit : fibaro (device ID, action Name) 678 turnOn Pour finir, il faut indiquer le mot  end Voici notre scene complete : 
+--[[
+ %% properties
+
+681 value
+
+%% globals
+ --]]
+
+local Choc
+
+Choc = fibaro:getValue(681, 'value')
+
+if (Choc == '1') then
+
+fibaro:call (678, 'turnOn' )
+
+end
+ Attention : pour la programmation en LUA, vous devez bien respecter la syntaxe car votre scene ne pourra fonctionner si il y a une faute de signe, chiffre ou lettre. Vous pouvez bien evidemment creer une infinite de scenes en utilisant ce  detecteurde choc Vision Security ZS5101 Pour plus dinformations sur la creation de scenes, rendez-vous sur notre article :  Creation de scenarios (blocs graphiques et LUA) avec le Home Center 2  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,55 @@
+<document>
+	<date>2011-10-05</date>
+        <title>
+Camra Axis M1031-W et Vera: un joli couple!</title>
+        <author>sjhp</author>
+        <tags_set>
+                <tag>Axis</tag>
+                <tag>HTTP</tag>
+                <tag>vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Securite</category>
+        </categories_set>
+        <text>La Vera  permet de controler, ou de se faire controler, par differents moyens. Si vous suivez  nos articles  vous lavez sans doute constate. 
+  Aujourdhui, en suivant ce petit guide, vous allez decouvrir comment aller un peu plus loin, notamment avec le controle dune camera Axis M1031-W.  Les exemples donnes ci-apresdevraient fonctionner avec dautres modeles de camerasAxis.  
+ I. Presentation   A ma droite, la camera Axis M1031-Wavec les caracteristiques principales suivantes: Interface LANet WLAN g Objectif 4.4mm ,CMOS 1/4, F2.00 Compression video: MJPEG, MPEG-4, H264 Resolution de 160X120 a 640X480 Audio bidirectionnel Full-Duplex, micro et haut-parleur inclus dans le boitier Capteur infrarouge passif EclairageLED blanche 1W Dimension reduites: (LxPxH) : 5.9 cm x 3.4 cm x 9.5 cm Pour plus dinformations:  http://www.axis.com/fr/products/cam_m1031w/ Voici une petite capture decran pour vous faire une petite idee de la qualite visuelle.   Pour vous faire une idee de la dimension de cette camera:   Et a ma gauche, la  Verade Micasaverde  quon ne presente plus :-) mais si vous voulez en savoir plus cest  par la.  
+ II. Pour commencer simplement  
+ 1. Comment allumer a 5%la LEDavant de la camera par la Vera  Il suffit de creer une scene avec dans longlet Luup les indications suivantes:  
+[sourcecode language=perl] luup.inet.wget("http://nom_utilisateur:mot_de_passe@ip_camera:port/axis-cgi/lightcontrol.cgi?level=5", 5) 
+[/sourcecode]  Remarque:  Si la  Vera  vous annonce une erreur dans le code LUA, remplacer simplement les guillements directement sous longlet Luup. Certaines fois, le codage ASCII se modifie par copier-coller. Dans la scene ci-dessous, jai 3 camerasdont je veux allumer les LED a 5% en meme temps.   Si vousremplacez 5 par 0, vous obtiendrez lextinction de la LED. 
+  50-100 pour faire passer de 50 a 100% la luminositeen environ 2 secondes. Le principe est simple non? Cette fonction ajouteea la  Vera , peut tout a fait servir dindication optique permanente, a condition de diminuer la puissance de la LEDa 10% par exemple afin deviter un trop grand echauffement. Infodu constructeur: La LED avant est prevue pour un usage temporaire seulement.  
+ 2. Comment faire jouer un clip audio dans le haut-parleur de la camera  La procedure est presque pareille, sauf quil faut utiliser la requete suivante dans la scene de la  Vera :  
+[sourcecode language=perl] luup.inet.wget("http://nom_utilisateur:mot_de_passe@ip_camera:port/axis-cgi/playclip.cgi?clip=9", 5) 
+[/sourcecode] Clip par defaut: 
+ 6 = Camera clicks 7 = Pssst 8 = Intruder 9 = Dog barking  Clip telecharges par vos soins: 
+  0 a 5  
+ III. Un peu plus encore!  Nous allons grace aune nouvelle scene dans la  Vera ,activerlEventE1, cree dans la camera comme le montre limage suivante:  
+ On peut creer un Eventmanuellement en cliquant sur Addscheduled, dans ce cas, la numerotation non-visible mais importante pour nous, commencera a E0, lEvent suivant E1 etc 
+ On peut aussi utiliser la commande ci-apres directement dans le navigateur webpour creer automatiquement un Event:  http://nom_utilisateur:mot_de_passe@ip_camera:port/axis-cgi/param.cgi?action=addgroup=Eventtemplate=eventEvent.E.Name=My%20Event Event.E.Enabled=yes 
+  Le navigateur repondra alors, si tout sest bien passe,avec un court message comportant le nom de lEvent que vous pourrez renommer. La commande ci-apres affichera la liste detous les Events crees dans la camera:  http://nom_utilisateur:mot_de_passe@ip_camera:port/axis-cgi/admin/param.cgi?action=listgroup=Event.*.Name 
+  Maintenant que lEvent est cree, il faut bien sur,definir quoi faire, il y a une foule doptions comme vous pouvez le voir.   Dans cet exemple, quand lEventsera active grace a une scene dans la  Vera , la LEDblanche flasherasi le detecteur infrarouge (PIRsensor)detecte une presence. Voici maintenant la scene a creer dans la Verapour lactivation, comme toujours en copiant la requete suivante dans longlet Luup:  
+[sourcecode language=perl] luup.inet.wget("http://nom_utilisateur:mot_de_passe@ip_camera:port/axis-cgi/param.cgi?action=updateroot.Event.E1.Enabled=yes", 5) 
+[/sourcecode] 
+ Pour la scene de desactivation la requete est la meme a la difference de =no  
+[sourcecode language=perl] luup.inet.wget("http://nom_utilisateur:mot_de_passe@ip_camera:port/axis-cgi/param.cgi?action=updateroot.Event.E1.Enabled=no", 5) 
+[/sourcecode] 
+ IV. Et pour finir, un petit exemple concret 
+Je veux pouvoir activer a laide dune scene les actions suivantes: - Mettre mes 2 cameras en mode surveillance dintrusion par detecteur infrarouge. 
+  Entendreleclip audioclicks de confirmation lors de lactivation dans chaque cameras. 
+  Allumer les LED avant a 10%. 
+  En cas de presence non-desiree, lire le clip audiopar defaut Intruder, faire flasher la LEDblanche, envoyer un mail simple et un autre avec capture de 10 images par mail. Nous commencerons par creer lEvent E2Alarme comme indique plus haut, dans les 2 cameras.   Pensez a remplir les champs suivants: - Triggeredby (PIRou motion sensor ou encoreAudio) 
+  WhenTriggered 
+  ActivateLight 
+  SendEmail notification, si necessaire 
+  PlayAudio Clip (Intruder) Voici maintenant le petit script a placer dans la Vera dans la scene dactivation de la surveillance:  
+[sourcecode language=perl] luup.inet.wget("http://nom_utilisateur:mot_de_passe@ip_camera1:port1/axis-cgi/playclip.cgi?clip=6", 5) luup.inet.wget("http://nom_utilisateur:mot_de_passe@ip_camera2:port2/axis-cgi/playclip.cgi?clip=6", 5) luup.inet.wget("http://nom_utilisateur:mot_de_passe@ip_camera1:port1/axis-cgi/param.cgi?action=updateroot.Event.E2.Enabled=yes", 5) luup.inet.wget("http://nom_utilisateur:mot_de_passe@ip_camera2:port2/axis-cgi/param.cgi?action=updateroot.Event.E2.Enabled=yes", 5) luup.inet.wget("http://nom_utilisateur:mot_de_passe@ip_camera1:port1/axis-cgi/lightcontrol.cgi?level=10", 5) luup.inet.wget("http://nom_utilisateur:mot_de_passe@ip_camera2:port2/axis-cgi/lightcontrol.cgi?level=10", 5) 
+[/sourcecode]  Et pour la scene de desactivation: 
+ (le clip audio choisi est le Pssst!)  
+[sourcecode language=perl] luup.inet.wget("http://nom_utilisateur:mot_de_passe@ip_camera1:port1/axis-cgi/playclip.cgi?clip=7", 5) luup.inet.wget("http://nom_utilisateur:mot_de_passe@ip_camera2:port2/axis-cgi/playclip.cgi?clip=7", 5) luup.inet.wget("http://nom_utilisateur:mot_de_passe@ip_camera1:port1/axis-cgi/param.cgi?action=updateroot.Event.E2.Enabled=no", 5) luup.inet.wget("http://nom_utilisateur:mot_de_passe@ip_camera2:port2/axis-cgi/param.cgi?action=updateroot.Event.E2.Enabled=no", 5) luup.inet.wget("http://nom_utilisateur:mot_de_passe@ip_camera1:port1/axis-cgi/lightcontrol.cgi?level=0", 5) luup.inet.wget("http://nom_utilisateur:mot_de_passe@ip_camera2:port2/axis-cgi/lightcontrol.cgi?level=0", 5) 
+[/sourcecode] 
+ V. Il me semble oublier quelque chose Vous voulez enclencher une scene de votre Vera grace a votre camera ? Cest aussi possible bien sur! Il faut aller dans les parametres de votre camera jusqua EventServers, suivez le guide! ;-)   Creer ensuite avec AddHTTP, un Event. 
+ Jai cree pour mon usage, 3 Event avec pour nom, les scenes qui seront activees dans ma Vera.   Dans le champ URL: mettez ce qui suit:  http://IP_DE_LA_VERA:3480/data_request?id=lu_actionserviceId=urn: micasaverde -com:serviceId:HomeAutomationGateway1action=RunSceneSceneNum=72  Le 72 correspond bien sur a la scene qui sera lancee dans la Vera, vous pouvez tester si la liaison fonctionne en appuyant sur le bouton TEST. Repetez cette manipulation autant de fois que vous aurez de scenes a activer dans la Vera. A present, allez dans Event Type et activez la fonction Send HTTP Notification avec le nom de lEvent que vous venez de creer.   Veillez aussi a definir sous Triggered lactivation de lEvent. Et pour illustrer tout ceci, voici une petite video captee par la camera Axis.  Ce que vous venez de lire nillustre quune partie des possibilites, je suis sur et jattends beaucoup de reactions et dautres exemples fait par vous, chers lecteurs ;-) 
+ Jespere ne pas avoir trop fait derreurs dans cet article, dans le cas contraire, nhesitez pas a le signaler.   Axis   HTTP   vera 
+        </text>
+</document>

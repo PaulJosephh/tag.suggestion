@@ -1,0 +1,32 @@
+<document>
+	<date>2014-10-27</date>
+        <title>
+Test du nouveau capteur douverture MyFox: lIntellitag</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>alarme</tag>
+                <tag>intellitag</tag>
+                <tag>MyFox</tag>
+                <tag>securite</tag>
+        </tags_set>
+        <categories_set>
+                <category>Peripheriques Chacon / MyFox</category>
+        </categories_set>
+        <text>
+ IntelliTag MyFox 
+ 59,90 9.25 
+ Qualite 
+ 100/10 
+ Fonctions 
+ 100/10 
+ Utilisation 
+ 90/10 
+ Prix 
+ 80/10 Pour - Petit - discret - facile a installer - Fonctions intelligentes   Contre 
+ 
+ Trouver le capteur au meilleur prix   Le capteur Tag de  MyFox  est sans doute lun des arguments phares de la solution de securite / domotique de cette societe francaise (si vous ne la connaissez pas encore, je vous invite a  la decouvrir via notre test complet ici ). Ce petit detecteur brevete, integrant un gyroscope, est capable de detecter le mouvement dune porte, en nutilisant quun unique element, mais surtout de detecter un choc ou une tentative dintrusion avant meme louverture de la porte, en fisant bien la distinction entre une vraie tentative deffraction et un simple coup de vent par exemple. Ainsi lalarme se declenche avant meme quun cambrioleur ait franchi le pas de la porte ! MyFox  renouvelle aujourdhui ce capteur avec une version plus intelligente, dou son petit nom Intellitag.  
+ I. Deballage  Rien qua lemballage on devine que ce nouveau detecteur est plus petit que le precedent   A linterieur de cette petite boite on retrouve le capteur, sa pile AA, un petit tournevis pour le montage, et une notice dutilisation.   Comme prevu ce nouveau capteur est plus petit que lancien, avec des dimensions de89 mm x 25 mm x 28 mm:   Petite comparaison avec son grand frere:   En nutilisant plus quune seule pile au lieu de deux, forcement la taille sen ressent beaucoup. Mais ceci ne se fait pas au detriment de lautonomie, puisque celle ci est annoncee pour 2 ans en utilisation normale (5 ouvertures / fermetures / jour). Lelectronique a donc bien ete optimisee pour consommer moins ! Le capteur pourra etre positionne facilement nimporte ou grace a son socle autocollant, dautant plu que le capteur est certifie IP67 (il pourra donc meme se positionner a lexterieur). Pour ceux qui preferent, il sera toujours possible de le visser a louvrant.     Quasiment toute la place est occupee par la pile, a se demander ou se cache lelectronique :D Un tres beau travail de miniaturisation.   
+ II. Installation  Comme dhabitude, linstallation est guidee pas a pas. Il suffit de se connecter a linterface  MyFox , et selectionner le type de detecteur a ajouter:    On suit ensuite le guide, tout dabord en indiquant ou sera place le capteur douverture:   La mise en place est meme illustree dune video pour bien comprendre le fonctionnement:   On ouvre le detecteur, on insere la pile, le capteur est detecte automatiquement par la centrale.      Une nouvelle etape fait par contre son apparition: un petit calibrage est necessaire, en ouvrant et en fermant simplement la porte quand lassistant nous le demande.   Il ny a plus qua donner un nom au detecteur, et cest fini:     On le retrouve ensuite dans linterface, ou il est possible de configurer son mode de fonctionnement:     Sur le tableau de bord, on le retrouve de cette facon: petite surprise, ce nouveau capteur integre egalement un capteur de temperature ! Certains diront que le releve de temperature sur un ouvrant nest pas ideal car la temperature y est souvent inferieure, mais comme on le voit dans les parametres ci dessus, il est possible de prendre en compte un ecart de temperature afin dobtenir quelque chose de coherent avec la realite de la piece.   Et cela donne au moins une idee de la temperature, comme par exemple ici dans mon atelier au fond du jardin, qui nest pas chauffe: je peux surveiller le risque de gel par exemple sans ajouter rien dautre. En cliquant dessus il est meme possible davoir un suivi sous forme graphique:    Enfin, cerise sur le gateau, cette donnee est bien sur utilisable dans les scenarios comme declencheur:    
+ III. Conclusion  MyFox  nous a concocte la un tout nouveau capteur tres interessant ! On appreciera beaucoup sa taille reduite: le fait de navoir quune seule partie a fixer est deja pratique et plus esthetique que la plupart des capteurs, mais en reduisant encore sa taille, le detecteur devient reellement tres discret. Quant au releve de temperature, cela evitera de devoir acheter un capteur additionnel, et surtout den avoir encore un qui traine quelque part dans la piece. Ce nouveau detecteur Intellitag de  MyFox  est  disponible depuis quelques jours maintenant chez les differents revendeurs pour un peu moins de 60 (assurez vous bien quil sagisse de lIntellitag, des stocks de lancienne version pouvant subsister chez certains revendeurs).   alarme   intellitag   MyFox   securite 
+        </text>
+</document>

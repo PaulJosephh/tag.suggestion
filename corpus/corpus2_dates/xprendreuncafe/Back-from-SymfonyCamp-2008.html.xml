@@ -1,0 +1,40 @@
+<document>
+	<date>2008-09-14</date>
+        <title>Back from the camp!</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>community</tag>
+                <tag>symfony</tag>
+                <tag>symfonycamp2008</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Im back from the  symfony camp 2008 . Its been a really great pleasure to meet the community [ 1 ] , there are so many smart people using symfony all around the world, its just amazing. 
+
+
+ I gave a one day training session on symfony 1.1 to eleven attendees the day before, I think it was somewhat interesting even if it may have been too short to see every important aspects of the framework 
+
+
+ The conferences were also great, and some slides are already available: 
+
+ 
+ Edit:   Opening Conference, by Lambert Beekhuis 
+ Be RESTful, by Fabien Potencier 
+ Beyond symfony 1.2, by Fabien 
+ Full Stack Web Application Performance Tuning, by Fabian Lange 
+ Debugging with symfony, by Stefan Koopmanschap 
+ The symfony Admin Generator, by Ian P. Christian 
+ Edit:   Lessons Learned at Yahoo!, by Dustin Whittle 
+ Edit:   Using YUI with symfony, by Dustin Whittle 
+ Edit:   Developing for Developer, by Francois Zaninotto 
+ 
+
+ Stefan has also taken  some shots of the event . 
+
+
+ Last and as a side note, as of now all my symfony related posts will be written in English, as its the main language used by the community. 
+ Notes 
+ [ 1 ] even if the weather was well,  dutch  wet 
+        </text>
+</document>

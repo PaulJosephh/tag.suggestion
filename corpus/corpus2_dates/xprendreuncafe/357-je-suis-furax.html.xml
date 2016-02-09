@@ -1,0 +1,31 @@
+<document>
+	<date>2005-12-22</date>
+        <title>Je suis furax</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>grumph</tag>
+                <tag>spam</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>C'est  quoi ca   [ 1 ] ?  
+
+ C'est le site d'un trul du cou ayant developpe un  logiciel  permettant de spammer les blogs et les moteurs de recherche. Bien, jusqu'ici, rien que du banal, meme si  une bonne paire de tartes  salvatrices dans la gueule lui feraient le plus grand bien. 
+
+ Sauf qu'un lecteur m'envoit ce matin un mail en me demandant si c'est bien moi le proprietaire de ce site et le developpeur du logiciel. Interloque, je me rends sur ce dernier, et surprise, un lien pointant vers  prendreuncafe.com  sis en bas de page, un peu a la maniere d'une signature ou d'un copyright  
+
+ Alors permettez moi d'interpeller publiquement ce cher et tendre CLAUDE VINOT - deposant officiel du nom de domaine  automatique-marketing.com  - et de lui signifier, outre mon plus profond mepris, que ce genre de pratiques est tout simplement abominable, irrespectueux et discreditant, et que je suis en train de chercher des moyens de faire cesser ses agissements  sans ecarter aucun moyen . D'ailleurs, amis lecteurs, si vous avez des idees... 
+
+ J'espere qu'il consulte ses referers et qu'ils ne sont pas trop spammes, afin qu'il prenne connaissance de ce billet. Un mail est parti en copie, mais j'ai peu d'espoir qu'il soit lu. 
+
+ Edit :  En fait ce site evalue l'url de provenance et affiche systematiquement un lien vers le domaine contenu dans cette derniere. Donc pour resumer, le gars spamme plein de sites au niveau des referers, et quand comme moi ils en affichent une liste, un click sur ce spam-referer abouti sur sa page frauduleusement ''signee''. Je commence donc a songer a un plugin palliant automatiquement a ce genre de soucis. Encore une fois, suggestions bienvenues. 
+
+ Edit du 23/12 :  Tiens, la plaie de bas de page semble avoir desormais disparu... 
+
+ 
+ Notes 
+ [ 1 ] Rassurez-vous, le lien est en  rel="nofollow" 
+ 
+        </text>
+</document>

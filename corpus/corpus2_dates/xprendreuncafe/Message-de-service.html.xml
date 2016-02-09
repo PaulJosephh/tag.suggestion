@@ -1,0 +1,17 @@
+<document>
+	<date>2006-11-06</date>
+        <title>Message de service</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dedibox</tag>
+                <tag>prendreuncafe</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Si vous lisez ce message, c'est que le changement de serveur du present blog a ete couronne de succes. J'ai en effet quitte ma  dedibox  pour... une autre dedibox, configuree en RAID1 cette fois  
+
+
+ En gros, il y a maintenant deux disques durs de 160Go, le second etant le mirroir du premier: un gage de securite en cas de crash de l'un ou de l'autre. N'hesitez pas a me signaler toute anomalie si vous en rencontrez. 
+        </text>
+</document>

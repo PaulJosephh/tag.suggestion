@@ -1,0 +1,67 @@
+<document>
+	<date>2013-01-20</date>
+        <title>Piloter votre Mdia Center depuis votre Vera avec MCE Controller</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ Voila un tutoriel cree par Sebastien Joly pourPiloter votre Media Center (windows HTPC ou Windows PC) depuis votre Vera avec MCE Controller (Windows Media Center Edition (MCE) : 
+ MCE Controller  est un logiciel resident pour des plateformes Windows faisant office de serveur ou client dactions distantes. Depuis un systeme distant il est donc possible dexecuter des commandes a lordinateur executant le serveur MCE Controller. A titre dexemple, il est possible dexecuter toutes les commandes du systeme distant et cela dans le mode interactif. 
+Pour cela, il faut dans le fichier MCEControl.commands declarer toutes les commandes que vous voudriez pouvoir executer. Dans mon cas et pour ce tutoriel, je vous propose de mettre en place cette solution sur votre Vera en utilisant des scripts LUUP/LUA. 
+ 1  Telecharger et installer MCEController 1.8.3 Setup.exe depuis le lien suivant : http://mcec.codeplex.com/downloads/get/598898 
+ 2  Attention, il y a un prerequis a lexecution du logiciel : le Framework .net 4.5 http://www.microsoft.com/fr-fr/download/details.aspx?id=30653 
+ 3  Parametrer lexecution au demarrage. 
+ 4  Le code LUA/LUA a mettre dans votre scene Vera : 
+- 
+local socket = require(socket) 
+host = adresse ip du server 
+c = assert(socket.connect(host, 5150)) 
+c:send(item de la commande declaree dans le fichier de commande\r) 
+c:close() 
+- 
+Dans mon cas jer mets en place un shutdown de mon PC : 
+- 
+local socket = require(socket) 
+host = 192.168.1.7 
+c = assert(socket.connect(host, 5150)) 
+c:send(shutdown\r) 
+c:close() 
+- 
+ Simple comme bonjour  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

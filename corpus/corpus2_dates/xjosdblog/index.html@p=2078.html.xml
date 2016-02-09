@@ -1,0 +1,29 @@
+<document>
+	<date>2012-11-15</date>
+        <title>Projet UML/Java : Dilemme Itr des Prisonniers</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Projet</tag>
+        </tags_set>
+        <categories_set>
+                <category>Cours</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Le dilemme du prisonnier est un des plus celebres exemples de la theorie des jeux. Il vise a estimer les benefices des strategies de cooperation. Les regles sont simples et partent de la petite histoire decrite ci-dessous dont le jeu tire son nom.
+ 
+Deux suspects porteurs darmes ont ete arretes devant une banque et mis dans deux cellules separees.
+Les deux prevenus ne peuvent pas communiquer et doivent choisir entre avouer quils sappretaient a
+commettre un hold-up ou ne rien avouer. Les regles que le juge leur impose sont les suivantes :
+ 
+ si lun avoue et pas lautre, celui qui avoue sera libere en remerciement de sa collaboration et lautre sera condamne a cinq ans de prison ; si aucun navoue, ils ne seront condamnes qua deux ans de prison, pour port darme illegal ; et si les deux avouent, ils iront chacun faire quatre ans de prison. 
+Lorsque le jeu est joue une seule fois, lattrait de la denonciation est tres fort bien que la cooperation soit la meilleure solution pour les deux joueurs. A defaut de connaitre les intentions de lautre, la denonciation est souvent le premier choix.
+Mais en faisant jouer plusieurs fois de suite les memes joueurs, on commence a voir des strategies comportementales se dessiner, chacun gardant la memoire des choix precedents.
+ 
+Ce projet a ete donne aux etudiants de 1ere annee du DUT informatique dans le cours dUML en decembre 2007.
+ 
+ 
+ Sujet du projet UML/Java  Dilemme Itere des Prisonniers 
+        </text>
+</document>

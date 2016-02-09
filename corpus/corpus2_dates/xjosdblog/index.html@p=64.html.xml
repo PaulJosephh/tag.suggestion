@@ -1,0 +1,18 @@
+<document>
+	<date>2008-01-24</date>
+        <title>Tableaux  deux dimensions et passages de paramtres en langage C</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Cours</category>
+        </categories_set>
+        <text>
+                                                 
+Dans le langage C, les crochets que lon utilise pour encadrer les index dun tableau ne sont, en realite, quune facon de dereferencer un pointeur.
+ ptr n ptr[n] *(ptr + n) 
+Interessons-nous maintenant au cas dun tableau a deux dimensions defini de la maniere suivante :
+ int matrice[NB_LIGNES][NB_COLONNES] matrice[ligne][colonne] matrice[(NB_COLONNES * ligne) + colonne] *(matrice + (NB_COLONNES * ligne) + colonne)  matrice[ligne][colonne] void fonction(int (*matrice)[NB_COLONNES]) ; void fonction(int matrice[][NB_COLONNES]) ; NB_COLONNES 
+Pour approfondir :  le cours complet de Jean-Luc Peris 
+        </text>
+</document>

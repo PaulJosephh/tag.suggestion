@@ -1,0 +1,35 @@
+<document>
+	<date>2015-05-06</date>
+        <title>Donn&#233;es anonymis&#233;es et Sur-&#233;coute.org</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Protection des donn&#233;es</tag>
+                <tag>Sph&#232;re priv&#233;e</tag>
+                <tag>Surveillance</tag>
+        </tags_set>
+        <categories_set>
+                <category>Technologies</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Alors que je pr&#233;pare mon prochain article, j'ai pens&#233; qu'il serait int&#233;ressant et amusant de vous faire part de ces deux actualit&#233;s.&#160;Au menu de ce mercredi, les donn&#233;es anonymis&#233;es qui ne le sont en fait plus du tout (quoi qu'on en dise), et l'extension pour navigateur web "sur &#233;coute" dont je vous laisse d&#233;couvrir ci-dessous la fonction. 
+ Donn&#233;es anonymis&#233;es 
+ Tout le monde sait que Facebook collecte des donn&#233;es sur ses utilisateurs (qui s'en moquent passablement d'ailleurs). Mais Facebook collecte aussi des donn&#233;es suppl&#233;mentaires, sans que ces utilisateurs s'en aper&#231;oivent.  J'en avais parl&#233; ici . Le plus inqui&#233;tant est que les donn&#233;es d'internautes non inscrits sont aussi collect&#233;es... gr&#226;ce aux boutons "J'aime" un peu partout sur Internet et gr&#226;ce aux utilisateurs inscrits qui partagent par exemple leur carnet d'adresses avec le r&#233;seau social, ce dernier collectant alors tout ce qui s'y trouve. 
+ Lorsque Facebook partage des donn&#233;es personnelles avec des annonceurs pour que ces derniers affichent des publicit&#233;s pertinentes sur les sites visit&#233;s, il ne peut pas le faire sans respecter le droit de la protection des donn&#233;es. Les donn&#233;es sont alors anonymis&#233;es&#160;: les adresses e-mail, num&#233;ros de t&#233;l&#233;phone et autres donn&#233;es permettant d'identifier un individu sont transform&#233;es automatiquement en s&#233;quences alphanum&#233;riques, lesquelles se rapportent donc &#224; chaque individu. 
+ Actuellement, les internautes sont suivis &#224; la trace au moyen de  cookies . Le probl&#232;me de ces fichiers est qu'ils sont stock&#233;s sur chaque appareil utilis&#233; par l'utilisateur, et qu'ils faussent un peu la collecte de donn&#233;es. Mais  Facebook d&#233;sormais peut contourner  ce probl&#232;me gr&#226;ce &#224; la plateforme publicitaire  Atlas  qu'il a acquise en 2013 et qui permet de pister en permanence les internautes... y compris lorsqu'ils font des achats dans la vie r&#233;elle. 
+ L'art. 3 de la loi suisse sur la protection des donn&#233;es (LPD) d&#233;finit les&#160;donn&#233;es personnelles comme toutes les informations qui se rapportent &#224; une personne identifi&#233;e ou identifiable. Jusqu'&#224; maintenant, on s'accordait &#224; dire que les donn&#233;es anonymis&#233;es n'&#233;taient pas des donn&#233;es personnelles d&#232;s lors que les individus ne sont plus identifiables. Il semblerait donc que cette conception va passer de vie &#224; tr&#233;pas. En m&#234;me temps que notre sph&#232;re priv&#233;e. 
+ Sur-&#233;coute 
+ Sur une note un peu plus l&#233;g&#232;re, j'aimerais vous pr&#233;senter une extension pour votre navigateur web&#160;:  Sur-&#233;coute . 
+ Selon son concepteur, "Sur-&#233;coute est une extension pour navigateur dont le but est de lutter contre la surveillance de masse. Ainsi, chaque fois que vous &#233;crirez sur Twitter ou Facebook, Sur-&#233;coute publiera des mots-clefs consid&#233;r&#233;s comme suspects" par les gouvernements. 
+ 
+ Son concepteur explique enfin&#160;: 
+ 
+ Sur-&#233;coute est une extension de navigateur qui permet d&#8217;ajouter, &#224; chaque fois que vous &#233;crivez, un ensemble de mots-clefs "pertinents" aux yeux des algorithmes de surveillance de l&#8217;&#201;tat fran&#231;ais. En concevant cette extension, je souhaite questionner la surveillance de masse et notamment le fait que si chaque citoyen est un suspect pour l&#8217;&#201;tat, alors plus personne ne l&#8217;est r&#233;ellement. 
+ 
+ Si vous avez lu ce long article que j'ai &#233;crit sur la surveillance de masse , vous comprendrez que cette extension me ravit au plus haut point. 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

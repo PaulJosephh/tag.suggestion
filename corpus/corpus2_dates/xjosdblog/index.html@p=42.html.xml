@@ -1,0 +1,18 @@
+<document>
+	<date>2008-11-04</date>
+        <title>Afficher les informations sur les crans connects : commande xrandr</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Sortie VGA</tag>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+        </categories_set>
+        <text>
+                                                Pour afficher les informations (resolutions disponibles, resolution active, )  pour chaque ecran connecte a son serveur X, il suffit de taper : 
+ xrandr
+ 
+ xrandr --auto
+ 
+        </text>
+</document>

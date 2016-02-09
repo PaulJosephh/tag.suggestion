@@ -1,0 +1,20 @@
+<document>
+	<date>2014-04-08</date>
+        <title>Test du dtecteur de mouvement Fibaro FGMS-001</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>detecteur de mouvement</tag>
+                <tag>fgms-001</tag>
+                <tag>fibaro</tag>
+                <tag>hc2</tag>
+                <tag>Home Center 2</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Revolutionnaire par sa petite taille, son design plus que reussi, sa performance a vous couper le souffle et ses fonctionnalites a nen plus finir, le  nouveau detecteur de mouvement  Fibaro domotique 1- Presentation On ne va pas rappeler ici toutes les fonctionnalites de ce detecteur,  un article de presentation a deja ete publie Fibaro Celui-ci ressemble a une balle de ping-pong. Il rivalise meme avec un micromodule qui est deja dune taille mini (pour rappel, ce micromodule sintegre dans une boite dencastrement, derriere un interrupteur). Voici la comparaison avec les autres produits de la meme famille. 2- Installation Pour utiliser ce detecteur de mouvement  Fibaro Nous retirons ensuite letiquette de protection de la pile (incluse avec ce module). Notre detecteur est desormais alimente et nous allons linclure dans un reseau  Z-Wave domotique Pour realiser linclusion, nous appuyons 3 fois brievement (en moins de 1,5 secondes) sur le bouton dapprentissage (situe a linterieur de notre detecteur) durant le compte a rebours affiche sur linterface de notre controleur. Notre detecteur apparait desormais dans linterface de notre Home Center 2. Il peut bien evidemment etre utilise avec dautres controleurs  domotique pour plus dinformations, consultez notre guide dinstallation du detecteur de mouvement  Fibaro Lil ouvert represente une detection de mouvement. Lil ferme signifie quaucun mouvement nest detecte. Suite a linclusion de notre detecteur de mouvement  Fibaro 3- Configuration Apres linclusion de notre detecteur de mouvement  Fibaro Z-Wave domotique Nous pouvons par exemple etre informe a tout moment dune detection de mouvement par  SMS Nous pouvons regler la sensibilite du detecteur, le temps pour que celui-ci detecte un nouveau mouvement et le nombre de mouvements necessaires pour que celui-ci detecte. Nous pouvons egalement decider que ce detecteur de mouvement soit actif a nimporte quel moment, durant la journee ou durant la nuit uniquement (en fonction de la luminosite). Nous pouvons parametrer une difference de valeur de luminosite par rapport a une precedente mesure pour que le detecteur informe le controleur. Nous pouvons egalement parametrer une difference de valeur de temperature par rapport a une precedente mesure pour que le detecteur informe le controleur. Il existe de nombreux autres parametres permettant dadapter lusage de ce detecteur de mouvement en fonction de nos envies (pour plus dinformations sur ces parametres, decouvrez nos guides dutilisation de ce detecteur de mouvement  Fibaro 4- Utilisation Grace a ce detecteur de mouvement  Fibaro Nous pouvons egalement imaginer tout type dutilisation : activer une sirene dalarme et etre alerte sur notre smartphone par une notification Push lors dune detection de mouvement durant notre absence, activer automatiquement le chauffage lors de la detection de notre presence si la temperature est inferieure a une certaine valeur, activer un eclairage dune piece durant la nuit, nous prevenir lorsque notre enfant est entre a la maison etc. 5- Conclusion Fibaro  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

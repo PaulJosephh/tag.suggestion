@@ -1,0 +1,18 @@
+<document>
+	<date>2013-05-28</date>
+        <title>
+Rendre compatible son PC avec le HDMI-CEC grce au Pulse Eight</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>CEC</tag>
+                <tag>XBMC</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Audio / Video</category>
+                <category>Guides Informatiques</category>
+                <category>Test Materiel Informatique</category>
+                <category>Tests Audio / Video</category>
+        </categories_set>
+        <text>Depuis que  jai change de TV , jai decouvert les joies du  CEC : Consumer Electronics Control, une des specifications du HDMI qui permet a des appareils compatibles HDMI-CEC de se piloter entre eux. Ainsi, quand on allume le lecteur DVD, cela peut allumer automatiquement la TV. La telecommande de lun ou lautre peut piloter les differents appareils, etc Cest ce que nous avons vu notamment avec le  Raspberry Pi transforme en Media Center , que je peux piloter directement avec ma telecommande TV. Dune marque a lautre, ce protocole porte un nom different:AnyNet+ chez Samsung, Aquos Link chez Sharp, BRAVIA Link chez Sony, Kuro Link chez Pioneer, RIHD chez Onkyo, SimpLink chez LG, etc Le nom change mais le principe reste le meme.  Le Raspberry transforme en Media Center est parti dans la chambre. Pour le salon, javais encore mon PC Home Cinema Zotac Zbox HD, nettement moins utilise, mais que je viens de reinstaller avec Windows et  XBMC  dessus ( le tout synchronise via la base MySQL comme je vous lai explique il y a quelques jours ). Il me servira a plusieurs choses dont je vous parlerai bientot. Mais le sujet aujourdhui est le pilotage de mon XBMC sur ce pc: en effet il existe tres peu de cartes video pour pc compatibles CEC (y en a t il, dailleurs, car je nen ai pas trouve ?).   Il faut avouer quapres avoir goute au controle de XBMC avec la telecommande de la TV, il est difficile de devoir ne serait ce que changer de telecommande pour piloter le PC :/ Dans mon cas jai meme du ressortir le clavier sans fil. Exit le cote WAF Apres quelques recherches, je suis tombe sur un petit accessoire magique, justement cree par quelques personnes de chez  XBMC  qui ont du rencontrer le meme probleme que moi: le  Pulse Eight . Je vous le presente donc aujourdhui, car cela pourrait interesser certains dentre vous  Sommaire I. Presentation II. Installation 2.1 Utilisation avec XBMC 2.2 Utilisation avec MCE III. L'astuce du petit scarabee... IV. Conclusion Commentaires (6) Powered by SEO TOC 1.7.3     1   2   3   4   5 CEC   XBMC 
+        </text>
+</document>

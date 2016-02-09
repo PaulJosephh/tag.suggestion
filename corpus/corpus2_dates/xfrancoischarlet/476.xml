@@ -1,0 +1,44 @@
+<document>
+	<date>2014-12-22</date>
+        <title>Popcorn Time est-il vraiment "dangereux" et "ill&#233;gal" en Suisse ? Et BitTorrent ?</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Droit d'auteur</tag>
+                <tag>Piratage</tag>
+                <tag>T&#233;l&#233;chargement</tag>
+        </tags_set>
+        <categories_set>
+                <category>Technologies</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Le quotidien Le Temps  publie aujourd&#8217;hui  un article intitul&#233; "V&#233;ritable  Netflix des pirates , Popcorn Time est une alternative dangereuse". Le journal analyse le fonctionnement du logiciel et ses bases, ainsi que les conditions g&#233;n&#233;rales auxquelles les utilisateurs sont soumis. Mais il omet de regarder pr&#233;cis&#233;ment ce qu'il se passe sous le capot et de nuancer sa conclusion. Explications. 
+ 
+ Un fond d&#8217;&#233;cran fonc&#233;, des couvertures de films et de s&#233;ries align&#233;es les unes &#224; c&#244;t&#233; des autres, puis des images de sc&#232;nes en mode plein &#233;cran lorsque l&#8217;on clique dessus&#8230; Cela ressemble &#224; Netflix, c&#8217;est aussi efficace que Netflix, mais ce n&#8217;est pas Netflix. Popcorn Time est depuis peu la coqueluche des amateurs de films et de s&#233;ries TV. Mais voil&#224;, le service, dont l&#8217;utilisation est a priori ill&#233;gale en Suisse, se voit attaqu&#233; de mani&#232;re de plus en plus forte par les studios d&#8217;Hollywood. 
+ 
+ Voici le premier paragraphe de l'article qui regarde dans la bonne direction, &#224; d&#233;faut de voir juste&#160;: Popcorn Time n'est pas "a priori" ill&#233;gal en Suisse. Il l'est, et il ne l'est pas. Ce qu'omet compl&#232;tement la conclusion de l'article du Temps. 
+ 
+ Utiliser Popcorn Time en Suisse est ainsi devenu tr&#232;s difficile. Sans compter que c&#8217;est, rappelons-le, ill&#233;gal. 
+ 
+ Tr&#232;s joli glissement du "a priori" &#224; l'affirmation sans d&#233;tour. 
+ Comme l'explique le quotidien, Popcorn Time est une interface interactive, dynamique et conviviale qui repose sur la technologie BitTorrent, autrement dit du peer-to-peer. Il est inutile, &#224; ce stade, de rappeler qu'en Suisse,  le t&#233;l&#233;chargement n'est pas r&#233;pr&#233;hensible , mais le partage et la distribution le sont. Comme le peer-to-peer implique  en principe  que l'&#339;uvre t&#233;l&#233;charg&#233;e est mise &#224; disposition des internautes pendant et/ou apr&#232;s son t&#233;l&#233;chargement, l'internaute suisse viole le droit d'auteur s'il autorise cette mise &#224; disposition. 
+ J'ai test&#233; Popcorn Time cet automne. J'ai regard&#233; un film complet. Et je l'ai fait sans violer le droit d'auteur. En d'autres termes, j'ai utilis&#233; Popcorn Time l&#233;galement. 
+ Comment puis-je en &#234;tre s&#251;r&#160;? J'utilise depuis des ann&#233;es un outil ( Little Snitch ) qui me permet d'&#234;tre notifi&#233; quand une application, voire mon syst&#232;me d'exploitation, cherche &#224; &#233;tablir une  connexion sortante . Gr&#226;ce &#224; cet utilitaire, je peux notamment autoriser, refuser, autoriser une fois, refuser une fois, autoriser pour toujours, refuser pour toujours une connexion pr&#233;cise, toutes les connexions intervenant sur un port pr&#233;cis ou vers une adresse IP d&#233;termin&#233;e, etc. Et cette application me permet de savoir en temps r&#233;el quel est le d&#233;bit montant et descendant des donn&#233;es au d&#233;part ou &#224; l'arriv&#233;e de mon ordinateur. C'est donc une sorte de pare-feu (firewall) invers&#233;. 
+ Pendant que je regardais mon film sur Popcorn Time, j'ai &#233;videmment d&#251; autoriser Popcorn Time &#224; communiquer avec les trackers pour obtenir la liste des sources. Cependant, si Popcorn Time m'a &#233;videmment demand&#233; mon autorisation pour me connecter &#224; ces sources, jamais je n'ai partag&#233; un bit du film. Z&#233;ro kilooctet. Rien. 
+ Malgr&#233; l'avertissement de Popcorn Time dans sa  FAQ , 
+ 
+ Popcorn Time works using torrents, fair enough. Am I seeding while watching a movie? 
+Indeed, you are. You're going to be uploading bits and bits of the movie for as long as you're watching it on Popcorn Time. 
+ 
+ je n'ai rien partag&#233;. 
+ Bien s&#251;r,  c'est sans doute exceptionnel . Peut-&#234;tre que le film que j'ai regard&#233; n'avait que des sources et aucune autre personne que moi ne le regardait &#224; ce moment. 
+ Cela &#233;tant, j'aimerais rappeler qu'il existe des logiciels, comme  Transmission , qui permettent de t&#233;l&#233;charger des fichiers BitTorrent en toute l&#233;galit&#233;. Il suffit pour cela de configurer le logiciel en indiquant que le d&#233;bit d'envoi des donn&#233;es ne peut atteindre au maximum que... 0 Ko/seconde. Et le tour est jou&#233;. 
+ Certes,  Popcorn Time ne permet pas un tel r&#233;glage et son usage doit donc &#234;tre d&#233;conseill&#233;, car son utilisation implique en principe une mise &#224; disposition des donn&#233;es du film regard&#233; . 
+ N&#233;anmoins, le peer-to-peer n'est pas ill&#233;gal, si l'on bloque le partage. Certes, si tout le monde faisait comme cela, ce mode de partage n'existerait plus. 
+ C'est finalement &#224; vous de d&#233;cider si le risque en vaut la chandelle. 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

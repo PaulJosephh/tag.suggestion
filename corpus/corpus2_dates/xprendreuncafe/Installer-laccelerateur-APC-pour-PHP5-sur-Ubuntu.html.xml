@@ -1,0 +1,52 @@
+<document>
+	<date>2006-11-01</date>
+        <title>Installer l'acclerateur APC pour PHP5 sur Ubuntu</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>apc</tag>
+                <tag>linux</tag>
+                <tag>optimisation</tag>
+                <tag>pecl</tag>
+                <tag>performance</tag>
+                <tag>php</tag>
+                <tag>serveur</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>APC  est un accelerateur PHP qui permet d'optimiser les performances de vos applications PHP. Voyons comment l'installer sur un serveur Ubuntu Dapper Drake 6.06 LTS avec Apache2 et PHP5: 
+
+
+ $ sudo apt-get update
+$ sudo apt-get install build-essential php5-dev php-pear apache2-prefork-dev 
+
+
+ On va utiliser l'utilitaire de gestion de modules d'Apache2,  apxs2 . APC va chercher par defaut la version Apache1, donc on fait un lien symbolique: 
+
+
+ $ sudo ln -s /usr/bin/apxs2 /usr/bin/apxs 
+
+
+ Cette installation necessite une importante quantite de memoire vive allouee a PHP, aussi nous allons devoir augmenter cette valeur au sein du script de commande PEAR en modifiant le fichier  /usr/share/php/pearcmd.php  et en y ajoutant en tete de fichier la ligne: 
+
+
+ ?php
+ini_set('memory_limit','24M'); 
+
+
+ Tout est pret, on peut lancer l'installation d'APC via PECL: 
+
+
+ $ sudo pecl install apc 
+
+
+ Repondez oui a toutes les questions posees. Ceci fait et si l'installation s'est deroulee convenablement, editez votre fichier  /etc/php5/apache2/php.ini : 
+
+
+ extension=apc.so 
+
+
+ Il ne reste plus qu'a redemarrer Apache2 pour profiter d'une substantielle amelioration des performances de vos applications PHP5  
+        </text>
+</document>

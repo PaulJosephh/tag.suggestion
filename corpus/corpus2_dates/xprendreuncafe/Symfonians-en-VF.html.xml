@@ -1,0 +1,72 @@
+<document>
+	<date>2008-03-14</date>
+        <title>Symfonians en VF</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>i18n</tag>
+                <tag>php</tag>
+                <tag>symfonians</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Je  viens  de mettre en ligne  la version francaise de Symfonians [ 1 ] . J'ai prefere utiliser un sous-domaine pour definir la langue courante plutot qu'un parametre supplementaire dans la requete, car le routing de Symfony implique de le gerer pour chacune des route (ou si y'a une astuce, je suis preneur.) 
+
+
+ Ici, je detecte le sous domaine et en fait la langue courante de l'utilisateur au moyen d'un filtre. Pour ceux que ca interesse, en voici le code: 
+
+  php
+?php
+class i18nSubdomainFilter extends sfFilter
+{
+  public function execute($filterChain)
+  {
+    if ($this-isFirstCall())
+    {
+      $context = $this-getContext();
+      $request = $context-getRequest();
+      $host_parts = explode('.', $request-getHost());
+      if (count($host_parts)  2) // We have at least a subdomain
+      {
+        $subdomain = strtolower($host_parts[0]);
+        $enabled_cultures = sfConfig::get('app_cultures_enabled', array());
+        if (array_key_exists($subdomain, $enabled_cultures))
+        {
+          sfConfig::set('sf_current_culture', $subdomain);
+          $context-getResponse()-addMeta('language', $subdomain, true);
+          $context-getUser()-setCulture($subdomain);
+        }
+      }
+    }
+    $filterChain-execute();
+  }
+}
+ 
+
+
+ Notez que je definis la liste des langues disponibles dans le fichier  app.yml , pour eviter les blagues et gerer les domaines pour chacun des environnements que j'ai configure [ 2 ] : 
+
+ 
+prod:
+  cultures:
+    enabled:
+      en:    http://symfonians.net/
+      fr:    http://fr.symfonians.net/
+ 
+
+
+ L'activation du filtre se fait dans le fichier  filters.yml : 
+
+ 
+i18nSubdomain:
+  class:    i18nSubdomainFilter
+ 
+
+
+ Et roule ma poule, mon routing reste strictement intact  
+ Notes 
+ [ 1 ] 690 chaines a traduire en deux heures, doit sans doute rester du debris  
+ [ 2 ] J'ai dautre part une action qui me permet de rediriger l'utilisateur vers la version traduite de la page courante, mais je vous fais grace du code. 
+        </text>
+</document>

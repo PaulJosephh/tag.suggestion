@@ -1,0 +1,20 @@
+<document>
+	<date>2005-01-14</date>
+        <title>Mac OS X Serveur, ou fallait pas l'inviter</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>apple</tag>
+                <tag>grumph</tag>
+                <tag>osx</tag>
+                <tag>serveur</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Et ca n'est pas parce que je viens de perdre toute mes donnees netIifos de tous les utilisateurs du serveur pour la enieme fois, non car j'ai 67 sauvegardes au bas mot, mais c'est que je viens de comprendre que de toutes facons sur OS X serveur, quand on a le malheur de compiler php ou apache ou mysql ou quoique ce soit d'un chouille different de la distro de base et qu'on effectue une (ahem, ouvrez les guillemets)  mise a jour de securite  (fermez les guillemets),  CA COMPILE QUAND MEME ET CA PLANTE SANS PREVENIR !   
+
+ Bref, je vais migrer le bazar sur une debian PPC, au pire sur un 486dx33 avec 8Mo de Ram qui traine avec un RH7.2 mais ca peut de toutes facons PAS ETRE PIRE ! 
+
+ Voila, fallait que ca sorte, vous pouvez reprendre une activite normale  
+        </text>
+</document>

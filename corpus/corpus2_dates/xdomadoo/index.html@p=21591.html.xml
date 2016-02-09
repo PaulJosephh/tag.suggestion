@@ -1,0 +1,24 @@
+<document>
+	<date>2011-07-08</date>
+        <title>Glossaire des termes utiliss en Z-Wave</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>association</tag>
+                <tag>controleur</tag>
+                <tag>exclusion</tag>
+                <tag>glossaire</tag>
+                <tag>inclusion</tag>
+                <tag>protocole</tag>
+                <tag>technologie</tag>
+                <tag>terminologie</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Protocole Z-Wave</category>
+        </categories_set>
+        <text>
+                                                         La technologie  Z-Wave Z-Wave 1. Les peripheriques Il y a 2 types de peripheriques  Z-Wave Z-Wave a. Les controleurs Les controleurs permettent de stocker et de calculer des itineraires dans le reseau. Ils sauvegardent la topologie reseau et sont capable de controler a distance. Par contre ils ne peuvent pas recevoir de commandes a executer. Controleur primaire Il constitue le moyen principal dinstallation et dorganisation de votre reseau  Z-Wave Un controleur primaire contient la description du reseau  Z-Wave Un controleur primaire peut prendre differentes formes telles que : telecommande, appareil installe de facon permanente, PC supportant le  Z-Wave Ethernet Z-Wave Controleur secondaire Un reseau  Z-Wave Z-Wave Un controleur secondaire dispose des memes fonctions quun controleur primaire, sauf quil ne peut pas inclure ou exclure des modules au reseau  Z-Wave b. Les esclaves Differents termes sont utilises pour designer un esclave  Z-Wave Esclave En plus de recevoir les informations le concernant et y repondre, lesclave peut transmettre des informations destinees uniquement a ses voisins. Il ne dispose pas dinformations sur le reste du reseau. Esclave routeur Il dispose des memes caracteristiques que lesclave, mais peut en plus utiliser differents itineraires pour transmettre les informations destinees a dautres esclaves. 2. Association Chaque peripherique  Z-Wave Certains peripheriques esclaves peuvent etre mis en mode association via une combinaison de touches : dans ce mode, ils sont en attente dune trame dInformation dun autre peripherique, puis enregistre lassociation a ce dispositif. Les peripheriques qui supportent lassociation qui ne disposent pas de boutons peuvent uniquement etre associes via un controleur (primaire ou secondaire). Il est egalement possible denvoyer une commande dassociation via le controleur PC. Les peripheriques en veille doivent etre reveilles avant denvoyer la commande dassociation. 3. Inclusion et Exclusion Cette action permet dajouter ou de retirer un peripherique du reseau  Z-Wave La methode est generalement la meme a chaque fois : 1. Mettre le controleur en mode inclusion/exclusion Cec Quelquefois, il est necessaire dexclure le peripherique avant de linclure dans le reseau. 
+ Source :  http://z-wave.alsenet.com/index.php/Short_introduction_in_Z-Wave_terminology  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

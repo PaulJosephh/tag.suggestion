@@ -1,0 +1,23 @@
+<document>
+	<date>2008-02-12</date>
+        <title>LaTeX sous Ubuntu</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>LaTeX</category>
+        </categories_set>
+        <text>
+                                                 
+Pour installer et travailler avec  LaTeX Ubuntu 
+ 
+ texlive 
+ texlive-fonts-recommended 
+ texlive-lang-greek 
+ latex-ucs 
+ latex-beamer 
+ kile 
+ jabref pybliographer 
+ hevea LaTeX texlive-full texlive 
+        </text>
+</document>

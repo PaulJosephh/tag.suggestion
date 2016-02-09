@@ -1,0 +1,45 @@
+<document>
+	<date>2011-08-25</date>
+        <title>[Tuto] Installer Preware, le Cydia du TouchPad</title>
+        <author>Roxarmy</author>
+        <tags_set>
+                <tag>Cydia</tag>
+                <tag>HP</tag>
+                <tag>Preware</tag>
+                <tag>TouchPad</tag>
+                <tag>tuto</tag>
+                <tag>webOs</tag>
+        </tags_set>
+        <categories_set>
+                <category>actu</category>
+                <category>High-tech</category>
+        </categories_set>
+        <text>
+                                                 La TouchPad d&#8217;HP sera d&#8217;ici quelques jours  dans tous les foyers de France , du moins pour ceux qui ont pu en commander une apr&#232;s les m&#233;gas braderies des revendeurs fran&#231;ais&#8230; Voici donc un petit tuto assez simple qui vous permettra  d&#8217;installer Preware, le Cydia du TouchPad.  Nombreux patchs, applications, hacks, th&#232;mes, etc, sont disponibles sur ce store et  ce gratuitement  ! 
+ 
+ Pr&#233;-requis  : 
+ 
+ Un TouchPad mis &#224; jour en  3.0.5  ! 
+ Le logiciel&#160;WebOSQuickInstall  [T&#233;l&#233;charger] 
+ Java doit &#234;tre install&#233;  [T&#233;l&#233;charger] 
+ 
+ Premi&#232;rement il faut passer sa tablette en  Developer Mode . Direction donc la zone  &#171;&#160;Tapez maintenant&#160;&#187;  et inscrivez le code &#8216;&#160; webos20090606  &#8216;. Touchez l&#8217;icone &#171;&#160;Dev mode&#160;&#187; et activez ce dernier (inutile de rentrer un mot de passe) en passant sur  &#171;&#160;Oui&#160;&#187; en haut &#224; droite de l&#8217;&#233;cran ! 
+ 
+ 
+ Apr&#232;s cela, direction le PC.  Lancez&#160;WebOSQuickInstall-4.4.0.jar  et installez le driver  novacom   (si on vous le propose, n&#233;cessaire&#160;au bon fonctionnement) . Une fois fait, branchez votre TouchPad gr&#226;ce au&#160;c&#226;ble&#160;USB  et  ne touchez &#224; rien  !  Il ne faut pas passer la tablette en mode stockage de masse. 
+ M&#233;thode 1  : 
+ Une fois branch&#233;, cliquez sur le  petit globe  afin&#160;d&#8217;acc&#233;der&#160;au store. Une fois charg&#233;, tapez &#171;&#160;Preware&#160;&#187; dans le champ de recherche et  installez-le  ! Une fois fini, fermez le logiciel et d&#233;branchez votre TouchPad :  l&#8217;installation est termin&#233; ! 
+ 
+ 
+ M&#233;thode 2   : 
+ Si lorsque vous cliquer sur le globe vous avez une erreur,&#160;t&#233;l&#233;charger&#160; [ceci] , d&#233;compressez-le et glissez le fichier&#160; org.webosinternals.preware.ipk  et glissez-le dans la fen&#234;tre. Cliquez enfin sur installer pour finaliser l&#8217;op&#233;ration. 
+ 
+ Direction le TouchPad pour lancer l&#8217;application Preware et  profiter du monde&#160;underground&#160;de webOS.  Voici quelques screens de l&#8217;application ainsi que ses diff&#233;rentes cat&#233;gories.  Si vous avez des questions, n&#8217;h&#233;sitez pas ! 
+ 
+ 
+ 
+ 
+ 
+                                                                                         
+        </text>
+</document>

@@ -1,0 +1,77 @@
+<document>
+	<date>2013-01-10</date>
+        <title>Nouvelle mise  jour de la Zipabox  0.9.9.9</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>Danfoss</tag>
+                <tag>Zipabox</tag>
+                <tag>zipato</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+  
+ La Zipabox vient de passer en mise a jour 0.9.9.9. 
+ 
+ 
+  
+  
+ 
+  
+ 
+  
+ Celle-ci va permettre de prendre en charge plusieurs nouveaux modules comme : 
+ Horstman HRT4-ZW : un thermostat mural 
+ 
+ Danfoss thermostatic valve 014G0012 : 
+ 
+ Horstman HRT4ASR-ZW : 
+ 
+ Changement au niveau des regles 
+ Il y a un changement au niveau du nommage des regles, elle sera nommee en commencant par la date et lheure du jour de creation. Mais lutilisateur aura toujours la possibilite de modifier le nom des regles. 
+ 
+ On peut voir en bas a gauche, lapparition dune nouvelle icone (un balai) permettant de nettoyer (effacer) immediatement la regle en cours de creation. 
+ 
+ un simple clic sur le balai et la regle en cours de creation disparait. 
+ Suppression des modules 
+ Il est maintenant possible de supprimer definitivement les modules physiques et virtuels. Un message vous alertera sur la liaison eventuelle quil peut y avoir avec dautres modules ainsi que les regles qui peuvent etre liees. 
+ 
+ 
+ Voila donc une belle amelioration qui va diminuer la pollution de tous vos modules que vous aviez supprimes de votre box mais quiapparaissaientencore sur votre Dashboard. 
+ demo en video 
+ 
+ Comme je vous le disais dans un  article precedent ,  Zipato  travaille dur pour pouvoir ameliorer cette box vraiment tres prometteuse. Dautre part vous pourrez trouver tous les modules vus precedement chez notre partenaire  Domadoo . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

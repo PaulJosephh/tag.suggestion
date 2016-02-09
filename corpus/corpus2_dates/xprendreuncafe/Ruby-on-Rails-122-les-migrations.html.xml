@@ -1,0 +1,291 @@
+<document>
+	<date>2007-03-03</date>
+        <title>Ruby on Rails 1.2.2, les migrations</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>framework</tag>
+                <tag>rails</tag>
+                <tag>ruby</tag>
+                <tag>tutoriel</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ruby</category>
+        </categories_set>
+        <text>Voici la suite du  precedent tutoriel sur Ruby on Rails  publie sur ce meme blog ou nous avons mis en place une application de gestion de contacts rudimentaire. 
+
+
+ Migration de schema de base de donnees 
+
+
+ Imaginons que nous voulions gerer une liste de societes, et lier chacun de nos contacts a sa societe... Il va nous falloir modifier notre base de donnees en ajoutant une table  companies  et une cle  company_id  dans la table  contacts . Cela peut s'averer complique puisqu'elle contient deja des donnees... meme si en l'occurence il ne s'agit pour l'heure que de donnees de test. 
+
+
+ Rails et plus particulierement  ActiveRecord  proposent un outil de gestion des evolutions du modele de donnees intelligent, les  migrations . Au meme titre que nous avions cree le fichier  db/migrate/001_contacts_development.rb  pour definir le schema initial lors du  tutoriel precedent , nous allons maintenant creer son evolution incrementale dans le fichier  db/migrate/002_contacts_development.rb : 
+
+  ruby
+class ContactsDevelopment  ActiveRecord::Migration
+  
+  def self.up
+    # On renomme le champs name en first_name (ne devra contenir que le prenom)
+    rename_column :contacts, "name",       "first_name"
+    
+    # Ajout d'un champs pour stocker le nom de famille
+    add_column    :contacts, "last_name",  :string
+    
+    # Ajout d'un champs pour stocker la societe du contact
+    add_column    :contacts, "company_id", :integer
+    
+    # Creation de la table des societes
+    create_table "companies", :force = true do |t| 
+      t.column "name",        :string
+      t.column "description", :text
+      t.column "url",         :string
+    end 
+  end 
+
+  def self.down
+    # Retablissement de la colonne name
+    rename_column :contacts, "first_name", "name"
+
+    # Destruction de la colonne last_name
+    remove_column :contacts, :last_name
+    
+    # Destruction de la colonne contenant la reference a une societe
+    remove_column :contacts, :company
+    
+    # Destruction de la table contenant les societes
+    drop_table :companies
+  end 
+
+end
+ 
+
+
+ Dans chaque classe de migration de schema, une methode  up  appliquera des modifications au modeles tandis qu'une methode  down  permettra un rollback des modifications vers une version anterieure. Pour le detail des operations effectuees par le script de migration ci-dessus, je crois que les commentaires parlent d'eux-memes   (j'en ai profite pour repartir le patronyme sur deux champs, nom et prenom) 
+
+
+ La mise a jour effective du modele dans la base de donnees s'effectue grace a la commande: 
+
+  bash
+$ rake db:migrate 
+(in /home/niko/ww2/rails/contacts)
+== ContactsDevelopment: migrating =============================================
+-- rename_column(:contacts, "name", "first_name")
+   - 0.0750s
+-- add_column(:contacts, "last_name", :string)
+   - 0.0153s
+-- add_column(:contacts, "company_id", :integer)
+   - 0.0343s
+-- create_table("companies", {:force=true})
+   - 0.0304s
+== ContactsDevelopment: migrated (0.1694s) ====================================
+ 
+
+
+ Nous n'avons pas d'outils d'administration pour notre nouvelle table  companies , creons-les: 
+
+
+ $ ruby script/generate scaffold Company 
+
+
+ Il faut maintenant mettre a jour notre jeu de donnees; on edite d'abord le nouveau fichier  ./test/fixtures/companies.yml : 
+
+  yaml
+Nanonical:
+  id:          1
+  name:        Nanonical
+  description: On vous prefere libres
+  url:         http://www.nanonical.com
+  
+Crimosoft:
+  id:          2
+  name:        Crimosoft
+  description: Notre monopole, c'est trop lol
+  url:         http://www.crimosoft.com
+ 
+
+ Toute ressemblance avec des societes existantes ou ayant existe serait un sacre coup de pot 
+
+
+
+ Puis, dans le fichier  ./test/fixtures/contacts.yml : 
+
+  yaml
+John:
+  id:         1
+  first_name: John
+  last_name:  Doe
+  email:      john@doe.com
+  address:    12, rue des champs
+  zip:        75009
+  city:       Paris
+  country:    France
+  company_id: 1 # John - Nanonical
+ 
+Bob:
+  id:         2
+  first_name: Bob 
+  last_name:  Doe 
+  email:      bob@doe.com
+  address:    1, place du pre 
+  zip:        35000
+  city:       Rennes
+  country:    France
+  company_id: 2 # Bob - Crimosoft
+ 
+
+
+ On reinsere nos nouvelles fixtures: 
+
+
+ $ rake db:fixtures:load 
+
+
+ On peut se rendre successivement aux adresses  http://0.0.0.0:3000/contacts  et  http://0.0.0.0:3000/companies  afin de s'assurer que tout va bien. 
+
+
+ 
+
+
+ Mise a jour des classes modeles 
+
+
+ Pour que Rails prenne en compte les modifications structurelles de notre schema, nous allons editer les fichiers des modeles  Contact  et  Company , notamment pour specifier leur type de relation grace aux  methodes de classe ActiveRecord . 
+
+
+ Le fichier  ./apps/models/contact.rb : 
+
+  ruby
+class Contact  ActiveRecord::Base
+  # Chaque employe appartient a une compagnie
+  belongs_to :company
+end
+ 
+
+
+ Et le fichier  ./apps/models/company.rb : 
+
+  ruby
+class Company  ActiveRecord::Base
+  # Une societe possede plusieurs employes
+  has_many :contact
+end
+ 
+
+
+ Mise a jour du controleur 
+
+
+ On recupere la liste des societes depuis le controleur gerant les contacts (situe dans le fichier  ./app/controllers/contacts_controller.rb ), d'abord pour la creation: 
+
+  ruby
+class ContactsController  ApplicationController
+  [...]
+  def new
+    @contact = Contact.new
+    @companies = Company.find_all
+  end
+ 
+
+
+ Puis pour l'edition: 
+
+  ruby
+class ContactsController  ApplicationController
+  [...]
+  def edit
+    @contact = Contact.find(params[:id])
+    @companies = Company.find_all
+  end
+ 
+
+
+ Mise a jour de la vue 
+
+
+ Enfin, modifions notre formulaire d'edition/creation de contacts, situe dans  app/views/contacts/_form.rhtml , comme suit: 
+
+  rhtml
+%= error_messages_for 'contact' %
+
+!--[form:contact]--
+plabel for="contact_company_id"Company/label
+%= select 'contact', 'company_id', @companies.collect {|c| [c.name, c.id]} %/p
+
+plabel for="contact_name"First name/labelbr/
+%= text_field 'contact', 'first_name'  %/p
+
+plabel for="contact_name"Last name/labelbr/
+%= text_field 'contact', 'last_name'  %/p
+
+plabel for="contact_email"Email/labelbr/
+%= text_field 'contact', 'email'  %/p
+
+plabel for="contact_address"Address/labelbr/
+%= text_field 'contact', 'address'  %/p
+
+plabel for="contact_city"City/labelbr/
+%= text_field 'contact', 'city'  %/p
+
+plabel for="contact_zip"Zip/labelbr/
+%= text_field 'contact', 'zip'  %/p
+
+plabel for="contact_country"Country/labelbr/
+%= text_field 'contact', 'country'  %/p
+!--[eoform:contact]--
+ 
+
+
+ Ce qui donne a peu-pres ceci: 
+
+
+ 
+
+
+ Et le template d'affichage de notre liste de contacts, dans le fichier  ./app/views/contacts/list.rhtml  pour y ajouter la colonne affichant le nom de la societe pour chaque contact: 
+
+  rhtml
+h1Listing contacts/h1
+
+table
+  tr
+  % for column in Contact.content_columns %
+    th%= column.human_name %/th
+  % end %
+    thSociete/th
+  /tr
+  
+% for contact in @contacts %
+  tr
+  % for column in Contact.content_columns %
+    td%=h contact.send(column.name) %/td
+  % end %
+    td%= h contact.company.name %/td
+    td%= link_to 'Show', :action = 'show', :id = contact %/td
+    td%= link_to 'Edit', :action = 'edit', :id = contact %/td
+    td%= link_to 'Destroy', { :action = 'destroy', :id = contact }, :confirm = 'Are you sure?', :method = :post %/td
+  /tr
+% end %
+/table
+
+%= link_to 'Previous page', { :page = @contact_pages.current.previous } if @contact_pages.current.previous %
+%= link_to 'Next page', { :page = @contact_pages.current.next } if @contact_pages.current.next % 
+
+br /
+
+%= link_to 'New contact', :action = 'new' %
+ 
+
+
+ Ce qui donne au final quelque chose comme ceci: 
+
+
+ 
+
+
+ To be continued 
+
+
+ Dans un prochain tutoriel, nous aborderons la validation de formulaires. 
+        </text>
+</document>

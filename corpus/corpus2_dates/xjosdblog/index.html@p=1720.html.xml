@@ -1,0 +1,57 @@
+<document>
+	<date>2012-06-06</date>
+        <title>Prise RJ45</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>RJ45</tag>
+                <tag>T568A</tag>
+                <tag>T568B</tag>
+        </tags_set>
+        <categories_set>
+                <category>Cablage de prises</category>
+                <category>Questions Reseau</category>
+        </categories_set>
+        <text>
+                                                 Prise RJ45 
+ 
+Un connecteur RJ45 est une interface physique souvent utilisee pour terminer les cables de type paire torsadee. RJ vient de langlais  Registered Jack 
+ Usages 
+ 
+France Telecom recommande lutilisation du RJ-45 raccordes en reseau en etoile pour les nouvelles installations telephoniques, en lieu et place de la  prise en T NF C 15-100 
+Lors dun cablage informatique en 10/100 Mbit/s, seules les quatre broches 1-2 et 3-6 sont utilisees pour transmettre les informations. Lors dun cablage informatique  en 1000 Mbit/s (1Gbit/s), les 8 broches sont utilisees Cablage droit vs. croise 
+ 
+Pour relier un poste de travail a un concentrateur (hub) ou un commutateur (switch), il faut utiliser un cable droit. Pour brancher deux postes de travail ensemble, un cable croise doit etre utilise, sauf pour le cas dune communication en gigabit ou il faut utiliser un cable droit. Dans le cable croise, les paires utiles sont inversees, cest-a-dire que la paire de transmission dun cote est connectee aux broches de reception de lautre cote. La regle generale est la suivante : pour deux peripheriques travaillant au niveau de la couche 2 (MAC) du modele OSI comme un Hub Ethernet ou un switch sans fonction de routage, ou deux peripheriques de la couche 3 (IP) comme un PC ou un routeur, on utilise un cable croise. Des que lon change de couche entre deux equipements, on peut alors utiliser un cable droit (PC a Switch, Routeur a Switch, Hub a PC, .).
+ 
+Les equipements modernes de reseau sont maintenant souvent capables de faire du MDI/MDI-X, cest-a-dire du (de)croisement automatique en fonction du type de cable utilise, des adaptateurs reseaux et de la situation presente. Ce (de)croisement se fait automatiquement de maniere logicielle au niveau dun des deux adaptateurs (ou au sein du systeme dexploitation) apres que ceux-ci se sont mis daccord sur ladaptateur a inverser.
+ 
+ Pour des applications courantes, les cas ou un cable croise est necessaire sont rares. Standards TIA/EIA-568-AB 
+ 
+Deux normes de cablages sont principalement repandues : la norme de cablage  T568A T568B 
+Le choix dune normes de cablage doit etre realise avant le debut du cablage. Toute
+linstallation doit etre effectuee selon la meme convention. Generalement, les connecteurs
+muraux sont reperes par le double code 568 AB, et numero des broches.  Le code 568B, detaille ci-dessous,
+est le plus courant en Europe 
+ 
+ 
+Voici en detail le cablage selon la norme TIA/EIA-568-A a gauche et TIA/EIA-568-B a droite.
+ 
+ Choix du cable 
+ Conducteur Monobrin Solid Conducteur Multibrin Stranded Blindage UTP (ou U/UTP) Unshielded Twisted Pair Blindage FTP (ou F/UTP) Foiled Twisted Pair Blindage STP (ou U/FTP) Shielded Twisted Pair Blindage SFTP de Cat5e (ou SF/UTP) Shielded Foiled Twisted Pair Blindage SFTP de Cat6, Cat7 et plus (ou S/FTP, ou SSTP) Shielded Foiled Twisted Pair Blindage FFTP (ou F/FTP)  Foiled Foiled Twisted Pair Precautions de cablage 
+ 
+Le raccordement des cables sur les prises et connecteurs doivent respecter les regles suivantes.
+ 
+ Le cable ne doit pas etre degaine sur une longueur superieure a 30 millimetres. Les paires ne doivent pas etre depairees sur plus de 13 millimetres. Les conducteurs utilises pour le  cable de linstallation fixe doivent etre du type monobrin Les  conducteurs souples Produits 
+ 
+ 
+ 
+Shopping: 
+ Cable monobrin SSTP CAT6 100m Cable monobrin FTP CAT6 100m Cable multibrin FTP CAT6 100m gris Connecteur RJ45 Pince a cabler RJ11/RJ45 
+ 
+ 
+ 
+Shopping: 
+ Legrand Prise murale RJ45 CAT6 Neptune Boitier mural 1 port RJ45 blinde Cat6 Boitier mural 2 ports RJ45 blinde Cat6 Panneau de brassage 24 ports Cat6 premium 
+ 
+ Wikipedia : RJ45 Module GEII-ARS3: Reseaux Raccordement dune prise RJ 45 Choisir un cable a paires torsadees 
+        </text>
+</document>

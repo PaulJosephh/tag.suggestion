@@ -1,0 +1,23 @@
+<document>
+	<date>2013-02-04</date>
+        <title>Freebox : filtrage des appels entrants</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>FreeBox</category>
+        </categories_set>
+        <text>
+                                                 
+
+ 
+Il est possible de filtrer les appels telephoniques recus sur sa ligne Freebox.
+ 
+ 
+ Activer le service : *351# Desactiver le service : #35# Ajouter le dernier numero recu a la liste : *351*# Inserer un numero ou un prefixe : *351*numero# Vider la liste : #351# Verifier le statut du service : *#35# Afficher la liste des numeros filtres :  Mon Interface Abonne Free Telephonie Gestion de mes services telephoniques Filtrage des appels entrants 
+Malheureusement, pas dinterface pour ajouter des numeros en ligne. Pas de possibilite non plus denlever un numero de la liste: en cas derreur, il faut effacer toute la liste!
+ 
+ 
+ ARCEP : Rechercher les 4, 5 ou 6 premiers chiffres dun numero de telephone Bloquer les demarcheurs telephoniques Filtrage des appels entrants tellows Qui appelle ? Pacitel 
+        </text>
+</document>

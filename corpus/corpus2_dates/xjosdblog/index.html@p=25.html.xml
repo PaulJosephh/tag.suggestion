@@ -1,0 +1,31 @@
+<document>
+	<date>2009-10-08</date>
+        <title>Manipuler des pdf</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+                <category>Indispensable</category>
+                <category>LaTeX</category>
+        </categories_set>
+        <text>
+                                                 
+Je rassemble sur ce billet un certain nombre de techniques permettant de manipuler des fichiers  pdf 
+ 
+Fusionner des  pdf  pdftk fichier1.pdf fichier2.pdf output resultat.pdf 
+Extraire une page (la 15 dans lexemple) dun fichier 
+  pdftk A=source.pdf cat A15 output destination.pdf 
+Extraire plusieurs pages (de la 2 a la 5 dans lexemple) dun fichier
+  pdftk A=source.pdf cat A2-5 output destination.pdf 
+Chiffrer un document  pdf  pdftk source.pdf output destination.pdf owner_pw motDePasse 
+Rotation de 180 de lensemble des pages dun  pdf  pdftk source.pdf cat 1-endS output destination.pdf 
+Concevoir un nouveau  pdf pdf LaTeX pdf includepdf usepackage{pdfpages} pdf pdf pdf 
+Reduire la taille d un  pdf 
+  gs -q -dSAFER -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -sOUTPUTFILE=destination.pdf -f source.pdf  Remarque  /screen /ebook /printer /prepress 
+Transformer un  pdf jpeg  compressees  convert -density 130x130 -quality 10 source.pdf image.jpg Remarque : 
+Division ou assemblage de documents PDF sans utiliser la ligne de commande :
+ PDF Split and Merge pdfsam Annoter un fichier pdf :  Xournal 
+ pdftk  Documentation Ubuntu Francophone 
+        </text>
+</document>

@@ -1,0 +1,37 @@
+<document>
+	<date>2009-02-18</date>
+        <title>FREE ne rend pas libre</title>
+        <author>Gilles LABOURDETTE, juriste</author>
+        <tags_set>
+                <tag>Contrefa&#231;on</tag>
+                <tag>Free</tag>
+                <tag>Licence</tag>
+                <tag>Logiciel libre</tag>
+        </tags_set>
+        <categories_set>
+                <category>Internet et T&#233;l&#233;com</category>
+        </categories_set>
+        <text>
+                    Les Linuxiens et plus largement les f&#233;rus du monde du Libre le savent bien, logiciel libre ne signifie ni logiciel gratuit, ni logiciel sans droit. Ces logiciels, en effet, sont distribu&#233;s sous une licence qui, comme toutes les licences, autorise et interdit un certain nombre de choses. Ces banalit&#233;s sur les licences semblent, selon trois d&#233;veloppeurs, avoir &#233;t&#233; oubli&#233;es par la Soci&#233;t&#233; FREE qui a &#233;t&#233; assign&#233;e en fin d&#8217;ann&#233;e derni&#232;re, devant le Tribunal de Commerce de Paris en  contrefa&#231;on  de logiciel. 
+ Les faits sont simplissimes : la Soci&#233;t&#233; FREE, c&#233;l&#232;bre fournisseur d&#8217;acc&#232;s  internet  (ci-apr&#232;s FAI) &#171; met &#224; disposition &#187; de ses clients ce qu&#8217;elle appelle des &#171; Freebox &#187;. Ces boitiers ont plusieurs fonctions : modem, switch, serveur FTP local&#8230; et aussi d&#233;codeur pour la t&#233;l&#233;vision via ADSL. Ces Freebox fonctionnent, entre autres, avec des logiciels libres, modifi&#233;s pour certains d&#8217;entre eux. Or parmi ces logiciels libres utilis&#233;s par FREE figurent deux logiciels d&#233;velopp&#233;s par Messieurs Welte, Andersen et Landley, farouches partisans du respect des licences libres. 
+ Ces deux logiciels sont sous licence GNU/GPL [ 1 ] &#160;. Elle est la plus pratiqu&#233;e et la plus connue des licences du Libre. Cette licence accorde, pour r&#233;sumer, quatre grandes libert&#233;s : 
+ - Utiliser le logiciel sans restriction 
+- Etudier et modifier le logiciel (acc&#232;s autoris&#233; au code source) 
+- Reproduire et redistribuer le logiciel 
+- Modifier le logiciel et redistribuer ces versions modifi&#233;es. 
+ Mais cette licence comporte aussi des obligations dont la principale est de redistribuer obligatoirement les logiciels bas&#233;s sur un code source sous GNU/GPL, sous licence GNU/GPL eux aussi. Cette obligation est souvent appel&#233;e &#171; viralit&#233; de la licence libre &#187;. Or la sanction du non-respect de cette obligation est, pour simplifier, la d&#233;ch&#233;ance des droits d&#8217;utiliser le logiciel libre. Une utilisation d&#8217;un logiciel sans droit est une  contrefa&#231;on  au sens des articles L 122-6 et L 335-3 du Code de la propri&#233;t&#233; intellectuelle. 
+ En l&#8217;esp&#232;ce, selon les demandeurs, FREE n&#8217;a pas respect&#233; cette obligation de redistribuer les logiciels con&#231;us &#224; partir des codes source sous GNU/GPL puisque le FAI refuse tout simplement de donner acc&#232;s aux codes sources de sa &#171; box &#187;. FREE est donc, selon eux, contrefacteur. 
+ Pour sa part, le FAI avance l&#8217;argument selon lequel il n&#8217;y a pas de distribution de ses logiciels puisque la Freebox est seulement mise &#224; disposition des clients et ne leur appartient pas. Or la distribution &#233;tant une condition sine qua non de l&#8217;application de la licence GNU/GPL, l&#8217;absence de celle-ci fait donc sortir ipso facto cette utilisation des logiciels libres de l&#8217;application de la licence. 
+ Les juges consulaires parisiens auront le dernier mot mais si la contrefa&#231;on est av&#233;r&#233;e cela pourrait co&#251;ter tr&#232;s cher &#224; FREE. La Soci&#233;t&#233; qui &#233;tait si contente de faire des &#233;conomies gr&#226;ce &#224; l&#8217;utilisation de logiciels libres gratuits pourrait alors s&#8217;en mordre les doigts&#8230;. 
+
+ 
+  
+
+          
+         
+
+
+ 
+ http://www.gnu.org/licenses/gpl.html. La version officielle est en anglais mais des versions &#171; officieuses &#187; existent en fran&#231;ais, notamment  http://www.april.org/gnu/gpl_french.html  [ &#8617; ]                      
+        </text>
+</document>

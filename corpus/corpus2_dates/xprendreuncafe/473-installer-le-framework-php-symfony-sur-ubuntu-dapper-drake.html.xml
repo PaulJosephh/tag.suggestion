@@ -1,0 +1,148 @@
+<document>
+	<date>2006-06-20</date>
+        <title>Installer le framework PHP Symfony sur Ubuntu Dapper Drake</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>framework</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+                <tag>tutoriel</tag>
+                <tag>ubuntu</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>A l'instar de  RoR ,  Symfony  est base sur le motif de conception  MVC  et utilise une couche d'abstraction d'acces aux donnees et d'implementation  AJAX . Il est developpe en PHP5 par une equipe francaise, cocorico! 
+
+
+ Voyons ensemble comment installer la bete sur une  Ubuntu Dapper Drake  toute fraiche. 
+
+
+ Installation de Symfony 
+
+
+ Le meilleur moyen d'installer Symfony mais surtout de le maintenir a jour est d'utiliser le canal  PEAR   [ 1 ]  propre au projet. Mais avant tout, verifions que nous disposons d'un environnement de developpement ad-hoc: 
+
+
+ $ sudo apt-get install php5 php5-cli php5-mysql php-pear 
+
+
+ Le gestionnaire de paquets  apt  se chargera d'installer les dependances necessaires, notamment  apache2 . 
+
+
+ L'installation du canal Symfony necessite que nous octroyions  16Mo de memoire vive  a PHP. On edite donc le fichier  /etc/php5/cli/php.ini  et on affecte la nouvelle valeur: 
+
+
+ memory_limit = 16M 
+
+
+ Bien. Maintenant, installons Symfony et  Phing   [ 2 ]  via PEAR: 
+
+
+ $ sudo pear upgrade PEAR  sudo pear channel-discover pear.symfony-project.com
+$ sudo pear install symfony/symfony
+$ sudo pear install --alldeps http://phing.info/pear/phing-current.tgz 
+
+
+ OK, ceci fait, on cree un nouveau projet Symfony, que nous baptiserons sobrement  monprojet , disposant d'une application  monapplication  et que nous stockerons sous le docroot  /var/www/monprojet : 
+
+
+ $ sudo -s
+# mkdir /var/www/monprojet
+# cd /var/www/monprojet
+# symfony init-project monprojet
+# symfony init-app monapplication 
+
+
+ Voila, notre arborescence Symfony vient d'etre creee, on peut commencer a developper! Non? Mince, on a oublie de configurer Apache2  
+
+
+ Configuration d'Apache 2 
+
+
+ Tout d'abord, activez  mod_rewrite : 
+
+
+ $ sudo a2enmod rewrite 
+
+
+ Ensuite, nous allons creer rapidement un vhost apache, qui pointera benoitement vers  dev.monprojet.com  (redirige vers notre hote local.) Pour cela, editez votre fichier  /etc/hosts  et sur la ligne comprenant l'adresse IP  127.0.0.1 , ajoutez  dev.monprojet.com : 
+
+
+ 127.0.0.1    localhost localhost.localdomain mamachine dev.monprojet.com 
+
+
+ On cree maintenant l'hote virtuel Apache  /etc/apache2/sites-available/dev.monprojet.com  dont voici le contenu: 
+
+
+ Directory "/usr/share/php/data/symfony/web/sf"
+    AllowOverride All
+    Allow from All
+/Directory
+
+VirtualHost *
+    ServerName dev.monprojet.com
+    DocumentRoot "/var/www/monprojet/web"
+    DirectoryIndex index.php
+    Alias /sf /usr/share/php/data/symfony/web/sf
+    
+    Directory "/var/www/monprojet/web"
+        AllowOverride All
+        Allow from All
+    /Directory
+/VirtualHost 
+
+
+ On active l'hote virtuel nouvellement cree: 
+
+
+ $ sudo a2ensite dev.monprojet.com 
+
+
+ ... et on relance apache: 
+
+
+ $ sudo apache2ctl restart 
+
+
+ Une derniere petite chose, il faut desactiver les  magic_quotes  de PHP, dans le fichier  /etc/php5/apache2/php.ini : 
+
+
+ magic_quotes_gpc = Off 
+
+
+ Lancez votre navigateur sur  http://dev.monprojet.com , vous devriez obtenir un message du genre: 
+
+
+ If you see this page, it means that the creation of your symfony project on this system was successful. 
+
+
+ Plus d'informations 
+
+ 
+ Premier tutorial 
+ Documentation du projet Symfony 
+ Support communautaire 
+ 
+
+ Edit du 25 juin 06: Nouvelle version 0.6.3 
+
+
+ La  version 0.6.3 est sortie . Pour mettre a jour: 
+
+
+ $ sudo pear upgrade symfony/symfony 
+
+
+ Edit du 26 juin 06: 
+
+
+ Mon camarade de jeu  Xavier Lacot  vient de publier sur son blog un  excellent tutorial dedie a Symfony . 
+ Notes 
+ [ 1 ] PEAR propose un systeme de distribution d'application tierce tres pratique, les  canaux . Symfony dispose de son propre canal PEAR, mais n'utilise aucune librairie PEAR. Vous avez le droit d'etre embrouilles. 
+ [ 2 ] Phing est une dependance de Symfony, qu'il faut installer independamment. Haha, elle est bonne, hein? 
+ 
+        </text>
+</document>

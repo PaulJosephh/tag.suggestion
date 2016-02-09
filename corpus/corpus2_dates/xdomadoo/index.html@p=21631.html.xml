@@ -1,0 +1,16 @@
+<document>
+	<date>2011-07-19</date>
+        <title>Guide dinstallation du module ebode RMV</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>X10 Produits</category>
+        </categories_set>
+        <text>
+                                                         
+  Le module RMV est un interrupteur qui permet de controler des motorisations de 5A maximum a distance via une telecommande ou un ordinateur. Il est adapte pour volet roulant   et a battant, store a banne et ecran Home Cinema. Il peut etre controle par tout type demetteur compatible avec le protocole  X10 X10 Radio Frequence X10 courant porteur X10 X10 RF courant porteur Il remplace simplement linterrupteur dorigine de votre motorisation. 
+  Mettez votre circuit electrique hors tension. Cablez linterrupteur comme indique sur le schema suivant :  Les fils rouges et bleus situes sur la gauche correspondent a lalimentation. Les deux autres sur la droite sont les fils de commande du moteur.   Retirez le cache de linterrupteur.   Fixez linterrupteur dans une boite dencastrement de diametre 65mm et de profondeur 40mm a laide de vis.   Faites entrer le module en mode programmation en appuyant brievement sur la touche PROG.   Le voyant LED se met a clignoter rapidement en vert dans lattente dun ordre en provenance dun emetteur. Appuyez sur la touche ON de votre choix sur votre emetteur (telecommande, interrupteur sans fil, programmateur, ). La LED sarrete de clignoter et seteint. Ladresse est maintenant memorisee dans linterrupteur. Replacer le cache de facon a ce que le Logo ebode (Xdom) soit positionne en bas a droite.      Le module RMV est capable de capter les signaux RF  X10 X10      Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

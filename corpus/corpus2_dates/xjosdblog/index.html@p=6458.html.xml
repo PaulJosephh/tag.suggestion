@@ -1,0 +1,32 @@
+<document>
+	<date>2015-03-02</date>
+        <title>Communication en Lua avec la centrale MyFox</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Lua</tag>
+                <tag>MyFOX</tag>
+        </tags_set>
+        <categories_set>
+                <category>Alarme</category>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+                <category>Surveillance</category>
+        </categories_set>
+        <text>
+                                                 Problematique 
+ 
+La centrale dalarme MyFox possede une API permettant dinteragir avec elle. Sa mise en uvre nest cependant pas triviale. Nous allons voir ici comment interagir avec elle en Lua.
+ Preliminaires 
+ 
+La premiere etape consiste a obtenir le  Client ID Client Secret son compte Site Id Mon compte Parametres avances Cliquez ici pour utiliser lAPI Myfox 
+Une fois sur la page  myfox api My Applications You dont have any personal identifiers,  enable enable Client ID Client Secret Le code en Lua 
+ 
+Avant daller plus loin, verifiez que vous disposez bien des 5 informations suivantes:
+ 
+ Lidentifiant du compte Myfox (une adresse courriel) a reporter a la place de  identifiant Le mot de passe du compte Myfox a reporter a la place de  mot de passe Le  Client ID Client ID Le  Client Secret Client Secret Lidentifiant de votre installation Myfox a reporter a la place de  Site Id 
+Pour communiquer avec lAPI, il faut acquerir un jeton avec  acquerirJeton() renouvelerJeton() statut() -- Installation de luasec pour le https -- sudo apt-get install libssl1.0.0 libssl-dev -- sudo luarocks install luasec OPENSSL_LIBDIR=/usr/lib/x86_64-linux-gnu    (Ubuntu) -- sudo luarocks install luasec OPENSSL_LIBDIR=/usr/lib/arm-linux-gnueabihf (Raspberry Pi) local = require ( "ssl.https" ) local = 'identifiant' local = 'mot de passe' local = 'Client ID' local = 'Client Secret' local = 'Site Id' local = nil local = nil local = nil -- Request access token function ( ) local = 'https://api.myfox.me/oauth2/token' local = string.format ( 'grant_type=passwordclient_id=%sclient_secret=%susername=%spassword=%s' , , , , ) local , = . ( , ) assert ( == 200 ) , = string . ( , '"access_token":"([^"]*)".*"refresh_token":"([^"]*)"' ) end -- Refreshing an expired access_token function ( ) local = 'https://api.myfox.me/oauth2/token' local = string.format ( 'grant_type=refresh_tokenrefresh_token=%sclient_id=%sclient_secret=%s' , , , ) local , = . ( , ) assert ( == 200 ) , = string . ( , '"access_token":"([^"]*)".*"refresh_token":"([^"]*)"' ) end -- Statut de l'alarme : 'disarmed', 'partial' ou 'armed' function ( ) local = string.format ( 'https://api.myfox.me:443/v2/site/%s/security?access_token=%s' , tostring ( ) , ) local , = . ( ) assert ( == 200 ) local = string . ( , '"statusLabel":"([^"]*)"' ) return end Informations et sources 
+ 
+ Myfox API Connaitre et changer le niveau de protection de votre alarme MyFox HC2 [PHP]  
+ Sommaire Domotique 
+        </text>
+</document>

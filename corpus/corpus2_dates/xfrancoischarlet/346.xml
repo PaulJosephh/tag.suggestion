@@ -1,0 +1,55 @@
+<document>
+	<date>2013-01-29</date>
+        <title>WhatsApp viole la vie priv&#233;e de ses utilisateurs</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Protection des donn&#233;es</tag>
+                <tag>Sph&#232;re priv&#233;e</tag>
+        </tags_set>
+        <categories_set>
+                <category>Droit</category>
+        </categories_set>
+        <text>
+                                                
+                                                         C'est le r&#233;sultat d'une enqu&#234;te des autorit&#233;s de protection des donn&#233;es du Canada ( Commissariat &#224; la protection de la vie priv&#233;e ) et des Pays-Bas ( College bescherming persoonsgevens ) dont les r&#233;sultats viennent d'&#234;tre publi&#233;s. Ces deux autorit&#233;s ont examin&#233; le traitement des donn&#233;es par  WhatsApp Inc. , soci&#233;t&#233; am&#233;ricaine fond&#233;e en 2009 et bas&#233;e en Californie. 
+ L'enqu&#234;te a d&#233;but&#233; en  janvier 2012  pour se terminer en  janvier 2013 . Je vous propose d'en faire un r&#233;sum&#233;. Il sera surtout question de principes et directives issus du droit europ&#233;en. Il n'est cependant pas exclu que les conclusions (des Pays-Bas) soient transposables en droit suisse, les bases de ce dernier en mati&#232;re de protection des donn&#233;es relevant du droit europ&#233;en. 
+ L'enqu&#234;te s'est concentr&#233;e sur plusieurs points, en particulier&#160;: 
+ 
+ WhatsApp Inc. a-t-il le droit de traiter les messages de statut des utilisateurs&#160;? 
+ WhatsApp Inc. a-t-il le droit de traiter les num&#233;ros de t&#233;l&#233;phone de personnes n'utilisant pas WhatsApp&#160;? 
+ Est-il n&#233;cessaire pour WhatsApp Inc. de collecter puis traiter tous les num&#233;ros de t&#233;l&#233;phone du carnet d'adresses de ses utilisateurs&#160;? 
+ Les donn&#233;es collect&#233;es et trait&#233;es sont-elles stock&#233;es plus longtemps que n&#233;cessaire pour la r&#233;alisation du but de la collecte et du traitement&#160;? 
+ WhatsApp Inc. a-t-il pris les mesures techniques et organisationnelles suffisantes pour prot&#233;ger les donn&#233;es personnelles des utilisateurs&#160;? 
+ 
+ (Les conditions g&#233;n&#233;rales d'utilisation du service et la politique de confidentialit&#233; sont disponibles respectivement&#160; ici &#160;et&#160; l&#224; .) 
+ Les r&#233;ponses apport&#233;es sont les suivantes. 
+ WhatsApp Inc. a-t-il le droit de traiter les messages de statut des utilisateurs&#160;? 
+ Le message de statut standard sur WhatsApp consiste en " Hey there&#160;! I am using WhatsApp ". L'utilisateur peut changer ce message. S'il le fait, on peut supposer que l'utilisateur donne son consentement au traitement des donn&#233;es que constitue le statut. 
+ L'autorit&#233; canadienne a cependant demand&#233; &#224; WhatsApp Inc. de diminuer le risque de diffusion de ces statuts (qui peuvent contenir des informations potentiellement sensibles) &#224; des inconnus ou des personnes ne figurant pas dans le carnet d'adresses de l'utilisateur. En effet, un utilisateur de WhatsApp peut consulter le statut de n'importe quel autre utilisateur. 
+ Pour sa part, l'autorit&#233; n&#233;erlandaise a demand&#233; &#224; WhatsApp Inc. d'afficher un message d'avertissement sur ce risque lorsque l'utilisateur change de statut. 
+ WhatsApp Inc. a-t-il le droit de traiter les num&#233;ros de t&#233;l&#233;phone de personnes n'utilisant pas WhatsApp&#160;? 
+ Selon le droit n&#233;erlandais, une l&#233;gitimation est n&#233;cessaire pour traiter des donn&#233;es personnelles. En droit europ&#233;en, cette obligation provient &#233;galement de l' art. 7 de la Directive 95/46/CE . En droit suisse, elle ressort notamment des art. 4, 12 &#224; 15, et 16 et suivants de la loi f&#233;d&#233;rale sur la protection des donn&#233;es ( LPD ). 
+ Le stockage de donn&#233;es sur les terminaux mobiles et l'acc&#232;s &#224; ces donn&#233;es n'est permis, selon le droit europ&#233;en, " [...] qu'&#224; condition que l'abonn&#233; ou l'utilisateur, soit muni, dans le respect de la directive 95/46/CE, d'une information claire et compl&#232;te, entre autres sur les finalit&#233;s du traitement, et que l'abonn&#233; ou l'utilisateur ait le droit de refuser un tel traitement par le responsable du traitement des donn&#233;es [...]" ( art. 5 al. 3 de la Directive 2002/58/CE ). Le consentement de l'utilisateur doit donc &#234;tre libre, &#233;clair&#233; et se rapporter au traitement en question. (Pour plus de d&#233;tails sur le consentement,  voir cet avis  du Groupe de travail "Article 29" sur la protection des donn&#233;es.) 
+ WhatsApp demande un acc&#232;s en &#233;criture et en lecture au carnet d'adresses de l'utilisateur afin de d&#233;terminer si d'autres personnes qu'il connait utilisent aussi ce service. Une fois que l'utilisateur a consenti &#224; cette demande, WhatsApp transf&#232;re et conserve les num&#233;ros de t&#233;l&#233;phone du carnet d'adresses, y compris les num&#233;ros des personnes n'utilisant pas WhatsApp. WhatsApp Inc. s'est d&#233;fendu en affirmant qu'il d&#233;personnalise les num&#233;ros en utilisant une technique cryptographique (hachage) ; les enqu&#234;teurs n'ont pas jug&#233; ce syst&#232;me efficace. 
+ Il ne fait en principe aucun doute que les personnes utilisant d&#233;j&#224; le service ont consenti &#224; l'utilisation de leurs donn&#233;es personnelles par WhatsApp Inc. Toutefois, celles qui ne l'utilisent pas (bien que &#231;a puisse potentiellement &#234;tre le cas ult&#233;rieurement) n'ont pas consenti &#224; cette utilisation de leurs donn&#233;es personnelles. Selon les enqu&#234;teurs, il n'existe pas un motif justificatif permettant &#224; WhatsApp Inc. de se passer du consentement de ces "non-utilisateurs". D&#232;s lors, par la conservation des num&#233;ros de t&#233;l&#233;phone des "non-utilisateurs", WhatsApp Inc. agit de fa&#231;on contraire au droit et viole la vie priv&#233;e de ces personnes. 
+ Il serait cependant acceptable, selon l'autorit&#233; n&#233;erlandaise, que WhatsApp Inc. ne se borne qu'&#224; une op&#233;ration de comparaison de donn&#233;es des "non-utilisateurs" dans l'unique but de v&#233;rifier s'ils ont donn&#233; ou non leur consentement pour le traitement, puis supprime les donn&#233;es. 
+ Est-il n&#233;cessaire pour WhatsApp Inc. de collecter puis traiter tous les num&#233;ros de t&#233;l&#233;phone du carnet d'adresses de ses utilisateurs&#160;? 
+ L'enqu&#234;te a d&#233;montr&#233; qu'il n'&#233;tait pas possible pour les utilisateurs de terminer l'installation de l'application sans accorder &#224; WhatsApp le droit d'acc&#233;der au carnet d'adresses. Seuls ceux utilisant un iPhone sous iOS 6 peuvent refuser ce droit d'acc&#232;s complet et entrer manuellement les num&#233;ros de quelques contacts. 
+ Les autorit&#233;s ont estim&#233; que WhatsApp Inc. n'a pas besoin de collecter la totalit&#233; du carnet d'adresses, de l'utiliser, de l'enregistrer et de le stocker. L'utilisateur doit avoir la possibilit&#233; de choisir s'il veut rendre disponible &#224; WhatsApp Inc. les num&#233;ros de ses contacts. Ainsi, la m&#233;thode utilis&#233;e par WhatsApp Inc. est disproportionn&#233;e et excessive, et viole le droit (sauf dans le cas o&#249; l'utilisateur d'un iPhone sous iOS 6 refuse l'acc&#232;s et rentre un &#224; un les num&#233;ros). 
+ Les donn&#233;es collect&#233;es et trait&#233;es sont-elles stock&#233;es plus longtemps que n&#233;cessaire pour la r&#233;alisation du but de la collecte et du traitement&#160;? 
+ WhatsApp Inc. conserve les donn&#233;es des utilisateurs une ann&#233;e apr&#232;s qu'ils ont utilis&#233; leur compte pour la derni&#232;re fois ou un an apr&#232;s l'expiration d'abonnement. La p&#233;riode peut s'&#233;tendre &#224; deux ans si l'utilisateur a install&#233; l'application mais n'a pas ferm&#233; son compte. 
+ Les autorit&#233;s estiment qu'une p&#233;riode de r&#233;tention aussi longue pour des utilisateurs inactifs est excessive. Elles rappellent qu'il existe un moyen pour WhatsApp Inc. de communiquer avec les utilisateurs (inactifs) et de leur faire parvenir un ou plusieurs rappels avertissant la suppression prochaine du compte si l'inactivit&#233; se prolonge. 
+ WhatsApp Inc. s'est d&#233;fendu en affirmant avoir besoin d'un acc&#232;s aux donn&#233;es pendant la dur&#233;e de l'abonnement&#160;; les autorit&#233;s n'ont pas chang&#233; d'avis. Tant que ce point n'aura pas chang&#233;, l'activit&#233; de WhatsApp Inc. viole le droit. 
+ WhatsApp Inc. a-t-il pris les mesures techniques et organisationnelles suffisantes pour prot&#233;ger les donn&#233;es personnelles des utilisateurs&#160;? 
+ La base l&#233;gale se trouve &#224; l' art. 17 de la Directive 95/46/CE  (en Suisse, &#224; l' art. 7 LPD ). Plus les informations sont sensibles, ou plus la menace &#224; la vie priv&#233;e est grande, et plus l'exigence de s&#233;curit&#233; sera analys&#233;e s&#233;v&#232;rement. Celle-ci doit &#234;tre ad&#233;quate. 
+ WhatsApp Inc. g&#233;n&#233;rait des mots de passe en utilisant l' adresse MAC  de l'antenne Wifi de l'iPhone et le  num&#233;ro IMEI  pour les autres smartphones. L'utilisation de l'adresse MAC implique des risques majeurs en terme de s&#233;curit&#233;, notamment car le smartphone diffuse constamment cette adresse en clair, m&#234;me quand la connexion est s&#233;curis&#233;e. Ainsi, toute personne &#224; proximit&#233; d'un utilisateur peut d&#233;terminer l'adresse MAC de son smartphone et pirater le mot de passe. L'utilisation de l'IMEI n'est pas vraiment moins risqu&#233;e. D&#232;s lors, comme les messages (combin&#233;s &#224; d'autres informations) constituent des donn&#233;es personnelles, la m&#233;thode employ&#233;e par WhatsApp Inc. n'&#233;tait pas acceptable du point de vue de la protection de la vie priv&#233;e. 
+ Durant l'enqu&#234;te, WhatsApp Inc. a adapt&#233; sa m&#233;thode de g&#233;n&#233;ration de mots de passe et n'utilise plus l'adresse MAC ou l'IMEI depuis d&#233;cembre 2012. (Les informations sur la nouvelle m&#233;thode sont class&#233;es confidentielles dans le rapport d'enqu&#234;te.) WhatsApp Inc. ne viole plus le droit, bien qu'il existe un risque avec les utilisateurs inactifs qui n'auraient pas mis &#224; jour leur application. 
+ Il convient de noter que WhatsApp ne chiffrait pas les messages jusqu'en mai 2012, ce qui signifie qu'ils pouvaient &#234;tre facilement lus apr&#232;s interception. Depuis, tous les messages sont envoy&#233;s et r&#233;ceptionn&#233;s de fa&#231;on chiffr&#233;e. 
+ Conclusion 
+ WhatsApp s'est engag&#233; &#224; changer ses pratiques critiqu&#233;es, mais n'a pas fourni d'agenda &#224; ce sujet. Dans l'intervalle, son service continue de violer la vie priv&#233;e. 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

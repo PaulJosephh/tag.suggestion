@@ -1,0 +1,64 @@
+<document>
+	<date>2015-02-17</date>
+        <title>Interview d'Andrea Pessino, co-fondateur de Ready at Dawn pour The Order 1886</title>
+        <author>Quantic</author>
+        <tags_set>
+                <tag>the order 1886</tag>
+                <tag>andrea pessino</tag>
+                <tag>interview</tag>
+                <tag>ready at dawn</tag>
+        </tags_set>
+        <categories_set>
+                <category>Event</category>
+                <category>Gaming</category>
+                <category>PS4</category>
+        </categories_set>
+        <text>
+ 
+ 
+                                                  
+ Il y a quelques jours, nous avons eu l'opportunit&#233; de  poser quelques questions &#224; Andrea Pessino, co-fondateur et Chief Technical Officer chez Ready At Dawn , le d&#233;veloppeur qui s&#8217;appr&#234;te &#224; nous d&#233;voiler la nouvelle exclusivit&#233; PS4 :  The Order 1886 . Et en attendant notre test du jeu, vous pouvez encore  relire notre derni&#232;re preview de ce titre fort attendu ... 
+                                                  Couple of Pixels  : Vous &#234;tes le Chief Technical Officer de Ready at Dawn, pouvez-vous expliquer votre r&#244;le au sein de l'organisation du studio ? 
+ Andrea Pessino  : Mon partenaire (Ru Weerasuriya) est CEO et Creative Director. Il est aussi le co-fondateur avec moi du studio. Il supervise l'ensemble du travail cr&#233;atif alors que je supervise l'ensemble des aspects techniques. 
+ &#160; 
+ CoP  : Vous intervenez donc un peu plus tard dans le d&#233;veloppement et non dans les phases purement cr&#233;atives ? 
+ AP  : En fait, nous faisons quasiment tout ensemble. Bien entendu, je ne suis pas l'initiateur du monde ou des phases purement cr&#233;atives mais l'essentiel du travail se fait en commun m&#234;me si je me concentre sur l'aspect plus technique du d&#233;veloppement.  A ce propos, avez-vous une id&#233;e de l'&#233;l&#233;ment le plus co&#251;teux en termes de framerate dans The Order 1886 ? 
+ CoP  :  Non . 
+ AP  : Eh bien,  c'est le rendering de la barbe de Perceval . Cette barbe est vraiment mortelle. Si la cam&#233;ra se rapproche trop de sa barbe, la performance en prend un coup. La g&#233;om&#233;trie des d&#233;tails de sa barbe est si complexe que c'est l'&#233;l&#233;ment qui nous co&#251;te le plus en termes de performance dans le jeu. 
+ Vous savez, pour qu'un rendering fonctionne bien, c'est plus une succession de petits trucs qu'il faut bien ex&#233;cuter. Et il y a quelques &#233;l&#233;ments qui peuvent mettre &#224; genoux m&#234;me les meilleurs GPU's du monde. Les cheveux ou les poils sont un bon exemple car tant qu'on reste &#233;loign&#233;, une grande partie de la complexit&#233; des calculs n'est pas pr&#233;sente mais d&#232;s qu'on se rapproche, la richesse g&#233;om&#233;trique de ce que l'on veut afficher r&#233;apparait et la bande passante limit&#233;e devient vite un probl&#232;me. 
+ &#160; 
+ CoP   : Jusqu'ici, votre studio a plut&#244;t travaill&#233; sur des jeux PSP (Daxter, God of War). Avec The Order 1886, vous d&#233;couvrez un gros projet pour console de salon. N'&#233;tait-ce pas difficile de passer &#224; un projet de cette envergure ? 
+ AP  : En fait, non. Techniquement, ce serait m&#234;me l'inverse car d&#233;velopper un jeu sur PSP, c'est probablement plus compliqu&#233;. D'ailleurs, une des raisons qui nous permet de proposer le niveau de qualit&#233; technique que l'on propose avec The Order 1886, c'est parce que nous avons d&#233;velopp&#233; sur PSP. 
+ Vous savez, quand vous avez des ressources limit&#233;es, vous devez faire tr&#232;s attention &#224; la mani&#232;re dont vous les utilisez. Sur PSP, la question &#233;tait plut&#244;t : "Mais comment faire pour que &#231;a tourne ?". Quand vous d&#233;veloppez sur PS4, vous avez beaucoup plus de ressources disponibles et vous pouvez m&#234;me faire beaucoup d'erreurs sans que cela se voie r&#233;ellement. Il faut donc &#234;tre tr&#232;s attentif et c'est pour cela que nous cr&#233;ons tout nous-m&#234;me. Nous ne reprenons jamais une solution existante pour &#234;tre certain de garder le meilleur niveau de qualit&#233; possible. 
+ Par contre, ce qui est beaucoup plus difficile dans un projet de cette envergure, c'est tout l'aspect logistique. La technique est toujours un challenge mais ce n'est pas comparable au challenge de r&#233;ussir &#224; faire un vrai "God of War" sur PSP  (rires) .  
+ Ce qui est un vrai d&#233;fi, c'est la gestion du nombre gigantesque de personnes n&#233;cessaires pour cr&#233;er un tel univers. La motion capture, les milliers d'accessoires &#224; mod&#233;liser, les textures, les animations,&#160; la physique, ... repr&#233;sentent une quantit&#233; de travail juste &#233;norme. Et r&#233;ussir &#224; coordonner tout cela pour livrer tous les &#233;l&#233;ments n&#233;cessaires dans les d&#233;lais est un challenge gigantesque. Et bien entendu, plus vous &#234;tes nombreux, plus il faut de couches de management... 
+ 
+ CoP  : Pouvez-vous nous dire combien de personnes ont travaill&#233; sur le jeu ? 
+ AP  : Notre &#233;quipe a compt&#233; 130 personnes mais il s'agit du coeur de l'&#233;quipe. Je ne prends pas en compte les &#233;quipes externes de support n&#233;cessaires pour l'audio, la motion capture, etc. Au final, il y a des milliers de personnes qui sont n&#233;cessaires mais le coeur de l'&#233;quipe &#233;tait constitu&#233; de 130 personnes. Et le d&#233;veloppement a dur&#233; plus ou moins 4 ans. 
+ CoP  : D'o&#249; vient l'id&#233;e de ce projet ? Quelles sont les origines de ce nouvel univers ? 
+ AP  : Ru et moi, nous nous connaissons depuis maintenant 17 ans et avant de nous lancer dans un projet, nous commen&#231;ons toujours par lancer quelques id&#233;es &#224; notre &#233;quipe afin de voir ce qui les enthousiasme le plus. Et la particularit&#233; de Ru, c'est qu'il travaille toujours sur de grands univers originaux. Celui de The Order 1886, par exemple, date de 2005... Et sa mani&#232;re de travailler est de m&#233;langer tous les aspects : l'histoire, les personnages, etc. Mais ce qu'il cr&#233;e est toujours beaucoup plus grand que ce que l'on utilise au final. 
+ C'est un passionn&#233; d'histoire, donc il voulait la revisiter selon un autre point de vue. Il avait envie de se plonger dans les premiers bouleversements de l'ordre social &#233;tabli mais aussi d'examiner d'o&#249; pouvait bien provenir les grandes l&#233;gendes comme les loups-garous ou les vampires. On pr&#233;sente ensuite ces id&#233;es &#224; notre &#233;quipe et on choisit un morceau sp&#233;cifique de cet univers pour se focaliser dessus. Et dans le cas pr&#233;sent, c'est l'ann&#233;e 1886 o&#249; de nombreux &#233;v&#232;nements se produisaient mais l'univers dans son ensemble est bien plus large. 
+ &#160; 
+ CoP  : Notre h&#233;ros dans le jeu ne combat pas pour le peuple mais pour prot&#233;ger l'ordre en place. En fait, c&#8217;est plut&#244;t un anti-h&#233;ros ? 
+ AP  : Oui, tout &#224; fait et cela fait partie du conflit auquel nous sommes confront&#233;s dans le jeu. En fait, il a une mission tr&#232;s claire : combattre les half-breeds. C'est une mission qui date de l'&#233;poque Arthurienne et qui ne souffre d'aucun questionnement. A partir du moment o&#249; vous vous retrouvez dans une situation o&#249; vous devez combattre une r&#233;bellion, cela fait surgir des questions que vous ne nous &#234;tes jamais pos&#233;s, des questions d'ordre moral. Et le sc&#233;nario tourne beaucoup autour de ces questionnements. 
+ Vous savez, quand vous &#234;tes un soldat, vous &#234;tes enti&#232;rement acquis &#224; une certaine cause. Et quand des &#233;l&#233;ments ext&#233;rieurs viennent remettre en question cette cause, c'est toute l'organisation "militaire" qui risque de s'effondrer... Il s'agit de l'un des principaux sujets que nous traitons dans le jeu. 
+ CoP  : Nous incarnons Galahad dans le jeu mais les autres personnages qui combattent &#224; nos c&#244;t&#233;s sont aussi fortement mis en avant. Pourquoi avoir d&#233;cid&#233; de ne laisser que Galahad comme personnage jouable ? 
+ AP  : Il y a plusieurs raisons mais la principale est que cet univers &#233;tait tr&#232;s grand et que nous avons d&#233;cid&#233; qu'il &#233;tait pr&#233;f&#233;rable de nous limiter &#224; quelques &#233;l&#233;ments bien r&#233;alis&#233;s plut&#244;t que de nous lancer dans trop d'id&#233;es et nous perdre en chemin. Mais le plus important, c'est que notre histoire comprend plusieurs niveaux de lecture et nous ne voulions pas perdre le joueur avec des m&#233;caniques de gameplay un peu artificielles. Si on avait chang&#233; de personnage jouable, il y avait un risque que le joueur ne sache plus trop o&#249; il en &#233;tait dans l'histoire. 
+ C'est donc le jeu de Galahad, c'est son histoire que nous racontons. Ceci dit, les autres membres de son groupe sont aussi tr&#232;s importants et on apprend &#224; bien les conna&#238;tre mais pour l'instant, nous avons choisi de raconter cet univers au travers des yeux de Galahad. 
+ &#160; 
+ CoP  : Un &#233;l&#233;ment impressionnant du jeu est la fluidit&#233; de la transition entre les s&#233;quences de cin&#233;matique et les s&#233;quences de gameplay. Pendant l'essai du jeu, je me suis retrouv&#233; &#224; attendre que la cin&#233;matique se termine alors qu'en fait j'avais d&#233;j&#224; r&#233;cup&#233;r&#233; le contr&#244;le de Galahad. Quelles sont les techniques &#224; l'origine de cette fluidit&#233; ? 
+ AP  : C'est un effet que nous voulions. En pratique, nous ne faisons pas de diff&#233;rences entre cin&#233;matique et gameplay. Tous nos outils sont les m&#234;mes pour toutes les phases du jeu : shooter TPS, mini-jeux, combat de boss, cin&#233;matique, ... Tout est identique. Nous avons choisi de tout d&#233;velopper pour un affichage en temps-r&#233;el. Rien n'est pr&#233;-calcul&#233;. 
+ Nous voulions que The Order 1886 b&#233;n&#233;ficie de son propre rythme car son sc&#233;nario est au coeur du jeu. Nous sommes l&#224; pour vous raconter une histoire. Si vous aimez cela, vous allez adorer le jeu. Si vous n'aimez pas cela, il y a des chances que le jeu ne soit pas fait pour vous car c'est un &#233;l&#233;ment essentiel. Notre but est de ne jamais vous donner l'impression que vous &#234;tes en dehors du jeu. 
+ On m'a beaucoup parl&#233; des QTE's mais en fait, il y a assez peu de QTE's dans ce jeu. Il y en a quelques-uns mais pas &#233;norm&#233;ment. Par contre, on vous demandera parfois d'appuyer sur un bouton pour continuer le jeu. La raison pour laquelle nous vous demandons d'appuyer sur ce bouton, c'est pour vous garder dans l'action, de ne pas interrompre le rythme. J'ai compris que cela ne plaisait pas &#224; certaines personnes qui pr&#233;f&#233;raient regarder un film mais pour nous, cela nous permettait de garder le joueur actif. 
+ 
+ Quand vous jouerez au jeu complet, vous verrez que nous enchainons les s&#233;quences d'action et de narration pour ne jamais perdre l'attention du joueur. Par exemple, le niveau du Pont  (qui est d&#233;taill&#233; dans notre derni&#232;re preview) , est un niveau qui se d&#233;roule apr&#232;s un &#233;v&#232;nement majeur de l'histoire. Vous verrez &#224; quel point ce niveau vous paraitra diff&#233;rent quand vous le jouerez dans le jeu final. 
+ Tout le jeu est con&#231;u comme cela. Les visuels, le rythme, les effets sonores, le dynamisme des transitions cin&#233;matiques/gameplay, ... Tout cela a &#233;t&#233; con&#231;u dans le but d'exp&#233;rimenter jusqu'o&#249; il &#233;tait possible d'aller dans l'id&#233;e de proposer l&#8217;exp&#233;rience la plus fluide et la plus rythm&#233;e possible. 
+ CoP  : Merci. 
+ AP  : Merci &#224; vous. 
+ The Order 1886 sort le 20 F&#233;vrier 2015 en exclusivit&#233; sur PS4. 
+                                                      
+ 
+ 
+ 
+        </text>
+</document>

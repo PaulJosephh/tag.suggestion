@@ -1,0 +1,21 @@
+<document>
+	<date>2012-03-05</date>
+        <title>Guide dinstallation du compteur dnergie EnviR de CURRENT COST</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>consommation</tag>
+                <tag>current cost</tag>
+                <tag>electricite</tag>
+                <tag>envir</tag>
+                <tag>mesure d'energie</tag>
+                <tag>rf</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Compteurs d'energie</category>
+        </categories_set>
+        <text>
+                                                         
+ Le Current Cost EnviR est un moniteur de consommation delectricite qui permet dafficher en temps reel la quantite denergie consommee, les depenses quotidiennes et mensuelles. Il offre ainsi une vue globale de votre consommation. Le principe de mesure est tres simple: la pince amperemetrique fonctionne comme un capteur de courant, qui envoi via un transmetteur linformation au moniteur qui affiche alors les donnees. 1- Deballage du produit Le pack se constitue dun ecran daffichage (le moniteur) et de son adaptateur, dune pince amperemetrique et de son transmetteur radio, et dune notice dutilisation. 2- Installation Pour commencer, il faut connecter lalimentation au moniteur, puis sur une prise secteur. Le connecteur dalimentation du moniteur se trouve sous son socle. Mettez ensuite le transmetteur sous tension en retirant la languette en plastique transparent. Branchez la pince amperemetrique dans lun des emplacements reserves du transmetteur. Si le moniteur affiche 0W, cest quil a deja ete associe au transmetteur. Il recoit donc bien les messages emit par le transmetteur. Si ce nest pas le cas, il faut reinitialiser le transmetteur. A laide dun trombone ou dune pointe de stylo, appuyez sur le bouton situe sur le transmetteur jusqua ce que la LED clignote. Relachez le bouton, la LED se met alors a clignoter rapidement. Pendant que cette LED clignote, appuyez sur le bouton de droite du moniteur (fleche vers le bas), jusqua ce que la LED de celui-ci se mette a clignoter a son tour, puis relacher. La connexion va alors setablir, et lecran revenir en position initiale. Positionnez la pince autour du cable darrivee de votre tableau electrique (generalement marron, noir ou gris),  ne pas pincer le fil. Vous pouvez maintenant installer le transmetteur en dehors de larmoire / compteur electrique grace a son scotch autocollant. 3- Reglages du moniteur   Horloge:   Devise+ prix de lelectricite:   Heure creuse/pleine: Votre compteur denergie EnviR est desormais pret a afficher votre consommation electrique en temps reel !  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

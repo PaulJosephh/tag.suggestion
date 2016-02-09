@@ -1,0 +1,48 @@
+<document>
+	<date>2006-09-15</date>
+        <title>Planquez-vous, je tente un Dotclear2</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dotclear</tag>
+                <tag>gravatar</tag>
+                <tag>php</tag>
+                <tag>prendreuncafe</tag>
+                <tag>theme</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>C'est meme plus un casque de chantier qu'il vous faut porter, mais un abri anti-atomique portatif  
+
+
+ Le but est avant tout de conserver les urls de l'ancienne version du blog et/ou gerer des regles de reecritures les faisant pointer sur les nouvelles. 
+
+
+ Ce qui a ete fait, ce qu'il reste a faire: 
+
+ 
+ Import  des billets, categories et commentaires:  OK 
+ Prise en charge des anciennes URLs ( regles de reecritures  Apache):  OK 
+ Virer  le  index.php  des urls:  OK 
+ Prendre en charge la redirection des anciens repertoires  images  et  share :  OK  (Les liens symboliques sont mes amis) 
+ Prendre en charge les anciennes urls des commentaires et trackbacks:  OK  ( Pep est mon ami ) 
+ Regler les problemes de flux RSS:  OK  (Un  plugin dedie  a la gestion des flux Feedburner existe !) 
+ Portage du theme:  OK   [ 1 ] 
+ Prendre a nouveau en charge les  Gravatars  via le mecanisme de templates de Dotclear2:  OK  ( Plus d'informations ) 
+ Taguer les billets:  OK 
+ Reintegrer la syntaxe wiki dans les commentaires:  A faire  Finalement, non. 
+ Gerer les anciennes emoticones:  A faire  Pfff, on s'en fiche, non? 
+ Prendre a nouveau en charge la coloration syntaxique via Geshi:  OK  -  Merci Lalex   
+ 
+
+ Si vous voyez d'autres choses, n'hesitez pas a me les signaler en commentaire. 
+
+
+ En attendant je dois reconnaitre qu' Olivier  a effectue un excellent boulot sur cette nouvelle version de Dotclear, et que le theme par defaut est magnifique  
+
+
+ Edit :  Toutes mes excuses aux lecteurs du  Planet Ubuntu-fr  qui font (encore) les frais du changement d'urls des flux de syndication. 
+ Notes 
+ [ 1 ] J'en ai profite pour demander l'autorisation d'utiliser l'habillage des tags de  Blogmarks . Permission accordee, cool  
+        </text>
+</document>

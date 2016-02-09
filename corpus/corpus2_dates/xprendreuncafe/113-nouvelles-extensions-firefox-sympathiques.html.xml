@@ -1,0 +1,42 @@
+<document>
+	<date>2005-05-18</date>
+        <title>Nouvelles extensions Firefox sympathiques</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>browsers</tag>
+                <tag>extensions</tag>
+                <tag>firefox</tag>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>
+ Aardvark Tres utile aux webdesigners/integrateurs/developpeurs  CSS , cette extension vous permet de visualiser graphiquement les differents blocs d'une page web, ainsi que leur id. 
+ 
+ 
+ Down Them All Telecharge tous les liens d'une page en fonction de leur extension. 
+ 
+ 
+ Dublin Core Viewer Extension permettant de visualiser les metadonnees  Dublin Core , si elles sont presentes. Extension realisee par  Patrick H. Lauke , egalement developpeur de l' extension GeoURL  pour Firefox. 
+ 
+ 
+ Greasemonkey Cette extension permet d'ajouter des scripts specifiques destines a apporter des fonctionnalites supplementaires a certains sites internet (plus d'info  sur Framasoft ). Ma petite selection de scripts Greasemonkey (n'hesitez pas a signaler vos trouvailles):
+ 
+ Gmail Delete Button Enfin un bouton supprimer accessible rapidement dans GMail. 
+ Gmail AutoMailTo Transforme tous les  mailtos  en lien vers le GMail Composer. 
+ CustomizeGoogle Ameliore la navigation sur Google et enleve la pub. 
+ Cela ne va pas plaire a  kNo'  mais il existe un script pour masquer les billets de Xeni sur  BoingBoing   
+ Des centaines d'autres scripts sur  cette interminable liste ... 
+ 
+ 
+ 
+ IE view Ajoute un menu contextuel pour visionner la page en cours de consultation avec le  navigateur obsolete . 
+ 
+ 
+ PDF viewer/downloader Permet de choisir si l'on desire voir un PDF dans le plugin embarque ou si l'on prefere le telecharger 
+ 
+ 
+ Platypus Cette extension propose une interface pour creer ses propres scripts greasemonkey, evoques plus haut. Indispensable. 
+ 
+        </text>
+</document>

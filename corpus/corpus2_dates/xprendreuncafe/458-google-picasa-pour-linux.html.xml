@@ -1,0 +1,26 @@
+<document>
+	<date>2006-05-26</date>
+        <title>Google Picasa pour Linux !</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>google</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Google  vient de rendre disponible une version Linux de  Picasa  ( via ), son excellent logiciel de gestion de photos. L'adresse officielle du site est  picasa.google.com/linux/  mais cette page n'est accessible que depuis un FAI americain. Heureusement que leur service de  proxy gratuit   traduction automatique  est la  
+
+
+ Bon telechargement ( le .deb est ici )  
+
+
+ Edit :  Il semble que la  page officielle  soit desormais accessible depuis la France  
+
+
+ Edit encore :   Dan Kegel  explique les raisons du  portage de Picasa sous Linux . On y trouve un lien vers les  ameliorations apportees a Wine par Google , c'est assez impressionant  
+
+
+ Edit toujours :  Il semblerait que  Google Earth  soit le  prochain sur la liste  !!!   
+        </text>
+</document>

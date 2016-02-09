@@ -1,0 +1,22 @@
+<document>
+	<date>2005-04-06</date>
+        <title>Argh !, agonise mon serveur</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>grumph</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Vous aurez peut-etre constate l'inaccessibilite(un comble !) de ce blog ces dernieres heures... Ba ouais, mon serveur (l'offre d'entree de gamme de chez  OVH ) est assailli de connexions de partout - merci  monsieur Nitot    - je devrais plutot etre content mais cet engorgement le rend tout simplement invisible aupres des utilisateurs  
+
+
+ Je cherche donc une solution pour retablir une situation tolerable  
+
+
+ Edit 16h44 
+
+
+ J'ai applique les alterations de la base Dotclear recommandees par  [ NikO ] , pour l'instant je touche du bois, ca semble fonctionner. En meme temps l'afflux massif de visiteurs doit etre en train de s'estomper... A voir donc sur le long terme. Reste que sur le plan theorique, cette  optimisation  de la structure de la base semble salutaire, et qu'en passant j'ai appris quelque chose sur MySQL  
+        </text>
+</document>

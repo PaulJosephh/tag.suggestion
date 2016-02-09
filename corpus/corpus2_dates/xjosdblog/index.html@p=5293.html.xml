@@ -1,0 +1,60 @@
+<document>
+	<date>2014-05-10</date>
+        <title>Requtes HTTP sur Vera Lite</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Luup</tag>
+                <tag>Vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 Problematique 
+
+ 
+ 
+Il est important de pouvoir faire des requetes HTTP sur un controleur domotique. Cest un moyen de communication qui permet de piloter la box depuis lexterieur. Cela permet par exemple de developper sa propre interface web pour controler sa domotique ou encore mettre en uvre une technique de  push Requete locale et requete distante 
+ 
+Le debut dune requetes HTTP est different suivant que la requete est faite depuis le reseau local sur lequel se situe la Vera ou depuis lexterieur.
+ 
+ Depuis le reseau local:  http://ip_Vera:3480  Depuis lexterieur, le plus simple est de passer par les serveurs de la societe  Vera Smart Home Controllers https://fwd1.mios.com/login/password/nvera  fwd1 fwd2 fwd3 Vera Une autre technique depuis lexterieur est de mettre en place une redirection de port sur le routeur. On peut alors par exemple ecrire:  http://adresse_perso:port_redirige Pour securiser lacces a la Vera, sans utiliser les serveurs de la societe  Vera Smart Home Controllers Requete sur device ou scene 
+ 
+Requete pour modifier letat dun  device /data_request?id=lu_actionDeviceNum=deviceserviceId=urn:upnp-org:serviceId:SwitchPower1action=SetTargetnewTargetValue=etat  device device etat http://192.168.0.44:3480/data_request?id=lu_actionDeviceNum=19serviceId=urn:upnp-org:serviceId:SwitchPower1action=SetTargetnewTargetValue=1 
+Requete pour connaitre letat dun  device /data_request?id=variablegetDeviceNum=deviceserviceId=urn:upnp-org:serviceId:SwitchPower1Variable=Status  device device http://192.168.0.44:3480/data_request?id=variablegetDeviceNum=19serviceId=urn:upnp-org:serviceId:SwitchPower1Variable=Status Lire  ce billet device 
+Requete pour executer une scene:
+
+
+ /data_request?id=lu_actionserviceId=urn:micasaverde-com:serviceId:HomeAutomationGateway1action=RunSceneSceneNum=Numero de scene  Numero de scene http://192.168.0.44:3480/data_request?id=lu_actionserviceId=urn:micasaverde-com:serviceId:HomeAutomationGateway1action=RunSceneSceneNum=18 Appeler une fonction Lua, methode directe 
+Lappel dune fonction Lua se fait de cette facon:
+
+
+ /data_request?id=lu_actionserviceId=urn:micasaverde-com:serviceId:HomeAutomationGateway1action=RunLuaCode=MA_FONCTION(ARG1,ARG2)  MA_FONCTION(ARG1,ARG2) function ( , ) . log ( + ) end http://192.168.0.44:3480/data_request?id=lu_actionserviceId=urn:micasaverde-com:serviceId:HomeAutomationGateway1action=RunLuaCode=plus(1,2) %20 Appeler une fonction Lua en utilisant un handler 
+Linconvenient de la methode precedente est que lurl a ecrire est tres longue (trop longue pour un champs de lIPX800 limite a 128 caracteres).
+Une bonne alternative est de definir une fonction Lua dediee a etre appelee par une requete HTTP:
+
+
+ luup . ( "josdHandler" , "JH" ) function ( , , ) local = "" for , in pairs ( ) do = .. "nbsp;nbsp;" .. tostring ( ) .. "=" .. tostring ( ) .. "br/ \n end local = "head \n .. "titlejosdHandler/title \n .. "/head \n .. "body \n .. "lul_request=" .. tostring ( ) .. "br/ \n .. "lul_parameters={br/ \n .. .. "}br/ \n .. "lul_outputformat=" .. tostring ( ) .. "br/ \n local = "text/html" return , end http://192.168.0.44:3480/data_request?id=lr_JHP1=val1P2=val2P3=val3 lul_request=JH
+lul_parameters={
+  P2=val2
+  P3=val3
+  P1=val1
+}
+lul_outputformat= Informations et sources 
+ 
+ Luup Requests Luup UPnP Variables and Actions UI Notes Piloter sa maison ? Cest facile ! function: register_handler Requetes http sur Vera Lite Les requetes http pour commander votre systeme domotique 
+ Sommaire Domotique  .entry-content  
+                                                                                                Cette entree a ete publiee dans  Controleurs Domotique Tutoriels Luup Vera permalien  .entry-utility   #post-##  
+                                          IPX800 fonction Push    #nav-below  
+
+
+
+
+                                                                 
+                                 Laisser un commentaire  Annuler la reponse. 
+                                                                                                                                                         Votre adresse de messagerie ne sera pas publiee. * Nom  * Adresse de contact  * Site web Commentaire Vous pouvez utiliser ces balises et attributs  HTML a href="" title="" abbr title="" acronym title="" b blockquote cite="" cite code del datetime="" em i q cite="" strike strong  
+                                                          #respond   #comments  
+        </text>
+</document>

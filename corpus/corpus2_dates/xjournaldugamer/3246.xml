@@ -1,0 +1,35 @@
+<document>
+	<date>2013-10-22</date>
+        <title>Cet homme vous montre de mani&#232;re simple comment on cr&#233;e des niveaux al&#233;atoires dans un jeu vid&#233;o</title>
+        <author>Kocobe</author>
+        <tags_set>
+                <tag>Insolite</tag>
+                <tag>Level Design</tag>
+                <tag>Spelunky</tag>
+        </tags_set>
+        <categories_set>
+                <category>G&#233;n&#233;ral</category>
+        </categories_set>
+        <text>
+                                                                                                 
+         
+                 Spenlunky  est connu pour ses niveaux al&#233;atoires toujours coh&#233;rents. Mais comment fait-on, concr&#232;tement, pour que &#231;a marche &#224; tous les coups et que &#231;a ne fasse pas n&#8217;importe quoi ?  more 
+ 
+ Darius Kazemi  aime bien d&#233;cortiquer les trucs. Parce que c&#8217;est le meilleur moyen de les comprendre finalement. Et s&#8217;il y a bien un truc que l&#8217;on aimerait savoir, c&#8217;est comment fait  Spelunky , ce formidable  rogue-like / plateformer , pour g&#233;n&#233;rer des niveaux al&#233;atoires. 
+ C&#8217;est d&#8217;ailleurs une probl&#233;matique commune dans de nombreux jeux d&#8217;adaptabilit&#233;. Par exemple, dans  The Binding of Isaac , les niveaux sont &#233;galement al&#233;atoires et forcent le joueur &#224; mettre sa strat&#233;gie constamment &#224; jour pour survivre. 
+ Alors, comment qu&#8217;on fait des niveaux al&#233;atoires dans  Spelunky , puisqu&#8217;il s&#8217;agit du jeu qui est analys&#233; par  Darius Kazemi  ? Notez qu&#8217;on parle du premier  Spelunky , disponible gratuitement  ici , sorti sur  PC  en  2008 . 
+ 
+ Pour montrer comment tout &#231;a se passe, il a cr&#233;&#233;  deux pages  o&#249; vous allez pouvoir g&#233;n&#233;rer vous m&#234;me un niveau de  Spelunky . Rendez-vous  ici  pour comprendre de quoi il est question. Dans  Spelunky , les niveaux sont construits &#224; l&#8217;aide de 16 salles, quatre en hauteur et quatre en largeur. 
+ Le jeu va commencer par d&#233;terminer un cheminement dans le niveau. On commence donc par placer l&#8217;entr&#233;e sur la rang&#233;e du haut, au hasard. Le jeu, via un algorithme simple, va ensuite d&#233;terminer un cheminement (indiqu&#233; en rouge sur le niveau ci-dessus). Au moment o&#249; ce cheminement veut descendre, mais qu&#8217;il est d&#233;j&#224; tout en bas, alors la sortie est cr&#233;&#233;. 
+ Il va ensuite placer diff&#233;rents types de salles qui vont garantir certaines sorties pour que le chemin puisse exister dans les faits. Par exemple, une salle de type 1 garantit une sortie &#224; gauche et &#224; droite, l&#224; o&#249; une salle de type 3 garantit une sortie &#224; gauche, &#224; droite et en haut. 
+ Enfin, il place toutes les autres salles. Elles seront toutes de type 0. Ce type ne garantit aucune sortie. C&#8217;est pour cela qu&#8217;elles sont parfois enclav&#233;es et inaccessibles sans bombes 
+ Voil&#224; en substance ce que vous allez apprendre en allant lire les explications sur la g&#233;n&#233;ration al&#233;atoire de niveau dans  Spelunky  par  Darius Kazemi . La premi&#232;re partie est une version plus fouill&#233;e de ce que vous venez de lire, avec quelques autres pr&#233;cisions. Dans la deuxi&#232;me partie, il explique comment sont g&#233;n&#233;r&#233;es les salles m&#234;mes. Comment placer les butins et les pi&#232;ges par exemple. 
+ Premi&#232;re partie&#160;: le cheminement de sortie  
+ Deuxi&#232;me partie&#160;: la g&#233;n&#233;ration des salles 
+ &amp;gt;  Via Rock, Paper, Shotgun 
+         
+ 
+                                                                                                         
+                                                                                                                                                                                                 
+        </text>
+</document>

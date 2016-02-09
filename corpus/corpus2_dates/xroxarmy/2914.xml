@@ -1,0 +1,50 @@
+<document>
+	<date>2015-04-28</date>
+        <title>Quelques conseils pour acc&#233;lerer son site WordPress</title>
+        <author>Roxarmy</author>
+        <tags_set>
+                <tag>boost</tag>
+                <tag>speed</tag>
+                <tag>wordpress</tag>
+        </tags_set>
+        <categories_set>
+                <category>High-tech</category>
+        </categories_set>
+        <text>
+                                                 Il est loin le temps o&#249; les sites internet &#233;taient sommaires, multicolores et dot&#233;s d&#8217;un design douteux. Le temps o&#249; le javascript ne voulait pas dire grand-chose, le temps o&#249; l&#8217;internet ressemblait &#224; &#231;a (on savait aussi troller IE dans le temps) : 
+ 
+ Aujourd&#8217;hui la tendance s&#8217;est am&#233;lior&#233;e : animations, interactions, responsive, etc. Les technologies ont &#233;volu&#233; et nos besoins aussi. Mais tout cela a un co&#251;t, et l&#8217;ajout de diff&#233;rents petits &#233;l&#233;ments rendent les pages  sont de plus en plus lourdes&#8230; Nous allons donc voir quelques pistes permettant d&#8217;am&#233;liorer les performances d&#8217;un blog sous WordPress. 
+ Les grandes entreprises, &#224; gros budgets peuvent se permettre d&#8217;avoir de puissants serveurs avec des capacit&#233;s de calculs importants. Mais pour les particuliers, le budget est tr&#232;s important et il faut choisir avec parcimonie la  formule d&#8217;h&#233;bergement  qui vous convient.  
+ 
+ Il y a plusieurs fa&#231;ons d&#8217;am&#233;liorer sa rapidit&#233;, entre autres : 
+ 
+ 
+ Compresser les images utilis&#233;es dans les articles (en r&#233;solution et en qualit&#233;) 
+ 
+ 
+ D&#233;sactiver (ou d&#233;sinstaller) les plugins non utilis&#233;s 
+ 
+ 
+ Utiliser un th&#232;me dont la provenance est s&#251;re 
+ 
+ 
+ Etre &#224; jour dans WordPress et dans les plugins 
+ 
+ 
+ Ensuite, il y a des mani&#232;res un peu plus pouss&#233;es pour am&#233;liorer la vitesse d&#8217;affichage&#160;: cela passe par les plugins. Cette mani&#232;re de fonctionner permet aux personnes ne sachant pas ce qu&#8217;est un .htaccess de pouvoir am&#233;liorer son site web. Au niveau de ces plugins, le choix est large, mais en voici quelques-uns qui sont indispensables : 
+ 
+ 
+ Super Cache (plugin permettant de stocker les fichiers sans avoir besoin de les r&#233;g&#233;n&#233;rer) 
+ 
+ 
+ DB Cache reloaded (permet d&#8217;avoir en cache les requ&#234;tes de base de donn&#233;es) 
+ 
+ 
+ WP deferred javaScript (permet de rendre asynchrone le chargement du javascript) 
+ 
+ 
+ Pour le reste, &#231;a devient un petit peu plus technique : modifications du .htaccess, modifications des fichiers PHP de wordpress, etc. Voici un  billet  compilant plusieurs techniques pour am&#233;liorer son site web, tant en rapidit&#233; qu&#8217;en s&#233;curit&#233; (et ce dernier point est tr&#232;s important). Pour ma part, ces diff&#233;rents points m&#8217;ont permis de passer &#224; un temps de chargement d&#8217;environ 20 sec &#224; 6 sec pour  un article  long coupl&#233; &#224; de nombreuses images. 
+ Si vous avez d&#8217;autres techniques ou astuces, n&#8217;h&#233;sitez pas &#224; partager ! 
+                                                                                         
+        </text>
+</document>

@@ -1,0 +1,92 @@
+<document>
+	<date>2014-06-26</date>
+        <title>Test Module Philio PAN08_Roller Shutter (Volet roulant)</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Eedomus</category>
+                <category>Fibaro</category>
+                <category>Home Center 2 Fibaro</category>
+                <category>Tutoriel</category>
+                <category>Zibase</category>
+                <category>Zipabox</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ Je vous ai deja presente un module de la marque  Philio , un detecteur douverture. Cette societe a concu plusieurs modules de detecteur de mouvement, et douverture de porte et fenetre, mais aujourdhui cest un module pour volet roulant (Roller Shutter). Ce module ma ete prete par mon partenaire  Domadoo . 
+ Presentation 
+ Ce micromodule pour volet roulant PAN08 permet de controler un equipement motorise tel que store, porte de garage, portail ou volet roulant grace au protocole Z-Wave tout en conservant l interrupteur existant. 
+ Attention, ce module necessite le neutre pour fonctionner. 
+ 
+ Caracteristiques techniques 
+ Ce micromodule est juste un peu plus grand quun roller shutter de Fibaro, et un peu moins epais. 
+ 
+ Type de module : Recepteur Z-Wave 
+ Alimentation : 90 ~240VAC 
+ Consommation en veille : 0,48W 
+ Cablage : 3 fils, neutre necessaire 
+ Charge maxi : 1100W 
+ Frequence : 868,42 Mhz 
+ Distance de transmission : 30m 
+ Dimensions : 47.5x39x15.6 mm 
+ Poids : 30g 
+ Temperature de fonctionnement : 0-40C 
+ Certification Z-Wave : ZC08-13070030, ZC08-13080002 
+ 
+  
+ 
+ 
+  
+ Niveau packaging, cest tres simple, rien a voir avec lemballage de Fibaro, une boite toute simple sans inscription et une notice en anglais. 
+ Connectique et inclusion 
+ Vous allez voir un schema technique assez simple, et je le rappelle le neutre est imperatif. 
+ 
+  
+ Linclusion peut se faire de deux manieres soit en auto inclusion, soit avec un triple appui comme beaucoup dautres modules z-wave. Je pars toujours du principe quil faut exclure le module avant de linclure. 
+ inclusion sur leedomus 
+ Linclusion se fait correctement, mais helas le module est reconnu comme une prise gigogne (module generique). 
+ 
+Pour toutes les autres box que jai pu tester (home center 2, Zipabox, Zibase), le module est parfaitement reconnu 
+ Inclusion sur le Home Center 2 de Fibaro 
+ 
+ Inclusion sur la Zipabox 
+ Sur cette box, le module est parfaitement reconnu, et facilement parametrable. 
+ 
+ Inclusion sur la Zibase 
+ La aussi, le micro module fonctionne parfaitement, il est bien reconnu. 
+ 
+ Conclusion 
+ Voila sacheve la presentation de ce module, qui ma bien plu, dommage quil ne soit pas reconnu par leedomus en tant que peripherique pour ouvrant (volet roulant). Il fonctionne tres bien, repond tres bien et rapidement avec la Home Center 2 de Fibaro. Noublions pas non plus, quil donne la consommation instantanee lors des differentes operations. Il est plus petit quun module fibaro, mais avec une antenne plus imposante. Il est pret cable, ce qui est pas mal aussi, Il fait penser au module everspring que jai teste il ny a pas si longtemps. Vous trouverez ce module chez notre partenaire Domadoo a un tout petit peu moins que 58 . 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

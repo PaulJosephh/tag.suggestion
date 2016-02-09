@@ -1,0 +1,36 @@
+<document>
+	<date>2008-03-23</date>
+        <title>Plugin FlickrFeed pour Dotclear2</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dotclear</tag>
+                <tag>flickr</tag>
+                <tag>plugins</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dotclear</category>
+        </categories_set>
+        <text>Javais envie de mettre quelques photos dans la sidebar de ce blog, donc jai cree vite fait un  widget  pour  Dotclear2  que jai nomme  FlickrFeed . 
+
+
+ Linterface dadmin est reduite a sa plus simple expression, comme en atteste la capture decran ci-dessous: 
+
+
+ 
+
+
+ Le plugin nest disponible quau format ZIP, puisque visiblement  cest lavenir . 
+
+
+ Telechargement 
+
+ 
+ plugin-flickrfeed-1.0.2.zip 
+ 
+
+ Edit du 10 avril:  Version 1.0.1: correction mineure sur la validite xhtml (ajout dun attribut  alt  sur les balises images.) Merci Chris  
+
+
+ Edit du 14 septembre : Version 1.0.2 ajoutant une option permettant de specifier si le widget napparait que sur la homepage (merci giz404) 
+        </text>
+</document>

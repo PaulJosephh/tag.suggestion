@@ -1,0 +1,44 @@
+<document>
+	<date>2008-01-24</date>
+        <title>Symfonians, three days after launch</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>symfonians</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Looks like people seems to  appreciate  the service provided by  Symfonians.net . At least, they use it ! Here's some stats, three days after the site  has been launched  : 
+
+ 
+ 159  members  has registered  [ 1 ] 
+ 42  recommendations  has been given  [ 2 ] 
+ 56  applications  has been added in the directory 
+ 40  companies  has been submitted 
+ 9   job offers  has been published 
+ A dozen XSS/CSRF attack attempts. Ouch! 
+ 
+
+ I've just added some more cumulative filtering features on people, applications and jobs lists, so now you can : 
+
+ 
+ filter people available for hire, from a given country 
+ filter applications from a given country, filter only opensource ones  [ 3 ] 
+ filter job offers proposed by a company, in a country and eventually accepting teleworking  [ 4 ] 
+ 
+
+ I've also slighly microformatted some detailled views like company and person pages, using  hCard . 
+
+
+ By the way, I want to mention that if your cocain is  Django , you might use the  DjangoPeople  service, very nicely done and proven useful. Makes me think I must push on some geolocalization features on Symfonians... Stay tuned. 
+
+
+ Edit:  We got (roughly alpha)  maps . 
+ Notes 
+ [ 1 ] Too bad I had some mail blacklist problem :/ Stay tuned for a blog post on this issue. 
+ [ 2 ] I had two, one of them is about the fact I play the guitar  
+ [ 3 ] Four opensource applications on five  are french  \o/ 
+ [ 4 ] Play, say Hi! 
+        </text>
+</document>

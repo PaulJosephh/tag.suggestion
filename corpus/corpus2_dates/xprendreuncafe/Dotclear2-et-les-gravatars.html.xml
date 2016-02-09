@@ -1,0 +1,144 @@
+<document>
+	<date>2006-09-21</date>
+        <title>Dotclear2 et les gravatars</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>dotclear</tag>
+                <tag>gravatar</tag>
+                <tag>mail</tag>
+                <tag>php</tag>
+                <tag>tips</tag>
+        </tags_set>
+        <categories_set>
+                <category>Lien permanent</category>
+        </categories_set>
+        <text>Voici une astuce pour gerer les  gravatars  dans les commentaires de votre blog  Dotclear2 . Dans le repertoire de votre theme courant, creez un fichier  _public.php  et ajoutez-y ces quelques lignes de code  [ 1 ] : 
+
+ 
+?php
+$core-tpl-addValue('gravatar', array('gravatar', 'tplGravatar'));
+class gravatar {
+  public static function tplGravatar($attr)
+  {
+    return '?php echo md5(strtolower($_ctx-comments-getEmail(false))); ?';
+  }
+}
+?
+ 
+
+
+ Maintenant, dans votre fichier de template pour les billets (generalement, il s'agit de  post.html ), vous pouvez appeller votre image de gravatar de cette facon entre les balises  tpl:Comments  et  /tpl:Comments : 
+
+ 
+img src="http://www.gravatar.com/avatar.php?gravatar_id={{tpl:gravatar}}"
+     class="gravatar_img" alt="Gravatar Image" /
+ 
+
+
+ Voila, c'est code en 5 minutes et vous aurez constate que je ne genere pas directement l'url complete du gravatar et encore moins la syntaxe HTML de la balise image depuis la classe PHP, c'est tout simplement car: 
+
+ 
+ J'en ai la flemme, 
+ Je prefere gerer ca dans le template. 
+ 
+
+ Hope it helps anyway  
+
+
+ Edit du 22 septembre 2006 
+
+
+ Bon, voila finalement une version un poil plus customizable. Le code qui suit annule et remplace le precedent dans votre fichier  _public.php : 
+
+ 
+?php
+$core-tpl-addValue('gravatar', array('gravatar', 'tplGravatar'));
+
+class gravatar {
+
+  const
+    URLBASE = 'http://www.gravatar.com/avatar.php?gravatar_id=%samp;default=%samp;size=%d',
+    HTMLTAG = 'img src="%s" class="%s" alt="%s" /',
+    DEFAULT_SIZE = '40',
+    DEFAULT_CLASS = 'gravatar_img',
+    DEFAULT_ALT = 'Gravatar de %s';
+
+  public static function tplGravatar($attr)
+  {
+    $md5mail = '\'.md5(strtolower($_ctx-comments-getEmail(false))).\'';
+    $size    = array_key_exists('size',   $attr) ? $attr['size']   : self::DEFAULT_SIZE;
+    $class   = array_key_exists('class',  $attr) ? $attr['class']  : self::DEFAULT_CLASS;
+    $alttxt  = array_key_exists('alt',    $attr) ? $attr['alt']    : self::DEFAULT_ALT;
+    $altimg  = array_key_exists('altimg', $attr) ? $attr['altimg'] : '';
+    $gurl    = sprintf(self::URLBASE,
+                       $md5mail, urlencode($altimg), $size);
+    $gtag    = sprintf(self::HTMLTAG,
+                       $gurl, $class, eregi("%s", $alttxt) ?
+                                      sprintf($alttxt, '\'.$_ctx-comments-comment_author.\'') : $alttxt);
+    return '?php echo \'' . $gtag . '\'; ?';
+  }
+
+}
+?
+ 
+
+
+ Du cote de votre template  post.html  et toujours entre vos deux balises  tpl:Comments  et  /tpl:Comments , voila comment ca se passe: 
+
+ 
+{{tpl:gravatar class="gravatar_img" size="80" altimg="http://www.example.host/default_gravatar.png" alt="Gravatar de %s"}}
+ 
+
+
+ Je crois que les attributs sont assez parlants, mais en voici le detail au cas ou: 
+
+ 
+ class : le nom de la classe CSS a appliquer a l'image 
+ size : la taille en pixels 
+ alt : Le contenu du texte alternatif a l'image (acepte la syntaxe de  sprintf ) 
+ altimg : L'url de l'image par defaut en l'absence de gravatar (sera url encodee automatiquement) 
+ 
+
+ Enjoy. 
+
+
+ Finalement, voila le plugin  
+
+
+ Bon, je suis incorrigible mais l'occasion etait trop belle pour commencer a mettre le nez dans le nouveau systeme de plugins de Dotclear2; voici donc le plugin Gravatars  [ 2 ] : 
+
+ 
+ Gravatars pour Dotclear2 v1.0 - Installeur 
+ Gravatars pour Dotclear2 v1.0 - Archive tar.gz 
+ Gravatars pour Dotclear2 v1.0 - Archive Zip 
+ 
+
+ Bien evidemment, pour une toute premiere version, il doit exister quelques bugs et limitations: 
+
+ 
+ Pas de traduction francaise 
+ Pas d'aide contextuelle 
+ Pas de configuration par blog (a venir) 
+ Utilisation d'un archaique fichier INI (pas compris comment mettre les settings en base) 
+ 
+
+ Au chapitre des fonctionnalites: 
+
+ 
+ Possibilite de definir les parametres des gravatars de facon globale... 
+ ou individuellement au niveau du template d'appel (voir plus haut) 
+ 
+
+ Edit du 25 aout 2007 :  Grace a  Goulven , vous avez droit a la version patchee compatible Dotclear2b7 du plugin: 
+
+ 
+ Gravatars pour Dotclear2 v1.0.1 - Installeur 
+ Gravatars pour Dotclear2 v1.0.1 - Archive tar.gz 
+ Gravatars pour Dotclear2 v1.0.1 - Archive Zip 
+ 
+ Notes 
+ [ 1 ] Prochaine etape : gerer la coloration syntaxique du code dans Dotclear2. 
+ [ 2 ] Package grace au plugin  Pack it! d'Elaboration.be 
+        </text>
+</document>

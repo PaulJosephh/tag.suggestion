@@ -1,0 +1,28 @@
+<document>
+	<date>2009-12-07</date>
+        <title>TreeTagger pour ltiquetage morpho-syntaxique et la lemmatisation</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>TALN</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Letiquetage morpho-syntaxique dun texte ( Part-of-Speech tagging  POS tagging 
+ TreeTagger 
+ Installation de  TreeTagger le site de TreeTagger 
+ 
+Telecharger  le paquetage tree-tagger definitif 
+Telecharger  le script detiquetage 
+Telecharger  le script dinstallation 
+Telecharger les fichiers de parametrage pour l anglais francais encode en Latin1 francais encode en utf8 
+Executer le script dinstallation depuis le dit repertoire
+  sh install-tagger.sh 
+Si vous voulez que les autres utilisateurs du systeme puissent utiliser TreeTagger, il faut probablement  resoudre des problemes de droits  chmod -R a+rX repInstallTreeTagger 
+Reste enfin a tester linstallation
+  echo 'Hello world!' | repInstallTreeTagger/cmd/tree-tagger-english 
+ La page de TreeTagger Tree Tagger : Etiquetage morpho-syntaxique et Lemmatisation 
+        </text>
+</document>

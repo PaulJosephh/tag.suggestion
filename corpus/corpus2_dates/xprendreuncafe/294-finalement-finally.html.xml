@@ -1,0 +1,23 @@
+<document>
+	<date>2005-10-05</date>
+        <title>Finalement... finally ?</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>php</tag>
+                <tag>tips</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>En PHP5, j'utilise les blocs  try  et  catch  pour intercepter mes exceptions. Mais qu'en est-il de  finally , permettant d'effectuer une operation malgre les exceptions et existant dans d'autres langages comme Java? La fonction ne semble pas implementee en PHP... 
+
+
+ En l'occurence, il s'agit de fermer une connexion au SGBD si d'autres operations que la connexion elle-meme ont genere des exceptions... bloquantes. ce qui laisse une connexion non-fermee - ce qui est mal. En meme temps, gerer la fermeture propre de la connexion dans la classe de gestion d'exceptions, c'est pas tres propre, et ca peut vite devenir le bazar si on veut effectuer d'autres operations dans le meme genre? 
+
+
+ Des idees, suggestions pour pallier a ce souci?  
+
+
+ Note:   le premier qui me repond  Passer a Java , je le mord  
+        </text>
+</document>

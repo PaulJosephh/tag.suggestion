@@ -1,0 +1,23 @@
+<document>
+	<date>2006-02-14</date>
+        <title>Nouvelles extensions Firefox</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>browsers</tag>
+                <tag>extensions</tag>
+                <tag>firefox</tag>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>Voila quelques petites trouvailles, certaines plus recentes que d'autres... 
+
+ 
+ AutoCopy  ( XPI ) Place automatiquement une selection de texte dans le presse papier. 
+ Restart Firefox  ( XPI ) Permet de redemarrer Firefox d'un clic. Utile apres l'installation d'une nouvelle extension par exemple. 
+ FireBug  ( XPI ) L'arme ultime pour le debogage javascript et CSS d'un site web. 
+ SuperDragAndGo  ( XPI ) Ouvrir a peu pres n'importe quoi (lien, recherche sur texte, image...) en faisant un  drag and drop  d'un element sur la page. 
+ Jetable.org  ( XPI ) - Ce service permet de generer une adresse email temporaire pointant vers votre veritable adresse email. Tres utile pour les sites a inscription obligatoire. Le top, un clic droit sur un champ texte de formulaire vous propose d'inserer directement une adresse email  jetable  generee dynamiquement en fonction de vos parametres predefinis  
+ 
+        </text>
+</document>

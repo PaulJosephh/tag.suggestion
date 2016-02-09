@@ -1,0 +1,39 @@
+<document>
+	<date>2012-09-10</date>
+        <title>[Arrivage] Raspberry Pi, l&#8217;ordinateur &#224; 35$</title>
+        <author>Roxarmy</author>
+        <tags_set>
+                <tag>arm</tag>
+                <tag>debian</tag>
+                <tag>Raspberry Pi</tag>
+                <tag>Raspbian</tag>
+        </tags_set>
+        <categories_set>
+                <category>arrivage</category>
+                <category>D&#233;ballage</category>
+                <category>High-tech</category>
+        </categories_set>
+        <text>
+                                                 &#192; tout ceux qui me suivent depuis longtemps, vous remarquerez que j&#8217;en ai d&#233;j&#224; parler, il y a de cela pas mal de temps (Lire :&#160; [High-Tech] Vers un nouveau type d&#8217;ordinateur ? ). Je relance le sujet pour une simple raison : je viens enfin de recevoir mon petit&#160;Raspberry Pi ! Et oui, apr&#232;s pr&#232;s de deux mois et demi de pr&#233;-commande, le petit ordinateur &#224; presque 25&#8364; (car au final &#231;a revient &#224; 40&#8364; avec taxes et fdp) est enfin chez moi. 
+ 
+ Petit et peu ch&#232;re, voici les mots d&#8217;ordres de ce&#160;Raspberry Pi. Comme attendu, la b&#234;te est arriv&#233; totalement nu, pas de coque rien. Juste la carte m&#232;re dans un sachet antistatique  (et un tee-shirt, mais &#231;a c&#8217;est pour le fun) . Le petit ordi est vraiment &#8230; petit, de la taille d&#8217;une carte de cr&#233;dit, ce qui permet de le transporter de&#160;mani&#232;re&#160;tr&#232;s simple  (&#224; condition d&#8217;opter pour une coque, qui&#160;co&#251;te&#160;pratiquement le prix du&#160;Raspberry Pi) . 
+ 
+ Pour les caract&#233;ristiques techniques du petit ordinateur, exit les configs &#224; 5000&#8364;, on a ici le strict minimum : 
+ 
+ 
+ OS : Debian (linux)&#160;sp&#233;cialement&#160;optimis&#233; pour le&#160;Raspberry Pi 
+ Processeur ARM 11 &#8211; 700 MHz 
+ 256 Mo de SDRAM 
+ port HDMI et deux ports USB 
+ Un port Fast-Ethernet pour le mod&#232;le B 
+ D&#233;code des vid&#233;os en 1080p (Full HD) 
+ Compatible avec OpenGL ES2.0 
+ 
+ Alors, dire que l&#8217;ordinateur&#160;co&#251;te&#160;~25&#8364; c&#8217;est beau, mais il y a quand m&#234;me pas mal d&#8217;achat &#224; faire derri&#232;re. Commen&#231;ons par le stockage, j&#8217;ai pour ma part opt&#233; pour une carte SD classe 10 de 16 go au prix de 12&#8364;. &#192; cela il faut ajouter l&#8217;alimentation (un simple chargeur de t&#233;l&#233;phone &#181;USB fera l&#8217;affaire, ou encore une batterie d&#8217;appoint pour smartphone), ainsi que le c&#226;ble&#160;HDMI, le clavier et la souris. 
+ M&#8217;enfin, apr&#232;s achat de tout ce qu&#8217;il faut j&#8217;ai enfin un montage fonctionnel. L&#8217;affichage se fait via le port HDMI et la petite b&#234;te est aliment&#233; par une batterie externe de 7000 mAh &#224; 1A. La distribution utilis&#233; est la&#160;Raspbian &#8220;wheezy&#8221;, une distribution Debian optimis&#233; pour le Raspberry (offrant jusqu&#8217;&#224; 40% de performance&#160;suppl&#233;mentaire sur certaines t&#226;che par rapport &#224; une autre distribution). 
+ Bon, apr&#232;s installation de l&#8217;os et de la machine, je me retrouve avec un bon petit pc fonctionnel ! Mais je commence &#224; me frotter &#224; quelques&#160;probl&#232;mes, premi&#232;rement m&#234;me si mon clavier utilis&#233; est un azerty, Debian me le consid&#232;re comme un qwerty. Autre&#160;probl&#232;me, malgr&#233; avoir utilis&#233; le logiciel recommand&#233; (sur Windows) pour l&#8217;installation de l&#8217;os sur la carte SD, je n&#8217;ai pas mes 16 Go de m&#233;moire mais seulement 4 Go (qui sont d&#8217;ailleurs compl&#232;tement utilis&#233; par l&#8217;os). C&#8217;est un s&#233;rieux probl&#232;me car impossible de copier quoi que ce soit. Mes cours d&#8217;admin syst&#232;me me serviront, mais d&#232;s que j&#8217;aurai un peu de temps devant moi. 
+ Pour parler de l&#8217;utilisation, le Raspberry Pi est assez fluide, m&#234;me si on sent que la b&#234;te est tr&#232;s vite&#160;rattrap&#233;&#160;par ses faibles performances. Quelques fois il faut 3-4 secondes pour lancer une application et de temps en temps la souris saccadent lors des d&#233;placements, mais malgr&#233; &#231;a, &#231;a reste tout &#224; fait utilisable (pour du d&#233;veloppement tr&#232;s basique ou traitement de texte&#8230;. enfin je crois). 
+ Bien s&#251;r, ici je vous donne qu&#8217;une rapide description, j&#8217;essaierai de revenir sur une utilisation au quotidien d&#232;s que j&#8217;aurai r&#233;gl&#233; les quelques probl&#232;mes que j&#8217;ai. Mais d&#8217;apr&#232;s mes premi&#232;res utilisations, ce Raspberry Pi rempli ses fonctions : proposer une machine &#224; faible&#160;co&#251;t&#160;qui reste totalement fonctionnelle. 
+                                                                                         
+        </text>
+</document>

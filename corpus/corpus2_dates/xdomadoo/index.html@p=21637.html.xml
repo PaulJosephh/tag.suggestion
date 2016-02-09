@@ -1,0 +1,15 @@
+<document>
+	<date>2011-07-19</date>
+        <title>Guide dinstallation du micromodule ebode EMML</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>X10 Produits</category>
+        </categories_set>
+        <text>
+                                                         
+  Le micromodule EMML est un module emetteur  X10 Il est alimente sur batterie et ne necessite donc pas de connexion au reseau electrique. Il peut controler tout type de recepteur compatible avec le protocole  X10    Connectez les 2 fils du micromodule EMML a votre interrupteur. Il peut aussi bien etre utilise avec un interrupteur a bascule ou un interrupteur a impulsion.   De base, le micromodule EMML est parametre sur ladresse A1. Vous pouvez bien evidemment la modifier si necessaire. Pour cela, il faut mettre le micromodule en mode programmation en appuyant brievement sur les touches MARCHE (1) et ARRET (0).   La LED devient  orange Pour regler le code MAISON, appuyez sur le bouton (0) autant de fois que necessaire pour obtenir le code MAISON desire, puis relachez la pression. Exemple : A = 1 fois, B = 2 fois, C = 3 fois,  P = 16 fois.   Apres le reglage du code MAISON, la  LED clignote 3 fois en  orange Pour regler le code UNITE, remettez le micromodule en mode programmation, puis appuyez sur le bouton (1) autant de fois que necessaire pour obtenir le code UNITE desire, puis relachez la pression. Exemple : 1 = 1 fois, 2 = 2 fois, 3 = 3 fois 16 = 16 fois.   Apres le reglage du code UNITE, la  LED clignote 3 fois en  orange Vous pouvez maintenant installer le micromodule et linterrupteur dans une boite dencastrement a lendroit souhaite.  Votre micromodule est programme et peut desormais controler le ou les recepteurs disposant de la meme adresse.     Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

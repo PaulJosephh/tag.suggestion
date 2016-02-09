@@ -1,0 +1,20 @@
+<document>
+	<date>2012-03-22</date>
+        <title>Tutoriel UIMA I (variante) : code de lannotateur utilisant directement le CAS plutt que le JCas</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Annotator</tag>
+                <tag>CAS</tag>
+        </tags_set>
+        <categories_set>
+                <category>TALN</category>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+La partie  3. Developper le code de lannotateur Tutoriel UIMA I : creation dun composant dannotation 
+import org.apache.uima.analysis_component.CasAnnotator_ImplBase; 
+ 
+ Sommaire UIMA sur ce blog 
+        </text>
+</document>

@@ -1,0 +1,14 @@
+<document>
+	<date>2012-10-30</date>
+        <title>Guide de configuration de lapplication iPhone Fibaro HC2</title>
+        <author> Maximin </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                          Pour tous les detenteurs de la box Home Center 2 de  Fibaro application Fibaro HC2 presente gratuitement sur lAppStore   Lors du lancement de cette application pour la premiere fois, vous arrivez sur lecran daccueil et il vous est impossible de realiser quoi que soit.     Cest normal, il faut synchroniser lapplication avec votre box. Pour cela, allez dans   Reglages Fibaro   Vous arrivez alors sur la page de configuration de lapplication  Fibaro  Parametres locaux: Permet de piloter votre box en reseau local.   Adresse IP du Home Center: Fibaro Finder Identifiant: Fibaro Mot de passe:  Fibaro Gestes:    Lili son HQ:   Reglages Distants: Permet de piloter votre box depuis nimporte ou dans le monde. Votre iPhone ainsi que la box doivent etre allumes et connectes a Internet. (Si ce nest pas fait, il faudra lactiver depuis   Configuration a acces distant: OUI  Fibaro    Identifiant:  fibaro Mot de passe:  fibaro PIN:       Une fois ces donnees entrees, vous pouvez quitter les reglages et relancer lapplication, apres quelques secondes de chargement la temperature, lhumidite et la vitesse du vent devraient safficher en haut a droite de votre springboard. Votre application et votre box sont maintenant synchronisees!   En vous baladant dans les menus vous devriez pouvoir retrouver vos differents modules, vos pieces, vous pouvez meme les commander vocalement grace a LiLi. Pour retourner a la page daccueil de lapplication cliquez tout en haut a gauche sur le logo de  Fibaro     Voila, il ne vous reste plus qua profiter du controle absolu de votre maison depuis votre iPhone!  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

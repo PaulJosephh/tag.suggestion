@@ -1,0 +1,57 @@
+<document>
+	<date>2012-12-24</date>
+        <title>Quelles nergies utiliser ? La cintique ?</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ On parle des objets connectes, mais maintenant comment sont ils alimentes ou comment les alimenter et a partir de quelle energie ? De plus en plus on essaie de recuperer de lenergie par tous les moyens, on le voit avec le Green Power du ZigBee sans batterie (voir article du  blog de Domadoo ). 
+ Et si une lampe pouvait produire sa propre energie pour fonctionner a laide de son energie cinetique. En voila un bel exemple : 
+ La lampe en nylon produite par impression 3d et personnalisee par la Dr. Margot Krasojevic , postdoctorante a linstitut mondial darchitecture, est suspendue par un axe, de sorte que son poids et sa forme contribuent a creer un vecteur cinetiquelorsquelletourne autour de son axe de rotation. 
+ 
+ Le produit est affecte par les modifications mineures de lenvironnement telles que la temperature et les courants dair qui suivent le trace de ses courbes. Le luminaire a une diode sensible au mouvement coincee entre deux sections en suspension (aussi concues par impression 3d) qui alimentent la batterie de la lumiere DEL (Diode electroluminescente) lorsquelles sont en mouvement. 
+ A cause de sa forme, la lumiere accelere considerablement en raison de sa conservation du moment angulaire (cinetique) : la structure autour de lampoule est reduite, son intensite dinertie de rotation affecte sa vitesse de rotation qui augmente pour maintenir une qualite de mouvement angulaire constante. Il en resulte un meilleur eclairage. Le luminaire a ete influence par la physique dun patineur qui effectue une toupie. 
+  
+ Lensemble pese 145g, le materiau est un polymere de nylon, mais il est egalement disponible en un email leger poli en ceramique blanche qui na pas beaucoup de resistance, cest-a-dire, peu de friction a lair  contrairement a de plus rudes polymeres aux bords inegaux qui tendent a ralentir la rotation par rapport a un revetement ceramique. 
+ 
+ Le luminaire est compose de deux elements verticaux qui se glissent dans un autre a laide de pinces. Lorsque la structure tourne, une dynamo transforme lenergie cinetique du mouvement de la lumiere en electricite, qui est ensuite utilise pour alimenter la DEL. Cette dynamo est un generateur electrique qui est maintenu entre les deux elements verticaux 3D imprimes, de sorte que, plus ils tournent vite, plus la leclairage est lumineux (effet dacceleration de la lumiere + alimentation par lenergie cinetique). 
+ Actuellement, le luminaire est en train detre adapte pour ajouter des elements internes 3d imprimes, avec une bobine en cuivre qui utilisera un aimant puissant fixe au plafond, dans laxe vertical du luminaire, et un autre aimant, distinct, monte sur les elements 3d imprimes. Ces aimants assurent le passage du courant lors de la rotation des structures par linduction dun courant electrique qui allume la diode electroluminescente. Alors, plus le luminaire tournera vite, plus brillante deviendra la DEL. 
+ 
+  
+ A prendre egalement en consideration, lapplication dun element piezoelectrique de zinc qui produit un courant quand le luminaire tourne, ce courant est suffisamment fort pour allumer une DEL 1.5V. 
+ Les etudes dans le domaine des semi-conducteurs aident a leur prix abordable, produisant des eclairages durables pour lavenir  une technologie qui fut le fondement de reflexion de toute la serie de ces luminaires. 
+ 
+ source: civilisation2.org 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

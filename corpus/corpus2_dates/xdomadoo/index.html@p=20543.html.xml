@@ -1,0 +1,17 @@
+<document>
+	<date>2010-06-10</date>
+        <title>Guide dinstallation du micromodule SW12</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>X10 Produits</category>
+        </categories_set>
+        <text>
+                                                         
+ Le micromodule SW12 permet de commander un volet motorise manuellement en utilisant linterrupteur connecte, ou a distance par des signaux electriques  X10 Il sinstalle simplement derriere un interrupteur existant.  Cablez le micromodule comme indique sur le schema suivant : 
+ 
+ Une fois le micromodule connecte, le volet motorise est de nouveau pilotable par votre interrupteur dorigine.  Il faut desormais indiquer au micromodule la hauteur de la fenetre, cest a dire le temps necessaire pour passer dun volet completement ouvert a un volet completement ferme. Il doit egalement savoir si le volet est actuellement completement leve ou completement abaisse ou bien encore dans une position intermediaire. Appuyez sur la touche HAUT de linterrupteur. Le volet va senrouler jusqua atteindre sa position limite. Continuez dappuyer sur la touche et 5 a 10 secondes apres avoir atteint la position haute, le volet va redescendre durant 1 seconde pour indiquer que le micromodule est passe en Mode Programmation. Vous pouvez alors relacher la touche HAUT de linterrupteur. Appuyez de nouveau sur la touche HAUT de linterrupteur jusqua ce que le volet soit completement enroule. Appuyez maintenant sur la touche BAS de linterrupteur pour abaisser le volet, puis relachez la lorsque le volet est completement abaisse. Il faut maintenant parametrer ladresse du micromodule. Pour cela, vous devez envoyer le message  X10 X10 Appuyez a nouveau sur la touche BAS de linterrupteur. Le volet va remonter durant environ 2 secondes avant de revenir a la position completement descendue afin dindiquer quil a quitte le Mode Programmation. Votre micromodule SW12 est desormais configure et permet donc de commander a distance votre volet roulant par lenvoie de commande  X10  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

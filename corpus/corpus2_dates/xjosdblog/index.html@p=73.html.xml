@@ -1,0 +1,16 @@
+<document>
+	<date>2007-12-15</date>
+        <title>Gnome</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Applications</category>
+                <category>Systeme</category>
+        </categories_set>
+        <text>
+                                                 
+Pour  desactiver le mode spatial  GNOME Gconf apps/nautilus/preferences always_use_browser gconftool-2 --type boolean --set /apps/nautilus/preferences/always_use_browser true 
+Quand on  efface un utilisateur /tmp /var/tmp /var/mail gnome 
+        </text>
+</document>

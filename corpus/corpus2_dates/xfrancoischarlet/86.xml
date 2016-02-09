@@ -1,0 +1,84 @@
+<document>
+	<date>2013-03-13</date>
+        <title>Ghostery, un plug-in qui emp&#234;che d'&#234;tre suivi &#224; la trace sur le web</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Cookies</tag>
+                <tag>Protection des donn&#233;es</tag>
+                <tag>Publicit&#233;</tag>
+                <tag>Sph&#232;re priv&#233;e</tag>
+        </tags_set>
+        <categories_set>
+                <category>Technologies</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Depuis quelque temps, je r&#226;le beaucoup contre la diminution de la vie priv&#233;e sur Internet. Voyez-vous, si je n'ai pas n&#233;cessairement des choses &#224; cacher, je n'appr&#233;cie pas qu'on collecte des donn&#233;es &#224; mon sujet et &#224; tout bout de champ, m&#234;me si cela permet &#224; Google ou Facebook d'&#234;tre gratuits. J'ai donc cherch&#233; un moyen de savoir ce qui se cache derri&#232;re chaque site que je visite, et d'emp&#234;cher que cela collecte des donn&#233;es et me suive partout. 
+ Pr&#233;sentation 
+ Et j'ai trouv&#233; une extension pour navigateur web&#160;:  Ghostery . Il appartient et a &#233;t&#233; d&#233;velopp&#233; par&#160; Evidon , une soci&#233;t&#233; dont le but est&#160;d'am&#233;liorer la transparence dans la publicit&#233; en ligne en fournissant aux consommateurs dans ce but. Mais Evidon propose aussi des outils aux soci&#233;t&#233;s pour rendre plus transparentes leur gestion des publicit&#233;s et leur politique de confidentialit&#233;.&#160;On pourrait penser que Ghostery envoie des donn&#233;es &#224; Evidon, mais je ne pense pas que cela soit le cas&#160;: en deux mois, les seules requ&#234;tes vers leurs serveurs sont celles des mises &#224; jour de la base de donn&#233;es de Ghostery. 
+ Ce plug-in fonctionne avec&#160;Internet Explorer, Opera, Firefox, Safari, et Google Chrome. Il permet &#224; l'utilisateur de d&#233;tecter et de bloquer dans les pages web des &#233;l&#233;ments invisibles qui permettent de collecter puis de transmettre des donn&#233;es sur vos habitudes de navigation. Il permet aussi de bloquer les &#233;l&#233;ments qui traquent les d&#233;placements des internautes, les widgets des sites sociaux (Facebook, Twitter, AddThis, Google+, etc.) et les syst&#232;mes de mesure d'audience (Google Analytics, Piwik, QuantServe, etc.). 
+ Les donn&#233;es collect&#233;es comprennent g&#233;n&#233;ralement (mais pas toujours) l'historique de recherche, les informations sur votre navigateur, la date et l'heure, des donn&#233;es d&#233;mographiques, le mat&#233;riel et les logiciels utilis&#233;s, les pages consult&#233;es, les donn&#233;es contenues dans les cookies, votre adresse IP, des donn&#233;es de localisation, etc. Ces donn&#233;es sont en g&#233;n&#233;ral anonymis&#233;es, mais l'adresse IP n'est que pseudonymis&#233;e ce qui permet de vous identifier tr&#232;s facilement. 
+ Utilisation 
+ Une fois le plug-in install&#233;, il vous proposera de bloquer les diff&#233;rents &#233;l&#233;ments ci-dessus. Vous pouvez le faire en bloc (par cat&#233;gorie) ou individuellement. J'ai opt&#233; pour la premi&#232;re option, quitte &#224; d&#233;bloquer des &#233;l&#233;ments au fur et &#224; mesure, si n&#233;cessaire. (Notez que contrairement &#224; l'image ci-dessous, tout est bloqu&#233; chez moi. C'est pour cet article que j'ai d&#233;coch&#233; une case, pour les autres illustrations.) 
+ 
+ &#160; 
+ Il est &#233;galement important d'activer la mise &#224; jour automatique de la base de donn&#233;es de Ghostery, afin qu'il prenne en compte (et bloque, le cas &#233;ch&#233;ant) les nouveaux &#233;l&#233;ments. 
+ Si vous le d&#233;sirez, vous pouvez activer l'option&#160;GhostRank qui permet &#224; Evidon de r&#233;colter des donn&#233;es statistiques de mani&#232;re anonyme. 
+ Exemples 
+ L'exemple est le meilleur moyen de se convaincre de l'utilit&#233; de ce plug-in. Une fois Ghostery activ&#233; et configur&#233; comme sur l'image ci-dessus, il m'affiche un popup violet en haut &#224; droite de mon navigateur pour m'indiquer tous les &#233;l&#233;ments qu'il a trouv&#233;s et bloqu&#233;s. 
+ Dans le cas d'Eurosport.fr, le constat est sans appel&#160;: onze &#233;l&#233;ments trouv&#233;s rien que sur la page d'accueil, dont cinq widgets pour r&#233;seaux sociaux. 
+ 
+ 
+ Les &#233;l&#233;ments barr&#233;s sont bloqu&#233;s, les autres autoris&#233;s. En cliquant sur l'ic&#244;ne de Ghostery dans le navigateur, on peut obtenir le d&#233;tail des &#233;l&#233;ments bloqu&#233;s. 
+ 
+ 
+ On peut aussi obtenir des informations suppl&#233;mentaires comme les donn&#233;es collect&#233;es, la soci&#233;t&#233; qui les collecte, etc. en cliquant sur "more info". 
+ Essayons d'autres sites&#160;:  Gizmodo.com ,  NZZ.ch ,  Economist.com ,  20min.ch ,&#160; RTS.ch &#160;et  Meteosuisse.ch . 
+
+                 
+                        #gallery-2 {
+                                margin: auto;
+                        }
+                        #gallery-2 .gallery-item {
+                                float: left;
+                                margin-top: 10px;
+                                text-align: center;
+                                width: 33%;
+                        }
+                        #gallery-2 img {
+                                border: 2px solid #cfcfcf;
+                        }
+                        #gallery-2 .gallery-caption {
+                                margin-left: 0;
+                        }
+                        /* see gallery_shortcode() in wp-includes/media.php */
+                 
+                 
+                         
+                                 
+                         
+                         
+                                 
+                         
+                         
+                                 
+                         
+                         
+                                 
+                         
+                         
+                                 
+                         
+                         
+                                 
+                         
+                 
+
+ La conclusion s'impose d'elle-m&#234;me&#160;: o&#249; que nous allions, nous sommes suivis. Si ce sentiment vous d&#233;range, Ghostery est fait pour vous. En esp&#233;rant qu'il fasse bien ce pourquoi il est fait. En tout cas, les pubs Google ou sur Facebook sont devenues assez al&#233;atoires depuis que j'utilise Ghostery. Les pubs Google n'affichent plus des liens vers des soci&#233;t&#233;s vendant des produits pour lesquels j'aurais fait une recherche sur un site comme eBay (o&#249; l'on retrouve le tracker  Doubleclick  de Google). 
+ Rappel  :&#160;mon site utilise  Piwik , un logiciel libre et opensource de suivi afin de r&#233;colter des statistiques. Vos adresses IP compl&#232;tes ne sont pas enregistr&#233;es&#160;; de plus, elles sont anonymis&#233;es. Si vous ne voulez pas &#234;tre suivi(e) quand vous naviguez sur mon site, cliquez dans la case au bas de  cette page . Mon site respecte &#233;galement votre choix de ne pas &#234;tre suivi si vous avez activ&#233; la fonction " Do not track "&#160;dans votre navigateur. 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

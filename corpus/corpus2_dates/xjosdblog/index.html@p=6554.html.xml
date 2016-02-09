@@ -1,0 +1,145 @@
+<document>
+	<date>2015-03-11</date>
+        <title>Xavante : Handler de type fonction WSAPI</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Lua</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Eloise</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 Objectif 
+ 
+Jai presente dans un  precedant billet WSAPI-Xavante WSAPI 
+Linteret dutiliser  WSAPI beneficier de librairies Site web du tutoriel ---------------------------------------------------------------- -- Exemple de mise en oeuvre de WSAPI et Xavante (tuto03.lua) -- ---------------------------------------------------------------- local = require ( "xavante" ) local = require ( "wsapi.xavante" ) local = require ( "wsapi.request" ) -- Formatage sous forme de chaine de caracteres du contenu d'une variable local function ( , ) local = "" = or "" local = "    " if ( type ( ) ~= "table" ) then if ( type ( ) == "string" ) then = string.format ( "%q" , ) else = tostring ( ) end else local = "" for , in pairs ( ) do = .. = ",  \n if ( type ( ) == "number" ) then = .. .. .. ( , .. ) else = .. .. .. ( , .. ) .. " = " .. ( , .. ) end end = "{ \n .. .. " \n .. .. "}" end return end -- La fonction WSAPI permettant de repondre a des requetes GET ou POST function ( ) local = . ( ) local = { [ "Content-type" ] = "text" } local function ( ) coroutine.yield ( string.format ( " \n \n , ( ) ) ) coroutine.yield ( string.format ( " \n \n \n , ( ) ) ) end return 200 , , coroutine.wrap ( ) end local = { { -- Gestionnaire de fonction WSAPI (http://localhost:8080/fwsapi) = { "/fwsapi$" , "/fwsapi/" } , = . ( ) } , } -- Message de depart . ( function ( ) local date = os.date ( "[%Y-%m-%d %H:%M:%S]" ) print ( string.format ( "%s Xavante started on port(s) %s" , date , table.concat ( , ", " ) ) ) end ) -- Configuration . { = { = "*" , = 8080 } , = { = } , } -- Demarrage (Dans un terminal : wsapi -c tuto03.lua -p 8080) . ( ) -- curl --data "pname1=pvalue1pname2=pvalue2" "http://localhost:8080/fwsapi/path1?gname1=gvalue1gname2=gvalue2" -- curl -H "content-type: text/plain" --data "Donnees en POST" "http://localhost:8080/fwsapi" Le resultat 
+ 
+Bien entendu, la premiere etape consiste a lancer le serveur web:  wsapi -c tuto03.lua -p 8080 
+Dans le code ci-dessus, la fonction  fonctionWSAPI(wsapi_env) 
+On peut tester une requete POST sur cette fonction en saisissant dans un terminal la commande suivante:
+ curl  --data "pname1=pvalue1pname2=pvalue2" "http://localhost:8080/fwsapi/path1?gname1=gvalue1gname2=gvalue2" 
+wsapi_env = {
+    "SCRIPT_NAME" = "", 
+    "QUERY_STRING" = "gname1=gvalue1gname2=gvalue2", 
+    "APP_PATH" = "", 
+    "HTTP_COOKIE" = "", 
+    "CONTENT_LENGTH" = "29", 
+    "CONTENT_TYPE" = "application/x-www-form-urlencoded", 
+    "DOCUMENT_ROOT" = "", 
+    "input" = {
+        "length" = 29, 
+        "read" = function: 0xc852a0
+    }, 
+    "PATH_INFO" = "/fwsapi/path1", 
+    "error" = file (0x7f5f13d711c0), 
+    "REQUEST_METHOD" = "POST"
+}
+
+req = {
+    "method" = "POST", 
+    "query_string" = "gname1=gvalue1gname2=gvalue2", 
+    "app_path" = "", 
+    "GET" = {
+        "gname2" = "gvalue2", 
+        "gname1" = "gvalue1"
+    }, 
+    "env" = {
+        "SCRIPT_NAME" = "", 
+        "QUERY_STRING" = "gname1=gvalue1gname2=gvalue2", 
+        "APP_PATH" = "", 
+        "HTTP_COOKIE" = "", 
+        "CONTENT_LENGTH" = "29", 
+        "CONTENT_TYPE" = "application/x-www-form-urlencoded", 
+        "DOCUMENT_ROOT" = "", 
+        "input" = {
+            "length" = 29, 
+            "read" = function: 0xc852a0
+        }, 
+        "PATH_INFO" = "/fwsapi/path1", 
+        "error" = file (0x7f5f13d711c0), 
+        "REQUEST_METHOD" = "POST"
+    }, 
+    "path_info" = "/fwsapi/path1", 
+    "cookies" = {
+
+    }, 
+    "script_name" = "", 
+    "POST" = {
+        "pname1" = "pvalue1", 
+        "pname2" = "pvalue2"
+    }, 
+    "parse_post" = function: 0xc86050, 
+    "doc_root" = "", 
+    "params" = {
+
+    }
+}
+ 
+On peut voir que les parties GET et POST ont ete correctement decomposees ce qui facilite leur manipulation.
+WSAPI se base sur le champ  wsapi_env.CONTENT_TYPE 
+ wsapi_env.CONTENT_TYPE x-www-form-urlencoded wsapi_env.CONTENT_TYPE multipart/form-data les autres cas. 
+Dans les deux premiers cas WSAPI interprete le POST. Si ce dernier est mal formate, on nobtient rien (le POST est perdu), ou pire, une erreur dexecution peut survenir.
+Dans le troisieme cas, WSAPI retourne le POST de maniere litterale:
+ curl  -H "content-type: text/plain" --data "Donnees en POST" "http://localhost:8080/fwsapi" 
+wsapi_env = {
+    "SCRIPT_NAME" = "", 
+    "QUERY_STRING" = "", 
+    "APP_PATH" = "", 
+    "HTTP_COOKIE" = "", 
+    "CONTENT_LENGTH" = "16", 
+    "CONTENT_TYPE" = "text/plain", 
+    "DOCUMENT_ROOT" = "", 
+    "input" = {
+        "length" = 16, 
+        "read" = function: 0x20f2a80
+    }, 
+    "PATH_INFO" = "/fwsapi", 
+    "error" = file (0x7f9cdea011c0), 
+    "REQUEST_METHOD" = "POST"
+}
+
+req = {
+    "method" = "POST", 
+    "query_string" = "", 
+    "app_path" = "", 
+    "GET" = {
+
+    }, 
+    "env" = {
+        "SCRIPT_NAME" = "", 
+        "QUERY_STRING" = "", 
+        "APP_PATH" = "", 
+        "HTTP_COOKIE" = "", 
+        "CONTENT_LENGTH" = "16", 
+        "CONTENT_TYPE" = "text/plain", 
+        "DOCUMENT_ROOT" = "", 
+        "input" = {
+            "length" = 16, 
+            "read" = function: 0x20f2a80
+        }, 
+        "PATH_INFO" = "/fwsapi", 
+        "error" = file (0x7f9cdea011c0), 
+        "REQUEST_METHOD" = "POST"
+    }, 
+    "path_info" = "/fwsapi", 
+    "cookies" = {
+
+    }, 
+    "script_name" = "", 
+    "POST" = {
+        "post_data" = "Donnees en POST"
+    }, 
+    "parse_post" = function: 0x2138570, 
+    "doc_root" = "", 
+    "params" = {
+
+    }
+}
+ References 
+ 
+GitHub:  keplerproject/xavante keplerproject/wsapi Type MIME WSAPI et Xavante : serveur Web Lua 
+ Sommaire Domotique 
+        </text>
+</document>

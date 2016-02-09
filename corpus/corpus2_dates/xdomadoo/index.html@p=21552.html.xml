@@ -1,0 +1,15 @@
+<document>
+	<date>2011-05-24</date>
+        <title>Guide pour choisir son interface RFXCOM</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique RFXCOM</category>
+        </categories_set>
+        <text>
+                                                          Le choix dune interface  RFXCOM La plupart des utilisateurs Europeens choisissent : De recevoir sur la frequence 433,92MHz les signaux des telecommandes, capteurs comme ceux de  X10 KlikAanKlikUit HomeEasy Chacon DomiaLite Nexa Oregon Scientific De recevoir sur la frequence 868.95MHz les signaux des capteurs de securite  Visionic De controler sur la frequence 433,92MHz des dispositifs comme  X10 KlikAanKlikUit HomeEasy Chacon DomiaLite Nexa  Une fois que vous avez decide ce que vous souhaitez recevoir et/ou controler, vous devez choisir quelle interface vous voulez utiliser :  USB Ethernet LAN WiFi WLAN Linterface  USB Ethernet WiFi WiFi Les interfaces  Ethernet WiFi  Quelques points importants: Les interfaces possedent 1ou 2 ports internes. Un port interne peut avoir 1 emetteur ou 2 recepteurs de connecte. Par exemple: une interface  USB Si vous voulez utiliser un emetteur et un recepteur, il faut choisir un MASTER recepteur (cest le 1 er nd  Tableau des logiciels compatibles :   * RFXMitter uniquement Exemples de configurations Europeennes : USB Recepteur  USB Ajoutez le recepteur  X10 OU ajoutez un recepteur Visonic 868,95MHZ (ref : 40079) Transmetteur RFXmitter  USB xPL DomotiGa Homeseer OU Transmetteur  USB  Transmetteur  Ethernet Interface LAN avec recepteur et RFXmitter 433,92MHz integres (pour Girder,  xPL DomotiGa Homeseer Ajoutez un recepteur Visionic 868,95MHZ (ref : 40079)  Recepteur + Transmetteur  Ethernet Recepteur LAN 433,92MHz (ref : 10203)
+ Ajoutez un RFXmitter (pour Girder,  xPL DomotiGa Homeseer OU ajoutez un transmetteur (pour dautres logiciels) (ref : 70031) ET ajouter un recepteur Visionic 868,95MHZ (ref : 40079)  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,39 @@
+<document>
+	<date>2013-11-15</date>
+        <title>Vera Lite Smart Home Controllers</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Vera</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+
+ Specifications 
+ CPU: 500 MHz MIPS SoC Flash Memory: NAND 32 MB DDR2 Memory:  64 MB USB Port: 1 WAN Port: 1 Z-Wave: Built-in with internal antennae Dimensions (HxWxD):116mm x 95mm x 44mm Power Supply: DC 12V/2A and 4 AA batteries Limitation a 50 (ou 70, ce nest pas tres clair) modules Prix: environ 180 (parmi les moins cheres des box domotiques) Presentation 
+La  Vera Lite autonome i.e. non proprietaire Z-Wave 
+Trois boutons sont disponibles sur le dessus de la box: un bouton  inclusion exclusion pile Vera Installation 
+ 
+ Brancher le cable Internet puis la prise secteur. Attendre que les trois premiers voyants (bleu, orange et vert) soient allumes sans clignoter. Rechercher ladresse IP de la Vera en utilisant son routeur (sa box Internet). Se rendre dans  SETUPFirmware Vera Se rendre dans  SETUPNet  Wi-fi;Manually configure (advanced) Vera Se rendre dans  SETUPLocation Creer son compte MiOS (mince) pour pouvoir securiser (identifiant + mot de passe) la connexion a la  Vera Sidentifier avec son compte MiOS. Se rendre dans  SETUPUnit Settings Vera Yes Do you want to secure this Vera? Vera 
+ Remarque Firefox Google Chrome Vera Firefox 
+ Premiere impression de linterface UI5 Synology Inclusion 
+ Pour initier le processus dinclusion sur la  Vera 
+ Simplement appuyer sur le bouton + si la  Vera Si la  Vera Vera Vera Pour inclure un module Z-Wave il suffit de rapprocher la  Vera Vera Pour mettre fin au processus dinclusion il faut appuyer sur le bouton + de la  Vera Vera Sous UI7, il semble quil faut faire un appui long (environ 3 secondes) suivi dun appui court. Exclusion 
+ Pour initier le processus dexclusion sur la  Vera 
+ Simplement appuyer sur le bouton  si la  Vera Si la  Vera Vera Vera Pour exclure un module Z-Wave il suffit de rapprocher la  Vera Vera Pour mettre fin au processus dexclusion il faut appuyer sur le bouton + (et pas -) de la  Vera Vera Problemes 
+ Veralite  Undefined Device impossible a supprimer Devices http://Vera_IP:3480/data_request?id=deviceaction=deletedevice=device_ID Veralite  Undefined Device impossible a supprimer Mon avis 
+Mon avis concernant la  Vera Lite SynoZwave Vera Lite Fibaro 
+ Lindependance avec les serveurs de lentreprise La possibilite de programmer sa domotique avec un vrai langage de programmation, Lua en loccurrence (En fait, je nutilise pratiquement pas les scenes je developpe tous en Lua) Louverture de la box grace au langage de programmation, aux plugins, a lOS embarque sur lequel on peut se connecter en ssh La relative stabilite de la box, elle na plante quune fois pour le moment Son prix (cest un facteur important pour debuter, moins ensuite) 
+Helas, il ny a pas que du positif:
+ 
+ La  Vera Lite rebooter La  Vera Lite Linterface nest pas agreable autant dun point de vue esthetique quergonomique Le developpement dun  plugin Limmobilisme de la societe  Vera Smart Home Controllers VeraPlus VeraPro presentees en janvier 2013 au CES firmware Quelques liens 
+ 
+Shopping:  Vera Lite  Controleur domotique Z-wave Test de la Vera Lite ! VeraLite : La plus petite Box Domotique Z-wave Box domotique Vera UI5, par la pratique Domotique  ma solution domotique sous vera lite Z-wave : Comment inclure ou exclure votre peripherique 
+ Choix dun controleur Domotique Sommaire Domotique 
+        </text>
+</document>

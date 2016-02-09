@@ -1,0 +1,31 @@
+<document>
+	<date>2014-04-24</date>
+        <title>Spyder 4 Elite par Datacolor. La calibration  la porte de tous.</title>
+        <author>SHOTS</author>
+        <tags_set>
+                <tag>ecran</tag>
+                <tag>calibration</tag>
+                <tag>datacolor</tag>
+                <tag>photo</tag>
+                <tag>spyder3</tag>
+                <tag>Spyder4Elite</tag>
+        </tags_set>
+        <categories_set>
+                <category>news</category>
+                <category>photo</category>
+                <category>technique</category>
+        </categories_set>
+        <text>
+ Spyder 4. Un outil de calibration indispensable. 
+ Tu calibres ton ecran toi ? Je me souviens davoir souri chaque fois quon ma pose cette question. Alors, voyons les choses de maniere absolument radicale.  Si tu fais de la photo numerique et que tu ne calibres pas lecran sur lequel tu travailles, tu as rate ta vie . Ou du moins une etape decisive dans le processus. Pour ma part, aussi loin que je men souvienne, je travaille sur des ecrans calibres. Sauf quavant, nos ecrans coutaient un bras et le systeme de calibration coutait un il, mais ca, comme on dit dans la pub, cetait avant. Un jour, jai decouvert que  Datacolor  concevait et commercialisait des sondes de calibration dont le prix etait enfin abordable. Depuis plusieurs annees maintenant, je travaillais avec une sonde  Spyder3 Elite , une sonde qui ma donne entiere satisfaction, alors quand Datacolor a annonce un nouveau modele, jai tendu loreille, mais sans vraiment me presser, tant Spyder3 me convenait. 
+ La nouvelle sonde  Spyder 4  apporte de notables ameliorations, en particulier sur le capteur  full spectrum  capable danalyser tous les ecrans du marche, dont les ecrans a  gamut large . La conception physique de la sonde elle-meme a egalement ete repensee et elle analyse la lumiere avec une meilleure accuite (plus 26% selon les donnees fournies par  Datacolor ). Comme dans la version precedente, la sonde est proposee en deux versions,  Pro  et  Elite , on y reviendra. Le principe de calibration, quant a lui ne change pas. La sonde mesure le niveau de lumiere ambiant. Vous le savez sans doute, il est deconseille de travailler de limage dans un environnement trop lumineux, cest dailleurs la raison pour laquelle certains ecrans sont livres avec un systeme de  casquette  qui se fixe sur lecran permettant ainsi deviter les lumieres parasites. Pour ma part, quand je travaille sur mes images, je baisse ostensiblement le volet de mon bureau. Une fois la mesure de lumiere ambiante realisee, on pose la sonde sur lecran qui se maintient dans cette position grace a un contrepoids fixe sur le cable. Le processus de calibration commence maintenant. 
+ Le logiciel envoit successivement a lecran des series de couleurs qui sont analysees en temps reel par la sonde. Le logiciel analyse la couleur affichee et la compare a son etalon. Lecart entre les deux est memorise pour chaque couleur, ce qui va permettre detablir une table de compensation. A lissue du test complet (qui dure moins de dix minutes), le logiciel enregistre les valeurs et cree un profil de couleur qui sera utilise par lordinateur. A la fin du processus de calibration, le logiciel propose denregistrer le profil puis de visualiser lecran  avant  la calibration et  apres . Cest a ce moment-la que vous realisez la justification de votre investissement. Vous pouvez parametrer le logiciel pour recalibrer votre ecran cycliquement, par exemple une fois par mois, ou une fois tous les trois mois. Une fois votre profil enregistre, veillez a bien verifier que votre Photoshop lutilise, dans les preferences couleur (menu edition). 
+   Version Pro ou Elite ? 
+Un ecran calibre, cest lassurance que ce que vous voyez a lecran correspond a la realite des couleurs de vos cliches. Autant dire que pour un photographe, cet  investissement  est  absolument necessaire . Reste la version du logiciel, qui fait la difference de prix,  Pro  ou  Elite . Honnetement, pour une grande majorite dutilisateurs photographes, la version  Pro  est tout a fait convenable. Mais si vous voulez vraiment vous faire plaisir, pour cinquante euro de plus vous pouvez craquer pour la version Elite qui optimise certains processus, permet dacceder a certaines mesures (comme le Delta E par exemple) ou la mesure evoluee de la lumiere ambiante et offre un niveau de personnalisation tres pousse. 
+   en savoir plus sur Spyder4 Pro 
+  en savoir plus sur Spyder4 Elite 
+ 
+ 
+ 
+        </text>
+</document>

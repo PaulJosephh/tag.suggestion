@@ -1,0 +1,22 @@
+<document>
+	<date>2014-03-25</date>
+        <title>Comment commander la box HomeWizard par requte HTTP ?</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>domotique</tag>
+                <tag>ethernet</tag>
+                <tag>homewizard</tag>
+                <tag>http</tag>
+                <tag>interface</tag>
+                <tag>ip</tag>
+                <tag>passerelle</tag>
+                <tag>requete</tag>
+        </tags_set>
+        <categories_set>
+                <category>Chacon Applications</category>
+        </categories_set>
+        <text>
+                                                         HomeWizard domotique HTTP HomeWizard domotique Z-Wave EnOcean 1- Identifier les elements connectes au HomeWizard Rendez-vous sur http://www.homewizard.fr/customer/account/login/ HomeWizard guide dinstallation Vous etes desormais dans votre tableau de bord. Cliquez sur  HomeWizard Accedez ensuite a la rubrique App online puis cliquez sur longlet Application  HomeWizard Vous etes desormais sur linterface de lapplication de votre  HomeWizard Somfy guide de fonctionnement du HomeWizard 2- Visualiser les numeros ID de vos elements et scenes Pour effectuer des requetes  HTTP HomeWizard http://www.homewizard.fr/customer/account/login/ Ensuite, vous devez connaitre les numeros ID de vos elements (scenes, interrupteurs, variateurs etc). Pour cela, accedez a votre box en local en tapant ladresse suivante dans votre navigateur Web : http AdresseIPHomeWizard MotdepasseHomeWizard En remplacant bien sur  AdresseIPHomeWizard HomeWizard MotdepasseHomeWizard HomeWizard Une fenetre au format JSON apparait. Chacun de vos elements a un numero ID que vous retrouvez dans cette fenetre. Dans notre exemple, Lampe B a le numero ID 1, Lampe A a le numero ID 2, Variateur a le numero ID 3, Nuit a le numero ID 0 et Volet roulant a le numero ID 1. 3- Utiliser les requetes  HTTP Lorsque vous avez identifie les numeros ID de vos elements et scenes, vous pouvez desormais utiliser des requetes  HTTP 3.1- Pour commander un interrupteur ON/OFF : - Mise sur ON : http AdresseIPHomeWizard MotdepasseHomeWizard NumeroIDElementSwitch Il faut bien evidemment remplacer  NumeroIDElementSwitch Par exemple, nous activons notre interrupteur Lampe B ayant le numero ID 1 : - Mise sur OFF : http AdresseIPHomeWizard MotdepasseHomeWizard Par exemple, nous desactivons notre interrupteur Lampe B ayant le numero ID 1 : 3.2- Pour commander un variateur : http AdresseIPHomeWizard MotdepasseHomeWizard Par exemple, nous activons a 50% notre variateur ayant le numero ID 3 : 3.3- Pour commander un volet roulant  Somfy - Ouverture du volet roulant : http AdresseIPHomeWizard MotdepasseHomeWizard Par exemple, nous ouvrons notre volet roulant  Somfy - Fermeture du volet roulant : http AdresseIPHomeWizard MotdepasseHomeWizard Par exemple, nous fermons notre volet roulant  Somfy - Arret de louverture ou fermeture du volet roulant : http AdresseIPHomeWizard MotdepasseHomeWizard Par exemple, nous arretons la fermeture (ou louverture) de notre volet roulant  Somfy 3.4- Pour commander une scene : - Activation de la scene : http AdresseIPHomeWizard MotdepasseHomeWizard Par exemple, nous activons notre scene Nuit ayant le numero ID 0 : - Desactivation de la scene : http AdresseIPHomeWizard MotdepasseHomeWizard Par exemple, nous desactivons notre scene Nuit ayant le numero ID 1 : Pour plus dinformations concernant les requetes  HTTP HomeWizard cliquez ici Apres avoir verifie le bon fonctionnement de vos requetes  HTTP HomeWizard domotique HTTP   Utilisation des requetes  HTTP Zipabox   Utilisation des requetes  HTTP (en cours)   Utilisation des requetes  HTTP Eedomus (en cours)   Utilisation des requetes  HTTP (en cours)   Utilisation des requetes  HTTP HomeSeer (en cours)  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,21 @@
+<document>
+	<date>2014-04-25</date>
+        <title>eedomus supporte les ampoules Philips Hue</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>ampoule connectee</tag>
+                <tag>box domotique</tag>
+                <tag>eedomus</tag>
+                <tag>mise a jour</tag>
+                <tag>objet connecte</tag>
+                <tag>philips hue</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Apres une grosse mise a jour il y a deux semaines Connected Object domotique eedomus Philips Hue La precedente mise a jour a apporte la gestion facilite dobjets connectes comme la  station meteo Netatmo capteur Wi-Fi pour plantes Koubachi Connected Object Philips Hue De nouveaux peripheriques  Z-Wave Support du  Plugin Dimmer de BeNext Support du  Tag reader Zipato Support du  Fibaro Motion Sensor (FGMS-001) Plusieurs autres ameliorations ont ete apportees : Les  actionneurs HTTP capteurs HTTP [VAR1], [VAR2],[ VAR2] peuvent etre utilises dans lexpression XPATH dun  capteur actionneur HTTP Scripts eedomus Ajout des fonctions  utf8_encode, utf8_decode, sqrt, pow Ajout de la variante  setValue Le  testeur de XPATH Tester vos  actions HTTP Tester Valeurs actionneur HTTP Lien vers la documentation depuis lencart  Parametre experts Un selecteur de couleur est disponible pour faciliter la personnalisation du  Fibaro RGBW Philips Hue Cette mise a jour corrige aussi un bug lors de la 1ere activation du peripherique  Netatmo La principale nouveaute de cette mise a jour est donc lintegration facilitee des lampes  Philips Hue eedomus eedomus Lequipe  Connected Object  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

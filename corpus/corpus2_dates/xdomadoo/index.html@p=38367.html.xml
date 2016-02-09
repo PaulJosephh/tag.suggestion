@@ -1,0 +1,21 @@
+<document>
+	<date>2014-06-05</date>
+        <title>Retour dexprience sur linterface UI6 de la box domotique Vera</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>domotique</tag>
+                <tag>installation</tag>
+                <tag>RFXCOM</tag>
+                <tag>ui6</tag>
+                <tag>ui7</tag>
+                <tag>veralite</tag>
+                <tag>X10</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Nous vous proposons aujourdhui un article realise par Pierre, fidele lecteur et client, qui a bien voulu partager avec nous son experience avec linterface UI6 de la box  domotique 1. Presentation de linstallation de Pierre Depuis 10 ans Pierre est equipe en  domotique X10 HomeSeer RFXCOM Il a ensuite acquisun  RFXtrx433 HomeSeer VERALITE  2. Passage sous UI6 Apres plusieurs mois dutilisation sans probleme avec le firmware en Francais (1.5.622 ), jai pu lire larrivee dun beta-test UI6. Je tente la mise a jour, en 15 minutes me voila upgrade. Retour a lAnglais, rien de complique, mais surtout une page daccueil avec les appareils en liste verticale, classes par categorie. 4 onglets  HOME, AWAY, NIGHT, VACATION Affichage de la meteo locale, et un onglet  ENERGY OWL En cliquant sur  AVANCED SETTINGS Un chargement des donnees un peu plus lent, mais un rafraichissement des etats des modules et des miniatures des images des webcams plus rapide. Larrivee dun onglet  3G 3. Conclusion Pour conclure, rien de deboussolant, je pense que cette version UI6. 1.6.641 nest pas definitive Precision, mon RFXtrx433 tourne avec la version firmware 64, qui prend en charge correctement les modules  X10 Le CM15 quand a lui gere quelques temporisation de lumiere. AUCUN CONFLIT malgre une SC9100, un CM15, un TM13 et un RPT tous RF - CPL, mais la vieille maison avec ses murs epais, evite les redondances. 2 filtres FM10 et un FD10 assurent cette fiabilite. Seul A2 allumait A3 par intermittence, deplace en A12. Des scenarios sur VERA agrementent le tout. Le nabaztag KIMAMILA indique louverture dune porte ou fenetre quand son DS11 est arme. Lorsque lalarme est declenchee 3 sirenes internes et une externe se declenchent, les volets ouverts se ferment grace au VOLTEC installes.  la SC9100 compose le numero de telephone du voisin (costaud) et lenregistrement video des 2 webcam IP se lance, le nabaztag diffuse un message de bienvenue . Via la VERA, avec son interface ou  VERAMATE IMPERIHOME Ne pensez pas que je roule sur lor. Mais une passion fait faire des exces, et en 10 ans, on y va tout doucement. A coup de Ebay et de promotion chez  DOMADOO  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

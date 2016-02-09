@@ -1,0 +1,29 @@
+<document>
+	<date>2006-08-25</date>
+        <title>Symfony en route vers la version 1.0</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>framework</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Les developpeurs et contributeurs du framework  Symfony  n'ont pas pris beaucoup de vacances cet ete, et  ca se voit ! 
+
+
+ Les avancees sont remarquables et le framework tend de plus en plus vers le pendant PHP de  Ruby on Rails  - a l'image de ce que fait  CakePHP  de son cote, tant dans la puissance, que la simplicite d'utilisation ou de la richesse fonctionnelle. 
+
+
+ Un petit effort reste cependant a fournir sur l' optimisation des performances cote modele  mais la faute semble incomber a  Propel , la partie  ORM  tierce du projet et n'est donc pas le fait de l'equipe Symfony. A noter cependant, la possibilite de remplacer Propel par  Doctrine  - une couche d'abstraction/persistance basee sur  PDO  donc theoriquement beaucoup plus rapide - semble facilitee dans la derniere version du trunk. Voila qui semble prometteur... Je vous tiens au courant si la vie m'en laisse le temps! 
+
+
+ Dans tous les cas ce framework est une belle reussite et vous devriez avoir de ses nouvelles assez rapidement et concretement sur ce blog meme. Let's keep in touch! 
+
+
+ Edit :   How to use PHP Doctrine with Symfony   
+        </text>
+</document>

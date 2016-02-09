@@ -1,0 +1,21 @@
+<document>
+	<date>2012-03-21</date>
+        <title>Quest-ce que UIMA ?</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Analysis engine</tag>
+                <tag>Type system</tag>
+        </tags_set>
+        <categories_set>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+ UIMA Unstructured Information Management Architecture maintenant en incubation a la fondation Apache Organization for the Advancement of Structured Information Standards 
+Le site  Apache UIMA 
+ Les composants ( Components composants dannotation Annotators systeme de types i.e. 
+ Les  Frameworks 
+ Introduction au TALN, aux plateformes dannotations linguistiques et a UIMA Sommaire UIMA sur ce blog 
+        </text>
+</document>

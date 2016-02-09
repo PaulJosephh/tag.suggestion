@@ -1,0 +1,14 @@
+<document>
+	<date>2013-03-04</date>
+        <title>Supprimer un module Z-Wave de la Zipabox</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Zipabox Applications</category>
+        </categories_set>
+        <text>
+                                                          Vous pouvez rencontrer un jour la necessite de supprimer un module  Z-Wave Zipabox A partir de linterface de configuration de la  Zipabox   La fenetre de lassistant de suppression de module souvre alors.   Cliquez sur le bouton Demarrer.   Vous avez alors 45 secondes pour appuyer sur le bouton dexclusion de votre module (simple clic ou triple clic en fonction du module).   Votre module a ete supprime, vous pouvez fermer la fenetre.  Apres avoir rafraichi la page (appuyez sur la touche F5 de votre clavier), le module aura disparu de linterface.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

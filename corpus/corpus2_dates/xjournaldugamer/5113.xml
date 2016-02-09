@@ -1,0 +1,89 @@
+<document>
+	<date>2012-12-19</date>
+        <title>Epic Games ouvre une boutique en ligne</title>
+        <author>Cyril</author>
+        <tags_set>
+                <tag>Epic Games</tag>
+                <tag>Gears of War</tag>
+                <tag>Infinity Blade</tag>
+        </tags_set>
+        <categories_set>
+                <category>Relic</category>
+        </categories_set>
+        <text>
+                                                                                                 
+         
+                 Les cr&#233;ateurs de  Gears of War  et  Infinity Blade  propose des accessoires plut&#244;t sympathiques sur  leur site . 
+ 
+ more 
+ On trouvera en vrac des t-shirts et posters aux couleurs de  Gears of War , quelques v&#234;tements orn&#233;s du logo du studio et, pour les  amateurs de r&#233;tro , un bien joli t-shirt  Jazz Jackrabbit . 
+ Une bonne nouvelle pour tous ceux qui aiment  afficher leur support  pour un studio, d&#8217;autant que les prix pratiqu&#233;s restent  tr&#232;s corrects  pour des produits de ce genre : les t-shirts tournent autour de  quinze euros  et les sweats  trente euros .  
+ 
+                        #gallery-2 {
+                                margin: auto;
+                        }
+                        #gallery-2 .gallery-item {
+                                float: left;
+                                margin-top: 10px;
+                                text-align: center;
+                                width: 33%;
+                        }
+                        #gallery-2 img {
+                                border: 2px solid #cfcfcf;
+                        }
+                        #gallery-2 .gallery-caption {
+                                margin-left: 0;
+                        }
+                 
+                  see gallery_shortcode() in wp-includes/media.php  
+  
+     
+ 
+
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+
+                         
+                 
+
+
+
+
+
+         
+ 
+                                                                                                         
+                                                                                                                                                                                                 
+        </text>
+</document>

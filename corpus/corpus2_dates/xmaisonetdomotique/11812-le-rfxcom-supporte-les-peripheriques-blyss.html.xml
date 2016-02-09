@@ -1,0 +1,17 @@
+<document>
+	<date>2012-10-02</date>
+        <title>
+Le RFXCOM supporte les priphriques Blyss</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Blyss</tag>
+                <tag>rfxcom</tag>
+        </tags_set>
+        <categories_set>
+                <category>BlyssBox</category>
+                <category>Domotique</category>
+                <category>News</category>
+        </categories_set>
+        <text>Le  RFXtrx  a recu une mise a jour il y a une quinzaine de jours ajoutant comme dhabitude la compatibilite avec de nouveaux peripheriques. Mais on notera en particulier cette fois la compatibilite avec les peripheriques Blyss, quon trouve dans les magasins Castorama en France:  Amelioration des communications avec les Oregon 3.0 Ajout des peripheriques Lighting1 de Philips Amelioration des receptions HE-EU Ajout du peripherique Meiantech/Atlantic  Ajout des peripheriques Blyss Ajout des moteurs Hasta Amelioration des communications avec RUBiCSON Ajout de la commande group pour les peripheriques ARC  La mise a jour se trouve ici . Jai teste cette mise a jour avec une prise Blyss que je possedais, et cela fonctionne en effet tres bien ! Attention toutefois, il existe des peripheriques Blyss en 433Mhz et en 868Mhz. Le Rfxtrx nest compatible quavec les peripheriques en 433Mhz, comme cette prise ou cette telecommande:    La bonne nouvelle, cest que ces peripheriques se trouvent facilement chez nous, et quils sont tres abordables (par exemple  14.90 pour la prise telecommandee ou  9.90 pour la telecommande ). On peut remercier  domotics  davoir soumis cette idee a Bert, le developpeur du RFXCOM !   Blyss   rfxcom 
+        </text>
+</document>

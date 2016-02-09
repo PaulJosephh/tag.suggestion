@@ -1,0 +1,22 @@
+<document>
+	<date>2014-09-26</date>
+        <title>Mise en place de la synthse vocale avec Imperihome</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>android</tag>
+                <tag>guide</tag>
+                <tag>imperihome</tag>
+                <tag>synthese vocale</tag>
+                <tag>tts</tag>
+                <tag>tuto</tag>
+                <tag>zibase</tag>
+                <tag>zodianet</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Depuis quelques mois, lapplication Android multi-box  domotique ImperiHome Tout dabord il faut etre muni dune tablette Android situee a un endroit strategique dans la maison pour entendreles alertes de nimporte quelle piece, et equipee de lapplication  ImperiHome domotique ZiBASE eedomus Zipabox Fibaro 1. Attribuer uneadresse IPfixe a la tablette Android a partir de votre routeur. Dans notre exemple: 192.168.1.102 2. Verifiez ensuite vos parametres de synthese vocale (parametres de la tablette, Mon appareil, Langue et saisie, Options synthese vocale) et verifiez quil y a bien un moteur de synthese vocale selectionne et que celui-ci est correctement parametre. Il faut ensuite sassurer que le volume Musique, video, jeux et autres medias soit suffisamment fort pour entendre la synthese vocale. 3. Dans le logiciel  ImperiHome HTTP 4. Sur votre tablette, tapezladresse IP attribuee a votre tablettesur votre navigateur. Exemple : http://192.168.0.102 Vous arrivez sur la page ci-dessous. Dans text taper le texte que vous voulez synthetiser, essayer try it out vous allez entendre la phrase sur les hauts parleurs de la tablette. La demande URL vous est proposee. Copiez cette URL dans le navigateur webdun ordinateurqui est sur le meme reseau, la tablette doit recevoir la requete et vous devez entendre votre texte. 5. Allez dans le configurateur de la  ZiBASE http 6. Lancer votre scenario, la synthese vocale va editer votre texte sur la tablette. La fluidite de la synthese vocale est directement liee a la vitesse de votre reseau LAN.  Merci a Ghislain pour le partage.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

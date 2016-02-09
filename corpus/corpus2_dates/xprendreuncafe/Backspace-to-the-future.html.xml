@@ -1,0 +1,26 @@
+<document>
+	<date>2006-12-21</date>
+        <title>Back(space) to the future</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>browsers</tag>
+                <tag>firefox</tag>
+                <tag>tips</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>[Via  Ubuntonista ] 
+
+
+ On etait quelques-uns a regretter, depuis la sortie de Firefox2 sous Ubuntu, la disparition de la fonctionnalite permettant de revenir en arriere dans son historique de navigation au moyen de la touche  [Backspace] . Et bien rejouissons-nous, une solution a ete trouvee retablissant l'odre naturel et immuable des choses en ce bas monde \o/: 
+
+ 
+ Tapez  about:config  dans la barre d'adresse de Firefox 2, 
+ Cherchez  browser.backspace_action  et remplacez la valeur par  0  (zero) 
+ 
+
+ C'est tout. Content. 
+        </text>
+</document>

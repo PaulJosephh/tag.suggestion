@@ -1,0 +1,24 @@
+<document>
+	<date>2010-07-22</date>
+        <title>Installation PLCBUS de base avec un ordinateur</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>PLCBUS Applications</category>
+        </categories_set>
+        <text>
+                                                          Tout comme une installation  PLCBUS RF PLCBUS domotique PLCBUS 
+ Le controleur permet de faire la liaison entre lordinateur et le reseau electrique. Deux modeles sont disponibles :
+ PLC1141S ,  Interface PC pour la construction de scenarii. Il   permet detablir une passerelle de communication par courant porteur  PLCBUS  entre lordinateur et lensemble des composants  domotique .  Il  se branche sur un port COM RS232. Le  PLC1141   domotique PLCBUS USB 
+ Le recepteur peut etre un module appareil (ordre ON / OFF uniquement) ou un module lampe (ordres ON / OFF et variation). On peut le trouver sous differentes formes : 
+ Module prise ( PLC2026 ,  PLC2027 
+ Module  Rail DIN PLC2264HX ,  PLC2268HX2  ) 
+ Interrupteurs ( PLC2220 PLC3160H PLC2281E , ) 
+ Micromodules encastrables derriere une prise electrique ou un interrupteur ( PLC2263 PLC2267 , )  PLCBUS HomeSeer domotique HomeSeer HomeSeer domotique PLCBUS HomeSeer X10 Z-WAVE LUTRON   HomePlanner 3.1.6 PLCBUS PLCBUS PLCBUS PLCBUS Exemple dinstallation  : Produit indispensable des que lon souhaite approfondir le pilotage de son installation   PLCBUS ,   PLC1141   USB  permet de controler precisement toute une installation  PLCBUS .
+ En creant des scenarios avec le logiciel que vous aurez choisi ( HomeSeer ,  HomePlanner De nombreux autres scenarios peuvent etre realises tels quun scenario Coucher qui fermera les lumieres et les volets roulants de la maison , un scenario TV qui reduira lintensite lumineuse dans le salon et eteindra les autres pieces, un scenario Arrosage qui declenchera lirrigation a 20h tous les soirs,  
+ Linterface PLC1141  se branche simplement dans nimporte quelle prise electrique de lhabitat. La liaison entre le  PLC1141   USB  ou en RS232, en fonction de linterface choisie. Cette liaison etablit une communication bidirectionnelle entre lordinateur et linstallation  PLCBUS , ce qui permet une mise a jour en temps reel du changement detat de chaque module  PLCBUS . 
+ Une installation  PLCBUS  de ce type avec un ordinateur necessite que celui-ci soit allume en permanence pour executer les scenarios. Contrairement aux interfaces  X10 CM11  et  CM15 ), les interfaces  PLC1141  ne sont pas equipees dune memoire interne et ne peuvent donc pas etre utilisees PC eteint.  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

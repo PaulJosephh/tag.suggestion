@@ -1,0 +1,35 @@
+<document>
+	<date>2006-11-22</date>
+        <title>12 astuces d'optimisation de performance PHP</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>optimisation</tag>
+                <tag>performance</tag>
+                <tag>php</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Je suis tombe completement par hasard (enfin, par celui des apports de  Blogdigger ) sur un article presentant 12 astuces pour  optimiser les performances de son code PHP  suite a une presentation sur le sujet d'Ilia Alshanetsky a la Zend Conference (les  slides  sont disponibles). 
+
+
+ C'est tellement pertinent que je les reprends telles quelles ici, en francais: 
+
+ 
+ Si vous pouvez declarer une methode statique  static , faites-le: les performances sont multipliees par 4. 
+ Eviter les methodes  automagiques  comme  __get ,  __set  ou  __autoload . 
+ require_once  et son copain  include_once  sont tres couteux. 
+ Utilisez des chemins absolus dans les appels a  require  ou  include  quand vous le pouvez: PHP perdra moins de temps a resoudre les chemins systeme. 
+ Utilisez  $_SERVER['REQUEST_TIME']  plutot que  time()  pour obtenir le temps systeme. 
+ Voyez si vous ne pouvez pas utiliser  strncasecmp ,  strpbrk  and  stripos  plutot que de recourir aux expressions regulieres. 
+ preg_replace  est plus rapide que  str_replace   str_replace  est bien entendu beaucoup plus rapide que  preg_replace   [ 1 ] , mais  strtr  est 4 fois plus rapide que  preg_replace ! 
+ L'emploi de tableaux en tant qu'arguments des fonctions de remplacements de chaines de caracteres est plus couteux que l'utilisation multiple de cette meme fonction chaine par chaine a remplacer. 
+ La suppression de la sortie d'erreur par l'emploi du caractere  @  est tres couteuse. 
+ $row['id']  est 7 fois plus rapide d'acces que  $row[id] . 
+ Les messages d'erreur en general sont couteux. 
+ N'utilisez pas de fonctions a l'interieur des boucles comme  for ($x=0; $x  count($array); $x++) : ici la methode  count()  est appelee a chaque iteration. 
+ 
+ Notes 
+ [ 1 ] Le billet lie est errone sur ce point, et je l'avais traduit tel quel. La lecture des  slides de la conference  m'aura permis de rectifier le tir. 
+        </text>
+</document>

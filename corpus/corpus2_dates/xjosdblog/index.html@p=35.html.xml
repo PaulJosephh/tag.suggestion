@@ -1,0 +1,15 @@
+<document>
+	<date>2008-12-17</date>
+        <title>Tableaux avec array sous LaTeX</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>LaTeX</category>
+        </categories_set>
+        <text>
+                                                 
+Ce petit billet illustre, en utilisant un petit exemple, toute la souplesse que procure le paquetage  array calc tabularx 
+ % PDFLaTeX \ documentclass [ 10pt ]{ article } \ usepackage { } \ usepackage { } \ usepackage { } \ usepackage [ utf8x ]{ } \begin { document } { \ setlength { \tabcolsep }{ } \begin { tabular }{ {\ centering } { } {\ centering } { } {\ centering } { } { \small } {\ textwidth \tabcolsep \arrayrulewidth } } \ hline \ textbf { }  \ textbf { }  \ textbf { }  \multicolumn { }{ }{\ textbf { }} \tabularnewline \ hline    \tabularnewline \ hline \end { tabular } } \end { document } 
+        </text>
+</document>

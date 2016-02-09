@@ -1,0 +1,34 @@
+<document>
+	<date>2014-08-14</date>
+        <title>
+Test du Hue Tap: linterrupteur pour vos ampoules Philips Hue est arriv !</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>ampoule</tag>
+                <tag>eclairage</tag>
+                <tag>Hue</tag>
+                <tag>Led</tag>
+                <tag>Philips</tag>
+                <tag>Zigbee</tag>
+        </tags_set>
+        <categories_set>
+                <category>Peripheriques ZigBee</category>
+        </categories_set>
+        <text>
+ Philips Hue Tap 
+ 59,95 7.875 
+ Qualite 
+ 95/10 
+ Fonctions 
+ 70/10 
+ Utilisation 
+ 90/10 
+ Prix 
+ 60/10 Pour - Sans fil - sans piles ! - 4 boutons !   Contre - Un meme bouton ne permet pas d'allumer et eteindre en meme temps, il faudra passer par deux boutons distincts :( 
+ 
+ Acheter le Philips Hue Tap   Annonce pour le mois de septembre, certaines boutiques Apple bien placees semblent lavoir deja recu: linterrupteur pour les  ampoules Philips Hue , denomme pour loccasion Hue Tap ! Je pense que vous connaissez tous ces ampoules connectees, pilotables via son smartphone (mais aussi sa box domotique assez facilement). Les ampoules Hues sont en effet tres sympa pour eclairer une piece en creant diverses ambiances, de la plus studieuse a la plus decontractee. Mais leur force est egalement leur faiblesse: connectees, il faut passer par une application sur son smartphone ou sa tablette pour les piloter. Pourtant, rien ne remplacera le bon vieil interrupteur physique, toujours disponible et au fonctionnement immediat. Cest pourquoi Philips a decide doffrir un interrupteur physique a ses ampoules.  
+ I. Deballage  Sans surprise, on retrouve toujours le meme packaging que pour les ampoules:    Comme les ampoules, le Hue Tap se veut tres simple a installer. On ne trouvera donc que linterrupteur lui meme, et un tout petit manuel.   Le Hue Tap, contrairement aux interrupteurs traditionnels, est ici de forme ronde, dun diametre de 75mm, pour une epaisseur de 2cm.   Au premier coup doeil, on pourrait penser que cet interrupteur noffre que trois boutons (les petits ronds que lon voit). En fait, il existe un quatrieme bouton, qui est toute la surface elle meme.   A larriere, on trouve un scotch double face pour coller linterrupteur ou on souhaite. On pourra aussi le visser au mur pour un meilleur maintient. Mais le Hue Tap pourra tout aussi bien etre pose nimporte ou pour sen servir de telecommande sans fil.   En effet, cet interrupteur est totalement sans fil: il communique en ZigBee, comme les ampoules. Quant a lalimentation ? Et bien cest la la bonne surprise: ni fil ni pile, un peu comme la  technologie EnOcean . Le fait dappuyer sur le bouton generera lenergie necessaire a lenvoi de linformation radio. Du coup aucune maintenance ne sera necessaire sur cet interrupteur sans fil :D En revanche, cela demandera dappuyer fermement sur chaque bouton jusqua entendre le clac, bien plus que ce dont nous avons lhabitude avec nos interrupteurs classiques. Cest une habitude a prendre, mais qui fonctionne tres bien.  
+ II. Utilisation  Pour utiliser cet interrupteur, il faudra bien veiller a faire la derniere mise a jour de votre Hub et de vos ampoules. Ensuite, dans le menu Mes dispositifs, vous aurez la possibilite dajouter un nouvel appareil.   Il suffira de maintenir appuye le bouton 3 (celui avec les trois petits points, donc) pendant 10s pour quil soit detecte et ajoute par lapplication.    Il sera ensuite possible de le renommer, et daffecter les actions quon souhaite a chaque bouton.   On pourra par exemple demander lextinction de toutes les ampoules Hue en appuyant sur le bouton 1 (le plus gros, en surbrillance sur lillustration).   Par contre, il ne sera pas possible de faire la meme chose pour lallumage. Un bouton ne pourra pas allumer une ou plusieurs ampoules, mais lancer uniquement un scenario. Il faut donc commencer par creer un scenario qui allume les ampoules quon souhaite, dans la couleur quon veut. Exemple pour reproduire le coucher de soleil avec les trois ampoules de mon sejour:   On retourne ensuite sur la configuration du Hue Tap, et on affecte le scenario fraichement cree au bouton quon veut, en le selectionnant simplement a lecran:    Voila, ce nest pas plus difficile que ca !  
+ III. Conclusion  Un interrupteur pour piloter plus simplement ses ampoules Philips Hue etait grandement attendu, et Philips a su y repondre, avec un interrupteur plutot joli et pratique, car sans fil et sans piles. Ses quatre boutons permettront de gerer plusieurs actions voire plusieurs pieces en meme temps, ce qui est tres pratique. Vendu 59,95, le prix reste cependant eleve, comme les ampoules :/ On regrettera juste deux choses: le format rond est joli, mais un format carre, standard aux interrupteurs classiques, aurait permis de remplacer nos interrupteurs habituels par cet interrupteur sans fil, ni vu ni connu. En effet, si on utilise une ampoule Hue sur un plafonnier, cela implique de laisser tout le temps linterrupteur classique allume pour pouvoir piloter lampoule et lancer les scenarios quon souhaite. Avec le Hue Tap, on pourrait demonter linterrupteur classique et coller cet interrupteur sans fil par dessus. un meme bouton ne permet pas dallumer et deteindre une ampoule, ou lancer et annuler un scenario. Si on veut piloter une ampoule A, il faudra utiliser un bouton pour lallumer et un autre pour leteindre. Du coup les 4 boutons seront vite tous utilises si on veut gerer deux ampoules ou groupes dampoules en allumage / extinction. Malgre cela le Hue Tap est vraiment tres pratique, car il permet par exemple a mes enfants de lancer des scenarios predefinis dans leur chambre sans smartphone et sans avoir besoin de me le demander. Simple, rapide, et efficace. Disponible sur l Apple Store  et dans certaines boutiques Apple pour linstant (achete a lApple Store de la Defense dans mon cas, mais il ny en avait quun seul en rayon)   ampoule   eclairage   Hue   Led   Philips   Zigbee 
+        </text>
+</document>

@@ -1,0 +1,27 @@
+<document>
+	<date>2006-03-16</date>
+        <title>a par exemple ! Une astuce Firefox !</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>browsers</tag>
+                <tag>firefox</tag>
+                <tag>tips</tag>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>Un clic-molette sur les barres de defilement horizontales et verticales dans Firefox permettent de positionner la page directement a l'endroit voulu. Tres tres utile sur les pages immenses. 
+
+
+ En fait je ne sais pas si c'est une fonctionnalite de  Firefox  ou de  Gnome  (oui, je teste la version 2.14), mais c'est top-pratique. 
+
+
+ Edit :  Ouaip, c'est confirme, c'est du Gnome. La derniere mouture 2.14 (sous  Ubuntu  Dapper) est tres rapide, c'est vraiment un regal. Je ne sais pas si je vais retourner sous  KDE ... Peut-etre jongler entre les deux wm au gre de mes humeurs, ou de mes envies. Desole pour la fausse alerte cote Firefox. 
+
+
+ Edit2 :  Ca fonctionne aussi sous KDE. Donc en fait, c'est du GNU/Linux  
+
+
+ Conclusion :  Il est possible de reproduire ce comportement pour Firefox sur tous les  OS  en lancant l'interface de configuration  about:config  et en positionnant la valeur  middlemouse.scrollbarPosition  sur  true  (merci  Jean  pour l'astuce). 
+        </text>
+</document>

@@ -1,0 +1,125 @@
+<document>
+	<date>2005-08-29</date>
+        <title>Installer sa cl SSH sur un serveur distant</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>linux</tag>
+                <tag>ssh</tag>
+                <tag>securite</tag>
+                <tag>tutoriel</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Qui n'a jamais peste d'avoir a constamment taper et se souvenir de dizaines de mots de passe, quand on utilise plusieurs serveurs differents? Moi, en tous cas. 
+
+
+ Le principe est simple: generer une cle privee et une cle publique, toutes deux cryptees, et d'ajouter votre cle publique a la liste des  cles autorisees  du serveur distant afin de permettre l'authentification automatique sur ce dernier. Ainsi, vous pouvez definir une seule et meme  passphrase  (mot de passe) pour vous logguer a toutes vos machines  
+
+
+ Voici la procedure: d'abord - et si ce n'est deja fait - il vous faut installer le client openSSH: 
+
+
+ $ sudo apt-get update
+$ sudo apt-get install openssh-client 
+
+
+ Il faudra de meme disposer de ssh-server sur la machine distante. 
+
+
+ Ceci fait, il vous faut generer vos cles publiques et privees: 
+
+
+ $ ssh-keygen -t dsa -b 1024
+Generating public/private dsa key pair. 
+
+
+ La, il vous faut repondre a une petite serie de questions: 
+
+
+ Enter file in which to save the key (/home/monlogin/.ssh/id_dsa): 
+
+
+ Appuyez sur Entree, vos cles seront sauvegardees dans le repertoire cache  .ssh . 
+
+
+ Enter passphrase (empty for no passphrase):
+Enter same passphrase again: 
+
+
+ Une fois votre passphrase entree, un message de confirmation de creation est affiche: 
+
+
+ Your identification has been saved in /home/monlogin/.ssh/id_dsa.
+Your public key has been saved in /home/monlogin/.ssh/id_dsa.pub.
+The key fingerprint is:
+XX:8a:XX:91:XX:ae:XX:23:XX:2e:XX:ed:XX:4e:XX:b8 monlogin@mamachine 
+
+
+ Ensuite, il vous faut ajouter votre cle publique a la liste des cles autorisees du serveur distant. En admettant que votre serveur se nomme  toto.host.org  et que votre nom d'utilisateur est  titi   [ 1 ] , cela donne: 
+
+
+ $ ssh-copy-id -i ~/.ssh/id_dsa.pub titi@toto.host.org
+Password: 
+
+
+ Entrez le mot de passe de l'utilisateur  titi  sur la machine distante. Si l'operation d'ajout de votre cle a reussi, un message est affiche: 
+
+
+ Now try logging into the machine, with "ssh 'titi@toto.host.org'", and check in:
+
+  .ssh/authorized_keys
+
+to make sure we haven't added extra keys that you weren't expecting. 
+
+
+ Et voila, il ne vous reste plus qu'a lancer un  ssh titi@toto.host.org , il vous sera demande votre  passphrase  et vous serez loggue  
+
+
+ $ ssh titi@toto.host.org
+Enter passphrase for key '/home/monlogin/.ssh/id_dsa': 
+
+
+ Elle est pas belle, la vie?  
+
+
+ Pour aller plus loin 
+
+
+ Vous pouvez automatiser encore plus le process d'acces a vos serveur en definissant des  aliases , via votre fichier  .bashrc . Ce sont des raccourcis de commandes propres a l'utilisateur courant du shell de la machine. 
+
+
+ $ gedit .bashrc 
+
+
+ Une fois le fichier ouvert, vous pouvez ajouter vos aliases en respectant la syntaxe suivante: 
+
+
+ alias raccourci='commande' 
+
+
+ Ce qui donne pour notre acces SSH a  toto.host.org : 
+
+
+ alias sshtoto='ssh titi@toto.host.org' 
+
+
+ Sauvegarder le fichier. Pour que les modifications soient prises en compte, il faut recharger le fichier  .bashrc : 
+
+
+ . .bashrc 
+
+
+ Voila! Maintenant vous pouvez tester votre tout nouvel alias en lancant: 
+
+
+ $ sshtoto 
+
+
+ Cela ne vous dispensera pas cependant de saisir votre passphrase a chaque fois, mais c'est la un moindre mal et surtout un gage minimum de securite  
+ Notes 
+ [ 1 ] On accede  JAMAIS  a un serveur en root directement. C'est  TRES  mal. De toutes facons, si vous utilisez sudo et que vous n'avez pas cree de compte root en lui assignant un mot de passe, le probleme de ne se pose pas  
+ 
+        </text>
+</document>

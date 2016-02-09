@@ -1,0 +1,29 @@
+<document>
+	<date>2013-11-16</date>
+        <title>Key Fob Remote Control by Aeon Labs</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Aeon Labs</tag>
+                <tag>SynoZwave</tag>
+                <tag>Vera</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Modules</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+ Presentation 
+La  Key Fob Z-Wave Z-Wave Z-Wave 
+Une fois incluse dans un reseau  Z-Wave Group Mode Scene Mode Scene Mode Group Mode Inclusion / Exclusion 
+ Mettre le controleur en mode inclusion (resp. exclusion) Appuyer avec une pointe sur le bouton  Learn La telecommande notifie le succes de loperation par un clignotement rouge/vert suivit dun signal vert de 2 secondes Apres une inclusion, il faut appuyer avec une pointe sur le bouton  Mode Setup Mode Remise aux valeurs dusine (Reset) 
+Appuyer avec une pointe sur le bouton  Mode Utilisation avec SynoZwave 
+Je nai pas reussi a la faire fonctionner en  Scene Mode Group Mode Group Mode Setup Mode Utilisation avec la Vera Lite 
+La  Vera Smart Home Controllers Micasaverde Group Mode Vera ce document 
+Le  Scene Mode Vera Vera 
+ Editer la scene Se rendre dans longlet  TRIGGERS Cliquer sur  Add trigger Dans le champs  Device: Key Fob Dans le champs  What type of event is the trigger?: A scene is activated A scene is de-activated Specifier le nom choisi pour le trigger dans le champs  Name for this trigger: Dans le champs  Which scene number Informations et Sources 
+Shopping:  Aeon Labs KeyFob telecommande  Z-Wave Vera Lite  Controleur domotique Z-wave Aeon Labs Key Fob Manual Engineering Spec  Aeon Labs Key Fob (4 Button) Key Fob Remote Control Aeon Labs Aeotec Z-Wave Key Fob Review Test : telecommandes porte cles Aeon Labs (Aeon Labs) Key Fob Scene Controller 
+        </text>
+</document>

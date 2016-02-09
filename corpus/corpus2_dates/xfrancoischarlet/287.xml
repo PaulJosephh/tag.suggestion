@@ -1,0 +1,36 @@
+<document>
+	<date>2011-07-23</date>
+        <title>La soustraction de donn&#233;es informatiques</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Droit p&#233;nal</tag>
+                <tag>S&#233;rie droit p&#233;nal</tag>
+        </tags_set>
+        <categories_set>
+                <category>Droit</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Deuxi&#232;me &#233;pisode de la  s&#233;rie  consacr&#233;e au droit p&#233;nal informatique suisse. 
+ En droit p&#233;nal suisse, le  cracking  consiste en la soustraction de donn&#233;es informatiques. 
+ 
+ Art. 143 du Code p&#233;nal suisse (CP) 
+ Celui qui, dans le dessein de se procurer ou de procurer &#224; un tiers un enrichissement ill&#233;gitime, aura soustrait, pour lui-m&#234;me ou pour un tiers, des donn&#233;es enregistr&#233;es ou transmises &#233;lectroniquement ou selon un mode similaire, qui ne lui &#233;taient pas destin&#233;es et qui &#233;taient sp&#233;cialement prot&#233;g&#233;es contre tout acc&#232;s indu de sa part, sera puni d&#8217;une peine privative de libert&#233; de cinq ans au plus ou d&#8217;une peine p&#233;cuniaire. 
+ 
+ Soustraction de donn&#233;es informatiques 
+ On entend par "donn&#233;e informatique" toute information transmise, trait&#233;e ou conserv&#233;e sous forme cod&#233;e pour en permettre l'utilisation au sein d'un syst&#232;me informatique. Par ce biais, on &#233;tend le champ d'application de l'art. 143 CP aux donn&#233;es en tant que telles, mais &#233;galement aux logiciels qui permettent de traiter des donn&#233;es informatiques. Ici, la valeur (p&#233;cuniaire, sentimentale, etc.) de la donn&#233;e ou son degr&#233; de confidentialit&#233; n'ont aucune incidence. Il suffit qu'on se trouve en pr&#233;sence de donn&#233;es informatiques, quelles qu'elles soient. La soustraction peut aussi consister en l'interception des donn&#233;es (entre deux ordinateurs, par exemple). 
+ Non destin&#233;es &#224; l'auteur de l'infraction 
+ Les donn&#233;es informatiques ne doivent pas &#234;tre destin&#233;es &#224; la personne qui les soustrait ou les intercepte. Ce qui est d&#233;terminant ici est de savoir qui traite les donn&#233;es. Cela signifie que m&#234;me la personne vis&#233;e par ces donn&#233;es (par ex. des donn&#233;es bancaires ou des donn&#233;es client) peut se rendre coupable de soustraction de donn&#233;es si elle les subtilise &#224; la personne qui les traite. On ne vise donc pas l'ayant droit des donn&#233;es mais bien celui qui les traite. Comme pour le  hacking , la personne &#224; qui on autorise un certain acc&#232;s au syst&#232;me informatique et qui va au del&#224; de ses droits n'est pas punissable. 
+ Donn&#233;es sp&#233;cialement prot&#233;g&#233;es contre tout acc&#232;s indu 
+ La protection exig&#233;e ici peut consister en une barri&#232;re physique (salle de serveurs verrouill&#233;es m&#234;me si l'acc&#232;s aux serveurs se fait sans mot de passe, etc.), car contrairement au  hacking , l'art. 143 CP ne fait pas mention d'un "dispositif de transmission de donn&#233;es". Une interdiction morale ou contractuelle ne suffisant pas, il est n&#233;cessaire d'avoir une protection informatique, &#224; tout le moins physique. Qu'en est-il d'un bureau, ferm&#233; &#224; cl&#233;, o&#249; se trouve un ordinateur utilisable sans mot de passe&#160;? La protection ne sera suffisante que si l'interdiction d'acc&#232;s au bureau est conjugu&#233;e &#224; une interdiction morale d'acc&#233;der aux donn&#233;es de l'ordinateur. De cette fa&#231;on, n'importe quelle personne ayant acc&#232;s au local n'aura pas un droit d'acc&#232;s aux donn&#233;es. On n'exige pas de la protection qu'elle ait une efficacit&#233; particuli&#232;re, il suffit qu'elle soit reconnaissable par un tiers. 
+ Soustraction 
+ Contrairement au vol ( art. 139 CP ) o&#249; la soustraction implique une perte de la possession, pour soustraire une donn&#233;e informatique, une simple copie de la donn&#233;e suffit. L'auteur de l'infraction doit donc avoir la ma&#238;trise la donn&#233;e soustraite. En admettant que la donn&#233;e soit un fichier texte contenant des informations tr&#232;s facilement m&#233;morisables, la simple prise de connaissance de ces informations peut consister en une soustraction. Si l'auteur copie les donn&#233;es et les d&#233;truit de leur support original, il sera punissable de soustraction de donn&#233;es et de d&#233;t&#233;rioration de donn&#233;es ( art. 144 bis CP ). 
+ Intention, dessein d'enrichissement 
+ L'acte doit &#234;tre intentionnel ou &#234;tre commis &#224; tout le moins par dol &#233;ventuel (cf. hacking ). L'acte doit &#234;tre commis avec dessein d'enrichissement, c'est-&#224;-dire avec la volont&#233; de s'enrichir. S'il n'est pas pr&#233;sent et que les donn&#233;es vol&#233;es sont des donn&#233;es personnelles ou des profils de la personnalit&#233;, on pourra se rabattre sur l' art. 179 novies CP , l'art. 143 CP n'&#233;tant alors pas applicable. 
+ Voil&#224; pour le cracking&#160;! Le prochain &#233;pisode sera d&#233;di&#233; &#224; la d&#233;t&#233;rioration de donn&#233;es (art. 144 bis CP). 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

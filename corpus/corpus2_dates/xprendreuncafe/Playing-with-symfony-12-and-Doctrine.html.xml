@@ -1,0 +1,386 @@
+<document>
+	<date>2008-10-31</date>
+        <title>Let's Play with Symfony 1.2 and Doctrine</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>doctrine</tag>
+                <tag>howto</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Its been quite a long time I didnt give a go to  Doctrine , so as  its gonna be bundled by default in with the upcoming 1.2  release of  symfony , I thought it was a good occasion to play with it. 
+
+
+ So lets checkout the  1.2 SVN branch of symfony  and create a test project with a  main  application [ 1 ] : 
+
+
+ $ mkdir sf12test  cd sf12test
+$ mkdir -p lib/vendor
+$ svn co http://svn.symfony-project.com/branches/1.2 lib/vendor/symfony
+$ php lib/vendor/symfony/data/bin/symfony generate:project sf12test
+$ ln -s ../lib/vendor/symfony/data/web/sf web/sf
+$ ./symfony generate:app main 
+
+
+ Create a webserver vhost pointing to the  web  folder of the project directory. Ive already explained  plenty of times  how to achieve this step. 
+
+
+ Now, lets enable the  sfDoctrinePlugin  and disable the Propel one by editing the  setup()  method of the  config/ProjectConfiguration.class.php  file: 
+
+  php
+  public function setup()
+  {
+    $this-disablePlugins('sfPropelPlugin');
+    $this-enablePlugins('sfDoctrinePlugin');
+  }
+ 
+
+
+ You can list the available tasks running this simple command: 
+
+
+ $ ./symfony list doctrine 
+
+
+ Managing the Database Schema 
+
+
+ First, configure your  config/databases.yml  file to set the database connection parameters. If you want to quick test Doctrine, use a local SQLite db, like this: 
+
+  yaml
+all:
+  doctrine:
+    class:    sfDoctrineDatabase
+    param:
+      dsn:    sqlite://?php echo dirname(__FILE__).'/../data/data.db' ?
+ 
+
+
+ Were going to make a very simple weblog application, so lets configure our database schema. We can do it in YAML [ 2 ] , so fire up your favorite editor/IDE and edit a brand new  config/doctrine/schema.yml : 
+
+  yaml
+BlogPost:
+  actAs:
+    Sluggable:
+      fields:       [title]
+    Timestampable:
+  columns:
+    title:          string(255)
+    body:           clob
+    author:         string(255)
+
+BlogComment:
+  actAs:            [Timestampable]
+  columns:
+    blog_post_id:   integer
+    author:         string(255)
+    email:          string(255)
+    content:        clob
+  relations:
+    BlogPost:
+      class:        BlogPost
+      local:        blog_post_id
+      foreign:      id
+      foreignType:  many
+      type:         one
+ 
+
+
+ Note that Doctrine offers several pretty cool features including native behaviors ( timestampable  and  slugable  are used here). 
+
+
+ Now, create a  data/fixtures  folder and put a  data.yml  file in, containing some test data in YAML format: 
+
+  yaml
+BlogPost:
+  p1:
+    title: My first post
+    body: |
+      This is cool.
+    author: NiKo
+    created_at: "?php echo date('Y-m-d H:i:s', time() - 86400) ?"
+  p2:
+    title: My second post
+    body: |
+      This is still cool.
+    author: NiKo
+    created_at: "?php echo date('Y-m-d H:i:s', time() - 7200) ?"
+  p3:
+    title: Third post
+    body: |
+      Is this one cool?
+    author: Roger Hanin
+    created_at: "?php echo date('Y-m-d H:i:s') ?"
+
+BlogComment:
+  c1:
+    BlogPost: p3
+    author: John
+    email: john@doe.com
+    content: Hey, you're right there.
+    created_at: "?php echo date('Y-m-d H:i:s', time() - 86400) ?"
+  c2:
+    BlogPost: p3
+    author: Paul
+    email: paul@doe.com
+    content: Nope, he's not.
+    created_at: "?php echo date('Y-m-d H:i:s') ?"
+ 
+
+
+ Okay, now run the command below to generate the needed files, create the database and fill it with the data fixtures: 
+
+
+ $ ./symfony doctrine:build-all-load 
+
+
+ We can run several  DQL  queries in command line to check if everything is fine. DQL is very powerful, and compatible with a lot of RDBMS. Youll find  more information on DQL on the doctrine website . 
+
+
+ For example, to find all blog posts: 
+
+ 
+$ ./symfony doctrine:dql "From BlogPost p"
+found 3 results
+-
+  id: '21'
+  title: 'My first post'
+  body: "This is cool.\n"
+  author: NiKo
+  slug: my-first-post
+  created_at: '2008-10-29 15:14:25'
+  updated_at: '2008-10-30 15:14:25'
+-
+  id: '22'
+  title: 'My second post'
+  body: "This is still cool.\n"
+  author: NiKo
+  slug: my-second-post
+  created_at: '2008-10-30 13:14:25'
+  updated_at: '2008-10-30 15:14:25'
+-
+  id: '23'
+  title: 'Third post'
+  body: "Is this one cool?\n"
+  author: 'Roger Hanin'
+  slug: third-post
+  created_at: '2008-10-30 15:14:25'
+  updated_at: '2008-10-30 15:14:25'
+ 
+
+
+ Another example, to find informations about the blog post with slug  third-post  and its associated comments: 
+
+ 
+$ ./symfony doctrine:dql "Select p.title, p.author, c.author, c.content From BlogPost p, p.BlogComment c Where p.slug = 'third-post' Group by c.id"
+found 3 results
+-
+  id: '23'
+  title: 'Third post'
+  author: 'Roger Hanin'
+  BlogComment: [{ id: '15', author: John, content: 'Hey, you''re right there.' }, { id: '16', author: Paul, content: 'Nope, he''s not.' }]
+ 
+
+
+ Put the Query Logic in the Model 
+
+
+ The Model part of any  MVC  architecture must contains the business data and associated logic. In other words, these data and logic should never be handled anywhere else, to decouple your components at max. So well add some query methods in the  lib/model/doctrine/BlogPostTable.class.php  file, which represents our  blog_post  table and available operations on it: 
+
+  php
+?php
+class BlogPostTable extends Doctrine_Table
+{
+  public function getAll()
+  {
+    return Doctrine_Query::create()-
+      select('p.title, p.slug, p.body, p.author, p.created_at, count(c.id) numcomments')-
+      from('BlogPost p, p.BlogComment c')-
+      orderBy('p.created_at DESC')-
+      groupBy('p.id')-
+      execute();
+  }
+
+  public function getOneBySlug($slug)
+  {
+    $posts = Doctrine_Query::create()-
+      from('BlogPost p')-
+      leftJoin('p.BlogComment c')-
+      where('p.slug = ?')-
+      orderBy('c.created_at ASC')-
+      limit(1)-
+      execute(array($slug));
+
+    return isset($posts[0]) ? $posts[0] : null;
+  }
+}
+ 
+
+
+ A Weblog is About Web Interface, uh? 
+
+
+ Okay, lets add pretty controllers and templates to give some life to our blog. First, generate a  post  module in the  main  app: 
+
+
+ $ ./symfony generate:module main post 
+
+
+ Then, edit the  apps/main/modules/post/actions/actions.class.php  file: 
+
+  php
+?php
+class postActions extends sfActions
+{
+  public function executeIndex($request)
+  {
+    $this-posts = Doctrine::getTable('BlogPost')-getAll();
+  }
+  
+  public function executeShow($request)
+  {
+    $this-post = Doctrine::getTable('BlogPost')-getOneBySlug($slug = $request-getParameter('slug'));
+    $this-forward404Unless($this-post, 'No post with slug=' . $slug);
+    $this-comments = $this-post-getBlogComment();
+  }
+}
+ 
+
+
+ We should have display templates too. The first one will show the posts list, in  apps/main/modules/post/templates/indexSuccess.php : 
+
+  php
+?php foreach ($posts as $post): ?
+  ?php include_partial('post/post', array('post' = $post, 'numComments' = $post-getNumcomments())) ?
+  hr/
+?php endforeach; ?
+ 
+
+
+ Note that we must create the  _post  partial template, in  apps/main/modules/post/templates/_post.php : 
+
+  php
+h2?php echo link_to($post-getTitle(), 'post/show?slug='.$post-getSlug()) ?/h2
+p
+  smallPosted by ?php echo $post-getAuthor() ? on ?php echo $post-getCreatedAt() ?
+  ?php if (isset($numComments)): ?
+    - ?php echo $numComments ? comments
+  ?php endif; ?
+  /small
+/p
+?php echo $post-getBody(ESC_RAW) ?
+ 
+
+
+ The other main template will display one post and its comments, in  apps/main/modules/post/templates/showSuccess.php : 
+
+  php
+?php include_partial('post/post', array('post' = $post)) ?
+
+h2Comments/h2
+?php if (!count($comments)): ?
+  pNo comment yet./p
+?php else: ?
+?php foreach ($comments as $comment): ?
+  psmallBy ?php echo $comment-getAuthor() ? on ?php echo $comment-getCreatedAt() ?/small/p
+  blockquote?php echo $comment-getContent() ?/blockquote
+?php endforeach; ?
+?php endif; ?
+ 
+
+
+ Thats it. A rough but functional weblog if you lauch your browser to  yourhost/main_dev.php/post/index : 
+
+
+ 
+
+
+ And if you click a post title: 
+
+
+ 
+
+
+ Good News, the Forms Framework Works with Doctrine Too 
+
+
+ Symfony 1.1 introduced the new  forms framework , and good news, Doctrine can take part of it. So maybe youve already noticed it, we have form classes generated already, in the  lib/form/doctrine  folder of the project. 
+
+
+ So lets add a neat commenting system to our blog, by first editing the  lib/form/doctrine/BlogCommentForm.class.php  file: 
+
+  php
+?php
+class BlogCommentForm extends BaseBlogCommentForm
+{
+  public function configure()
+  {
+    unset($this['id'], $this['created_at'], $this['updated_at']);
+    
+    $this-widgetSchema['blog_post_id'] = new sfWidgetFormInputHidden();
+    
+    $this-validatorSchema['author']  = new sfValidatorString(array('min_length' = 3));
+    $this-validatorSchema['email']   = new sfValidatorEmail();
+    $this-validatorSchema['content'] = new sfValidatorString(array('min_length' = 5));
+  }
+}
+ 
+
+
+ Now, use the form in the  executeShow()  method of our controller: 
+
+  php
+?php
+// ...
+  public function executeShow($request)
+  {
+    $this-post = Doctrine::getTable('BlogPost')-getOneBySlug($slug = $request-getParameter('slug'));
+    $this-forward404Unless($this-post, 'No post with slug=' . $slug);
+    $this-comments = $this-post-getBlogComment();
+    
+    $comment = new BlogComment();
+    $comment-setBlogPost($this-post);
+    $this-form = new BlogCommentForm($comment);
+    
+    if ($request-isMethod('post')  $this-form-bindAndSave($request-getParameter('blog_comment')))
+    {
+      $this-redirect('post/show?slug='.$this-post-getSlug());
+    }
+  }
+ 
+
+
+ And in the  showSuccess.php  template, well append the form display: 
+
+  php
+h3Add a comment/h3
+
+?php echo $form-renderFormTag(url_for('post/show?slug='.$post-getSlug())) ?
+  table
+    ?php echo $form ?
+    tr
+      td/tdtdinput type="submit"//td
+    /tr
+  /table
+/form
+ 
+
+
+ Weve now a pretty commeting system added to our blog, thanks to all the goodness provided by symfony and Doctrine: 
+
+
+ 
+
+
+ Conclusion 
+
+
+ The time when everyone choosed Propel because it was more stable than Doctrine seems to be over. Doctrine is robust, and performs quite well on my box. Furthermore, it handles complex relationships and dynamic object hydratation natively and better than Propel. Doctrine is also very well integrated into symfony, certainly because Jonathan Wage - the Doctrine lead developer - now works for  Sensio , creator and main sponsor of symfony. 
+ Notes 
+ [ 1 ] Note that Windows users should replace calls to  ./symfony  by  php symfony . 
+ [ 2 ] If you hate YAML, you can still write Doctrine table definition classes in raw PHP by hand 
+        </text>
+</document>

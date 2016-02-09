@@ -1,0 +1,14 @@
+<document>
+	<date>2011-10-24</date>
+        <title>Guide dinstallation dun actionneur Chacon avec la ZiBASE</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>ZiBASE Produits</category>
+        </categories_set>
+        <text>
+                                                          Ce guide va vous expliquer comment installer un actionneur  Chacon ZiBASE Chacon  Connectez-vous au configurateur  ZiBASE   Puis cliquez sur Installer un actionneur.   Selectionnez le protocole  CHACON   Choisissez le logo associe.   Donnez un nom a cet actionneur (exemple : LAMPE).   Choisissez lidentifiant  X10   Il faut maintenant associer lactionneur et la  ZiBASE   Appuyez alors sur le bouton vert pour envoyer une commande ON. La charge connectee va commuter 3 fois pour valider lapprentissage du code. Cliquez sur la double fleche a droite pour valider. Notre peripherique LAMPE se retrouve dans la liste a droite de la  ZiBASE   Votre  ZiBASE Chacon  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

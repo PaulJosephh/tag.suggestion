@@ -1,0 +1,24 @@
+<document>
+	<date>2014-12-15</date>
+        <title>Ralisation et domotisation dun miroir infini</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>bandeau led</tag>
+                <tag>domotique</tag>
+                <tag>fgrgb-101</tag>
+                <tag>fibaro</tag>
+                <tag>guide</tag>
+                <tag>jeedom</tag>
+                <tag>miroir infini</tag>
+                <tag>tuto</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Nous vous proposons aujourdhui un petit guide pour realiser un miroir infini, mais pas uniquement puisquon va vous expliquer comment le rendre controlable a distance grace a un module  domotique Fibaro Tout dabord, quest-ce quun miroir infini? Cest un miroir qui grace a une illusion doptique simule un tunnel lumineux. On a donc limpression quil reflete alinfini. Le principe est simple :  un miroir normal est installe au fond dune boite / table basse / etc Et comment en fabriquer un? Pour cela cest tres simple! Munissez-vous:  dun miroir de preference avec un bord epais, dun bandeau de led dun Fibaro FGRGB-101 Et suivez les etapes suivantes: 1) Percez un petit trou dans le rebord de votre miroir afin de pouvoir faire passer les fils de votre bandeau de led. 2) Placez votre bandeau de led sur le pourtour interieur de votre miroir. Veillez a bien le fixer et a faire passer les fils de commandes par le petit trou que vous venez de percer. 3) Raccordez votre bandeau de led au module  Fibaro 4) Nettoyez bien votre vitre sur une premiere face. Prenez le film transparent et decoupez-grossierement au format de votre miroir (en plus grand evidemment pour pouvoir ensuite ajuster au mieux). Decoller la protection du film et collez-le sur votre vitre bien propre en suivant les indications de fixation de votre film. Noubliez pas de bien lisser le film pour eviter les bulles et que le film adhere bien a la surface. 5)Une fois le film bien fixe, ajustez la taille du film a la forme du miroir a laide dun cutter. 6)Nettoyez bien la deuxieme face de votre vitre et le miroir. Une fois assemble vous ne pourrez plus y toucher 7)Maintenant la derniere etape avant de pouvoir admirer son miroir, assemblez les deux parties, le miroir et la vitre filmee. Pour cela disposez des morceaux de scotch double face sur le rebord exterieur du miroir et venez delicatement deposez la vitre (cote sans film). Et une fois branche au secteur voila votre miroir infini qui brille de 1000 feux (voir plus ^^). Avec un tel resultat difficile de ne pas faire fondre son entourage a la  domotique Et pour domotiser sous Jeedom? Apres linclusion de votre module  Fibaro Jeedom Le widget: Et enfin un scenario de declenchement, qui allume le miroir lorsque le detecteur de presence voit du mouvement (evidemment!) En esperant que cet article vous donne lenvie den faire un a votre tour et vous permette de le reussir!  Merci a Marie et Loic pour le partage !  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Plugin Thermostat JEEDOM : pour le controle total de votre chauffage END .entry-content  
+        </text>
+</document>

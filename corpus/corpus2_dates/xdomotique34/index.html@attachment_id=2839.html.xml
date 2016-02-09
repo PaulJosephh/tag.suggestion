@@ -1,0 +1,74 @@
+<document>
+	<date>2013-01-21</date>
+        <title>ImperiHome 1.4 : eedomus prise en compte</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+  
+ 
+ Lapplication  ImperiHome  vient de passer en version 1.4, une version majeure qui prend en charge la gestion de la Box eedomus entre autres. 
+ Voici le changelog de cette version 1.4 : 
+ 
+ eedomus : Support de la box domotique eedomus 
+ General : Graphiques integres (fonctionne avec Netatmo, ZiBase, eedomus et Vera+Plugin Datamine) 
+ IP Camera : Possibilite de se connecter directement aux cameras IP MJPEG (sans passer par une box domotique) 
+ General : Possibilite de choisir licone representant chaque appareil 
+ General : Widget pour le lancement de scenarios depuis le launcher android 
+ General : Option pour le lancement automatique de ImperiHome au demarrage 
+ Vera/ZiBase : Support des modules pour volets roulants 
+ Vera : Support du plugin Teleinfo EDF Vera de psykokwak 
+ Vera : Support des detecteurs douverture 
+ Vera : Les rafraichissements sont beaucoup plus rapides en local (utilisation de requetes LongPoll) 
+ Vera : Support des interrupteurs virtuels (via le plugin Virtual ON/OFF Switches de la Vera) 
+ Vera : Support des switches on/off avec mesure denergie (par exemple les Everspring AN158) 
+ Vera : Support des capteurs de pression atmospherique 
+ Demo : Ajout des nouveaux appareils et fonctionnalites au mode Demo 
+ General : Option pour demander une confirmation avant le lancement des scenarios 
+ Vera/ZiBase : Passage automatique en mode distant si plusieurs erreurs en mode local 
+ 
+ Je viens de la tester et tout fonctionne tres bien. voici quelques images de mon telephone 
+ selection de leedomus possible : 
+ 
+  
+ reconnaissance de leedomus, puissaisie des identifiants 
+  
+ 
+  
+ 
+  
+ voila tout est reconnu, super application qui va au plus simple. Vous pourrez la telecharger  ici 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

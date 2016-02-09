@@ -1,0 +1,29 @@
+<document>
+	<date>2005-07-21</date>
+        <title>Ma petite moisson d'extensions Firefox</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>browsers</tag>
+                <tag>extensions</tag>
+                <tag>firefox</tag>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>
+ Greasemonkey 0.3.5 Mise a jour  OBLIGATOIRE  pour raisons de  failles de securite majeures .  kNo'  et  Simon Willison  en parlent mieux que moi et surtout de facon plus detaillee. 
+ 
+ 
+ All-in-one-sidebar Une barre laterale d'acces rapide aux principales fonctions de Firefox, a la maniere d' Opera . Pour moi desormais indispensable. 
+ 
+ 
+ Firefox Menu Editor Comme son nom l'indique, cette extension permet de customiser les menus de Firefox. Fonctionne egalement pour Thunderbird. 
+ 
+ 
+ Get Jetable Mail Cet extension vous permet de generer une adresse email pointant pour une duree temporaire vers votre veritable email, par le biais du service  Jetable Mail  de l' APINC . 
+ 
+ 
+ gTranslate Je vous parlais recemment de traduction automatique du fait de l'installation de la GoogleBar.  gTranslate  est la version allegee et plus utilisable (a mon sens) de cette fonctionnalite. 
+ 
+        </text>
+</document>

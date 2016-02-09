@@ -1,0 +1,87 @@
+<document>
+	<date>2013-10-01</date>
+        <title>eedomus : le rythme des mises  jour reprend son cours</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>eedomus</tag>
+                <tag>EnOcean</tag>
+                <tag>onduleur</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Eedomus</category>
+                <category>EnOcean</category>
+                <category>Fibaro</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ Il y a tout juste un mois eedomus passait une version majeure lui permettant de gerer le protocole EnOcean. Aujourdhui lequipe de  Connected Object , nous a concocte une nouvelle recette. 
+ 
+ que contient cette MAJ ? 
+ Mise a jour du 1er octobre 2013 
+  Z-Wave: 
+ 
+ Support du module  Flood sensor  de Fibaro 
+ 
+ 
+ 
+ Support du module  RGBW  de Fibaro 
+ 
+ 
+ 
+ Support du  variateur encastrable  de BeNext 
+ 
+ 
+  Support (BETA) d onduleurs EATON  (Via une connexion USB de la box) 
+ 
+ 
+  Support du protocole Atlantic (BETA) avec le  RFXUSB 
+  Support de la  teleinformation  avec  le dongle USB ADTEK 
+  Masquer/Afficher rapidement les canaux de vos peripheriques (Rendez-vous dans  Configuration du peripherique ) 
+  Choix de la consommation et le thermometre utilise dans le graphe defficacite thermique. 
+  Ajout dactions sur desactivation dans la programmation  Surveillance intrusion 
+  Les valeurs masquees des actionneurs peuvent etre editees (Mode Expert) (Onglet  Valeurs ,  Afficher les actions masquees , pour les dimmers) 
+  Il est possible davoir plusieurs programmations avec le meme nom si elle ne sont pas dans la meme piece 
+  Certains modules volets roulants peuvent etre stoppes pendant leur mouvement (Activer la valeur 240 apres avoir clique sur  Afficher les actions masquees  dans longlet  Valeurs ) 
+  Meilleure gestion des actions repetees sur les interrupteurs monostables Chacon (Selection lusage  Interrupteur monostable ) 
+  Ajout dun commande  WOL  alternative ( wol2 ) pour les peripheriques qui ne se laisseraient pas reveiller par la methode principale. 
+  Les modules x10.security  xPL  peuvent etre ajoutes en temps que capteur ou actionneur desormais. 
+  Ajout dun controle de coherence lors de la sauvegarde des regles de type na pas 
+  Correction dun bug sur le calcul de la consommation en  pour les prises avec consommetre 
+  Lordre alphabetique netait pas toujours respecte avec les caracteres accentues 
+  Les actions HTTP reussies ne generent plus de notification inutile 
+  Correction dun bug lorsque lexpression XPATH dun  capteur HTTP  valait 0 
+  Correction dun bug lors dune exclusion Z-Wave depuis les apps pour Smartphone 
+  
+ Voila quelques nouveautes, ameliorations et corrections de bugsConnected Object nous montre que la box est toujours dans la course 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

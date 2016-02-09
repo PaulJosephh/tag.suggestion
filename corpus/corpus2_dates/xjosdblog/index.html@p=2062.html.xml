@@ -1,0 +1,21 @@
+<document>
+	<date>2012-11-15</date>
+        <title>Projet UML : Systme dinformation dune bibliothque</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Projet</tag>
+        </tags_set>
+        <categories_set>
+                <category>Cours</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Lobjectif du projet consiste a proposer un modele du systeme informatique dune bibliotheque. Actuellement, la bibliotheque en question nen possede pas et ne travaille quavec des notices et des fiches papier.
+ 
+Ce projet a ete donne aux etudiants de 1ere annee du DUT informatique dans le cours dUML en decembre 2006.
+ 
+ 
+ Sujet du projet  Systeme dinformation dune bibliotheque 
+        </text>
+</document>

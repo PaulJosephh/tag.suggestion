@@ -1,0 +1,35 @@
+<document>
+	<date>2013-10-04</date>
+        <title>Choix dun contrleur Domotique</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>SynoZwave</tag>
+                <tag>Vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+                <category>Synology</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Le choix dun controleur domotique nest pas simple tant loffre est variee (ex: Vera, eeDomus, Zibase2S, MyFox, MyXyBox,  BlyssBox, Home Center 2, Zipabox, Dombox, CityGrow). De plus il faut conjointement faire un choix de protocole de transmission avec les capteurs et actionneurs du reseau domotique (ex: X10, PLC BUS, Z-Wave, Zigbee, EnOcean, KNX, DI-O).
+ 
+Je pense quil faut eviter les technologies proprietaires ainsi que les controleurs dependants des serveurs dune societe particuliere. Cela permet de limiter les risques concernant lindependance, la perennite et la confidentialite. Concernant les risques mentionnes ci-avant, lire le billet  PRISM : Abandonnez Google, Gmail, Facebook, Microsoft et Apple ! Pourquoi les Chromebooks me font peur mart-e Choix du protocole: Z-Wave 
+ 
+Concernant le protocole, jai decide de morienter vers un protocole non proprietaire ( evidemment ie. Ce billet 
+Cest donc assez naturellement que jai opte pour le protocole Z-Wave qui comporte en outre une dimension bidirectionnelle permettant, en plus de la gestion daccuse de reception, de pouvoir recuperer a tout instant letat dun equipement. Enfin, toujours dans un soucis de fiabilite, tous les modules Z-Wave alimentes en permanence (et non sur pile) sont capables de router les informations en formant un reseau maille dans lequel plusieurs routes sont possibles entre la box domotique et un module non directement joignables.
+ Ce billet 
+Il faut cependant garder un il sur la technologie  EnOcean Choix du controleur: Vera ou Home Center2? 
+ 
+ Voici un comparatif Vera Micasaverde Home Center2 Fibaro 
+La box de  Fibaro Vera Lite Fibaro Z-Wave Fibaro Z-Wave Vera Plus Vera Pro Home Center2 
+ Mise a jour du 17/04/2014: Voici maintenant quelque temps que je cotoie la  Vera Lite Vera Smart Home Controllers VeraPlus VeraPro firmware Home Center2 Vera Lite Vera Lite RaZberry Et du cote des solutions gratuites ? 
+ 
+ NAS Synology comme controleur Domoticz, controleur Z-Wave libre et gratuit ! Raspberry Pi Informations et sources 
+ 
+ Quelle technologie domotique choisir ? Les avantages du Z-Wave Comparatif des solutions Domotiques Quelle box domotique choisir ? 
+ Sommaire Domotique 
+        </text>
+</document>

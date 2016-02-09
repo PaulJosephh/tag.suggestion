@@ -1,0 +1,17 @@
+<document>
+	<date>2013-12-14</date>
+        <title> </title>
+        <author>JulSa_</author>
+        <tags_set>
+                <tag>Linux</tag>
+                <tag>Steam</tag>
+                <tag>Steam OS</tag>
+                <tag>Valve</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualit&#233;s</category>
+                <category>Jeux Vid&#233;o</category>
+        </categories_set>
+        <text>  Et voil&#224;, la premi&#232;re version de  Steam OS  est enfin  disponible en t&#233;l&#233;chargement . Mais attention, il s&#8217;agit pour le moment que d&#8217;une version b&#234;ta ! Steam OS est le syst&#232;me d&#8217;exploitation qu&#8217;embarqueront toutes les  Steam Machines . Il est bas&#233; sur la  distribution Linux Debian 7 , qui a &#233;t&#233; optimis&#233; pour vous offrir une meilleur exp&#233;rience. &#160;Plus tard, Valve &#224; l&#8217;intention de faire de son syst&#232;me d&#8217;exploitation une v&#233;ritable centre multim&#233;dia : films, s&#233;rie, musique&#8230; Un peu comme la Xbox One. A noter, qu&#8217;actuellement Valve est en discussion pour int&#233;grer tout ces services &#224; son OS. Si vous souhaitez t&#233;l&#233;charger le fichier pour tester l&#8217;OS c&#8217;est  ICI  que &#231;a se passe. Il faudra cette configuration minimale : Processeur 64 bits Intel ou AMD 4 Go de RAM Disque dur 500 Go Carte graphique  NVIDIA (le support des cartes AMD et Intel arrive bient&#244;t) Syst&#232;me de d&#233;marrage UEFI Port USB pour l&#8217;installation Toutefois, attention, il vous faudra des notions de Linux, mais surtout il faudra supprimer toutes les partitions, pas du dual boot donc (Toutes les informations&#160; ICI ). Dommage, du coup je ne pense pas tester ou sur un virtual machine. Voici quelques screenshots :                                           Certains d&#8217;entre vous vont tenter l&#8217;exp&#233;rience ?  
+        </text>
+</document>

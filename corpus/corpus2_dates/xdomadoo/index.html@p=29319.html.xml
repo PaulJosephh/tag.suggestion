@@ -1,0 +1,20 @@
+<document>
+	<date>2013-12-16</date>
+        <title>VeraLite : Ajoutez la technologie EnOcean</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>enocean</tag>
+                <tag>guide</tag>
+                <tag>plugin</tag>
+                <tag>tuto</tag>
+                <tag>usb300</tag>
+                <tag>veralite</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Domotique EnOcean</category>
+        </categories_set>
+        <text>
+                                                         On la vu la semaine derniere,  un plugin pour la VeraLite ou Vera3 EnOcean USB300 EnOcean 1. MATERIEL NECESSAIRE Une box  domotique VeraLite Un dongle USB EnOcean USB300 Des peripheriques EnOcean 2. INSTALLATION Commencons par inserer le dongle  USB300 USB A partir de linterface de la VeraLite, allez dans longlet APPLICATIONS, puis Installer des applications. Si vous navez pas de compte  MIOS Faites une recherche avec le terme  enocean Celui qui nous interesse est le  EnOcean Le plugin se telecharge et sinstalle donc sur la VeraLite. Un nouveau module  EnOcean 3. CONFIGURATION DU PORT COM USB EnOcean Allez donc dans longlet APPLICATIONS, puis dans Developper des applications, et enfin Configuraration du port serie. Dans le menu deroulant tout en bas, en face de Utilise par le module, selectionnez  EnOcean Rentrez ensuite les parametres suivants pour configurer la communication avec le port serie : Cliquez sur le bouton rouge SAUVER, et enfin Continuer. 4. AJOUT DUN PERIPHERIQUE Comme pour le  Z-Wave EnOcean Mettez le plugin en mode LEARN. Un message va apparaitre dans la zone de notification en haut. Appuyez sur le bouton dapprentissage du module que vous souhaitez associer. Exemple avec un interrupteur  Vimar VITA1002 Quittez le mode LEARN en cliquant sur NORMAL. Plusieurs modules ont ete crees, dont deux qui reagissent aux commandes de linterrupteur double. Trio2Sys T2S10020041 Votre VeraLite peut maintenant communiquer avec le monde  EnOcean  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

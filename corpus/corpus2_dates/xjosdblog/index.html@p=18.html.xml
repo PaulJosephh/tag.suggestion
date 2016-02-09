@@ -1,0 +1,20 @@
+<document>
+	<date>2010-05-08</date>
+        <title>Quelques paquets indispensables sous Ubuntu</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Indispensable</category>
+                <category>Systeme</category>
+        </categories_set>
+        <text>
+                                                 Voici une liste de quelques paquets que je trouve indispensables pour le bon fonctionnement de mon systeme sous Ubuntu. non-free-codecs libdvdcss2 3 numlockx Verr Num http://doc.ubuntu-fr.org/numlockx /etc/gdm/Init/Default if [ -x /usr/bin/numlockx ]; then
+ 
+ nfs-common  
+ ia32-libs util-linux 
+ flashplugin64-installer  sudo add-apt-repository ppa:sevenmachines/flash
+ 
+Pour generer votre fichier  source.list https://dev.sourceslist.org 
+        </text>
+</document>

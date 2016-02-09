@@ -1,0 +1,22 @@
+<document>
+	<date>2004-12-30</date>
+        <title>LiveSearch - Champs de recherche dynamique</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ajax</tag>
+                <tag>dev</tag>
+                <tag>dotclear</tag>
+                <tag>extensions</tag>
+                <tag>php</tag>
+                <tag>plugins</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dotclear</category>
+        </categories_set>
+        <text>Je suis en train de tester l'objet javascript XMLHttpRequest qui permet de charger dynamiquement une source de donnees externes dans un script javascript et de, par exemple, mettre un jour un objet html sans avoir a recharger la page. Ce sont les gens de  bitflux  qui, les premiers, ont souligne l'interet de cette classe. 
+
+ Pour l'adaptation a Dotclear, je me suis base sur le script original modifie par  Jeff Minard , afin de proposer la fonctionnalite en question sur le champs de recherche de PrendreUnCafe... que vous pouvez donc tester  
+
+ Cette outil etant en phase de test, je ne publie pas encore les sources PHP de l'adaptation. Je proposerai sans doute le fruit de cette recherche sous la forme d'un plugin. 
+        </text>
+</document>

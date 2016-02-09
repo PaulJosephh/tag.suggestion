@@ -1,0 +1,69 @@
+<document>
+	<date>2013-10-15</date>
+        <title>
+Amliorer la gestion de chauffage sur Fibaro HC2</title>
+        <author>sjhp</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Guides Box Domotique</category>
+                <category>Guides Chauffage</category>
+        </categories_set>
+        <text>Jutilise avec succes la regulation de chauffage depuis quelques temps sur le  Home Center 2 de Fibaro , mais il y manque a mon avis la gestion des fenetres ouvertes afin deviter un gaspillage denergie, ainsi quune maniere simpledactiver ou non la zone quand le temps devient plus clement. Je fais appel ala fonction vacances du panneau de regulation de chauffage pour cette tache:   Comme prerequis, il faut quune zone au moins soit fonctionnelle et quun detecteur douverture soit egalement present dans la piece a gerer. Lexemple ci-dessous ne concerne quune seule zone, mais il est bien sur possible den gerer plusieurs en dupliquant cet exemple et en prenant bien gardea mettre des noms differents.  
+ I. Les variables Il nous faut creer une variable predefinie appelee ici Mode_Chauffage_S_SA qui sera utilisee dans nos scenes.   Je vous rappelle brievement la procedure: 
+Panneaux \Panneau Variables \Variables predefinies, puis Ajouter Nous allons lui donner 2 valeurs: ETE et HIVER Noubliez pas de sauvegarder :-)  
+ II. Modules virtuels Nous allons utiliser 2 modules virtuels distincts.   PO_S_SAM: Mise en veille du chauffage en cas de fenetres ouvertes Mode_S_SAM: Basculement simple entre le mode vacances et normal (ETE-HIVER) Commenconspar creerle module de gestion de fenetres ouvertes (PO_S_SAM pour mapart). 
+Je vous rappelle brievement la procedure: 
+Modules \ Add or remove devices \Ajouter un peripherique virtuel 
+Lui donner un nom puis dans longlet Avance: Two buttons per line et cliquer sur Add set.   Le premier bouton mettra le mode chauffage sur vacances. 
+Inserer le code suivant a lemplacement Chaine a envoyer en noubliant pas de valider Code Lua  
+[quote]
+HC2 = Net.FHttp(192.168.1.83,80) 
+HC2:setBasicAuthentication(admin, admin) 
+local strefa = 1 
+response ,status, errorCode = HC2:GET(/api/panels/heating?id=..strefa) 
+jsonTable = json.decode(response) 
+jsonTable.properties.vacationTemperature = 7; 
+json = json.encode(jsonTable); 
+HC2:PUT(/api/panels/heating?id=..strefa, json) 
+[/quote]  En ligne 1: indiquez ladresse IP de votre BOX En ligne 2: modifiez les donnees de connexion si vous navez pas garde les valeurs par defaut En ligne 3: indiquez ici le numero de la zone de chauffage (1 pour la premiere zone, 2 la suivante etc) En ligne 6: la temperature que vous voulez avoir en mode vacances  Le 2eme bouton recevra lecode suivant: (la valeur0 (zero)a la ligne 6 desactivera le mode vacances)  [quote]
+HC2 = Net.FHttp(192.168.1.83,80) 
+HC2:setBasicAuthentication(admin, admin) 
+local strefa = 1 
+response ,status, errorCode = HC2:GET(/api/panels/heating?id=..strefa) 
+jsonTable = json.decode(response) 
+jsonTable.properties.vacationTemperature = 0; 
+json = json.encode(jsonTable); 
+HC2:PUT(/api/panels/heating?id=..strefa, json) 
+[/quote]  
+[box_download] Comme toujours, les guillemets ont de la peine a passer, alors voici les fichiers textes a telecharger. https://www.dropbox.com/s/cgws1hnky64773n/Device1%20Bouton1.txt https://www.dropbox.com/s/6o01ppq7epqt23z/Device1%20Bouton2.txt 
+[/box_download]  Continuons avec le module virtuel de gestion du mode de chauffage, pour le creer, reprenez la meme procedure quauparavant. Le premier boutonsera le mode ETE 
+Cest ici, en ligne 1, que lon utilisera notre variable predefinie. [quote]
+fibaro:setGlobal(Mode_Chauffage_SSA,ETE) 
+fibaro:log(Mode ETE) 
+HC2 = Net.FHttp(192.168.1.83,80) 
+HC2:setBasicAuthentication(admin, admin) 
+local strefa = 1 
+response ,status, errorCode = HC2:GET(/api/panels/heating?id=..strefa) 
+jsonTable = json.decode(response) 
+jsonTable.properties.vacationTemperature = 7; 
+json = json.encode(jsonTable); 
+HC2:PUT(/api/panels/heating?id=..strefa, json) 
+[/quote]  Et pour le bouton 2 qui correspondra au mode HIVER [quote]
+fibaro:setGlobal(Mode_Chauffage_SSA,HIVER) 
+fibaro:log(Mode HIVER) 
+HC2 = Net.FHttp(192.168.1.83,80) 
+HC2:setBasicAuthentication(admin, admin) 
+local strefa = 1 
+response ,status, errorCode = HC2:GET(/api/panels/heating?id=..strefa) 
+jsonTable = json.decode(response) 
+jsonTable.properties.vacationTemperature = 0; 
+json = json.encode(jsonTable); 
+HC2:PUT(/api/panels/heating?id=..strefa, json) 
+[/quote]  
+[box_download] https://www.dropbox.com/s/zmthsrxlkth411t/Device2%20Bouton1.txt https://www.dropbox.com/s/nezajc7u2zs4qei/Device2%20Bouton2.txt 
+[/box_download] Pour info, la case Main definira le bouton 1 ou 2par defaut lorsque vous cliquerez sur la touche qui se trouve a cote de licone du module virtuel, icone que vous pouvez bien entendu modifier a votre guise.  
+ III. Les scenes A present il faut creer 2 scenes. La premiere, lorsquune fenetre sera ouverte par lintermediaire du module virtuel, fera passer le mode chauffage sur vacances. Vous remarquerez queje surveillelouverture de deux portes, a vous de modifier en consequence selon votre usage. Cette surveillance nest active quen mode HIVER bien entendu.   La scene suivante remettra le chauffage en route quand la ou les fenetres seront refermees.   Je nai pas mis de temporisation, car cest la gestion de chauffage de la box qui en met une de toute facon. PS. Le dernier element pourrait etre different chez vous puisque le nom du bouton est donne par defaut a la creation du module virtuel et peut-etre modifie pour plus de clarte par vous-meme.  
+ IV. Conclusion  Comme vous le voyez, on peut ameliorer encore assez simplement lergonomie de cette box, afin de la faire correspondre a nos desirs. Pour cette modification,  un post interessant ma beaucoup aide sur le forum officiel de Fibaro . Sur ce, je vous souhaite un hiver bien au chaud :-)   
+        </text>
+</document>

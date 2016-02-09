@@ -1,0 +1,54 @@
+<document>
+	<date>2005-02-09</date>
+        <title>MTASC - Compilateur Flash libre sous Linux : CA MARCHE</title>
+        <author>NiKo</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>Compiler du Flash sous linux est desormais chose possible; la preuve : je viens de le faire. 
+C'est un sentiment etrange, presque un infini beant qui s'ouvre devant moi. L'unique raison 
+qui me rattachait encore a Windows vient de s'evaporer comme par magie.
+
+ Si la liberte vous interesse, voici la demarche a effectuer (Ubuntu Hoary) : 
+
+ 
+         Recuperer  MTASC , le 
+        compilo SWF libre de  Motion-Twin  (que ces gens 
+        soient benis, en plus ils sont francais : Cocorico!) 
+         Decompresser l'archive, copier l'ensemble du repertoire dans /opt/mtasc (par exemple) 
+         Faire un lien symbolique dans /bin ( $ ln -s /opt/mtasc/mtasc /bin/mtasc ) 
+         Creez un nouveau document Test.as avec gedit par exemple, et entrez le code suivant : 
+         class Test {
+        public function Test() {
+                _root.createtextField("tf", 0, 0, 0, 800, 600);
+                _root.tf.text = "Hello World !";
+        }
+        public function main() {
+                new Test();
+        }
+} 
+         Dans un shell, tappez  mtasc -swf Test.swf -main -header 800:600:20 -cp /opt/mtasc/std 
+        Petite explication rapide des parametres utilises dans l'exemple :
+                 
+                         L'option -swf NomFichier.swf permet de definir le fichier a creer 
+                         l'option -main permet de lancer la methode main() sur la classe mere au lancement 
+                         L'option -header width:height:fps permet de definir la largeur, la hauteur et le framerate de l'animation 
+                         l'option -cp permet de definir le chemin du repertoire contenant les classes natives de flash 
+                 
+         
+         Lancez le fichier Test.swf nouvellement cree avec Firefox par exemple (muni du plugin Flash player, oeuf corse) 
+         Voila, vous venez de creer et compiler un fichier swf sous linux  
+ 
+
+ Evidemment, les plus grincheux objecteront que c'est un peu austere, et que ca va pas 
+etre facile de designer des environnements graphiques complexes en actionScript pur. Certes. 
+
+ Cependant, cela permet deja aux purs developpeurs Flash de travailler sous linux, en ne manipulant par exemple 
+que des fichiers graphiques externes (swf, jpeg non progressifs) qui leur auront ete 
+donnes par d'autres graphistes (sous Windows ou Mac OS X eux, bouhhhh)  
+
+ Encore une fois, un grand bravo a  Nicolas Cannasse  et a  Motion-Twin  pour le formidable travail accompli  
+        </text>
+</document>

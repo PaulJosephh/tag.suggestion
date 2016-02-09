@@ -1,0 +1,34 @@
+<document>
+	<date>2007-05-16</date>
+        <title>KeyJnote, et vos prsentations ont la classe</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>libre</tag>
+                <tag>linux</tag>
+                <tag>presentation</tag>
+                <tag>slides</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>KeyJnote  est un logiciel permettant l'affichage de presentations au format  PDF . Le logiciel, riche en effets  OpenGL , se veut aussi spectaculaire que  Keynote . 
+
+
+ Bien que le paquet  keyjnote  soit disponible dans les depots d' Ubuntu Feisty  en version 0.8.2, j'ai prefere installer la toute derniere version (0.9.4) qui s'installe relativement facilement: 
+
+
+ $ sudo apt-get install python python-pygame python-opengl python-imaging gs pdftk
+$ wget -c http://ovh.dl.sourceforge.net/sourceforge/keyjnote/KeyJnote-0.9.4.tar.gz
+$ tar xvzf KeyJnote-0.9.4.tar.gz  sudo mv KeyJnote-0.9.4/keyjnote.py /usr/local/bin/ 
+
+
+ L'idee est de preparer ses slides dans un editeur permettant de sortir du  PDF  (comme  Impress  ou  KPresenter , par exemple) et de laisser la gestion de l'affichage a KeyJnote. Pour vous faire une idee plus precise des capacites du logiciel, lancez la demo en n'hesitant pas a jouer avec la souris et les  raccourcis clavier disponibles : 
+
+
+ $ keyjnote.py KeyJnote-0.9.4/demo.pdf 
+
+
+ Voila, meme sous Linux, vos presentations n'auront plus jamais la meme tronche  
+        </text>
+</document>

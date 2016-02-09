@@ -1,0 +1,29 @@
+<document>
+	<date>2014-07-14</date>
+        <title>Yo, une app pour le moment peu curieuse en donn&#233;es</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Conditions g&#233;n&#233;rales</tag>
+                <tag>Protection des donn&#233;es</tag>
+                <tag>Sph&#232;re priv&#233;e</tag>
+        </tags_set>
+        <categories_set>
+                <category>Technologies</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Yo  est l'application "ph&#233;nom&#232;ne" de ces derni&#232;res semaines. Ses concepteurs ont r&#233;cemment lev&#233; plus d'un million de dollars pour son financement. Pour une  application  qui ne permet que d'envoyer un "Yo&#160;!" &#8211; enfin, elle est aussi  utile aux Isra&#233;liens  &#8211; &#224; un contact qui utilise aussi l'application, il faut avouer que c'est &#233;tonnant. Un ami,  @Pingugus , m'a rappel&#233; autour d'un verre l'existence de cette app avec cette question&#160;: collectent-ils des donn&#233;es pour se financer&#160;? 
+ L'app est gratuite et vu son usage, on pourrait penser qu'elle ne r&#233;colte pas de donn&#233;es, surtout qu'il n'y a pas (encore) de publicit&#233; affich&#233;e dans l'app. Erreur.  Yo collecte bel et bien des donn&#233;es et les stocke sur ses serveurs . 
+ Mais de quelles donn&#233;es parle-t-on&#160;? Selon la  Privacy Policy , lorsqu'on utilise l'app, on consent &#224; la collecte, &#224; l'utilisation et &#224; la transmission de donn&#233;es. De plus, cette Privacy Policy peut &#234;tre modifi&#233;e en tout temps sans avertissement, c'est pourquoi Yo recommande de v&#233;rifier r&#233;guli&#232;rement si elle n'a pas chang&#233; 1 
+ Les donn&#233;es collect&#233;es comprennent le  num&#233;ro de t&#233;l&#233;phone , qui est utilis&#233; pour retrouver des contacts. A l'inverse de Whatsapp, Yo ne r&#233;cup&#232;re (apparemment et pour le moment) pas tout le carnet d'adresses. Le num&#233;ro de t&#233;l&#233;phone est stock&#233; sur leurs serveurs et utilis&#233; dans le but de fournir les services li&#233;s &#224; l'utilisation de l'app, notamment la recherche de contacts. L'app a ceci de bien qu'elle n'utilise pas les comptes des r&#233;seaux sociaux des utilisateurs. 
+ D'autres donn&#233;es "ne permettant pas de vous identifier" sont r&#233;colt&#233;es dans un but statistique. Dans le lot, on trouve l' UID  (l'identifiant unique de votre t&#233;l&#233;phone), votre  pseudonyme , le type de  smartphone  utilis&#233;, la version de son  syst&#232;me d'exploitation , les  r&#233;glages  du smartphone, d'autres  identifiants uniques  et des  journaux  (logs) en cas de plantage de l'app. 
+ Ces donn&#233;es "anonymes" sont utilis&#233;es pour am&#233;liorer le service et assurer son fonctionnement. Cependant, les donn&#233;es pourront &#234;tre  utilis&#233;es et transmises  (telles que collect&#233;es) &#224; des tiers, notamment des potentiels annonceurs, sponsors, partenaires, investisseurs, etc. sans que l'utilisateur puisse s'y opposer. 
+ Conclusion 
+ Yo est donc pour le moment une  application relativement peu curieuse , bien qu'elle collecte quand m&#234;me des donn&#233;es. Si pour le moment, elle ne mon&#233;tise pas les donn&#233;es qu'elle collecte, leur politique de protection des donn&#233;es leur permet d&#233;j&#224; de le faire, et sans en avertir les utilisateurs. 
+ Il conviendra donc de faire tr&#232;s attention lorsque l'application sera mise &#224; jour et qu'elle demandera encore plus d'autorisations d'acc&#232;s aux donn&#233;es sur le smartphone. De plus, il faut savoir que les donn&#233;es collect&#233;es dans un but statistique ne sont en rien "anonymes" comme on veut nous le faire croire. Plusieurs de ces donn&#233;es sont des identifiants uniques et si l'on agr&#232;ge ces donn&#233;es avec d'autres, il est extr&#234;mement facile et rapide d'identifier une personne. 
+
+         Notes &#160;&#160;&#160;[  +  ]                                                 1.      &#8629;         Je m'insurge vraiment contre cette pratique. En cas de modification des conditions g&#233;n&#233;rales, un nouveau consentement doit &#234;tre demand&#233;. A l'heure o&#249; toutes les apps collectent des donn&#233;es comme le num&#233;ro de t&#233;l&#233;phone ou l'adresse email, ce n'est vraiment pas la mer &#224; boire d'envoyer un message de notification ou d'afficher le changement au prochain lancement de l'app et d'en imposer son acceptation si l'on veut continuer &#224; utiliser l'app.                                                                             
+                                                                                                        
+                                                 
+        </text>
+</document>

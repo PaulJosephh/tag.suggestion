@@ -1,0 +1,17 @@
+<document>
+	<date>2014-11-06</date>
+        <title>
+Afficher des notifications sur sa TV grce  UpTV</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>notifications</tag>
+                <tag>TV</tag>
+                <tag>UpTV</tag>
+        </tags_set>
+        <categories_set>
+                <category>Maison</category>
+                <category>News</category>
+        </categories_set>
+        <text>Lors du  Paris Games Week , ou se tenait pour la premiere fois le premier salon sur les objets connectes, jai eu loccasion davoir une demonstration de la solution  UpTV . Cette nouvelle solution, creee par une societe toulonnaise, Anse Technology, est presentee de cette facon: Envie de partager lemotion dun direct sportif (Top 14, Ligue 1, Coupe Davis), de reagir instantanement a une actualite ou emission de tele-realite ? Up TV est la toute premiere solution connectee de Social TV qui permet dechanger avec ses proches, assis eux aussi devant leur televiseur, des courts messages et photos directement affiches a lecran.   Bien sur, les fonctionnalites ne sarretent pas a ca, Up TV dispose de bien dautres possibilitespour piloter sa television et partager du contenu depuis sa tablette et/ou smartphone Zapper, commander sa TV depuis un smartphone ou une tablette, Afficher photos et videos sur sa TV, Acceder a un guide des programmes, Enregistrer des programmes sur sa tablette, Disposer a distance du controle parental Definir sa TV, ses preferences .   En fait UpTV est capable de rendre connectee nimporte quelle TV, mais dune facon un peu particuliere. Alors que la plupart des solutions utilisent habituellement un boitier TV a brancher sur lune des entrees video de la TV, Up TV est basee sur une carte PCMCIA qui vient se loger directement dans la TV (cet emplacement, obligatoire depuis 2008 sur toutes les TV, est assez peu connu et peu utilise, en fait). Sans aucun abonnement, il suffit ensuite dinstaller lapplication smartphone ou tablette (iOS, Android et bientot Windows Phone). Une fois reliee la carte Up TV au WiFi de la maison, lutilisateur va acceder a de nouvelles fonctionnalites et contenus a partager depuis lapplication pour une television plus moderne et connectee !   La grosse nouveaute, comme je le disais plus haut, est quon ne passe pas ici par un boitier exterieur: ainsi, les notifications, messages, et photos apparaissent directement sur lecran de la TV, pendant que vous regardez la TV classique, cest a dire via son tuner habituel. Dans  un tutorial je vous avais explique comment afficher des notifications sur votre TV grace a XBMC . Cela implique que la source de la TV soit reglee sur le boitier ou est installe XBMC. Dans les faits, on ne voit jamais les notifications, puisque la plus grande partie du temps, la TV est sur son tuner natif (en tout cas chez moi). Je suis en fait le seul a utiliser XBMC de temps en temps pour profiter du Home Cinema Ce probleme sera bientot resolu avec Up TV, puisque les notifications safficheront sur la TV normale. Un detail, mais qui risque bien de revolutionner un peu notre facon de communiquer avec notre systeme domotique. Car il y aura une API, qui permettra dafficher les messages quon souhaite, voir meme les photos (exemple photo de la camera de lentree quand on sonne a la porte). Cette solution devrait etre disponible dici fevrier au prix de 60 environ. Je serai tres certainement parmi les premiers acheteurs, donc je vous en reparlerai a sa disponibilite ;-)   notifications   TV   UpTV 
+        </text>
+</document>

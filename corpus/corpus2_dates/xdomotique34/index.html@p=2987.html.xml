@@ -1,0 +1,141 @@
+<document>
+	<date>2013-02-01</date>
+        <title>Prsentation des capteurs sans fil et sans pile lors du sminaire  Lattes le 31 janvier 2013</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>Arveni</tag>
+                <tag>autoalimentes</tag>
+                <tag>CAP'TRONIC</tag>
+                <tag>capteur sans fil</tag>
+                <tag>capteur sans pile</tag>
+                <tag>CFAI LR</tag>
+                <tag>EnOcean</tag>
+                <tag>Giga-Concept</tag>
+                <tag>Intesens</tag>
+                <tag>JESSICA FRANCE</tag>
+                <tag>Micro source d'energie</tag>
+                <tag>Nano-Sense</tag>
+                <tag>Piezoelectrique</tag>
+                <tag>seminaire</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Evenements</category>
+                <category>Formation</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ Me voila de retour de ce seminaire concernant les capteurs sans fil et sans pile. Jai eu le plaisir de rencontrer Pascal de la SARL  My Domotique  et animateur du magasine  Domotique-info  ainsi que Peedjy de  Domogy.fr . (tous deux de grands passionnes). 
+ Une journee sous soleil pres de Montpellier a Lattes, entre professionnels, et bien sur passionnes des nouvelles technologies et de la domotique. 
+ Nous avons eu a faire a plusieurs intervenants tous lies a la technologie des capteurs radio autoalimentes sans fil et sans pile. 
+ Une breve presentation de Ricardo Garcia (doctorat en electronique) qui travaille a lInstitut Electronique du Sud (IES). 
+ Ricardo nous a presente les domaine de recuperation de lenergie ambiante.Pour lui, lideal serait de recuperer de lenergie partout ou elle se trouve (la chaleur du corps, la chaleur ambiante, les vibrations) et a partir de sources comme (photovoltaiques, electromagnetiques). 
+ Latout de ces capteurs est donc la recuperation denergie et la capacite de stockage. 
+ Voila une bonne introduction pour ce seminaire. 
+ Presentation  EnOcean  par Emmanuel Francois (directeur des ventes Europe de louest) 
+ 
+ LEnOcean dont le siege est situe aMunichest un inventeur et un fabricant de latechnologiede base brevetee technique sensorielle deradiosans batteries. 
+ Module sans fil (jusque-la rien de bien neuf), sans pile! La technologie est basee sur lEnergy Haversting - recuperation denergie environnante aujourdhui axe sur 3 principes: 
+ 
+ leffet mecanique avec une bobine et un aimant (interrupteur) 
+ leffet solaire, le panneau solaire (capteur de mouvement, de temperature) 
+ leffet Peltier: difference de temperature entre deux surfaces (regulation de temperature) 
+ 
+  
+ Protocole ISO/IEC 14543-3-10 (qui regit la communication radio basseconsommation) 
+ Les enjeux des capteurs et actionneurs sont la rapidite, facilite dinstallation et surtout le sans fil, EnOcean est un protocole ouvert, standard, il y a dans lalliance EnOcean, plus de 300 fabricants et pres de 1000 produits. Cette norme internationale (IEC ou CEICommission electrotechnique internationale)pose les fondements dune technologie sans fil totalement interoperable, ouverte et comparable aux normes Bluetooth etWi-Fi. 
+ Les avantages davoir une vraie norme ISO internationale qui regit le protocole: 
+ 
+ Nimporte quelle entreprise qui rejoint lalliance peut developper des produits bases sur la technologie Enocean 
+ Les produits qui sont developpe en respectant la norme seront interoperables avec les produits dautres societes qui respectent egalement la norme 
+ Le catalogue de choix autour dune solution domotique est donc enorme 
+ 
+ 
+ La bande de frequence utilisee est a 868 MHz, cette frequence est celle utilisee en Europe 
+ Portee du signal 30 m dans les batiments et 300 m a lexterieur. 
+ Taux de transfert eleve a 125kBits/s 
+  
+ Quelques limitations. 
+ Malheureusement certains composants necessitent malgre tout une alimentation externe. Cela peut etre en 24V ou une pile, donc tout nest pas forcement sans piles. 
+ Conclusion 
+ Lutilisation de la technologie sans pile dans lautomatisation du batiment fait baisser la consommation denergie et croitre ainsi sa rentabilite globale. Dans le meme temps, elle permet un maximum de flexibilite puisquun cablage est inutile en cas de transformations. Au prix dun travail minimal et sans endommager les murs, les produits bases sur la technique EnOcean simplantent exactement la ou leurs possibilites dutilisation sont optimales. 
+ Tres interessant pour une renovation ou pour ajouter des fonctionnalites a une installation electrique figee. EnOcean se retrouve donc dans les termes de lecoconception et le developpement durable. 
+  
+ Presentation de  Giga-Concept  par Laurent Muckensturm 
+ Linternet des objets (IOT) 
+ 
+ 
+ Le Flyport est une carte intelligente qui permet de maitriser et gerer des objets a distance grace au WIFI . Il suffit simplement de lintegrer dans les appareils electriques pour ensuite piloter les objets via une box ADSL, un smartphone ou une tablette tactile. 
+ Lapplication en C est compilee grace a lenvironnement de developpement open source gratuit OPENPICUS IDE. Le firmware est embarque dans un puissant processeur 16bit avec 256K de flash! La Flyport possede egalement un supplement de memoire flash. 
+Les integrateurs pourront se concentrer sur leur savoir-faire et lapplication metier, le FLYPORT soccupe de gerer linterface reseau, les protocoles de communication Internet et les pages web. 
+Les pages web dynamiques sont aussi supportees avec une methode facile dutilisation permettant aux variables du monde reel detre affichees ou changees en utilisant du HTML ou du JQUERY. 
+ Decouvrir OpenPICUS 
+ nest EnOcean 
+  
+ Cette carte dextension est un excellent outil pour creer des systemes de maison intelligentes bases sur des modules programmables Flyport  OpenPicus . Creer une passerelle Internet a faible cout pour les appareils EnOcean afin dacceder a votre maison en utilisant un smartphone ou une tablette 
+ Le Nest est compose dun emetteur-recepteur TCM-310 868 MHz EnOcean, connecte au Flyport grace a un port UART. 
+ Le code source est disponible, il ne vous reste plus qua creer vos systemes pour controler vos equipements compatible EnOcean. 
+  
+ Presentation  Nano-sense  par Olivier Martimot 
+ Passerelle domotique intelligente et realisation dun RoomcontroleurEnOcen 
+ 
+  
+  
+ La G4000 est une passerelle bidirectionnelle entre lecosysteme EnOcean et le bus KNX. Elle permet un parametrage complementaire des capteurs et des actionneurs EnOcean grace a la base de donnees KNX. 
+ La passerelle G4000 peut relier jusqua 20, 36 ou 40 capteurs et piloter jusqua 6 actionneurs etsupporte lintegralite de lEEP2.5 approuves par lalliance EnOceandebut2013. 
+ La passerelle gere les telegrammes EnOcean securises 
+ Cest la garantie que nimporte quel capteur ou actionneur, meme bidirectionnelle, de nimporte quel fabricant membre de lalliance EnOcean peut etre relie a la passerelle. 
+ La fonction des capteurs ou des actionneurs est selectionnee avec le logiciel ETS. Selon la fonction selectionnee, les telegrammes EnOcean sont associes aux objets de communication KNX correspondants. 
+ 
+ Presentation  Arveni  par Jean Frederic Martin 
+ Detentrice aujourdhui de douze brevets, la jeune entreprise a developpe un microgenerateur autonome qui transforme une energie mecanique en une energie electrique sous 3 V, suffisante pour alimenter un capteur, un microcontroleur et un circuit de communication radio. 
+ Nos produits peuvent recuperer lenergie mecanique sous forme impulsionnelle, lorsquil y a appui sur un bouton-poussoir, ou sous forme vibratoire, lorsque le capteur est installe sur des machines ou dans des moyens de transport, detaille Jean-Frederic Martin.  
+ Mais, dans tous les cas, le cur du microgenerateur est identique. Seules les interfaces mecaniques et electriques varient en fonction de lapplication visee. Cest pourquoi nous travaillons toujours en collaboration avec nos clients pour le developpement a facon de ces interfaces . 
+  
+ Lun des points forts de la technologie d Arveni reside dans le rendement de transformation de son microgenerateur piezoelectrique. 
+  Sur le marche de la recuperation denergie ambiante , la plupart de nos concurrents exploitent des procedes electrodynamiques dont le rendement nexcede pas 1%, une fois appliques a des objets de petites dimensions, avance le dirigeant de la firme francaise. Grace a notre technologie brevetee, nos recuperateurs denergie, dont les dimensions sont sensiblement equivalentes a celles dune pile AA, affichent des rendements compris entre 10% et 25% . 
+  
+ Presentation  Intesens  par Xavier Lafontan 
+ 
+ INTESENS signifie Functional Integrity Sensing soit en francais : Controle de lintegrite fonctionnelle. La mission de la societe est de proposer des solutions innovantes pour securiser le fonctionnement dun systeme electrique ou mecanique. 
+ Lactivite principale de la societe est la conception, la fabrication et la commercialisation dinstrumentation scientifique de controle dintegrite fonctionnelle. A ce titre, elle propose des solutions standards ou specifiques. 
+ Ses champs de competences couvrent: les capteurs miniatures, les architectures tres faible consommation denergie, les reseaux de capteurs sans fil, la recuperation denergie embarquee, le stockage embarque de lenergie, lintegration 3D, le prototypage, et la realisation de boitier mecanique sur mesure. 
+ INTESENS est fortement impliquee dans le developpement de solutions a base denergies renouvelables,concoit et commercialise des capteurs sans fil autonomes. 
+ 
+Ces capteurs sont capables de diagnostiquer localement letat de sante dun equipement industriel. 
+ 
+ 
+ En conclusion de ce seminaire : 
+ Lapres midi a ete consacree a des ateliers de demonstration sur des systemes fonctionnant sous les technologies Arveni, EnOcean, et Nano-Sense. Bien sur, le theme general etait la recolte denergie a laide de capteurs sans fil ni pile, une approche de lanalyse du CO2 dans lesbatimentsintelligentset dans les maisons individuelles BBC (Batiment Basse Consommation). 
+ Ces capteurs sans fils ni piles sappuient sur lEnergy Harvesting pour puiser leur energie dans leur environnement (soit a partir de mouvement, de lumiere ou de differences de temperature) et ne dependent donc pas dune alimentation exterieure. 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

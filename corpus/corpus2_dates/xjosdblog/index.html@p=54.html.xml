@@ -1,0 +1,16 @@
+<document>
+	<date>2008-03-04</date>
+        <title>Rsoudre un problme daffichage ou de clavier sous Ubuntu</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Galeres</category>
+                <category>Systeme</category>
+        </categories_set>
+        <text>
+                                                 Sous  Ubuntu 
+sudo dpkg-reconfigure xserver-xorg
+ /etc/X11/xorg.conf Entree 
+        </text>
+</document>

@@ -1,0 +1,89 @@
+<document>
+	<date>2015-09-08</date>
+        <title>Quelle alternative &#224; Wuala&#160;: SecureSafe ou Tresorit ?</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Application</tag>
+                <tag>Conditions g&#233;n&#233;rales</tag>
+                <tag>Economie</tag>
+                <tag>Protection des donn&#233;es</tag>
+                <tag>Sph&#232;re priv&#233;e</tag>
+                <tag>T&#233;l&#233;communications</tag>
+        </tags_set>
+        <categories_set>
+                <category>Technologies</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Le 17 ao&#251;t 2015, Wuala a  annonc&#233;  la cession de ses activit&#233;s. J'avais  test&#233;  ce logiciel il y a plusieurs ann&#233;es et je l'avais pr&#233;f&#233;r&#233; &#224; Dropbox, tant pour des raisons juridiques (soci&#233;t&#233; suisse &#233;tablie en Suisse, droit suisse pleinement applicable, etc.) que techniques (meilleure s&#233;curit&#233; des donn&#233;es, chiffrement des donn&#233;es sur la machine de l'utilisateur, etc.).&#160;Il illeut donc chercher des alternatives qui offrent des caract&#233;ristiques juridiques et techniques semblables. Wuala sugg&#232;re de passer sur  Tresorit , mais j'ai aussi trouv&#233; une autre solution&#160;:  SecureSafe . 
+ Laquelle choisir&#160;? 
+ Tresorit 
+ 
+ R&#233;sum&#233; 
+ Les informations ci-dessous proviennent du site web de Tresorit. 
+ Tresorit est exploit&#233; par la soci&#233;t&#233; anonyme Tresorit AG  bas&#233;e  &#224; Teufen (Appenzell Rhodes-Ext&#233;rieures). Les serveurs stockant les donn&#233;es ne sont cependant pas situ&#233;s en Suisse, mais dans l'Union europ&#233;enne. 
+ Tresorit utilise le  chiffrement  bout &#224; bout (end-to-end encryption) qui assure que les donn&#233;es sont chiffr&#233;es avant d'&#234;tre envoy&#233;es sur les serveurs. Les metadata sont aussi chiffr&#233;es. Les cl&#233;s de chiffrement sont stock&#233;es sur vos appareils sans jamais &#234;tre transmises de mani&#232;re non chiffr&#233;e (par exemple lorsque vous partagez des fichiers avec un tiers). Cela signifie donc qu'en cas de perte du mot de passe de votre compte, ou d'autres mots de passe relatifs &#224; vos donn&#233;es, ces derni&#232;res sont irr&#233;m&#233;diablement perdues. (C'est le revers de la m&#233;daille que Dropbox n'a pas, Dropbox est moins confidentiel, car il peut d&#233;chiffrer vos donn&#233;es &#233;tant donn&#233; qu'il connait votre mot de passe.) 
+ Tresorit n'offre (officiellement)&#160; aucune solution gratuite , la meilleur march&#233; co&#251;tant 10&#8364; par mois pour 100 Go d'espace. Il est &#233;videmment possible d'essayer Tresorit pendant 30 jours gratuitement. Cependant, dans les petites lettres, il s'av&#232;re qu'&#224; la fin de la p&#233;riode d'essai, si l'on ne fait rien, le compte devient "basique" et reste gratuit ind&#233;finiment, tout en n'offrant que 3 Go d'espace et des fonctions de partage limit&#233;es. 
+ Conditions g&#233;n&#233;rales (du 25 ao&#251;t 2015) 
+ Vous me connaissez , j'ai &#233;videmment lu les  conditions g&#233;n&#233;rales de Tresorit . Je n'y ai pas trouv&#233; d'&#233;l&#233;ments follement int&#233;ressants, en dehors de ce qui suit. 
+ Tresorit d&#233;clare qu'il peut utiliser les services de  tiers de confiance  pour fournir leur service. Le seul tiers de confiance explicitement mentionn&#233; est Microsoft. Quand on voit la pol&#233;mique avec Windows 10 et les probl&#232;mes de protection des donn&#233;es que pose ce nouveau syst&#232;me d'exploitation, la notion de "tiers de confiance" m'apparait plut&#244;t cocasse. 
+ Tresorit ne peut &#234;tre utilis&#233; par des personnes situ&#233;es &#224; Cuba, en Iran, Cor&#233;e du Nord, au Soudan, en Syrie ou dans d'autres pays faisant l'objet d'embargos de la Suisse, l'UE ou les USA. (Il faudra mettre cette liste &#224; jour, l'Iran et Cuba n'y figureront plus tr&#232;s bient&#244;t.) 
+ Le droit suisse est uniquement applicable selon les conditions g&#233;n&#233;rales. En cas de litige avec Tresorit, la voie de l'arbitrage sera pr&#233;f&#233;r&#233;e. L'arbitrage se fera &#224; Z&#252;rich et en anglais. 
+ Enfin, certaines donn&#233;es comme vos informations de contact et de paiement ne sont pas stock&#233;es de mani&#232;re chiffr&#233;e &#233;tant donn&#233; que Tresorit en a besoin pour g&#233;rer le compte utilisateur et la relation avec ses clients. Cela ne signifie pas qu'elles ne sont pas transmises par un canal chiffr&#233;. 
+ Politique de confidentialit&#233; (du 3 juillet 2015) 
+ La  politique de confidentialit&#233;  de Tresorit nous apprend quelques&#160;&#233;l&#233;ments int&#233;ressants. 
+ Alors que le site web de Tresorit ne mentionne pas express&#233;ment o&#249; se trouvent les serveurs, on apprend que  le ma&#238;tre de fichier 1   est Tresorit Kft, soci&#233;t&#233; situ&#233;e en Hongrie .  Cette soci&#233;t&#233; d&#233;tient l'entier du capital de&#160;Tresorit AG . 
+ En cas d'effacement du compte, les donn&#233;es personnelles ne sont pas imm&#233;diatement supprim&#233;es en raison de certaines obligations l&#233;gales. L'adresse e-mail associ&#233;e &#224; votre compte ne sera en principe effac&#233;e qu'apr&#232;s un an. 
+ Les donn&#233;es chiffr&#233;es sont quant &#224; elles supprim&#233;es 90 jours au plus apr&#232;s la suppression du compte.&#160;(&#201;tant donn&#233; que les donn&#233;es sont chiffr&#233;es et donc th&#233;oriquement impossibles &#224; lire pour un tiers, je ne vois pas vraiment l'int&#233;r&#234;t, m&#234;me l&#233;gal, &#224; conserver ces donn&#233;es.) 
+ Conclusion 
+ Sur le plan l&#233;gal et organisationnel, je n'ai pas d&#233;tect&#233; d'&#233;l&#233;ment particuli&#232;rement choquant. Tresorit AG &#233;tant une soci&#233;t&#233; suisse d&#233;tenue par une soci&#233;t&#233; hongroise, il existe un risque qu'en cas de probl&#232;me en Hongrie, le service soit interrompu ou fortement entrav&#233;. 
+ Pour le reste, sur le papier, ce service a l'air effectivement robuste. 
+ SecureSafe 
+ 
+ R&#233;sum&#233; 
+ Les informations ci-dessous proviennent du site web de SecureSafe. 
+ SecureSafe est un service propos&#233; par la soci&#233;t&#233; anonyme suisse  DSwiss , fond&#233;e en 2008 et dont le si&#232;ge est &#224; Zurich. Tous les serveurs du service sont situ&#233;s sur le territoire suisse et DSwiss&#160;revendique la nationalit&#233; suisse de tous ses actionnaires. 
+ &#160;&#192; l'instar de Tresorit, SecureSafe propose un service bas&#233; sur le chiffrement bout &#224; bout. La connexion au compte se fait par une authentification &#224; double facteur (comme pour votre e-banking).&#160;Les cl&#233;s de chiffrement sont stock&#233;es sur vos appareils sans jamais &#234;tre transmises de mani&#232;re non chiffr&#233;e&#160;(en cas de perte du mot de passe de votre compte,&#160;vos donn&#233;es sont irr&#233;m&#233;diablement perdues). 
+ SecureSafe propose un coffre-fort de mots de passe. Comme vous n'utilisez&#160;jamais le m&#234;me mot de passe pour les diff&#233;rents services dont vous vous servez (n'est-ce pas&#160;?), cette fonction pourrait s'av&#233;rer utile. 
+ Une fonction tr&#232;s int&#233;ressante est &#233;galement fournie&#160;:  l'h&#233;ritage des donn&#233;es . Cela signifie qu'en cas de d&#233;c&#232;s ou d'urgence, des personnes que vous aurez s&#233;lectionn&#233;es pourront activer une proc&#233;dure au moyen de codes d'acc&#232;s que vous leur aurez donn&#233;. Pour &#233;viter les abus, l'acc&#232;s est diff&#233;r&#233; dans le temps afin de permettre &#224; l'utilisateur l&#233;gitime &#8211; qui est averti par e-mail et SMS &#8211; de se connecter &#224; son compte, ce qui stoppe la proc&#233;dure d'h&#233;ritage. 
+ SecureSafe propose  diff&#233;rentes offres , dont une gratuite contenant 100 Mo de stockage et un stockage de 50 mots de passe. 
+ Conditions g&#233;n&#233;rales (du 22 janvier 2015) 
+ Voici quelques informations int&#233;ressantes trouv&#233;es dans les  conditions g&#233;n&#233;rales . 
+ Concernant l'h&#233;ritage de donn&#233;es, si le code d'activation a &#233;t&#233; saisi par un b&#233;n&#233;ficiaire,&#160;mais que l'ayant droit&#160;intervient pour interrompre le processus, le code d'activation est invalid&#233;&#160;et un nouveau code d'activation&#160;doit &#234;tre cr&#233;&#233; par l'ayant droit. 
+ SecureSafe efface les donn&#233;es apr&#232;s&#160;90 jours &#224; compter de la date de r&#233;siliation de du compte ou de l'&#233;ch&#233;ance du contrat, ce qui permet &#224; l'utilisateur&#160;de r&#233;cup&#233;rer les donn&#233;es qu'il avait stock&#233;es. C'est &#233;galement valable si l'h&#233;ritage de donn&#233;es est activ&#233;, et m&#234;me si l'h&#233;ritage n'a pas &#233;t&#233; utilis&#233; par les b&#233;n&#233;ficiaires. 
+ Le tribunal de commerce de Zurich a comp&#233;tence exclusive en cas de litiges, ce qui signifie qu'il n'y a pas de convention d'arbitrage qui permettrait une telle proc&#233;dure extrajudiciaire. 
+ Politique de confidentialit&#233; (pas de date) 
+ La  politique de confidentialit&#233;  de SecureSafe ne contient pas d'&#233;l&#233;ment qui m&#233;riterait d'&#234;tre relev&#233;, cependant voici quelques dispositions importantes. 
+ SecureSafe collecte quelques donn&#233;es lors de la cr&#233;ation d'un compte&#160;:&#160;nom utilisateur,&#160;adresse e-mail,&#160;num&#233;ro de portable,&#160;pr&#233;nom, nom. Ces donn&#233;es ne peuvent &#234;tre consult&#233;es que par le service client de SecureSafe. 
+ Pour rappel, toutes les informations, y compris les fichiers et mots de passe, stock&#233;es dans sur&#160;SecureSafe sont enti&#232;rement chiffr&#233;es&#160;et personne d'autre que l'utilisateur&#160;ne peut y acc&#233;der. 
+ 
+ Vos informations personnelles sont stock&#233;es et trait&#233;es en Suisse sur nos ordinateurs. Leur protection est assur&#233;e au moyen de dispositifs de protection physiques, &#233;lectroniques et l&#233;gaux, conformes &#224; la r&#233;glementation f&#233;d&#233;rale suisse en vigueur. Nous utilisons des dispositifs de protection tels que les firewalls et le cryptage des donn&#233;es&#160;; nous mettons en place des contr&#244;les d&#8217;acc&#232;s physiques pour tous nos b&#226;timents et fichiers, et seuls les employ&#233;s ayant besoin de vos informations personnelles dans le cadre de leur travail sont autoris&#233;s &#224; les consulter. 
+ 
+ L'envoi des SMS d'authentification ou pour la proc&#233;dure d'h&#233;ritage est r&#233;alis&#233; par une soci&#233;t&#233; suisse,  Dolphin Systems  (canton de Schwytz) et les num&#233;ros de t&#233;l&#233;phone lui sont transmis &#224; ces fins uniquement. 
+ SecureSafe reconnait ne pouvoir transmettre&#160;que le&#160;nom utilisateur et l'adresse e-mail de ses utilisateurs, tout le reste &#233;tant chiffr&#233; et impossible d'acc&#232;s. 
+ SecureSafe ne stocke aucune information concernant la&#160;carte de cr&#233;dit utilis&#233;e pour le paiement&#160;; Saferpay est l'organisme en charge des op&#233;rations de paiement. 
+ Conclusion 
+ SecureSafe offre des fonctionnalit&#233;s tr&#232;s int&#233;ressantes, en particulier l'h&#233;ritage de donn&#233;es et le coffre-fort de mots de passe. Sa formule gratuite est cependant moins int&#233;ressante que celle de Tresorit. 
+ Si je devais choisir... 
+ Si je devais choisir entre ces alternatives &#224; Wuala, je choisirais SecureSafe. Voici les raisons. 
+ 
+ Le degr&#233; de "suissitude" de SecureSafe est tr&#232;s &#233;lev&#233;. Ce n'est pas du nationalisme primaire, mais j'appr&#233;cie le fait que mes donn&#233;es se trouvent dans mon pays de r&#233;sidence, que la soci&#233;t&#233; &#224; qui je les confie ne soit pas d&#233;pendante (&#233;conomiquement et juridiquement) d'autres pays ou l&#233;gislations. 
+ Le fait que le droit suisse (contractuel et de la protection des donn&#233;es) soit pleinement applicable me donne, &#224; moi juriste, une s&#233;curit&#233; et une s&#233;r&#233;nit&#233; suppl&#233;mentaire. 
+ Tresorit et SecureSafe offrent, sur le papier il me semble, un niveau de s&#233;curit&#233; semblable. Cependant, la possibilit&#233; offerte par SecureSafe de transmettre les donn&#233;es &#224; des tiers autoris&#233;s lorsqu'un &#233;v&#233;nement particulier se produit est tr&#232;s int&#233;ressante. Certains y verront un risque au niveau de la s&#233;curit&#233;, j'y vois plut&#244;t une opportunit&#233; de ne pas perdre irr&#233;m&#233;diablement des donn&#233;es lorsqu'un &#233;v&#233;nement impr&#233;visible se produit. 
+ Le prix de SecureSafe est comparable &#224; ce que pratique Tresorit, mais SecureSafe propose quatre diff&#233;rentes offres pour les priv&#233;s alors que Tresorit n'en propose qu'une. Cela permet d'affiner vos d&#233;penses en fonction de vos besoins. 
+ 
+ Si vous vous inscrivez sur SecureSafe, vous pouvez&#160; utiliser ce lien . Il vous permettra de  b&#233;n&#233;ficier de 500 Mo suppl&#233;mentaires sur votre compte gratuit pendant deux ans , et de m'en faire b&#233;n&#233;ficier aussi. 
+ Un reproche &#224; SecureSafe&#160;: l'interface utilisateur quand on utilise un navigateur web est horrible. De plus, tout est en Flash&#160;! En Flash&#160;! Une technologie bourr&#233;e de failles de s&#233;curit&#233; que les g&#233;ants du web abandonnent un &#224; un. J'ai donc d&#233;cider de n'utiliser que les applications d&#233;di&#233;es (elles existent pour les plateformes suivantes&#160;: Mac OS, Windows, Android, iOS). 
+ Ma solution 
+ Ceux qui me lisent le savent peut-&#234;tre, je suis un adepte des NAS, autrement dit des espaces de stockage en r&#233;seau. J'ai chez moi un NAS&#160;de la marque Synology qui m'a cout&#233; environ CHF 500 il y a quelques ann&#233;es. J'y ai deux disques durs de 2 To, l'un &#233;tant une sauvegarde de l'autre en cas de probl&#232;me. Ce NAS est connect&#233; &#224; Internet et me permet d'acc&#233;der &#224; toutes mes donn&#233;es de mani&#232;re s&#233;curis&#233;e. 
+ Evidemment, cela n&#233;cessite un peu de connaissances techniques, mais pas tant que &#231;a au final. Tout au plus faut-il un peu d'int&#233;r&#234;t et de curiosit&#233;. Une fois pass&#233; le moment douloureux de l'investissement financier, tout n'est que bonheur. Mon NAS fait &#233;galement office de serveur multim&#233;dia sur lequel je stocke et "streame" toute ma musique, mes films, s&#233;ries, sauvegardes... Le tout est chez moi, sur mon bureau, sous mes yeux. Un vrai cloud personnel et priv&#233;. 
+ Que faire en cas d'incendie&#160;? J'y r&#233;fl&#233;chis encore, mais c'est pour cela que j'utilise aussi des services comme Wuala ou SecureSafe&#160;: j'y mets les donn&#233;es que je ne peux pas me permettre de perdre. 
+ Que faire en cas d'inondation&#160;? Il faudrait une belle crue du&#160;Rh&#244;ne. Et si c'est la Grande Dixence qui l&#226;che, je n'aurai plus besoin de mes donn&#233;es. 
+ Rien n'est parfait. 
+ J'attends vos remarques, suggestions, id&#233;es et commentaires avec int&#233;r&#234;t&#160;! 
+
+         Notes &#160;&#160;&#160;[  +  ]                                                 1.      &#8629;         Autrement dit,&#160;la personne priv&#233;e qui d&#233;cide du but et du contenu du fichier [ art. 3 let. i LPD ].                                                                             
+                                                                                                        
+                                                 
+        </text>
+</document>

@@ -1,0 +1,28 @@
+<document>
+	<date>2006-10-28</date>
+        <title>Yahoo! Bookmarks, propuls par Symfony</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>framework</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+                <tag>yahoo</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Certains  restaient dubitatifs  quant a la capacite de montee en tres forte charge du framework  Symfony , l'un des tous meilleurs existants en PHP  [ 1 ] . 
+
+
+ Qu'on se  rassure , si  Yahoo!  a decide d'utiliser Symfony pour propulser son recent et moderne  Yahoo! Bookmarks  (20 millions d'utilisateurs en 12 langues), ce n'est certainement pas  sans raisons . 
+
+
+ Felicitations aux equipes  Symfony  qui sont en train de faire de ce framework la reference du monde PHP - voire peut-etre au-dela. 
+
+
+ Edit :  N'hesitez pas a aider a propager la bonne nouvelle sur  Digg ,  Reddit  ou  Scoopeo   
+ Notes 
+ [ 1 ] Je dois bien admettre que meme si j'utilise au quotidien Syfony, je me posais cette question... 
+        </text>
+</document>

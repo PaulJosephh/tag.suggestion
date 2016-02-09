@@ -1,0 +1,25 @@
+<document>
+	<date>2009-07-26</date>
+        <title>YAML Brush for the SyntaxHighlighter Javascript Library</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>code</tag>
+                <tag>javascript</tag>
+                <tag>syntax highlighting</tag>
+                <tag>syntaxhighlighter</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>During a trip back to Paris by train, I quickly coded for a project of mine a new brush for  SyntaxHighlighter , a client-side syntax coloring library powered by Javascript, in order to highlight  YAML  code snippets. 
+
+
+ 
+
+
+ You can  get the code here  and provide feedback by  sending me an email . 
+
+
+ Edit:  Oops, didnt find this already  existing brush  (I hadnt wifi access in the train). I think my version support more specific aspects of the syntax, though. 
+        </text>
+</document>

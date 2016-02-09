@@ -1,0 +1,45 @@
+<document>
+	<date>2008-09-22</date>
+        <title>Eclipse PDT, Subclipse et Subversion 1.5.2 sont dans un bateau</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>eclipse</tag>
+                <tag>pdt</tag>
+                <tag>subclipse</tag>
+                <tag>subversion</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Le package complet pour la version stable d Eclipse PDT  fournit  Subclipse [ 1 ]  en version 1.2 par defaut. 
+
+
+ Cette version de Subclipse est incapable de gerer la  derniere version du client Subversion , la 1.5.2. La moindre tentative dupdate devrait vous afficher ce message laconique:  The version of this client is too old [ 2 ] . 
+
+
+ Et bien entendu, il est au premier abord impossible de desinstaller le plugin Subclipse en version 1.2 fournit par PDT. 
+
+
+ Aussi, voici lastuce permettant de mettre a jour votre version de Subclipse au sein de votre environnement Exclipse/PDT: 
+
+ 
+ Dans le menu  Software updates , choisissez  Manage configuration 
+ Depliez larborescence des dependances pour le module PDT, et selectionnez  Subclipse 
+ Cliquez sur  Disable , puis relancez Eclipse 
+ Dans  Software Updates , choisissez  Find and Install  et ajoutez un nouveau depot distant [ 3 ] , et renseignez le comme ci-dessous:
+ 
+ Name:  Subclipse 1.4.x 
+ URL:  http://subclipse.tigris.org/update_1.4.x 
+ 
+ Selectionnez ce depot, puis lancer la recherche de packages 
+ Selectionnez les modules  Subclipse  et  SVNKit 
+ Redemarrez Eclipse 
+ 
+
+ Apres ces manipulations, vos devriez retrouver vos fonctionnalites preferees. 
+ Notes 
+ [ 1 ] Subclipse est un plugin integrant Subversion a  Eclipse 
+ [ 2 ] Et cest  pas la premiere fois que ca arrive  
+ [ 3 ] Chez Eclipse, on appelle ca un  Update site 
+        </text>
+</document>

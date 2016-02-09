@@ -1,0 +1,30 @@
+<document>
+	<date>2014-05-16</date>
+        <title>CyanogenMod : seconde vie pour un smartphone</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Android</category>
+        </categories_set>
+        <text>
+                                                 Quest-ce que cest 
+ 
+Mon smartphone (Galaxy SII) commencait a donner des signes de fatigue: interface peu reactive, plus de mise-a-jour dAndroid, memoire sature
+ 
+Bref, il etait temps den changer, jai tout de meme teste une ROM alternative:  CyanogenMod 
+Par rapport a la ROM officielle de Samsung je trouve CyanogenMod bien plus reactif et fluide, plus agreable a utiliser, plus leger mais legerement moins stable.
+ Trucs et astuces 
+ Utiliser des boutons physiques pour decrocher et raccrocher un appel: se rendre dans  Parametres Accessibilite Les repertoires  /sdcard/log /data/log .log Faire un wipe sur son telephone 
+Faire un wipe consiste a effacer des donnees de son telephone.
+Voici les trois type de wipe existants :
+ 
+ Wipe Data/Factory Reset : supprime toutes vos donnees personnelles et remet votre systeme a son etat dorigine ( penser a faire une sauvegarde Super Backup : SMS  Contacts Wipe Cache Partition : vide le cache Wipe Dalvik Cache : supprime le cache qui contient des fichiers permettant daccelerer le fonctionnement dAndroid 
+Il est conseille de faire un  Wipe Cache Partition Wipe Dalvik Cache 
+Pour realiser ces  wipe recovery 
+ Eteindre completement le telephone Presser simultanement les boutons  Home Volume haut Power Relacher les boutons a lallumage de lecran 
+Dans mon telephone, le  wipe data/factory reset wipe cache partition recovery wipe dalvik cache advanced Informations et sources 
+ 
+ Conseil de Root : le wipe, une fonction tres importante 
+        </text>
+</document>

@@ -1,0 +1,14 @@
+<document>
+	<date>2013-04-10</date>
+        <title>Zipabox : Nouvelle mise  jour 0.9.971</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          Lequipe  Zipato Zipabox   Nouvelles fonctions : Mise a jour du noyau  Linux Prise en charge du reseau  KNX Ajout du support des serrures de porteelectroniques    Z-Wave Possibilite dattribuer des variables dans les requetes  HTTP Corrections : Probleme dinclusion de modules Z-Wave Probleme de reboot de la box necessaire apres la suppression de modules virtuels, scenes ou associations Probleme de boucle sur lassociation des modules Probleme de peripheriques qui se rendormaient pendant linclusion Controle de letat des actionneurs toutes les 10 minutes dans le widget climat Redemarrage de la box sur evenements media  Ethernet Redemarrage de la box toutes les 5 minutes tant quil ny a pas de connexion reseau Detection plus rapide des peripheriques IP en mode hors connexion Securite Z-Wave La reconnaissance du module  Z-Wave Correction sauvegarde  3G  La  Zipabox  continue devoluer, et  Zipato  fourni un tres gros travail afin doffrir au plus vite une version stable a ses utilisateurs. Noubliez pas que vous pouvezvoter sur le  site communautaire de Zipato   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,17 @@
+<document>
+	<date>2014-12-12</date>
+        <title>
+Noel 2.0: connectez votre sapin grce  Aura !</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Aura</tag>
+                <tag>eclairage</tag>
+                <tag>Noel</tag>
+                <tag>sapin</tag>
+        </tags_set>
+        <categories_set>
+                <category>Objets Connectes</category>
+        </categories_set>
+        <text>Noel approche a grands pas, et si vous etes comme moi, cest une occasion de mettre en oeuvre un peu de domotique pour programmer lallumage automatique des deco de Noel, du sapin, voire meme la diffusion de musique :D Dailleurs, suite a  mon article dhier sur la mise en place du ruban led et du module Fibaro , je me dis quil serait tout a fait possible de realiser une guirlande de Noel a mettre dans le sapin, pilotee par un module Fibaro RGBW. Ce serait assez fun :p Dailleurs, dautres y ont pense avec le projet Aura, mis au point parChris Higgins etHardeep Johar. Je trouve ce projet superbe, car il est a la fois dans lesprit magique de Noel, et dans lesprit geek :D Aura, ce sont en fait des boules lumineuses a mettre dans le sapin. Bien sur, a lepoque ou nous sommes, cet eclairage est a base de leds, ce qui permet une duree de vie immense (20 000 heures), une faible consommation denergie, et aucun developpement de chaleur, detail important pour eviter un feu de sapin Lutilisation de leds multicolores permet davoir un eclairage de la couleur quon souhaite, et meme de realiser des animations. De plus, pour coller aux standards, les boules sont disponibles enune version transparente, une version craquelee et une version givree: La ou la magie oeuvre, cest par le systeme dalimentation. La solution dispose en effet dun anneau a disposer au pied du sapin, ou en son centre, selon la taille du sapin. Ensuite, des quune boule est placee a linterieur de ce cercle, elle est alimentee. Le systeme est semblable a lalimentation par induction: elle se fait sans fil, et permet en plus dindiquer aux boules la couleur a prendre. Ca, cest pour le systeme de base. Le meme systeme a ensuite ete decline en Wifi afin de pouvoir piloter son sapin a laide de son smartphone: programmer lheure dallumage et dextinction, la couleur, etc De quoi en faire un veritable sapin connecte ! Je trouve lidee excellente ! Par contre ce ne sera pas pour cette annee, puisquil sagit dun projet Kickstarter en cours de financement. Lequipe derriere ce projet espere une livraison dici octobre 2015, pour que tout soit pret pour Noel lannee prochaine. Le prix commence a69$ pour une boite de 12 boules, ce qui net pas si eleve. Si le projet vous interesse,  ca se passe ici sur Kickstarter .      Aura   eclairage   Noel   sapin 
+        </text>
+</document>

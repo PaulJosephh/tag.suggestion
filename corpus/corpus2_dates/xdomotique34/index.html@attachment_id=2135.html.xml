@@ -1,0 +1,82 @@
+<document>
+	<date>2012-12-12</date>
+        <title>La Zipabox en test et en image : Cration dune rgle 4me partie</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>creation de regle</tag>
+                <tag>puzzle</tag>
+                <tag>Zipabox</tag>
+        </tags_set>
+        <categories_set>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ Nous avons vu dans  larticle precedent  le dashboard et comment enregistrer un module Z-Wave. 
+ Letape suivante aura pour but de creer une regle. 
+ 
+  
+ En appuyant sur Createur de regles, vous accederez a un nouvel ecran : 
+ 
+  
+ Sur le cote gauche, vous commencez a apercevoir lesquisse du Puzzle, he oui, la constitution de la regle se fait en imbriquant des puzzles les uns dans les autres. Pas nimporte comment quand meme, il faudra user de logique mais ca reste tout de meme simple et evolutif a linfini. Il subsiste quand meme quelques bugs, mais qui seront vite corriges par Zipato. 
+ voici les 6 categories ou pieces du puzzles vous permettant de constituer une ou plusieurs regles. 
+           
+  
+ Nous allons creer une regle simple, nous allons programmer lallumage dune lampe branchee sur une prise Z-Wave a une heure donnee. 
+ Tout dabord Il nous faut une prise connectee, que nous avons enregistre dans le  precedent article , une prise Everspring AN157 je ne reviendrai pas sur cette etape. 
+ Rendons nous sur le Dashboard du createur de regle 
+ 
+ Un simple glisser/deplacer suffit a deplacer les pieces du puzzle (on clique avec le bouton gauche de la souris et on deplace au centre de lecran dans lespace vide). 
+ en suite on deroule le menu Capteur et on selectionne, Scheduler pour le faire glisser dans lemplacement prevu a cet effet, sil ne correspond pas il ne pourra pas simbriquer dans le puzzle. 
+  
+ Vous pourrez configurer le calendrier en cliquant sur Configure (vous choisirez de repeter ou non lallumage, a quelle date, a quelle heure). Il faudra absolument nommer cette fonction de programmation de ce puzzle. 
+ Une fois le capteur configurer, il faudra rajouter une nouvelle piece a ce puzzle en guise daction. On deroule donc le menu Action pour selectionner le nouveau puzzle. 
+ 
+  
+ Il y a un carre vide dans votre action. Il faudra aller chercher, le module a declencher dans la partie droite de lecran ou apparaitra lensemble de vos modules enregistres. 
+ Un petit carre bleu en guise dinterrupteur on/off. Vous le ferez glisser pour limbriquer dans puzzle action prevu a cet effet (une petite coche bleue doit apparaitre si le module selectionne est bien le bon ouplutotdans la bonne categorie). 
+ 
+  
+ Il faudra sauvegarder votre regle et lui donner un nom, celle ci viendra se positionner dans la partie droite du dashboard Mes regles maison : 
+ 
+  
+ Toujours cliquer sur synchroniser les regles afin quelles soient prise en charge par votre Box 
+ Selon les regles vous pourrez utiliser la piece action http request (pour communiquer avec un systeme exterieur comme lAPI dune camera IP a qui je demanderai de prendre une photo) ou bien dactiver la sirene en utilisant action. 
+ Vous pourrez aussi en plus de prendre une photo recevoir un message en rajoutant la piece action send message afin de recevoir un mail ou un sms, mms en fonction des personnes que vous aurez renseigner dans les parametres generaux que lon a vu dans les articles precedents. 
+ La video officielle vous montrera des possibilites de creation des regles 
+ Voila donc une maniere tres simple de concocter des regles sans trop de difficulte, jai apprecie cette methode conviviale et quasi ludique. 
+ Encore merci a notre partenaire  Domadoo  pour nous avoirpretecette box tresprometteuse ainsi que lequipe de Zipato qui travaille darrache pied pour corriger tous les bugs qui lui sont remontes et je peux vous confirmer quelle corrige rapidement certains defauts. Cette box reste pour le moment chez moi et je ne manquerai pas de continuer a vous faire decouvrir dautres elements. Je nen suis a quau debut 
+ Vous pouvez laisser des commentaires, poser vos questions sur le blog et venir en discuter sur le forum. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

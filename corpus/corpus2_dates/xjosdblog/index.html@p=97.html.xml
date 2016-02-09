@@ -1,0 +1,31 @@
+<document>
+	<date>2007-10-30</date>
+        <title>Sauvegarde automatique et autonome du Synology DS107e vers un disque USB</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Synology</category>
+        </categories_set>
+        <text>
+                                                 
+Mon objectif est de mettre en place une sauvegarde automatique et autonome de repertoires dun  Synology DS107e 
+ 
+Le disque USB connecte au DS107e est prealablement formate en ext3. Via un telnet sur le DS107e, jinstalle, en utilisant  ipkg rsync 
+ipkg install bash 
+Je prepare mon script de sauvegarde :
+ 
+ 
+#!/opt/bin/bash 
+ 
+Il sauve le repertoire  /volume1/data _(NSVG) /volumeUSB1/usbshare 
+Il archive les versions des fichiers modifies ou supprimes de la sauvegarde ci-dessus dans le repertoire  /volumeUSB1/usbshare/Archive-Data/ 
+Il sauve le repertoire  /volume1/photo /volumeUSB1/usbshare 
+Il archive les versions des fichiers modifies ou supprimes de la sauvegarde ci-dessus dans le repertoire  /volumeUSB1/usbshare/Archive-Photo/ 
+Il faut maintenant automatiser lexecution de ce script avec  cron cron 
+30 23 */1 * * /volume1/backup/Backup-Syno.sh  /volume1/backup/log_sauvegarde.txt 21
+ /volume1/backup/Backup-Syno.sh /volume1/backup/log_sauvegarde.txt cron 
+crontab -e 
+ 
+        </text>
+</document>

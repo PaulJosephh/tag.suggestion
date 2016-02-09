@@ -1,0 +1,429 @@
+<document>
+	<date>2008-03-11</date>
+        <title>Symfony 1.1 beta, tour du propritaire - Les formulaires</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>forms</tag>
+                <tag>framework</tag>
+                <tag>html</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+                <tag>tutoriel</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Nous venons de voir la  procedure d'installation de la beta1 de Symfony 1.1 . Nous allons maintenant rentrer un peu plus dans les details des nouvelles fonctionnalites en commencant par les formulaires. 
+
+
+ La gestion des formulaires avec Symfony 1.1 
+
+
+ La nouvelle gestion des formulaires est l'une des fonctionnalites majeures de cette nouvelle mouture du framework. Elle propose une separation claire entre couche de controle, couche de definition et couche de presentation des donnees, soit un bon vieux pattern  MVC  des familles. 
+
+
+ Pour illustrer ces fonctionnalites, nous allons retrousser nos manches et creer un formulaire de contact basique. On commence par initialiser un nouveau module  contact  dans l'application  main  de notre projet  sf11test  initie  precedemment : 
+
+
+ $ ./symfony generate:module main contact 
+
+
+ Creation d'une classe de formulaire 
+
+
+ Nous allons creer une classe qui representera notre formulaire de contact, que nous stockerons dans le fichier  apps/main/lib/ContactForm.class.php . Cette classe etendra la classe de base  sfForm  et surchargera sa methode de configuration afin de definir les champs de formulaire et les differents validateurs associes. Nous definirons quatre champs (appeles  widgets  en Symfony 1.1): 
+
+ 
+ Le nom de l'expediteur, sous la forme d'un champs de saisie textuelle ( input type="text"/ ) 
+ Son adresse email, egalement sous la forme d'un champs de saisie textuelle 
+ Le sujet de son message, sous la forme d'une boite de selection ( select/ ) 
+ Le texte de son message, sous la forme d'un champs texte multilignes ( textarea/ ) 
+ 
+  php
+?php
+class ContactForm extends sfForm
+{
+  public function configure()
+  {
+    // Widgets
+    $topics = sfConfig::get('app_contact_topics', array());
+    $widgetSchema = new sfWidgetFormSchema(array(
+      'topic'   = new sfWidgetFormSelect(array('choices' = $topics)),
+      'name'    = new sfWidgetFormInput(),
+      'email'   = new sfWidgetFormInput(),
+      'message' = new sfWidgetFormTextarea()
+    ));
+    $widgetSchema-setNameFormat('contact[%s]'); // HTML field names format
+    $this-setWidgetSchema($widgetSchema);
+
+    // Validators
+    $this-setValidators(array(
+      'topic'   = new sfValidatorRegex(array('pattern' = '/[a-z_]/')),
+      'name'    = new sfValidatorString(array('min_length' = 2,
+                                               'max_length' = 45)),
+      'email'   = new sfValidatorAnd(array(new sfValidatorEmail(),
+                                            new sfValidatorString(array('max_length' = 100)))),
+      'message' = new sfValidatorString(array('min_length' = 10)),
+    ));
+  }
+}
+ 
+
+
+ Au passage, nous ajoutons les sujets possibles de message dans le fichier de configuration  apps/main/config/app.yml : 
+
+ 
+all:
+  contact:
+    topics:
+      carrots_request: Do you have carrots?
+      eggs_request:    Do you have eggs?
+ 
+
+
+ Marquons un arret pour examiner de plus pres ce que nous venons d'ecrire: 
+
+ 
+ Nous avons ajoute 4  widgets  a notre formulaires, 
+ Nous avons defini et parametre leurs validateurs associes,
+ 
+ Au passage, vous noterez qu'il est possible de specifier plusieurs validateurs pour un meme champs, comme c'est ici le cas pour le champs  email 
+ 
+ Nous avons defini le format de nommage des champs de formulaire et choisi une syntaxe a base de tableau pour manipuler plus aisement les donnees dans notre action, 
+ Nous avons deporte une partie de la configuration textuelle dans un fichier externe dedie, pour en faciliter la maintenance. 
+ 
+
+ N'oublions pas de purger le cache de Symfony, car nous venons d'ajouter un nouvel objet php: 
+
+
+ $ ./symfony cc 
+
+
+ Interaction avec le formulaire depuis le controleur de l'application 
+
+
+ Editons maintenant le fichier  apps/main/modules/contact/actions/actions.class.php  pour y definir l'action par defaut du module [ 1 ] : 
+
+  php
+?php
+class contactActions extends sfActions
+{
+  public function executeIndex(sfWebRequest $request)
+  {
+    $form = new ContactForm();
+    if ($request-isMethod('post')) // If HTTP method is POST
+    {
+      // Bind submitted values to the contact form instance
+      $form-bind($request-getParameter('contact'));
+      // Validate the form
+      if ($form-isValid()) 
+      {
+        // Retrieve submitted values
+        $values = $form-getValues(); 
+        // ... Send your message here using submitted values
+        // Then redirect user to the homepage with a one-shot message
+        $this-getUser()-setFlash('notice', 'Message sent');
+        $this-redirect('@homepage');
+      }
+    }
+    // Publish form instance to the view
+    $this-form = $form;
+  }
+}
+ 
+
+
+ Ici, dans l'ordre: 
+
+ 
+ On instancie un objet de formulaire de contact 
+ Si  la methode HTTP est POST:
+ 
+ On assigne les parametres de la requete correspondant aux champs du formulaire de contact a ce dernier 
+ On lance la validation, et  si  c'est valide:
+ 
+ On effectue les operations necessaires (traitement, redirection, etc.) 
+ 
+ 
+ 
+
+ Vous noterez que tous les  sinon  sont geres automatiquement par le framework de facon transparente (mais ces comportements par defaut sont toujours surchargeables): 
+
+ 
+ Par defaut le formulaire presente sera vierge [ 2 ] , 
+ Les champs seront  automatiquement preremplis en cas d'erreur de validation, 
+ Les erreurs seront contextualisees par rapport aux champs. 
+ 
+
+ Rendu du formulaire dans la vue 
+
+
+ Enfin, il nous reste a creer un template pour presenter le formulaire et eventuellement afficher un message a l'utilisateur, dans notre vue geree au travers du fichier  apps/main/modules/contact/templates/indexSuccess.php : 
+
+  php
+?php if ($sf_user-hasFlash('notice')): ?
+  p class="notice"?php echo $sf_user-getFlash('notice') ?/p
+?php endif; ?
+
+form action="?php echo url_for('contact/index') ?" method="post"
+  table
+    ?php echo $form ?
+    tr
+      td/td
+      tdinput type="submit" //td
+    /tr
+  /table
+/form
+ 
+
+
+ Si on charge la page  /main_dev.php/contact , on a le resultat suivant: 
+
+
+ 
+
+
+ Au passage si vous regardez la source, une protection anti  CSRF  est automatiquement geree de facon transparente. 
+
+
+ Bien entendu, le mode de rendu par defaut utilise un tableau pour la mise en forme, mais il existe un autre decorateur plus  semantique  a base de liste. Pour l'utiliser, modifions notre classe  ContactForm : 
+
+  php
+?php
+class ContactForm extends sfForm
+{
+  public function configure()
+  {
+   // ...
+    $this-widgetSchema-setFormFormatterName('list');
+  }
+}
+ 
+
+
+ Il conviendra bien entendu d'adapter le template pour enlever les balises tables. On peut aussi imaginer de creer notre propre decorateur HTML. Par exemple, creeons la classe  sfWidgetFormSchemaFormatterDiv  comme suit: 
+
+  php
+?php
+class sfWidgetFormSchemaFormatterDiv extends sfWidgetFormSchemaFormatter
+{
+  protected
+    $rowFormat       = "div class=\"form-row\"\n  %error%%label%\n  %field%%help%\n%hidden_fields%/div\n",
+    $errorRowFormat  = "div class=\"form-errors\"\n%errors%/div\n",
+    $helpFormat      = 'div class="form-help"%help%/div',
+    $decoratorFormat = "div\n  %content%/div";
+}
+ 
+
+
+ Encore une fois, modifions notre classe  ContactForm  pour l'utiliser (apres avoir purge le cache symfony, comme il se doit): 
+
+  php
+?php
+class ContactForm extends sfForm
+{
+  public function configure()
+  {
+   // ...
+    $this-widgetSchema-setFormFormatterName('div');
+  }
+}
+ 
+
+
+ Rendu des widgets 
+
+
+ Vous me direz, un simple  ?php echo $form ?  n'est pas tres satisfaisant du point de vue de l'integration HTML, qui necessite bien souvent de prendre la main finement sur le code html genere. Le framework de formulaires de Symfony 1.1 apporte une solution en permettant de generer le rendu de chacun des widgets de facon independante 
+
+
+ Imaginons par exemple que nous souhaitions gerer specifiquement la presentation du champ  name  de notre formulaire; notre template devient alors: 
+
+  php
+?php if ($sf_user-hasFlash('notice')): ?
+  p class="notice"?php echo $sf_user-getFlash('notice') ?/p
+?php endif; ?
+
+form action="?php echo url_for('contact/index') ?" method="post"
+  table
+    ?php echo $form['topic']-renderRow() ?
+    tr
+      th?php echo $form['name']-renderLabel() ?/th
+      td
+        ?php echo $form['name']-renderError() ?
+        ?php echo $form['name']-render(array('class' = 'toto')) ?
+      /td
+    /tr
+    ?php echo $form['email']-renderRow() ?
+    ?php echo $form['message']-renderRow() ?
+    tr
+      td/td
+      tdinput type="submit" //td
+    /tr
+  /table
+/form
+ 
+
+
+ Vous noterez qu'on accede ici aux differents widgets du formulaire au moyen de cles de tableaux classiques; c'est tout simplement car la classe  sfForm  implemente l'interface  ArrayAccess  de la  SPL . C'est tres pratique! 
+
+
+ Le nerf de la guerre: la generation de formulaires a partir d'objets Propel 
+
+
+ Ayant ete a une lointaine epoque un fervent adepte de  PEAR::FormBuilder , brique permettant de generer des formulaires a partir d'instance d'objets de donnees  ORM , j'etais curieux de voir comment cette fonctionnalite demandee par les developpeurs depuis longtemps allait etre implementee dans Symfony 1.1 au travers de l'ORM  Propel , bundle par defaut [ 3 ] . 
+
+
+ Apres avoir configure un acces a notre  SGBD  prefere [ 4 ] , nous allons definir une table  contact_demand  dans notre fichier  config/schema.yml  pour y stoker nos demandes de contacts: 
+
+  php
+propel:
+  contact_demand:
+    id:
+    name:    { type: varchar, size: 45, required: true }
+    email:   { type: varchar, size: 100, required: true }
+    topic:   { type: varchar, size: 255, required: true }
+    message: { type: longvarchar, required: true }
+    created_at:
+ 
+
+
+ On lance rapidement la tache de creation de la table et des objets ORM associes: 
+
+
+ $ ./symfony propel:build-all
+$ ./symfony cc 
+
+
+ Maintenant, allons faire un tour dans le repertoire  lib/model  pour voir ce qui a ete genere. Surprise, des objets de formulaires ont ete automatiquement crees pour nous! 
+
+
+ Jetons un oeil plus particulierement au fichier  lib/form/base/BaseContactDemandForm.class.php : 
+
+  php
+?php
+class BaseContactDemandForm extends BaseFormPropel
+{
+  public function setup()
+  {
+    $this-setWidgets(array(
+      'id'         = new sfWidgetFormInputHidden(),
+      'name'       = new sfWidgetFormInput(),
+      'email'      = new sfWidgetFormInput(),
+      'topic'      = new sfWidgetFormInput(),
+      'message'    = new sfWidgetFormTextarea(),
+      'created_at' = new sfWidgetFormDateTime(),
+    ));
+
+    $this-setValidators(array(
+      'id'         = new sfValidatorPropelChoice(array('model' = 'ContactDemand', 'column' = 'Id', 'required' = false)),
+      'name'       = new sfValidatorString(),
+      'email'      = new sfValidatorString(),
+      'topic'      = new sfValidatorString(),
+      'message'    = new sfValidatorString(),
+      'created_at' = new sfValidatorDateTime(array('required' = false)),
+    ));
+
+    $this-widgetSchema-setNameFormat('contact_demand[%s]');
+
+    $this-errorSchema = new sfValidatorErrorSchema($this-validatorSchema);
+
+    parent::setup();
+
+  }
+
+  public function getModelName()
+  {
+    return 'ContactDemand';
+  }
+}
+ 
+
+
+ Cela ne vous rappelle rien? C'est presque quasiment ce que nous avions ecrit manuellement precedemment dans notre classe  ContactForm . On notera egalement la presence dans le fichier  lib/form/ContactDemandForm.class.php  de la classe  ContactDemandForm , cette derniere heritant de  BaseContactDemandForm.class.php , ce qui nous permettra de surcharger tout ou partie de ses methodes pour adapter le formulaire genere a nos besoins. 
+
+
+ En l'occurrence, il nous faut adapter un peu la methode  configure()  pour retrouver notre  selecteur de sujets  et reappliquer nos validateurs. Voici le code de la classe  ContactDemandForm  modifiee en consequence: 
+
+  php
+?php
+class ContactDemandForm extends BaseContactDemandForm
+{
+  public function configure()
+  {
+    // Widgets
+    $topics = sfConfig::get('app_contact_topics', array());
+    $this-setWidgets(array(
+      'id'      = new sfWidgetFormInputHidden(),
+      'topic'   = new sfWidgetFormSelect(array('choices' = $topics)),
+      'name'    = new sfWidgetFormInput(),
+      'email'   = new sfWidgetFormInput(),
+      'message' = new sfWidgetFormTextarea()
+    ));
+
+    // Validators
+    $this-setValidators(array(
+      'id'         = new sfValidatorPropelChoice(array('model'    = 'ContactDemand',
+                                                        'column'   = 'Id',
+                                                        'required' = false)),
+      'topic'      = new sfValidatorRegex(array('pattern' = '/[a-z_]/')),
+      'name'       = new sfValidatorString(array('min_length' = 2,
+                                                  'max_length' = 45)),
+      'email'      = new sfValidatorAnd(array(new sfValidatorEmail(),
+                                               new sfValidatorString(array('max_length' = 100)))),
+      'message'    = new sfValidatorString(array('min_length' = 10)),
+      'created_at' = new sfValidatorDateTime(array('required' = false)),
+    ));
+
+    $this-widgetSchema-setNameFormat('contact_demand[%s]');
+    $this-errorSchema = new sfValidatorErrorSchema($this-validatorSchema);
+  }
+}
+ 
+
+
+ On va maintenant modifier notre action pour prendre en compte notre nouvelle classe de formulaire liee a notre objet Propel: 
+
+  php
+?php
+class contactActions extends sfActions
+{
+  public function executeIndex(sfWebRequest $request)
+  {
+    $form = new ContactDemandForm();
+    if ($request-isMethod('post')) // If HTTP method is POST
+    {
+      // Bind submitted values to the contact form instance
+      $form-bind($request-getParameter('contact_demand'));
+      // Validate the form
+      if ($form-isValid())
+      {
+        // Save submitted values in form's ContactDemand object
+        $form-save();
+        // Then redirect user to the homepage with a one-shot message
+        $this-getUser()-setFlash('notice', 'Message sent');
+        $this-redirect('@homepage');
+      }
+    }
+    // Publish form instance to the view
+    $this-form = $form;
+  }
+}
+ 
+
+
+ Ainsi, un simple  $form-save()  nous permet de persister en base les donnees soumises par l'utilisateur au travers du formulaire autogenere. Un sacre gain de productivite en phase de prototypage, assurement! 
+
+
+ En conclusion 
+
+
+ Voila, ce n'est bien evidemment la qu'une infime partie de ce que peut faire le nouveau systeme de gestion de formulaires de Symfony 1.1, mais c'est un peu a reculons que l'on retourne a l'ancien systeme  
+ Notes 
+ [ 1 ] Nous ne creons pas de route pour le moment, meme si ce serait la une bonne pratique, afin de ne pas surcharger inutilement le contenu de ce tutorial, deja bien assez dense comme ca  
+ [ 2 ] On aurait bien entendu pu proposer des valeurs par defaut. 
+ [ 3 ] Le mecanisme de generation de code devrait permettre de proposer facilement la meme fonctionnalite pour Doctrine prochainement. 
+ [ 4 ] Je vous laisse le soin de vous referer au  tutoriel existant  sur ce meme blog  
+        </text>
+</document>

@@ -1,0 +1,155 @@
+<document>
+	<date>2013-08-21</date>
+        <title>Test de la camra IP FOSCAM FI9821W</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>Foscam FI9821W</tag>
+                <tag>HD</tag>
+                <tag>ip</tag>
+                <tag>Wireless</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Camera</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+  
+ Aujourdhui je vais vous presenter la Camera IP FOSCAM FI9821W. Cette camera ma ete gentillement pretee par  DeltaDomotique . Cette camera peut bien sur etre connectee soit en WIFI soit a laide du cable Ethernet RJ45 (fournis avec). 
+ Il sagit dune camera dinterieur HD. Elle possede 11 LEDs infrarouge, la vision nocturne, deux axes de motorisation (horizontal et vertical) et peut aussi etre parametree en mode croisiere (horizontal ou vertical) cest un mode de surveillance. Cette camera dispose dun slot pour Carte SD a larriere (vous pourrez enregistrer vos cliches et videos (en fonction de la capacite de stockage de votre carte SD)). Vous trouverez cette camera chez  DeltaDomotique . 
+ 
+ 
+ voici les specifications de cette camera 
+ 
+  
+ Passons au deballage 
+ Le package de la camera est tres complet. Vous trouverez la camera bien protegee, un guide dinstallation (en anglais) ainsi quun CD dinstallation, un cable Ethernet enroulable et ultra plat, un set de vis et cheville de fixation et un support pour la fixer au mur ou au plafond. On noubliera pas lantenne WIFI jointe dans le colis ainsi que le cable de raccordement a lelectricite. 
+             
+ une petite video vous presente la camera 
+ 
+ 
+ Passons a la configuration de la camera 
+ La configuration est tres facile meme si le mode demploi est en anglais. Pour la premiere utilisation il vous faut connecter la camera a votre box ou votre routeur a laide du cable Ethernet fourni et de la brancher. 
+ Mettez le cd dans votre ordinateur, choisissez le modele de votre camera 
+  
+ 
+  
+ et executer le programme IPcamera.exe 
+ 
+  
+ Ce petit programme va vous permettre de reconnaitre votre camera en affichant son adresse IP 
+ 
+  
+ Maintenant que vous connaissez ladresse IP de la camera, il vous suffit alors de lancer alors votre navigateur Internet et de vous rendre sur ladressehttp://192.168.0.xxx : 
+ Concernant notre propre configuration, nous allons donc nous rendre sur ladresse exacte donnee par le logiciel IP Camera Tool. 
+ 
+  
+ Jai choisi Firefox car le plugin marche tres bien, mais vous pourrez aussi utiliser IE (activeX), Chrome 
+ Si vous avez correctement suivi ces etapes, vous allez alors tomber sur la page daccueil de la configuration de laFOSCAM FI9821W: 
+ 
+ Doffice le nom dutilisateur est admin et le mot de passe reste vide. Appuyez sur Connexion 
+ Vous arrivez alors a cet ecran et vous etes en Live et vous pouvez ainsi piloter votre camera. 
+ 
+  
+ Sur cette page nous pouvons voir distinguer quelques boutons. 
+  reglage du flux de la video (noublions pas quelle est HD) 
+  miroir et bascule (utile si vous fixer votre camera au plafond, cela permettra de retourner limage et de lavoir dans le bon sens) 
+  molette centrale permettant de naviguer avec la camera (celle ci possedant deux axes de rotation (haut bas et gauche droite) 
+  croisiere : vous avez deux possibilites horizontal ou vertical (la camera fera un balayage automatique de gauche a droite ou de haut en bas) 
+ 
+ preregle : mode de croisiere (reglage predefini de la vitesse et du sens de balayage). 
+  lumiere infrarouge : permet de forcer le mode infrarouge ou bien le laisser en automatique 
+  reglage des couleurs : reglage de la luminosite, des couleurs ainsi que les contrastes. 
+ 
+Le second onglet settings va vous permettre de parametrer votre camera et votre compte. 
+ 1er onglet etat du peripherique 
+ 
+ cet onglet va vous permettre de connaitre letat de votre camera (firmware, adresse mac). Vous avez un sous onglet Registre qui lui contient lhistorique de vos connexions a votre camera. 
+ 
+ 2eme onglet Reglage de base 
+ 
+ cet onglet commence a devenir important car vous allez parametrer la camera et les comptes utilisateurs ainsi que le mail de contact. 
+ 
+ pour un reglage avec un compte GMAIL 
+ serveur smtp : smtp.gmail.com 
+ port smtp : 465 
+ securite : TLS 
+ authentification requise : oui 
+ utilisateur : xxxxx(@gmail.com) ne pas marquer le @gmail.com 
+ mail de lexpediteur : xxxxx@gmail.com 
+ premier destinataire : xxxxx@gmail.com 
+ vous pouvez tester, si ok vous recevrez un mail de confirmation. 
+ le sous onglet utilisateur va vous permettre de creer des comptes utilisateur et visiteur 
+ 
+ Le sous onglet multi camera vous permettra de gerer dautres cameras. 
+ 3eme onglet Reseau 
+ 
+ cest sur ce sous onglet que vous parametrerez votre reseau WIFI en faisant un balayage des reseaux sans fil disponible et en choisissant le votre (il faudra renseigner votre cle de cryptage). 
+ 
+ Si vous souhaitez et je pense que ca sera le cas, vous devrez configurer votre port uPnP ici 
+ 
+ 4eme onglet Video 
+ 
+ Vous allez pouvoir regler le flux video de votre camera, le type dinformation (horodatage, nom de la camera et si vous voulez masquez une partie de lecran) ainsi que le lieu de stockage de vos captures decran (carte SD ou FTP). 
+ 
+ 5eme onglet Alarme 
+ 
+ Sur cet onglet vous allez regler les periodes durant laquelle la camera doit controler les eventuels mouvements ainsi que la facon dont elle doit vous prevenir et enregistrer les sequences videos et captures. 
+ Vous definirez aussi la zone de detection 
+ 
+ 6eme onglet Enregistrement 
+ Vous allez gerer ici votre espace de stockage ainsi que la duree denregistrement de vos captures 
+ 
+ 
+ 7eme onglet PTZ 
+ Cet onglet vous permettra de regler la vitesse de motorisation de votre camera et dutiliser les prereglages pour le systeme croisiere ; je vous rappelle le systeme croisiere permet dautomatiser le balayage dune zone par la camera. 
+ 
+ 8eme onglet Reglage du chemin 
+ si vous utilisez un serveur FTP pour sauvegarder vos captures vous devrez renseigner tous les elements du FTP sur cet onglet. 
+ 
+ 9eme onglet Pare feu 
+ 
+ 10eme onglet Systeme 
+ Cet onglet va vous permettre de sauvegarder tous vos parametres et aussi vous donner la possibilite de mettre a jour le micro logiciel de la camera 
+ 
+ voila une video vous presentant le viewer de la camera 
+ 
+ Divers logiciels 
+ Je ne vais pas reinvente la roue, mais vous pouvez aller sur le site de  Touteladomotique  et vous verrez comment Domotics a parametre Zoneminder et VLC. Vous verrez comment il a parametre son NAS pour recuperer ses flux videos. 
+ En conclusion 
+ Cette camera est vraiment dune tres bonne qualite que ce soit de jour ou de nuit 
+ 
+ 
+  
+ Elle est facile a configurer, le seul petit soucis et le support qui parait extremement fragile. Vous trouverez des applications gratuites pour votre telephone que ce soit sur Android ou iTunes. Je nai rien de plus a dire a part que vous pouvez trouver cette camera chez notre partenaire  Deltadomotique  au prix de 140 . Encore merci pour mavoir permis de tester cette camera, qui a vraiment une tres bonne qualite. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

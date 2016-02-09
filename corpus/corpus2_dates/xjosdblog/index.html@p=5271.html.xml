@@ -1,0 +1,27 @@
+<document>
+	<date>2014-03-23</date>
+        <title>Communication bidirectionnelle entre Box Domotique et Camra IP</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Camera IP</tag>
+                <tag>IPX800</tag>
+        </tags_set>
+        <categories_set>
+                <category>DLink</category>
+                <category>Domotique</category>
+                <category>Surveillance</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+En principe, une camera IP doit posseder une entree et une sortie numerique. Dans le cadre dune installation domotique, il est tout a fait pertinent de faire communiquer le box domotique avec la camera IP afin que la box soit informee en cas de detection de mouvement, et inversement que la box puisse envoyer un signal dalarme a la camera en cas de detection dun capteur associe a la box (ouverture de porte, detection de mouvement)
+ 
+Fortrezz commercialise un module Z-Wave  MIMOlite 
+Personnellement, je possede une camera IP D-Link  DCS-6511 IPX800 
+ 
+ 
+ 
+ Sommaire Domotique 
+        </text>
+</document>

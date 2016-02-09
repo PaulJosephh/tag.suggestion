@@ -1,0 +1,23 @@
+<document>
+	<date>2007-12-15</date>
+        <title>Installation des programmes avec la commande rpm</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+                <category>Systeme</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Installer un programme en utilisant rpm :
+ rpm -ivh nom_complet 
+Savoir si un rpm est installe (lomission de nom_court permet de lister les rpm installes) :
+ rpm -qa nom_court 
+Desinstaller un rpm :
+ rpm -e nom_court 
+Connaitre les fichiers installes :
+ rpm -qlp nom_complet ou rpm -ql nom_court 
+        </text>
+</document>

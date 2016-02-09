@@ -1,0 +1,16 @@
+<document>
+	<date>2011-10-24</date>
+        <title>Guide dinstallation du compteur dnergie Z-Wave Aeon Labs HEM</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         
+ Le compteur de consommation electrique  Aeon Labs Z-Wave Chaque pince amperemetrique est capable de mesurer un circuit electrique. Les valeurs mesurees de chaque circuit sont visible aupres du controleur  Z-Wave 
+    Le Home Energy Meter (HEM) est livre avec 2 ou 3 pinces amperemetriques (suivant le modele), un cable  USB   Retirez le support de fixation mural.   Connectez les pinces amperemetriques sur le HEM.   Branchez les pinces amperemetriques sur les cables des circuits que vous souhaitez mesurer.   Devissez la vis pour retirer le capot du compartiment a piles.    Inserez 4 piles AA.   Vous pouvez aussi alimenter le HEM avec lalimentation fournie via son port  USB   Le HEM ne peut pas etre utilise tel quel. Il faut lintegrer dans votre reseau  Z-Wave Mettez votre controleur  Z-Wave   Une fois inclus dans votre reseau, vous pourrez consulter les valeurs de votre consommation. Vous pouvez maintenant refermer le compartiment a pile. Fixez le support de montage a laide des vis fournis en suivant le sens indique par une fleche.   Installez le HEM dans son support.   Votre HEM est installe et pret a transmettre des releves de consommation !  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

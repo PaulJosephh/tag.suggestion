@@ -1,0 +1,14 @@
+<document>
+	<date>2010-03-18</date>
+        <title>Installation dun IRTrans LAN avec HomeSeer</title>
+        <author> David </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels Homeseer</category>
+        </categories_set>
+        <text>
+                                                         1. Installation du driver IRTrans. Documentation: http://www.irtrans.de/download/Docs/LAN%20Controller_EN.pdf Telechargement du driver Windows: http://www.irtrans.de/en/download/windows.php Executer linstallation avec le  SETUP.EXE HomeSeer Apres linstallation le programme  IRTranstray LAN HOMESEER relais Le programme  IRTranstray LAN Pour configurer votre IRTRANS LAN comme son adresse IP, il faut utiliser votre navigateur Web et vous connecter a linterface Web embarquee sur lIRTRANS. Pour retrouver ladresse IP de votre IRTrans qui par defaut est configuree en DHC, vous pouvez utiliser un logiciel comme superscan pour scanner votre reseau. Apres vous etre identifie (login par defaut  admin irtans Pour affecter une adresse IP fixe, decocher la case Use  DHCP Cliquez ensuite sur  Store Configuration Il faut ensuite rebooter le systeme. Cliquer sur  Reboot System  2. Installation du plugin IRTrans sous  HomeSeer Depuis linterface web d HomeSeer UPDATER NEXT Vous etes alors sur linterface dinstallation de modules complementaires et plugin. Faites descendre jusqua IRTrans Infrared Plug-in, cochez la case puis cliquez sur  Next Next A la fin de linstallation vous devez redemarrer  HomeSeer 3. Configuration du Plug-in Apres avoir redemarre  HomeSeer SETUP INTERFACES La nouvelle interface Irtrans est maintenant disponible. Cliquer sur le bouton  Disabled Enabled SAVE Cliquer ensuite sur  CONFIG Le Plug-in Status doit indiquer  Interface OK Vous pouvez maintenant apprendre des commandes IR a  HomeSeer 4. Apprentissage de commandes IR Longlet  IR SIGNALS SETUP WEB SITE Indiquer  Yes Navigation links to show  Infrared Signals SAVE Dans le menu  IR SIGNALS devices Signal Name Pour ajouter une commande saisir le nom de votre appareil (dans notre exemple DVD PLAYER) et le nom de la commande (Dans notre exemple PLAY) puis cliquer sur  ADD Vous pouvez ajouter autant de commandes que vous le souhaitez. Ne pas oublier de cliquer sur  SAVE Il faut maintenant apprendre le code IR pour chaque commande. Cliquer sur le bouton  LEARN Vous devez alors avec la telecommande du materiel que vous configurez, appuyer sur la touche souhaitee en direction de lIRTrans. Un message confirme le bon apprentissage de la commande. Faire de meme avec toutes les commandes que vous avez declare puis cliquer sur SAVE pour enregistrer votre configuration. 5. Conclusion. HomeSeer  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

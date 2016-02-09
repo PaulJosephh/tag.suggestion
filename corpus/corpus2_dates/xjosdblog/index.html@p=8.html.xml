@@ -1,0 +1,19 @@
+<document>
+	<date>2011-11-29</date>
+        <title>UIMA : Le systme de types (Type System ou TS)</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>CAS</tag>
+                <tag>Type system</tag>
+        </tags_set>
+        <categories_set>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+Pour composer un  CAS UIMA Type System TS CAS 
+Chaque composant  UIMA i.e. Analysis Engines UIMA 
+Un systeme de types est decrit dans un fichier  XML Eclipse Component Descriptor Editor 
+ Sommaire UIMA sur ce blog 
+        </text>
+</document>

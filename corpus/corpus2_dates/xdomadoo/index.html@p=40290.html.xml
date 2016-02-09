@@ -1,0 +1,30 @@
+<document>
+	<date>2014-07-24</date>
+        <title>Thread, un nouveau protocole pour la domotique</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>arm</tag>
+                <tag>big ass fans</tag>
+                <tag>domotique</tag>
+                <tag>freescale</tag>
+                <tag>internet of thing</tag>
+                <tag>iot</tag>
+                <tag>ip</tag>
+                <tag>nest labs</tag>
+                <tag>objet connecte</tag>
+                <tag>protocole</tag>
+                <tag>samsung</tag>
+                <tag>sans fil</tag>
+                <tag>silicon labs</tag>
+                <tag>thread</tag>
+                <tag>thread group</tag>
+                <tag>yale</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Reconnaissant la necessite dune nouvelle et meilleure facon de connecter les produits a la maison, sept societes ont annonce quellesont joint leurs forces pour former le  Thread Group Thread Group Yale Samsung Nest Labs Bien que les technologies de reseaux 802.15.4 actuellement disponiblesont leurs propres avantages, chacune a aussi des problemes critiques qui empechent la promesse de linternet des objets (IdO) detre realise. Il sagit notamment de labsence dinteroperabilite, lincapacite deffectuer des communications IPv6, les exigences de consommation elevees qui epuisentles batteries rapidement, et les modeles hub and spoke dependant dun appareil (si ce peripherique echoue, lensemble du reseau tombe en panne). Avec Thread, les developpeurs de produits et les consommateurs peuvent facilement et en toute securite relier plus de 250 appareils avec une faible consommation denergie, un reseau maille sans fil, qui comprend egalement un acces direct a Internet et au cloudpour chaque appareil. Les approches existantes de reseaux sans fil ont ete introduites bien avant linternet des objets, a declare Vint Cerf, vice-president et chef evangeliste de lInternet, Google, et conseiller aupres de  Thread Group Un certain nombre de solutions reseaux et de plates-formes ont ete presenteespour repondre a la demande croissante des produits connectes pourla maison, a declare Lisa Arrowsmith, directeur associe, connectivite, maisons intelligentes et villes intelligentes, IHS technologie. Base sur des standards eprouves, notamment IEEE 802.15.4, IETF IPv6 et 6LoWPAN, Thread represente une solution souple, basee sur IP pour la croissance rapide de lInternet of Things. Passeulement un autre protocole Un meilleur reseaupour les developpeurs Reseaux fiables: Threadpropose des reseaux mailles robustes auto-reparantqui sadaptent a des centaines dappareils sans point de defaillance unique. Les peripheriques sont prets quand les gens en ont besoin. Securite des reseaux: les reseaux Threadoffrent un cryptage securise. Threadferme les failles de securite identifiees et trouvees dans dautres protocoles sans fil et offre un fonctionnement sans souci. Connectivite simple: les appareils Threadsont simples a installer avec un smartphone, une tablette ou un ordinateur. Les consommateurs peuvent connecter en toute securite des appareils Threada la maison entre euxet vers le cloud pour un controle facile et lacces de nimporte ou. Faible puissance: Thread prenden charge les appareils fonctionnant sur batterie dans le cadre dun reseau domestique.  Cec Des millions de dispositifs sans fil 802.15.4 existants deja sur le marche peuvent fonctionner avec Threadavec juste une amelioration du logiciel  aucun nouveau materiel est necessaire. Threadest concu pour la mise en uvre rapide et le deploiement des dispositifs dans toute la maison. Facile a installer, facile a utiliser Plus quun protocole  domotique Source :  Thread Group  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

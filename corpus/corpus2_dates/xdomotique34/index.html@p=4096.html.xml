@@ -1,0 +1,103 @@
+<document>
+	<date>2013-04-20</date>
+        <title>Prsentation du Pack ESK 300  EnOcean</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>capteur sans fil</tag>
+                <tag>capteur sans pile</tag>
+                <tag>EnOcean</tag>
+                <tag>Stick usb</tag>
+                <tag>zibase</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+  
+  
+ Aujourdhui je vais vous presenter  le pack Expert (ESK 300  + RCM 250 + Habillage interrupteur + contacteur de porte STM 250 ) de EnOcean qui ma eteprete par  G-Media  et  Univers Domotique . 
+ 
+ Le kit de demarrage comprend une variete de convertisseurs denergie et des modules permettant la creation facile de capteurs sans fil autonome en energie. 
+ 
+Le kit se compose dun module de commutation (PTM 200) (interrupteur) utilisable en 1 bouton ou 2 boutons 
+ 
+ Voici un deballage complet en video 
+ 
+une suite de commutateurs industriels (PTM 330 et ECO 200) Il permet de recuperer de lenergie grace a laction mecaniqueexerceesur la petit languette de haut en bas. 
+  
+ 
+ une fois le module assemble 
+ 
+ un capteur de temperature (STM 330),Ce module se caracterise par sa tres faible consommation denergie, plus grande fiabilite. Si la valeur mesuree est transmise toutes les 15 minutes par exemple, 3,6 heures de charge dans la journee et 200 lux sont adequats pour un fonctionnement ininterrompu. Avec son mecanisme de stockage denergie completement charge, le module est entierement fonctionnel pendant quatre jours dans lobscurite totale. 
+ 
+  
+ 
+ un recepteur USB (USB 300) ainsi quun logiciel PC pour la visualisation (DolphinView de base) 
+ 
+  
+ Javais en plus du pack, un module STM 250 qui est un capteur douverture de porte avec capteur solaire 
+ 
+  
+ le contacteur et le capteur ouvert 
+ 
+  
+  
+ Un module switch RCM 250 a encastrer, qui permet de piloter des lampes ou autres appareils a laide des autres peripheriques. Il sera a connecter sur le circuit electrique normal. 
+ 
+  
+  
+ 
+  
+  
+ Partie Logicielle 
+ Dans un prochain article nous verrons a laide du dongle (prete par  Zodianet  par lintermediaire de notre partenaire  My-Domotique et  Domotique-Info ) comment utiliser les peripheriques  EnOcean  avec la Zibase. 
+ Mais pour le moment decouvrons le logiciel  DolphinView Basic 
+ Pour utiliser le logiciel, il faut tout dabord senregistrer et creer son compte personnel  ici . 
+ 
+ Une fois votre compte cree, vous pourrez telecharger le programme a ladresse  ici 
+ Installer le programme et suivez les instructions. Connectez votre stick USB 300 a votre PC et lancer DolphinView Basic et cliquez sur le bouton Connect ou appuyez sur la touche [F5]. 
+ 
+ voyons en video comment enregistrer un peripherique 
+ 
+ Voyons donc a quoi ressemble linterface de DolphinView Basic, une fois votre peripherique reconnu (tres simple, il suffit dactionner linterrupteur par exemple), il faut le selectionner et cliquer sur Set Profile pour faire apparaitre les differentes fonctionnalites disponible du peripherique. En loccurence pour cet interrupteur, vous pourrez soit faire un interrupteur simple ou double. 
+ 
+ Vous pourrez nommer votre peripherique et lui attribuer une description. 
+ 
+  
+ En conclusion 
+ Apres avoir assiste fin janvier lors du  seminaire sur les capteurs sans fil et sans pile , je tenais a tester cette nouvelle technologie qui pour moi est lavenir. Surtout quand on voit la consommation de pile que lon a en Z-wave. 
+ Je nai eu aucun soucis a faire reconnaitre les differents peripheriques mis a ma disposition, ma maison est bien eclairee et mes couloirs bien ajoures donc au niveau luminosites, les capteurs ont la possibilite de se recharger. 
+ Certes les modules sont encore un peu cher, mais avec la democratisation de ceux-ci et la possibilite de les faire fonctionner sur la Zibase actuellement et dans un avenir proche avec MyFox, je pense que les prix baisseront. Nous verrons donc dans un prochain article comment les associer avec la Zibase. Encore merci aAnthony de  G-Media  pour le pret de ce pack et autres modules que vous trouverez en vente chez notre partenaire  Univers-Domotique au prix de 260.00  . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

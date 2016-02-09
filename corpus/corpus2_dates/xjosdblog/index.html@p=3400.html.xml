@@ -1,0 +1,29 @@
+<document>
+	<date>2013-06-27</date>
+        <title>Ontology-based semantic annotation: an automatic hybrid rule-based method</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Article</tag>
+                <tag>TextMarker</tag>
+        </tags_set>
+        <categories_set>
+                <category>TALN</category>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+In the perspective of annotating a text with respect to an ontology, we have participated in the sub-task 1 of the Bacteria Biotopes BioNLP Shared Task whose aim is to detect, in the text, Bacteria Habitats and associate to them one or several categories from the Onto-Biotope ontology provided for the task. 
+ 
+We have used a rule-based machine learning algorithm (WHISK) combined with a rule-based automatic ontology projection method and some rote learning. The combination of these three sources of rules leads to good results with a SER measure close to the winner and the best F-measure.
+ 
+ 
+ 
+ 
+The sub-task 1 of the BB BioNLP-ST ranks competitors using the SER measure that must be as close as possible to0. We are quite close to the winner with a SER of 48,7% against 46%. Our F-measure (60,8%) is even better than the winners F-measure (57%). Without our mistake, we would have been placed equal first with a far better F-measure (62,9%).
+ 
+ 12/12/2014  finalement premier!  est premier 
+ 
+Larticle  Ontology-based semantic annotation: an automatic hybrid rule-based method BioNLP Shared Task 2013 
+        </text>
+</document>

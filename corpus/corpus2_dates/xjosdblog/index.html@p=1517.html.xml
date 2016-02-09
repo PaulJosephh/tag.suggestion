@@ -1,0 +1,20 @@
+<document>
+	<date>2012-03-23</date>
+        <title>UIMA Document Analyzer : java.lang.OutOfMemoryError: java heap space</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Document analyzer</tag>
+        </tags_set>
+        <categories_set>
+                <category>Eclipse</category>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Si lors de lexecution de loutil  Document Analyzer java.lang.OutOfMemoryError: java heap space -Xmssize -Xmxsize 
+Pour augmenter la taille de la memoire allouee a la machine virtuelle Java de loutil  Document Analyzer Run  Run Configurations  Java Application  UIMA Document Analyser VM arguments -Xms256M -Xmx2024M 
+ 
+ Sommaire UIMA sur ce blog 
+        </text>
+</document>

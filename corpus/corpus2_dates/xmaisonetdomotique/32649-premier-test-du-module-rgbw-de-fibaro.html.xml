@@ -1,0 +1,18 @@
+<document>
+	<date>2013-07-15</date>
+        <title>
+Premier test du module RGBW de Fibaro</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Fibaro</tag>
+                <tag>ruban led</tag>
+                <tag>Une</tag>
+                <tag>Z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Peripheriques Z-Wave</category>
+        </categories_set>
+        <text>Fibaro  nous a annonce il y a quelques jours  un nouveau module Z-Wave tres prometteur , car rempli de fonctions, la principale etant la possibilite de piloter des rubans  Led RGB  (cest a dire des rubans leds de couleurs). Jai recu lun des premiers exemplaires de ce module  FGRGB-101 , jen profite donc pour vous en faire une premiere presentation rapide.  Sommaire I. Presentation II. Installation III. Utilisation sur le Home Center 2 de Fibaro 3.1 Mode RGB 3.2 Mode Input / Output IV. Conclusion Commentaires (8) Powered by SEO TOC 1.7.3  
+ I. Presentation  Nous sommes maintenant habitues au packaging Fibaro, qui est le meme pour tous les modules: une petite boite cubique, avec un logo de couleur differente en fonction du type de module:   A louverture, on retrouve un module au design bien familier egalement:   Comme dhabitude, nous y trouvons le module et une petite notice (en anglais):   Le module RGB est identique aux autres micro modules de la marque, comme on peut le voir ici, avec le module RGB a gauche, et un micro module variateur a droite:   Meme forme, et meme taille, avec des dimensions de42 x 37 x 17 mm. Seule la connectique, beaucoup plus fournie, change:   Nous avons tout a gauche la phase et le neutre. Attention, premiere remarque importante: ce module est a alimenter en 12 ou 24v, il ne faut surtout pas le connecter au 220V ! Ensuite, nous avons 4 entrees IN1 a IN4: ces entrees peuvent etre configurees pour le controle LED ou la lecture de signal 0V-10V. Ainsi, ce module peut etre utilise comme un variateur de lumiere avec des lampes halogenes, ou pour y connecter jusqua 4 capteurs analogiques, comme des capteurs de temperature, capteurs dhumidite, capteurs de vent, capteurs de qualite de lair, capteurs de lumiere, etc Puis viennent les 4 sorties pour le controle des rubans RGB et RGBW, ces derniers ayant lavantage davoir un 4eme canal blanc, permettant dobtenir des couleurs pastelles.    La notice indique quelques exemples de cablages pour differents usages:   Passons maintenant a un premier montage.     1   2   3   4 Fibaro   ruban led   Une   Z-wave 
+        </text>
+</document>

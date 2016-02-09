@@ -1,0 +1,23 @@
+<document>
+	<date>2007-10-25</date>
+        <title>Utiliser le serveur dimpression du routeur D-Link DI-704P sous Ubuntu</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>DLink</category>
+                <category>Galeres</category>
+                <category>Questions Reseau</category>
+        </categories_set>
+        <text>
+                                                 
+En principe, il faudrait faire  Systeme  Administration  Impression Imprimante  Ajouter une imprimante Imprimante reseau Imprimante UNIX (LPD). 
+Hote : 192.168.0.1 
+
+http://localhost:631
+
+ 
+Les taches administratives ont ete desactivees pour des raisons de securite. Veuillez utiliser le menu Poste de travail System  Administration  Impression
+ sudo cp /etc/cups/cupsd.conf /etc/cups/cupsd.conf.svg AuthType = Basic AuthType = None cupsys /etc/init.d/cupsys restart cups - Name: something cupsd.conf  sudo cp /etc/cups/cupsd.conf.svg /etc/cups/cupsd.conf 
+        </text>
+</document>

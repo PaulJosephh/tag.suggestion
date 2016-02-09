@@ -1,0 +1,22 @@
+<document>
+	<date>2014-01-01</date>
+        <title>Guide dinstallation de la sirne EVERSPRING SE812 avec la Zipabox</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>everspring</tag>
+                <tag>guide</tag>
+                <tag>se812</tag>
+                <tag>sirene</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+                <tag>zipabox</tag>
+                <tag>zipato</tag>
+        </tags_set>
+        <categories_set>
+                <category>Zipabox Produits</category>
+        </categories_set>
+        <text>
+                                                         La  Zipabox Z-Wave Everspring Zipabox 1- Installation : Zipabox https://my.zipato.com/ Si votre module a deja ete inclus dans un autre reseau  Z-Wave Lorsque vous avez clique sur le bouton Ajouter des modules, une fenetre souvre et celle-ci vous permet de selectionner le protocole correspondant a votre module (dans notre cas, il sagit du protocole  Z-Wave Everspring Une nouvelle fenetre nommee Assistant dajout de peripherique apparait avec un compte a rebours durant lequel vous devez appuyer 3 fois brievement (en moins de 1.5 seconde) sur le bouton dapprentissage (le bouton dinclusion de votre module  Z-Wave Ce bouton dapprentissage est situe a linterieur de la sirene. Une fois que votre sirene est detectee par la  Zipabox Elle apparaitra dans la categorie Lampes et Appareils  avec le nom par defaut: Sirene . 2- Configuration Pour configurer vos parametres generaux (nom de la piece, type de module, nom du module) cliquez sur le bouton  Vous pouvez egalement configurer vos parametres generaux dans la categorie General en cliquant sur Modules Totaux. Puis cliquez sur Sirene  disponible dans le dossier  Everspring Apres avoir realise vos modifications, cliquez sur le bouton Sauvegarder. Dans la categorie Lampes et Appareils de votre interface, vous allez pouvoir visualiser letat de votre module et vous pouvez cliquer sur le bouton ON/OFF pour activer ou desactiver la sirene. Si vous desirez modifier les parametres avances de ce module, cliquez sur  Modules totaux  dans la categorie  General . La fenetre Gerer vos modules apparait. Selectionnez le dossier de votre module( Everspring Cliquez ensuite sur longlet Configuration : Dans Custom Configuration vous allez pouvoir definir des configurations supplementaires (disponibles dans la notice de ce module). 3- Exemple de  scenario Lorsque jarme mon alarme, si mon detecteur de presence detecte une presence, alors la sirene sonne. Vous devez en premier lieu vous rendre dans le centre de controle de votre  Zipabox Vous etes desormais dans linterface Createur de regles dans laquelle vous pouvez creer les scenarios que vous souhaitez grace a : http Nous allons donc realiser le scenario suivant :Quand mon alarme est armee, si mon detecteur detecte un mouvement alors la sirene sonne, sinon (si elle ne detecte pas de mouvement), alors elle ne sonne pas. Nous avons donc besoin de:  6 pieces de Puzzle (2 controles, 2 actions et 2 capteurs)  4 Modules (1 detecteur de mouvement et 3 actionneurs) Il suffit simplement dassembler ces elements pour creer notre scenario. Pour cela, selectionnez chaque partie et deplacez-les dans les cases attribuees (sans oublier dindiquer le statut du capteur virtuel On Off Switch ON, le statut du detecteur de mouvement Motion et letat de votre sirene On et OFF). Cliquez sur le bouton Sauvegarder situe en dessous de votre scenario cree puis sur le boutonSynchroniser les regles situe a droite dans la rubrique de vos regles pour valider votre scenario. Voici notre scenario : Comme vous pouvez le constater, pas besoin detre un professionnel de la programmation informatique pour realiser un scenario. Cette sirene SE812 peut bien evidemment servir pour dautres applications.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

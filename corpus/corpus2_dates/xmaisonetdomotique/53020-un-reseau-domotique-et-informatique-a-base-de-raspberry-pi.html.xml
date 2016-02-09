@@ -1,0 +1,14 @@
+<document>
+	<date>2015-03-20</date>
+        <title>
+Un rseau domotique et informatique  base de Raspberry Pi</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Raspberry-Pi</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>Pour ce premier article, je vous propose dintroduire lenvironnement de depart qui sert de base a mes differents projets domotique ou informatique. Cest un article auquel je ferai souvent reference, dans de futurs articles qui iront dans le detail de chaque realisation/projet. Je presente comment est agence mon reseau interne, quels en sont les differents composants, et comment tout ce beau monde communique. Larticle se concentre sur la partie reseau et les composants principaux. Le detail des composants de la partie domotique (electroniques, capteurs, etc.) nest pas aborde ici. Lire larticle complet sur  Arno0x0x   Raspberry-Pi 
+        </text>
+</document>

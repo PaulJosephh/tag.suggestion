@@ -1,0 +1,16 @@
+<document>
+	<date>2011-10-17</date>
+        <title>
+Hackintosh: MaJ en 10.7.2 et iCloud fonctionel !</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Hackintosh</tag>
+                <tag>iCloud</tag>
+                <tag>Lion</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Informatiques</category>
+        </categories_set>
+        <text>Suite a la mise a jour 10.7.2 de Lion sortie la semaine derniere, jen ai profite ce week end pour la faire sur mon Hackintosh. La mise a jour se passe sans soucis, bien sur toujours concernant  la configuration a base de carte mere G31M-ES2L (v1), que javais presentee ici . Pour les autres, je ne peux rien assurer :/ Tout dabord, si vous avez le fichier SleepEnabler.kext dans votre dossier Extra, supprimez le avant la mise a jour (cest a faire avant tout mise a jour, de toute facon, pour etre sur de ne pas avoir de probleme au redemarrage). Il faudra en chercher un nouveau compatible avec Lion 10.7.2. Je vous laisse regarder sur le site  Kexts.com , personnellement je ne me sers pas de cette fonctionnalite. Ensuite, si vous avez utilise le fichier VodooHDA.kext pour le son, comme indique dans  le tutorial dorigine , supprimez le egalement sous peine davoir un message derreur au redemarrage. Il se trouve dans le repertoire Systeme / Bibliotheque / Extensions. Il ny a plus qua faire la mise a jour, via le menu Pomme, ou en telechargeant  la combo Update disponible sur le site Apple ici  (ce que je prefere, mais le menu Pomme fonctionne aussi tres bien).   Laissez faire la mise a jour, puis redemarrez quand on vous le demande.   Votre Hackintosh devrait redemarrer sans probleme en 10.7.2 ! Il ne reste plus quune mise a jour a faire pour que iCloud fonctionne, sous peine davoir un message vous disant que votre ID Apple nest pas valide. Telechargez donc  la derniere version de Chameleon disponible ici , puis installez la par dessus lancienne (les parametres par defaut font laffaire).   Redemarrez une fois linstallation terminee, cette fois cest fini: votre Hackintosh est a jour, et iCloud, LA nouveaute de cette mise a jour, est fonctionnel:   Note: Sans savoir pourquoi, chez certains il faut apparemment reinstaller AppleHDA et HDAEnabler pour retrouver le son. Reinstallez donc les kexts a laide de Kext Wizard ( tout est disponible dans larticle dorigine ici ) sil le faut. Au passage, je remercie patriceapi qui mavait deja bien degrossi le travail dans les commentaires pour effectuer cette mise a jour ;-) Enjoy ! ;-)   Hackintosh   iCloud   Lion 
+        </text>
+</document>

@@ -1,0 +1,13 @@
+<document>
+	<date>2009-09-19</date>
+        <title>Remplacement du disque du Synology DS107e</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Synology</category>
+        </categories_set>
+        <text>
+                                                 Pour commencer, une bonne nouvelle : le  Samsung EcoGreen F2 de 1.5 To cloner le disque dorigine la solution preconisee Jai effectue cette etape sous Linux. Pour pouvoir preparer le nouveau disque, il faut linstaller dans un ordinateur de bureau ou dans un boitier externe pour disque dur. On commence par supprimer toutes les partitions du disque dur (avec gparted par exemple). Puis, pour le preparer, il suffit dexecuter la commande suivante : dd if=/dev/zero of=/dev/ sdl sdl Monter le nouveau disque dans le Synology puis telecharger les dernieres versions du  Firmware Synology Assistant Demarrer le Synology et attendre le bip. Appuyer sur le bouton reset au dos pendant environ 4 secondes jusqua entendre un bip (reinitialisation de lIP, du DNS et du mot de passe du compte admin). La version Linux du  Synology Assistant Synology Assistant Firmware One-Click Setup Enfin, il ne vous reste plus qua tout parametrer et copier vos donnees en rebranchant votre ancien disque par lintermediaire dun boitier externe pour disque dur. HDD Cloning Trucs et Astuces  Le SYNO et le Disque dur 
+        </text>
+</document>

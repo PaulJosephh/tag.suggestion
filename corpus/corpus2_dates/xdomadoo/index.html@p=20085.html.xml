@@ -1,0 +1,16 @@
+<document>
+	<date>2009-10-29</date>
+        <title>Guide dinstallation du module LM15</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>X10 Produits</category>
+        </categories_set>
+        <text>
+                                                         Le LM15 permet dallumer ou deteindre une ampoule de 100W maximum en etant pilote par des ordres  X10 X10 X10 
+ Mettez la lampe hors tension a laide de son interrupteur. Devissez lampoule de son support et vissez le LM15 a la place. Vissez lampoule (100W maximum dans un boitier ouvert, 60W maximum dans un boitier ferme) dans le LM15. Nutilisez pas de lampes fluorescentes. Mettez la lampe sous tension a laide de son interrupteur. Votre module LM15 est maintenant pret a etre pilote par nimporte quel controleur  X10 Il est aussi possible de controler le module localement: appuyer simplement sur linterrupteur dorigine de votre eclairage.   Changer ladresse du LM15 : 
+ Interrompez son alimentation secteur durant quelques secondes. Retablissez la et appuyez dans les 30 secondes sur la touche ON (correspondant au code unite que vous desirez affecter a votre LM15) de votre controleur  X10 Apres le troisieme appui, la lampe va sallumer signifiant que le LM15 a appris son adresse.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

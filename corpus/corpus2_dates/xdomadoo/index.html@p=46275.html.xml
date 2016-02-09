@@ -1,0 +1,24 @@
+<document>
+	<date>2015-04-15</date>
+        <title>Ralisation dun clairage en va et vient avec des produits Edisio</title>
+        <author> Mallory </author>
+        <tags_set>
+                <tag>edisio</tag>
+                <tag>guide</tag>
+                <tag>interrupteur</tag>
+                <tag>sans fil</tag>
+                <tag>tuto</tag>
+                <tag>va et vient</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Edisio propose une large gamme de produits domotique sans fil En fonctions de lexistant, plusieurs manieres de realiser un eclairage en va et vient soffre a vous avec les  produits Edisio gammeEdisio micro-module emetteur EMM-100 Eclairage en va et vient avecdes interrupteurs Edisio Pour repondre a ce besoin avec les interrupteurs Edisio, il faudra choisirdans un premier temps deux interrupteurs parmi les differents modeles proposes. Pour notre article nous avons choisi  1 interrupteur Diamond 1 touche blanc 1 interrupteur Diamond 1 touche rouge En plus des emetteurs (les interrupteurs) il faudra choisir lactionneur. Le choix de ce dernier se fera en fonction de votre preference et de votre installation existante. Effectivement plusieurs actionneurs peuvent etre utilises, que se soit en micro-module, ou en  Rail DIN Dans ce premier cas de figure, nous allons vous presenter comment realiser un eclairage en va et vient a partir du  micro-module EMR-2000 1-Mise en place Concernant la mise en place nous allons dans un premier temps cabler le micro-module EMR-2000. Il suffit de bien suivre les indications de la notice de cablage : Une fois cable, lorsque lon remet sous tension le circuit, le module doit emettre un Bipde quelques secondes. Pour les deux interrupteurs, il y a juste aouvrir la petitetrappesituee sur la tranche inferieure afin dinserer la pile, puis remettre la trappe. 2-Association Pour lassociation, cest un jeudenfant, voici la procedure a suivre : Appuyer 1 fois sur le bouton R du micro-module, ce dernier doit se mettre a biperet la charge connectee doit sallumer. Il faut ensuite appuyer 1 fois sur le bouton de linterrupteur. A ce niveau de la  phase phase Le 1er interrupteur est donc associe et peut donc allumer et eteindre la charge connectee au micro-module. Concernant le second interrupteur, il suffira de repeter une seconde fois la procedure dassociation avec le nouvel interrupteur, une fois cette derniere etape realiser, votre va et vient est configure. Il vous restera juste a mettre en place les interrupteurs aux endroits de votre choix. Avec des interrupteurs existant Dans ce second cas, les emetteurs seront des interrupteurs classiques relie aux micro-modules emetteurs EMM-100 Lactionneur sera cette fois-ci un module  Rail DIN EDR-D4 1- Mise en place La mise en place dans ce cas de figure est differente car il faut integrerle module dans son tableau electrique car cest un module  Rail DIN Pour les interrupteurs, Il faut dans un premier temps inserer les piles dans les emetteurs EMM-100. Puis il reste a relier les micro-modules EMM-100 aux interrupteurs classiques comme sur la photo suivante : Dans notre cas, on utilise des interrupteurs simples, le cable rougene sert donc arien. Effectivement ce dernier est a utile si lon utilise un interrupteur double. 2-Association Une fois les deux interrupteurs correctement cables, la procedure dassociation se revele toujours aussi simple. Dans notre cas, la charge a controler est branchee sur la premiere sortie du module  Rail DIN Comme pour la methode utilisant  des interrupteurs sans fil Edisio Le EDR-D4 confirme lassociation par un bip continu, et la charge connectee seteint. Pour finir, il suffit dappuyer 1 nouvelle fois sur le bouton dassociation. Le 1er interrupteur est donc associe, pour le second, il suffit de repeter une nouvellefois laprocedure dassociation et votre va et vient est donc en place. Conclusion Comme on peut le voir dans ce guide, Edisio propose un systeme dassociation vraiment simple et bien pense. Lutilisation du son comme indicateur est tres pratique et rend les manipulations intuitives. De plus une fois en place, les systemes Edisio son tres reactif ce qui offre un confort dutilisation tres appreciable. Grace aux  produits Edisio Les produits necessaires a la realisation dun va et vient Edisio sont disponible sur  notre boutique  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Realisation dun eclairage en va et vient avec deux interrupteurs sans piles et sans fils EnOcean 
+ Jeedom  Guide dutilisation de linterrupteur NodOn EnOcean 
+ Realisation et domotisation dun miroir infini END .entry-content  
+        </text>
+</document>

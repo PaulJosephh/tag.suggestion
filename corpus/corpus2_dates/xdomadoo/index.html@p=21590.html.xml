@@ -1,0 +1,15 @@
+<document>
+	<date>2011-07-21</date>
+        <title>Installation Z-Wave de base</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                          Une installation  domotique Z-Wave Z-Wave RF  Lemetteur peut etre une telecommande ( AEO_MREM ZTH200 REM_ZURC550 DUW_05443 DUW_05460 EVR_SM103 EXP_EZM  Le  recepteur peut etre un module appareil (ordre ON / OFF uniquement), un module lampe (ordres ON / OFF et variation), ou un module pour volet roulant. On peut le trouver sous  differentes formes :
+  Module prise ( EVR_AN157-6 EVR_AD142-6  Module Encastrable ( DUW_064312 DUW_064336 Interrupteur ( DUW_05431 DUW_05459  Exemple dinstallation: Dans lexemple suivant, les lumieres et les appareils sont commandes par lintermediaire dune telecommande  Aeon Labs AEO_MREM RF Le signal  RF Ainsi, lenvoi dun ordre avec la telecommande  AEO_MREM   EVR_AN157-6 EVR_AD142-6 Linstallation  est tres simple et necessite uniquement dinserer des modules dans des  prises electriques (module prise) et de connecter dessus la lampe ou lappareil a controler. La programmation des modules lest egalement : il  suffit dinclure les recepteurs dans le reseau  Z-Wave  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,14 @@
+<document>
+	<date>2010-08-14</date>
+        <title>Commander un matriel depuis un port RS232 avec Homeseer. Partie 1</title>
+        <author> David </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels Homeseer</category>
+        </categories_set>
+        <text>
+                                                         Partie 1. Script basique. Pre requis: HomeSeer Pour notre exemple nous nous utiliserons un amplificateur  PIONEER VSX-LX 70 Fichier de descriptif des commandes RS232 du constructeur: VSX92TXH_RS232C_Protocols.pdf Le  PIONEER Port RS232 utilise: COM2 Systeme: Windows Home Server Lenvoi de commandes sur un port RS232 depuis  HomeSeer Lexemple presente un script unique qui ouvre le port RS232, envoi une commande puis referme le port RS232. Il est bien sur possible dans le cadre dune exploitation complete dexecuter la commande douverture du port RS232 dans le script de demarrage de  HomeSeer HomeSeer La commande douverture dun port RS232 est la suivante: OpenComPort port,baud rate,parity,data bits,stop bits Il est necessaire de vous conformer aux pre requis du constructeur du materiel, sur lesquels doit etre calquee la configuration Windows de votre port RS232 et la configuration du script dans  HomeSeer Dans notre exemple,  PIONEER Ces valeurs sont celles configurees pour notre port RS232 sous Windows. *Dans le gestionnaire de peripheriques, propriete du port com La fonction douverture du port sera donc la suivante: hs.OpenComPort 2,9600,N,8,1,1,, La fonction pour envoyer une commande est la suivante: SendToComPort port,data La documentation des commandes  PIONEER POCR PO est la commande La commande est donc la suivante : hs.SendToComPort 2,PO  Chr(13) La fonction pour fermer le port com est la suivante: CloseComPort(port) Soit dans notre cas CloseComPort(2) Script complet : Option explicit Lexecution de ce script allume lamplificateur  PIONEER Vous pouvez maintenant commander votre materiel disposant dun port RS232 de facon beaucoup plus precise et fiable quavec de linfrarouge.   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

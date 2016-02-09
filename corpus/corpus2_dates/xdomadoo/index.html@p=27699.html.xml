@@ -1,0 +1,17 @@
+<document>
+	<date>2013-09-02</date>
+        <title>OpenKarotz : Librez votre lapin Karotz !</title>
+        <author> Cdric L. </author>
+        <tags_set>
+                <tag>domotique</tag>
+                <tag>Karotz</tag>
+                <tag>OpenKarotz</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Le  Karotz domotique RFID Comme beaucoup dappareils connectes, il depend du cloud, donc de serveurs exterieurs, ce qui peut etre un point bloquant pour certains: plus de societe, plus de service. On se souvient malheureusement de cette experience avec son grand frere, le Nabaztag, qui a fini pour beaucoup en presse papier. Cest la quentre en scene  OpenKarotz Loperation est extremement simple et  tres bien detaillee  en francais  sur le site du developpeur USB USB Le lapin nous informe meme vocalement tout au long de linstallation pour nous dire ou il en est. Une fois OpenKarotz installe, le lapin sera alors pilotable via de simples requetes  HTTP domotique HTTP Parmi les possibilites, nous avons actuellement: Reveiller / endormir le lapin Gestion des oreilles Gestion de la LED (Massalia donne meme un  tableau complet des codes couleurs utilisables TTS (Synthese vocale via un serveur externe) Plusieurs voix francaises Gestion de la ponctuation Gestion dun cache local: une fois la synthese vocale utilisee, le fichier genere reste en cache sur le Karotz et peut etre appele nimporte quand, lannonce vocale est alors instantanee Gestion des tags  RFID Declenchement dune scene Vera via un Tag  RFID Declenchement dune Macro  Eedomus RFID Declenchement dune URL via un Tag  RFID Jouer des sons ou des flux audio, locaux ou via une URL Mise a jour du Karotz dun simple clic Dautres choses sont encore sur la todo list du developpeur, comme par exemple la prise de photo via la camera. Une interface web, disponible en tapant ladresse IP du Karotz dans un navigateur web, permet davoir quelques exemples de commandes. Celles ci sont tres simples a utiliser. Pour allumer une LED en bleu clignotant, il suffira par exemple dappeler lurl http 00FF00 1 Pour lui faire dire un texte precis, une url de la sorte: http Bienvenue sur le Blog  Domadoo alice Pour lire un fichier local ou un flux audio (comme une radio par exemple): http http streaming Comme on le voit, lutilisation est tres simple ! Et cerise sur le gateau, le Karotz est tres reactif, ce qui etait loin detre le cas avant. Seuls deux points seront a retenir: limpossibilite dinstaller des applications officielles, la volonte de Massalia etant de ne plus dependre du tout des serveurs de Violet; et la reconnaissance vocale qui nest pas prevue pour le moment. Mais cela ne coute rien dessayer, puisquil sera tout aussi facile de reinstaller le firmware dorigine du Karotz. En tout cas, pour une utilisation  domotique OpenKarotz  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

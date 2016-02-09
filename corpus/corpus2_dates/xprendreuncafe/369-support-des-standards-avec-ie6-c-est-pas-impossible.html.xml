@@ -1,0 +1,37 @@
+<document>
+	<date>2006-01-05</date>
+        <title>Support des standards avec IE6 : c'est pas impossible</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>css</tag>
+                <tag>extensions</tag>
+                <tag>ie</tag>
+                <tag>microsoft</tag>
+                <tag>standards</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Neolao  - qui devrait serieusement commencer a penser a s'ouvrir un blog   - me transmet par mail une information interessante: il existe un projet de rendre  IE6   a peu pres  respecteux des  standards web  et plus particulierement des  CSS . Le projet s'appelle  IE7   [ 1 ] , et propose sa solution sous la forme d'un certain nombre de  fichiers javascript  a inclure dans ses documents  HTML . 
+
+
+ Le resultat est assez convaincant, puisqu'il est alors possible d'utiliser les selecteurs et meme les pseudo-classes  :focus ,  :before ,  :after  et  consorts ... 
+
+
+ Au chapitre des inconvenients: 
+
+ 
+ Grosse alerte de securite (merci le  SP2 ) au chargement de l' objet ActiveX utilise  depuis javascript, 
+ Obsolete en cas de desactivation du javascript par l'internaute. 
+ 
+
+ Donc on ne tient pas encore la solution ideale, mais ca pourra peut-etre aider les plus impatients a attendre la sortie de la  future version 7 officielle  ( hahaha ). 
+
+ 
+ Telechargement sur  Sourceforge.net 
+ 
+ Notes 
+ [ 1 ] Apparemment, rien a voir avec la denomination de  l'arlesienne  la future version du navigateur de Microsoft... 
+ 
+        </text>
+</document>

@@ -1,0 +1,57 @@
+<document>
+	<date>2005-06-09</date>
+        <title>Lien de soumission  Blogmarks.net</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>blogmarks</tag>
+                <tag>dotclear</tag>
+                <tag>tips</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dotclear</category>
+        </categories_set>
+        <text>Quelques minutes plus tard, la fonction  dcSubmitToBlogmarks()  etait nee   Copiez-collez le code ci-dessous dans le fichier  prepend.php  de votre theme courant. Creez le fichier s'il n'existe pas. 
+
+ 
+
+ function  dcSubmitToBlogmarks ( $s = 'a href="%s"Blogmark it !/a' )   { 
+         $title  =  $GLOBALS [ 'news' ] - f ( 'post_titre' ) ;
+         $url  =  'http://'  .  getenv ( 'HTTP_HOST' )  .  $GLOBALS [ 'news' ] - getPermURL ( ) ;
+         $summary  =  $GLOBALS [ 'news' ] - getChapo ( )  !=  ""  ?  strip_tags ( $GLOBALS [ 'news' ] - getChapo ( ) )  :  strip_tags ( $GLOBALS [ 'news' ] - getContent ( ) ) ;
+         $tN  =  array ( "  " ,  " 
+ " ,  " \t " ) ;
+         $tR  =  array ( "" ,  " " ,  "" ) ;
+         $summary  =  str_replace ( $tN ,  $tR ,  $summary ) ;
+         while   ( ereg ( "  " ,  $summary ) )   $summary  =  str_replace ( "  " ,  " " ,  $summary ) ;
+         $summary  =  substr ( chop ( $summary ) ,  0 ,  255 )  .  '...' ;
+         $tags  =  $GLOBALS [ 'news' ] - f ( 'cat_libelle' ) ;
+         $via  =  getenv ( 'HTTP_REFERER' ) ;
+         if   ( $title    $url )   { 
+                 if   ( dc_encoding !=  'UTF-8' )   { 
+                         $title  =  utf8_encode ( $title ) ;
+                         $url  =  utf8_encode ( $url ) ;
+                         $summary  =  utf8_encode ( $summary ) ;
+                         $tags  =  utf8_encode ( $tags ) ;
+                         $via  =  utf8_encode ( $via ) ;
+                 } 
+                 echo   sprintf   ( 
+                         $s ,  'http://www.blogmarks.net/my/new.php?' .
+                         'title='  .  urlencode ( $title )  .  'amp;' .
+                         'summary='  .  urlencode ( $summary )  . 'amp;' .
+                         'url='  .  urlencode ( $url )  .  'amp;' .
+                         'via='  .  urlencode ( $via )  .  'amp;' .
+                         'tags='  .  urlencode ( $tags ) 
+                 ) ;
+         } 
+ } 
+
+
+ Cette fonction doit etre appellee depuis le fichier  post.php  du theme courant, ce qui donne un lien du type de celui present ci-dessus, permettant a vos lecteurs d'ajouter en un clic votre billet a leurs blogmarks. 
+
+
+ Enjoy  
+
+
+ Edit: Correction d'un bug n'affectant que les blogs encodes en ISO et empechant le passage du titre en argument (erreur de nom de variable). Merci  Yannis   
+        </text>
+</document>

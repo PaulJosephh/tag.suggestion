@@ -1,0 +1,26 @@
+<document>
+	<date>2007-12-15</date>
+        <title>Noyau (kernel) : version, messages et modules</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+                <category>Systeme</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Afficher la version du noyau :
+  uname -r 
+Afficher les messages du noyau :
+  dmesg 
+Afficher les messages du noyau en continu (utile pour connaitre le point de montage dun peripherique par exemple) :
+  tail -f /var/log/messages 
+Lister les modules installes :
+  /sbin/lsmod 
+Installer un module (une fois pour toutes) :
+  /sbin/insmod module 
+Charger un module (a mettre dans  /etc/rc.local  /sbin/modprobe module 
+        </text>
+</document>

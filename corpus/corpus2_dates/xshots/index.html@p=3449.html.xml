@@ -1,0 +1,46 @@
+<document>
+	<date>2014-03-12</date>
+        <title>Spyder cube de Datacolor. Le chanon manquant du dveloppement RAW.</title>
+        <author>SHOTS</author>
+        <tags_set>
+                <tag>balance des blancs</tag>
+                <tag>calibration</tag>
+                <tag>datacolor</tag>
+                <tag>exposition</tag>
+                <tag>lightroom</tag>
+                <tag>Nikon D3s</tag>
+                <tag>packshot</tag>
+                <tag>RAW</tag>
+                <tag>spyder cube</tag>
+        </tags_set>
+        <categories_set>
+                <category>actu</category>
+                <category>news</category>
+                <category>photo</category>
+                <category>technique</category>
+        </categories_set>
+        <text>
+ Spyder cube. Boostez vos traitements RAW. 
+ Je connais bien  Datacolor , jutilise la sonde de calibration  Spyder3 Elite  depuis des annees. La calibration, ils savent faire. Alors quand jai entendu parler de  Spyder Cube , jai tendu loreille, flairant immediatement le bon plan. Ni une ni deux, javais un cube sur mon bureau, direction le studio ou je realise habituellement mes packshots. Jutilise un  light cube  de chez Kaiser et deux lampes RayD8 de chez  Lastolite  avec mon reflex  Nikon D3s . La problematique ne se pose pas donc a la prise de vue mais plutot au traitement de mes fichiers NEF. La balance des blancs, lexpo, la luminosite,  Avant cetait un peu au feeling, mais ca, cetait avant. 
+ Comme toutes les bonnes idees, quand on regarde le cube imagine par Datacolor, on se dit mais pourquoi personne ny a pense avant ? Voila un cube, donc, monte sur un cylindre. Au pied du cylindre il y a une tige filetee qui permet de visser lensemble sur un petit trepied, ce qui est pratique si on veut le positionner en hauteur ou simplement comme dans mon cas lui donner une bonne assise. Trois faces sont visibles. Deux faces grises et blanches, une face noire munie dun trou noir. En haut du cube une bille chromee. Le cube est livre avec une dragonne pour le transporter et une petite housse pour le transporter. 
+   Comment ca marche ? 
+Cest on ne peut plus simple. Si vous faites du packshot, vous posez le cube a cote du produit que vous avez a photographier. Si vous faites de la photo de mariage, vous demandez a la mariee de le porter a ses cotes. Si elle vous pose des questions, dites que cest un porte-bonheur, ce qui nest pas loin, finalement, de la verite. Assurez-vous de bien voir les faces grises et blanches, la face noire et le trou qui va avec. Faites un cliche du  Spyder Cube  avec vos conditions declairage. Quand cest fait, rangez le cube dans sa pochette et continuez votre prise de vue. Sur votre ordinateur, chargez vos fichiers RAW. Ouvrez votre image de reference avec votre logiciel prefere. Pour ce test, jai utilise  Adobe Lightroom 5.3 . 
+   Developpement de limage de reference. 
+Avant toute chose, dans Lightroom pensez a activer les alertes  ombres  et  hautes lumieres  (les petits losanges dans Histogramme en haut a gauche et a droite). Autre point important, il faut realiser ces operations lune apres lautre et dans cet ordre precis. 
+ Premiere etape ,  la balance des blancs . Tres simple, vous prenez la pipette et vous cliquez dans lune des deux faces grises. Choisissez la face la plus claire. Le gris du Spyder cube est un  gris neutre  a 18% (pour memoire, un sujet moyen reflechit 18% de lumiere, ce gris sert donc de gris etalon). Une balance des blancs correcte vous permet dobtenir une repartition harmonieuse du rouge (R), du vert (G) et du bleu (B). 
+ Seconde etape ,  lexposition . Il sagit dajuster lexposition jusqua obtenir environ 50% sur chaque canal RGB de la surface gris neutre. Positionnez le curseur sur la surface gris neutre (celle utilisee a letape precedente) puis augmentez lexpo jusqua ce que le systeme affiche 50% sur chacun des trois canaux. 
+ Troisieme etape , definition du  point noir . Assurez-vous que vous avez bien active lalerte ombres (en haut a droite losange de gauche). Poussez le curseur des noirs jusqua ce que le trou noir sallume en bleu. 
+ Quatrieme etape , definition du  point blanc . Passez votre curseur sur la face blanche du cube, Lightroom vous indique les valeur RGB. Poussez le curseur des blancs jusqua obtenir une valeur de 94% sur les trois canaux. 
+Voila. Il suffit maintenant denregistrer les reglages de limage de reference sous la forme dun  preset  et dappliquer ce preset a lensemble des images realisees dans des conditions declairage identique. Autre solution, si lon ne souhaite pas passer par la creation dun preset cest dutiliser la fonction de synchronisation des parametres. 
+ 
+  SpyderCube en un mot. Indispensable. 
+Inutile de vous dire tout le profit que les photographes vont tirer du Spyder Cube, dans le traitement de leurs fichiers RAW. Grace a ce petit accessoire, on a lassurance dune balance des blancs exacte, dune exposition, dune luminosite, dun equilibrage des blancs et des noirs parfaits. Pour ma part, je ne fais desormais plus aucun packshot sans lui, cest un accessoire de prise de vue vraiment indispensable qui me permet un gain de temps considerable. Jai garde le meilleur pour la fin. Son prix :  49 . Autant dire que cet investissement sera tres vite rentabilise. 
+   voir aussi le tutorial Spyder Cube et Lightroom 5 sur Shots Youtube. 
+  merci a  Datacolor  pour leur support (mention speciale a  Guillaume Manceron ). 
+   acheter SpyderCube chez Amazon a un prix sympa  
+ 
+ 
+ 
+ 
+        </text>
+</document>

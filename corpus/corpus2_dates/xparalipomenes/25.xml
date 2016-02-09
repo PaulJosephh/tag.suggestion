@@ -1,0 +1,104 @@
+<document>
+	<date>2014-05-29</date>
+        <title>Le droit, un obstacle pour le Datamining ?</title>
+        <author>Mich&#232;le Battisti</author>
+        <tags_set>
+                <tag>base de donn&#233;es</tag>
+                <tag>Donn&#233;es personnelles</tag>
+                <tag>Droit d'auteur</tag>
+                <tag>enseignement et recherche</tag>
+                <tag>exception au droit d'auteur</tag>
+                <tag>Mod&#232;le &#233;conomique</tag>
+        </tags_set>
+        <categories_set>
+                <category>Droit d'auteur</category>
+        </categories_set>
+        <text>
+                                                                                 Les opportunit&#233;s offertes par le Text et &#160;le Datamining (TDM) r&#233;alis&#233;s tous deux aujourd&#8217;hui &#224; grande &#233;chelle seraient-elles frein&#233;es par des consid&#233;rations juridiques en Europe&#160;?&#160; Ces usages doivent-ils relever d&#8217;une exception au droit d&#8217;auteur ou faire l&#8217;objet de n&#233;gociations contractuelles avec ceux qui disposent des droits sur les &#339;uvres et les donn&#233;es&#160;?  
+ Les journ&#233;es de l&#8217;Abes  ont &#233;t&#233; l&#8217;occasion de faire le point sur la question &#224; l&#8217;heure o&#249; la Commission europ&#233;enne a ouvert une  consultation pour r&#233;viser la directive europ&#233;enne sur le droit d&#8217;auteur  datant de 2001 et apr&#232;s l&#8217;&#233;chec des discussions entam&#233;es &#160;par un  groupe de travail sur le Dataming cr&#233;&#233; dans le cadre de l&#8217;initiative &#171;&#160;Licences for Europe&#160;&#187;  qui pr&#233;conisait le seul contrat comme solution &#224; ces questions. 
+ Dans une  br&#232;ve pr&#233;sentation  de la question (20 minutes), j&#8217;ai souhait&#233; rappeler que&#160;: 
+ 
+ le TDM &#233;tait un enjeu &#233;conomique, comme l&#8217;indique  un rapport europ&#233;en  r&#233;cent &#233;tablissant une comparaison entre l&#8217;Europe entre les &#201;tats-Unis, pays o&#249;, m&#234;me si d&#8217;autres facteurs expliquent un &#171;&#160;retard&#160;&#187; europ&#233;en, le  Fair Use  (usage loyal) donne des marges de man&#339;uvres plus larges que le droit d&#8217;auteur europ&#233;en&#160;; 
+ 
+ 
+ qu&#8217;il s&#8217;agit donc d&#8217;un enjeu politique, mettant en jeu  l&#8217;int&#233;r&#234;t g&#233;n&#233;ral , donc un enjeu juridique pour l&#8217;encadrer en organisant un &#233;quilibre entre les int&#233;r&#234;ts des ayants droit et ceux de la soci&#233;t&#233;. 
+ 
+ En mati&#232;re de droit d&#8217;auteur, on soulignera : 
+ 
+ qu&#8217;il &#233;tait important que tous les usages n&#233;cessaires aux op&#233;rations d&#8217;&#160;&#171;&#160;analyse des donn&#233;es&#160;&#187; (copie, extraction, communication) soient express&#233;ment mentionn&#233;s, sous peine d&#8217;ins&#233;curit&#233; juridique, d&#8217;o&#249; la n&#233;cessit&#233; d&#8217;&#234;tre pr&#233;cis dans la d&#233;finition donn&#233;e du TDM (le terme d&#8217;exploration seul n&#8217;&#233;tant pas suffisamment explicite)&#160;; 
+ 
+ 
+ que le terme &#171;&#160; donn&#233;es&#160;&#187;, au sens de la directive europ&#233;enne prot&#233;geant les bases de donn&#233;es, couvre aussi les &#339;uvres. 
+ 
+ Il convenait de rappeler &#224; grands traits ce qui permet &#224; des &#339;uvres mais aussi &#224;  des bases de donn&#233;es d&#8217;&#234;tre prot&#233;g&#233;es  par le droit d&#8217;auteur et quelles sont les conditions permettant &#224; un producteur de base de donn&#233;es de s&#8217;opposer &#224; une extraction (mining) et &#224; une r&#233;utilisation de la base qu&#8217;il a constitu&#233;e et mise &#224; jour. 
+ Exception ou contrat&#160;? Telle est la question  
+ Ne peut-on pas faire valoir des exceptions au droit d&#8217;auteur en mati&#232;re de TDM ? On se rend compte alors que &#160;&#171;&#160;la copie technique, provisoire et accessoire, n&#8217;ayant aucune signification &#233;conomique&#160;&#187;, peut tr&#232;s difficilement &#234;tre all&#233;gu&#233;e. Il en est de m&#234;me de l&#8217;exception accord&#233;e aux citations et m&#234;me de l&#8217;exception au b&#233;n&#233;fice de l&#8217;enseignement et de la recherche tel qu&#8217;elle a &#233;t&#233; con&#231;ue dans la directive europ&#233;enne sur le droit d&#8217;auteur et dans le droit prot&#233;geant les bases de donn&#233;es. Et la transposition en droit fran&#231;ais de cette exception donne encore moins de (voire aucune) marge de man&#339;uvre. 
+ Puisque les exceptions au droit ne couvrent pas les usages, pourquoi ne pas n&#233;gocier des contrats&#160;avec des producteurs de bases de donn&#233;es et d&#8217;&#339;uvres ? 
+ Contrat&#160;? Exception&#160;?   Chaque syst&#232;me a ses points faibles et ses points forts (list&#233;s dans ma pr&#233;sentation). Mais si on  analyse, avec Liber, le contrat tel qu&#8217;il avait &#233;t&#233; propos&#233; par Elsevier , on constate que l&#8217;on se heurte alors &#224; bien des difficult&#233;s (que j&#8217;ai r&#233;sum&#233;es dans un tableau). 
+ Il convient aussi de ne pas oublier la question des donn&#233;es personnelle et le  R&#232;glement europ&#233;en , proche d&#8217;&#234;tre adopt&#233; &#224; pr&#233;sent, dont l&#8217;article 83 risque de cr&#233;er des obstacles aux usages &#224; des fins d&#8217;information, historiques, statistiques et scientifiques. Ne serait-il pas opportun effectivement de se focaliser uniquement sur la communication des r&#233;sultats et non sur la collecte&#160;? 
+ Des rapports r&#233;cents sur la question 
+ Deux rapports europ&#233;ens remis &#224; la Commission europ&#233;enne en mars 2014, l&#8217;un &#224; la Direction Recherche &amp; Innovation, l&#8217;autre &#224; la Direction March&#233; int&#233;rieur, pr&#233;conisent tous les deux de cr&#233;er une exception au droit d&#8217;auteur. Obligatoire dans les deux rapports, elle s&#8217;imposera &#224; tous les &#201;tats de l&#8217;Union europ&#233;enne. Voil&#224; qui mettra fin &#224; des distorsions entre pays complexes &#224; g&#233;rer. 
+ 
+ Le rapport&#160; du groupe de travail chapeaut&#233; par Ian Hargreaves  o&#249; le volet &#233;conomique occupe la m&#234;me place que le volet juridique, envisage (pragmatique&#160;?) 3 &#233;tapes. Il s&#8217;agit tout d&#8217;abord faciliter la contractualisation, puis de cr&#233;er une exception au droit d&#8217;auteur. Ian Hargreaves &#233;tant britannique, ceci explique peut-&#234;tre que cette exception soit m&#226;tin&#233;e de  fair dealing .&#160; Et pour que ce l&#8217;usage soit appr&#233;hend&#233; de mani&#232;re vraiment &#171;&#160;&#233;quitable&#160;&#187;, il conviendrait aussi de changer &#224; terme (3 e  &#233;tape) la norme, soit&#160; de  revisiter, &#224; l&#8217;instar du groupe de Munich, ce &#171;&#160;fameux&#160;&#187; test des trois &#233;tapes , impos&#233; par l&#8217;OMPI pour qu&#8217;une exception soit admise. Dissocier ainsi la protection des contenus en tant que tels (contr&#244;l&#233;s par les ayants droit) des exploitations fond&#233;es sur leur valeur informative (utilis&#233;s plus librement), voil&#224; aussi une piste int&#233;ressante  [1] . 
+ 
+ 
+ Le&#160; rapport du groupe de travail dirig&#233; par Jean-Paul Triaille , belge, soit issu d&#8217;un pays o&#249; les exceptions au droit d&#8217;auteur, tout comme la France, sont interpr&#233;t&#233;es de mani&#232;re stricte. 
+ 
+ L&#8217;exception pr&#233;conis&#233;e dans les deux cas pour favoriser le TDM sont proches mais s&#8217;opposent sur un point, selon moi, essentiel&#160;: l&#8217;exception ne doit-elle s&#8217;appliquer qu&#8217;&#224; des usages non directement ou indirectement commerciaux&#160;? 
+ 
+ Oui, dans le rapport de Jean-Paul Triaille, m&#234;me s&#8217;il reconnait des difficult&#233;s &#224; appr&#233;hender l&#8217;usage non commercial dans certains cas (partenariats, subventions, &#8230;). Il&#160; incomberait aux juges de trancher lorsque les zones sont grises. 
+ 
+ 
+ Non, dans le rapport de Ian Hargreaves, pr&#233;cis&#233;ment en raison de ces difficult&#233;s. On ne serait pas loin de l&#8217;usage transformatif autoris&#233;, si certains crit&#232;res sont respect&#233;s, par le  Fair Use  am&#233;ricain.&#160; 
+ 
+ La Commission europ&#233;enne va proposer prochainement une r&#233;vision de la directive europ&#233;enne sur le droit d&#8217;auteur, voire une modification de la directive sur la protection des bases de donn&#233;es, afin de&#160; les adapter &#224; un nouvel environnement. Elles seront discut&#233;es au Parlement europ&#233;en et au Conseil europ&#233;en des ministres. 
+ A suivre attentivement, donc &#8230; 
+ 
+ Quelques pr&#233;cisions 
+ 
+ En droit d&#8217;auteur, tout nouveau mode d&#8217;exploitation repr&#233;sente un droit &#224; n&#233;gocier sauf &#8230; si l&#8217;usage repr&#233;sente une exception au droit d&#8217;auteur (dont la liste actuelle en France figure &#224;  l&#8217;article L 122-5 du CPI ). 
+ 
+ 
+ Int&#233;r&#234;t g&#233;n&#233;ral&#160;: ne pas faire obstacle &#224; des usages qui ne profitent ni au producteur ni au consommateur. Il convient donc de veiller &#224; ce qu&#8217;il n&#8217;y ait pas de pr&#233;judice commercial direct ou indirect&#160; aux ayants droits (si les r&#233;sultats se substituent &#224; l&#8217;&#339;uvre, par exemple, soit, si la connaissance extraite diffus&#233;e permet d&#8217;&#233;viter de s&#8217;abonner aux revues). 
+ 
+ 
+ Libre, oui, mais libre pour qui&#160;? Ceux qui ont les moyens financiers de les exploiter rapidement ? Des gardes fous &#224; envisager en limitant l&#8217;exception &#224; des usages non directement ou indirectement commerciaux, comme le pr&#233;conise la d&#233;claration  Couperin-ADBU  faite &#224; la  mission portant sur l&#8217;exploration de donn&#233;es lanc&#233;e par le Conseil sup&#233;rieur de la propri&#233;t&#233; litt&#233;raire et artistique (CSPLA) en juillet 2013  et dont nous attendons les conclusions ? 
+ 
+ Ill. Hamlet avec le cr&#226;ne de Yorick,&#160; Henry Courtney Selous (1803-1890).  Wikip&#233;dia 
+ R&#233;f&#233;rences des documents utilis&#233;s pour cette pr&#233;sentation 
+ Rapports  
+ 
+ Study on the legal framework of text and data mining (TDM),  Jean-Paul Triaille, J&#233;r&#244;me de Mee&#252;s d&#8217;Argenteuil et Am&#233;lie de Francquen,  Commission europ&#233;enne (DG  Internal Market  and services ,&#160; 2014. 
+ &#160;Standardisation in the area of innovation and technological development, notably in the field of Text and Data Mining.  Report from the Expert Group chaired by Ian Hargreaves,  Commission europ&#233;enne (DG  Research  and Innovation),  2014. 
+ 
+ Communiqu&#233;s 
+ 
+ &#160;Liber . Text and Data Mining&#160;: its importance and the need for change in Europe. 
+ Savoirscom1 . Extraction automatis&#233;e des donn&#233;es et des textes. Savoirscom1 s&#8217;engage pour une exception. 
+ Couperin-ADBU.  CSPLA. Mission relative au data mining (exploration de donn&#233;es)&#160;: l&#8217;analyse de Couperin et de l&#8217;ADBU. 
+ Developments in Publishers&#8217; Text and Data Mining (TDM) Policy.  Sparc ,  3 f&#233;vrier 2014 
+ LIBER response to Elsevier&#8217;s text and data mining policy, 28 mars 2014 .  Liber   
+ 
+ Articles  
+ 
+ A scientist&#8217;s take on the new Elsevier TDM Policy,  Petermr&#8217;s  blog , January 31st 2014 
+ &#160;&#160;Quel statut l&#233;gal pour le Data-mining&#160;? Pierre-Carl Langlais,  Sciences communes , 11 janvier 2014 
+ &#160;&#160;Copyright Reform for Growth and Jobs, Ian Hargreaves and Bernt Hugenholtz,  The  Lisbon  Council,  think  tank for the 21st  century , 30 May 2013 
+ 
+ Sur Paralipom&#232;nes  
+ 
+ Quels droits pour faire du text et du damining,  Paralipom&#232;nes , 15 avril 2013 
+ Le datamining, prochaine exception au droit d&#8217;auteur&#160;?  Paralipom&#232;nes , 28 novembre 2011 
+ Une exploration juridique du datamining,,  Paralipom&#232;nes ,  28 juin 2011 
+ 
+ 
+ 
+ 
+ [1]  D&#233;j&#224; pr&#233;sent&#233; dans son interview par C&#233;dric Manara. Voir&#160;: &#160; Le droit de l&#8217;information : paradoxes et ouvertures,  C&#233;dric Manara,  Documentaliste-Sciences de l&#8217;information , n&#176;3, 2012 
+ &#160; 
+ 
+                                         
+                                                                                                        
+                                 
+        </text>
+</document>

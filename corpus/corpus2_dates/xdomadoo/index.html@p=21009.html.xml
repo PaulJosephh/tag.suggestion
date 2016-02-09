@@ -1,0 +1,14 @@
+<document>
+	<date>2010-11-17</date>
+        <title>Elements de base pour utiliser HSTouch</title>
+        <author> Loc </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels Homeseer</category>
+        </categories_set>
+        <text>
+                                                          Voici quelques informations et principes de base pour bien demarrer avec  HomeSeer Touch  Ou se trouvent les fichiers et elements graphiques des skins HSTouch? Dans Mes documents il y a  2 dossiers HSTouch   My HSTouch Project  Quels sont les formats de fichiers a utiliser ? - Pour les elements graphiques:  JPG, PNG, GIF   Les projets HSTouch sont crees dans des fichiers au format  XML  Deployer un nouveau skin sur un client HSTouch ? Apres avoir cree une interface dans HSTouch Designer, demarrez le client sur le support de votre choix (PDA, Tablet, iPad, iPhone, Pc, Mac, .). Celui-ci apparaitra automatiquement dans HSTouch Designer   Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

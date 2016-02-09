@@ -1,0 +1,18 @@
+<document>
+	<date>2014-02-18</date>
+        <title>eedomus : nouvelle mise  jour et application Android</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>android</tag>
+                <tag>eedomus</tag>
+                <tag>firmware</tag>
+                <tag>mise a jour</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Nos compatriotes de  Connected Object eedomus Cette nouvelle application Android (Version 1.1.8) apporte les nouveautes suivantes : Introduction des favoris pour une navigation plus rapide Filtre par date/heure dans lhistorique des cameras ou des capteurs Historique des notifications (avec filtre par theme et date) Graphes historiques sur 1 an Amelioration du mode multibox (mode LAN, diagnostic) La mise a jour de la box  eedomus Z-Wave Chacon Support du Gaz reader ( NQ-9121 NorthQ Support du Recessed door sensor d Aeon Labs DSB54 Support du  Fibaro FGSS-001 Support du Thermostat ( SCS317 Secure Support du Wall Radiator Thermostat Valve ( STELLAZ Support de lInterrupteur double ( 54700 Support du Module encastrable ON/OFF 1000W ( 54755 Au rayon des nouveautes, la programmation chauffage et lagenda se voient equipes de nouvelles possibilites : Programmation chauffage Agenda eedomus phase Les autres nouveautes de cette mise a jour :  Tous les affichages peuvent desormais etre reorganises manuellement, un mode de reorganisation automatique par usage est egalement disponible. Z-Wave Plusieurs ameliorations ont egalement apportes :  Le nom des macros est desormais visible dans lhistorique des valeurs dun peripherique Z-Wave Z-Wave Z-Wave Z-Wave Z-Wave Z-Wave Fibaro eedomus Z-Wave UPnP Enfin, quelques corrections sont egalement de la partie :  Un compte rattache peut etre detache depuis son propre compte egalement. Batterie BeNext Z-Wave Z-Wave Danfoss Cest donc  un peu plus dun mois apres la derniere mise a jour Connected Object  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

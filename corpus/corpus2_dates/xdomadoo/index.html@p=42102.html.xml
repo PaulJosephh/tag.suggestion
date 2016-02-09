@@ -1,0 +1,25 @@
+<document>
+	<date>2014-12-11</date>
+        <title>Utilisation des modules WIFIPOWER avec nos box de domotique</title>
+        <author> Kragg </author>
+        <tags_set>
+                <tag>eedomus</tag>
+                <tag>fibaro</tag>
+                <tag>guide</tag>
+                <tag>Home Center 2</tag>
+                <tag>tuto</tag>
+                <tag>wifipower</tag>
+                <tag>WP-PANEL-REL2</tag>
+                <tag>zibase</tag>
+                <tag>zipabox</tag>
+                <tag>zipato</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>News</category>
+        </categories_set>
+        <text>
+                                                         Suite a mon precedent article sur la  presentation du WP-PANEL-REL2 domotique Zipabox ZiBASE eedomus Vous allez voir que cela est tres simple a mettre en uvre. Pour mes tests je me suis focalise sur le relai 1 seulement. Ladresse IP de ma carte WP-PANEL-REL2 pour le test est 192.168.0.190. 1. eedomus On commence avec la  eedomus Il faut tout dabord creer un peripherique  HTTP Puis dansles variables [VAR1] et [VAR2] mettre R10 et R11, cela correspond au premier  relais R10 eteint R11Allume Dans longlet Valeurs, il faut mettre les 2 valeurs, OFF et ON, avec comme URLlIP du module WIFIPOWER et ensuite la variable /[VAR1] et /[VAR2]. On continu avec la  ZiBASE Il faut creer un scenario afin de rediriger une activation sur du  HTTP Ensuite dans Actions, il faut selectionner Fonction Speciales, rediriger une action sur  HTTP ZiBASE Comme vous le voyez, jai mis 1 dans le champs Famille  X10 Il faut du coup penser a creer un peripherique H1  3. Zipabox Sur la  Zipabox Il faut dans un premier temps creer un Virtual Switch. Lui affecter un petit nom. On se rend ensuitesur le menu de creation de regles. Dans le champs  HTTP Il faudra du coup faire de meme pour allumer le relai avec lURL ci-dessous. Voila pour la  Zipabox 4. Home Center 2 Je termine avec la Homecenter 2. Je ne change plus mes habitudes a savoir de creer un peripherique virtuel. Sur la configuration, il faut lui assigner directement ladresse IPde la carte ainsi que le port de communication ( 80 ). Ensuite dans longlet Avance, il faut specifier le nombre de bouton quon souhaite associer au peripherique.Pour ma part je continu toujours avec un seul relai. Cela me donne droit a renseigner 2 petites lignes de code pour le premier bouton ( tres simple ) pour eteindre le  relais Et je termine avec le 2eme bouton pour allumer le  relais Voila, vous savez maintenant comment integrer les produits WIFIPOWER sur votre box  domotique  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

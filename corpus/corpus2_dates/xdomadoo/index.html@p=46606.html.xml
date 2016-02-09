@@ -1,0 +1,25 @@
+<document>
+	<date>2015-04-16</date>
+        <title>Fibaro HC2: rveiller un priphrique IP  distance grce au Wake On Lan</title>
+        <author> Maximin </author>
+        <tags_set>
+                <tag>fibaro</tag>
+                <tag>guide</tag>
+                <tag>hc2</tag>
+                <tag>tuto</tag>
+                <tag>wake on lan</tag>
+                <tag>wol</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Fibaro HC2 / HC Lite</category>
+        </categories_set>
+        <text>
+                                                         Developpe par AMD et IBM en 1995, le Wake-on-LAN(WOL) est une technologie permettant a un ordinateur mis en veille detre demarre a distance par lenvoi dun magic-packet sur la carte reseau supportant le Wake-on-LAN. Via sa carte  Ethernet Ethernet Cet article vous explique comment reveiller votre ordinateur, serveur depuis votre box  domotique Fibaro Installation du script Developpe par Jean-Christophe Vermande alias Krikroff, moderateur du forum  Domotique-Fibaro Copier le contenu du fichier Wake On Lan directement dans un Virtual Device. A la ligne 24, remplacez les  00:00:00:00:00:00 Enregistrez votre Virtual Device et cest termine. Il est egalement possible de le redemarrer ou de leteindre a distance. Pour cela, je vous invite a lire le  sujet Domotique-Fibaro  Merci a Yohan, administrateur du forum  Domotique-Fibaro  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Comment exploiter simplement letat dun detecteur filaire dans son reseau Z-Wave ? 
+ Jeedom  Guide dutilisation du detecteur dinondation Fibaro FGFS-001 
+ Guide dutilisation du detecteur de fumee Z-Wave Fibaro FGSD-002 avec la box domotique Eedomus+ 
+ Guide dutilisation du detecteur dinondation FIBARO FGFS-101 avec la base domotique Homelive dOrange END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,92 @@
+<document>
+	<date>2014-04-23</date>
+        <title>Guide dinstallation du contrleur RGBW Fibaro FGRGB-101</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>controleur rgb</tag>
+                <tag>controleur rgbw</tag>
+                <tag>fgrgb-101</tag>
+                <tag>fibaro</tag>
+                <tag>guide</tag>
+                <tag>led</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         Le controleur  Fibaro Z-Wave Presentation Voici le controleur RGBW  Fibaro Celui comprend un bouton dinclusion et un bornier avec les entrees 12/24V DC, GND, IN1 a 4 et les sorties R, G, B, W. 1- Controler des rubans de LED couleur Pour controler un eclairage multicolore avec votre module FGRGB-101, vous devez avoir une alimentation de 12 ou 24 V  (mais surtout pas 230 V) Voici le schema de cablage : Voici la liste detaillee des composants a installer selon la longueur totale des rubans de LED RGB a installer : 
+ Alimentation LED 12V 
+ Ruban LED RGB 
+ Connecteur  Fem/Fem Fem/Fils/Fem 
+ 2.5m 
+ 1 (24 W) 
+ 1 
+ 0 
+ 5m 
+ 1 (36 W ) 
+ 2 
+ 1 
+ 7.5m 
+ 1 (75 W ) 
+ 3 
+ 2 
+ 10m 
+ 1 (75 W ) 
+ 4 
+ 3 
+ 12.5m 
+ 1 (150 W ) 
+ 5 
+ 4 
+ 15m 
+ 1 (150 W ) 
+ 6 
+ 5 
+ 17.5m 
+ 1 (150 W ) 
+ 7 
+ 6 
+ 20m 
+  
+ 8 
+ 7 Apres le cablage,mettez votre controleur domotique Une fois que votre micromoduleest detecte, celui-ci va etre configure automatiquement et apparait dans linterface de votre controleur :  Home Center 2 et Home Center Lite apres la configuration   Zipabox  Eedomus  Vera Vous controlez desormais votre eclairage multicolore a distance et realisez des actions ou scenarios en utilisant ce micromodule : vous activez manuellement une ambiance (romantique, relaxation etc) ou une ambiance sactive automatiquement en fonction dun evenement (detection dincendie, presence etc). Vous pouvez egalement ajouter deux boutons poussoirs doubles sur les4 entrees (IN1 a IN4) pour controler votre eclairage. 2- Controler des rubans de LED blanches Pour controler un eclairage de couleur blanche avec votre module FGRGB-101, vous devez avoir une alimentation de 12 ou 24 V et un ou plusieurs rubans de LED blanches. Vous pouvez connecter jusqua 20 metres de rubans de LED blanches en serie a laide dun connecteur femelle/femelle ou connecteur femelle/fils/femelle). Vous pouvez gerer jusqua 4 canaux independants de rubans LED blanches (White, Blue, Green et Red). Voici un exemple de connexion dun ruban de LED blanches sur lentree White du controleur FGRGB-101 (vous pouvez egalement connecter trois autres rubans de LED blanches sur les entrees Blue, Green et Red). 
+ Alimentation LED 12V 
+ Ruban LED W 
+ Connecteur  Fem/Fem Fem/Fils/Fem 
+ 2.5m 
+ 1 (24 W) 
+ 1 
+ 0 
+ 5m 
+ 1 (24 W) 
+ 2 
+ 1 
+ 7.5m 
+ 1 (36 W ) 
+ 3 
+ 2 
+ 10m 
+ 1 (75 W ) 
+ 4 
+ 3 
+ 12.5m 
+ 1 (75 W ) 
+ 5 
+ 4 
+ 15m 
+ 1 (75 W ) 
+ 6 
+ 5 
+ 17.5m 
+ 1 (150 W ) 
+ 7 
+ 6 
+ 20m 
+ 1 (150 W ) 
+ 8 
+ 7 Il est egalement possible dobtenir cette lumiere blanche avec un ruban de LED couleur RGB (en allumant les 3 couleurs pour obtenir du blanc) mais sera beaucoup moins agreable quun ruban de LED blanches. Une autre option est davoir un ruban de LED RGBW permettant ainsi dobtenir des couleurs pastelles. Apres le cablage,mettez votre controleur domotique Une fois que votre micromoduleest detecte, celui-ci va etre configure automatiquement et apparait dans linterface de votre controleur :  Home Center 2 et Home Center Lite apres la configuration   Zipabox  Eedomus  Vera Vous controlez desormais votre eclairage de couleur blanche a distance et realisez des actions ou scenarios en utilisant ce micromodule : vous activez manuellement votre eclairage ou celui-ci sactive automatiquement en fonction dun evenement (detection dune presence dans votre maison, jardin etc). Vous pouvez egalement ajouter deux boutons poussoirs sur les4 entrees (IN1 a IN4) pour controler votre eclairage. 3- Controler des lampes halogenes ou LED Vous pouvez utiliser jusqua 4 canaux independants pour commander des lampes halogenes ou LED 12V/24V mais la puissance cumulee ne doit pas depasser 144W en 12V ou 288W en 24V. Grace aux 4 borniers IN, vous pouvez egalement utiliser des interrupteurs permettant de controler votre eclairage connecte a votre micromodule. 4- Recuperation des mesures de capteurs analogiques Grace aux 4 borniers IN, vous pouvez connecter des capteurs analogiques et ainsi pouvoir obtenir linformation mesuree par ces capteurs : temperature, humidite, lumiere, vitesse de vent etc. Conclusion Riche en fonctionnalites, le controleur RGBW FGRGB-101 vous apportera des couleurs dans votre vie et vous permettra dimaginer tout type dutilisation : illuminer une piece, creer une ambiance, etre alerte dune anomalie ou encore etre informe des mesures de capteurs. Un confort garanti !  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

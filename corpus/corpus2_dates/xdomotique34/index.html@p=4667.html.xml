@@ -1,0 +1,133 @@
+<document>
+	<date>2013-06-24</date>
+        <title>Test module multisensor 4-1 Z-wave AEOTEC</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>eedomus</tag>
+                <tag>fibaro</tag>
+                <tag>Home Center 2</tag>
+                <tag>z-wave</tag>
+                <tag>zibase</tag>
+                <tag>Zodianet</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Alarme</category>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+  
+ module Z-wave multisensor 4 en 1 de Aeon Labs 
+ 
+ DeltaDomotique  ma prete ce module afin que je puisse le tester. Ce module est un  multisensor . Quest ce qui se cache derriere ce terme mutisensor ? 
+ cest un module qui : 
+  mesure la luminosite, 
+  mesure lhumidite ambiante, 
+  mesure la temperature 
+  detecte les mouvements. 
+ Il peut se positionner aussi bien sur un mur quau plafond, et il peut aussi se positionner a lexterieur grace a sa norme IP 43. Il est alimente par pile, mais peut aussi etre alimente par un micro port usb en 5VDC. 
+ 
+ Presentation 
+ Ce detecteur est capable dune vision a 360 et il est livre complet 
+  4 piles AAA 
+  une rotule permettant de fixer le detecteur a la paroi 
+  un cable mini usb permettant de le mettre a jour et aussi de lalimenter. 
+  le detecteur 
+  une notice 
+  
+ CARACTERISTIQUES TECHNIQUES : 
+ 
+ Type de module : Emetteur Z-Wave 
+ Alimentation : 4 piles AAA ou adaptateur 5VDC 
+ Duree de vie des piles : 1 an 
+ Frequence: 868.42 MHz 
+ Distance de transmission : 30m en interieur 
+ Capteur de temperature :Gamme de mesure : -20C a 50C 
+ Precision : 1C 
+ Capteur dhumidite :Gamme de mesure : 20% a 90% 
+ Precision : 5% 
+ Capteur de luminosite : 0  1000 LUX 
+ Dimensions : 75 x 60 mm (d x h) 
+ Affichage : LED 
+ Protection IP : IP43 
+ 
+  
+ Mettons en route le module : 
+ 
+  
+ Il y va 4 piles AAA. on apercoit un bouton dinclusion noir, une molette qui permettra de regler la sensibilite. Juste en dessous de cette molette de reglage dans le compartiment pile, il y a un mini port usb permettant de mettre a jour le firmware et aussi de pouvoir lalimenter (la duree de vie des piles est estimee a 1 an). 
+ Vous pourrez bien sur le fixer aussi bien a un mur quau plafond et aussi a lexterieur comme je vous lai dit plus haut. Il faudra quand meme le mettre un peu a labris et le positionner correctement. 
+ 
+ Voici les preconisations du constructeur en fonction de linstallation au plafond ou au mur 
+ Plafond 
+ 
+ 
+ Mur 
+ 
+ 
+ Integration dans vos box 
+ Home Center 2 de Fibaro 
+ Je nai eu aucun probleme pour faire reconnaitre a la box ce module, les 4 elements sont immediatement reconnus, un seul appui sur le petit bouton noir que nous avons vu plus haut et le module est affiche. 
+ 
+ eedomus 
+ Aucun soucis, le module est parfaitement reconnu 
+ 
+ 
+ Zibase 
+ Pour la zibase, cest un peu plus complique, mais ca marche tout aussi bien. 
+ Il y a 3 etapes a respecter 
+  1 : il faut inclure le module en tant que detecteur 
+  2 : creer le scenario permettant au module denvoyer les infos aux futures sondes 
+  3 : creer les sondes afin dobtenir toutes les informations (lux, % humidite, temperature) 
+ commencons 
+ 1) inclure le module 
+ 
+ maintenant il faut creer le scenario permettant de lire les valeurs de futures sondes virtuelles (humidite, temperature, luminosite). 
+ 2) creation du scenario 
+ 
+ 
+ maintenant il faut vous rendre sur le suivi dactivite pour reperer les ID des sondes temperature et humidite OSXXXXXX 
+ 
+ sonde UV OSXXXXXXX 
+ 
+ Creation des sondes virtuelles (THGR228N pour la T et humidite) et (UVN800 pour la luminosite) 
+ 
+ 
+ Cest tout bon, vous navez plus qua verifier et toutes les infos sont bien la ; il ne reste plus qua mettre en place vos scenaris pour votre alarme, vos volets roulants, votre clim. 
+ 
+ pour la Zipabox, 
+ je vous propose daller sur le site de Vincent Maison-de-Geek qui vous explique comment linclure et le parametrer. 
+ En conclusion, 
+ jai ete agreablement surpris par ce module, la reconnaissance est parfaite par les box testees ci-dessus. La precision des donnees transmises par le module est juste. La detection est bonne aussi, chez moi je prefere le positionner au mur plutot quau plafond, car les mesures ne sont plus les memes (chaleur montante). De plus la detection sur le mur est parfaite (jusqua 5m). Je lai teste en exterieur et la les resultats sont un peu aleatoires. Beaucoup de declenchements intempestifs, meme en diminuant la sensibilite ; donc sur ce point je ne lui associerai pas une sirene (mes voisins seraient fou de rage). Ca reste pour moi un super produit, QUATRE EN UN ; il fonctionne sur pile mais rien ne vous empeche de le faire fonctionner avec un chargeur usb. Ca reste un tres bon investissement vu  le prix 64.90  actuellement chez DeltaDomotique . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

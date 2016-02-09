@@ -1,0 +1,31 @@
+<document>
+	<date>2015-03-02</date>
+        <title>Capteur SHT-X3 (humidit, temprature et luminosit)</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>IPX800</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Modules</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 Presentation 
+ 
+Le SHT-X3 est un module comportant 3 capteurs: humidite , temperature et luminosite. Les mesures sont rapportees sous la forme dune tension comprise entre 0 et 3,3V. Il est destine a etre cable a 3 entrees analogiques dune IPX800, mais est compatible Arduino ou tout systeme disposant dentrees analogiques. Il doit etre alimente par une tension comprise entre 3,3V a 5V comme celle que fournit lIPX800.
+ 
+En combinant le contenu de ce billet avec les billets  Communication entre Vera Lite et IPX800 Vera UI7 : creer ses devices virtuels Capteur Dhumidite 
+ Mesure de 0% a 90% RH Precision 3%, Resolution 1% Capteur Honeywell de precision HIH5031 Compense en temperature (sur IPX800 v3) Sortie lineaire en tension (0V a 3,3V) Capteur de temperature TC5050 
+ Mesure de -50 a +50C Precision 2, resolution 0.1 Sortie lineaire en tension (0V a 3,3V) Capteur de luminosite 
+ Mesure de 0% a 100% dans le spectre de la lumiere visible Sortie lineaire en tension (0V a 3,3V) Fonctions de transfert 
+ 
+Sur lIPX800, il est possible de parametrer les entrees analogiques pour afficher la temperature ( SHT-X3:Temp-TC5050 SHT-X3:Light-LS100 SHT-X3:RH-SH100 interrogation des entrees analogiques en utilisant lAPI Capteur de temperature 
+Pour la sonde de temperature TC5050, la fonction de transfert est la suivante:  (AN  0.0323 - 16.3) / 0.326 AN Capteur de luminosite 
+Je prefere la luminosite en lux plutot quun pourcentage de la plage de mesure possible du capteur. Experimentalement, jai abouti a la fonction de transfert suivante:  AN  4,8828 Capteur Dhumidite 
+Voici la fonction de transfert que jutilise pour le capteur dhumidite:  AN  157 / 1022 - 24 Informations et sources 
+ 
+ Communication entre Vera Lite et IPX800 Vera UI7 : creer ses devices virtuels 
+ Sommaire Domotique 
+        </text>
+</document>

@@ -1,0 +1,213 @@
+<document>
+	<date>2009-09-15</date>
+        <title>Optimize your Doctrine Workflow with Specialized Queries</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>doctrine</tag>
+                <tag>php</tag>
+                <tag>query</tag>
+                <tag>sql</tag>
+                <tag>symfony</tag>
+                <tag>tips</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Im currently working on a big  Symfony  project, with a lot of  Doctrine  models and complex queries to write. I found a way to organize all of them in an object-oriented and cleaner way than using the traditionnal  addNamedQuery()  and  createNamedQuery()  methods workflow [ 1 ] . 
+
+
+ The idea is to create dedicated  query  classes for a given model; this way, you can provide useful methods to build the business-related parts of your query. 
+
+
+ As usual, the theory is more understandable with a concrete example. Lets consider this simple Doctrine model [ 2 ] : 
+
+
+ Disclaimer:  The provided examples have been written in a hurry, so mistakes might have been not detected by my attentive proof-reading  
+
+  yaml
+BlogAuthor:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true  
+    name:
+      type: string(255)
+  relations:
+    Post:
+      type: one
+      class: BlogPost
+      local: id
+      foreign: author_id
+
+BlogPost:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    author_id:
+      type: integer(4)
+      notnull: true
+    title:
+      type: string(255)
+    content:
+      type: string(65535)
+  relations:
+    Author:
+      type: one
+      class: BlogAuthor
+      local: author_id
+      foreign: id
+    Comments:
+      type: many
+      class: BlogComment
+      local: id
+      foreign: post_id
+
+BlogComment:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    post_id:
+      type: integer(4)
+      notnull: true
+    author:
+      type: string(255)
+    content:
+      type: string(5000)
+  relations:
+    Post:
+      type: one
+      class: BlogPost
+      local: post_id
+      foreign: id
+ 
+
+
+ Now lets imagine a Query class dedicated to query the BlogPost table: 
+
+  php
+?php 
+class BlogPostQuery extends Doctrine_Query
+{
+  static public function create($conn = null, $class = null)
+  {
+    return parent::create($conn, 'BlogPostQuery')
+      -from('BlogPost p');
+  }
+  
+  public function addPosts($fields = 'p.*')
+  {
+    return $this-addSelect('p.*');
+  }
+  
+  public function addComments($fields = 'c.*')
+  {
+    return $this
+      -addSelect($fields)
+      -leftJoin('p.Comments c')
+      -addGroupBy('c.id');
+  }
+  
+  public function addAuthors($fields = 'a.*')
+  {
+    return $this
+      -addSelect($fields)
+      -leftJoin('p.Author a')
+      -addGroupBy('a.id');
+  }
+  
+  public function addCommentsCount($alias = 'nb_comments')
+  {
+    return $this
+      -addSelect(sprintf('COUNT(c.id) as %s', $alias))
+      -addGroupBy('c.id');
+  }
+  
+  public function filterByAuthorName($authorName)
+  {
+    return $this
+      -andWhere('a.name = ?', $authorName);
+  }
+}
+ 
+
+
+ So how can we use this query object? Here are some sample uses: 
+
+  php
+// Retrieve all posts
+$posts = BlogPostQuery::create()
+  -addPosts()
+  -fetchArray();
+
+// Retrieve all posts with comments
+$posts = BlogPostQuery::create()
+  -addPosts()
+  -addComments()
+  -fetchArray();
+
+// Retrieve all posts with comments and their count per post
+$posts = BlogPostQuery::create()
+  -addPosts()
+  -addComments()
+  -addCommentsCount('yataa')
+  -fetchArray();
+
+// Retrieve all post with chuck as its author and related comments
+$posts = BlogPostQuery::create()
+  -addAuthors()
+  -addPosts()
+  -addComments()
+  -filterByAuthorName('chuck')
+  -fetchArray();
+
+// and so on...
+ 
+
+
+ Of course, this example of use is not really relevant as our model is really simple, but when youre dealing with dozens of internationalized objects, it can help cleaning your model classes, controllers and improving the organization of your work. 
+
+
+ Update and important precisions 
+
+
+ Some people are having negative feedback regarding this technique, claiming it will encourage people using the custom query object directly in the controllers; thats absolutely not the case as the queries are to be used only within the model layer, for example in the  BlogPostTable  class: 
+
+  php
+?php
+class BlogPostTable extends Doctrine_Table
+{
+  static public function getPostsWithCommentsByAuthor($authorName)
+  {
+    return BlogPostQuery::create()
+      -addPosts()
+      -addComments()
+      -filterByAuthorName($authorName)
+      -fetchArray()
+    ;
+  }
+}
+ 
+
+
+ And in a controller: 
+
+  php
+class blogActions extends sfActions
+{
+  public function executeListByAuthor(sfWebRequest $request)
+  {
+    $this-posts = BlogPostTable::getPostsWithCommentsByAuthor($request-getParameter('author'));
+  }
+}
+ 
+ Notes 
+ [ 1 ]  or raw queries written directly within controllers, but you may know that  this is really bad   
+ [ 2 ] Im using Doctrine 1.2 beta (bundled with upcoming symfony 1.3) in the provided example. 
+        </text>
+</document>

@@ -1,0 +1,26 @@
+<document>
+	<date>2006-05-01</date>
+        <title>Quelques extensions Firefox pratiques</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>browsers</tag>
+                <tag>css</tag>
+                <tag>dev</tag>
+                <tag>extensions</tag>
+                <tag>firefox</tag>
+                <tag>google</tag>
+                <tag>javascript</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>
+ JSView  ( XPI ) Permet de voir la source des fichiers javascript appelles par une page [ via ] 
+ VideoDownloader  ( XPI ) Permet de telecharger les fichiers videos depuis une soixantaine de services existant (dont  Google Video ,  Youtube , etc.) 
+ Google Bookmarks Button  ( XPI ) Pour celles et ceux qui utilisent  Google Bookmarks , cette extension est incontournable. 
+ CSS Viewer  ( XPI ) Permet de visualiser en rollover toutes les proprietes  CSS  des elements d'une page  HTML , notament typographiques. 
+ Pear Crescent Page Saver  ( XPI ) Permet de sauvegarder directement une page  HTML  en fichier image au format  PNG  (capture d'ecran). 
+ 
+        </text>
+</document>

@@ -1,0 +1,38 @@
+<document>
+	<date>2005-03-22</date>
+        <title>Golocalisation</title>
+        <author>NiKo</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Suite a l'espionnite sans vergogne du code source  XHTML  du (fort joli) site de  Maurice Svay , je suis tombe sur une idee que je trouve fort sympathique (mais neamoins copieusement geek): la geolocalisation d'un site internet, notamment d'un blog. 
+
+
+ Par la presence de tags specifiques dans la balise  head/head  d'une page, il est possible de renseigner la longitude, la lattitude, le nom de la ville et la region associees a l'auteur, ou a son implantation  
+
+
+ Ainsi, habitant a Arcueil dans le Val de Marne, j'ai recupere les  coordonnees  de mon domicile via  MultiMap , et j'ai renseigne les tags ainsi: 
+
+
+ meta name="ICBM" content="48.8015, 2.3263" /
+meta name="geo.position" content="48.8015;2.3263" /
+meta name="geo.region" content="FR-94" /
+meta name="geo.placename" content="Arcueil" / 
+
+
+ Puis, j'ai soumis l'url de mon blog a  GeoURL , qui en echange m'a donne  un lien  a placer sur ce site pour trouver d'un clic tous les sites appartenant a la meme zone geographique  
+
+
+ Edit du 27 mars 
+
+
+ Une  extension pour Firefox  permettant l'acces direct a la geolocalisation d'un site en fonction de la presence des tags mentionnes ci-dessus est disponible; une petite icone en forme de globe terrestre apparait alors dans la barre des taches et renvoie vers GeoURL quand on clique dessus  
+
+ 
+ Lien direct  vers le XPI de la version 0.2 
+ Le  site de l'auteur 
+ 
+        </text>
+</document>

@@ -1,0 +1,27 @@
+<document>
+	<date>2013-08-23</date>
+        <title>Threema, mieux que myENIGMA</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Application</tag>
+                <tag>Protection des donn&#233;es</tag>
+                <tag>Sph&#232;re priv&#233;e</tag>
+                <tag>Suisse</tag>
+        </tags_set>
+        <categories_set>
+                <category>Technologies</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Il y a quelques semaines, je vous parlais de l'application suisse  myENIGMA , alternative s&#233;curis&#233;e int&#233;ressante &#224; WhatsApp et consorts am&#233;ricains. Dans les commentaires, un ami m'a demand&#233; mon avis sur un concurrent, qui est suisse &#233;galement&#160;:  Threema . Le voici, en bref. 
+ Avec Threema,  tout reste en Suisse  (sauf les rapports de bugs qui sont externalis&#233;s, mais l'utilisateur peut choisir de ne pas les envoyer quand l'application plante) et tout est chiffr&#233;. Les serveurs sont en Suisse, g&#233;r&#233;s par la soci&#233;t&#233; derri&#232;re Threema. L'identification aupr&#232;s des serveurs de Threema ne se fait pas par mot de passe, mais par &#233;change de cl&#233;s. 
+ L'utilisateur choisit s'il veut "synchroniser" son carnet d'adresses avec le service afin d'ajouter automatiquement de nouveaux contacts qui utiliseraient aussi Threema (cela peut se faire si on connait une adresse e-mail ou un num&#233;ro de t&#233;l&#233;phone). S'il ne synchronise pas son carnet d'adresses, l'utilisateur devra ajouter manuellement des contacts en scannant leur QR code ou en tapant leur identifiant. 
+ Pour le moment, Threema ne conserve aucune donn&#233;e sur ses serveurs. M&#234;me les messages non d&#233;livr&#233;s &#224; leur destinataire ne sont conserv&#233;s qu'au maximum 14 jours. Cependant, si la  r&#233;vision de la LSCPT  passe la rampe du Parlement f&#233;d&#233;ral, il y a fort &#224; parier que Threema devra &#234;tre en mesure de fournir des donn&#233;es secondaires (qui &#233;crit &#224; qui, quand, etc.) au service de surveillance de la Conf&#233;d&#233;ration. 
+ Bref, Threema est un peu mieux que myENIGMA sur quelques points. Pour ma part, c'est surtout l'interface de Threema qui m'a convaincu de changer. Son seul "d&#233;faut" par rapport &#224; myENIGMA est de co&#251;ter la petite somme de 2.- francs suisses. 
+ (Pour plus de d&#233;tails, techniques ou non, je vous recommande les billets de  Swisstengu  et de Neosting.) 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

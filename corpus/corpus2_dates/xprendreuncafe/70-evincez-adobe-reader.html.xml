@@ -1,0 +1,31 @@
+<document>
+	<date>2005-04-15</date>
+        <title>Evincez Adobe Reader</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>tips</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Alors bon, a l'heure ou je tepote ces lignes le paquet evince est 404 dans les depots Ubuntu, aussi la demarche d'installation est la suivante: 
+
+
+ $ wget http://www.artfiles.org/ubuntu.com/archive/pool/universe/e/evince/evince_0.1.9-0ubuntu1_i386.deb
+$ sudo dpkg -i evince_0.1.9-0ubuntu1_i386.deb 
+
+
+ Pour eventuellement virer kpdf proprement, lui et ses librairies QT dependantes: 
+
+
+ $ sudo apt-get remove kpdf
+$ sudo dpkg -P `deborphan` 
+
+
+ Cette derniere commande - tres utile - permet de supprimer les paquets orphelins, c'est a dire inutile, en gros. 
+
+
+ PS: Desole pour le jeu de mot pourri du titre, c'est plus fort que moi, j'essaye pourtant, mais non. 
+        </text>
+</document>

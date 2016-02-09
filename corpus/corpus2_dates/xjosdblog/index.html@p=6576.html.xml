@@ -1,0 +1,46 @@
+<document>
+	<date>2015-03-19</date>
+        <title>Greenwave NP310-F : La multiprise Z-Wave 6 prises</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Vera</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Modules</category>
+        </categories_set>
+        <text>
+                                                 Description 
+ 
+ Multiprise Z-Wave 6 ports Suivi des consommations Bouton on/off sur la multiprise Indicateur detat lumineux Protection contre les surintensites (10A fusible interne) Alimentation : 250V ~ AC, 50Hz Courant de charge maximum 10A Puissance maximale 2400W Consommation en veille 0,4 W Prise DIN49440 ; CEE 7/7 (Schuko) 
+La  Greenwave NP310-F Z-Wave Lorsque la multiprise est mise sous tension, ou apres une coupure de courant, les six prises se retrouvent sur letat on. 
+Les prises type F de cette multiprise sont compatibles avec les  prises francaises (type E) Molette laterale 
+ 
+Sur lune des extremites se trouve une petite molette. Elle permet de selectionner une couleur: cette prise fait partie dun autre eco-systeme de suivi denergie qui utilise ce code de couleur. Cette molette possede peu dinteret dans le cas dune utilisation avec une box Z-Wave classique. Attention toutefois, la position sur le symbole cadenas permet de verrouiller la prise. Le bouton on/off general comme les ordres Z-Wave envoyes depuis le controleur sont alors sans effet.
+ Clignotements du bouton Power 
+ 
+La PowerNode dispose dun indicateur detat lumineux qui affiche lun des motifs suivant : 
+ 
+ Aucune couleur (off) : 
+ Tout blanc (on) : 
+ Tout vert : 
+ Vert clignotant : Greenwave 
+ Doubles barres vertes rotatives : Greenwave 
+ Une barre verte rotative : Greenwave Inclusion / exclusion 
+ 
+Pour inclure la multiprise  Greenwave 
+Pour exclure la multiprise  Greenwave Reinitialisation complete de la multiprise  Greenwave 
+ Exclure la multiprise  Greenwave Debrancher la prise Appuyer et maintenir appuye le bouton general on/off Brancher la prise bouton general on/off toujours appuye Maintenir bouton le general on/off appuye jusqua observer toutes les barres vertes pendant 5 secondes Association avec la Vera Lite (UI7 firmware 1.7.541) 
+ 
+ Out of the box 
+Attention, la multiprise ne remonte pas dinformation delle meme. Si on fait commuter manuellement lensemble des prises en utilisant le bouton on /off, letat des devices associes sur la Vera ne changent pas. Il faut que ce soit la Vera qui fasse regulierement des poll:  Settings sur le device maitre Settings Poll this node at most once every Save changes procedure de polling de la Vera 
+ Remarque: Parametrage 
+ 
+
+ Informations et sources 
+ 
+ Manuel dutilisation en anglais Test de Greenwave: enfin une multiprise Z-wave ! Compatibility GreenWave Reality 6port PowerNode 
+ Sommaire Domotique 
+        </text>
+</document>

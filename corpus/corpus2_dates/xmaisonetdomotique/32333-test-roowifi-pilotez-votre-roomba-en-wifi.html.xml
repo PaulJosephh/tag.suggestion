@@ -1,0 +1,18 @@
+<document>
+	<date>2013-06-17</date>
+        <title>
+Test RooWifi: Pilotez votre Roomba en Wifi !</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Roomba</tag>
+                <tag>Roowifi</tag>
+                <tag>Une</tag>
+        </tags_set>
+        <categories_set>
+                <category>Peripheriques Wifi</category>
+                <category>Tests Robots</category>
+        </categories_set>
+        <text>Le robot aspirateur est aujourdhui lun des robots les plus a la mode: pratique, performant, avec un tarif qui a bien baisse, beaucoup de menages en sont equipes. A fortiori ceux qui aiment la domotique :D Pourtant, il a toujours ete difficile de faire communiquer son robot aspirateur avec son systeme domotique, lensemble ne sachant discuter. La meilleure solution que nous avions vue jusqua aujourdhui etait de  piloter un robot aspirateur Roomba avec un emetteur infrarouge, comme nous avions vu ici . Mais aujourdhui nous avons beaucoup mieux grace au  RooWifi , une petite carte qui permet dajouter le  Wifi  a son  Roomba  !  Sommaire I. Presentation II. Installation III. Utilisation IV. API 4.1 Recuperation des informations 4.2 Pilotage V. Conclusion Commentaires (17) Powered by SEO TOC 1.7.3  
+ I. Presentation  La carte  RooWifi  est vendue comme une carte de developpement, donc pas de beau packaging grand public, mais le principal y est :p  Dans cette petite boite nous trouvons donc la carte RooWifi et une petite note indiquant ou  telecharger le manuel et les ressources .   Cette carte est toute petite, puisquelle ne mesure que 57x32mm:   Sur le dessus on peut distinguer un bouton de reset (bleu) et la carte wifi. En dessous, on trouve le connecteur PS2 pour brancher la carte sur le Roomba. On trouve egalement une etiquette avec la cle MAC, pratique pour retrouver le Roomba sur son reseau informatique si on a perdu son adresse IP   Petit coup doeil sur les caracteristiques techniques: Alimentation : Via la batterie Roomba Consommation : 200mA Interfacage avec iRobot Roomba : Physique : MINI-DIN 7 PINS  PS/2 Logiciel : SCI iRobot Roomba Protocol en mode standalone ou defini par le logiciel utilisateur en Mode Gateway Interface Utilisateur : Physique : Wi-Fi IEEE 802.11b Logiciel : Web Server via HTTP  TCP Port (80) avec authentification TCP Socket Server  pour client-server applications Protocoles et normes supportes : XML : Lecture uniquement avec rafraichissement des donnees toutes les 500ms JSON : Lecture uniquement avec rafraichissement des donnees toutes les 500ms AJAX : Requete par appels GET et sortie au format texte Systemes dexploitation  Appareils compatibles : Android =2.0 iOs =3.1 Blackberry WebOs Windows Phone Linux MacOs Windows Interface Wi-Fi 802.11 Transmetteur RF repondant a la norme IEEE Std. 802.11 Compatible IEEE Std. 802.11 b/g/n Frequence : ISM Band 2.400-2.484 GHz Antenne externe en option avec un connecteur coaxial ultra-miniature Portee : Jusqua 400m Debit : 1 et 2 Mbps Encryption : AES128 Securite supportee : 802.1x, 802.1u Open pour auto-generation et connexions Wi-Fi externes WPA-PSK Personel pour connexions Wi-Fi externes WPA2-PSK Personel pour connexions Wi-Fi externes Certifications : FCC, IC, ETSI, ARIB  Comme on peut le voir, cest tres complet, et le developpeur de cette carte a bien pense aux besoins des utilisateurs que nous sommes (http, xml, etc) :D Passons sans plus attendre a son installation, car personnellement jai hate de voir le resultat !     1   2   3   4   5   6 Roomba   Roowifi   Une 
+        </text>
+</document>

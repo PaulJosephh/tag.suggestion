@@ -1,0 +1,18 @@
+<document>
+	<date>2007-02-20</date>
+        <title>Symfonique !</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>framework</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>La version  1.0 stable  du framework de developpement PHP  Symfony  est sortie hier. 
+
+
+ Cerise sur le gateau, l'integralite du  livre officiel  est egalement publiee sur le site. Croyez-moi, vous pouvez vous ruer dessus sans risque,  c'est une enorme tuerie  (et c'est un type qui entame son 5eme projet Symfony qui vous le dit !) 
+        </text>
+</document>

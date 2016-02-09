@@ -1,0 +1,392 @@
+<document>
+	<date>2009-12-02</date>
+        <title>Saving Search Filters in Symfony's Doctrine Admin Generator</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>admin-generator</tag>
+                <tag>doctrine</tag>
+                <tag>filters</tag>
+                <tag>search</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Yesterday I made some consulting in a company where people asked me if it was possible/hard to setup some kind of search filtering persistence in a  doctrine-admin-generated  module in  Symfony . I told them: 
+
+
+ Well, its a twenty minutes job. 
+
+
+ They logically answered me: 
+
+
+ Haha, prove it. 
+
+
+ Challenge and stress then started. 
+
+
+ The examples below are based on the simple model I took for my previous blog post about  embedding relations in Doctrine forms , which I will add fancy bookmarks tagging facilities to: 
+
+  yaml
+# in ./config/doctrine/schema.yml
+User:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      notnull: true
+  relations:
+    Bookmarks:
+      type: many
+      class: Bookmark
+      local: id
+      foreign: user_id
+      onDelete: CASCADE
+
+Bookmark:
+  actAs:
+    I18n:
+      fields: [name]
+      actAs:
+        Sluggable:
+          fields: [name]
+          uniqueBy: [name, lang]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      notnull: true
+    url:
+      type: string(255)
+      notnull: true
+    user_id:
+      type: integer(4)
+      notnull: true
+  relations:
+    User:
+      type: one
+      local: user_id
+      foreign: id
+    Tags:
+      class: Tag
+      refClass: BookmarkTag
+      local: bookmark_id
+      foreign: tag_id
+      foreignAlias: Bookmarks
+
+Tag:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      notnull: true
+
+BookmarkTag:
+  columns:
+    bookmark_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    tag_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+ 
+
+
+ No need to say you should rebuild your model, right? 
+
+
+ Updated fixtures file: 
+
+  yaml
+# in ./data/fixtures/fixtures.yml
+User:
+  niko:
+    name: niko
+
+Bookmark:
+  niko_bookmark1:
+    User: niko
+    name: Slashdot
+    url: http://slashdot.org/
+    Tags: [geek_tag, tech_tag, php_tag]
+  niko_bookmark2:
+    User: niko
+    name: Delicious
+    url: http://delicious.com/
+    Tags: [geek_tag, tech_tag]
+  niko_bookmark3:
+    User: niko
+    name: Digg
+    url: http://digg.com/
+    Tags: [geek_tag, php_tag]
+
+Tag:
+  geek_tag:
+    name: geek
+  php_tag:
+    name: php
+  tech_tag:
+    name: tech
+ 
+
+
+ Generate the  Bookmark  admin 
+
+
+ Lets generate a  backend  app and a  Bookmark  admin module: 
+
+ 
+$ ./symfony generate:app backend
+$ ./symfony doctrine:generate-admin backend Bookmark
+ 
+
+
+ Now lets enhance a bit our admin by modifying the  generator.yml  file: 
+
+  yaml
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Bookmark
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Bookmark
+    plural:                Bookmarks
+    route_prefix:          bookmark
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        display: [=name, url, User]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~
+ 
+
+
+ You should be able to browse the generated bookmarks admin interface: 
+
+
+ 
+
+
+ Storing filters in a dedicated Doctrine table, and managing them from the controller 
+
+
+ Well use Doctrine to store saved filters, so lets define a new Doctrine table definition in our  schema.yml  file to store stored filters: 
+
+  yaml
+SavedFilter:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+    type:
+      type: enum
+      values: [Bookmark, User]
+      notnull: true
+    filter:
+      type: string()
+ 
+
+
+ Of course, still no need to say that you have to rebuild your model, right? 
+
+
+ Okay, now were going to save the serialized filter values in the  filter  column, the  name  one will provide a convenient way to reference a filter set. The  type  column will reference the Doctrine table familly of the filtered object. Nothing difficult here. 
+
+
+ In the admin generator module, the filters are storedin the  tableName.filters  attribute of the user session (where  tableName  is the name of the admin module where the filter parameters are operated [ 1 ] ). 
+
+
+ So lets add a new  executeSaveFilter()  method in the  bookmarkActions  controller. And while were at it, lets also add  executeLoadFilter()  and  executeDeleteFilter()  methods as well: 
+
+  php
+?php
+# in apps/backend/modules/bookmark/actions/actions.class.php
+class bookmarkActions extends autoBookmarkActions
+{
+  public function executeDeleteFilter(sfWebRequest $request)
+  {
+    $this-forward404Unless($filter = Doctrine::getTable('SavedFilter')-findOneByTypeAndId('Bookmark', $request-getParameter('id')), sprintf('Bookmark filter #%d not found', $request-getParameter('id')));
+    
+    $filter-delete();
+    
+    $this-getUser()-setFlash('notice', sprintf('Bookmark saved filters "%s" deleted', $filter-getName()));
+    
+    $this-redirect('bookmark');
+  }
+
+  public function executeLoadFilter(sfWebRequest $request)
+  {
+    $this-forward404Unless($filter = Doctrine::getTable('SavedFilter')-findOneByTypeAndId('Bookmark', $request-getParameter('id')));
+    $this-setFilters(unserialize($filter-getFilter()));
+    
+    $this-getUser()-setFlash('notice', sprintf('Bookmark saved filters "%s" loaded', $filter-getName()));
+    
+    $this-redirect('bookmark');
+  }
+  
+  public function executeSaveFilter(sfWebRequest $request)
+  {
+    $name = trim($request-getGetParameter('name'));
+    $savedFilter = new SavedFilter();
+    $savedFilter-fromArray(array(
+      'name'   = $name ? $name : 'Untitled filter',
+      'type'   = 'Bookmark',
+      'filter' = serialize($this-getUser()-getAttribute('bookmark.filters', array(), 'admin_module')),
+    ));
+    $savedFilter-save();
+    
+    $this-getUser()-setFlash('notice', 'Bookmark filters saved');
+    
+    $this-redirect('bookmark');
+  }
+}
+ 
+
+
+ Of course, well need to add the corresponding routes to our  routing.yml  file: 
+
+  yaml
+# in apps/backend/config/routing.yml
+bookmark_filter_delete:
+  url: /bookmark/filter/:id/delete
+  param: { module: bookmark, action: deleteFilter }
+  requirements:
+    id: \d+
+
+bookmark_filter_load:
+  url: /bookmark/filter/:id/load
+  param: { module: bookmark, action: loadFilter }
+  requirements:
+    id: \d+
+
+bookmark_filter_save:
+  url: /bookmark/filter/save
+  param: { module: bookmark, action: saveFilter }
+ 
+
+
+ Wait, we dont have any link to save a filter from the admin interface! Lets add one next to the  Reset  link of the filters column by overriding the  _filters.php  generated partial template: 
+
+  php
+// in apps/backend/modules/bookmark/templates/_filters.php from line 11
+[...]
+tfoot
+  tr
+    td colspan="2"
+      ?php echo $form-renderHiddenFields() ?
+      a href="?php echo url_for('@bookmark_filter_save') ?" onclick="document.location = this.href+'?name='+prompt('Enter a name:');return false"
+        ?php echo __('Save') ?
+      /a
+      ?php echo link_to(__('Reset', array(), 'sf_admin'), 'bookmark_collection', array('action' = 'filter'), array('query_string' = '_reset', 'method' = 'post')) ?
+      input type="submit" value="?php echo __('Filter', array(), 'sf_admin') ?" /
+    /td
+  /tr
+/tfoot
+[...]
+ 
+
+
+ Notice that a javascript prompt will ask you for a name before saving a filter set: 
+
+
+ 
+
+
+ So we can now save a filter set in our database. Now, what about listing them below the filters form? 
+
+
+ Listing existing saved filters 
+
+
+ To me, the best suited place to retrieve saved filtered searches is the  bookmarkGeneratorConfiguration  class, which has been generated in the  lib/  subfolder of the  bookmark  admin module. Lets add a new  getSavedFilters()  method to it: 
+
+  php
+?php
+?php
+# in apps/backend/modules/bookmark/lib/bookmarkGeneratorConfiguration.class.php
+class bookmarkGeneratorConfiguration extends BaseBookmarkGeneratorConfiguration
+{
+  public function getSavedFilters()
+  {
+    return Doctrine::getTable('SavedFilter')
+      -createQuery()
+      -where('type = ?', 'Bookmark')
+      -execute()
+    ;
+  }
+}
+ 
+
+
+ So in the  _filters  partial template, which has already access to a generator configuration instance, were now able to iterate over retrieved saved filter objects to list them: 
+
+  php
+// in apps/backend/modules/bookmark/templates/_filters.php from line 11
+  [...]
+  tr
+    td colspan="2"
+      h3?php echo __('Saved filters') ?/h3
+      ?php if (count($savedFilters = $configuration-getSavedFilters())): ?
+      ul
+      ?php foreach ($savedFilters as $filter): ?
+        li
+          a href="?php echo url_for('@bookmark_filter_load?id='.$filter['id']) ?"
+            ?php echo $filter['name'] ?
+          /a
+          (a href="?php echo url_for('@bookmark_filter_delete?id='.$filter['id']) ?"/a)
+        /li
+      ?php endforeach; ?
+      /ul
+      ?php else: ?
+        pNo filters saved/p
+      ?php endif; ?
+    /td
+  /tr
+/tbody
+ 
+
+
+ So you can now save and list filters, load and run them against your objects list, and delete existing ones. If you thoroughly followed the steps of this tutorial, you should now see something like this below the filters form: 
+
+
+ 
+
+
+ Twenty minutes, job done. Even if very quick and dirty. 
+
+
+ Conclusion 
+
+
+ Yes, I can hear you Symfony nerds, this could be heavily refactored, enhanced and maybe abstracted to provided generic filtering storage accross every generated admin module, but in 20 minutes? Really?   Then, Id say 
+
+
+ Haha, prove it  
+ Notes 
+ [ 1 ] Im not definitely sure of this, but who really cares? 
+        </text>
+</document>

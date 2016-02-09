@@ -1,0 +1,14 @@
+<document>
+	<date>2012-10-29</date>
+        <title>Guide dinstallation dune camra Edimax avec la box eedomus</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                          La box  eedomus les cameras AXIS sur le reseau Edimax D-Link Swann TrendNet Nous avons ici teste lintegration dune camera  Edimax Commencer par alimenter votre camera puis brancher la sur votre reseau  Ethernet Wifi Une fois votre camera correctement installee, il est necessaire de connaitre son adresse IP. Pour cela, utilisez le logiciel fournie avec la camera (IPCam Admin Utility pour  Edimax SuperScan   Une fois ladresse IP connue, vous pouvez verifier si la camera fonctionne correctement en entrant ladresse IP dans votre navigateur Internet.   Pour acceder a la camera vous devrez rentrer les identifiants par defaut. Pour la camera  Edimax  Nom dutilisateur: admin  Mot de passe: 1234   Vous allez maintenant arriver sur cette interface de controle de la camera. Si les images saffichent alors votre camera fonctionne correctement.   La premiere chose a faire est de changer le mot de passe administrateur pour eviter que nimporte qui puisse acceder a votre camera. Pour cela rendez-vous dans longlet  System Info. Camera Information Apply   Rendez-vous maintenant dans linterface  eedomus Configuration Ajouter ou supprimer un peripherique Ajouter un autre type de camera   Choisissez  Camera  Edimax   La page de configuration de la camera apparait.   Sur cette page renseignez le nom de votre camera, ainsi que la piecedans laquelle elle est installee et ladresse IP de la camera. Ne fermez pas cette fenetre pour le moment. Dans une autre fenetre allez sur linterface de la camera  Edimax Motion  Dect FTP   Il faut maintenant renseigner les differents champs pour que la camera puisse envoyer les images et videos sur le serveur  FTP eedomus   FTP eedomus FTP FTP eedomus FTP eedomus FTP Sauvegardez le peripherique sur la  eedomus Apply Edimax Rendez-vous maintenant dans  Motion Detection Send snapshot file to  ftp Enable FTP eedomus   Maintenant quand votre camera captera du mouvement elle enverra des photos sur le serveur  FTP eedomus  Si votre camera  Edimax Wifi Onglet  Network WLAN Enable Wifi Apply Ethernet   Notre camera  Edimax eedomus  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,40 @@
+<document>
+	<date>2006-01-09</date>
+        <title>Accs  Google Video depuis la France grce  Greasemonkey</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>google</tag>
+                <tag>tips</tag>
+                <tag>video</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Si vous aussi vous en avez marre de vous voir interdire l'acces au visionnage des videos de  Google Video   [ 1 ] , je viens de faire un script  Greasemonkey  pour y remedier. If  Google Video  service disallows accesses from your country, eg. from France, you can use this little  Greasemonkey  script for Firefox as a remedy. 
+
+ 
+ Installer  Greasemonkey pour Firefox  si ce n'est deja fait, Install  Greasemonkey for Firefox , 
+ Installer  mon script , Install  my script , 
+ C'est tout. That's all. 
+ 
+
+ Quelques petites videos pour tester : Some videos to test the script : 
+
+ 
+ I want it that way 
+ Mario Unleashed 
+ N'hesitez pas a lacher vos perles (!) dans les commentaires... Don't hesitate to suggest yout gems in the comments... 
+ 
+
+ Edit du 16 fevrier 2006 : 
+
+
+ Plus besoin de ce script,  Google Video  est desormais  officiellement accessible depuis la France   
+
+
+ Pour le supprimer:  Outils  Manage User Scripts...  Google Video for Everyone  Uninstall . 
+ Notes 
+ [ 1 ] L'acces est par defaut interdit depuis la France... 
+ 
+        </text>
+</document>

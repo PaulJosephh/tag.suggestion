@@ -1,0 +1,28 @@
+<document>
+	<date>2015-03-19</date>
+        <title>Guide dutilisation de la prise commande Aeotec ZW075 avec la camra Z-Wave Piper</title>
+        <author> Kragg </author>
+        <tags_set>
+                <tag>aeon labs</tag>
+                <tag>aeotec</tag>
+                <tag>guide</tag>
+                <tag>piper</tag>
+                <tag>prise commandee</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+                <tag>zw075</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Z-Wave</category>
+        </categories_set>
+        <text>
+                                                         La camera Piper integre differents capteurs (mouvement,temperature, humidite, luminosite et bruit) mais egalement un controleur  Z-Wave Z-Wave Plus 1. Presentation La prise commandee Aeotec Utilisant la technologie de commutation et de surveillance de lenergie eprouvee d Aeon Labs Ce module  Z-Wave Voici ses fonctions et caracterisques : FONCTIONS : Commander une lampe ou un appareil a distance Module prise sintegrant directement entre une prise electrique et la charge a commander Fonction ON / OFF pour piloter des lampes ou des appareils (pas de variation) Mesure de la consommation instantanee et cumulee Controle de la charge en local via le bouton integre LED de statut integree sur le bouton 50% plus petit que le Smart Switch original d Aeon Labs Protection contre les surcharges Fait partie de la gamme Gen5 de  Aeon Labs Securite de la communication radio via le chiffrement AES-128 Integre la puce  Z-Wave Communication 250% plus rapide compare a des peripheriques  Z-Wave Supporte les trames dexploration  Z-Wave Supporte Beaming Mises a jour du firmware Over The Air (OTA) Repeteur de messages  Z-Wave Optimisation de lantenne, portee 150 metres Facilite dutilisation et dinstallation CARACTERISTIQUES TECHNIQUES : Type de module : Recepteur  Z-Wave Alimentation :240VAC, 50/60Hz Consommation : 1W Charge maxi : 3500W / 16A Frequence : 868,42 Mhz Distance de transmission : 150m en champ libre Mesure denergie :
+ Min. Lecture: 0.001w Resolution: 0.001w Precision: 500W @ +/- 5W +/- 1% Precision: Lineaire Dimensions :78.5 x 55.0 x 75.6mm Poids : 110g Temperature de fonctionnement : -20C a 50C Humidite de fonctionnement : 80% Certifications: FCC, UL, CE,  ROHS 2. Deballage Passons maintenant au deballage. La prise est bien protegee par de la mousse, on y retrouve egalement une notice en Anglais. La prise est assez compacte et le design est sympa. On retrouve ici le bouton pour allumer lappareil electrique ou la lampe qui sera branche dessus, mais cest egalement le bouton dinclusion. 3. Installation Passons maintenant a linclusion avec Piper. Pour celajai utilise mon iPhone avec lapplication Piper. Il faut se rendre sur longlet Controls puis Manage Accessories. On appuieensuite sur Add. On appuie ensuite sur Start pour lancer linclusion. On peut maintenant appuyer sur le bouton de la prise Aeotec. Attention il fautappuyer 3 secondes dessus. La prise est bien detectee par Piper. Il faut lui donner un petit nom. On peut maintenant allumer ou eteindre la prise a distance. 4. Utilisation Pour aller plus loin il est possible dinclure la prise dans un scenario tres facilement, en mode absence si un mouvement est detecte alors la prise sallumera. De meme il est possible de planifier une  phase La prise commandee ZW075 dAeotec est aussi capable de remonter la consommation de la charge connectee, mais Piper ne supporte pas encore cette fonctionnalite. En plus detre un tres bon systeme de securite autonome, Piper peut donc aussi faire un peu de  domotique Z-Wave  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Homelive  Guide dutilisation du repeteur Z-Wave DSD37 dAeon Labs 
+ Jeedom  Guide dutilisation du compteur denergie HEM3 dAeon Labs 
+ Jeedom  Guide dutilisation du multisensor 4en1 dAeon Labs 
+ Guide dutilisation du detecteur douverture Aeon Labs DSB29 avec la base domotique Homelive dOrange END .entry-content  
+        </text>
+</document>

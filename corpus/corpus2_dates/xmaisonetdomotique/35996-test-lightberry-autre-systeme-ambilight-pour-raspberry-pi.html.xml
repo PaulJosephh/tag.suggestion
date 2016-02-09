@@ -1,0 +1,18 @@
+<document>
+	<date>2014-05-05</date>
+        <title>
+Test: LightBerry, un autre systme Ambilight pour Raspberry Pi</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Ambilight</tag>
+                <tag>LighBerry</tag>
+                <tag>LightPack</tag>
+                <tag>Une</tag>
+        </tags_set>
+        <categories_set>
+                <category>Test Materiel Informatique</category>
+                <category>Tests Audio / Video</category>
+        </categories_set>
+        <text>Suite au t est du LightPack  que je vous ai propose il y a quelques jours, de nombreux commentaires ont ete postes, et parmi eux un commentaire tres interessant de Miguel qui parlait du  LightBerry , un autre systeme pour ajouter lAmbilight sur sa TV, cette fois grace a un Raspberry Pi. Pour ceux qui prennent lhistoire en route, le systeme Ambilight, developpe par Philips, est uneclairage a larriere de lecran qui sadapte en fonction de limage diffusee, comme ceci, pour ameliorer limmersion dans le film en cours:   Chez Philips, ce systeme est integre a la TV. Mais de nombreux projets de bidouilleurs ont tente de reproduire le meme effet de diverses facons, pour le porter sur nimporte quelle TV. Nous en avons vu  un exemple avec le LightPack . Et nous allons en voir un autre aujourdhui avec le  LightBerry , puisque jai pu men procurer un grace a Jacek, le concepteur du LightBerry, tres interesse davoir mon avis apres cette discussion autour du LightPack. Il faut dire que cette solution a deux arguments en sa faveur: un nombre de leds plus important (jusqua 56contre seulement 10 sur le LightPack), et un prix moins onereux.  Passons donc des maintenant a sa decouverte.  Sommaire I. Deballage II. Installation III. Configuration IV. Utilisation V. Conclusion Commentaires (140) Powered by SEO TOC 1.7.3     1   2   3   4   5   6 Ambilight   LighBerry   LightPack   Une 
+        </text>
+</document>

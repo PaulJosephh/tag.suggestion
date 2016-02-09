@@ -1,0 +1,19 @@
+<document>
+	<date>2009-09-08</date>
+        <title>Guide dutilisation de mControl</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels mControl</category>
+        </categories_set>
+        <text>
+                                                         Ce guide va vous aider a utiliser mControl, notamment a creer des zones, des devices et des macros. 1. Creation dune Zone Une zone peut-etre par exemple une chambre, un bureau ou un ensemble de pieces.  A partir de mControl Editor, cliquez sur longlet Zones, puis sur New en bas a gauche de lecran. 
+ Entrez le Nom de la Zone dans Zone Name et selectionnez lImage que vous voulez voir apparaitre pour cette zone dans Image. Cliquez ensuite sur Save  Close. Un Device peut correspondre a un appareil, lampe, groupe dappareils ou groupe de lampes.  Cliquez sur New Device en bas de lecran.  
+ Selectionnez en premier ladaptateur utilise dans le panneau deroulant Adapter, puis le type de module dans Device Module. Donnez un nom et une adresse a ce Device. Vous pouvez egalement choisir une image a affecter a ce Device. Cliquez alors sur Save  Close pour sauvegarder et quitter, ou sur Save  New pour sauvegarder et creer un nouveau Device. Une fois cree, le Device apparait sous la forme suivante : Si votre interface est bien parametree, vous pouvez desormais commander votre Device. guide sur la configuration de mControl Une Macro est un evenement qui peut etre programme a lavance ou sexecuter si une certaine condition est remplie. 
+ Cliquez sur longlet Automation ou sur New Macro en bas de lecran. Cliquez ensuite sur New en bas a gauche de lecran. 
+ Donnez un nom, puis choisissez limage que vous souhaitez affecter a la Macro et la zone ou vous souhaitez la mettre. Il est possible de ne pas la faire apparaitre dans la zone. Deselectionnez alors Show in Zone. Il egalement possible de devalider la Macro en deselectionnant Enabled. Cliquez sur Update afin de pouvoir parametrer des conditions et des actions. Votre Macro apparait alors dans la liste des Macros sur la gauche. Vous pouvez maintenant entrez une condition qui permettra a votre Macro de sexecuter. Cliquez alors sur New Condition. 
+ La Macro peut etre executer suivant differentes conditions : Changement detat, evenement IR, evenement exterieur, evenement MCE,  Choisissez la condition souhaitee et parametrez les elements de la condition. Cliquez ensuite sur Save  Close. Vous pouvez maintenant entrez une action pour que votre Macro sexecute. Cliquez alors sur New. La Macro peut executer differentes actions : Temporisation, Automatisation, envoie de mail, envoie dun code IR,  Choisissez laction souhaitee et parametrez les elements de laction. Cliquez ensuite sur Save  Close. Choisissez la condition Time of day. Selectionnez les jours et regler lheure dexecution de la Macro. Cliquez sur Save  Close. Laction etant Allumer pendant une heure puis eteindre, celle-ci se decomposera en 3 etapes : Allumer, Temporisation de 1h, Eteindre. Creer une nouvelle action en cliquant sur New. Mettez Automation comme type daction et selectionnez la zone et le Device a allumer. La valeur correspond au pourcentage de leclairage. Cliquez sur Save  Close.  Creer de nouveau une action et selectionnez cette fois-ci Delay comme type daction. Mettez 1 heure pour le delai et cliquez sur Save  Close. Creer une nouvelle action et selectionnez de nouveau Automation comme type daction. Selectionnez la meme zone et le meme Device a eteindre. Cliquez sur Save  Close.   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

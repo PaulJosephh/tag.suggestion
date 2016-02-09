@@ -1,0 +1,28 @@
+<document>
+	<date>2006-04-18</date>
+        <title>Du truc, du vrac et du geek</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bug</tag>
+                <tag>dev</tag>
+                <tag>eclipse</tag>
+                <tag>haha</tag>
+                <tag>javascript</tag>
+                <tag>jeu</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>
+ Tout comme pour  Jorge Bernal , ce  bout de code javascript  prend place dans mon pantheon personnel des horreurs sans nom. 
+ Code Igniter  passe la  1.3.2 : essentiellement de la correction de bugs. 
+ PHPEclipse  quand a lui passe en version  1.1.8 . 
+ innerHTML  vous gave?  DomBuilder  pourrait bien vous seduire. 
+ ClickToScan  est un service gratuit permettant de faire de l' OCR  a partir de cliches pris depuis votre telephone portable et de vous envoyer le resultat par email ou par fax. 
+ The Incredibles  en ASCII-Art. 
+ Une  carte interactive de la population mondiale , en Java. 
+ Another World , le jeu quasi-mythique d' Eric Chahi , est reedite en version haute-resolution. Pour 7 vous avez la version complete. 
+ 
+        </text>
+</document>

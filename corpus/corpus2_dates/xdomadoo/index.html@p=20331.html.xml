@@ -1,0 +1,20 @@
+<document>
+	<date>2010-02-15</date>
+        <title>Guide dinstallation des Camras TRENDnet TV-IP1xx et TV-IP2xx avec mControl</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels mControl</category>
+        </categories_set>
+        <text>
+                                                         Les cameras IP de la marque TRENDnet du type TV-IP1xx et TV-IP2xx peuvent etre prises en charge par le logiciel  mControl Ce guide va vous expliquer la methode a suivre.
+ Dans un premier temps, il faut que la version du logiciel soit au minimum mControl v2.1 Build 3523 (2009-08-24). Si ce nest pas le cas, vous devez installer une version plus recente.
+ Vous pouvez telecharger la derniere version du logiciel sur le forum du fabricant :  http://www.embeddedautomation.com/mcontrol/net-2.0/mControl v2.1 Build 3523 (2009-08-24).zip Une fois le logiciel installe, allez dans le repertoire C:ProgramFilesEmbedded AutomationmControlServer et ouvrez le fichier mServer.exe. xml A la fin de la liste des modules  IP CAMERA /module Pour les cameras  TV-IP1xx  module base=IPCAM_TV-IP1xx class=IPCAMERA use=Y Pour les cameras  TV-IP2xx module base=IPCAM_TV-IP2xx class=IPCAMERA use=Y  
+ Demarrez alors mControl Service Manager pour valider lacces au cameras. Il faut que la case soit cochee a cote de IP Cameras. 
+ Lancez alors mControl Editor pour configurez vos cameras. Il suffit alors de selectionner IP Cameras en tant quadaptateur et TV-IP1xx ou TV-IP2xx comme Module. Il vous faut ensuite entrer ladresse IP de la camera ainsi que le login pour acceder a son configurateur embarque. 
+ Une fois tout configure,  mControl 
+ Il est bien evidemment possible dagrandir limage. Voila, ces quelques petites modifications permettent dintegrer des cameras TRENDnet dans une installation  domotique mControl  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

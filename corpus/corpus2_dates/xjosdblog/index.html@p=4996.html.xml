@@ -1,0 +1,38 @@
+<document>
+	<date>2014-01-29</date>
+        <title>Lua : vacances, jours chms et jours fris</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Fonction Luup</tag>
+                <tag>Lua</tag>
+                <tag>Luup</tag>
+                <tag>Vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+
+ Indispensable dans une box domotique 
+Dans un script Luup, il est souvent utile de savoir si le jour courant est un jour passe a la maison, ou pas, pour planifier la programmation des luminaires ou du thermostat. Ce billet presente un ensemble de fonctions permettant de determiner si le jour courant est un jours chome (cest a dire un jour ou au moins un membre de la famille reste a la maison).
+ Jours chomes 
+La fonction principale pourrait se resumer a celle-ci:
+ function ( ) local = ( ) return == "samedi" or == "dimanche" or ( ) or ( ) end 
+Un jour chome est donc un  samedi dimanche josdGetJourSemaine() josdJourFerie() josdJourVacances() 
+La fonction  josdJourChome() -- Retourne true si le jour courant est un jour chome (passe a la maison) -- Le calcul effectif n'est fait qu'une fois par jour (ou si la Vera reboot) = "NULL" -- Variable globale (date du dernier calcul) pour ne pas recalculer le resultat a chaque appel = false -- Variable globale (resulat du dernier calcul) pour ne pas recalculer le resultat a chaque appel function ( ) local = os.date ( "%Y-%m-%d" ) if ( ~= ) then -- Faut-il refaire le calcul ? local = ( ) = = ( == "samedi" or == "dimanche" or ( ) or ( ) ) end return end 
+Debarrassons-nous tous de suite de la fonction  josdGetJourSemaine() -- Retourne le jour de la semaine (lundi...dimanche) = { [ 0 ] = "dimanche" , [ 1 ] = "lundi" , [ 2 ] = "mardi" , [ 3 ] = "mercredi" , [ 4 ] = "jeudi" , [ 5 ] = "vendredi" , [ 6 ] = "samedi" } function ( ) return [ tonumber ( os.date ( "%w" ) ) ] end Jours de vacances 
+Pour la fonction  josdJourVacances() -- Retourne true si le jour courant est un jour de vacances scolaires function ( ) local = os.date ( "%Y-%m-%d" ) local = false -- 2013-2014 if ( "2013-10-19" = and  "2013-11-04" ) then = true -- Toussaint elseif ( "2013-12-21" = and  "2014-01-06" ) then = true -- Noel elseif ( "2014-02-15" = and  "2014-03-03" ) then = true -- Hiver Zone C elseif ( "2014-04-12" = and  "2014-04-28" ) then = true -- Printemps Zone C elseif ( "2014-07-05" = and  "2014-09-01" ) then = true -- Vacances d'ete -- 2014-2015 elseif ( "2014-10-18" = and  "2014-11-03" ) then = true -- Toussaint Zones elseif ( "2014-12-20" = and  "2015-01-05" ) then = true -- Noel elseif ( "2015-02-14" = and  "2015-03-02" ) then = true -- Hiver Zone C elseif ( "2015-04-18" = and  "2015-05-04" ) then = true -- Printemps Zone C elseif ( "2015-07-04" = and  "2015-08-31" ) then = true -- Vacances d'ete -- 2015-2016 elseif ( "2015-10-17" = and  "2015-11-02" ) then = true -- Toussaint elseif ( "2015-12-19" = and  "2016-01-04" ) then = true -- Noel elseif ( "2016-02-20" = and  "2016-03-07" ) then = true -- Hiver Zone C elseif ( "2016-04-23" = and  "2016-05-09" ) then = true -- Printemps Zone C elseif ( "2016-07-02" = and  "2016-09-01" ) then = true -- Vacances d'ete -- 2016-2017 elseif ( "2016-10-19" = and  "2016-11-03" ) then = true -- Toussaint elseif ( "2016-12-17" = and  "2017-01-03" ) then = true -- Noel elseif ( "2017-02-04" = and  "2017-02-20" ) then = true -- Hiver Zone C elseif ( "2017-04-08" = and  "2017-04-24" ) then = true -- Printemps Zone C elseif ( "2017-07-06" = and  "2017-09-01" ) then = true -- Vacances d'ete end return end Jours feries 
+La, cest plus complique. Certains jours feries ont une date fixe, mais dautres sont cales sur la date de Paques qui est complexe a determiner. Voici une fonction qui calcule et retourne la date de Paques au format  epoch -- Retourne le jour de Paques au format epoch -- annee : annee (Integer) dont on desire connaitre le jour de Paques (ex : 2014) -- La fonction n'effectue le calcul que si l'annee a changee depuis son dernier appel = 0 -- Variable globale (annee du dernier calcul) pour ne pas recalculer le jour de Paques a chaque appel = 0 -- Variable globale (jour de Paques au format epoch) pour ne pas recalculer le jour de Paques a chaque appel function ( ) if ( ~= or == 0 ) then local = math.floor ( / 100 ) local = math . ( , 100 ) local = math.floor ( ( 3 * ( + 25 ) ) / 4 ) local = math . ( ( 3 * ( + 25 ) ) , 4 ) local = math.floor ( ( 8 * ( + 11 ) ) / 25 ) local = math . ( ( 5 * + ) , 19 ) local = math . ( ( 19 * + - ) , 30 ) local = math.floor ( ( + 11 * ) / 319 ) local = math.floor ( ( 60 * ( 5 - ) + ) / 4 ) local = math . ( ( 60 * ( 5 - ) + ) , 4 ) local = math . ( ( 2 * - - + ) , 7 ) local = math.floor ( ( - + + 114 ) / 31 ) local = math . ( ( - + + 114 ) , 31 ) local = + 1 local = = = os.time { = , = , = , = 12 , min = 0 } end return end 
+Il est maintenant possible dimplementer la fonction qui permet de determiner si le jour courant est un jour ferie.
+ -- Retourne true si le jour courant est un jour ferie -- Le calcul des jours ferie n'est fait qu'un fois par an (ou si la Vera reboot) = 0 -- Variable globale (annee du dernier calcul) pour ne pas recalculer le tableau a chaque appel = { } -- Variable globale (tableau des jours feries) pour ne pas recalculer le tableau a chaque appel function ( ) local = os.date ( "%m-%d" ) local = tonumber ( os.date ( "%Y" ) ) if ( ~= ) then = -- Dates fixes [ "01-01" ] = true -- 1er janvier [ "05-01" ] = true -- Fete du travail [ "05-08" ] = true -- Victoire des allies [ "07-14" ] = true -- Fete nationale [ "08-15" ] = true -- Assomption [ "11-01" ] = true -- Toussaint [ "11-11" ] = true -- Armistice [ "12-25" ] = true -- Noel -- Dates variables local = ( ) [ os.date ( "%m-%d" , ) ] = true -- Paques [ os.date ( "%m-%d" , + 24 * 60 * 60 ) ] = true -- Lundi de Paques = Paques + 1 jour [ os.date ( "%m-%d" , + 24 * 60 * 60 * 39 ) ] = true -- Ascension = Paques + 39 jours [ os.date ( "%m-%d" , + 24 * 60 * 60 * 49 ) ] = true -- Pentecote = Ascension + 49 jours end return [ ] -- (nldr : Both nil and false make a condition false) end Produits 
+ 
+ 
+ 
+Shopping:  Vera Lite  Controleur domotique Z-wave Informations et sources 
+ 
+ Calcul de la date de Paques et des jours feries (France) Re: how to compare 2 dates  NOW WITH TIME Arrete du 21 janvier 2014 fixant le calendrier scolaire des annees 2014-2015, 2015-2016 et 2016-2017 
+ Sommaire Domotique 
+        </text>
+</document>

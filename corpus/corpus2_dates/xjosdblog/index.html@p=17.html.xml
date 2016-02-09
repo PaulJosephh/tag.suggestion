@@ -1,0 +1,22 @@
+<document>
+	<date>2010-05-17</date>
+        <title>Gestion des utilisateurs en ligne de commande</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+        </categories_set>
+        <text>
+                                                 La gestion des utilisateurs sous la derniere version d Ubuntu 
+ 
+Afficher luid et le gid dun utilisateur :  id utilisateur 
+Ajouter un groupe :
+  groupadd -gGID nom_groupe 
+Ajouter un utilisateur :
+  useradd -uUID -gGID -s/bin/bash  -d/home/utilisateur -pxxx -m utilisateur 
+Changer luid dun utilisateur :  usermod -u UID utilisateur 
+Changer le gid dun utilisateur :  usermod -g GID utilisateur 
+Changer le mot de passe dun utilisateur :  passwd utilisateur 
+        </text>
+</document>

@@ -1,0 +1,115 @@
+<document>
+	<date>2005-03-04</date>
+        <title>Installer Ubuntu Hoary sur un Dell Inspiron 8200</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Installation du systeme de base 
+
+
+ Tout d'abord, cette procedure l'installation a ete effectuee a partir du  cd-rom d'install hoary array-5 . La connexion est effectuee via une  Freebox  en  WIFI , configuree en  mode routeur DHCP . 
+
+
+ Preambule 
+
+ 
+ D'abord,  faire un backup total des donnees presentes sur le disque dur 
+ Noter sur un papier  tous les parametres d'acces a internet (login, pass, IPs, DNS, cle WEP, ESSID, etc.). Ne riez pas, une fois le formatage effectue, vous etes seul au monde  
+ Imprimer l'excellent  Ubuntu Guide 
+ Disposer d'un live cd (live warty, gnoppix, knoppix, mepis, etc...) de secours en cas de pepin est une bonne chose. 
+ 
+
+ Premiere phase 
+
+ 
+ Bootez sur le CD. Bien penser a autoriser le boot depuis un cd dans le  bios  (acces via F2) 
+ Je vous fais grace du partitionnement de votre disque dur, et vous renvoies pour plus d'informations sur le sujet a  Lea    Sachez juste que pour ma part je  recommande fortement  l'utilisation d'une partition dediee au point de montage /home (racine des repertoires personnels des utilisateurs). 
+ Suivre les indications de l'installeur jusqu'au parametrage de la connexion reseau (qui n'est pas indispensable pour l'installation, mais tres fortement recommandee):
+ 
+ l'interface  ethernet  est disponible, c'est la solution  la plus simple et rapide a mettre en oeuvre . Avec le mode routeur DHCP de la freebox active et un cable ethernet correctement branche, la detection est instantanee. 
+ la  carte wifi dlink est reconnue , malgre son chip atheros non-libre (ce qui est etonnant mais finalement plaisant). Si on choisit cette carte pour la connexion, il faut se premunir:
+ 
+ du  ESSID  du reseau wifi 
+ de la  cle WEP  assignee au reseau 
+ 
+ l'interface  IEEE1394  du Dell est detectee, mais je ne sais pas m'en servir en tant que connexion reseau (je suis d'ailleurs preneur d'info a ce sujet) 
+ 
+ A la question "Voulez-vous telecharger les paquets depuis internet", ne dire oui  que si la configuration du reseau a aboutie . Par exemple, la mauvaise configuration de la cle WEP ne genere aucune erreur, Ubuntu estime que la connexion est operationnelle. Manque de bol, l'ecran de telechargement des paquets  restera fige  et vous devrez rebooter de force l'Inspiron (touche power appuyee 5 secondes consecutives) afin de  recommencer l'installation depuis le debut  (experience inside). 
+ Si tout se passe bien,  ejection du cd  et  redemarrage . 
+ 
+
+ Deuxieme phase 
+
+ 
+ Le systeme boote sur un noyau 2.6.10-3 (dit  le fourbe ) qui nous posera des soucis par la suite, mais on ne le sait pas encore  
+ Le systeme effectue un dist-upgrade automatiquement  afin de telecharger les derniers paquets .  [ 1 ] . 
+ Si l'installation s'est bien deroulee, vous vous retrouvez devant une  invite graphique  vous invitant a saisir le nom d'utilisateur que vous avez entre lors de la procedure d'installation: le fameux  gdm . Accessoirement si vous avez du bol (ce qui est le cas de tout possesseur d'Inspiron), un son de tam-tam sympathique vous accueille. Identifiez-vous  
+ Vous voila donc (theoriquement) sous  Gnome   
+ 
+
+ Activer le wifi si ce n'etait pas deja fait 
+
+ 
+ Si vous avez installe Ubuntu en utilisant la carte ethernet et que vous desirez maintenant utiliser la carte wifi, suivez cette rocedure:
+ 
+ Allez dans System  Administration  Reseau 
+ Desactivez l'interface ethernet (eth0) 
+ Activez l'interface ath0, et configurez-la 
+ 
+ 
+
+ 
+
+
+ 
+
+
+ Validez, et si vos parametres sont corrects, c'est immanquable:  ca marche   
+
+
+ Activer l'acceleration graphique materielle 
+
+
+ L'affichage est pas folichon, affiche peu de couleurs et un temps de reponse exagerement long (lag). C'est  normal , le chip nvidia geforce2go embarque n'est pour l'instant pas exploite (le driver vesa est utilise par defaut). Il faut donc installer  nvidia-glx  et  nvidia-settings . Or si on tente la chose via synaptic (le frontend d'apt-get, dispo via System  Administration  Gestionnaire de paquets Synaptic), les paquets ne sont pas trouves, ou tout du moins declarent des dependances cassees. Il faut pour remedier a ce probleme ajouter les sources multiverse et universe a apt; pour ce faire, utiliser un terminal (Applications  Outils systeme  Terminal) et tappez  sudo gedit /etc/apt/sources.list  puis a l'invite  Password:   tappez votre password. La entrez ces sources: 
+
+
+ deb cdrom:[Ubuntu 5.04 _Hoary Hedgehog_ - Alpha i386 Binary-1 (20050217)]/ unstable main restricted
+
+deb http://archive.ubuntu.com/ubuntu hoary main restricted multiverse universe
+deb-src http://archive.ubuntu.com/ubuntu hoary main restricted multiverse universe
+
+## Uncomment the following two lines to fetch major bug fix updates produced
+## after the final release of the distribution.
+# deb http://fr.archive.ubuntu.com/ubuntu hoary-updates main restricted
+# deb-src http://fr.archive.ubuntu.com/ubuntu hoary-updates main restricted
+
+deb http://security.ubuntu.com/ubuntu hoary-security main restricted universe
+deb-src http://security.ubuntu.com/ubuntu hoary-security main restricted universe 
+
+
+ Rechargez les depots via apt-get ou Synaptic, et installez les paquets nvidia-glx et nvidia-settings. Cette operation demande l'installation d'un nouveau noyau, le 2.6.10-4 sans lequel rien n'est possible   Ceci fait, rebootez. De nouveau sous gnome, lancez un terminal et tappez  sudo nvidia-glx-config enable : un message vous informe que la configuration de xorg a ete modifie; ne prenez pas peur, ce n'est pas une insulte  
+
+
+ Redemarrez X (et gnome) en tappant Ctrl + Alt + Backspace. Vous devriez beneficier desormais de l'acceleration graphique materielle du chip nVidia  [ 2 ] 
+
+
+ Et ensuite? 
+
+
+ Et ensuite... Rien! Tout le reste du matos a ete detecte et parametre parfaitement, automatiquement   La carte pcmcia dlink usb2.0 DUB-C2 et le disque USB-2 branche est detecte et monte automatiquement sur le bureau (sous /dev/sda1). 
+
+
+ On peut meme parametrer les touches d'acces rapide du laptop, notamment les touches du volume en utilisant la gestion des raccourcis clavier de Gnome (System  Preferences  Raccourcis clavier). 
+
+
+ Voila, surveillez les autres billets pour d'autres informations et d'autres tutos sur Ubuntu, Gnome et linux en general  
+ Notes 
+ [ 1 ] Dans mon cas ca s'est mal passe, des dependances etaient cassees. J'ai du mal tomber, a un moment d'upload de l'equipe Ubuntu. Si cela vous arrive et que vous vous retrouvez en invite de commande, pas de panique,  dpkg --configure -a  reparera les dependances defectueuses et vous pourrez lancer startx - il suffira alors de faire la mise a jour de la distribution via synaptic une fois loggue sous gnome. 
+ [ 2 ] a ce propos, testez la 3D en jouant a TuxRacer :  sudo apt-get install tuxracer   
+ 
+        </text>
+</document>

@@ -1,0 +1,54 @@
+<document>
+	<date>2008-07-23</date>
+        <title>Mes conventions de codage...</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>php</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>... sont celles des projets sur lesquels je me greffe. C'est en effet pour moi une forme de respect que d'appliquer les standards de codage partages par une communaute (ou une equipe) de developpeurs: ainsi, on maximise les chances de se comprendre et on minimise les couteuses phases de communication entre geeks introvertis [ 1 ]   
+
+
+ En effet, rien de plus penible que de reprendre le code de quelqu'un qui a pris des libertes avec des conventions etablies a ce niveau, l'apotheose etant obtenue avec ce genre de code: 
+
+  php
+?php
+  class Ma_superClasse {
+
+    function dire_coucou ( $popol) {
+  echo 'coucou ' . $popol   . ' !' ;
+}
+     function DireAuRevoir($Popol )
+{ print "Au revoir $Popol !";
+     }
+  }
+ 
+
+
+ Je force bien evidemment ici le trait, mais tout le monde est deja tombe sur ce genre de code illisible, qui multiplie par 10 votre temps d'intervention sur ce dernier et divise par 1000 votre passion pour la  TMA . 
+
+
+ Bien entendu, il peut arriver de produire du code sur un projet ne necessitant l'utilisation d'aucune brique logicielle existante. Auquel cas vous pouvez librement appliquer vos propres standards de codage, l'important etant ici qu'ils soient coherents et constamment appliques. S'il peuvent etre ceux d'un projet open source existant reconnu, cela augmentera la sympathie potentielle a votre egard de futurs intervenants sur votre code  
+
+
+ Je noterai quand meme en vrac quelques bonnes pratiques generales globalement reconnues et appreciees: 
+
+ 
+ etre explicite, 
+ indenter son code, 
+ documenter son code, 
+ a choisir entre les deux, privilegier la lisibilite a la concision, 
+ utiliser des noms de variables, de classes, de methodes, de fonctions et d'arguments parlants, 
+ utiliser des noms anglophones, 
+ utiliser des motifs de conception connus. 
+ 
+
+ Personnellement, j'ai mes petites preferences et tout comme  Oncle Tom  - qui m'a gentiment refile  cette chaine [ 2 ]  - j'ai tendance a appliquer les  standards de codage de symfony , que je trouve homogenes et coherents. Mais ce sont la bien evidemment essentiellement des questions de gouts et de couleurs. 
+ Notes 
+ [ 1 ] Voire les trolls genre  les tabulations ca pue, vive l'indentation a trois espaces ... 
+ [ 2 ] Salopard, ca va se payer !  
+        </text>
+</document>

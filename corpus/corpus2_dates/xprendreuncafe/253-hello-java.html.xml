@@ -1,0 +1,37 @@
+<document>
+	<date>2005-08-19</date>
+        <title>Hello Java !</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>java</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Voila le code commente: 
+
+
+ Fichier  Test.java : 
+
+ 
+
+
+ La compilation se fait ainsi: 
+
+
+ $ javac Test.java 
+
+
+ Et le test: 
+
+
+ $ java Test "J'aime les brocolis !" 10 
+
+
+ Je constate que Java est un langage vraiment strict, ca change drolement de  PHP  ou d'actionScript... Mais c'est pas desagreable, ca oblige a etre tres rigoureux et la qualite du code doit a mon avis en etre amelioree  
+
+
+ M'enfin bon, la route est encore longue...  
+        </text>
+</document>

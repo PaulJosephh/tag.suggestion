@@ -1,0 +1,34 @@
+<document>
+	<date>2005-06-16</date>
+        <title>Moteur de recherche sympa : A9</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ajax</tag>
+                <tag>extensions</tag>
+                <tag>firefox</tag>
+                <tag>moteurs</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>En fouinant dans mes  referers , je suis tombe sur un moteur de recherche dont j'ignorais jusqu'ici l'existence:  A9 . Je dois dire que c'est la premiere fois depuis belle lurette que je me dis:  Wow, voila peut-etre une alternative serieuse et credible a  Google  ! . 
+
+
+ A9  fait la part belle aux dernieres technologies comme  AJAX , c'est un vrai regal a utiliser. Sans compter la presence de  colones  de resultats specifiques (images, videos, livres, refenrences, definitions, pages jaunes, et des centaines d'autres types de filtrages - tous configurables apres une inscription aupres d'Amazon.com [ 1 ] ). 
+
+
+ Seuls petits reproches pour l'instant, l'impossibilite de filtrer les resultats par langue et - comme souvent helas - la presence de publicites en tete des pages de reponses (vite, un script  Greasemonkey  ^^'). 
+
+
+ Edit 
+
+
+ Il y a meme une extension Firefox dediee:  A9 Toolbar . 
+
+
+ Comme  le fait remarquer neolao , A9 est finalement  plus un gestionnaire de recherches  qu'a proprement parler un  moteur . Quoi qu'il en soit, l'utilisation d'AJAX y est vraiment interessante a etudier  
+ Notes 
+ [ 1 ]  A9  est une entreprise du groupe  Amazon . 
+ 
+        </text>
+</document>

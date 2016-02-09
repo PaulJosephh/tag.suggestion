@@ -1,0 +1,32 @@
+<document>
+	<date>2008-06-30</date>
+        <title>Symfony 1.1 est dans les bacs</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>framework</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Nous venons de  releaser symfony 1.1 , le framework qui blanchit les dents et rafraichit l'haleine. 
+
+
+ C'est une etape importante puisque  l'architecture meme du framework a ete entierement repensee , pour etre notamment plus decouplee, et favoriser ainsi l'extensibilite et la configurabilite. Voici les autres ameliorations phares de cette nouvelle version: 
+
+ 
+ Le nouveau  framework de formulaires , entierement oriente objet, permet une reutilisation maximale des elements et en garantit la securite de facon transparente, 
+ Le  systeme de gestion de taches en ligne de commande  est une grosse tuerie, il vous permet de creer des scripts en ligne de commande avec gestion de l'aide, des arguments et des options, le tout avec une sortie en couleur au besoin! 
+ Le  parser YAML  a ete reecrit from scratch et propose maintenant des messages d'erreurs contextualises, bien utile a l'heure du debogage, 
+ La  gestion des formats web  permet a votre application de fournir une reponse et un format differents en fonction du type de requete entrante; concretement, vous gardez le meme controleur mais vous proposez des vues adaptees dans le format qui va bien (html, xml, json, etc.)  
+ La  gestion des plugins  a ete entierement revue et propose maintenant une totalement API compatible avec le standard PEAR, et gere notamment les dependances, 
+ La couche ORM Propel, toujours en version 1.2, est maintenant proposee sous la forme d'un plugin (active par defaut), permettant ainsi plus facilement d'utiliser  Doctrine  ou  Propel 1.3  si vous preferez, 
+ Le routing a ete grandement ameliore tant en performances qu'en extensibilite et souplesse de configuration, 
+ La compatibilite avec symfony 1.0 est assuree grace au plugin sfCompat10, fourni par defaut et activable en une ligne de configuration, 
+ Enfin, plus de 8500 tests unitaires et fonctionnels garantissent la stabilite de l'API et previennent de l'apparition de regressions. 
+ 
+
+ Voila, l'accouchement fut un peu long mais le bebe est la, rose et bien portant. Et il n'attend plus que vous pour  jouer avec lui   
+        </text>
+</document>

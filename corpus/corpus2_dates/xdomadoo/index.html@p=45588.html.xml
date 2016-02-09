@@ -1,0 +1,27 @@
+<document>
+	<date>2015-03-10</date>
+        <title>Jeedom  Guide dutilisation du dtecteur autonome de fume Fibaro FGSD-002</title>
+        <author> Algeroth </author>
+        <tags_set>
+                <tag>detecteur de fumee</tag>
+                <tag>en14604</tag>
+                <tag>fgsd-002</tag>
+                <tag>fibaro</tag>
+                <tag>guide</tag>
+                <tag>jeedom</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Jeedom</category>
+        </categories_set>
+        <text>
+                                                         Grace a son plugin  Z-Wave Jeedom Z-Wave Fibaro Jeedom 1. Presentation du produit Voici le produit etson packaging. Visuellement, il est identique au capteurde fumee de la marque FGSS-001. Pour louvrir il faut tourner la partie inferieur et lenlever. A linterieur on retrouve le compartiment a piles. Bien enlever la languette qui empeche la decharge de la pile avant dinclure le module. Ce detecteur repond a la norme EN14604. Pour plus dinformation sur la norme et ses obligations, nous vous invitons a consulternotre article  Tout savoir sur les detecteurs de fumee pour bien sequiper avant le 8 mars 2015 2. Inclusion dans Jeedom Depuis le dashboard, il faut se rendre dans plugins, protocole  domotique Ensuite il faut mettre  Jeedom Puis appuyer 3 fois rapidement sur le bouton au dessus du module pour proceder a linclusion sous  Jeedom Sinon il faut recommencer linclusion depuis le debut de cet partie. Petite astuce: Apres que  Jeedom 3. Configuration Dans ce cas precis, certains Jeedomiens qui avait pris des modules avec loffre Homelive ont recu en avance ce nouveau module  Fibaro Jeedom Jeedom Jeedom On peut voir ici sa configuration sur  Jeedom On dispose egalement de tous les parametrages lies a ce module. Par defaut la representation du module  Fibaro Jeedom En alarme: Une des caracteristiques de Jeedom est que lon peut personnaliser son interface, a laide de widget. Ainsi cela peut donner  cec En alarme: Jeedom est a ce jour une des rares box  domotique Fibaro Vous pourrez retrouver le detecteur de fumee autonome  Fibaro sur la boutique Domadoo!  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Guide dutilisation du detecteur de fumee Fibaro FGSD-002 avec la base domotique Homelive dOrange 
+ Jeedom  Guide dutilisation du module volet roulant FGRM-222 de Fibaro 
+ Le detecteur de fumee Z-Wave de Fibaro compatible EN14604 est disponible ! 
+ Jeedom  Guide dutilisation de lampoule connectee ZIPATO RGBW END .entry-content  
+        </text>
+</document>

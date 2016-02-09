@@ -1,0 +1,29 @@
+<document>
+	<date>2010-04-14</date>
+        <title>TEST : Ampoules PHILIPS MASTER LED DIMMABLE avec systme domotique X10 ou PLCBUS</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>ampoule</tag>
+                <tag>domotique</tag>
+                <tag>economie d'energie</tag>
+                <tag>fluocompacte</tag>
+                <tag>gradation</tag>
+                <tag>lampe</tag>
+                <tag>MEGAMAN</tag>
+                <tag>variation</tag>
+                <tag>X10</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         
+ Les ampoules LEDs sont tres economiques et  ecologiques, mais elles ne peuvent pas toujours remplacer les ampoules  a incandescence dans certaines applications. En effet, si vous etes  equipes de variateur pour pouvoir profiter de temps en temps dune  ambiance tamisee, vous ne pouvez pas vous orienter sur des ampoules  LEDs pour remplacer vos ampoules a incandescence. Heureusement, les technologies evoluent et  PHILIPS X10 PLCBUS Ce quil faut savoir sur ces ampoules : [endif] Faibles couts de maintenance grace a une tres longue duree de vie moyenne (25 000 h). Duree de vie 25 fois plus longue quune ampoule a incandescence. Bonne qualite de lumiere : IRC80. Intensite pouvant etre diminuee jusqua 10 %. Ce quil faut verifier avant lutilisation : Avant dutiliser lampoule  PHILIPS Pour de meilleurs resultats, la puissance en watts de  lampoule  PHILIPS  ne doit pas tomber au dessous d1/6 de la charge minimale ni depasser 1/5 de la charge maximale de lappareil de variation. 1. Test avec des modules  X10 [endif] Le test a ete realise avec lampoule  PHILIPS   853056 X10 LM12   LD11 Le schema ci-dessous decrit lensemble du montage realise : 
+ Conclusion : 
+ [endif] L PHILIPS   853056  recoit les ordres  X10 . Elle varie bien de 10% a 100% 2.  Test avec des modules  PLCBUS 
+ [endif] Le test a ete realise avec lampoule  PHILIPS   853056 PLCBUS PLC2220 Le schema ci-dessous decrit lensemble du montage realise : Conclusion : 
+ [endif] L PHILIPS   853056    recoit les ordres  PLCBUS . Elle varie bien de 10% a 100%. Les tests realises confirme le bon fonctionnement des ampoules  PHILIPS domotique X10 PLCBUS domotique KNX Z-WAVE Il faut simplement faire attention a la puissance minimum et maximum du variateur et ainsi utiliser le nombre dampoules en adequation.
+ Il est a noter que lampoule  PHILIPS   853056 X10 PLCBUS  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

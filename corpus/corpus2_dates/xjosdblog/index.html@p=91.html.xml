@@ -1,0 +1,14 @@
+<document>
+	<date>2007-10-30</date>
+        <title>Cours en ligne : UML 2.0</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Cours</category>
+        </categories_set>
+        <text>
+                                                 UML ( Unified Modeling Language OMG Object Management Group Table des matieres du cours UML 2.0 : 
+         Introduction a la modelisation objet Diagramme de cas dutilisation (Use Case Diagram) Diagramme de classes (Class Diagram) Object constraint langage (OCL) Diagramme detats-transitions (State machine diagram) Diagramme dactivites (Activity diagram) Diagrammes dinteraction (Interaction diagram) Diagrammes de composants et de deploiement (Component diagram et Deployment diagram) Mise en oeuvre dUML La derniere version chez Developpez.com Note (24/11/2009) : ce cours est maintenant publie ! 
+        </text>
+</document>

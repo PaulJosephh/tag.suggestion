@@ -1,0 +1,13 @@
+<document>
+	<date>2007-12-15</date>
+        <title>Crer un compte root sous Ubuntu</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+        </categories_set>
+        <text>
+                                                Pour creer un compte  root Ubuntu sudo passwd root 
+        </text>
+</document>

@@ -1,0 +1,15 @@
+<document>
+	<date>2011-07-21</date>
+        <title>Guide dinstallation du module prise Everspring AN157-6</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         
+  Le module prise  Everspring Z-Wave Il sintercale simplement entre la prise murale et la prise electrique de la lampe ou de lappareil a piloter.    Connectez la lampe ou lappareil souhaite sur le module AN157-6, puis connectez le module sur une prise electrique proche de lappareillage a controler.   La LED rouge clignote pour indiquer que le module nest pas inclus dans un reseau  Z-Wave   Ce voyant LED est egalement un bouton permettant le controle local de la lampe/appareil et dinclure/exclure le module du reseau  Z-Wave   Pour controler votre lampe/appareil localement, appuyez simplement sur le bouton du module. Pour commander votre module avec un controleur, il faut dans un premier temps linclure dans votre reseau  Z-Wave Vous pouvez maintenant le piloter a distance avec votre controleur !   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

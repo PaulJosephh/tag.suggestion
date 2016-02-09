@@ -1,0 +1,68 @@
+<document>
+	<date>2012-10-29</date>
+        <title>Gertboard, la carte pour tendre les possibilits du Raspberry Pi</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>apprentissage</tag>
+                <tag>arduino</tag>
+                <tag>education</tag>
+                <tag>francais</tag>
+                <tag>french</tag>
+                <tag>Gertboard</tag>
+                <tag>gpio</tag>
+                <tag>hardware</tag>
+                <tag>LED</tag>
+                <tag>power</tag>
+                <tag>Raspberry Pi</tag>
+                <tag>raspbian</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+  
+ 
+ Si vous etes de ceux qui trouvaient que le Raspberry Pi est, malgre son etonnante capacite a pouvoir tout faire ou presque, trop limites, alors vous serez tres heureux dapprendre quil existe une carte mere qui vous ouvrira encore dautres possibilites. La Gertboard est desormais disponible, tous vos projets se realiseront ! 
+ Avec tous ses composants, toutes ses entrees/sorties, la Gertboard nest certainement pas destinee aux novices en matiere de DIY ( Do It Yourself ) et autre bricolage en microelectronique. Pour pouvoir tirer le meilleur parti de la bete, il vous faudra plonger les mains dedans et ecrire quelques centaines de lignes de code. 
+ Si cela ne vous fait pas peur, la Gertboard peut etre votre pour la modique somme de 48$. De quoi etendre en tout cas a moindre frais les possibilites deja bien etendues du desormais celebre micro-ordinateur Raspberry Pi. 
+ Pour la programmation, il faudra utiliser lenvironnement Arduino. Jexplique comment se le procurer ici: Framboise a la mode Arduino 
+ 
+ Et voila. Il faut maintenant se procurer les programmes de test: 
+ $ wget "http://www.raspberrypi.org/phpBB3/download/file.php?id=1434" -O gertboard.tar.gz 
+$ tar vfxz gertboard.tar.gz 
+$ cd gertboard* 
+$ make 
+ On execute ensuite les programmes de tests selon le guide de lutilisateur (en anglais) . 
+ 
+ On fait un petit test, ca fonctionne! 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

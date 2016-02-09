@@ -1,0 +1,31 @@
+<document>
+	<date>2012-02-09</date>
+        <title>Configuration Eduroam sur Android  lUniversit de Paris 13</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Android</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Le  service eduroam.fr 
+Voici les parametre de connexion de lUniversite de Paris 13 pour  Android 
+ 
+SSID du reseau : eduroam
+ 
+Securite : 802.1x Entreprise
+ 
+Methode EAP : TTLS
+ 
+Authentification phase 2 : PAP
+ 
+Identite : prenom.nom@univ-paris13.fr 
+ 
+Anonyme : anonymous@univ-paris13.fr
+ 
+Mot de passe sans fil : votre mot de passe de luniversite
+ 
+        </text>
+</document>

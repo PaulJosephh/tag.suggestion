@@ -1,0 +1,30 @@
+<document>
+	<date>2007-10-25</date>
+        <title>Utiliser sous Windows le serveur dimpression D-Link DP-301P+</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>DLink</category>
+                <category>Galeres</category>
+                <category>Questions Reseau</category>
+                <category>Windows (OS)</category>
+        </categories_set>
+        <text>
+                                                 
+
+ 
+Voici la procedure dinstallation sous Windows dune imprimante connectee au serveur dimpression D-Link DP-301P+ (pour Windows 7, voir la  mise a jour du 20/12/2012 
+ 
+On commence par noter le nom de la file dattente.
+ Configuration Port Setting Port Name 
+On cree ensuite un port local vers le serveur dimpression.
+ Demarrer  Parametres  Imprimantes Fichier  Proprietes du serveur Ports  Ajouter un port Standard TCP/IP Port  Ajouter un port Suivant  Nom dimprimante ou adresse IP : Nom du port : Suivant  Personnalise  Parametres LPR  Nom de la file dattente OK  Suivant  Terminer 
+On ajouter enfin une nouvelle imprimante qui utilise le port cree.
+ Demarrer  Parametres  Imprimantes Ajout dimprimante Suivant  Imprimante locale  Suivant Suivant Suivant  Suivant   Suivant   Suivant  Terminer 
+Je suppose que cette methode fonctionne aussi pour le serveur dimpression du routeur D-Link DI-704P et plus generalement pour bien dautres serveurs dimpression.
+ 
+ Mise a jour du 20/12/2012 : 
+ Aller dans  Demarrer  Peripheriques et imprimantes  Ajouter une imprimante  Ajouter une imprimante locale  Creer un nouveau port Standard TCP/IP Port  Suivant Saisir ladresse du serveur dimpression (192.168.0.10 par defaut) dans  Nom dhote ou adresse IP : Nom du port : Suivant Dans lecran  Informations supplementaires requises concernant le port Personnalise  Parametres Nom de la file dattente : OK Suivant Dans lecran  Installer le pilote dimprimante Windows Update 
+        </text>
+</document>

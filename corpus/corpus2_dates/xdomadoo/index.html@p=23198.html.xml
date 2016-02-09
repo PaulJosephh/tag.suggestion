@@ -1,0 +1,15 @@
+<document>
+	<date>2012-11-13</date>
+        <title>Utilisation de la tlcommande porte-cls 4 boutons Aeon Labs avec la ZiBASE</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                          Pour configurer la telecommande 4 boutons  Aeon Labs ZiBASE configurateur Zodianet   Allez dans longlet  Domotique   Remplissez ces champsdans la fenetre qui apparait alors:
+ Donnez un Nom du Peripherique; Categorie: Actionneur; Caracterisation: ZWave; Logo de lapplication: General.   Cliquez sur  ASSOC.   Un message devrait apparaitre, il faut alors attendre que toute les LEDs de votre  ZiBASE    Cliquez sur ENREGISTRER Dans le suivi dactivite vous devriez etre informe de la bonne association de la telecommande.       Appuyez  a laide dun trombone sur le bouton Mode de la telecommande, afin  de sortir du mode Configuration. Lappui sur une touche doit  maintenant generer un clignotement de la LED en vert.   A ce moment la, la telecommande peut etre utilisee en association directe avec dautres peripheriques  Z-Wave ZiBASE ZiBASE  Creez un nouveau scenario en mettant comme action SPECIFIER LA VALEUR DUN PARAMETRE  Z-WAVE   Selectionnez votre peripherique et indiquez le numero du parametre (250), sa taille (1 octet), et sa valeur (1).   Cliquez sur Tester le scenario, puis   a laide dun trombone, appuyez 3 secondes sur le bouton Learn de la telecommande pour la reveiller le temps de la configuration. Vous devriez voir des messages dans le suivi dactivite.         Il faut ensuite dire a la  Z-Wave Categorie: Telecommandes; Caracterisation: General; Logo de lapplication: Telecommande.   Vous navez plus qua donner un identifiant a votre bouton. Pour cette telecommande vous pouvez assigner 8 IDs radio, 4 pour lappui court (1 appui court par bouton) et 4 pour lappui long (1 appui long par bouton). Cliquez sur capture didentifiant puis sur le bouton que vous souhaitez assigner. Le probleme est que seulement 4 IDs radio soffre a vous. Pour remedier a cela il va falloir creer une deuxieme telecommande. Tout dabords assignez 4 IDs radio de votre choix (appui long ou court sur les boutons que vous souhaitez), ici jai assigne mes 4 appuis courts.   Pour assigner les 4 autres IDs radio, il suffit de creer une nouvelle telecommande et de capturer les identifiants radio.    Voila votre telecommande est desormais configuree, et vous pouvez lutiliser pour executer des scenes de la  ZiBASE  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

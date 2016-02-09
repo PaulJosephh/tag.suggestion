@@ -1,0 +1,41 @@
+<document>
+	<date>2013-12-07</date>
+        <title>IPX800 Ping Watchdog : redmarrage automatique de la Freebox en cas de plantage</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>IPX800</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>FreeBox</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 La problematique 
+ 
+Le boitier  Freebox Serveur 
+ Impossible de savoir si cest la Freebox qui est plantee ou sil ny a plus de courant dans la maison Le reseau de la maison nest plus accessible, plus dacces au NAS, pas de possibilite de redemarrage a distance
+ Plus de domotique non plus (remise en route du chauffage avant le retour par exemple) Plus non plus de josDBlog  bref, pas top du tout! 
+La solution decrite dans ce billet est une variante de  celle-ci ecrite pour SynoZwave Freebox Serveur Ping WatchDog Freebox Serveur Raccordements 
+ 
+Le schema ci-dessus propose un exemple dinterconnexions du boitier  Freebox serveur Configuration Ping WatchDog 
+ 
+L IPX800 ping Ping WatchDog Ping WatchDog M2MPING 
+ IP to Ping Ping Every x seconds Number of retry Select Relay Freebox Produits 
+ 
+ 
+Shopping:  Synology DS214+ Boitier NAS USB 3.0 Alimentation Transformateur Chargeur 12V 5A 60W adaptee Onduleur APC Back-UPS Pro 1200 Informations et sources 
+ 
+ Sommaire Domotique  .entry-content  
+                                                                                                Cette entree a ete publiee dans  Domotique FreeBox Tutoriels IPX800 permalien  .entry-utility   #post-##  
+                                          Vera Lite : Polling    #nav-below  
+
+
+
+
+                                                                 
+                                 Laisser un commentaire  Annuler la reponse. 
+                                                                                                                                                         Votre adresse de messagerie ne sera pas publiee. * Nom  * Adresse de contact  * Site web Commentaire Vous pouvez utiliser ces balises et attributs  HTML a href="" title="" abbr title="" acronym title="" b blockquote cite="" cite code del datetime="" em i q cite="" strike strong  
+                                                          #respond   #comments  
+        </text>
+</document>

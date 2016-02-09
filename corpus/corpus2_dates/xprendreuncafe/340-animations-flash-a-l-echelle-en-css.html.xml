@@ -1,0 +1,99 @@
+<document>
+	<date>2005-11-22</date>
+        <title>Animations Flash  l'chelle en CSS</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>css</tag>
+                <tag>flash</tag>
+                <tag>tips</tag>
+                <tag>tutoriel</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Peut-etre cette astuce est-elle archi connue, mais je ne l'ai jamais vue auparavant. 
+
+
+ Peut-etre avez-vous deja voulu realiser un modele de mise en page  scalable   [ 1 ]  en  CSS  contenant des animations  Flash . Et peut-etre avez-vous peste contre l'impossibilite apparente de gerer en valeurs relatives la taille desdits objets, puisque les attributs  width  et  height  d'une balise  object  sont par definition exprimees en pixels, la largeur et la hauteur restant alors desesperemment fixes lors de l'augmentation de la taille du texte et des elements de mise en page... 
+
+
+ Pour remedier a ce probleme, ma solution reside dans l'application de valeurs proportionnelles (exprimees en  em ) a l'objet Flash via  CSS . 
+
+
+ Prenons par exemple ce code  XHTML  affichant une animation Flash de 320px par 240px: 
+
+ object   id = "swf_banner"   type = "application/x-shockwave-flash"   data = "swf/ban_home.swf"   width = "320"   height = "240"  
+         param   name = "movie"   value = "swf/ban_home.swf"   / 
+         img   id = "img_banner"   src = "swf/alt/ban_home.jpg"   alt = "banner"   / 
+ /object  
+
+
+ En appliquant les regles  CSS  suivantes au corps du document et a l'objet, la taille de ce dernier devient fluide! 
+
+ body  { 
+         font-size :  100 %;  
+ } 
+html  body  { 
+         font-size : 16px;  
+ } 
+#swf_banner  { 
+         width : 20em;
+         height : 15em;
+ } 
+
+
+ Et voila, en jouant des combinaisons de touches  Ctrl + "+"  et  Ctrl + "-"  dans Firefox  [ 2 ] , votre objet flash est maintenant redimensionne a l'echelle, au meme titre que le reste des elements du document dont les dimensions sont exprimees en valeurs proportionnelles. 
+
+
+ Conversion des valeurs  px  en  em 
+
+
+ Mais - allez-vous me dire - comment convertir mes valeurs de taille d'objet Flash, exprimees en pixels, en valeurs proportionnelles ( em )? Pour cela, il existe une astuce consistant a definir une taille par defaut de la police de caractere du document courant, et de lui appliquer un ratio multiplicateur pour en obtenir les valeurs proportionnelles correspondantes. 
+
+
+ Dans notre exemple, l'objet Flash fait 320 par 240 pixels. Fixons la taille de police par defaut de notre document a  16px . 
+
+ body  { 
+         font-size :  100 %;  
+ } 
+html  body  { 
+         font-size : 16px;  
+ } 
+
+
+ Pour calculer la hauteur de notre objet Flash en  em , on effectue une simple operation: 
+
+
+ taille_en_pixels_du_flash / taille_de_police_du_body_en_pixels = valeur_en_em 
+
+
+ Soit pour la largeur: 
+
+
+ 320 / 16 = 20em 
+
+
+ Et pour la hauteur: 
+
+
+ 240 / 16 = 15em 
+
+
+ Note:  MSIE  ne permet pas par defaut le redimensionnement de police; il faut pour cela utiliser un subterfuge, sous cette forme: 
+
+ body  { 
+         font-size :  100 %;  
+ } 
+
+
+ Opera  quand a lui propose en natif le zoom a l'echelle, quelles que soient les metriques utilisees. 
+
+
+ Pour finir, voila un  exemple concret . 
+ Notes 
+ [ 1 ] Je suis preneur d'une traduction de ce terme  
+ [ 2 ] On peut aussi utiliser la combinaison  Ctrl  + molete de la souris 
+ 
+        </text>
+</document>

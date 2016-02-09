@@ -1,0 +1,27 @@
+<document>
+	<date>2008-11-04</date>
+        <title>Projeter avec un vido-projecteur sous un Linux rcalcitrant</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Sortie VGA</tag>
+        </tags_set>
+        <categories_set>
+                <category>Galeres</category>
+        </categories_set>
+        <text>
+                                                 
+Meme avec un systeme recalcitrant, il existe une solution qui fonctionne dans la plupart des cas pour projeter avec un video-projecteur sous Linux. Pour cela, il faut etre capable dallumer le portable sans demarrer le systeme, ce qui est le cas si vous utilisez un dual boot par exemple.
+ 
+ 
+Allumer le video-projecteur et le connecter a lordinateur portable.
+ 
+Allumer  lordinateur portable sans demarrer le systeme.
+ 
+Utiliser la combinaison de touche adequate pour basculer sur la sortie video. A ce stade, lecran devrait basculer sur le video-projecteur.
+ 
+Demarrer votre systeme normalement.
+ 
+Linconvenient de cette solution de fortune est que vous navez plus daffichage sur lecran du portable. Merci a Robert pour mavoir indique cette astuce.
+ 
+        </text>
+</document>

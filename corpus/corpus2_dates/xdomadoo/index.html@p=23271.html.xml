@@ -1,0 +1,15 @@
+<document>
+	<date>2012-11-30</date>
+        <title>Zipabox : Prsentation du crateur de rgles</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          La  Zipabox   Zipato Scratch Zipabox Ainsi, le createur de regles propose des blocs de puzzle pre-crees dans lesquels il suffit de faire glisser et deposer des icones de peripheriques differents et les relier en fonction de leurs formes et de leurs couleurs. Au fait, quest-ce quune regle ? Une regle est une tache automatisee. Comme par exemple sur detection de mouvement la lampe du couloir sallume, ou quand la porte souvre lorsque les enfants rentrent de lecole, un e-mail est envoye. Ainsi, une regle comporte generalement un element declencheur (capteur, horaire, ) et une action (allumage, extinction, envoi de-mail, ). Presentation du createur de regle Le createur de regles se decompose en 5 zones : Sur la gauche, les pieces de puzzle classees par categories (controle, action, capteur, operateur, variable et avance). Juste en dessous on trouve la corbeille. Il suffit de prendre un element et de le glisser dedans pour le supprimer. En haut a droite, la liste de regles creees. En dessous, la liste des differents modules  Z-Wave Et enfin la zone centrale qui permet de creer les regles.   Exemple de regle Voici un exemple de regle simple : eclairage automatique sur detection de mouvement. Dans le createur de regle, cela se traduit par :  On pourrait ecrire enormement de chose sur le createur de regle, mais une video est beaucoup plus parlante :  
+  Et vous, quelles sont vos impressions sur ce createur de regles ?  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

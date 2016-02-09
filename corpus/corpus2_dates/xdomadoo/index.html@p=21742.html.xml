@@ -1,0 +1,14 @@
+<document>
+	<date>2011-10-25</date>
+        <title>Guide dinstallation de la lampe LED DOT-IT Chacon 54793 avec la ZiBASE</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>ZiBASE Produits</category>
+        </categories_set>
+        <text>
+                                                         Ce guide va vous expliquer comment installer la lampe LED DOT-IT de la marque  Chacon ZiBASE  Connectez vous dans un premier temps a la  plateforme Zodianet   Quelques secondes dattente sont necessaires pour la synchronisation de la  ZiBASE plateforme Zodianet ZiBASE   A partir du Mode BASIC, cliquez sur Actionneurs   Cliquez sur Installer un actionneur.   Selectionnez le protocole Domia Lite.   Choisissez le logo que vous souhaitez utiliser pour cette lampe. Ce logo sera visible sur linterface PCPAD.   Donnez un nom a cet actionneur. Par exemple CH54793.   Choisissez ladresse que vous souhaitez donner a lactionneur. Mettez la lampe DOT-IT en mode association en retirant une pile puis en la remettant. Elle va clignoter pendant 6 secondes. Cliquez sur le bouton vert a cote de lidentifiant  X10 ZiBASE Vous pouvez tester le bon fonctionnement en cliquant sur le bouton vert pour lallumer et rouge pour leteindre. Cliquez sur la double fleche vers la droite pour valider.   La lampe DOT-IT est ajoutee dans la liste des actionneurs a droite du dessin de la  ZiBASE ZiBASE  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,59 @@
+<document>
+	<date>2005-07-25</date>
+        <title>CheckGMail, un notifier GMail pour Gnome</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>gmail</tag>
+                <tag>tips</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>[Via  szdavid ] 
+
+
+ CheckGMail  est, a l'instar du  notifier officiel pour Windows , un petit utilitaire en PERL qui vous signale l'arrivee de nouveaux emails sur votre compte  GMail . Il se place dans la barre des taches de votre  wm  prefere,  Gnome  bien sur  
+
+
+ Voici les paquets dont l'installation est necessaire pour que tout fonctionne: 
+
+ 
+ libxml-simple-perl 
+ liblwp-protocol-http-socketunix-perl 
+ libcrypt-ssleay-perl 
+ libcrypt-blowfish-perl 
+ libfreezethaw-perl 
+ libcrypt-des-perl 
+ libcompress-zlib-perl 
+ libgtk2-trayicon-perl (Merci  Yannick )  
+ 
+
+ Malheureusement, la librairie PERL Crypt::Simple n'est pour l'heure pas encore distribuee en paquet debian. Il faut donc installer la librairie manuellement. Pas de panique, ce n'est pas tres complique: 
+
+
+ wget http://search.cpan.org/CPAN/authors/id/K/KA/KASEI/Crypt-Simple-0.06.tar.gz
+tar -xvzf Crypt-Simple-0.06.tar.gz
+cd Crypt-Simple-0.06
+perl Makefile.pl
+make
+sudo make install 
+
+
+ Ensuite, recuperons et installons checkgmail: 
+
+
+ sudo -s
+wget http://ovh.dl.sourceforge.net/sourceforge/checkgmail/checkgmail-1.3.tar.bz2
+tar -jxvf checkgmail-1.3.tar.bz2  rm checkgmail-1.3.tar.bz2
+mv checkgmail-1.3 /opt/checkgmail
+chown -R root:root /opt/checkgmail
+ln -sf /opt/checkgmail/checkgmail /usr/bin/checkgmail 
+
+
+ Il ne reste plus qu'a lancer la commande  checkgmail  et de creer les raccourcis et entrees de menus qui vont bien  
+
+
+ 
+        </text>
+</document>

@@ -1,0 +1,99 @@
+<document>
+	<date>2013-05-12</date>
+        <title>Temprature piscine avec Sondes 1-wire (DS18B20) et Universal Sensor de chez Fibaro</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>1-wire</tag>
+                <tag>DS18B20</tag>
+                <tag>FGBS321</tag>
+                <tag>fibaro</tag>
+                <tag>Universal sensor</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ Universal Sensor FGBS321 
+  
+ + 
+ sonde 1-wire (DS18B20 waterproof) 
+ + 
+ Sonde 1-wire (DS18B20) 
+  
+  
+ Jai decide de minspirer du tutoriel de Pascal de  Domotique.info , pour enfin faire une sonde de temperature piscine. 
+ Ca faisait quelques temps que je cherchais a faire une sonde pour ma piscine. Ces sondes permettront de donner la temperature de la piscine (a laide dune 
+ Sonde 1-wire DS18B20 Waterproof ) ainsi que la temperature ambiante de lair a proximite de la piscine (a laide de la  sonde 1-wire DS18B20 ). 
+ Il faudra coupler ces deux sondes sur le module de  Fibaro Universal Sensor FGBS321 . 
+ 
+ 1er partie : branchement des sondes sur le module Fibaro 
+ 
+  
+ cest donc tres simple, jai dabord connecter ma sonde waterproof, 
+ on part de gauche a droite par rapport a la photo au dessus 
+ Le fils rouge alimente par du 12V et le bleu (neutre) 
+ Le fil jaune et le vert (ne me serviront pas). 
+ Les fils Marron, blanc (1-wire) et (autre) bleu seront quand a eux connectes a la 1ere sonde waterproof. 
+ Le fil noir du module est le fil dantenne 
+ La sonde waterproof a 3 fils (rouge jaune et noir), elle permettra de me donner la temperature de leau 
+ 
+  
+ Il faudra donc raccorder votre module comme suit : 
+ Module       Sonde 
+ Marron    Rouge 
+ Blanc    Jaune 
+ Bleu      Noir 
+  
+ Jai en suite rajouter une deuxieme sonde (celle-ci nest pas waterproof), qui me donnera la temperature de lair ambiant au bord de la piscine. 
+ Pour tester si ca fonctionne je lai rajoute sur le sucre (par contre il faut faire attention au sens de montage de la sonde, cest linverse du diagramme donne par Fibaro) 
+ 
+ les deux sondes sont maintenant connectees. 
+  
+ 
+ Le module quand a lui raccorde sur un bloc dalimentation en 12V (un transfo/adaptateur de puissance recupere) 
+ 2eme partie : Il faut maintenant linclure dans la box (enloccurrencele Home Center2 de  Fibaro ). 
+ Encore une fois cest tres simple 3 appuis rapide sur le bouton du module et celui ci est parfaitement reconnu : 
+  
+ 
+ Jai assigne le module a sa section et a sa piece qui est la piscine (il fait meilleur dans leau quen dehors). 
+ voila comment jai installe ma sonde waterproof, je dois encore lattache aucabledu phare. 
+ 
+ La sonde recupere la temperature de leau a une profondeur de 60 cm environ. Le module quand a lui est derriere dans un boitier etanche avec lautre sonde mesurant la temperature exterieure. 
+ 
+ Le boitier se trouve a une quinzaine de metre de la maison. Je nai aucun soucis pour le maillage entre le module et la box. 
+ Je peux maintenant connaitre la temperature de ma piscine en visualisant sur mon telephone ou sur lordinateur. 
+ Vous pourrez pour lhiver prendre les mesures necessaire a partir de la prise de temperature. 
+ La future etape est un capteur de niveau mindiquant le manque deau permettant darreter le fonctionnement de la pompe afin quelle ne tourne dans le vide avec les soucis qui en decoulent. 
+ Si vous avez des idees ; je suis preneur. Encore merci pour toutes les indications de Pascal du blog  Domotique.info . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

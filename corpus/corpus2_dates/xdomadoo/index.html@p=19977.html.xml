@@ -1,0 +1,15 @@
+<document>
+	<date>2009-08-24</date>
+        <title>Installation de linterface PLCBUS PLC1141</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>PLCBUS Produits</category>
+        </categories_set>
+        <text>
+                                                         1. Telecharger le pilote  USB Support Client Domadoo Pilote pour Windows XP/2000/ME/98 Pilote pour Windows Vista 2. Installer le pilote sur votre ordinateur. 3. Connecter linterface  PLCBUS1141 USB 4. Faites un clic droit sur  Poste de travail  et selectionner  Proprietes , puis cliquer sur longlet  Materiel  et enfin sur  Gestionnaire de peripherique . 5. Verifier quel numero de port COM a ete attribue a linterface en cliquant sur  Ports (COM et LPT) . Vous pouvez le changer si vous le souhaiter (port COM5 par exemple cidessous).  
+   Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

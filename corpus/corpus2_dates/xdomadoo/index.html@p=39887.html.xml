@@ -1,0 +1,22 @@
+<document>
+	<date>2014-07-23</date>
+        <title>Guide dutilisation de linterface RFXtrx433E (RFXCOM 14103) avec la box domotique eedomus</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>14103</tag>
+                <tag>chacon</tag>
+                <tag>connected object</tag>
+                <tag>eedomus</tag>
+                <tag>guide</tag>
+                <tag>oregon scientific</tag>
+                <tag>RFXCOM</tag>
+                <tag>tuto</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Domotiques</category>
+        </categories_set>
+        <text>
+                                                         Grace a la  domotique domotique domotique eedomus Z-Wave domotique Z-Wave Chacon Oregon Scientific X10 Somfy domotique eedomus 1- Installation du RFXtrx433E Branchez votre RFXtrx433Esur le port  USB domotique eedomus USB Accedez a linterface de votre box  domotique eedomus Selectionnez votre box  domotique eedomus Cliquez sur loption Configurer. La categorie RFXUSB est affichee (si celle-ci nest pas affichee, attendez une minute environ et actualisez la page). Cochez les protocoles que vous souhaitez activer et cliquez sur Sauver pour valider votre selection (il est conseille de ne cocher que les protocoles que vous utiliserez pour ne pas degrader les performances du  RFXCOM Vous pourrez desormais ajouter des capteurs ou actionneurs utilisant des protocoles compatibles avec votre RFXtrx433E (attention, certains peripheriques ne pourront etre ajoutes sur votre  eedomus Cliquez ici pour decouvrir la liste des peripheriques compatibles 2- Ajout de capteurs Pour ajouter un capteur, rendez-vous dans Configuration du systeme et cliquez sur Ajouter ou supprimer un peripherique. Cliquez ensuite sur Ajouter un autre type de peripherique. Selectionnez RFXCOM USB Cliquez sur Creer. Une nouvelle fenetre apparait permettant de definir les reglages votre capteur: nom, piece, affichage personnalise, usage, notes utilisateur, uniteettypes de donnees. Pour indiquer ladresse du capteur,celle-ci est affichee en haut dans messages non lus (ou dans Historique des notifications). Definissezles reglages de votre capteur et cliquez sur Sauver pour valider ceux-ci(dans notre exemple, nous avons ajoute un capteur de temperature). Votre capteur est desormais disponible sur linterface de votre  eedomus 3- Ajout dactionneurs 3.1- Automatiquement Pour ajouter un actionneur  Chacon Blyss telecommande interrupteur Cliquez sur Ajouter ou supprimer un peripherique Cliquez ensuite sur Ajouter un autre type de peripherique. Selectionnez RFXCOM USB Cliquez sur Creer. Une nouvelle fenetre apparait permettant de definir les reglages de votre actionneur : nom, piece, affichage personnalise, usage, notes utilisateur et protocole.Pour indiquer ladresse de lactionneur, envoyez un ordre a partir de votre telecommande ou actionneur. Une notification apparait dans linterface de votre  eedomus Definissezles reglages de votre actionneuret cliquez sur Sauver pour valider ceux-ci(dans notre exemple, nous avons ajoute un actionneur qui active ou desactive leclairage). Votre actionneur est desormais disponible sur linterface de votre  eedomus 3.2- Manuellement Voici la procedure a suivre pour ajouter manuellement les peripheriques suivants :   Chacon A partir de la page daccueil de votre interface, cliquez sur Configuration, Ajouter ou supprimer un peripherique, Ajouter un autre type de peripherique, RXFCOM  USB Indiquez un nom pour votre actionneur, la piece dans laquelle elle se situe, son usage et ajoutez une adresse de votre choix ayant 8 chiffres hexadecimaux (entre 00000001 et 03FFFFFF) puis cliquez sur Sauver pour valider vos reglages. Dans notre exemple, nous utilisons ladresse : 00002222 (attention, votre adresse ne doit pas etre utilisee par un autre actionneur). Apres avoir sauvegarde vos reglages, rendez-vous dans la piece dans laquelle se situe votreactionneurcree,mettez votre peripherique  Chacon Si lapprentissage a bien ete realisee, alors votre peripherique Chacon  RFY Decouvrez notre guide dutilisation des peripheriquesRFY ( Somfy domotique Eedomus  ARC ou  X10 Decouvrez notre guide dutilisation des peripheriques  X10 domotique Pour plus dinformations, accedez a la  documentation presentee par Eedomus  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

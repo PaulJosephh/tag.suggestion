@@ -1,0 +1,32 @@
+<document>
+	<date>2007-07-14</date>
+        <title>Importer son carnet d'adresses GMail dans Mac OS X</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>gmail</tag>
+                <tag>mac</tag>
+                <tag>mail.app</tag>
+                <tag>osx</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Le  carnet d'adresses  sous Mac OS X peut etre rempli avec ses contacts  GMail  via une operation d'export/import dont voici les etapes: 
+
+ 
+ Depuis votre compte GMail, cliquez sur  Contacts  puis  Exporter 
+ Selectionnez le format texte  Outlook CSV , enregistrez le fichier sur votre disque dur 
+ 
+
+ Le carnet d'adresse du Mac travaille en encoding MacRoman, tandis que l'export des contacts GMail est effectue en ISO-8859-1: il nous faut convertir le fichier. Pour cela, munissez-vous d'un editeur de texte capable de ce type d'operations (TextEdit ou  TextMate  sont de bons candidats), et reenregistrez le fichier au format d'encodage  MacRoman . 
+
+
+ Depuis l'application  Carnet d'Adresses  du Mac, selectionnez  Fichier ,  Importer ,  Fichier texte  et pointez le fichier que vous venez d'encoder. L'interface d'assignation des champs est assez parlante, il s'agit de gerer la correspondance entre les colonnes du fichier d'export GMail avec les champs types du carnet d'adresses Mac: 
+
+
+ 
+
+
+ Vous pouvez a tout moment controler la pertinence de vos associations de champs sur les entrees du fichier au moyen des fleches precedentes et suivantes. Une fois que vous etes satisfait du resultat, vous pouvez lancer l'importation. 
+        </text>
+</document>

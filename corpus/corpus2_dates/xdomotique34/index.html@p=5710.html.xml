@@ -1,0 +1,99 @@
+<document>
+	<date>2013-09-28</date>
+        <title>Modem de Tlinfo XBEE (lecture de 2 compteurs) de Cartelectronic</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ Votre compteur electronique garde en memoire et tient a votre disposition plusieurs indications mais elles sont affichees lune apres lautre. Pour connecter le modem, les Compteurs EDF disposent de deux bornes I1 et I2 : 
+ 
+ Ces deux bornes vont permettre a votre compteur de communiquer avec un Modem et vous retransmettre toutes les informations concernant votre compteur, votre abonnement, la puissance, et bien sur vos consommations. 
+ A lautre bout, il vous faut connecter le boitier recepteur a votre port USB de lordinateur. 
+ 
+ Je vous conseille de faire un petit tour sur ce document Sorties de tele-information client des appareils de comptage electroniques utilises par ERDF ( ERDF-NOI-CPT_O2E)  et aussi daller lire larticle du  blog de Planete-domotique . 
+ Ces compteurs comme vous avez pu le lire, emettent un signal module sur 50 Hz. Il existe pourtant de nombreux schemas de circuit imprime disponible sur internet afin de demoduler ce signal et obtenir par exemple votre consommation en temps reel. 
+ Jai decide dutiliser le  Modem de Teleinfo XBEE (lecture de 2 compteurs) de Cartelectronic  qui etait pour moi le plus pratique.  Il se base sur ce protocole, et il vous permet de connecter votre compteur EDF a votre ordinateur par le port USB par lintermediaire dune liaison radio ( XBEE  2.4Ghz).  
+ De plus, cet ensemble permet de gerer 2 compteurs en parallele, par exemple un compteur principal et un compteur secondaire (production photovoltaique, sous compteur PAC,) 
+ Composition du package 
+ 
+ Ce modem est compose de 2 boitiers: 
+ 
+ Un boitier emetteur qui se connecte aux compteurs, et necessite une alimentation electrique (bloc secteur 9V 250mA) 
+ Un boitier recepteur,sans alimentation externe, a connecter au port USB de votre PC. 
+ 
+ caracteristiques techniques 
+ FONCTIONS : 
+ 
+ Suivez votre consommation electrique 
+ Suivez votre production delectricite 
+ Precision de la mesure a 100% 
+ Connexion USB 
+ Installation facile 
+ Compatible avec les compteurs Linky en mode historique. 
+ Compatible avec le controleur eedomus 
+ Compatible avec la carte Rasberry Pi 
+ Compatible avec la carte Olinuxino (Olimex) 
+ 
+  
+ CARACTERISTIQUES TECHNIQUES : 
+ 
+ Alimentation recepteur : 5V 50mA par le port USB 
+ Alimentation emetteur: 5V 250mA Mini (recommande 9V 1A) 
+ Cable USB miniB : 1,5m (livre) 
+ Nombre de compteur : 2 entrees optocouplees 
+ Indicateurs : 4 leds detat () 
+ Materiau : Boitier en ABS 
+ Indice de protection : IP54 (emetteur IP54 si joint silicone autour de lantenne du XBEE) 
+ Drivers pour Windows (XP, seven), LINUX, MAC OSX 
+ 
+ Vous trouverez toute la documentation ainsi que les softwares a telecharger  ici 
+  
+ Nous allons maintenant voir comment recuperer toutes ces informations a partir de votre PC. 
+ Une fois connecte a votre compteur EDF, vous pourrez relever et controler vos heures pleines et creuses. Pour cela Il suffira de connecter lemetteur a votre compteur et le recepteur a votre ordinateur a laide du cable USB. 
+ 
+ Cest bien joli, mais il nous faut le programme adequat, pour cela il faut vous rendre  ici. 
+ Ce logiciel une fois installe va enregistrer votre ou vos consommations, oui vous pourrez recuperer les informations de deux compteurs (EDF et photovoltaique par exemple). 
+ 
+ Il faudra vous rendre dans le menu configuration 
+ 
+ Nous avons selectionner le repertoire ou le fichier de donnees sera sauvegarde ainsi que les informations concernant le compteur (car bien sur vous pourrez faire enregistrer les donnees des deux compteurs (voir meme creer un deuxieme fichier pour le compteur n2)). 
+ voila ce que lon trouve lorsque lon ouvre le fichier 
+ 
+ En conclusion 
+ Cest une facon interessante de pouvoir recuperer ses donnees de consommation, de controler le passage des heures pleines et creuses et de relever vos index a fournir a EDF si vous etes inscrit au Releve Confiance. Nous verrons dans un prochain article comment recuperer vos donnees a partir de votre Box domotique. 
+ Vous trouverez ce modem chez  Cartelectronic  au prix de 140 , une solution simple a mettre en place et pratique pour avoir les donnees exactes de votre compteur. Autre point, il faudra que la teleinfo soit activee sur votre compteur ; dans le cas contraire il faudra en faire la demande a ERDF. La solution peut paraitre couteuse mais vous recuperez vos veritables donnees et tout ceci sans fil entre votre compteur et votre ordinateur 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

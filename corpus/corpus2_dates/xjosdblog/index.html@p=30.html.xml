@@ -1,0 +1,28 @@
+<document>
+	<date>2009-05-19</date>
+        <title>Freebox et UPnp Av derrire un routeur externe</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>DLink</category>
+                <category>FreeBox</category>
+                <category>Questions Reseau</category>
+                <category>Synology</category>
+                <category>UPNP-DNLA</category>
+        </categories_set>
+        <text>
+                                                 
+Comment rendre le serveur UPnP Av  TwonkyMedia NAS Synology switch/routeur DLink le  boitier  HD se trouve sur un VLAN dedie situe a lexterieur de lintranet cree par le  
+ 
+Autoriser les paquets ayant comme destination 239.255.255.250 (Ils contiennent ladresse IP de la machine UPnP Av ainsi que diverses infos) ;
+ 
+ (Menu AvanceFiltre Entrant sur mon DLink DIR-635) 
+Rediriger le port 9000 pour TwonkyMedia (ou 61119 pour XBMC) en TCP et UDP vers votre ladresse du systeme hebergeant le serveur UPnP.  (Avec TwonkyMedia, le numero du port est renseigne et modifiable dans le fichier twonkyvision-mediaserver.ini.) 
+ (Menu AvanceRedirection de port sur mon DLink DIR-635) 
+Rebooter la FreeBoxHD et patienter quelques minutes pour voir apparaitre le serveur UPNP.
+ 
+ Freebox, UPnp Av et routeur Linksys Freebox : UPnP sans mode routeur !
+ 
+        </text>
+</document>

@@ -1,0 +1,19 @@
+<document>
+	<date>2008-11-16</date>
+        <title>Environnement verbatim personnalis sous Kile</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>kile</tag>
+        </tags_set>
+        <categories_set>
+                <category>Applications</category>
+                <category>LaTeX</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+ Kile LaTeX Ubuntu  Hardy Heron verbatim Settings  Configure Kile   LaTeX  General   Configure ~/.kde/share/apps/katepart/syntax/latex.xml /usr/share/apps/katepart/syntax/latex.xml /usr/share/kde4/apps/katepart/syntax/latex.xml locate latex.xml 
+ 
+ disable syntax highlighting in kile 
+        </text>
+</document>

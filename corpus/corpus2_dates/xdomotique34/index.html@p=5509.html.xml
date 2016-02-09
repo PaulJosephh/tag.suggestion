@@ -1,0 +1,122 @@
+<document>
+	<date>2013-09-03</date>
+        <title>Toujours plus avec la box eedomus</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>box eedomus</tag>
+                <tag>EnOcean</tag>
+                <tag>protocole</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Eedomus</category>
+                <category>Evenements</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+  
+ + 
+ 
+  
+  
+ = 
+ Support EnOcean 
+  
+ Voila une belle formule pour cette rentree scolaire. Lequipe de  Connected Object nous sort une grosse mise a jour pour leedomus. 
+ 
+ Voyons un peu les grandes lignes de cette mise a jour avec des nouveautes tel que le support de nouveaux peripheriques et surtout du fameux protocole  EnOcean , des ameliorations et quelques corrections de bugs. 
+ Pour ceux qui ne se sont pas connectes a leur console de la box, nhesitez pas a y faire un tour. 
+ Mise a jour du 2 septembre 2013 
+ Z-Wave: 
+ support de nouveaux produits Z-wave de la marque Vision  ici 
+ 
+ Support dudetecteur de monoxyde de carbone Vision 
+ Support dudetecteur de fumee Vision 
+ Support de lasirene/flash Vision 
+ Support dudetecteur de chocs et vibrations Vision 
+ Support dudetecteur douverture de porte de garage Vision 
+ Support dudetecteur douverture de porte Vision 
+ Support dudetecteur de mouvement Vision 
+ 
+  
+ 
+ Support de la prise Qees Reto 
+ 
+  
+ 
+ Support preliminaire des fenetresetvolets de toit Fakro 
+ 
+ Nouveau peripherique: actionneur UPnP pour piloter vos lecteurs UPnP (Freebox serveur, NAS, Windows media player, XBMC) 
+ 
+  
+  RFXTRX : support des protocoles Avidsen/Chacon (Detecteurs de fumee Kingdun), Chacon, ARC/Domia 
+  
+ Introduction des Themes dicones (Configuration / Personnaliser laffichage). Le theme Moderne est active par defaut, vous pouvez revenir a lancien a tout moment. 
+  
+ Support BETA du protocole EnOcean  Capteurs (via le dongle EnOcean ) 
+ cest la le morceau tres interessant, car eedomus frappe fort avec le support de ce nouveau protocole (sans pile/ni fil), je ne vais pas reinventer la roue (vous avez plusieurs articles traitant du  protocole  et des  produits EnOcean , ainsi que des  tests ). 
+ 
+ a laide du stick usb EnOcean vous allez agrandir considerablement les capacites de votre eedomus, vous pourrez gerer les nouveaux modules sans fil ni pile (le reve, ne plus changer les piles tous les 6 mois). 
+ 
+ Notifications Push sur les apps iOS ( En cours de validation par Apple ) et Android (uniquement disponible en Compte Premium) 
+ Inclusion Z-Wave depuis les apps pour Smartphones (facilite linstallation a distance de son ordinateur) 
+ Support du module teleinformation USBTIC de chez  Cartelectronic 
+ 
+ Report des SMS restants en fin de mois (jusqua 60 SMS cumulables par mois) 
+  
+ Voila donc pour les nouveautes, ici nous avons les ameliorations 
+ Gestion des peripheriques USB branches derriere un HUB USB alimente 
+ Ecran de Diagnostic sur les apps iOS et Android 
+ Ajout dun onglet Diagnostic pour aider a la configuration de vos cameras IP 
+ Description de linteroperabilite entre Eedomus et EtherRain-8 pour le pilotage de lirrigation 
+ 
+ Les tags non utilises des peripheriques RFID peuvent maintenant etre supprimes 
+ Les regles Automatiques sont masquees par defaut pour davantage de clarte (une case a cocher permet de les afficher) 
+ Les identifiants API ne sont plus necessaires lorsque les appels a l API locale sont executes par la box elle meme (Utiliser des URL de type http://localhost/) 
+ Ajout dun parametre notes dans get-periph_list de lAPI afin dafficher les notes utilisateur 
+ Les notifications peuvent desormais etre supprimees 
+ Le bouton de verrouillage nest plus affiche si le code PIN na pas ete change 
+ RFXUSB/RFXLAN: Meilleure gestion des notifications, loption Au demarrage du drivers est remplacee par Nouveaux peripheriques (Dans ce cas une notification napparait que si le peripherique nest pas reference) 
+ Les changements de valeurs des Dimmer (FGD211) sont desormais repris instantanement par la box eedomus 
+ Les valeurs inserees via lAPI pour les peripheriques de type Texte netaient pas historisees 
+ Contournement dun bug introduit par les modules Fibaro FGD211 en version 2.2 (necessite une exclusion puis une reinclusion du peripherique) 
+  
+ En conclusion : 
+ Il y avait quelques temps que lequipe de Connected object ne nous avait pas sorti une mise a jour de cette ampleur. Quelques infos sur leur page Facebook, laissaient pressentir dune belle nouveaute tel que le support du protocole EnOcean. 
+ Au debut de lannee nous avions assiste avec Pascal Stephany de la boutique  My-Domotique  et de son blog  Domotique-info  a un  seminaire  ou lon nous avait presente ces fameux capteurs sans pile ni fil. 
+ Je peux vous dire que nous netions pas du tout sceptique au sujet de ce protocole a la fin du seminaire, protocole deja utilise dans une multitude de projets industriels (aviation, chemin de fer, centrales electriques.). 
+ Qui na jamais rale sur le fait detre oblige de changer sans arret les piles de ses differents capteurs (re parametrer certains modules, la pollution des piles et bien sur le cout dachat). Je ne fais evidemment pas la pub pour tel ou tel produits EnOcean, il y a deja des centaines de fournisseurs et des centaines de produits sur le marche mais plus sur cette nouvelle technologie propre qui je pense va seduire ceux qui hesitaient encore (de peur detre oblige de mettre les mains dans le cambouis comme on dit). On le voit clairement toutes nos box sont en cours devolution afin de supporter ce protocole. 
+ Alors allez vous saute le pas ? 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

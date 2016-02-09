@@ -1,0 +1,14 @@
+<document>
+	<date>2005-01-31</date>
+        <title>Mozilla Thunderbird - Minimize to tray</title>
+        <author>NiKo</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>J'utilise Thunderbird depuis quelques temps maintenant, et je ne regrette pas ce choix : le programme est simple, fiable, et performant. Cependant, une petite chose me genait, l'impossibilite de reduire en icone l'application afin qu'elle tourne en tache de fond (notifiant ainsi de nouveaux emails). En fouinant un peu sur  mozdev , j'ai trouve cette  extension  qui solutionne le probleme (pour Windows - sous linux les desktops virtuels sont faits pour cela)  
+
+ Pour moi, c'est desormais le client de messagerie parfait tant sous Windows que sous Ubuntu ! 
+        </text>
+</document>

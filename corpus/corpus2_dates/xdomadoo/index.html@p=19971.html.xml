@@ -1,0 +1,15 @@
+<document>
+	<date>2009-08-23</date>
+        <title>Commander son portail motoris en X10</title>
+        <author> David </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>X10 Applications</category>
+        </categories_set>
+        <text>
+                                                         Motorisation de portail a battants, coulissant, porte de garage,  la tres grande majorite de ces automatismes peut etre controlee depuis votre installation  domotique X10 En effet, toutes ces motorisations sont en general equipees dun bornier de type contact sec, pour recevoir un ordre douverture ou de fermeture, depuis un autre appareil (Interphone, ). Le module  X10 recepteur universel X10 reference UM7206   Positionnez le commutateur de gauche sur MOMENTARY (le module UM7206 est alors configurer pour envoyer un contact sec sur reception dun ordre  X10 Positionner le commutateur de droite sur la position RELAY ONLY (seul le  relais Reliez le bornier du module UM7206 au bornier contact sec de votre motorisation.   Regler le code Maison et et le code Unite  X10 A partir de maintenant, lorsque vous envoyez le code B1 ON depuis votre logiciel  domotique Homeseer X10   Exemples de connexion: Motorisation  mhouse Se connecter sur le bornier OPEN en parallele des connexions existantes (contacteur a cle, interphonne, )  Motorisation  Came modele KRONO Se connecter sur les bornes 2 et 7 en parallele des connexions existantes (contacteur a cle, interphonne, )  
+    Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

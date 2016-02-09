@@ -1,0 +1,91 @@
+<document>
+	<date>2007-05-19</date>
+        <title>Petit pense-bte des raccourcis Mac OS X</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>accessibilite</tag>
+                <tag>apple</tag>
+                <tag>clavier</tag>
+                <tag>osx</tag>
+                <tag>tips</tag>
+        </tags_set>
+        <categories_set>
+                <category>Mac</category>
+        </categories_set>
+        <text>Je travaille depuis peu et a temps partiel sous  Mac OS X  et je suis relativement destabilise par la profusion de raccourcis clavier propres au systeme d'exploitation. Voici donc un petit pense-bete des raccourcis que j'ai mis un peu de temps a decouvrir et a assimiler  [ 1 ] : 
+
+
+ Gestion des fenetres 
+
+ 
+ Naviguer entre les applications:  pomme + Tab 
+ Masquer les fenetres de l'application active:  pomme + H 
+ Masquer toutes les autres applications:  pomme + alt + H 
+ Naviguer parmis les fenetres de l'application active:  pomme +   ou  pomme +  
+ Minimiser une fenetre dans le dock:  pomme + M 
+ 
+
+ Emulation de touches et caracteres virtuels 
+
+ 
+ Emuler la touche  delete :  fn + backspace 
+ Emuler les touches  Page Up  et  Page Down :  fn + Haut  et  fn + Bas 
+ Emuler les touches  Home  et  End :  pomme + Gauche  et  pomme + Droite 
+ 
+
+ Raccourcis pratiques du Finder 
+
+ 
+ Vider la corbeille depuis le finder:  pomme + shift + backspace 
+ Ouvrir le repertoire home:  pomme + shift + H 
+ Ouvrir le repertoire des applications:  pomme + shift + A 
+ Ouvrir un emplacement sur le systeme de fichier:  pomme + shift + G 
+ 
+
+ Caracteres speciaux 
+
+ 
+ Pipe (|):  alt + shift + L 
+ Accolades ({}):  alt + (  et  alt + ) 
+ Crochets ([]):  alt + shift + (  et  alt + shift + ) 
+ Backslash (\):  shift + alt + : 
+ Euro ():  alt + $ 
+ Tilde (~):  alt + N 
+ E dans l'O ():  alt + O 
+ C cedille majuscule (C):  alt + c 
+ U accent grave majuscule (U):  alt + u 
+ 
+
+ Captures d'ecran 
+
+ 
+ Pour une capture de tout l'ecran:  pomme + shift + " (guillemet double) 
+ Pour une capture zonnee de l'ecran:  pomme + shift + ' (guillemet simple) 
+ Pour capturer une fenetre:  pomme + shift + ' (guillemet simple) + Espace  (selectionner ensuite la fenetre a capturer) 
+ 
+
+ Navigation au sein de formulaires 
+
+
+ Dans Safari comme dans Firefox, il faut activer manuellement la navigation au sein des formulaires au moyen de la touche  Tab : 
+
+ 
+ Dans Safari, cochez  Preferences  Avancees  La touche Tab permet de naviguer parmis les objets des pages web 
+ Dans Firefox, cochez  Preferences  Avance  Toujours utiliser les touches de navigation pour se deplacer a l'interieur d'une page 
+ 
+
+ Pour activer la navigation au clavier pour l' UI  du systeme d'exploitation, il faut se rendre dans  Preferences Systeme  Clavier  Souris  Raccourcis clavier  et selectionner l'option  Dans les fenetres et zones de dialogues, la touche Tabulation activera:  tous les reglages . 
+
+
+ D'autres ressources plus completes sur le sujet 
+
+ 
+ Reference sur l'Apple Developer Center 
+ Raccourcis clavier Mac OS X: Documentation Apple 
+ Raccourcis clavier sur Funnymac 
+ Referentiel d'accessibilite Mac OS X 
+ 
+ Notes 
+ [ 1 ] Ces raccourcis sont valables pour le  Macbook . Je ne sais pas s'ils fonctionnent sur les autres modeles Apple... 
+        </text>
+</document>

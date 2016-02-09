@@ -1,0 +1,21 @@
+<document>
+	<date>2014-05-26</date>
+        <title>Guide dinstallation du dtecteur de choc Vision Security ZS5101</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>capteur</tag>
+                <tag>detecteur de choc</tag>
+                <tag>guide</tag>
+                <tag>tuto</tag>
+                <tag>vision security</tag>
+                <tag>z-wave</tag>
+                <tag>zs5101</tag>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         Le detecteur de choc Vision Security ZS5101 Z-Wave 1- Presentation Voici le detecteur de choc  Vision Security Ses fonctions : Detection de choc Bouton permettant linclusion/exclusion du detecteur dans un reseau  Z-Wave Detection de pile faible Protection anti-sabotage Entree filaire Supporte un groupe dassociation (5 peripheriques maximum) Utilise le  SDK Z-Wave Ses caracteristiquestechniques: Type de peripherique  Z-Wave Alimentation : 1 pile Lithium 3V CR123A Frequence : 868.42 MHz (en Europe) Distance de transmission : 30 m environ Affichage LED Temperature de fonctionnement : -15 a 60C Dimensions : 75 x 42 x 26 mm 2- Alimentation Pour alimenter votre detecteur de choc  Vision Security Inserez ensuitelapile CR123A (lithium 3V) fournie.Votre detecteur de choc est desormais alimente et la LED clignotera lentement indiquant quil nest pas inclus dans un reseau  Z-Wave 3- Inclusion Vous devez inclure ce detecteur pour lutiliser dans un reseau  Z-Wave domotique Z-Wave Apres la bonne inclusion de votre detecteur de choc  Vision Security   Zipabox Vision Security Zipabox  Home Center 2 et Home Center Lite(pour plus dinformations, decouvrez notre guide dutilisation du detecteur de Choc  Vision Security  Vera(pour plus dinformations, decouvrez notre guide dutilisation du detecteur de Choc  Vision Security   Eedomus Vision Security Eedomus   ZiBASE Vision Security Zibase Vous pouvez desormais visualiser a distance si il y a destentatives de cambriolage grace a des detections de vibrations ou des situations de sabotages. Ce detecteur dispose egalement dune entree filaire permettant detre utilise comme un transmetteur universel en reliant les deux entrees a un detecteur (normalement ferme) de fumee, gaz, monoxyde de carbone etc. 4- Fixation Le  detecteur de choc Vision Security ZS5101 Si vous utilisez ladhesif double face, prenez votre support de fixation. Puis fixez celui-cisur votre detecteur de choc. Mettez ladhesif au dos de ce supporten retirant letiquette dune face. Lorsque vous retirez letiquette de lautre face, vous pouvez desormais installer votre detecteur de chocsur uneporte ou fenetre. Si vous utilisez les deux vis, mettez votre support de fixation contre une porte et vissez les deux vis. Lorsque celui-ci sera fixe, vous pourrez mettre votre detecteur de choc. 5- Fonctionnalites Suite a lintegration de votre  detecteur de choc Vision Security ZS5101 Z-Wave 6- Conclusion Le  detecteur de choc Vision Security ZS5101 Z-Wave  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

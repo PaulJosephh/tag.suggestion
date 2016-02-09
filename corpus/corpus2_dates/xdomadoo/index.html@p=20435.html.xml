@@ -1,0 +1,14 @@
+<document>
+	<date>2010-03-25</date>
+        <title>Monitoring rseau sous HomeSeer avec UltraMon</title>
+        <author> David </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels Homeseer</category>
+        </categories_set>
+        <text>
+                                                         Le plug-in UltraMon payant (19,95$) permet de surveiller les elements actifs de votre reseau, et dinteragir avec leur etat.  1. Installation du plug-in UltraMon Depuis linterface web d HomeSeer UPDATER NEXT Vous etes alors sur linterface dinstallation de modules complementaires et plug-in. Descendez jusqua UltraMon (Network Monitor) Plug-in, cochez la case puis cliquer sur  Next  Confirmez linstallation en cliquant a nouveau sur  Next  A la fin de linstallation vous devez redemarrer  HomeSeer   2. Configuration du plug-in UltraMon Dans le menu  Setup Disabled Enabled Cliquez sur  Save Vous pouvez maintenant configurer le plug-in en cliquant sur  Config UltraMon va alors scanner le reseau a la decouverte de votre materiel. Vous pouvez alors declarer le materiel reseau a monitorer. Dans longlet  Discovered Cocher alors la case en face du materiel souhaite, puis cliquer sur  Save  Cliquez ensuite sur  DEVICES Vous constatez que votre materiel a ete ajoute a la liste. Vous pouvez aussi ajouter manuellement un materiel reseau : cliquer sur  ADD DEVICE  Vous pouvez ensuite personnaliser la configuration de chaque appareil en cliquant sur sa reference (REF) dans la liste et changer le nom, ladresse reseau (en cas de changement), le type,   3. Configuration des fonctions dextinction a distance. Il est necessaire dinstaller loutil  PsShutdown Microsoft http://technet.microsoft.com/en-us/sysinternals/bb897541.aspx Telechargez le fichier .ZIP puis copiez le programme extrait  PSSHUTDOWN.EXE C:Program FilesHomeSeer HS2 Il faut ensuite configurer le compte et mot de passe administrateur ayant les droits dadministration sur les PC distants. Dans le menu Options, remplir les champs  Shutdown Username Shutdown Password  4. Etat des materiels du reseau. Dans longlet  Status Devices Vous constatez letat des elements du reseau:  Online Offline Pour le materiel de type Computer il est possible dexecuter certaines actions: Send WOL Shutdown Reboot Hibernate  5. Actions et declencheurs UltraMon Il est possible de declencher des actions sur un evenement Ultramon. Exemple Dans le  Trigger Device Value Change Dans le choix du  Device Network UltraMon Choisir la condition.  Il est aussi possible dexecuter une action reseau avec UltraMon Exemple Dans longlet  Action UltraMon Device Action Choisir laction et lordinateur souhaite.   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

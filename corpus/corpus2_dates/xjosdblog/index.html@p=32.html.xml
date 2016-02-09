@@ -1,0 +1,21 @@
+<document>
+	<date>2009-02-23</date>
+        <title>Prise en compte du fichier .bash_profile sous Ubuntu</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Galeres</category>
+                <category>Systeme</category>
+        </categories_set>
+        <text>
+                                                 
+Par defaut, le fichier   .bash_profile 
+ 
+Ouvrir un terminal
+ 
+Aller dans  Edition  Profils  Modifier  Titre et commande 
+Cocher loption  Lancer la commande en tant que shell de connexion 
+Lorsque cette option est activee, les scripts de connexion de lutilisateur, comme le  .bash_profile 
+        </text>
+</document>

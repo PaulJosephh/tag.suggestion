@@ -1,0 +1,19 @@
+<document>
+	<date>2014-05-27</date>
+        <title>
+Mini MAJ Eedomus: modules Qubino, OpenKarotz, et Withings !</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>eedomus</tag>
+                <tag>OpenKarotz</tag>
+                <tag>Qubino</tag>
+                <tag>Withings</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>eeDomus</category>
+                <category>News</category>
+        </categories_set>
+        <text>Lequipe de Connected Objet nous fait encore le coup de la mini mise a jour en cours de mois, pour notre plus grand bonheur :D Cette fois, nous avons le support de nouveaux peripheriques Z-Wave, de marque Qubino, qui proposent dimmer, commutateur, shutter, avec suivi de consommation et gestion dunesonde de temperature en option ! Des micro modules Z-Wave tres interessants, que nous testerons tres bientot sur le blog ;-)   Nous avons ensuite larrivee de deux nouveaux objets connectes.   Tout dabord, le support du Karotz, mais avec cette fois le firmware  OpenKarotz  installe. Il sagit dun firmware alternatif qui rend le Karotz totalement autonome, et bien mieux adapte a lutilisation avec nos box domotiques. Tout est explique sur le site du developpeur, la mise en place est tres simple. Une fois le Karotz migre sous OpenKarotz, il suffit dajouter ce nouvel objet connecte a l eedomus , en indiquant son adresse IP dans la configuration. Plusieurs commandes seront creees automatiquement pour piloter le lapin:   On pourra lallumer / lendormir, bouger ses oreilles ou animer sa led de couleur, lui faire prendre une photo, ou encore le faire parler grace a sa synthese vocale. Les messages sont bien sur personnalisables, en allant simplement dans longlet Valeurs du peripherique:   Bref, si vous avez un Karotz, avec OpenKarotz vous y gagnez une nouvelle camera de surveillance et un moyen de diffuser des messages vocaux (ou meme la radio, par simple commande de la box). Une fonctionnalite geniale !  Le second objet connecte est le pese personne de Withings. Coup de chance pour moi,apres le Karotz jai egalement la balance, que jai donc pu tester :D Ici, meme principe, on demande a ajouter lobjet connecte correspondant, et on donne lautorisation a l eedomus  dacceder a notre compte Withings:    On obtient en retour un code utilisateur, quil suffit de copier coller sur le nouveau peripherique  eedomus  cree:    Et on obtient nos donnees:   Ma balance est lun des premiers modeles, qui ne suit pas le rythme cardiaque, mais si vous avez le dernier modele, vous retrouverez toutes vos informations ! Si vous utilisiez  mon script pour recuperer les informations de votre balance , il nest donc plus necessaire, votre box sait le gerer toute seule :D Voici donc encore une mise a jour bien sympathique ! Comme je le pensais quand Connected Objet a ajoute le support des scripts, les objets connectes se multiplient a grande vitesse ! Et vous, quel serait lobjet connecte que vous souhaiteriez voir supporte sur l eedomus  ? Soyons fous, pourquoi pas une autre box, comme la  HC2 de MyFox qui vient de mettre a disposition son API  ??? :D    eedomus   OpenKarotz   Qubino   Withings 
+        </text>
+</document>

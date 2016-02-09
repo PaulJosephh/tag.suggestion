@@ -1,0 +1,18 @@
+<document>
+	<date>2009-10-29</date>
+        <title>Guide dinstallation du module AD10</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>X10 Produits</category>
+        </categories_set>
+        <text>
+                                                         
+ Le module AD10 permet dallumer ou deteindre un eclairage ou tout autre appareil ne depassant pas 3600W pour une charge ohmique, 700W pour une charge inductive ou capacitive et 2000W pour un eclairage a incandescence et halogene, en etant pilote par des ordres  X10 Il sinstalle facilement dans un tableau electrique. Il est equipe dun petit interrupteur a glissiere qui permet de le forcer a 1 ou a 0. 
+ Mettez votre circuit electrique hors tension. Installez le module AD10 sur un  Rail DIN Branchez en bas du module, la  phase L neutre N 
+ Connectez en haut du module, la charge sur  L 1 2  Reglez ensuite ladresse du module a laide dun tournevis plat en tournant les selecteurs rotatifs. 
+ Remettez alors le circuit electrique sous tension. Vous pouvez verifier le bon fonctionnement manuel en mettant linterrupteur a glissiere sur  1  0 La position  Auto X10 Votre module AD10 est maintenant pret a etre pilote par nimporte quel controleur  X10  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

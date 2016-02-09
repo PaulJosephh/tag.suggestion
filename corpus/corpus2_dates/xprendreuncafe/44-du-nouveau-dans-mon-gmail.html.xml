@@ -1,0 +1,61 @@
+<document>
+	<date>2005-04-02</date>
+        <title>Du nouveau dans mon GMail</title>
+        <author>NiKo</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>
+
+
+ Les mels ainsi generes sont expedies par GMail en multipart (text/plain + text/html), et le code est  assez propre  (compte tenu des contraintes de compatibilite), comme le montre l'extrait ci-dessous: 
+
+
+ --=_Part_174_32693290.1112353211825
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+Ceci est un Test
+
+Ceci http://www.google.fr/ en est un autre
+
+ Voici une liste blockquot=E9e :
+=20
+   - Bonjour=20
+   - Au revoir=20
+   =20
+--
+NiKo
+
+ --=_Part_174_32693290.1112353211825
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+font size=3D"1"Ceci/font span style=3D"color: rgb(102, 0, 204);"est/=
+span font style=3D"color: rgb(51, 204, 0);" size=3D"4"un/fontfont siz=
+e=3D"6" span style=3D"color: rgb(255, 0, 0);"Test/spanbr
+/fontfont size=3D"6"font size=3D"2"br
+a href=3D"http://www.google.fr/"Ceci/a en est un span style=3D"backgro=
+und-color: rgb(255, 255, 0);"autre/spanbr
+br
+/font/font
+div style=3D"margin-left: 40px;"font size=3D"6"font size=3D"2"Voici u=
+ne liste blockquot=E9e :/font/fontbr
+/div
+ul style=3D"margin-left: 40px;"
+  liBonjour/li
+  liAu revoir br
+  /li
+/ul
+--br
+NiKo
+------=_Part_174_32693290.1112353211825-- 
+
+
+ Voila donc une bonne nouvelle, et je vous rappelle que je dispose toujours d'invitations en pagaille  - nperriault [at] gmail [point] com  
+        </text>
+</document>

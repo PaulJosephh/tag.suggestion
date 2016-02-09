@@ -1,0 +1,23 @@
+<document>
+	<date>2005-06-16</date>
+        <title>Gnoppix 1.0 est sortie</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>gnome</tag>
+                <tag>libre</tag>
+                <tag>linux</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>[Via  Distrowatch ] 
+
+
+ Gnoppix 1.0  - distribution live-cd basee sur  Ubuntu  - est sortie et, contrairement a ce que son numero de version laisse supposer, est basee sur  Breezy Badger , la version  testing/unstable  d'Ubuntu actuellement en cours de developpement. Ce live-cd devrait permettre de tester les ameliorations deja apportees a Breezy sans pour autant devoir upgrader son installation existante. 
+
+ 
+ Telechargement pour plateforme x86  (AMD64 et PPC a venir): 
+ 
+        </text>
+</document>

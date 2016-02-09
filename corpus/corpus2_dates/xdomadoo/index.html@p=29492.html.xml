@@ -1,0 +1,19 @@
+<document>
+	<date>2013-12-18</date>
+        <title>Intgration de volets sans fil Franciaflex avec la ZiBASE</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>Franciaflex</tag>
+                <tag>guide</tag>
+                <tag>tuto</tag>
+                <tag>volet</tag>
+                <tag>zibase</tag>
+        </tags_set>
+        <categories_set>
+                <category>ZiBASE Applications</category>
+        </categories_set>
+        <text>
+                                                         Un de nos clients vous fait partager son experience sur lintegration de ses volets roulants de marque  Franciaflex ZiBASE Voila un tutoriel pour integrer des volets  Franciaflex ZiBASE Note : Les volets  Franciaflex ZiBASE Sur la  Zibase Choisissez une position (les positions avec A et B sont conseillees). Vous devriez obtenir  cec Mettez le volet en mode apprentissage : appuyez quelques secondes sur le bouton Stop (bouton rond au milieu). Le volet descend de quelques millimetres et remonte en position initiale pour avertir quil a bien recu lordre. Au niveau de la  ZiBASE ZiBASE Pour indiquer quil a bien recu lordre, le volet descend de quelques millimetres et remonte en position initiale pour avertir quil a bien recu lordre. Vous pouvez verifier que lassociation a fonctionne est appuyant sur le bouton on ou off. Le volet doit descendre et monter. Sauvegardez le peripherique, la manip est terminee.  Conclusion : Malheureusement, il y a 2 manques que je trouve un peu embetant :  Pas de retour detat sur la position des volets (il semble que ce soit une limitation de la  ZiBASE  Pas de possibilite de stopper le volet en cours de descente/montee comme on peut le faire avec le bouton stop de la telecommande physique. En revanche, lenvoi dun ordre en cours de montee/descente est bien pris en compte : lenvoi du off en cours de montee fait immediatement descendre le volet. Merci a Emmanuel pour le partage !  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

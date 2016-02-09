@@ -1,0 +1,93 @@
+<document>
+	<date>2014-06-16</date>
+        <title>Contrler son Roomba avec la box domotique Fibaro Home Center 2</title>
+        <author> Maximin </author>
+        <tags_set>
+                <tag>domotique-fibaro.fr</tag>
+                <tag>fibaro</tag>
+                <tag>hc2</tag>
+                <tag>Home Center 2</tag>
+                <tag>lua</tag>
+                <tag>roomba</tag>
+                <tag>roowifi</tag>
+                <tag>Wi-Fi</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Z-Wave</category>
+                <category>Guide Robots Domestiques</category>
+                <category>Guides</category>
+                <category>Guides Domotiques</category>
+                <category>Robot Aspirateur Roomba</category>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                         Aujourdhui nous vous proposons un guide pour vous expliquer commentcontroler laspirateur robot Roomba a partir dela box  domotique Fibaro forum Domotique-Fibaro.fr ici Pour realiser cela vous aurez besoin dun Roomba, dune Home Center 2 mais egalement dun Roowifi. Pour rappel le Roowifi est un module permettant de controler votre Roomba depuis smartphone ou PC. Vous retrouverez sa landing page  ici presentation dinstallation Vous serez egalement oblige dutiliser une HomeCenter 2 et non une Home Center Lite pour le moment. En effet, nous verrons que le controle sera effectue grace a un script LUA, non disponible sur la version lite du controleur. Tout dabord la carte Roowifi doit etre configuree sur votre reseau  Wi-Fi Une fois ladresse IP trouvee, vous pouvez vous connecter afin de controler le Roomba et acceder asa configuration reseau. On se rend ensuite dans linterface de la Home Center 2 et on cree un module virtuel. On rentre les parametres simples du module puis, dans longlet avance, on selectionne les 4 boutons puis add set. Voici le code quil faut rentrer dans chaque boutons: Reveil: 
+
+--[[
+%% properties
+
+%% globals
+--]]
+
+fibaro:log("Reveil");
+fibaro:call(id_du_roowifi, "setProperty", "ui.status.value", "Roomba Reveille");
+
+HC2 = Net.FHttp("ipduroowifi", 80)
+HC2:setBasicAuthentication("admin", "roombawifi");
+response = HC2:GET("/rwr.cgi?exec=1")
+
+ Clean: 
+
+--[[
+%% properties
+
+%% globals
+--]]
+
+fibaro:log("Roomba au travail");
+fibaro:call(id_du_roowifi, "setProperty", "ui.status.value", "Roomba Active");
+
+HC2 = Net.FHttp("ip_du_roowifi", 80)
+HC2:setBasicAuthentication("admin", "roombawifi");
+response = HC2:GET("/rwr.cgi?exec=1")
+fibaro:sleep(3*1000)
+response = HC2:GET("/rwr.cgi?exec=1")
+fibaro:sleep(3*1000)
+response = HC2:GET("/roomba.cgi?button=CLEAN")
+
+ Spot: 
+
+--[[
+%% properties
+
+%% globals
+--]]
+
+fibaro:log("Roomba Spot");
+fibaro:call(id_du_roowifi, "setProperty", "ui.status.value", "Roomba Spot");
+
+HC2 = Net.FHttp("ip_du_roowifi",80)
+HC2:setBasicAuthentication("admin", "roombawifi");
+response = HC2:GET("/rwr.cgi?exec=1")
+fibaro:sleep(10*1000)
+response = HC2:GET("/roomba.cgi?button=SPOT")
+
+ Dock: 
+
+--[[
+%% properties
+
+%% globals
+--]]
+
+fibaro:log("Roomba renvoye au Dock");
+fibaro:call(id_du_roowifi, "setProperty", "ui.status.value", "Retour au Dock");
+
+HC2 = Net.FHttp("ip_du_roowifi",80)
+HC2:setBasicAuthentication("admin", "roombawifi");
+response = HC2:GET("/roomba.cgi?button=DOCK")
+
+ Voici un exemple avec notre bouton Clean. Attention a bien modifier ip_du_roowifi par ladresse ip de votre roowifi et id_du_roowifi par son id, que lon peut voir apparaitre en bas a gauche du navigateuren passant la souris sur le peripherique. Ici lid est 61 par exemple. Si tout est configure correctement, ca devrait fonctionner immediatement. Voici les liens vers les differentes images permettant de personnaliser chaque bouton aux couleur de Roomba. REVEIL CLEAN SPOT DOCK Je tiens a remercier et feliciter Romain80 pour le partage de son code sur le  forum Domotique-Fibaro.fr Si vous ne connaissez pas encore ce forum et que vous posseder une HomeCenter 2 ou Lite, je vous conseille vivement daller y jeter un oeil, cest une vraie mine dor dinformations avec des utilisateurs tres actifs, de quoi booster au maximum votre installation  domotique  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

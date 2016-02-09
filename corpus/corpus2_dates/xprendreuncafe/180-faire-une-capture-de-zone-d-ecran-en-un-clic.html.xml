@@ -1,0 +1,37 @@
+<document>
+	<date>2005-07-01</date>
+        <title>Faire une capture de zone d'cran en un clic</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>linux</tag>
+                <tag>tips</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>[Via le forum  Ubuntu-fr ] 
+
+
+ Je viens de tomber sur une astuce hyper pratique pour faire des captures d'une zone particuliere de l'ecran, au moyen d' ImageMagick . 
+
+
+ Il faut tout d'abord installer ImageMagick: 
+
+
+ $ sudo apt-get update
+$ sudo apt-get install imagemagick 
+
+
+ L'utilisation est tres simple, et se fait en ligne de commande sous cette forme:  import -pause sec /path/to/capture.ext  ou  sec  est le nombre de secondes qui s'ecouleront avant qu'il vous soit possible de definir une zone de l'ecran au moyen de la souris (le temps de se preparer), et  ext  le format du fichier graphique du fichier genere (png, jpg, etc.). Par exemple: 
+
+
+ $ import -pause 2 /home/niko/Desktop/capture.png 
+
+
+ Bien sur, il est possible de faire un raccourci sur le bureau ou dans une barre d'outil, en faisant  Creer un lanceur : 
+
+
+ 
+        </text>
+</document>

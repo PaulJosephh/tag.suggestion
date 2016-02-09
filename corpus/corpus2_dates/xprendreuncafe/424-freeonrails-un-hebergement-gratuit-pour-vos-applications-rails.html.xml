@@ -1,0 +1,45 @@
+<document>
+	<date>2006-03-25</date>
+        <title>FreeOnRails, un hbergement gratuit pour vos applications Rails</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>framework</tag>
+                <tag>hosting</tag>
+                <tag>rails</tag>
+                <tag>ruby</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ruby</category>
+        </categories_set>
+        <text>[via  Scoopeo ] 
+
+
+ Je vous avais fait une  fausse joie recemment  en annoncant que  free.fr  allait proposer gratuitement  Ruby on Rails  sur les pages perso. Helas, fausse alerte, et jusqu'a aujourd'hui, impossible de trouver un hebergeur gratuit proposant Ruby et son framework superstar... 
+
+
+ Jusqu'a ce que  FreeOnRails  ouvre ses portes  
+
+
+ Seules  conditions : 
+
+ 
+ Posseder un nom de domaine dedie, 
+ S'inscrire  et poster une demande d'hebergement motivee sur le  forum ad-hoc . 
+ 
+
+ Les  caracteristiques  de l'hebergement propose sont tres interessantes: 
+
+ 
+ Pas de pub, 
+ 100 Mo d'espace, 
+ 1 Go de bande passante mensuelle, 
+ Un acces  SSH , 
+ FastCGI , 
+ PHP5  Perl (au cas ou ?), 
+ Bases MySQL 4.1.x illimitees, 
+ Sous-domaines, comptes ftp et emails illimites. 
+ 
+        </text>
+</document>

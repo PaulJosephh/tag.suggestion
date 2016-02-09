@@ -1,0 +1,15 @@
+<document>
+	<date>2010-06-10</date>
+        <title>Guide dinstallation de linterface CM11</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>X10 Produits</category>
+        </categories_set>
+        <text>
+                                                         
+ Le CM11 est utilise pour faire linterface entre un PC et les produits  X10 X10 Il est livre avec le logiciel Active Home afin de programmer lutilisation des eclairage, appareils electriques, et creer des macros (ou suite de commandes  X10 [endif]  Connectez le cable sur le CM11 et lautre extremite dans un port COM disponible de votre ordinateur.  Ouvrez le compartiment pile de linterface CM11 et inserez 2 piles AAA 1,5V en respectant la polarite. Refermez le compartiment.  Branchez linterface CM11 dans une prise secteur proche de votre ordinateur.  Installez le logiciel Active Home sur votre PC, puis demarrez le.  Selectionnez Preferences dans le menu Fichier et choisissez le port serie sur lequel vous avez installee linterface.  Votre CM11 est alors configure pour etre utilise avec Active Home et vous permettra de gerer votre installation  domotique X10 Vous pouvez egalement utiliser le CM11 avec un autre logiciel  domotique mControl HomeSeer  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

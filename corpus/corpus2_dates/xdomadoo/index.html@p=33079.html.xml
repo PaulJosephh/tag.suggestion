@@ -1,0 +1,22 @@
+<document>
+	<date>2014-06-13</date>
+        <title>Guide dinstallation du dtecteur 4 en 1 Philio PSM02 (mouvement, ouverture, luminosit, temprature)</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>capteur</tag>
+                <tag>detecteur</tag>
+                <tag>guide</tag>
+                <tag>philio</tag>
+                <tag>psm02</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         Le  detecteur 4 en 1 Philio PSM02 Z-Wave 1- Presentation Voici le detecteur 4 en 1  Philio Ses fonctions : Detecteur 4 en 1: mouvement, ouverture, temperature, lumiere Adopte la recente puce  Z-Wave Utilise le  SDK Z-Wave Portee de lantenne optimisee Utilisation pour des applications  domotique Bouton pour inclure/exclure le detecteur Autoprotection Indication de batterie faible Petit, discret et esthetique Facilite dutilisation et dinstallation Ses caracteristiques techniques : Type de module : Emetteur  Z-Wave Alimentation : 1 pile 3V CR123A Duree de vie des piles : 2 ans Frequence : 868.42 MHz Distance de transmission : 30m en interieur Capteur de temperature : -10 a 70 C Capteur de luminosite : 0 a 500 lux Angle de detection PIR : 90 Portee de detection PIR : 8 a 10m Dimensions :
+ Detecteur : 28 x 96 x 23 mm Aimant : 10 x 50 x 12 mm Poids : 52g Temperature de fonctionnement : -10 a 40 C Humidite de fonctionnement : 85%RH max Norme CE : EN300 220-1 Certification  Z-Wave 2- Alimentation Pour alimenter votre detecteur  Philio Puis inserez une pile 3V CR123A. 3- Inclusion Vous devez inclure votre detecteur pour lutiliser dans un reseau  Z-Wave domotique Apres la bonne inclusion de votre  detecteur 4 en 1 Philio PSM02   Zipabox  Vera   Eedomus   ZiBASE  Home Center 2 et Home Center Lite (bientot, lors de la bonne compatibilite du detecteur avec cette box  domotique Vous pouvez desormais visualiser a distance la temperature et la luminosite mesurees ainsi que des detections de mouvement ou douverture de porte/fenetre. 4- Fixation A laide de vis et adhesifs, vous pouvezfixer votre detecteur 4 en 1  Philio Deux types dadhesifs sont fournis. Le plus epais permettra de realiser un mode test du detecteur (puisque le bouton anti-sabotage nest pas appuye grace a lepaisseur de ladhesif) pour verifier si lepositionnement dinstallation est correct ou non. Apres avoir verifie le bon positionnement du detecteur, vous pouvez retirer ladhesif epais et mettre ladhesif fin pour que le bouton anti-sabotage soit cette fois-ci appuye et mettre votre detecteur en mode normal. Mettez egalement unadhesiffin sur la partie aimantee du detecteur. Lorsque vous avez ajoute les adhesifs, fixez votre detecteur 4 en 1  Philio Vous pouvez egalementutiliser les vis pour fixer ce detecteur. Pour cela, ouvrez celui-ci, inserez les vis et vissez celle-ci sur la surface desiree. Refermez ensuite le detecteur. 5- Fonctionnalites Les fonctionnalites sont nombreuses grace a ce detecteur 4 en 1. Voici des exemples dutilisation :  Securite : Vous pouvez securiser votre maison contre des intrusions en activant une sirene et en etant averti lors dune ouverture de porte/fenetre ou detection de mouvement.  Confort : Vous visualisez la temperature de la piece et pouvez activer ou non le chauffage/climatisation. Vous visualisez egalement la luminosite et pouvez ouvrir ou fermer vos volets roulants.  Economies denergie : Vous visualisez la temperature de la piece et pouvez desactiver le chauffage durant lhiver si celle-ci est suffisante ou fermer les volets roulants si la luminosite est elevee en ete pour conserver la temperature en evitant un rechauffement de la piece.  Autonomie : Si vous ouvrez la porte dune piece ou le detecteur detecte votre presence, alors la lumiere de cette piece sactive automatiquement durant une certaine duree. 6- Conclusion Le detecteur  Philio  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

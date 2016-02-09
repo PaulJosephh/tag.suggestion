@@ -1,0 +1,14 @@
+<document>
+	<date>2013-01-24</date>
+        <title>Guide dinstallation dun actionneur Z-Wave avec la Zipabox</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Zipabox Produits</category>
+        </categories_set>
+        <text>
+                                                          La  Zipabox Z-Wave Z-Wave Everspring AN157-6  A partir de linterface de configuration de la  Zipabox   Comme la  Zipabox Z-Wave   Vous disposez maintenant de 120 secondes pour appuyer sur le bouton dinclusion de votre module a ajouter (simple appui ou triple appui en fonction du module). Pour le module  AN157-6   Une fois le peripherique ajoute et sauvegarde, vous pouvez fermer la fenetre.   Apres avoir rafraichi la page (appuyez sur la touche F5 de votre clavier), vous devez le retrouver dans la liste des modules appareils et eclairage (Panneau Lampes  Appareils).   En cliquant sur le bouton on peut verifier le bon fonctionnement du module.   A partir de la petite icone    Vous pourrez alors assigner le module dans une piece et lui donner un suffixe et une description.  Votre module est maintenant controlable a partir de la  Zipabox  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

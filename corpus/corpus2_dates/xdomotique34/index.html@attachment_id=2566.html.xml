@@ -1,0 +1,75 @@
+<document>
+	<date>2013-01-04</date>
+        <title>Connectez vos objets grce  Twine</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>objets connectes</tag>
+                <tag>twine</tag>
+                <tag>WI-FI</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+Peut-etre que vous voulez obtenir un tweet lorsque votre lessive est faite, ou recevoir un courriel lorsque votre sous-sol est innonde pendant que vous etes en vacances (oups la machine a laver a un souci). Meme si vous etes bon avec lelectronique et la programmation et au lieu de vous soucier du cablage ou du code reseau, vous pouvez vous concentrer sur votre idee etparametrervos regles comme bon vous semble. 
+ Twine est la facon la plus simple possible pour connecter vos objets et recevoir les interactions par tweets, ou par courriel ou par texto. Twine est un carre de 2,5  connecte en WiFi, avec des capteurs internes et externes, et deux piles AAA qui le maintiennent en cours dexecution pendant des mois. Cest aussi une application web simple qui permet de configurer rapidement votre Twine a laide de regles simples. Aucune programmation est necessaire et si avec un peu plus de connaissances, vous pourrez connecter vos propres capteurs et utiliser le protocole HTTP afin denvoyer des donnees a vos propres applications. 
+ Twine vous permet de creer des systemes ; objets connectes a Internet nimporte ou vous avez le WiFi. Compact, et de faible puissance le materiel et les logiciels web travaillenten temps reel ensemble pour faire un reseau informatique simple et polyvalent. 
+ 
+ application WEB 
+ Comment ca fonctionne ? 
+ Twine est un module sans fil etroitement integre a un service Cloud. Le module (WiFi) comprend un capteur de temperature et des capteurs de vibrations, et un connecteur dextension pour les autres capteurs. Lalimentation est fournie par le port micro USB ou deux piles AAA (Twine vous enverra un email si vous avez besoin de changer les piles). 
+ L application web est simple a mettre en place et vous pourrez suivre vos Twine partir dun navigateur nimporte ou. Vous pouvez definir des regles, des messages de declenchement (aucune programmation nest necessaire). Les regles sont mises ensemble avec une palette de conditions et dactions disponibles, du style : 
+ QUAND  le capteur dhumidite est mouille  ALORS ; ca declenche un tweet Le sous-sol est inonde! . Lors du demarrages, vous beneficierez dun tas de jeux de regles (pre concues), et vous pourrez partager les regles que vous creerez avec les proprietaires dautres Twines. 
+ Parce que le materiel et les logiciels sont faits lun pour lautre, linstallation est facile. Il ny a rien a installer  il suffit de connecter le Twine a votre reseau WiFi. Les capteurs sont immediatement reconnus par lapplication Web lorsque vous les branchez. 
+ Les actions sont immediates, ce qui rend la comprehension facile et permet de tester vos regles tout aussi facilement. 
+ Les capteurs 
+ Twine est equipe dorigine dun capteur de temperature interne et dun accelerometre. Il y a aussi dautres capteurs exterieurs : 
+  sonde de temperature interne 
+ accelerometre interne (pour la detection de vibrations, chocs, et le mouvement) 
+ un interrupteur magnetique (utile pour les portes et tout ce qui bouge) 
+ Capteur dhumidite (detecter la presence deau) 
+ A laide dune carte de deploiementBranchez votre entree analogique ou numerique propre sans soudure.(Bornes pour signal, alimentation 3,3 V et terre sont fournis). Celavous permettra de rajouter dautres capteurs (sans avoir a bricoler quoi que soit, et sans soudure) (vu dans la video). 
+Lorsque vous rajoutez un nouveaux capteur, un pop up apparait sur lapplication web pour que vous lajoutiez a vos regles. 
+ If we go over our Kickstarter goal, well be able to develop additional sensors for you to choose from (up to three). For every additional $10,000 we raise, well offer our Kickstarters the chance to vote for another sensor. These might be an RFID reader, a pressure sensor or a current sensor. 
+ le challenge a ete atteint pour cette  kickstarter  : 
+ Output : 
+ Chacun de ces capteurs vous permettra dinclure les valeurs (comme la temperature) et vos propres textes. Vous recevrez les retours dinformations de diverses manieres : 
+ grace a : 
+  Pebble smartwatch 
+ Twitter 
+ Email 
+ Texto  valables avec beaucoup doperateurs 
+Requettes HTTP 
+  
+ pour plus dinfo :  supermanichal 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

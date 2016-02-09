@@ -1,0 +1,205 @@
+<document>
+	<date>2005-07-19</date>
+        <title>Lister rcursivement le contenu d'un rpertoire en PHP</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>php</tag>
+                <tag>tips</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Comme dirait Desproges, pouf pouf! J'ai mis a jour la fonction pour y incorporer plus d'infos sur les fichiers (un  stat()  en fait). Bon toutes ces aventures m'ont motive pour faire un set de classes perso avec toutes ces  vielleries  vieilles fonctions que j'utilise aveuglement depuis quelques annees. Quitte a modifier les signatures, je suis un fou, moi  
+
+
+ Evidemment, je redistriburerai le tout quand je serais satisfait du resultat  
+
+ ?php 
+ 
+
+ function  read_dir ( $path = '.' ,  $full_list = false )   { 
+         $out  =  array ( ) ;
+         $i  =  0 ;
+         $path  =  substr ( $path ,  strlen ( $path )  -  1 ,  strlen ( $path ) )  !==  '/'  ?  $path . '/'  :  $path ;
+         if   ( ! is_dir ( $path )  || ! $handle  = @ dir ( $path ) )   { 
+                 trigger_error ( ' \' ' . $path . ' \'  doesn \' t exists or is not a valid directory' ,  E_USER_ERROR ) ;
+         }   else   { 
+                 while   ( $entry  =  $handle - read ( ) )   { 
+                         if   ( $full_list  ==  true  ||  ( $entry  !==  "."    $entry  !==  ".." ) )   { 
+                                 $path_to_entry  =  $path . '/' . $entry ;
+                                 if   ( $entry  !==  '.'    $entry  !==  '..'   @ is_dir ( $path_to_entry ) )   { 
+                                         $out [ $entry ]  = read_dir ( $path_to_entry ,  $full_list ) ;
+                                 }   else   { 
+                                         $out [ $entry ]  =  stat ( $path_to_entry ) ;
+                                         if   ( function_exists ( 'mime_content_type' ) )   { 
+                                                 $out [ $entry ] [ 'mimetype' ]  = mime_content_type ( $path_to_entry ) ;
+                                         } 
+                                 } 
+                         } 
+                 } 
+         } 
+         return   $out ;
+ } 
+
+ // Exemple d'utilisation : 
+
+ echo   'pCe dossier contient :/p' ;
+ echo   'pre' ;
+ print_r ( read_dir ( 'mon_dossier/de_test' ) ) ;
+ echo   '/pre' ;
+ ? 
+
+
+ Hope it helps  
+
+
+ Edit: un exemple de sortie 
+
+
+ Juste pour illustrer la recursivite: 
+
+ Ce dossier contient :
+
+Array
+(
+    [rep1] = Array
+        (
+            [foo.txt] = Array
+                (
+                    [0] = 2049
+                    [1] = 13685171
+                    [2] = 33188
+                    [3] = 1
+                    [4] = 33
+                    [5] = 33
+                    [6] = 0
+                    [7] = 16
+                    [8] = 1121786274
+                    [9] = 1121786274
+                    [10] = 1121786274
+                    [11] = 131072
+                    [12] = 8
+                    [dev] = 2049
+                    [ino] = 13685171
+                    [mode] = 33188
+                    [nlink] = 1
+                    [uid] = 33
+                    [gid] = 33
+                    [rdev] = 0
+                    [size] = 16
+                    [atime] = 1121786274
+                    [mtime] = 1121786274
+                    [ctime] = 1121786274
+                    [blksize] = 131072
+                    [blocks] = 8
+                )
+
+            [ssrep1] = Array
+                (
+                    [foo.txt] = Array
+                        (
+                            [0] = 2049
+                            [1] = 13685203
+                            [2] = 33188
+                            [3] = 1
+                            [4] = 33
+                            [5] = 33
+                            [6] = 0
+                            [7] = 16
+                            [8] = 1121786295
+                            [9] = 1121786295
+                            [10] = 1121786295
+                            [11] = 131072
+                            [12] = 8
+                            [dev] = 2049
+                            [ino] = 13685203
+                            [mode] = 33188
+                            [nlink] = 1
+                            [uid] = 33
+                            [gid] = 33
+                            [rdev] = 0
+                            [size] = 16
+                            [atime] = 1121786295
+                            [mtime] = 1121786295
+                            [ctime] = 1121786295
+                            [blksize] = 131072
+                            [blocks] = 8
+                        )
+
+                )
+
+            [ssrep2] = Array
+                (
+                    [foo.txt] = Array
+                        (
+                            [0] = 2049
+                            [1] = 13685176
+                            [2] = 33188
+                            [3] = 1
+                            [4] = 33
+                            [5] = 33
+                            [6] = 0
+                            [7] = 16
+                            [8] = 1121786277
+                            [9] = 1121786277
+                            [10] = 1121786277
+                            [11] = 131072
+                            [12] = 8
+                            [dev] = 2049
+                            [ino] = 13685176
+                            [mode] = 33188
+                            [nlink] = 1
+                            [uid] = 33
+                            [gid] = 33
+                            [rdev] = 0
+                            [size] = 16
+                            [atime] = 1121786277
+                            [mtime] = 1121786277
+                            [ctime] = 1121786277
+                            [blksize] = 131072
+                            [blocks] = 8
+                        )
+
+                    [bar.txt] = Array
+                        (
+                            [0] = 2049
+                            [1] = 13685193
+                            [2] = 33188
+                            [3] = 1
+                            [4] = 33
+                            [5] = 33
+                            [6] = 0
+                            [7] = 16
+                            [8] = 1121786288
+                            [9] = 1121786288
+                            [10] = 1121786288
+                            [11] = 131072
+                            [12] = 8
+                            [dev] = 2049
+                            [ino] = 13685193
+                            [mode] = 33188
+                            [nlink] = 1
+                            [uid] = 33
+                            [gid] = 33
+                            [rdev] = 0
+                            [size] = 16
+                            [atime] = 1121786288
+                            [mtime] = 1121786288
+                            [ctime] = 1121786288
+                            [blksize] = 131072
+                            [blocks] = 8
+                        )
+
+                )
+
+        )
+
+)
+ 
+
+
+ Sinon, note a moi meme en gras,  il faut que je me penche plus serieusement sur PHP5 . 
+        </text>
+</document>

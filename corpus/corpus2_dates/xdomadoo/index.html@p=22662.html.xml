@@ -1,0 +1,22 @@
+<document>
+	<date>2013-08-13</date>
+        <title>Guide dinstallation de la Sirne SSA avec la Eedomus</title>
+        <author> Mallory </author>
+        <tags_set>
+                <tag>alarme</tag>
+                <tag>box</tag>
+                <tag>domotique</tag>
+                <tag>eedomus</tag>
+                <tag>fortrezz</tag>
+                <tag>guide</tag>
+                <tag>sirene</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                         Les sirenes  Fortrezz Z-Wave domotique domotique eedomus Ces sirenes sont fournies avec leur alimentation secteur, un adaptateur secteur US/FR et une pile 9V (a larriere de la sirene). Les deux sirenes possedent quatre modes de fonctionnement:  On, la sirene et le flash sont actives (valeur = 67 a 100)  Off, la sirene et le flash sont desactives (valeur=0)  Sirene desactivee et flash active (valeurs=1 a 33)  Sirene activee et flash desactive (valeurs=34 a 66) La box  eedomus Mettez votre box  eedomus plus de detail ici Apres avoir selectionne la piece dans laquelle votre sirene est installee et lui avoir attribue un nom, sauvegardez votre peripherique. (Ici nous avons cree une piece speciale pour lalarme pour faciliter son accessibilite sur linterface de la  eedomus Dans longlet Valeurs de ces parametres vous pouvez observer les 4 etats que nous avons decris au debut de ce guide. Les actions qui sont ici servent a activer/desactiver directement la sirene. Nous avons donc besoin dune commande pour armer/desarmer lalarme. Pour cela nous avons besoin dun peripherique Etat: Configurer  Ajouter ou supprimer un peripherique  Ajouter un autre type de peripherique  Etat. Nommez le Armement Alarme, placez le dans la meme piece que la sirene puis apres avoir sauvegarde allez dans longlet Valeurs pour editer les Actions du peripherique. Nous avons besoins de deux actions, activer ou desactiver lalarme. Vous pouvez Ajouter ou Supprimer des actions avec les deux boutons en bas de la fenetre. Vous avez maintenant les deux peripheriques dont vous avez besoin pour creer votre alarme, (la sirene et le peripherique Etat) il ne reste plus qua creer la regle qui la fera fonctionner. Allez dans: Configurer  onglet regles  nouvelle regle. Nous utilisons ici un capteur de porte, mais cela fonction avec nimporte quel capteur. Dans Actions, la sirene a la valeur Flash seul, ce qui veut dire que seul le flash sera active, si vous souhaitez tester votre systeme afin de comprendre son fonctionnement je vous conseil de garder ce parametre afin que la sirene ne se declenche pas sans arret. Mais vous pouvez ici choisir le mode que vous voulez parmi les 4 decris au debut de ce guide. Une fois votre programmation sauvegardee:  Si le peripherique Etat que nous avons appele Armement Alarme est sur OFF alors votre sirene ne se declenchera jamais (sauf si son alimentation est coupe et quune pile est installee).  Si il est sur On alors lorsque le capteur de porte indique que la porte est ouverte lalarme se declenche. Si vous souhaitez ajouter des detecteurs dans votre systeme il suffit de suivre la procedure suivante: Conservez toujours Armement Alarme en premier dans la liste et la fonction Et devant le premier capteur. Pour ajouter un capteur, ajoutez un nouveau critere et choisissez la fonction Ou Si vous avez programme les differentes  phase phase  Si vous souhaitez activer votre alarme alors que vous etes encore chez vous et avoir le temps de sortir avant que celle-ci sois armee, vous pouvez creer une macro de temporisation. Allez dans les parametres du peripherique Etat Armement Alarme puis Macros et recreez la macro suivante avec le temps que vous souhaitez. Une fois la macro creee vous pouvez choisir de supprimer la fonction On ou pas selon vos besoins. Voila, vous savez tout desormais sur lutilisation de la sirene  Fortrezz domotique eedomus   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

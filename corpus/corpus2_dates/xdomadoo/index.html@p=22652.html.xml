@@ -1,0 +1,16 @@
+<document>
+	<date>2012-10-30</date>
+        <title>Guide dinstallation de la Sirne SSA FortrezZ</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         
+  La sirene SSA emet un bruit fort et une lumiere   clignotante des quune alarme sest   declenchee. Elle est particulierement adaptee a une utilisation en   combinaison avec dautres dispositifs  Z-Wave Elle est alimentee sur secteur, mais dispose dune batterie de secours qui declenche la sirene des que le courant est coupe. 2 modeles sont disponibles:  Z-Wave Z-Wave 
+    La sirene SSA est livree avec son alimentation secteur, un adaptateur secteur US/FR (fourni gracieusement par  Domadoo   Cette sirene possede quatre modes de fonctionnement:  On, la sirene et le flash sont actives (valeur = 67 a 100)  Off, la sirene et le flash sont desactives (valeur=0)  Sirene desactivee et flash active (valeurs=1 a 33)  Sirene activee et flash desactive (valeurs=34 a 66)  Commencez par retirer la fixation a larriere de la sirene. Cette fixation sert a placer votre sirene au mur ou au plafond. (vissez la fixation a lemplacement desire puis fixez la sirene dessus)    Branchez la pile 9V, puis la sirene au secteur.  Attention a partir de maintenant la sirene est armee   Une fois votre sirene installee vous pouvez linclure dans votre reseau  Z-Wave  Linclusion se fait de la meme facon que pour les autres produits  Z-Wave   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

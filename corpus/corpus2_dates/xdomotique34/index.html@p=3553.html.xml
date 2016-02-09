@@ -1,0 +1,69 @@
+<document>
+	<date>2013-03-11</date>
+        <title>Test Blyssbox de liveez Technology 3me partie : appairage dune tlcommande</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>Blyssbox</tag>
+                <tag>telecommande</tag>
+        </tags_set>
+        <categories_set>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ Depuis quelques jours je vous presente la Blyssbox, la box domotique en vente dans vos grandes surfaces de bricolage Castorama. 
+ 
+ Nous avons vu  linstallation , puis la presentation de ce fameux  portail  presentant les differentes pages vous donnant acces aux diverses categories (eclairages, chauffage, securite..) et la nous allons voir comment ajouter un module. 
+ Ajout dun module 
+ A vrai dire il ny a pas plus simple, jai decide dajouter une telecommande multifonctions. 
+ 
+ Au dos de cette telecommande comme pour chaque produits Blyss se trouve une etiquette. Sur celle ci est inscrit le nom du peripherique, sa reference et la puissance de lappareil ainsi que sa frequence). 
+ La reference vous permettra de mieux identifier le produit que vous devez ajouter ou appairer a votre box. 
+ il faudra se rendre dans le menu en haut a droite ma configuration et cliquer sur ajouter un accessoire, je selectionne 
+ 
+  
+ La box va vous parler et vous conseiller dappuyer sur une des touches de la telecommande jusqua que la box ait recherche et trouve le signal de la telecommande. 
+ 
+  
+ lappui sur touche va emetttre un signal que la box va identifier. Vous donnerez un nom a votre nouvel accessoire ajoute. 
+ 
+ 
+  
+  
+ Une fois le peripherique ajoute, vous le verrez apparaitre dans la liste des peripheriques ajoutes 
+ 
+  
+ sur la droite de chaque peripherique vous verrez une poubelle avec une croix, cela vous permettra de supprimer aussi facilement que vous avez ajouter le peripherique. Vous verrez que cest tres simple que ca na rien a voir avec la suppression dun module sur votre box Zwave par exemple. 
+ voila une video vous montrant comment ajouter un peripherique. 
+ 
+Dans un prochain article, nous verrons comment faire un scenario avec lajout de detecteur douverture de porte fenetre. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

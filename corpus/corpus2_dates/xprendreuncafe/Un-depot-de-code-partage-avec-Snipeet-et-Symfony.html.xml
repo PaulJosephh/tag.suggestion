@@ -1,0 +1,87 @@
+<document>
+	<date>2006-10-09</date>
+        <title>Un dpt de code partag avec Snipeet et Symfony</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>linux</tag>
+                <tag>php</tag>
+                <tag>serveur</tag>
+                <tag>symfony</tag>
+                <tag>tutoriel</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Vous cherchez un moyen simple et participatif de partager des fragments ou exemples de code (en anglais, des  snippets )? Rien de plus simple avec  Snipeet , un outil dedie base sur le framework  Symfony  dont l'installation a deja ete  decrite sur le present blog . 
+
+
+ Pour installer Snipeet sur une machine propulsee par - au hasard total -  Ubuntu LTS , rien de plus simple: 
+
+
+ $ sudo -s 
+# cd /var/www
+# mkdir snipeet  cd snipeet
+# svn co http://svn.snippet.symfony-project.com/trunk/ .
+# chown -R www-data cache log 
+
+ On cree une base et un utilisateur MySQL dedie a l'application: 
+
+
+ $ mysql -uroot -p
+mysql CREATE DATABASE snipeet;
+mysql GRANT ALL ON snipeet.* TO snipeet@localhost IDENTIFIED BY 'votre_mot_de_passe';
+mysql FLUSH PRIVILEGES;
+mysql \q 
+
+
+ On defini les parametres d'acces SQL dans les fichiers  ./config/propel.ini  et  ./config/database.yml  en definissant le DSN ad-hoc, par exemple  mysql://snipeet:votre_mot_de_passe@localhost/snipeet . 
+
+
+ On lance les commandes de creation et d'insertion SQL: 
+
+
+ # symfony propel-build-sql
+# symfony propel-insert-sql 
+
+
+ Enfin, on cree un  vhost apache  dedie, sur un sous-domaine  snipeet.domaine.tld  par exemple dans un fichier  /etc/apache2/sites-available/snipeet.domaine.tld : 
+
+
+ Directory "/usr/share/php/data/symfony/web/sf"
+  AllowOverride All
+  Allow from All 
+/Directory
+
+VirtualHost *
+    ServerName snipeet.domaine.tld
+    DocumentRoot "/var/www/snipeet/web"
+    DirectoryIndex index.php
+    Alias /sf /usr/share/php/data/symfony/web/sf
+
+    Directory "/var/www/snipeet/web"
+        AllowOverride All
+        Allow from All
+    /Directory
+/VirtualHost 
+
+
+ Sans oublier de l'activer: 
+
+
+ # a2ensite snipeet.domaine.tld 
+
+
+ Puis de relancer proprement apache2: 
+
+
+ # apache2ctl graceful 
+
+
+ Et on fait pointer son navigateur a l'adresse parametree precedemment tout en savourant le resultat et surtout le fait qu'il nous a fallu moins de 5 minutes montre en main pour en arriver la  
+
+
+ Edit:  Tellement content que j'en oublie l'adresse de la demo:  snippets.prendreuncafe.com   
+        </text>
+</document>

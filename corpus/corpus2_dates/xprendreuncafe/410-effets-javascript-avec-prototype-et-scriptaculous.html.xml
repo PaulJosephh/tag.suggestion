@@ -1,0 +1,268 @@
+<document>
+	<date>2006-03-19</date>
+        <title>Effets javascript avec Prototype et Scriptaculous</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>effets</tag>
+                <tag>javascript</tag>
+                <tag>prototype</tag>
+                <tag>scriptaculous</tag>
+                <tag>tutoriel</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Installation 
+
+
+ Le plus simple est de recuperer la  derniere version de scriptaculous  qui contient elle meme une version toujours recente de prototype. Ceci fait, decompactez larchive et copiez les librairies dans un repertoires de votre serveur web. Pour ma part, je mets tout ca dans un repertoire  js . Il ne reste qua les appeller dans lentete de votre document  HTML : 
+
+  xml
+html
+  head
+    titleMon test/title
+    script type="text/javascript" src="js/prototype.js"/script
+    script type="text/javascript" src="js/scriptaculous.js"/script
+  /head
+  ...
+ 
+
+
+ Utilisation 
+
+
+ Realisons un petit document  HTML  pour commencer a utiliser quelques effets  scriptaculaires : 
+
+  xml
+html
+  head
+    titleMon test/title
+    script type="text/javascript" src="js/prototype.js"/script
+    script type="text/javascript" src="js/scriptaculous.js"/script
+  /head
+  body
+    h1 id="title"
+      a href="#"Lorem ipsum dolor sit amet/a
+    /h1
+    p id="mytext" style="display:none"
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut 
+    fringilla arcu at turpis. Fusce libero. Morbi libero dolor, 
+    vestibulum id, facilisis quis, malesuada vel, mi. Curabitur 
+    rutrum sapien at ante. Sed consectetuer accumsan sapien. 
+    Suspendisse scelerisque malesuada magna. Ut laoreet, sapien 
+    facilisis venenatis pharetra, metus libero malesuada purus, id 
+    ultrices dolor odio id nunc. Nullam vestibulum. Vivamus lectus 
+    lacus, volutpat ut, varius sit amet, gravida at, nisi. 
+    Suspendisse sodales auctor mi. Mauris est./p
+  /body
+/html
+ 
+
+
+ Vous noterez que ce document fort simple naffiche pour linstant que le titre du document - nanti dun lien hypertexte vide - du fait du style  display:none  applique au paragraphe principal. Pour que le texte de larticle apparaisse en fondu lors dun clic sur le titre, il suffit dutiliser ce simple appel javascript sur le lien de la balise de titre: 
+
+  xml
+h1 id="title"
+  a href="#" onclick="new Effect.Appear('mytext', 1)"Lorem ipsum dolor sit amet/a
+/h1
+ 
+
+
+ Magique non? Simple, assurement.  La methode  Appear()  de lobjet  Effect  accepte deux arguments: le premier est lidentifiant unique de lobjet  DOM  de la page courante (dans notre exemple, lid  mytext  est attribue a notre paragraphe). Le second parametre est la duree en secondes de leffet. Amusez-vous a en modifier la valeur et a tester le resultat. 
+
+
+ De la meme maniere, vous pouvez appliquer dautres effets a ce pauvre bloc de texte; pour en tester une grande partie, ajoutez cette portion de code a notre page de test: 
+
+  xml
+p
+  a href="#" onclick="new Effect.BlindDown('mytext', 1)"BlindDown/a |
+  a href="#" onclick="new Effect.BlindUp('mytext', 1)"BlindUp/a |
+  a href="#" onclick="new Effect.Highlight('mytext', 1)"Highlight/a |
+  a href="#" onclick="new Effect.Grow('mytext', 1)"Grow/a |
+  a href="#" onclick="new Effect.Shrink('mytext', 1)"Shrink/a |
+  a href="#" onclick="new Effect.Squish('mytext', 1)"Squish/a |
+  a href="#" onclick="new Effect.SwitchOff('mytext', 1)"SwitchOff/a |
+  a href="#" onclick="new Effect.Shake('mytext', 1)"Shake/a |
+  a href="#" onclick="new Effect.Pulsate('mytext', 1)"Pulsate/a |
+  a href="#" onclick="new Effect.Fold('mytext', 1)"Fold/a |
+  a href="#" onclick="new Effect.DropOut('mytext', 1)"DropOut/a |
+  input type="button" value="Reset" onclick="new Effect.Appear('mytext', 1)" /
+/p
+ 
+
+
+ Voila une page vous permettant de tester les exemples: 
+
+ 
+ Page de demonstration des differents effets 
+ 
+
+ Notez egalement la possibilite dutiliser un methode de  scrolling doux  lors de la navigation au sein dune meme page grace a lutilisation dancres nommees, et ce grace a leffet  ScrollTo : encore une fois, un exemple vaut mieux quun long discours: 
+
+ 
+ Exemple de scrolling fluide entre ancres nommees 
+ 
+
+ La syntaxe de lappel a cette fonction est extremement simple: 
+
+  xml
+a href="#nav1" onclick="new Effect.ScrollTo('nav1',{duration:1});return false;"Lorem ipsum dolor sit amet/a
+ 
+
+
+ Vous laurez compris, il faut passer en premier argument lid  DOM  que vous ciblez (qui fera office d ancre nommee ), et en second parametre la duree du defilement. 
+
+
+ Vous trouverez sur le wiki officiel de la librairie une  liste complete dexemples  dutilisation des effets combines. 
+
+
+ Et laccessibilite dans tout ca? 
+
+
+ Linfluence de lutilisation deffets javascript sur laccessibilite  nest que de votre ressort . Dans notre exemple precedent, la page est potentiellement inaccessible puisque notre paragraphe  mytext  possede un attribut de style  display:none , non lu par quelques lecteurs decran du marche. Qua cela ne tienne, il nous faut imperativement gerer le contenu de lattribut  href  de nos balises de liens utilisant javascript, de maniere a ce que  javascript ne soit pas necessaire a la consultation des informations  et quun clic sur le lien nous amene a une page affichant le contenu de notre paragraphe. Par exemple, on pourrait imaginer: 
+
+  xml
+a href="afficher_article.php?full=1" onclick="new Effect.Appear('mytext', 1)"Test d'accessibiliteacute;/a
+ 
+
+
+ Parfait, notre lien est cliquable et nous redirige vers une autre page. Ah oui, mais nous avons un probleme: du coup ce lien prend la main sur notre effet javascript Qua cela ne tienne, le probleme est resolu en renvoyant la valeur  false  lors de lexecution de laction clic sur le lien: 
+
+  xml
+a href="afficher_article.php?full=1" onclick="new Effect.Appear('mytext', 1);return false"Test d'accessibiliteacute;/a
+ 
+
+
+ AJAX  rend vos pages plus brillantes 
+
+
+ Prototype et Scriptaculous proposent des outils qui vous simplifient la vie pour faire de l AJAX . Par exemple, la fameuse autocompletion du champ recherche releve du jeu denfant. Imaginons que vous souhaitiez proposer lautocompletion dun champ de formulaire pour le choix dun prenom. Voici le formulaire de base: 
+
+  xml
+form action="" method="post"
+  label for="prenom"Quel est votre preacute;nom ?/label
+  input type="text" size="30" name="prenom" id="prenom" /
+/form
+ 
+
+
+ Scriptaculous propose un objet  Ajax  tres pratique et disposant nativement dune methode  Updater()  permettant de sacquitter de la tache qui nous interesse. Voici le code final: 
+
+  xml
+form action="" method="post"
+  label for="prenom"Quel est votre preacute;nom ?/label
+  input type="text" size="30" name="prenom" id="prenom" /
+  div id="prn_update"/div
+/form
+script type="text/javascript"
+new Ajax.Autocompleter (
+  'prenom',      // ID of the source field
+  'prn_update',  // ID of the DOM element to update
+  'prenoms.php', // Remote script URI
+  {method: 'post', paramName: 'prenom'}
+);
+/script
+ 
+
+
+ Je pense que le code parle de lui-meme, mais au cas ou cela ne soit pas clair pour tout le monde, detaillons ensemble les differents elements: 
+
+  xml
+div id="prn_update"/div
+ 
+
+
+ Cet element sera le  receptacle  de nos appels asynchrones au script  prenoms.php ; cest dans cet element que seront inscrites les informations recues, en loccurence ici la liste des prenoms correspondants aux lettres saisies dans lelement de formulaire  prenom . 
+
+  javascript
+new Ajax.Autocompleter (
+  'prenom',      // ID of the source field
+ 
+
+
+ Le premier argument de notre objet sera lidentifiant  DOM  du champ de formulaire a qui lon destine lautocompletion. 
+
+  javascript
+  'prn_update',  // ID of the DOM element to update
+ 
+
+
+ Ce deuxieme argument est lidentifiant  DOM  du receptacle des informations recues. 
+
+  javascript
+  'prenoms.php', // Remote script URI
+ 
+
+
+ Le troisieme argument nest autre que l URI  du script qui nous fournira nos donnees. A titre dexemple, pour notre liste de prenoms, le script  PHP  pourrait etre: 
+
+  php
+?php
+$p = array("Aaron", "Abdallah", "Abdel", "Vous pouvez completer cette liste a votre guise...", "Yvon", "Zoubida", "Zouhir", "Zorobabel");
+$q = $_POST['prenom']; $i = 0;
+if ($q != "") {
+  echo 'ul';
+  foreach($p as $prn) {
+    if (substr(strtolower($prn),0,strlen($q)) == strtolower(stripslashes($q))) {
+      echo 'lia href="#" onclick="return false"'.htmlentities($prn).'/a/li';
+      if (++$i = 10) die('li.../li/ul');
+    }
+  }
+  echo '/ul';
+}
+?
+ 
+
+
+ Enfin, le quatrieme argument de notre objet  Ajax.Updater  est un objet javascript de parametrage de la requete: 
+
+  javascript
+  {method: 'post', paramName: 'prenom'}
+);
+ 
+
+
+ La propriete  method  specifie la methode  HTTP  que vous souhaitez utiliser pour interroger votre script (dans notre cas,  post ) et  paramName  declare le nom de la variable a passer au script pour linterrogation; dans notre cas nous passons  prenom  qui sera ainsi correctement interpretee et traitee par notre script PHP en utilisant  $_POST['prenom'] . 
+
+
+ Bien evidemment, il est possible de grandement ameliorer lesthetique du menu genere grace a lutilisation de regles  CSS  appropriees. Par exemple: 
+
+  css
+  #prn_update {
+    border: 1px solid #999;
+    background: #fafafa;
+  }
+  #prn_update ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  #prn_update a {
+    display: block;
+    padding: .2em .3em;
+    text-decoration: none;
+    color: #333;
+  }
+  .selected {
+    background: lightyellow;
+  }
+ 
+
+
+ Enfin, voila un lien vers lexemple en live: 
+
+ 
+ Test de lautocompletion 
+ 
+
+ Conclusion 
+
+
+ Nous avons a peine survole un dixieme des capacites de ces librairies au potentiel pour le moins enorme. Et comme vous avez pu le constater, la facilite de mise en place et dutilisation sont au rendez-vous, les resultats spectaculaires et ameliorant de facon significative la navigation et la consultation des informations. 
+
+
+ Attention toutefois a ne pas surcharger vos pages deffets et veillez toujours a ce que ces derniers restent au service de lefficacite et de lutilisabilite de vos interfaces, en noubliant jamais de garder les problematiques daccessibilite a lesprit  
+        </text>
+</document>

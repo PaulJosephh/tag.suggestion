@@ -1,0 +1,28 @@
+<document>
+	<date>2005-06-28</date>
+        <title>Une extension Firefox de geolocalisation via Google Maps</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>extensions</tag>
+                <tag>firefox</tag>
+                <tag>geo</tag>
+                <tag>google</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Je vous avais  deja parle de geolocalisation , et notamment de l'excellente extension Firefox realisee par  Patrick H. Lauke ,  GeoURL . 
+
+
+ Cette derniere version, meme si le site n'en parle pas encore, vient de sortir en  version 0.3  et permet la geolocalisation d'un site web via notamment l'outil cartographique dans le  buzz ,  Google Maps , ainsi que d'autres outils en ligne du meme accabit ( MultiMap ,  Flickr nearby  et  Mapquest )  
+
+
+ Il suffit de specifier dans les options du plugin que vous desirez utiliser les services de Google Maps plutot que ceux de  geourl.org  (par defaut), et un click sur l'icone du plugin vous redirigera vers la carte correspondante. Helas, dans le cas de  GM  ce n'est pas la vue satellite qui est affichee, mais la vue en carte routiere... pour le moment non-renseignee pour la France  
+
+
+ Si comme moi vous voulez afficher la vue satellitaire en francais et non pas la carte routiere en anglais, il faut - une fois l'extension GeoURL proprement installee - tapez  about:config  dans la barre d'adresse de Firefox pour acceder aux variables utilisateurs. Localisez la valeur  geourl.destinations.2.url  et renseignez-y la valeur  http://maps.google.com/?sll=[LAT],[LONG]t=khl=frspn=0.05,0.05 . 
+
+
+ Enjoy  
+        </text>
+</document>

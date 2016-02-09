@@ -1,0 +1,39 @@
+<document>
+	<date>2005-01-03</date>
+        <title>Classe ImageLoader : preloader automatique</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>flash</tag>
+                <tag>tips</tag>
+                <tag>tutoriel</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Le fichier source est  disponible ici . 
+
+ Exemple d'appel : 
+
+ import com.niko.Loaders.ImageLoader;
+var oL = new Object();
+oL.click = function() {
+        var iL:ImageLoader = new ImageLoader(_level0.test, 5, "toload.swf", {loaderWidth:120, debug:false});
+};
+bt_load.addEventListener("click", oL);'); 
+
+ Note : Vous noterez le prototype in_array (comme en PHP) de la classe Array, qui permet de verifier la presence d'un enregistrement dans un tableau. Le genre de methode qui devraient - a mon sens - etre implementees d'origine  
+
+ Il est possible, bien entendu, de customiser plus finement l'affichage du loader, notament grace a l'objet customizeObject et de ses proprietes, comme dans l'exemple suivant : 
+
+ var cO = new Object();
+cO.loaderWidth = 140; 
+cO.loaderHeight = 30; 
+cO.loaderBackgroundColor = 0x000033;
+cO.loaderBarContourColor = 0xffff00;
+cO.loaderBarColor = 0x666666;
+cO.loaderTextColor = 0xffffff;
+cO.debug = false;
+var iL:ImageLoader = new ImageLoader(_level0.test, 5, "monimage.jpg", cO); 
+        </text>
+</document>

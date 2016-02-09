@@ -1,0 +1,17 @@
+<document>
+	<date>2007-11-13</date>
+        <title>Occupation des disques, taille des fichiers et des rpertoire : df  du</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Connaitre loccupation des espaces de stockage (disques) :
+ df 
+Connaitre la taille de tous les fichiers (repertoires compris !) du repertoire  nom_rep 
+        </text>
+</document>

@@ -1,0 +1,21 @@
+<document>
+	<date>2014-07-22</date>
+        <title>Nouvelle mise  jour Zipabox 0.9.999</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>0.9.999</tag>
+                <tag>box domotique</tag>
+                <tag>enocean</tag>
+                <tag>firmware</tag>
+                <tag>z-wave plus</tag>
+                <tag>zipabox</tag>
+                <tag>zipato</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Voila plusieurs mois que la  Zipabox Zipato domotique La mise a jour 0.9.999 publiee ce weekend apporte de nouvelles fonctionnalites et corrige plusieurs bugs. Les nouvelles fonctionnalites sont les suivantes :  General: changement du modele de LED UPnP Z-Wave Z-Wave Plus Z-Wave EnOcean EnOcean ZigBee ZigBee Osram Plusieurs bugs ont ete corriges :  General: Correction de la fuite de memoire causee par des attributs de dispositifs supprimes SMS Z-Wave RTSP HTTP Z-Wave Apres plusieurs mois sans evolution, la  Zipabox Zipato  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

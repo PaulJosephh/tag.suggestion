@@ -1,0 +1,41 @@
+<document>
+	<date>2013-07-02</date>
+        <title>Configuration de lapplication SynoZwave</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Aeon Labs</tag>
+                <tag>SynoZwave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+                <category>Synology</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Ce billet rassembles quelques aspects de la configuration de lapplication SynoZwave ainsi que quelques solutions a des problemes rencontres avec cette application. Penser a consulter egalement la  FAQ du wiki de SynoZwave Mon NAS Synology est-il supporte par SynoZwave? 
+ 
+Le wiki de SynoZwave liste les  architectures Synology compatibles page de demande de compatibilite SynoZwave SynoZwave Interface Web SynoZwave : La domotique sur le NAS Synology Linterface web de SynoZwave affiche une ligne derreur 
+ 
+La connexion a linterface de configuration de SynoZwave vous amene sur une page blanche, ou linterface domotique de SynoZwave affiche le message suivant:
+ Une erreur est survenue. Veuillez rafraichir la page. Si lerreur persiste, verifier que SynoZwave est bien actif http://gurau-audibert.hd.free.fr/SynoZwaveWeb SynoZwave SynoZwave Interface Web http://IP_DU_NAS/SynoZwaveWeb La clef Aeon Labs Z-Wave USB Z-Stick S2 est elle bien reconnue par le NAS? 
+ 
+Verifier que le module  CP210x 
+DS209xII dmesg | grep -i cp210x USB Serial support registered for cp210x usb 2-1: cp210x converter now attached to ttyUSB0 Activer le journal (log) de lapplication SynoZwave 
+ 
+Par defaut, le log genere par OpenZwave nest pas conserve. Cest embetant pour essayer de resoudre un probleme, mais il est possible de le reactiver de la maniere suivante:
+ 
+ Faire une sauvegarde des parametres a partir de linterface web ( Web Interface pour Zwave sur Synology  Parametres  Sauvegarde  Sauvegarde Editer le fichier  options.xml /volume1/public/backup Mettre a  true logging Restaurer la sauvegarde Redemarrer SynoZwave ( Centre de paquets  SynoZwave  Action  Stop  Action  Lancer Le journal (log) est maintenant accessible dans  Centre de paquets  SynoZwave  Afficher le journal /var/packages/synozwave/target/log/OZW_Log.txt volume1/@appstore/synozwave/log/OZW_Log.txt 
+ 
+ Acces distant a linterface web de SynoZwave 
+ 
+Cette procedure presuppose que lacces distant a votre NAS est deja parametree.
+ 
+ Dans linterface dadministration du Synology,  Panneau de Configuration  Services Web  Service HTTP Ajouter un port http supplementaire Il ne reste plus qua configurer votre routeur pour rediriger les ports 1111 et 4020 en TCP vers lIP du NAS 
+ 
+ FAQ du wiki de SynoZwave SynoZwave Acces distant 
+ Sommaire Domotique 
+        </text>
+</document>

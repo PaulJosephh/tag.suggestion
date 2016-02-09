@@ -1,0 +1,14 @@
+<document>
+	<date>2010-10-13</date>
+        <title>Commander un matriel depuis un port RS232 avec Homeseer. Partie 2</title>
+        <author> David </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels Homeseer</category>
+        </categories_set>
+        <text>
+                                                          Partie 2. Gestion de variables dans lappel du script. Dans la premiere partie nous avons presente la facon denvoyer une commande sur le port COM : Afin deviter de creer un script different pour chaque commande nous allons utiliser des variables pour l appelle du script. Dans la configuration dun Event, dans Action il est possible de passer des parametres au script que vous executez et de specifier la procedure du script a executer: Nomduscript.txt(nom de la procedure,variable) Apres avoir selectionne laction  Run Script Swtich to Advanced View Il est alors possible de specifier la fonction et la ou les variables. Nous allons modifier notre script en consequence. Script initial ( Partie 1 du guide Option explicit Il faut modifier le script pour indiquer a la fonction  Main option explicit Dans  Homeseer Main Commande (main,PO) Il faut ensuite pour utiliser dautres commandes dans vos Events changer la commande tout en utilisant un seul script. Par exemple remplacer PO par PF pour eteindre lamplificateur.  Toutes les commandes pourront maintenant etre envoyees depuis un unique script.  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

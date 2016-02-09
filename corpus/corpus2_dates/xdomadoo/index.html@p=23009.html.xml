@@ -1,0 +1,20 @@
+<document>
+	<date>2012-10-19</date>
+        <title>Guide dinstallation du module volet roulant Chacon 54754</title>
+        <author> Maximin </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Chacon Produits</category>
+        </categories_set>
+        <text>
+                                                         
+ Le micromodule  Chacon protocole Radio Frequence Chacon  Le module fonctionne en courant continu (DC) ou alternatif (AC), avec ou sans interrupteur. Voici les schemas de cablage pour le courant alternatif: Sans interrupteur : Avec interrupteur:  
+ Le module  Chacon 
+  Cablez le module en fonction de votre besoin.  Sans interrupteur:  
+  Avec interrupteur:  
+ Pour associer le module a un emetteur (telecommande, interrupteur sans fil,  ZiBASE TellStick La LED se met a clignoter lentement. Envoyez une commande ON avec votre emetteur. La LED se met a clignoter rapidement pour indiquer que lassociation a reussi. 
+  Vous pouvez maintenant piloter le module avec votre emetteur !  Reinitialisation: Le module peut etre associe a 6 emetteurs maximum. Il peut donc etre necessaire en fonction de levolution des besoins de le reinitialiser afin de changer les emetteurs associes. Voila comment proceder. Appuyer 6 secondes sur le bouton dapprentissage du module, la LED devrait se mettre a clignoter rapidement Appuyer alors une fois sur le bouton du module, la LED clignote 2 fois, votre module a ete reinitialise    Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

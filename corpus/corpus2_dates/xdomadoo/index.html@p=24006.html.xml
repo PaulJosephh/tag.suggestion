@@ -1,0 +1,28 @@
+<document>
+	<date>2013-06-19</date>
+        <title>Guide dinstallation du module RooWiFi</title>
+        <author> Maximin </author>
+        <tags_set>
+                <tag>aspirateur</tag>
+                <tag>guide</tag>
+                <tag>robot</tag>
+                <tag>roomba</tag>
+                <tag>roowifi</tag>
+                <tag>tuto</tag>
+                <tag>Wi-Fi</tag>
+        </tags_set>
+        <categories_set>
+                <category>Robot Aspirateur Roomba</category>
+        </categories_set>
+        <text>
+                                                         Le  RooWiFi WiFi La connexion et la communication avec le Roomba est realisee par lintermediaire du connecteur mini-DIN 7 broches PS/2 situe sur le dessus du robot.  RooWiFi iRobot Lors du deballage, vous trouverez le  RooWiFi manuel utilisateur Installation Pour pouvoir utiliser votre  RooWiFi Pour les series 700, il vous suffit de lever la poignee de prise du Roomba, la connectique se trouve juste en dessous. Branchez ensuite le module dans le meme sens que la photo, la forme que prennent les broches ne vous laisse de toute facon quune possibilite. Pour pouvoir conserver la coque tout en utilisant le  RooWiFi 3 Modes dutilisation Le  RooWiFi Mode HotSpot : Dans ce mode, le  RooWiFi WiFi WiFi RooWiFi RooWiFi Mode accueil  Wi-Fi Dans ce mode, le  RooWiFi WiFi  Depuis lexterieur de votre reseau local, vous permettant de controler le robot a partir dInternet.  A partir de nimporte quel navigateur Web connecte a Internet, nimporte ou dans le monde. Dans ce mode, la Led clignotera une fois toutes les 3 secondes. Mode de reconfiguration (Mode transitoire) : Ce mode indique que le  RooWiFi WiFi RooWiFi WiFi Vous pourrez retrouver ci-dessous un tableau recapitulatif des 3 modes : Bouton de restauration : RooWiFi Pour cela appuyez 6 secondes sur le bouton present sur le module (il y a marque Restore juste a cote du bouton). La Led devrait clignoter une fois par seconde apres cette manipulation. Seules les proprietes du reseau et de la connectivite  WiFi Configuration web Pour lutilisation depuis un PC, il est recommande dutiliser les navigateurs Chrome ou Firefox. 1. Tout dabord connectez le  RooWiFi 2. Cherchez un reseau  WiFi 
+ 3. Connectez-vous au reseau  WiFi 3.1. Avec un smartphone, cela peut prendre plus de temps que depuis un PC. 3.2. Si ladresse IP indiquee nest pas 10.0.0.2, entrez ces parametres :  Adresse IP : 10.0.0.2  Passerelle : 10.0.0.1  Masque reseau : 255.255.255.0 
+ 4. Ouvrez votre navigateur Internet : 4.1. Sur PC : Entrer  http 4.2. Autres plateformes : Entrer  http 4.3. Informations de connexion :  Nom dutilisateur : admin  Mot de passe : roombawifi 
+ 5. Une fois la page web chargee, cliquez sur Setup  Wi-Fi 
+ 6. Rentrez ici votre configuration  WiFi 
+ 7. Rendez vous ensuite dans longlet Drivers Remote pour pouvoir piloter votre Roomba. Il est possible de le faire avancer, reculer, tourner sur lui-meme, a droite ou a gauche, de 15, 45 ou 90; de faire fonctionner independamment son aspirateur et/ou brosse principale et/ou brosse lateral. Vous pourrez lancer un cycle de nettoyage normal ou en mode spot et le faire retourner a sa base. 
+ Enfin, longlet User Remote donne lui un tres grand nombre dinformations sur lactivite du Roomba comme son niveau de batterie, sil a detecte des murs virtuels, sil vient de rentrer dans un obstacle, sil est sur son dock, la distance parcourue, differentes donnees liees a lalimentation du robot, la temperature exterieur, etc. 
+ Nota : Jai ici utilise un Smartphone sous iOS, mais il est egalement possible dutiliser un Android et autre Windows Phone. Utilisation depuis lapplication iOS Les developpeurs ont egalement concu une application, disponible sur l Apple Store 1. Telechargez lapplication. 2. Connectez vous ensuite au reseau  WiFi RooWiFi 3. Lancez lapplication puis cliquez sur le bouton Config en bas a droite. 4. Cliquez alors sur la fleche bleu CHANGE DEVICE NETWORK CONFIGURATION :: WEB VIEW . Vous etes alors redirige sur la page web de configuration reseau, remplissez bien tout les champs avec la configuration reseau du  RooWiFi  IP : 10.0.0.1  Gateway : 10.0.0.2  Netmask : 255.255.255.0 Puis cliquez sur Save / Reboot. Cliquez OK sur la pop-up qui saffiche puis attendez 2 minutes que le  RooWiFi 5. Des lors quittez le navigateur web et relancez lapplication, verifiez que dans le champ ROOMBA  WI-FI Vous pouvez egalement gerer la vitesse de votre Roomba a laide du curseur en bas a gauche de lecran. Enfin (et oui ce nest pas uniquement un jouet !   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

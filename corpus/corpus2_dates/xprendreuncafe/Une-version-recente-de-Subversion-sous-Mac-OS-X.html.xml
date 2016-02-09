@@ -1,0 +1,26 @@
+<document>
+	<date>2007-10-29</date>
+        <title>Une version rcente de Subversion sous Mac OS X</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>apple</tag>
+                <tag>mac</tag>
+                <tag>osx</tag>
+                <tag>subversion</tag>
+                <tag>svn</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Utilisateurs d' Eclipse  et de  Subclipse , vous avez peut-etre deja peste devant l'incompatibilite de version qui existe avec celle disponible en ligne de commande sous Mac OS X (via  MacPorts ,  Fink , etc.) 
+
+
+ Generalement, vous vous prenez un message d'erreur du style: 
+
+
+ The version of this client is too old. 
+
+
+ Pour regler le probleme, vous pouvez installer le package Subversion de  Martin Ott  en  version 1.4.4 . 
+        </text>
+</document>

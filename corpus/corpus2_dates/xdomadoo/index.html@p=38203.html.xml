@@ -1,0 +1,21 @@
+<document>
+	<date>2014-06-06</date>
+        <title>Appairer son volet roulant Somfy avec le RFXCOM RFXtrx433E</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>guide</tag>
+                <tag>RFXCOM</tag>
+                <tag>rfxtrx433e</tag>
+                <tag>rts</tag>
+                <tag>somfy</tag>
+                <tag>tuto</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique RFXCOM</category>
+                <category>Guide Domotique RFXCOM</category>
+        </categories_set>
+        <text>
+                                                         Vous reviez davoir une installation  domotique RFXCOM Chacon X10 Coco Oregon Scientific Somfy RFXCOM domotique Z-Wave Comme vous le savez, les principaux controleurs  domotique Z-Wave Z-Wave Z-Wave Chacon Oregon Scientific Z-Wave La solution est le  RFXCOM domotique eedomus Somfy Voici les etapes de configuration pour appairer et gerer vos volets roulant  Somfy RFXCOM 1- Telechargez RFXManager Lapplication est disponible sur : http://www.rfxcom.com/Downloads 2- Accedez a RFXManager Apres avoir telecharge le fichier RFXmngr, de-zippez celui-ci et cliquez sur le fichier RFXmngr.exe pour acceder a lapplication RFXManager. 3- Vissez lantenne sur votre RFXCOM et branchezcelui-ci sur le port  USB Cette antenne et ce cable  USB 4- Cliquez sur Connect Depuis lapplication RFXmngr, cliquez sur licone Connect disponible en haut a gauche de linterface. 5- Choisissez le port COM virtuel Apres avoir clique surlicone Connect, une fenetre nommee Options apparait et vous pouvez choisir le port COM virtuel correspondant au port  USB RFXCOM 6-Verifiez que votre RFXCOM est bien connecte a lapplication RFXmngr Apres avoir connecte votre  RFXCOM RFXCOM 7- Indiquez un numero ID unique et un code dunite pour votre dispositif Cliquez sur longlet RFY disponible en haut de votre interface puis indiquez un numero ID unique dans ID et une unite de code unique dans Unit Code pour votre dispositif RTS (dans notre exemple, nous utiliserons le numero ID 3 04 05 et lunite de code 1). 8- Deconnectez lalimentation de tous les dispositifs Somfy RTS sauf celui que vous souhaitez appairer Pour eviter un probleme de connexion, coupez lalimentation de tous vos dispositifs  Somfy RFXCOM 9- Appuyez sur le bouton dapprentissagedurant3 secondes Ce bouton dapprentissage est situe a larriere de votre telecommande  Somfy Lorsque votre volet roulant  Somfy 10- Envoyez une commande Program avec lapplication Apres la montee et descente rapide de votre volet roulant  Somfy Puis selectionnez loption Program et cliquez sur le bouton Transmit. Votre volet roulant  Somfy RFXCOM 11- Utilisez votre volet roulant Somfy RTS grace auRFXtrx433E Vous pouvez desormais gerer votre volet roulant  Somfy 12- Gerez votre dispositifSomfy RTS par une autre application Votre dispositif  Somfy   HomeSeer RFXCOM   Domoticz Vera (avec le plug-in RFXtrx) Dautres logiciels et la box  eedomus  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

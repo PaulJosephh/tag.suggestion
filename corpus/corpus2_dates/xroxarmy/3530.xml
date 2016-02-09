@@ -1,0 +1,36 @@
+<document>
+	<date>2012-02-26</date>
+        <title>[Astuce] R&#233;duisez la taille de votre base de donn&#233;e WordPress !</title>
+        <author>Roxarmy</author>
+        <tags_set>
+                <tag>Akismet</tag>
+                <tag>base de donn&#233;e</tag>
+                <tag>blog</tag>
+                <tag>ovh</tag>
+                <tag>wordpress</tag>
+        </tags_set>
+        <categories_set>
+                <category>actu</category>
+        </categories_set>
+        <text>
+                                                 Aujourd&#8217;hui je vais vous pr&#233;senter une petite astuce qui servira &#224; tous les blogueurs utilisant le magnifique CMS qu&#8217;est WordPress. Le probl&#232;me avec ce CMS c&#8217;est qu&#8217;avec la multitude&#160;d&#8217;extensions&#160;disponibles, la taille de la base de donn&#233;e ne cesse de gonfler. Contrairement en espace disque,  les h&#233;bergeurs fournissent tr&#232;s peu d&#8217;espace de base de donn&#233;e . Par exemple chez OVH, l&#8217;h&#233;bergement&#160;mutualis&#233;&#160;le moins cher propose 50 Mo d&#8217;espace  (25 il y a quelques semaines) . Vous comprenez donc que cet espace est limit&#233;, vital et  qu&#8217;il faut faire tr&#232;s attention . Pour info, dans la base de donn&#233;e sont stock&#233;s articles, commentaires, pr&#233;f&#233;rences, r&#233;glages, etc. 
+ Je vais vous donner une astuce qui va vous permettre d&#8217;optimiser et de nettoyer votre base afin de ne pas d&#233;passer la limite de votre h&#233;bergeur car, si par m&#233;garde cela se passe, votre h&#233;bergeur risque de vous couper votre h&#233;bergement tant que vous n&#8217;&#234;tes pas pass&#233; &#224; la caisse.  Cette astuce consiste simplement &#224; supprimer les historiques d&#8217;Akismet,  la c&#233;l&#232;bre extension anti-spam qui sans le savoir gonfle la base de donn&#233;e de mani&#232;re consid&#233;rable. Pour savoir la taille de votre base de donn&#233;e, installez l&#8217;extension WP_Optimize. 
+ 
+ Premi&#232;rement direction votre SGBD, qui est pour ma part MySQL. Vous trouverez le lien ainsi que vos identifiants dans le manager de votre h&#233;bergeur. Connectez-vous. Notez que cette astuce fonctionne avec&#160;n&#8217;importe quel SGBD (Oracle, PostreSQL, etc). Avant tout, je vous conseil de faire une sauvegarde car on ne sait jamais ce qui peut arriver ! 
+ 
+ Apr&#232;s vous &#234;tes connect&#233;, direction l&#8217;onglet SQL vous permettant d&#8217;ex&#233;cuter des requ&#234;tes SQL. 
+ 
+ &#192; partir de l&#224; vous pouvez taper ces deux requ&#234;tes : 
+ SELECT *&#160;FROM wp_commentmeta&#160; WHERE meta_key LIKE  " %akismet% " 
+ Cette&#160;requ&#234;te&#160;vous permettra de voir combien de lignes li&#233;es &#224; Akismet sont pr&#233;sente dans la table wp_commentmeta. Si vous vous retrouvez avec un r&#233;sultat de plus de 1000 lignes et que vous sentez qu&#8217;il est n&#233;cessaire de nettoyer tout &#231;a, voici la requ&#234;te &#224; ex&#233;cuter : 
+ DELETE FROM wp_commentmeta&#160; WHERE meta_key LIKE  " %akismet% " 
+ Et apr&#232;s, comme par magie, vous gagnez de nombreux Mo de m&#233;moire et par la m&#234;me occasion, vous sauvez votre porte monnaie ! Pour ma part, j&#8217;ai gagn&#233; 10 Mo en nettoyant ma base de donn&#233;e ! 
+ Avant nettoyage. 
+ Pour voir votre base fondre, direction  WP-Optimize pour appliquer une petit coup d&#8217;optimisation de base. 
+ 
+ Apr&#232;s&#160;nettoyage. 
+ Et voil&#224;, le travail est fait. Ces historiques d&#8217;Akismet ne sont vraiment pas n&#233;cessaires &#224; son bon fonctionnement. Voil&#224; une semaine d&#233;j&#224; que j&#8217;ai nettoy&#233; ma base de donn&#233;e et Akismet fait toujours son travail en bloquant ces centaines de commentaires spams que je re&#231;ois chaque jour ! Et pour finir, je tiens &#224; &#160;remercier&#160;aleksou o&#249; j&#8217;ai pu trouver ces deux requ&#234;tes. 
+ Si vous avez d&#8217;autres astuces ou probl&#232;mes n&#8217;h&#233;sitez pas. 
+                                                                                         
+        </text>
+</document>

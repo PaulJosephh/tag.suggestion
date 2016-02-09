@@ -1,0 +1,20 @@
+<document>
+	<date>2013-12-26</date>
+        <title>Guide dinstallation du module douille EVERSPRING AN145-2 avec la Zipabox</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>an145-2</tag>
+                <tag>everspring</tag>
+                <tag>guide</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+                <tag>zipabox</tag>
+        </tags_set>
+        <categories_set>
+                <category>Zipabox Produits</category>
+        </categories_set>
+        <text>
+                                                         La  Zipabox Z-Wave Everspring Z-Wave 1- Installation : A partir de votre centre de controle de votre  Zipabox https://my.zipato.com/ Si votre module a deja ete inclus dans un autre reseau  Z-Wave Lorsque vous avez clique sur le bouton Ajouter des modules, une fenetre souvre et celle-ci vous permet de selectionner le protocole correspondant a votre module (dans notre cas, il sagit du protocole  Z-Wave Z-Wave Une nouvelle fenetre nommee Assistant dajout de peripherique apparait avec un compte a rebours durant lequel vous devez appuyer sur le bouton dapprentissage (le bouton dinclusion de votre module  Z-Wave Ce bouton dapprentissage est situe a lavant de votre module. Une fois que votre module est detecte par votre  Zipabox Apres avoir correctement associe votre module, celui-ci apparait dans la categorie Lampes et Appareils avec le nom par defaut: On/Off switch. 2- Configuration Pour configurer vos parametres generaux (nom de la piece, type de module, nom du module) cliquez sur le bouton  Vous pouvez egalement configurer vos parametres generaux dans la categorie General en cliquant sur Modules Totaux. Puis cliquez sur On/Off switch disponible dans le dossier  Everspring Apres avoir realise vos modifications, cliquez sur le bouton Sauvegarder . Dans la categorie Lampes et Appareils de votre interface, vous allez pouvoir cliquer sur le bouton ON/OFF pour commander votre module et allumer ou eteindre une lampe. Si vous desirez modifier les parametres avances de ce module, cliquez sur Modules totaux dans la categorie General. La fenetre Gerer vos modules apparait. Selectionnez le dossier de votre module( Everspring Cliquez ensuite sur longlet Configuration : Vous allez pouvoir definir dans Custom Configuration des configurations specifiques (disponibles dans la notice de ce module). 3- Exemple de  scenario Votre imagination est la seule limite pour creer un scenario. Nous allons prendre un exemple de scenario : Lorsque la porte de ma maison souvre, la lampe commandee par mon module AN 145-2 sallume. Vous devez en premier lieu vous rendre dans le centre de controle de votre  Zipato Vous etes desormais dans linterface  Createur de regles  dans laquelle vous pouvez creer les scenarios que vous souhaitez grace a : http Nous allons donc realiser le scenario suivant :Quand le capteur douverture de porte est OPEN (si la porte est ouverte), alors le module AN 145-2 qui commande mon eclairage se met sur ON. Nous avons donc besoin de:  3 pieces de Puzzle (1 controle, 1 action et 1 capteur)  2 Modules (1 capteur douverture de porte et 1 actionneur du module de la lampe) Il suffit simplement dassembler ces elements pour creer notre scenario. Pour cela, selectionnez chaque partie et deplacez-les dans les cases attribuees (sans oublier dindiquer le statut du capteur douverture de porte Open et letat de votre module ON). Cliquez sur le bouton Sauvegarder pour valider votre scenario. Voici notre scenario : Comme vous pouvez constater, pas besoin detre un professionnel de la programmation informatique pour realiser un scenario. Ce module AN145-2 peut bien evidemment servir pour dautres applications.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

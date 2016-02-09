@@ -1,0 +1,42 @@
+<document>
+	<date>2013-11-15</date>
+        <title>Prises Everspring AD142, AN157 et AN158</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Everspring</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Modules</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+ Description 
+Il sagit de modules  Z-Wave Z-Wave 
+Le module AN157 est un simple actionneur On/Off et le module AN158 est une variante avec la capacite de mesure de la consommation. Ils sont concus pour fonctionner avec des appareils de 3000W maximum.
+ 
+Le AD142 est un gradateur de luminaire concu pour allumer, eteindre et faire varier des eclairages dune puissance comprise entre 25W et 400W. Il ne faut lutiliser quavec des ampoules compatibles variateur:
+ 
+ Les ampoules a filament ou halogenes de 230V. Les ampoules LED,  fluo-compactes ou basses tension compatible variateur dimmable Commandes manuelles 
+Il est possible dallumer et eteindre manuellement la charge alimentee par le module prise via un appui court sur son bouton.
+ 
+Sur le module variateur (AD142), il est possible de faire varier la luminosite alternativement en appuyant de facon prolongee sur le bouton du module.
+ more Inclusion 
+Le voyant du module prise doit clignoter lentement pour indiquer qu'il n'est pas encore inclus a un reseau  Z-Wave 
+ La prise doit etre en mode  Off Mettre le controleur en mode inclusion Appuyer 3 fois rapidement sur le bouton du module prise (en moins de 1,5 seconde) Le controleur doit vous indiquer la reussite de l'operation Exclusion 
+ La prise doit etre en mode  Off Mettre le controleur en mode exclusion Appuyer 3 fois rapidement sur le bouton du module prise (en moins de 1,5 seconde) Le controleur doit vous indiquer la reussite de l'operation Remise aux valeurs d'usine (Reset) 
+ La prise doit etre en mode  Off Appuyer 3 fois rapidement sur le bouton du module prise (en moins de 1,5 seconde) Moins d'une seconde apres l'etape 1, appuyez 5 secondes sur le bouton jusqu'a extinction du voyant 
+ Cette procedure ne fonctionne pas pour la prise AN157. LUUP -- Allumer et Eteindre . ( "urn:upnp-org:serviceId:SwitchPower1" , "SetTarget" , { = "1" } ,  ) . ( "urn:upnp-org:serviceId:SwitchPower1" , "SetTarget" , { = "0" } ,  ) -- Etat courant (Statut) et cible (Target)  local = . ( "urn:upnp-org:serviceId:SwitchPower1" , "Status" ,  ) local = . ( "urn:upnp-org:serviceId:SwitchPower1" , "Target" ,  ) -- Ajuster le gradateur (modele AD142) . ( "urn:upnp-org:serviceId:Dimming1" , "SetLoadLevelTarget" , { =  } ,  ) -- Etat courant du gradateur (modele AD142) local = . ( "urn:upnp-org:serviceId:Dimming1" , "LoadLevelStatus" ,  ) -- Consommation instantanee (Watts) et cumulee (KWH) (modele AN158) local = . ( "urn:micasaverde-com:serviceId:EnergyMetering1" , "Watts" ,  ) local = . ( "urn:micasaverde-com:serviceId:EnergyMetering1" , "KWH" ,  ) Trop d'inconvenients selon moi 
+ 
+En plus d'etre assez volumineuses et inesthetiques par rapport a une prise  Wall Plug Fibaro rebooter une Box Internet 
+Dans la liste des inconvenients majeure en voici un nouveau: il me semble bien qu'une prise deconnectee pendant plusieurs jours perd, en plus de son etat, son inclusion dans le reseau. Il faut donc refaire l'association 
+ 
+ Note du 27/04/2014: Domotique : la galere du Z-Wave 
+ Note du 21/02/2015: Informations et sources 
+ 
+Shopping:  Prises Everspring AN157 Notice AN158 Notice AN157 Notice AD142 Utilisation des modules prise Everspring AD142, AN157 et AN158 
+ Sommaire Domotique 
+        </text>
+</document>

@@ -1,0 +1,21 @@
+<document>
+	<date>2010-08-03</date>
+        <title>Installation Chacon de base avec un ordinateur</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Chacon Applications</category>
+        </categories_set>
+        <text>
+                                                          Tout comme une installation de base avec des modules  Chacon domotique Chacon 
+ Le controleur permet de faire la liaison entre lordinateur et lensemble de linstallation  Chacon Le  TellStick TS001   RF domotique .  USB USB Une interface  RFXCOM domotique .  RFXCOM Ethernet USB WiFi 
+ Le  recepteur peut etre un module appareil (ordre ON / OFF uniquement) ou  un module lampe (ordres ON / OFF et variation). On peut le trouver sous  differentes formes : 
+ Module prise ( 54585 54786 54546 ) 
+ Module Douille ( 54578 54778 ) 
+ Module  Encastrable ( 54555 54554 Lemetteur peut etre une telecommande ( 54561 54761 54591 54571 54501 54502 54581 54541 54503 Chacon HomeSeer  domotique HomeSeer HomeSeer domotique Chacon RFXCOM HomeSeer X10 PLCBUS Z-WAVE LUTRON   TelldusCenter Telldus   domotique TellStick Chacon Linux   Dautres logiciels compatibles  RFXCOM TellStick  Exemple avec le controleur  TellStick  : Produit indispensable des que lon souhaite approfondir le pilotage de son installation   Chacon ,   TellStick  permet de controler precisement toute votre installation  Chacon , via le logiciel  TelldusCenter . 
+ En utilisant les macros, vous pouvez realiser vos propres scenarios, de depart ou darrivee par exemple. Vous pouvez aussi programmer lheure de demarrage de la machine a laver ou du lave-vaisselle. Vous pouvez mettre en uvre de tres nombreux scenarios tels que : Macro Coucher qui fermera les lumieres et les volets roulants de la maison Macro TV qui reduira lintensite lumineuse dans le salon et eteindra les autres pieces, Macro Arrosage qui declenchera lirrigation a 20h tous les soirs,    TellStick USB  Elle etablit ainsi une communication entre lordinateur et linstallation  Chacon . 
+   Lutilisation dune interface  RFXCOM HomeSeer Chacon  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

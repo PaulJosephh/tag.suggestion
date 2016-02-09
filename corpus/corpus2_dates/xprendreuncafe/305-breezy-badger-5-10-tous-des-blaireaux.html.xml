@@ -1,0 +1,41 @@
+<document>
+	<date>2005-10-13</date>
+        <title>[Breezy Badger 5.10] Tous des blaireaux</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>gnome</tag>
+                <tag>kde</tag>
+                <tag>linux</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text> Comme de  nombreuses personnes aujourd'hui , je vais me transformer en blaireau  stable . D'aucuns diront que c'etait deja le cas, mais j'emmerde d'aucuns. 
+
+
+ Breezy Badger 5.10  sort donc  officiellement aujourd'hui en version stable , je vous invite donc a  dist-upgrader comme des fous   [ 1 ] , a  telecharger les images CD  ou encore  a les commander gratuitement , frais d'expedition inclus. 
+
+
+ Notez que  Kubuntu , la version KDE de Breezy, et  Edubuntu , la distribution orientee jeunes blaireaux en devenir, subissent le meme sort. 
+
+
+ Comme d'habitude, la reinstallation de quelques meta-paquets vous seront utiles en cas de problemes: 
+
+ 
+ ubuntu-standard et ubuntu-desktop (ou kubuntu-desktop, ou edubuntu-desktop) 
+ language-pack-gnome-fr, language-support-fr et language-selector 
+ 
+
+ Mise a jour 
+
+
+ Oubliez le coup des sous domaines internationalises, les sous-domaines pointent tous sur la meme IP, donc les variations de taux de transferts etaient certainement dus a une baisse de charge ponctuels. 
+
+
+ Merci donc a  Zorro  pour l'info. 
+ Notes 
+ [ 1 ] Utilisez plutots les mirroirs francais des depots, plus rapides :  sudo vim /etc/apt/sources.list  puis  :%s/us./fr./g  et  :wq 
+ 
+        </text>
+</document>

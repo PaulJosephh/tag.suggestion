@@ -1,0 +1,67 @@
+<document>
+	<date>2011-05-05</date>
+        <title>S&#8217;assurer pour couvrir les risques du Cloud</title>
+        <author>Mich&#232;le Battisti</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Mod&#232;le &#233;conomique</category>
+                <category>Responsabilit&#233;</category>
+        </categories_set>
+        <text>
+                                                                                   
+ Apr&#232;s avoir   pr&#233;sent&#233; le concept de cloud computing , &#233;valu&#233;  l&#8217;impact contractuel   de cette pratique, mis l&#8217;accent sur la question  des donn&#233;es personnelles ,   de  la s&#233;curit&#233;  ainsi que sur la  r&#233;versibilit&#233; et l&#8217;interop&#233;rabilit&#233;  ce sixi&#232;me atelier de l&#8217;Association pour le d&#233;veloppement de l&#8217;information pour le d&#233;veloppement de l&#8217;informatique juridique ( ADIJ ) &#233;tait notamment consacr&#233; aux assurances.   
+ 
+   
+ Un blog aliment&#233; par l&#8217;ADIJ  pour consulter les rapports des ateliers et le programme des prochains ateliers consacr&#233;s au Cloud Computing 
+ Parmi les points abord&#233;s lors de l&#8217;atelier du 28 avril 2011 [1] , voici ceux que j&#8217;ai choisis de pr&#233;senter. 
+   
+ Quelques coups durs pour l&#8217;avenir du Cloud 
+ Sans hacker et m&#234;me sans Cloud, g&#233;rer des donn&#233;es personnelles en toute s&#233;curit&#233; est d&#233;j&#224; un d&#233;fi. C&#8217;est ce que vient de d&#233;montrer l &#8217;UNESCO  qui exposait depuis plusieurs ann&#233;es &#160;les donn&#233;es personnelles de ceux qui avaient d&#233;pos&#233; leur candidature aupr&#232;s de cette organisation des Nations Unies. 
+ Les affaires, tr&#232;s r&#233;centes, de  Sony , dont les donn&#233;es personnelles de 77 millions de clients avaient &#233;t&#233; d&#233;rob&#233;es par des hackers, mais surtout la panne du  cloud  d&#8217; Amazon , m&#234;me si celle-ci ne serait due qu&#8217;&#224; une erreur humaine, risquent de freiner l&#8217;engouement pour le Cloud, alors que l&#8217;&#160;&#171;&#160;informatique d&#233;mat&#233;rialis&#233;e&#160;&#187; repr&#233;sente un secteur &#233;conomique en plein d&#233;veloppement. 
+   
+ Une obligation&#160;: la notification 
+ 
+   
+   
+ Notifier  les probl&#232;mes rencontr&#233;s dans la gestion des donn&#233;es personnelles de ses clients est une obligation l&#233;gale aux Etats-Unis depuis une dizaine d&#8217;ann&#233;es. C&#8217;est ce qui explique tr&#232;s certainement le nombre et la densit&#233; des communiqu&#233;s d&#233;taill&#233;s publi&#233;s en ce moment par Sony ou Amazon. 
+ La notification sera &#233;galement impos&#233;e en Europe, apr&#232;s la  transposition des directives du Paquet T&#233;lecom   [2]  dont la date limite est fix&#233;e au 25 mai 2011. En France, c&#8217;est par  ordonnance  (sans passer par le Parlement) que devrait &#234;tre transpos&#233;e la directive &#171;&#160;vie priv&#233;e&#160;et communications &#233;lectroniques&#160;&#187;, la directive europ&#233;enne du Paquet qui contient cette proc&#233;dure. Lorsque le texte sera adopt&#233;, la notification s&#8217;imposera &#224; tous les&#160; op&#233;rateurs de t&#233;l&#233;communications et aux fournisseurs d&#8217;acc&#232;s &#224; internet (FAI), mais &#224; terme aussi, comme on le pressent d&#233;j&#224;, &#224; tous les autres secteurs d&#8217;activit&#233;. Sous peine de sanction, toute organisation sera amen&#233;e &#224; informer les personnes concern&#233;es de toute mise en danger de leurs donn&#233;es personnelles. Il leur faudra &#233;galement informer la  CNIL et s&#8217;engager &#224; prendre une s&#233;rie de dispositions. 
+ Un march&#233; pour les assurances 
+ La responsabilit&#233; pour des dommages immat&#233;riels li&#233;e &#224; la probl&#233;matique des donn&#233;es personnelles a cr&#233;&#233; un march&#233; pour les assurances. La notification obligatoire qui a, en quelque sorte, stimul&#233; ce march&#233; aux Etats-Unis aura le m&#234;me impact en Europe. Si en cas de fuite ou de perte de donn&#233;es, les sommes exig&#233;es pour r&#233;parer le pr&#233;judice atteignent tr&#232;s rapidement des montants  astronomiques,  la proc&#233;dure de notification, impliquant que l&#8217;on communique largement sur la question, contribuera immanquablement &#224; en accentuer les effets. 
+ Certes, la notification n&#8217;est pas uniquement li&#233;e au Cloud mais &#224; l&#8217;ensemble des traitements informatiques, m&#234;me si aucune op&#233;ration n&#8217;a &#233;t&#233; externalis&#233;e. Il n&#8217;en reste pas moins que le Cloud exacerbe les craintes, ne serait-ce parce qu&#8217;il est difficile de conna&#238;tre&#160; pr&#233;cis&#233;ment la localisation des donn&#233;es et leur cheminement, celles-ci &#233;tant en perp&#233;tuel mouvement autour du monde, &#160;comme on nous l&#8217;avait indiqu&#233; lors du  1 er  atelier . 
+ Des produits &#160;d&#8217;assurance  ad hoc 
+   
+ Le responsable du traitement des donn&#233;es &#233;tant jug&#233; responsable des cons&#233;quences de la faille informatique, il lui appartient d&#8217;obtenir des garanties lui permettant d&#8217;indemniser les tiers pour la perte ou&#160; le vol des donn&#233;es dont il avait la garde. 
+ Dans cette situation,  le courtier en assurances  est appel&#233; &#224; jouer un r&#244;le majeur. Interface entre le client et la soci&#233;t&#233; d&#8217;assurances, c&#8217;est lui qui, en fonction d&#8217;un contexte donn&#233;, va b&#226;tir un  package  client, un ensemble de solutions  viables,  pour lesquelles il faudrait encore beaucoup de  cr&#233;ativit&#233; , le domaine &#233;tant loin d&#8217;&#234;tre born&#233;. Les diff&#233;rents produits&#160; donnant diff&#233;rentes garanties (perte de revenus, perte de donn&#233;es, interruption de services, ..) qui seront &#160;propos&#233;s au client varieront selon le type d&#8217;activit&#233; du client, sa notori&#233;t&#233;, ses choix techniques (o&#249; la certification pourrait jouer un r&#244;le), ses outils juridiques mis en oeuvre (les garanties contractuelles, &#8230;), etc. Outre ses connaissances dans le domaine juridique, il &#160;appartient &#233;galement au courtier &#160;d&#8217;avoir des connaissances techniques et de savoir, par exemple, comme on l&#8217;a not&#233;, que les d&#233;lais pour identifier une faille seraient pass&#233;s d&#8217;un an &#224; 3 semaines. 
+ Mais les &#160;assurances, sp&#233;cialis&#233;es dans certains domaines,&#160; ne&#160; couvrent pas tous les probl&#232;mes rencontr&#233;s. Par ailleurs, contrairement aux Etats-Unis o&#249; une culture de l&#8217;assurance contre la fraude existe depuis 10 ans, le march&#233; europ&#233;en, immature, s&#8217;av&#232;re trop &#233;troit. C&#8217;est ce que  Hiscox , soci&#233;t&#233; repr&#233;sent&#233;e lors de l&#8217;atelier et  pionni&#232;re  en Europe, a soulign&#233; en ajoutant qu&#8217;il faudrait que d&#8217;autres soci&#233;t&#233;s d&#8217;assurance op&#232;rent dans cette r&#233;gion du monde,&#160;pour mettre en place des syst&#232;mes de&#160; coassurance et  empiler les capacit&#233;s. 
+ Si lors d&#8217;une interruption de service avec perte d&#8217;exploitation, des garanties peuvent &#234;tre donn&#233;es pour une prise en charge des cons&#233;quences financi&#232;res, mais la couverture n&#8217;est pas forc&#233;ment assur&#233;e si les probl&#232;mes sont dus &#224; ses propres prestataires. 
+ Des responsabilit&#233;s &#224; d&#233;terminer 
+ Qui doit supporter les risques&#160;?&#160; Chaque utilisateur ou chaque prestataire&#160;? 
+ Si les prestataires sont g&#233;n&#233;ralement assur&#233;s, on sait aussi que peu d&#8217;assureurs ma&#238;trisent le concept de Cloud et que s&#8217;il y a un march&#233; pour l&#8217;assurance, en Europe comme on l&#8217;a constat&#233; (voir &#167; pr&#233;c&#233;dent), se pose un probl&#232;me  capacit&#233;.  
+   
+ Par ailleurs, en cas de probl&#232;me, le client ne sait pas vers qui se tourner car la cha&#238;ne de la responsabilit&#233;&#160;&#160;est longue et  sinueuse [3] , sans doute davantage dans le Cloud que dans d&#8217;autres contextes ,   et il a peu de chance d&#8217;avoir gain de cause lorsque&#160; la cha&#238;ne est rompue. Le client qui se trouve souvent face des contrats d&#8217;adh&#233;sion, est d&#233;muni. 
+ Ne serait-il pas plus simple, plus efficace aussi (mais aussi plus int&#233;ressant, le march&#233; &#233;tant plus large que celui des prestataires), de demander &#224; chaque utilisateur de s&#8217;assurer&#160;? 
+ Des co&#251;ts 
+ Outre les frais li&#233;s aux assurances, d&#8217;autres frais importants semblent s&#8217;imposer. Il convient, en effet, de pr&#233;venir les risques, en mettant en place des syst&#232;mes de d&#233;tection et d&#8217;identification des failles, mais aussi de mettre en oeuvre des proc&#233;dures de traitements rapides des &#171;&#160;crises&#160;&#187;. &#160;C&#8217;est &#224; ce prix, notamment, que les assurances accepteront de prendre en charge leurs clients. 
+ Un nouveau march&#233; semble bien se profiler, ouvert &#224; ceux qui proposeront des solutions pour communiquer lors de crises (afin de limiter leur &#160;impact), des&#160; plates-formes de surveillance (de coordonn&#233;es bancaires, par exemple) et aux &#160;sp&#233;cialistes en informatique (charg&#233;s d&#8217;identifier les failles et de colmater les br&#232;ches). 
+ &#8230; qui annihilent les avantages du Cloud 
+ Si recourir au Cloud devait pr&#233;senter des avantages &#233;conomiques, ce qui avait &#233;t&#233; largement soulign&#233; lors des divers ateliers pr&#233;c&#233;dents, ces avantages pourraient ainsi fort bien &#234;tre neutralis&#233;s par les co&#251;ts des proc&#233;dures &#224; mettre en place&#160; pour pr&#233;venir les risques et celui des assurances &#224; souscrire. 
+ ********** 
+ Parmi les autres th&#232;mes abord&#233;s lors de cet atelier 
+ 1. Le rapport de la CNIL sur le Cloud Computing  avant sa parution &#224; la fin du mois de mai 2011. Nous savons que la  synth&#232;se de l&#8217;atelier de l&#8217;ADIJ du 2 d&#233;cembre 2010  consacr&#233;e &#160;aux donn&#233;es personnelles [4]  donne quelques &#233;l&#233;ments sur les solutions envisag&#233;es par la CNIL pour r&#233;gler la question des responsabilit&#233;s.&#160; Dans son rapport, la CNIL pr&#233;sentera le Cloud de mani&#232;re d&#233;taill&#233;e. Elle mettra l&#8217;accent sur les enjeux juridiques de la s&#233;curit&#233; et certaines solutions techniques (m&#233;tadata et stickydata), lui permettant de donner une s&#233;rie de conseils pratiques.    
+ Si la CNIL progresse sur ces sujets, au niveau europ&#233;en, elle rencontre une r&#233;sistance au sein du G29, regroupement des &#171;&#160;CNIL&#160;&#187; des pays europ&#233;ens lorsqu&#8217;il s&#8217;agit d&#8217;assouplir la loi pour l&#8217;adapter aux r&#233;alit&#233;s du Cloud. Or, certaines entreprises n&#8217;accepteront de se lancer dans le Cloud que lorsqu&#8217;elles pourront se conformer &#224; un cadre r&#232;glementaire. C&#8217;est le cas de certains pays aussi, comme l&#8217;Allemagne, particuli&#232;rement soucieuse de la s&#233;curit&#233; [5] . 
+ 2. Le point sur le march&#233; du Cloud  pour actualiser  le rapport de l&#8217;Association fran&#231;aise des &#233;diteurs de logociels (AFDEL ) pr&#233;sent&#233;  lors du 1 er  atelier  de l&#8217;ADIJ.. 
+ 3.  Une pr&#233;sentation de la soci&#233;t&#233;  VMWare ,   cr&#233;&#233;e aux Etats-Unis il y a 10 ans&#160;par des chercheurs et du tr&#232;s large panel de solutions propos&#233;es en mati&#232;re de  cloud.   Cette soci&#233;t&#233;, en fort d&#233;veloppement, entend &#171;&#160;sortir du discours (st&#233;rile) de la segmentation&#160;&#187; et s&#8217;orienter vers l&#8217;IT as a service (sans se pr&#233;occuper des couches&#160; Iaas, Saas, Paas)&#160;&#187; et faire ainsi de la technologie&#160;un service. 
+ Illustr. Storm. Artmiss. CC by-nc-nd.  Flickr 
+ [1]  A compl&#233;ter par le compte rendu qui sera mis en ligne sur  le blog de l&#8217;ADIJ .
+ [2]  Date limite qui, comme souvent, pourrait bien ne pas &#234;tre respect&#233;e. 
+ [3]  Le cas expos&#233; dans le texte que j&#8217;ai utilis&#233; est &#233;tranger au Cloud mais le qualificatif de sinueux utilis&#233; dans cet article illustre &#160;opportun&#233;ment&#160; la question de la rupture de la cha&#238;ne contractuelle. 
+ [4]  Voir aussi  Le Cloud computing&#160;: un d&#233;fi pour les donn&#233;es personnelles&#160;?,  Paralipom&#232;nes, 6 d&#233;cembre 2011 
+ [5]  En Allemagne, les CIL sont obligatoires et les donn&#233;es des&#160; personnes morales concern&#233;es par la&#160; prot&#233;geant les donn&#233;es personnelles 
+ [1]  A compl&#233;ter par le compte rendu qui sera mis en ligne sur  le blog de l&#8217;ADIJ . 
+ &#8211;&amp;gt; 
+                                         
+                                                                                                        
+                                 
+        </text>
+</document>

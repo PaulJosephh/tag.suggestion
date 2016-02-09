@@ -1,0 +1,29 @@
+<document>
+	<date>2005-11-12</date>
+        <title>Dpts PLF chez Free et Backports officiels</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>free.fr</tag>
+                <tag>tips</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Bonne nouvelle,  Free.fr  est desormais mirroir officiel des depots  PLF . Freeboxes, ca va pulser  
+
+
+ deb ftp://ftp.free.fr/pub/Distributions_Linux/plf/ubuntu/plf/ breezy free non-free
+deb-src ftp://ftp.free.fr/pub/Distributions_Linux/plf/ubuntu/plf/ breezy free non-free 
+
+
+ D'autre part, le  frigo  a parle: les  backports officiels pour Breezy  sont disponibles. 
+
+
+ deb http://archive.ubuntu.com/ubuntu breezy-backports main restricted universe multiverse
+deb http://ubuntu-backports.mirrormax.net/ breezy-extras main restricted universe multiverse 
+
+
+ Pour prendre en charge ces depots, ajoutez ces lignes dans votre fichier  /etc/apt/sources.list  ou dans Synaptic via  Categories  Depots  Ajouter  Personnalises , puis effectuez une mise a jour de la distribution. 
+        </text>
+</document>

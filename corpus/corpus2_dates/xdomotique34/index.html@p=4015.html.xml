@@ -1,0 +1,96 @@
+<document>
+	<date>2013-04-11</date>
+        <title>TEST Sirne Fortrezz SSA-03</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>Domadoo</tag>
+                <tag>Fortrezz</tag>
+                <tag>sirene</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Alarme</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ Jai pu tester grace a notre partenaire  Domadoo , la sirene Fortrezz SSA-03. Il sagit dune sirene interieure ou exterieure (sous abris) dune puissance de 105 Db. De plus comme on peut le voir sur la photo, celle-ci est munie dun flash. Cest une sirene Z-wave, mais qui peut aussi se connecter sur un systeme filaire traditionnel. 
+ Caracteristiques techniques 
+ 
+ Type de module : Recepteur Z-Wave 
+ Alimentation :
+ 
+ Adaptateur 16V/300mA ou via la centrale de securite 
+ Batterie 9VDC de secours 
+ 
+ 
+ Frequence : 868,42 Mhz 
+ Portee : jusqua 30 m en champ libre 
+ Intensite sonore : 120dB a 10 cm; 105dB a 1m 
+ Dimensions : 200mm x 10mm x 60mm (L x l x P) 
+ Contact anti-sabotage : inclus 
+ Poids : 500g 
+ Temperature dutilisation : -10C a +70C 
+ Norme : ETSI EN 300 328 V1.7.1 (2006-10) 
+ 
+ 
+ Deballage 
+ 
+  
+ Le pack est constitue de la sirene, dune notice, dune pile 9v (qui servira de batterie en cas de coupure de courant), dune alimentation (un adaptateur secteur est necessaire car le bloc dalimentation est  US). 
+ 
+ Retournons cette alarme pour voir ce quil sy cache 
+ 
+ Au dos se trouve le systeme de fixation et surtout le systeme anti sabotage. Jai teste et ca fonctionne a merveille 
+ 
+ 
+ Pour appairer la sirene, il faut louvrir, pour cela il faut devisser la vis que lon voit ci-dessous 
+ 
+  
+  
+ Le boitier ouvert, on accede au circuit qui permet (de connecter la batterie, dappairer le module ou bien de connecter un systeme dalarme filaire). 
+ 
+  
+ Dans ce premier article nous verrons linclusion dans la box eedomus 
+  
+  
+  
+ 
+ En passant sur les valeurs du peripherique ; il y a 3 modes possibles 
+ . sirene seule 
+ . voyant seul 
+ . sirene et voyant 
+ 
+ Une valeur de 1 a 33 met en marche que les lumieres stroboscopiques, tandis quune valeur de 34 a 66 met en marche seulement de la sirene. Avec la valeur 0 seteindra a la fois la sirene et les lumieres stroboscopiques. Le SSA3 peut etre desactive en appuyant rapidement sur le bouton trois fois. Le SSA3 ne renvoie que 0, 33, 66, ou 99 en reponse a un commutateur multi-niveaux ou de base. 
+ En conclusion 
+ Cette sirene fait tres bien son travail, couplee a divers detecteurs pour signaler une intrusion, ou bien une detection de fumee ou dinondation. Comme vous avez pu lentendre dans la video, les decibels sont au rendez vous. Si vous linstallez en exterieur, il vous faudra la proteger des intemperies. Cette sirene pourra servir de repeteur de signal pour augmenter la portee du reseau Z-wave. Dans un prochain article nous verrons comment inclure cette sirene dans la zipabox et la Zibase. Encore un grand merci a  Domadoo  pour mavoir preter cette sirene, disponible dans leur boutique au prix de 99.95 . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

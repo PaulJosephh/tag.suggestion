@@ -1,0 +1,17 @@
+<document>
+	<date>2015-03-20</date>
+        <title>
+Guide dutilisation de la prise commande Aeotec ZW075 avec la camra Z-Wave Piper</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Aeotec</tag>
+                <tag>Piper</tag>
+                <tag>Z-wave</tag>
+                <tag>ZW075</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>La camera Piper integre differents capteurs (mouvement,temperature, humidite, luminosite et bruit) mais egalement un controleur Z-Wave. Il est ainsi possible dajouter dautres capteurs ou des actionneurs et de realiser des scenarios. Voici un guide sur linstallation et la configuration de la prise commandee Z-Wave Plus Smart Switch dAeotec avec Piper. Lire larticle complet sur  News Domotiques by Domadoo   Aeotec   Piper   Z-wave   ZW075 
+        </text>
+</document>

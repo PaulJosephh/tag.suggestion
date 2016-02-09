@@ -1,0 +1,165 @@
+<document>
+	<date>2007-03-03</date>
+        <title>Ruby on Rails 1.2.2, premier contact</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>framework</tag>
+                <tag>rails</tag>
+                <tag>ruby</tag>
+                <tag>tutoriel</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ruby</category>
+        </categories_set>
+        <text>Je dois preparer une reunion technique sur  Ruby on Rails , aussi je m'y remets doucement. J'en profite donc pour passer en revue la version  1.2.2  du framework par le biais d'un petit tutoriel. Je prends pour exemple la gestion d'un carnet d'adresses simplissime. 
+
+
+ Installation sur Ubuntu 
+
+
+ L'installation de rails sur Ubuntu  est toujours aussi simple. 
+
+
+ Creation de l'application 
+
+
+ Vos pouvez creer votre projet rails n'importe ou sur votre disque dur, par exemple dans  ~/rails : 
+
+
+ $ cd ~  mkdir rails
+$ rails contacts 
+
+
+ Le squelette de l'application  contacts  est cree sous la forme d'un repertoire contenant l'arborescence par defaut d'un projet vierge. 
+
+
+ $ cd contacts 
+
+
+ Pour tester votre projet vierge, vous pouvez lancer  Webrick , un petit serveur HTTP ecrit en ruby inclus dans les librairies du framework: 
+
+
+ $ script/server 
+
+
+ Faites pointer votre navigateur a l'adresse  http://0.0.0.0:3000/  pour admirer la page par defaut du projet. 
+
+
+ 
+
+
+ Configuration de l'acces aux donnees 
+
+
+ Dans le fichier  config/databases.yml , on definit nos parametres de connexion au  SGBD , ici MySQL: 
+
+  yaml
+development:
+  adapter:  mysql
+  database: contacts_development
+  username: root
+  password: password
+  host:     localhost
+  socket:   /var/run/mysqld/mysqld.sock
+ 
+
+
+ N'oubliez pas de creer une base MySQL  contacts_development , hein  
+
+
+ Creation d'une table dans la base donnees 
+
+
+ On va utiliser le systeme de migration propre a rails pour garantir une evolutivite de notre modele de donnees: 
+
+
+ $ ruby script/generate migration contacts_development 
+
+
+ On edite le fichier genere dans  db/migrate/001_contacts_development.rb : 
+
+  ruby
+class ContactsDevelopment  ActiveRecord::Migration
+
+  def self.up
+    create_table "contacts" do |t| 
+      t.column "name", :string
+      t.column "email", :string
+      t.column "address", :string
+      t.column "city", :string
+      t.column "zip", :string
+      t.column "country", :string
+    end 
+  end 
+
+  def self.down
+    drop_table :contacts
+  end 
+
+end
+ 
+
+
+ On lance la migration, ce qui pour l'heure aura pour consequence et pour l'heure de creer notre table  contacts  dans la base de donnees: 
+
+
+ $ rake db:migrate 
+
+
+ Creation d'un jeu de donnees 
+
+
+ Nous allons creer quelques fixtures pour peupler notre table et avoir quelque chose a se mettre sous la dent. Pour cela, on cree (ou modifie) un fichier  test/fixtures/contacts.yml  contenant les deux entrees: 
+
+  yaml
+John:
+  name:    John Doe 
+  email:   john@doe.com
+  address: 12, rue des champs
+  zip:     75009
+  city:    Paris
+  country: France
+
+Bob:
+  name:    Bob Doe 
+  email:   bob@doe.com
+  address: 1, place du pre 
+  zip:     35000
+  city:    Rennes
+  country: France
+ 
+
+
+ On insere les donnees dans la base: 
+
+
+ $ rake db:fixtures:load 
+
+
+ Ces donnees permettront par la suite de tester plus facilement l'application. 
+
+
+ Scaffolding 
+
+
+ On cree un module basique de gestion de nos contacts: 
+
+
+ $ ruby script/generate scaffold Contact 
+
+
+ Faites pointer votre navigateur sur  http://0.0.0.0:3000/contacts  pour tester les scripts generes automatiquement. 
+
+
+ 
+
+
+ Ce n'est effectivement pas tres beau, vous avez raison, mais c'est deja fonctionnel... et surtout, cela ne nous a pas pris plus de 5 minutes! 
+
+
+ A suivre 
+
+
+ On ne s'arretera pas en si bon chemin, le prochain volet de ce tutoriel fera notamment evoluer notre schema de base de donnees...  stay tuned ! 
+        </text>
+</document>

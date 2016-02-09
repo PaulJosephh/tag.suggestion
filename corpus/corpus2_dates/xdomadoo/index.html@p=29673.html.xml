@@ -1,0 +1,21 @@
+<document>
+	<date>2013-12-25</date>
+        <title>Guide dinstallation du dtecteur Multisensor AEON LABS avec la Zipabox</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>aeon labs</tag>
+                <tag>aeotec</tag>
+                <tag>guide</tag>
+                <tag>multisensor</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+                <tag>zipabox</tag>
+        </tags_set>
+        <categories_set>
+                <category>Zipabox Produits</category>
+        </categories_set>
+        <text>
+                                                         La  Zipabox Z-Wave Aeon Labs 1- Installation : Zipabox https://my.zipato.com/ Si votre module a deja ete inclus dans un autre reseau  Z-Wave Lorsque vous avez clique sur le bouton Ajouter des modules, une fenetre souvre et celle-ci vous permet de selectionner le protocole correspondant a votre module (dans notre cas, il sagit du protocole  Z-Wave Une nouvelle fenetre nommee Assistant dajout de peripherique apparait avec un compte a rebours durant lequel vous devez appuyer une fois sur le bouton dapprentissage (le bouton dinclusion de votre module  Z-Wave Ce bouton dapprentissage est situe a larriere de votre module. Une fois que votre module est detecte par votre  Zipabox Apres avoir correctement associe votre module, celui-ci apparait dans les categories Capteurs et Mesures de votre interface avec le nom par defaut: Multisensor. 2- Configuration Pour configurer vos parametres generaux (nom de la piece, type de module, nom du module) cliquez sur le bouton Vous pouvez egalement configurer vos parametres generaux dans la categorie General en cliquant sur Modules Totaux. Puis en cliquant sur Multisensor disponible dans le dossier Aeon Multisensor. Apres avoir realise vos modifications, cliquez sur le bouton Sauvegarder. Dans la categorie Mesures de votre interface, vous allez pouvoir visualiser la luminosite (lux), lhumidite (%) et la temperature (C) de votre piece (avec les boutons I, II, III) grace a votre module. Si vous desirez modifier les parametres avances de ce module, cliquez sur Modules totaux dans la categorie General. La fenetre Gerer vos modules apparait. Selectionnez le dossier de votre module: Aeon Multisensor. Cliquez ensuite sur longlet Configuration : Voici les reglages que vous pouvez effectuer: ON MULTILEVEL GET WAKE AFTER BAT INSERTED TIMEOUT AFTER NO MOTION PIR SENSOR CMD ON PIR MOTION :  G1/G2/G3 REPORT et G1/G2/G3 INTERVAL WAKE UP INTERVAL  Dans Custom Configuration, vous pouvez ajouter des configurations supplementaires (disponibles dans la notice de ce module). 3- Exemple de  scenario Quelque soit letat de mon alarme, si il y a une detection dintrusion par mon module MultiSensor, la lampe de mon salon sallume et lalarme sonne. Vous devez en premier lieu vous rendre dans le centre de controle de votre  Zipabox Vous etes desormais dans linterface Createur de regles dans laquelle vous pouvez creer les scenarios que vous souhaitez grace a : http Nous allons donc realiser le scenario suivant :Quelque soit letat de mon alarme, si le module MultiSensor detecte un mouvement, alors ma lampe du salon sallume et lalarme sonne. Nous avons donc besoin de:  6 pieces de Puzzle (2 controles, 2 actions et 2 capteurs)  4 Modules (2 capteurs, 2 actionneurs) Il suffit simplement dassembler ces elements pour creer notre scenario. Pour cela, selectionnez chaque partie et deplacez-les dans les cases attribuees (sans oublier dindiquer le statut de la sirene  Any , du detecteur de mouvement Motion, et les actions des modules de la sirene On  et eclairage Increase et 100). Noubliez pas de sauvegarder pour valider votre scenario. Voici notre scenario : Comme vous pouvez constater, pas besoin detre un professionnel de la programmation informatique pour realiser un scenario. Ce detecteur multifonction peut bien evidemment servir pour dautres fonctions.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

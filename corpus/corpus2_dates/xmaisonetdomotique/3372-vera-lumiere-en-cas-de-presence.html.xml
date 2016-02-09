@@ -1,0 +1,17 @@
+<document>
+	<date>2011-01-27</date>
+        <title>
+Vera: Lumire en cas de prsence</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>micasaverde</tag>
+                <tag>vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Eclairage</category>
+        </categories_set>
+        <text>A force de baigner dedans, certaines choses en domotique paraissent naturelles. Sauf que pour les nouveaux utilisateurs, certaines taches simples sont tres compliquees tant quelles nont pas ete expliquees. Je vais donc ecrire une petite serie de guides, simples, rapides, mais qui aideront les novices. Je commence aujourdhui par une petit guide sur la  Vera , expliquant comment allumer automatiquement une lumiere en cas de detection de presence, une question qui ma deja ete posee plusieurs fois. Si vous aussi vous avez des points bloquants, nhesitez pas a men faire part, soit directement, soit sur le forum, et jessaierai dy repondre via un petit guide qui pourra servir a chacun.  
+ I. Materiel  Le materiel ici se compose: dun  boitier Vera2 dun  detecteur de presence 3 en 1 Ezmotion dun plafonnier relie a un interrupteur Duwi Je considere que les modules sont deja ajoutes correctement a la  Vera  
+ II. Mise en place  Tout dabord, cliquez sur Scene sur linterface web de la  Vera , pour ajouter une nouvelle scene.  En cliquant sur le nom de la scene, en haut a gauche, il est possible de la renommer. Il faut ensuite aller sur longlet Evenements, pour ajouter levenement declencheur.  On selectionne le module declencheur, ici le detecteur de presence du Ezmotion, qui sappelle chez moi Presence:  Il faut donner un nom a levenement declencheur, ici par exemple Presence detectee. On choisit le type devenement A sensor is tripped. Note: Si on selectionne An  armed  sensoris tripped, il faudra au prealable armer le detecteur pour que le scenario fonctionne.Cela peut etre pratique pour assigner une fonction a un detecteur de presence selon silalarme est activee ou non (alarme activee, on declenche une sirene, alarme desactivee,on allume la lumiere). On indique ensuite que le detecteur doit etre tripped (= declenche), car on souhaite iciallumer la lumiere si une presence est detectee. Si au contraire on avait voulu leteindre encas de non presence, on aurait mis ici No. Une fois la configuration de levenement terminee, on clique sur Retour aux evenements Enn, on va indiquer laction a accomplir si cette condition est bonne, en allant sur longletCommandes. On selectionne la piece dans laquelle se trouvent les modules a controler, qui seront alors listes:  On coche ici le plafonnier quon souhaite controler, et on choisit On pour lallumer. On lelaisse ensuite dans cet etat. Mais si on veut le faire eteindre automatiquement au boutdun certain temps (pratique par exemple pour un couloir), on peut indiquer dans la listederoulante a droite quon souhaite leteindre apres un delai defini. Voila, notre scene est maintenant configuree ! On peut ensuite fermer la boite de dialogue a laide de la croix en haut a droite. Veillez a bien enregistrer la conguration en cliquant sur Sauver en haut a droite delinterface:  A partir de maintenant, la lumiere du salon sallumera automatiquement en cas de presence.   micasaverde   vera 
+        </text>
+</document>

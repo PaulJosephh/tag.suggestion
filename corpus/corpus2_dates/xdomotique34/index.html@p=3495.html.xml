@@ -1,0 +1,150 @@
+<document>
+	<date>2013-03-09</date>
+        <title>Test de la Blyssbox Liveez Technology de Castorama</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>Blyssbox</tag>
+                <tag>Castorama</tag>
+                <tag>Liveez Technology</tag>
+                <tag>M2M</tag>
+                <tag>wifi</tag>
+        </tags_set>
+        <categories_set>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ Jai loccasion de pouvoir tester une Blyssbox et divers modules Blyss pendant un mois. Je ferais donc une serie darticles vous presentant la box et differents modules. 
+ Pour commencer nous allons faire une presentation (technologie utilisee), le deballage et la mise en service. 
+  
+ 
+ 
+ Le reve dune maison intelligente, sure, bienveillante et agreable a vivre, est enfin une realite pour chacun dentre nous. Grace au concept Blyss Liveez , la maison vous obeit au doigt et a lil et devance meme tous vos desirs . Concue et developpee, en France, par Avidsen et le bureau detudes M2M pour le compte de Castorama . 
+ Nous avions vu au tout debut de la creation du blog,  le test de la MyXytY  (developpee aussi par m2msolution). 
+  
+ Le concept Blyss Liveez , cest : 
+  
+  une box domotique  plug and play  (16,3 cm x 16,3 cm x 5,5 cm), connectee a internet et/ou fonctionnant avec une carte SIM; 
+  + de 90 accessoires integrant les dernieres technologies pour gerer lenvironnement interieur et exterieur de la maison : video surveillance, alarme, detecteur de fumee, detecteur de mouvement, medaillon durgence (Un bracelet avec bouton dalerte a ete egalement concu pour les personnes agees. En cas de detresse, une simple pression previent la famille), thermostat programmable, prises telecommandees, sonde de temperature, indicateur de consommation denergie 
+  une interface web de commande intuitive , via ordinateur, Smartphone, tablette 
+  
+ Sa technologie : 
+  
+ Elle ne fonctionne pas a laide dun reseau maille comme un reseau Zwave (les modules ne communiquent pas entre eux), ce qui a des avantages (un reseau moins complique a optimiser..) et des inconvenients comme des problemes de communication entre vos modules et votre box (problemes de liaison du a leloignement entre votre module et votre box). Le protocole utilise noffre pas de retour detat sur les modules en RF433 Mzh 
+ La box fonctionne avec un cloud ; elle doit donc etre connectee a internet pour fonctionner (parametrage et sauvegarde des informations). 
+  
+ Le deballage : 
+  
+  
+  
+ Le carton contient : 
+  la box 
+  une alimentation 
+  un cable ethernet 
+  mini guide utilisation 
+  un cd rom (guide complet dinstallation) 
+ 
+  
+ Le mini guide (amplement necessaire alinstallationde votre box) 
+ 
+ Vue du dessus 
+ 
+ La box est blanche (16.316.35.5), elle arbore une rayure qui fait tout le tour ; sur le dessus on peut apercevoir 4 symboles qui en fait son des boutons tactiles. 
+  augmentation/ diminution du volume 
+  activation / desactivation de lalarme 
+  activation / desactivation les cameras 
+  ? : aide 
+ attention en mode GSM, ces boutons tactiles ne sont plus actifs. 
+  
+ box vue de dessous 
+ 
+ 
+  
+ On peut y voir la trappe permettant dacceder a la batterie ainsi que les accroches permettant une eventuelle fixation murale, les deux haut parleur (pour la sirene) mais aussi pour les messages vocaux. En effet celle-ci communique avec vous lorsque vous la branchez et la connectez a internet par exemple. Elle vous signale que vous etes en cours de mise a jour et vous conseille de ne pas la debrancher 
+ La batterie permet a la box davoir une autonomie de 2h environ 
+ Vue de larriere 
+ 
+  
+  un port ethernet 
+  un connecteur USB 
+  alimentation 5VDC 
+  bouton on/off 
+ Les autres prises ne sont pas encore definies dans leur future utilisation. 
+ Une petite video va vous montrer la dimension de cette box par rapport a la box eedomus et a la Zipabox de Zipato 
+ 
+Voila une box, un peu plus imposante que leedomus mais surtout plus grande que la zipato (celle-ci etant prevue pour etre integrer dans un tableau electrique). 
+  
+ Installation 
+ La premiere des choses a faire est de se connecter a https://www.liveez.castorama.fr ; il suffit de suivre le guide ou bien de lancer le cd-rom et de se laisser guider 
+ La box va vous tenir au courant de levolution des mises a jour en vous prevenant de ne surtout pas deconnecter celle-ci. 
+ 
+ On selectionne nouveau client 
+  
+  
+ 
+  
+ renseignement de vos coordonnees 
+  
+ 
+ maintenant le systeme va vous presenter les differentes solutions : 
+ 
+  
+ 
+ 
+ Le systeme fait un recapitulatif des 3 offres avec leur tarif respectif : 
+ 
+ Vous allez donc choisir votre offre a ce niveau, moi bien sur je vais prendre la solution decouverte, et passer a lecran recapitulant, mes coordonnees et la solution choisie 
+ 
+ Passons a la partie connection 
+ 
+ Mise en place de la batterie 
+ 
+ raccordement des cables ethernet et electrique 
+ 
+ Renseignement du mail pour les alertes 
+ 
+ Vous pouvez choisir de votre connexion a votre box soit par le cable ethernet soit par le wifi, moi jai decide de mettre ma box en wifi, ca sera plus pratique pour le test 
+ 
+ Apres avoir renseigner votre reseau SSID (wifi), votre cle, votre connexion sera alors etablie 
+ 
+ Votre Blyssblox est maintenant activee et prete a etre utilisee, vous etes sur le menu de gestion de votre box 
+ beaucoup dinformation apparaissent : 
+ commencons par le haut de lecran en partant de la gauche, on y voit le type de connexion (ethernet ou wifi), raccordee au courant, et batterie chargee. Toujours en haut mais a droite, on trouve lhistorique des evenements, ma configuration (lajout de peripheriques), mon profil (mes coordonnees), laide, et un bouton de deconnexion. 
+ Sur la partie gauche de lecran, on trouve les differentes categories de peripheriques (surveillance video, eclairage, chauffage.) 
+ 
+ sur le centre de la page, vous avez tous les accessoires que vous pouvez ajouter (ils sont classes par categorie et chaque categorie a sa couleur). 
+ 
+ 
+ 
+ Nous avons fait le tour de presentation de cette box, elle est tres facile a installer, quand on voit le nombre decrans ca peut paraitre tres long, mais cest vraiment rapide. Le plus long est de faire les mises a jour (ca a bien pris entre 5 et 10 mn).Dailleurs la derniere mise a jour date du 5 ou 6 mars ( article ). Si vous vous rendez sur le site de  Castorama , il vous faudra debourser 450  pour la box seule. Ca peut faire cher, mais elle est bien pourvue, carte sim (si vous choisissez un des 2 abonnements), une sirene integree, et le WIFI. 
+ Je ne donne pas de jugement sur ses qualites ou defauts, cest encore trop tot ; nous verrons dans les prochains articles, lintegration des peripheriques, les scenarios, et lapplication sur smartphone. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

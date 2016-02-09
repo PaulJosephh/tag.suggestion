@@ -1,0 +1,24 @@
+<document>
+	<date>2015-02-23</date>
+        <title>ImperiHome 2.5 : support de la centrale dalarme MyFox</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>alarme</tag>
+                <tag>android</tag>
+                <tag>domotique</tag>
+                <tag>Home Control 2</tag>
+                <tag>imperihome</tag>
+                <tag>MyFox</tag>
+                <tag>securite</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Lapplication multi-box  domotique ImperiHome centrale dalarme MyFox Home Control 2 MyFox ImperiHome Lafonctionnalite de verrouillage par code des widgets daction a ete demandee a de nombreuses reprise par les utilisateurs : la voici enfin ! Vous pouvez maintenant verrouiller, individuellement, chaque widget daction de votre dashboard. Deux methodes de verrouillage sont proposees : confirmation simple, ou par code PIN. Vous pouvez maintenant egalement proteger votre configuration par un code PIN. Attention quand meme avec cette fonctionnalite : si vous oubliez/perdez votre code, la seule solution sera de remettre a zero votre configuration  ImperiHome Nouvelles fonctionnalites: MyFox MyFox General: verrouillage de configuration par code Dashboard: verrouillage de widgets par code Dashboard: Personnalisation du fond decran des pages (couleur/image) Dashboard: Option pour defilement automatique entre les pages Ameliorations: Dashboard: Nouveau widget interrupteur avec uniquement icone actif Dashboard: Nouveau widget pour volets roulants horizontaux/rideaux Dashboard: Nouveau widget generic sensor (horizontal) Dashboard: Nouvelle page de dashboard 65 Dashboard: Amelioration du selecteur de couleur pour fond et texte Dashboard: Amelioration de la mise en cache des images camera Dashboard: Option pour memoriser la position de scroll sur les widget WebPage AlarmSate/FilPilote: la selection du mode et le dashboard affichent des icones eedomus Qubino fil pilote Vera: Support basique des device PLEG (arm/disarm) Netatmo Cameras: Taux de rafraichissement configurable en vue plein ecran General: Nouveaux icones Correctifs: ZiBase ZiBase ZiBase ZiBase Vera: Correction de la mise a jour des valeurs du VariableContainer Vera: Ajout detats manquants sur les AlarmPanel et beaucoup dautres Lequipe  Evertygo  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ #BBWF : Essence presente sa solution Z-Wave WeR@Home 
+ ImperiHome 2.4 : Support des cameras MPEG4/h264 et des ampoules RGB END .entry-content  
+        </text>
+</document>

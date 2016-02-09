@@ -1,0 +1,33 @@
+<document>
+	<date>2008-02-21</date>
+        <title>Installation complte de lenvironnement de dveloppement UIMA sous Linux</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Eclipse</category>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+Ce billet decrit comment installer completement lenvironnement de developpement UIMA sous une station de travail Linux sans avoir besoin des droits dadministrateur. Par installation complete il faut comprendre linstallation de tout ce qui est necessaire : le SDK Java, Eclipse, les plugins necessaires et le SDK UIMA.
+ Installation du SDK Java 
+La premiere etape consiste, si ce nest deja fait, a installer la  derniere version du kit de developpement de logiciels (SDK) Java jdk-6u4-linux-i586.bin $ chmod +x jdk-6u4-linux-i586.bin yes Installation de lenvironnement de developpement integre (IDE) Eclipse 
+Si ce nest deja fait, installer la  derniere version dEclipse 
+$ ~/eclipse/eclipse -vm ~/jdk1.6.0_04/bin/
+ Window  Preferences  Java  Installed JREs  Add JRE name : Java jdk1.6.0_04
+ Ok Ok. ECLIPSE_HOME i.e. ~/eclipse Window  Preferences  Java  Build Path  Classpath Variables
+ Installation du plugin Eclipse EMF 
+Il faut ensuite installer le plugin EMF utilise par UIMA. En fait, avec la derniere version dEclipse,  Eclipse Modeling Framework (EMF) Updates EMF Update Manager Site Help  Software Updates  Find and Install  Search for new features to install  Next Eclipse Modeling Framework (EMF) Updates Ignore features not applicable to this environment Automatically select mirrors Finish. Eclipse Modeling Framework (EMF) Updates EMF SDK 2.3.1 Next  I accept the terms in the license agreements  Next  Finish  Install All  Yes
+ Installation du plugin Eclipse UIMA 
+On peut alors passer a linstallation du plugin Eclipse dUIMA : Help  Software Updates  Find and Install  Search for new features to install  Next  New Remote Site
+ 
+ Name : Apache UIMA
+ Ok. Apache UIMA Ignore features not applicable to this environment Automatically select mirrors Finish Apache UIMA Next  I accept the terms in the license agreements  Next  Finish  Install All  Yes Installation du SDK UIMA 
+Il faut enfin installer le kit de developpement de logiciels (SDK) UIMA. Telecharger la  derniere version  binaire Binary .bashrc UIMA_HOME JAVA_HOME PATH adapter  /home/audibert ~ export UIMA_HOME="/home/audibert/apache-uima" 
+$ adjustExamplePaths.sh
+ README apache-uima egalement decrite ici 
+ Sous Eclipse, verifier egalement que la variable denvironnement  UIMA_HOME i.e. /home/audibert/apache-uima Window  Preferences  Java  Build Path  Classpath Variables Edit New 
+ Si tout sest bien passe, tous les fichiers concernant linstallation complete de lenvironnement de developpement UIMA doivent etre repartis dans les  repertoires  apache-uima eclipse jdk1.6.0_04 UIMA Manuals and Guides Sommaire UIMA sur ce blog 
+        </text>
+</document>

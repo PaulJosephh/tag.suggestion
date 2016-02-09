@@ -1,0 +1,22 @@
+<document>
+	<date>2007-11-13</date>
+        <title>Droits des fichiers et rpertoires : chmod</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+        </categories_set>
+        <text>
+                                                 
+Il est souvent utile de changer recursivement les droits dacces aux fichiers et repertoires avec loption  -R chmod 
+ Changement recursif des repertoires en rwx r-x r-x :
+ find repertoire -type d -print0 | xargs -0ix chmod 755 x 
+Changement recursif des fichiers (scripts inclus) en rw- r  :
+ find repertoire -type f -print0 | xargs -0ix chmod 640 x  
+Reaffectation du mode executable pour les scripts PERL, PHP ou SHELL en rwxr-xr
+ find repertoire -type f -name "*.pl" -print0 | xargs -0ix chmod 754 x chmod 
+Changement recursif des fichiers et des repertoires de sorte que tout soit lisible par tout le monde, que les repertoires soient traversables et que les fichiers executables pour un groupe le soient pour tout le monde :
+ chmod -R a+rX Remarque : chown -R 
+        </text>
+</document>

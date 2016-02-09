@@ -1,0 +1,27 @@
+<document>
+	<date>2009-05-21</date>
+        <title>Piloter son botier Canon EOS  partir de son iPhone avec DSLR remote.</title>
+        <author>harvey</author>
+        <tags_set>
+                <tag>canon</tag>
+                <tag>iphone</tag>
+                <tag>nikon</tag>
+                <tag>photo</tag>
+                <tag>photo</tag>
+        </tags_set>
+        <categories_set>
+                <category>photo</category>
+        </categories_set>
+        <text>Les gens de  On one software  ne sont ni des debutants, ni des rigolos. Si vous etes a la croisee des chemins entre informatique et traitement numerique, vous avez un jour ou lautre croise lun de leurs produits. Pour ma part, jai eu loccasion de travailler sur des projets numeriques avec  Genuine fractals , un  plug in  de Photoshop assez ahurissant qui permet de re-echantilloner une image basse definition en haute def sans (trop de) perte liee au redimensionnement. Donc quand jai vu passer linfo sur  DSLR remote , un logiciel permettant de piloter un boitier  Canon EOS  a partir dun  iPhone , jai tendu loreille (et pas que), etant moi-meme proprietaire dun EOS et dun iPhone. 
+ Lidee est donc de pouvoir piloter un EOS a partir de son iPhone.  Piloter  ? Oui, piloter, ca va du reglage de la  balance des blancs  au  declenchement du shoot  en passant par la  vitesse  et l ouverture . Les applications dune telle appli sont innombrables. Comment ca marche ? En fait cest assez simple  Il faut un boitier EOS* connecte en  USB  (ou  Firewire ) a un ordinateur portable PC ou Mac qui communique en  Wifi  avec iPhone. Sur le portable tourne un logiciel  serveur  pilote par le iPhone et qui envoit ses instructions a EOS. Si votre boitier supporte  LiveView * vous pouvez visualiser limage en temps reel et jai envie de dire que cest presque une obligation (sinon vous shootez en aveugle). 
+ Linteret dun telle appli tient dans la liberte de mouvement quon peut avoir avec un iPhone dans le creux de la main. Cependant cette technique necessite une mise en oeuvre importante, lEOS etant pose a un endroit pre-defini, dans une posture fixe ou sur un pied, lie a un portable ou un netbook. Si le boitier est lui meme Wifi, on doit pouvoir se passer du cable USB ou firewire. Ceci etant fait, jimagine assez bien les cadrages, en utilisant notamment une focale  grand angle  ou carrement un  fish eye , sur des shootings de mode ou en photographie de sport.  
+ Notez que lapplicatif ne fonctionne quavec les boitiers Canon, simplement parce que les gens de lequipe  On one software  sont tous equipes en Canon. Pour Nikon, il faudra attendre mais nul doute que si lappli est un succes, lequipe de dev sempressera dadapter le concept pour les  happy fews  de la marque jaune. Lapp iPhone devrait etre disponible dans les prochains jours sur AppStore**, le logiciel serveur sera telechargeable sur le site On One software. 
+ Epatant ! 
+ *350D, 400D, 500D, 20D, 30D, 40D, 50D, 5D, 5D Mark II, 1D Mark II, Mark IIn, Mark III, 1Ds Mark II, Mark III  les boitiers supportant LiveView comme le 500D, 40D, 50D, 5D Mark II, 1Ds Mark III, 1D Mark III. 
+ **lapp version Pro va etre commercialisee au prix de 19,99$ avec un prix dintro de 9,99$. Une version Lite (qui ne permet que le declenchement du boitier) sera dispo au prix de 1,99$. Le serveur version PC ou Mac est quant a lui gratuit. 
+   voir la source sur le blog de on one software   
+   voir larticle sur Macacoco, le blog Mac et iPhone 
+ 
+ 
+        </text>
+</document>

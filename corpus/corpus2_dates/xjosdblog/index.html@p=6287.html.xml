@@ -1,0 +1,38 @@
+<document>
+	<date>2015-02-07</date>
+        <title>Dtecteur de mouvement Z-Wave Fibaro FGMS-001</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Fibaro</tag>
+                <tag>Vera</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Modules</category>
+        </categories_set>
+        <text>
+                                                 Description 
+ 
+ 
+De la taille dune balle de golf, ce detecteur de mouvement est un detecteur dinterieur multifonctions Z-Wave. En plus de la detection de mouvement, il mesure la temperature, lintensite lumineuse et comporte egalement un accelerometre afin de detecter toute tentative de sabotage ou un tremblements de terre.
+ 
+On peut le voir comme un concurrent du  MultiSensor DSB05 dAeon Labs Fibaro 
+ Plage de temperature mesuree: -20C a 100C avec une precision de 0,5C Temperature de fonctionnement: 0-40C Plage de mesure de la luminosite: 0-32000 lux Distance maximale de detection de mouvements: 7 m Alimentation: Pile CR123A 3,6VDC Inclusion / exclusion 
+ 
+Pour inclure le FGMS-001, approcher le controleur, le mettre en mode inclusion puis appuyer 3 fois tres rapidement sur le bouton B du FGMS-001 (la led du FGMS-001 doit devenir bleu). 
+ Reinitialisation complete 
+ Maintenir appuye le bouton B pendant environ 6 secondes jusqua ce que la led sallume en violet puis en jaune. Relache le bouton B et appuyer brievement dessus avant que la led ne seteigne. Le succes de loperation est indique par la led qui devient rouge avant de seteindre progressivement. Test de portee Z-Wave 
+ 
+Le  FGMS-001 FGMS-001 
+ Maintenir appuye le bouton B pendant 2 a 4 secondes jusqua ce que la led sallume en violet. Relache le bouton B et appuyer brievement dessus avant que la led ne seteigne pour debuter le test. Le resultat du test depend de letat final de la led.
+ 
+ Clignotement vert: le  FGMS-001 Vert fixe: succes de la communication directe avec le controleur. Clignotement jaune: la communication directe a echouee, le  FGMS-001 Jaune fixe: succes de la communication indirecte avec le controleur. Apres 2 secondes, le  FGMS-001 Clignotement violet: le  FGMS-001 Rouge fixe: le  FGMS-001 Appuyer une derniere fois sur le bouton B pour sortir de la procedure de test. Association avec la Vera Lite (UI5 firmware beta 1.5.672  UI7 firmware 1.7.513) 
+ 
+Je suppose que ce module recent nest pas compatible avec les firmwares de la  Vera Lite 
+ Inclure le  FGMS-001 Une fois inclus, il doit apparaitre dans la liste des modules sous la forme dun  _Motion Sensor Dans longlet  Settings _Motion Sensor Configure node right now Effectuer un triple appui sur le B-button pour reveiller le module et lui permettre de parachever sa configuration. Apres redemarrage de la  Vera Lite _Light Sensor _Motion Sensor _Temperature Sensor Informations et sources 
+ 
+Shopping:  Fibaro Motionsensor FGMS-001 Notice du Fibaro Motionsensor FGMS-001 Parametres du detecteur de mouvement domotique Z-Wave Fibaro Motion Sensor (FGMS-001) 
+ Sommaire Domotique 
+        </text>
+</document>

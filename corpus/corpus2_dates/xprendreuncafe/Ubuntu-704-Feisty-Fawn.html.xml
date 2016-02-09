@@ -1,0 +1,29 @@
+<document>
+	<date>2006-10-19</date>
+        <title>Ubuntu 7.04 sera Feisty Fawn</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>aiglx</tag>
+                <tag>libre</tag>
+                <tag>linux</tag>
+                <tag>ubuntu</tag>
+                <tag>xgl</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>La release d'Ubuntu suivant Edgy, prevue pour le 19 avril 2007 s'appellera  Feisty Fawn , qu'on pourrait traduire par  Faon temeraire  ou  courageux   
+
+
+ Cette version mettra l'accent sur les fonctions multimedia et les effets graphiques lies aux gestionnaires de bureau (via XGL, AIGLX et consorts.) 
+
+
+ Je pense que maintenant c'est effectivement ce type d'efforts qu'il faut produire au niveau d'une distribution grand public comme Ubuntu, ledit public etant de plus en plus exigeant et friand de ce type de gadgets (parfois ergonomiques il faut bien le reconnaitre.) - sans oublier toutefois les efforts a fournir au niveau de la reconnaissance native et automatique des peripheriques et notamment de l'acceleration 3D materielle... necessaire aux effets sus-mentionnes. 
+
+
+ En attendant,  Edgy Eft  sortira le 26 octobre et propose deja dans sa version beta des facilites a l'installation d'effets lies a AIGLX et une offre logicielle complete, de qualite et facile a mettre a jour. 
+
+
+ Edit:   Ubuntu Edgy Eft RC1  est sortie, ainsi que sa copine  Kubuntu . 
+        </text>
+</document>

@@ -1,0 +1,49 @@
+<document>
+	<date>2007-05-31</date>
+        <title>Google Gears : vous pouvez vous deconnecter</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>dojo</tag>
+                <tag>framework</tag>
+                <tag>gears</tag>
+                <tag>google</tag>
+                <tag>javascript</tag>
+                <tag>offline</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Note : ce billet est une reprise de l'article que j'ai publie sur le  blog de Clever-Age ,  Google Gears : vous pouvez vous deconnecter . 
+
+ Edit :  Article  publie sur ZDNet , la gloire ^^ 
+
+ Google  a annonce aujourdhui a loccasion du Google Developer Day le lancement de sa  reponse technique concrete  aux problemes de la consultation et de la synchronisation de donnees web en mode deconnecte:  Google Gears . 
+
+ Cette reponse prend la forme dune extension pour navigateur web ( Firefox  sur Windows, Mac et Linux, Internet Exporer sur Windows  [ 1 ] ) comprenant un  serveur local , une  base de donnees  et  un gestionnaire de transactions  permettant de transformer le navigateur en solution client-serveur local afin de regler lepineux probleme du travail en mode deconnecte avec les applications web modernes. 
+
+ En effet, si les applications en ligne se sont considerablement enrichies et sophistiquees ces dernieres annees, au point de devenir de plus en plus indispensables a certains dentre nous, elles subissent cependant pour la plupart dentre elles dune limitation importante: la  necessite detre en permanence connecte a internet  pour fonctionner. Nombreux sont les cas dimpossibilite de se connecter au reseau des reseaux: zone de couverture, problemes materiels, dinfrastructure, etc. 
+
+ Bien sur, certains se sont deja - et parfois depuis longtemps - penches sur la question. Cest le cas de  Mozilla  avec lajout dans la version 2 de  Firefox  dune base de donnees  SQLite  ou du  projet Zimbra  permettant la sauvegarde de ressources locales. Mais lune des solutions les plus avancees semblait se situer du cote du  Dojo Offline Toolkit , un projet open source proposant des fonctionnalites de  stockage dinterfaces, de donnees et dapplications en local  et des fonctionnalites de  synchronisation . 
+
+ Google Gears se base sur cette derniere solution, embarquant le Dojo Offline Toolkit et une base de donnees SQLite au sein meme de son extension.  Lextension est open source  (sous licence new BSD) et peut a ce titre etre  redistribuee  dans une application embarquant le runtime ou utiliser une installation existante de lextension. La disponibilite du code est egalement une bonne garantie quand a la transparence, au taux dadoption, a la securite et levolutivite du produit  [ 2 ] 
+
+ Une des premieres mises en oeuvre interessantes de Gears se situe depuis ce matin dans  Google Reader , lagregateur en ligne de Google: les utilisateurs ont pu remarquer la presence dun nouveau bouton permettant de recuperer en local les 2000 derniers elements non-lus afin de pouvoir les consulter hors-ligne. 
+
+ 
+
+ Evidemment, ceci nest quun debut et Google ajoutera progressivement ce type de fonctionnalites a ses applications en ligne phares comme  GMail ,  Calendar ,  Docs , etc... 
+
+ Google Gears ne sera cependant pas limite au monde de Google, mais sera utilisable par tout editeur de site Web concerne par ce type de problematiques. Imaginons par exemple lapplication dun constructeur automobile permettant de configurer son vehicule: lutilisateur telecharge alors de facon transparente le catalogue des elements disponibles et peut ensuite prendre tranquillement lavion, utiliser lapplication pendant le vol en configurant sa future voiture. Une fois rendu a destination, il synchronise sa simulation une fois reconnecte a internet et envoie les donnees au serveur web du constructeur. 
+
+ Plus directement utile? Le telechargement en local des donnees cartographiques et des points dinteret de votre futur periple au bout du monde, hors-zone de couverture internet? Vous y etes? 
+
+ Alors, tout est au mieux dans le meilleur des mondes?  Peut-etre pas , si lon considere cette initiative de Google  sous langle de la standardisation : en effet, Google et les equipes de developpement  Dojo  proposent aujourdhui une solution qui est basee sur un effort de reflexion qui a ete initie aupres dun nombre restreint de participants; quid si demain Microsoft publie sa propre interpretation du probleme? Allons-nous a nouveau assister a un affrontement des deux geants, avec tout ce que cela implique en terme de problemes dinteroperabilite? Le fait qu Adobe semble vouloir integrer Gears dans Appolo  et que Mozilla et Opera soient de la partie risque de complexifier encore un peu plus le probleme pour lediteur de Redmond. 
+
+ Reste que  le sujet est a surveiller de pres , car les enjeux sont enormes a lheure ou les applications web tendent a empieter de plus en plus sur le territoire des applications client-lourd traditionnelles. 
+
+ [ 1 ] Le  support de Safari et dOpera  est dores et deja annonce. 
+
+ [ 2 ] Deja une mise a jour depuis le lancement ce matin meme! 
+        </text>
+</document>

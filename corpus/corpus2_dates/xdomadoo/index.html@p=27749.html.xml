@@ -1,0 +1,19 @@
+<document>
+	<date>2013-09-03</date>
+        <title>eedomus : mise  jour du 2 septembre</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>connected object</tag>
+                <tag>eedomus</tag>
+                <tag>enocean</tag>
+                <tag>upnp</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Aujourdhui cest la rentree des classes pour les ecoliers, hier cetait celle de lequipe  Connected Object domotique eedomus Z-Wave Commencons dailleurs par les nouveaux peripheriques  Z-Wave Detecteur de monoxyde de carbone Vision Detecteur de fumee Vision Sirene/flash Vision Detecteur de chocs et vibrations Vision Detecteur douverture de porte de garage Vision Detecteur douverture de porte Vision Detecteur de mouvement Vision Prise Qees Reto Fenetres et volets de toit  Fakro Le rayon nouveaute est egalement bien fourni : Nouveau peripherique : actionneur  UPnP UPnP RFXTRX : support des protocoles Avidsen/ Chacon Chacon Introduction des Themes dicones (Configuration / Personnaliser laffichage). Le theme Moderne est active par defaut, vous pouvez revenir a lancien a tout moment. Support BETA du protocole  EnOcean EnOcean Notifications Push sur les apps iOS (En cours de validation par  Apple Inclusion  Z-Wave Support du module teleinformation  USB Report des  SMS SMS Plusieurs ameliorations ont ete apportees : Gestion des peripheriques  USB USB Ecran de Diagnostic sur les apps iOS et Android Ajout dun onglet Diagnostic pour aider a la configuration de vos cameras IP Description de linteroperabilite entre  Eedomus et EtherRain-8 Les tags non utilises des peripheriques  RFID Les regles Automatiques sont masquees par defaut pour davantage de clarte (une case a cocher permet de les afficher) Les identifiants API ne sont plus necessaires lorsque les appels a l API locale http Ajout dun parametre notes dans  get-periph_list de lAPI Les notifications peuvent desormais etre supprimees Le bouton de verrouillage nest plus affiche si le code PIN na pas ete change RFXUSB/RFXLAN: Meilleure gestion des notifications, loption Au demarrage du drivers est remplacee par Nouveaux peripheriques (Dans ce cas une notification napparait que si le peripherique nest pas reference) Les changements de valeurs des Dimmer (FGD211) sont desormais repris instantanement par la box  eedomus Quelques bugs ont egalement ete corriges : Les valeurs inserees via lAPI pour les peripheriques de type Texte netaient pas historisees Contournement dun bug introduit par les modules  Fibaro Lequipe  Connected Object eedomus  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

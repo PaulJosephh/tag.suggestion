@@ -1,0 +1,31 @@
+<document>
+	<date>2015-08-05</date>
+        <title>Il vous offre 1 000&#160;$ si vous arrivez &#224; provoquer un bug dans Mario 64</title>
+        <author>Kocobe</author>
+        <tags_set>
+                <tag>Speedrun</tag>
+                <tag>Super Mario 64</tag>
+                <tag>Tool Assisted Speedrun</tag>
+        </tags_set>
+        <categories_set>
+                <category>G&#233;n&#233;ral</category>
+        </categories_set>
+        <text>
+                                                                                                 
+         
+                 
+ L&#8217;expert en TAS (Tool-Assisted Speedrun)  pannenkoek2012  dont je vous parle r&#233;guli&#232;rement  sur le Journal du Gamer  est peut-&#234;tre le plus grand expert de  Super Mario 64 . Cependant, tout expert qu&#8217;il est, il est devant un casse-t&#234;te. Il semblerait qu&#8217;un nouveau bug ait &#233;t&#233; d&#233;couvert et que  pannenkoek2012  n&#8217;arrive pas &#224; le reproduire. Il s&#8217;agit pourtant de la premi&#232;re &#233;tape avant qu&#8217;il ne soit possible de l&#8217;analyser, puis de l&#8217;exploiter en TAS ou en speedrun classique. 
+ L&#8217;existence du bug a &#233;t&#233; d&#233;couverte lors d&#8217;une  race  entre deux joueurs de  Super Mario 64 . Alors que le joueur de gauche (un certain DOTA_Teabag) &#233;tait en train de r&#233;colter les pi&#232;ces rouges sur les clefs de pendule &#224; l&#8217;arr&#234;t, il s&#8217;est myst&#233;rieusement t&#233;l&#233;port&#233; &#224; l&#8217;&#233;tage du dessus instantan&#233;ment. 
+ 
+ Dans une vid&#233;o explicative,  pannenkoek2012  explique que si les d&#233;placements verticaux instantan&#233;s sont courants dans les bugs de  Super Mario 64 , ils sont en majorit&#233; en descente et rarement en mont&#233;e. De plus, les conditions pour une &#233;l&#233;vation subite sont plut&#244;t strictes et n&#8217;&#233;taient pas r&#233;unies ici. Il s&#8217;agit donc d&#8217;un nouveau bug. 
+ Pannenkoek2012  fait donc un peu de  crowdsourcing  en incitant sa communaut&#233; &#224; tenter de reproduire le bug. Et pour motiver les gens &#224; y passer un peu de temps,  il promet une r&#233;compense de 1 000&#160;$ pour quiconque lui envoie les  inputs  du jeu permettant de reproduire ledit bug . 
+ 
+ Si cela vous int&#233;resse, il vous est recommand&#233; de tenter votre chance sur la version japonaise du jeu (puisque c&#8217;est sur celle-l&#224; que jouait  DOTA_Teabag ).  Pannenkoek2012  mets &#233;galement &#224; disposition une  savestate  du jeu qui vous placera directement dans l&#8217;horloge tic-tac, devant les clefs &#224; l&#8217;arr&#234;t. 
+ Pour que votre proposition soit accept&#233;e, vous devez enregistrer vos inputs sur plusieurs fichiers. Il doit s&#8217;agir d&#8217;un fichier en [.m64] pour les  inputs  (pour votre gouverne, ces fichiers se cr&#233;ent et se lisent via l&#8217;&#233;mulateur  Mupen64 ) et d&#8217;un fichier en [.st] pour la sauvegarde rapide (indispensable pour la synchronisation des  inputs  et du d&#233;roulement du jeu). 
+ &#192; vos &#233;mulateurs et bonne chasse ! 
+         
+ 
+                                                                                                         
+                                                                                                                                                                                                 
+        </text>
+</document>

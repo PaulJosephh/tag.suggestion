@@ -1,0 +1,50 @@
+<document>
+	<date>2013-12-04</date>
+        <title>Lua, tour dhorizon</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Lua</tag>
+        </tags_set>
+        <categories_set>
+                <category>Cours</category>
+                <category>Domotique</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+
+ Sommaire 
+  Presentation Elements de syntaxe Ecriture Commentaires Chaines de caracteres Valeurs, Types, Variables et Fonctions Typage dynamique Lua possede 8 types de base Portee des variables Structures de controle Structure conditionnelle Structures iteratives Structures iteratives for generique Conditions Bloc dinstructions Quelques fonctions particulieres Fonctions sur les chaines Plus dinformation, sources Presentation 
+Flexible, reflexif, imperatif, compact et leger (compilateur, interpreteur et librairies standards noccupent quenviron 150 kilo-octets une fois compiles), open-source (distribue sous la licence MIT), Lua est un langage de script extremement puissant et rapide (dix a trente fois plus rapide que dautres langages de scripts tel que TCL, Perl, Python, Ruby ou PHP). Lua est ecrit en langage C ANSI strict et donc multiplateforme.
+ 
+Cree en 1993, Lua ( Lune Loua Lua LUA 
+Voici un programme minimaliste en Lua. En sauvant le code ci-dessous dans le fichier  hello.lua $ lua hello.lua print ( "Hello World" ) 
+Voici un script Lua plus evolue:
+ -- Definition d'une fonction factorielle function ( ) if == 0 then return 1 else return * ( - 1 ) end end print ( "Saisir un nombre :" ) = io.read ( "*number" ) -- read a number print ( ( ) ) Elements de syntaxe Ecriture 
+Lua est un langage  free-form _ 
+     and       break     do        else      elseif    end
+     false     for       function  goto      if        in
+     local     nil       not       or        repeat    return
+     then      true      until     while
+      +     -     *     /     %     ^     #
+     ==    ~=    =         =
+     (     )     {     }     [     ]     ::
+     ;     :     ,     .     ..    ...
+ Commentaires 
+Les commentaires debutent par  -- -- [=[ = ]=] = shebang #! -- Un commentaire sur une ligne --[[ un commentaire sur 
+plusieurs lignes ]] Chaines de caracteres 
+Les chaines de caracteres sont delimitees par des cotes  'Une chaine de caracteres' "Une chaine de caracteres" [=[Une chaine de caracteres eventuellement sur plusieurs lignes]=] = \n New line \t \' \" \\ Valeurs, Types, Variables et Fonctions Typage dynamique 
+Lua est une langage a typage dynamique. Cela signifie que les variables nont pas de type, seules les valeurs en ont un. Le type etant porte par les valeurs, il ny a donc aucune declaration de type en Lua.
+Lua, qui est un langage reflexif, possede et une fonction  type()  print ( type ( 1 ) , type ( true ) , type ( "2" ) ) string  = 1  print ( type ( ) )  = true  print ( type ( ) )  = 'un'  print ( type ( ) ) string Lua possede 8 types de base 
+ string print() ..  print ( [=["Une chaine"]=] , type ( [=["Une chaine"]=] ) ) "Une chaine" string  print ( "Une " .. "chaine" )  print ( "1+1=" .. 1 + 1 ) 1 + 1 = 2 nil nil nil  print ( nil , type ( nil ) ) nil nil boolean boolean true false  print ( true , not true , type ( true ) ) true false number  print ( 1 + 1 , 2 / 3 , type ( 4 ) ) 2 0.66666666666667  print ( 4 / 3 , math.ceil ( 4 / 3 ) , 5 / 3 , math.floor ( 5 / 3 ) ) 1.3333333333333 2 1.6666666666667 1 function function f () body end f = function () body end  function ( ) return "Bonjour" end -- Definition de la fonction f  = function ( ) return "Bonjour" end -- Definition equivalente de la fonction f  print ( , ( ) , type ( ) ) -- Exemple d'appel de la fonction f function : 0x241ea30 function table  = { = 1 , "deux" , = function ( , ) return .. end }  print ( , type ( ) , . , type ( . ) , [ 1 ] , type ( [ 1 ] ) , . ( 3 , "quatre" ) , type ( . ) ) table : 0x24220f0 table 1 string function userdata userdata thread thread Portee des variables 
+Toutes les variables declarees dans Lua sont de portee globale a moins quelles naient ete declarees locales.
+  , = 1 , 2  function ( ) = 4 ; local = 5 end  print ( , ) 1 2  ( )  print ( , ) 4 2 Structures de controle Structure conditionnelle if then -- Bloc d'instructions elseif then -- Bloc d'instructions elseif then -- Bloc d'instructions else -- Bloc d'instructions end Structures iteratives repeat -- Bloc d'instructions until  = 1 ; repeat print ( ) ; = + 1 until == 3 1 2 while do -- Bloc d'instructions end  = 1 ; while  3 do print ( ) ; = + 1 end 1 2 for = , , do -- Bloc d'instructions end  for = 1 , 6 , 2 do print ( ) end 1 3 5 Structures iteratives for generique for , ..., in do -- Bloc d'instructions end  for , in pairs ( { 10 , math.pi , "banane" } ) do print ( , ) end 1 10 2 3.1415926535898 3 
+Lexpression l explist var_1, , var_n Conditions 
+Les valeurs  nil false and or not and or == ~= ,    et  =  if true then print ( true ) else print ( false ) end true  if 1 then print ( true ) else print ( false ) end true  if 0 then print ( true ) else print ( false ) end true  if nil then print ( true ) else print ( false ) end false  if nil == false then print ( true ) else print ( false ) end false  if "1" == 1 then print ( true ) else print ( false ) end false  if tonumber ( "1" ) == 1 then print ( true ) else print ( false ) end true Bloc d'instructions 
+Un bloc d'instruction regroupe plusieurs instructions contigues executees sequentiellement. Un bloc peu etre implicite (ex.: ensemble des instructions entre les mots clefs  then else do end do -- Instruction -- Instruction -- ... end 
+L'instruction  break while repeat for return break return end else Quelques fonctions particulieres Fonctions sur les chaines  print ( string . ( 'aaxbb' , '^(.*)x' ) )  print ( string . ( 'aaxbb' , '^(.*)x(.*)$' ) ) Plus d'information, sources 
+ 
+Le livre de reference:  Programming in Lua, Third Edition The Programmin Language Lua Programming in Lua (first edition) Lua Tutorial Lua - Wikipedia Lua : un langage de script puissant Introduction a la programmation LUA Lua Editor Support 
+ Sommaire Domotique 
+        </text>
+</document>

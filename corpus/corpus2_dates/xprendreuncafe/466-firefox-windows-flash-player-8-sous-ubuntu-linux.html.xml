@@ -1,0 +1,36 @@
+<document>
+	<date>2006-06-11</date>
+        <title>Firefox Windows + Flash Player 8 sous Ubuntu Linux</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>firefox</tag>
+                <tag>flash</tag>
+                <tag>ie</tag>
+                <tag>microsoft</tag>
+                <tag>tutoriel</tag>
+                <tag>ubuntu</tag>
+                <tag>wine</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Pour ceux qui ne digerent pas de devoir installer Internet Explorer via  IEs4linux  pour acceder au Flash Player 8, il est possible d'installer Firefox... version Windows grace a Wine. Pour cela, recuperez l' installeur de Mozilla Firefox Windows 1.5.0.4  et effectuez les operations suivantes: 
+
+
+ $ sudo apt-get install wine
+$ wine Firefox\ Setup\ 1.5.0.4.exe 
+
+
+ Ceci fait, installez le player Flash 8: 
+
+
+ $ wget http://fpdownload.macromedia.com/get/flashplayer/current/install_flash_player.exe
+$ wine install_flash_player.exe 
+
+
+ Si l'installeur vous demande de specifier le repertoire d'installation du plugin pour Firefox, precisez  c:\Program files\Mozilla Firefox\plugins . 
+
+
+ Lancez votre  Firefox pour Windows  fraichement installe (un raccourci a ete cree sur votre bureau) , et  testez la bete . 
+        </text>
+</document>

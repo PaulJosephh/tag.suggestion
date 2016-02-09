@@ -1,0 +1,27 @@
+<document>
+	<date>2005-04-17</date>
+        <title>Mozilla Firefox 1.0.3 est dispo</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>firefox</tag>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>[Via  Je hais le Printemps ] 
+
+
+ Apres moult  Release Candidates , la version 1.0.3 de Firefox est sortie hier. Cette version, en francais s'il vous plait, corrige notamment la  faille de securite pour le moins embetante  dont je vous parlais recemment. 
+
+
+ Il etait temps  
+
+
+ Telecharger  de Firefox 1.0.3: 
+ 
+ pour  Windows 
+ pour  Linux  ou pour Ubuntu,  sudo apt-get dist-upgrade 
+ pour  Mac OS X 
+ 
+        </text>
+</document>

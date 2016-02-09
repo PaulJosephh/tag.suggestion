@@ -1,0 +1,38 @@
+<document>
+	<date>2012-06-06</date>
+        <title>Cblage prise tlphone RJ11, RJ45 et prise en T</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Prise telephone</tag>
+                <tag>RJ11</tag>
+                <tag>RJ45</tag>
+        </tags_set>
+        <categories_set>
+                <category>Cablage de prises</category>
+        </categories_set>
+        <text>
+                                                 Prise RJ11 
+
+ 
+Une prise RJ11, egalement appele Registered jack 11 est un standard international utilise par des appareils telephoniques fixes. Il est egalement utilise dans le domaine des reseaux locaux.
+ 
+Une prise RJ11 ressemble physiquement a une prise RJ12 et a exactement les memes dimensions, mais il ny a que 4 fils utilises (contrairement au RJ12 qui utilise les 6 fils). La prise RJ11 est plus petite et dispose de moins de fils quune prise RJ45.
+ Prise RJ11 / RJ45 vers prise de telephone en T 
+ 
+ Sur une prise RJ11, ce sont les deux contacts centraux, numerotes 2 et 3, qui portent la ligne telephonique. prise de telephone en T 
+ 
+ Sur une prise  RJ45 prise de telephone en T Prise RJ11 vers RJ45 
+
+ 
+France Telecom recommande lutilisation du  RJ45 prise en T NF C 15-100 RJ45 
+Avant que tous les telephones soient en RJ45 (cela va prendre du temps) il est souvent necessaire de passer par un adaptateur RJ11-RJ45.  Pour realiser un cable RJ11 vers RJ45, il suffit de relier les deux contacts centraux de la prise RJ11 aux deux contacts centraux de la prise RJ45 Produits 
+ 
+
+ 
+ 
+Shopping: 
+ Cordon telephonique RJ11 vers RJ45 2m Sachet 10 Connecteurs RJ11 Connecteur RJ45 Pince a cabler RJ11/RJ45 
+ 
+Voir egalement sur ce blog:  Cablage prise de telephone en T Prise RJ45 Wikipedia : RJ11 Wikipedia : RJ45 
+        </text>
+</document>

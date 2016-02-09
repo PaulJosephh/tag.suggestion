@@ -1,0 +1,22 @@
+<document>
+	<date>2014-05-20</date>
+        <title>i800: personnalisez linterface mobile de votre IPX800 !</title>
+        <author> Cdric L. </author>
+        <tags_set>
+                <tag>android</tag>
+                <tag>carte relais</tag>
+                <tag>ethernet</tag>
+                <tag>gce electronics</tag>
+                <tag>i800</tag>
+                <tag>imperihome</tag>
+                <tag>ios</tag>
+                <tag>ipx800</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         L IPX800 relais domotique un des grands gagnant du prix SmartHome 2014 Bien quelle dispose dune interface web pour la piloter, sa popularite lui a permis de voir arriver differentes applications pour la controler, voir parfois meme pour  piloter plusieurs cartes depuis une meme interface Imperihome Seulement, le plus souvent, ces applications se contentent de recuperer la configuration de la carte elle meme, sans proposer plus de personnalisation. Cest la quentre en scene la nouvelle application i800,  disponible sur iOS egalement Android MVS App Mobile Au premier lancement, nous arrivons directement sur lecran de parametrages, puisquil faut avant tout commencer par indiquer ladresse IP de la carte. Comme on le voit, meme les extensions de la carte peuvent etre gerees: On commence donc par indiquer ladresse IP de la carte, son port, et son nom dutilisateur et mot de passe si necessaire: En cliquant sur lIPX, on peut ensuite commencer a configurer ses  relais Pour chaque  relais relais Un large choixdiconesest disponible pour essayer de repondre a la plupart des besoins. Il nest par contre pas possible (en tout cas pour linstant) dimporter ses propresicones. Exemple ici pour un  relais Ou ici pour piloter larrosage automatique (pour lequel on veut donner une confirmation avant la mise en route par erreur): Nous avons exactement le meme principe pour les entrees analogiques et digitales, quon peut personnaliser a souhait. Tout comme les compteurs, dailleurs: Exemple pour le compteur de consommation deau: Enfin, on peut definir lintervalle pour lactualisation automatique des informations: Ce parametrage se fait defaconintuitive et tres rapidement. Une fois termine, nous avons une interface personnalisee, beaucoup mieux que linterface web vue plus haut: En cliquant sur le menu on peut arranger lordre comme on souhaite en faisant simplement glisser les elements. Jaimerai par exemple que le controle de ma porte de garage soit proche de mon portail, plus pratique a lutilisation, je fais donc glisser la ligne: Et voila (notez au passage la disparition de la Led7, que jai choisi de ne pas afficher, car pas utilisee dans ma configuration): Cest clair et facile a utiliser: il suffit dappuyer sur un  relais On peut de la memefaconacceder aux etats des entrees analogiques et digitales, ou encore des compteurs: Les entrees, qui ne sont pas personnalisees ici, mais qui offrent les memes possibilites que les  relais Autreapercuici dans lapplication iOS: Avec le message de confirmation avant dactiver un certain  relais Cerise sur le gateau, cette application est gratuite ! A consommer sans moderation si vous posseder une carte IPX800, donc !  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

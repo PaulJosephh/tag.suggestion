@@ -1,0 +1,60 @@
+<document>
+	<date>2005-07-22</date>
+        <title>Firefox 1.0.6 FR sous Ubuntu</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>browsers</tag>
+                <tag>firefox</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Si vous aussi vous en avez marre de la version 1.0.4 de Firefox sous Ubuntu, voici ma methode pour installer facilement la v1.0.6 FR. 
+
+
+ Note :  Attention, c'est de la ligne de commande. J'ai la flemme de faire les captures d'ecran necessaires a l'illustration du mode d'installation  graphique   
+
+
+ sudo -s
+cd /opt
+wget ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0.6/linux-i686/fr-FR/firefox-1.0.6.installer.tar.gz
+tar -xvzf firefox-1.0.6.installer.tar.gz  rm firefox-1.0.6.installer.tar.gz
+mv firefox-installer/ firefox/
+./firefox/firefox-installer 
+
+
+ L'installeur se lance, repondez aux questions comme bon vous semble, a une exception pres: laissez le programme s'installer dans le repertoire  /opt/firefox . Cela permettra de dissocier cette installation  manuelle  du paquet officiel Ubuntu (passablement buggue ces derniers temps, du moins chez moi et quelques autres). 
+
+
+ Apres cela, il ne reste plus qu'a modifier vos raccourcis en remplacant la ligne  firefox %u  par  /opt/firefox/firefox %u . 
+
+
+ 
+
+
+ Edition: Et Deer Park? C'est pareil! 
+
+
+ Laurent  me signale a juste titre que  les backports ''staging'' contiennent la version 1.0.6 FR . Alors, inutile ma petite demarche? Pas si sur: si vous voulez tester  Mozilla Deer Park Alpha 2 , la methode est la meme a quelques nuances pres: 
+
+
+ sudo -s
+cd /opt
+wget ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/deerpark/alpha2/linux-i686/en-US/deerpark-alpha2.installer.tar.gz
+tar -xvzf deerpark-alpha2.installer.tar.gz  rm deerpark-alpha2.installer.tar.gz
+mv firefox-installer/ deerpark/
+./deerpark/firefox-installer 
+
+
+ Attention toutefois : 
+
+ 
+ a la nuance de l'installeur de la version 1.0.6, le chemin par defaut est  /usr/lib : il vous faudra bien respecifier  /opt/deerpark/ comme chemin d'installation , 
+ de nombreuses extensions sont pour l'heure incompatibles avec Deer Park, et cette prerelease est reputee assez instable (quoique chez moi, elle fonctionne excellement):  elle est avant tout destinee a faire remonter les bugs aux equipes de developpement Mozilla , 
+ enfin, seule une version anglaise est disponible. 
+ 
+
+ Il ne vous restera plus qu'a creer un raccourci vers  /opt/deerpark/firefox  pour tester cette preversion  
+        </text>
+</document>

@@ -1,0 +1,72 @@
+<document>
+	<date>2013-02-06</date>
+        <title>[Interview] Jason Haber, le producteur de Sim City r&#233;pond &#224; nos questions</title>
+        <author>Aelya</author>
+        <tags_set>
+                <tag>interview</tag>
+                <tag>sim city</tag>
+                <tag>jason haber</tag>
+                <tag>maxis</tag>
+        </tags_set>
+        <categories_set>
+                <category>Gaming</category>
+                <category>PC</category>
+                <category>Preview</category>
+        </categories_set>
+        <text>
+ 
+ 
+ Lors de la preview de Sim City,  que vous pouvez lire ici , nous avons pu interviewer Jason Haber, le producteur de Sim City chez Maxis. 
+ &#160; 
+ Couple Of Pixels :  Bonjour, qu&#8217;est-ce qui fait que ce Sim City est un reboot et non une suite ? 
+ Jason Haber :  Plusieurs &#233;l&#233;ments font de ce Sim City un reboot et non une suite. Le plus important, ce qui rend ce Sim City diff&#233;rent des pr&#233;c&#233;dents, c&#8217;est le moteur de simulation GlassBox.&#160; 
+ Il permet de cr&#233;er ce qu&#8217;on appelle une simulation &#171; Bottom-up &#187;, alors que dans les anciens Sim City, on avait affaire &#224; une simulation de surface que le joueur pouvait voir. Maintenant, on simule chaque &#233;l&#233;ment du jeu, chaque voiture, chaque Sim, chaque b&#226;timent et l&#8217;on cr&#233;e la simulation de la ville. 
+ L&#8217;autre nouveaut&#233; est le multijoueur et le jeu multi-ville. Les actions que vous faites dans une ville vont se propager et affecter d&#8217;autres villes qui peuvent travailler de concert. C&#8217;est quelque chose de vraiment nouveau et diff&#233;rent des autres Sim City.&#160; 
+ Couple Of Pixels :  Comment ce reboot pr&#233;voit de r&#233;concilier les hardcore gamers, qui veulent une simulation tr&#232;s pointue, avec les joueurs plus casuals qui pr&#233;f&#232;rent la simplicit&#233; et les jeux types Farmville ? 
+ Jason Haber :  On a rendu le jeu plus accessible, on a modifi&#233; les donn&#233;es diverses, comme les graphiques, &#160;pour les rendre plus visuelles. Mais ce n&#8217;est pas parce que c&#8217;est plus accessible, que c&#8217;est plus facile, qu&#8217;il n&#8217;y a pas de profondeur. 
+ Je pense que lorsqu&#8217;on commence &#224; construire sa ville, on peut prendre son temps ou aller vite. La fa&#231;on dont vous allez jouer le jeu d&#233;pend de vous. Plus vous vous immergez dans le jeu et plus sa profondeur devient un challenge, plus l&#8217;on voit les donn&#233;es sous la surface. 
+ On est des fans du jeu nous-m&#234;me et je peux vous assurer que le jeu ne s'est pas du tout simplifi&#233;, la profondeur est toujours l&#224;. 
+ 
+ Couple Of Pixels :  Comment le multijoueur va-t-il fonctionner ? 
+ Jason Haber :  Il y a deux aspects au multijoueur. 
+ Le premier est le jeu multi-ville. C&#8217;est la fa&#231;on dont plusieurs villes dans une m&#234;me r&#233;gion vont interagir entre elles. On peut partager des ressources, des services, les sims se d&#233;placent d&#8217;une ville &#224; l&#8217;autre, etc. 
+ A un niveau plus haut, il y a Sim City World. Il vous connecte en tant que joueur &#224; toutes les autres personnes jouant &#224; Sim City. Cela se fait par diff&#233;rents aspects comme le Leaderboard, des challenges ou m&#234;me un march&#233; global.&#160; 
+ Vos actions vont donc influencer toutes les personnes avec qui vous allez jouer ou interagir, ce qui vous permettra d&#8217;exp&#233;rimenter le jeu de &#160;fa&#231;ons nouvelles et diff&#233;rentes de ce que vous feriez d&#8217;habitude. 
+ Couple Of Pixels :  Que va-t-il se passer pour ma ville lorsque je ne jouerai pas vu que d&#8217;autres joueurs de la m&#234;me r&#233;gion pourront eux continuer &#224; jouer ? 
+ Jason Haber :  Quand vous ne jouez pas au jeu, ou m&#234;me &#224; une ville sp&#233;cifique en mode multi-ville, le statut de vos villes non-jou&#233;es est gel&#233;. Rien ne leur arrivera lorsque vous ne serez pas l&#224;, vous ne reviendrez pas pour trouver votre ville d&#233;truite ou votre argent disparu. Mais les ressources que vous partagez continueront &#224; l&#8217;&#234;tre et c&#8217;est pour &#231;a que nous devons simuler ces r&#233;gions sur nos serveurs : nous devons nous assurer que tout &#231;a fonctionne correctement. 
+   
+ Couple Of Pixels :  Pensez-vous cr&#233;er une application android/Iphone/Ipad pour que l&#8217;on puisse suivre l&#8217;&#233;volution de nos villes alors qu&#8217;on ne joue pas ? 
+ Jason Haber :  (Rires) Pour l&#8217;instant, on est juste focalis&#233; sur le fait de finir le jeu sur PC et Mac. Mais qui sait ? Je suis s&#251;r que dans le futur on pourrait avoir quelque chose comme &#231;a.&#160; 
+ Couple Of Pixels :  Les routes courbes est une des nouveaut&#233;s qui a &#233;t&#233; particuli&#232;rement mise en avant. En quoi r&#233;volutionnent-elles le gameplay ? 
+ Jason Haber :  (Rires) Vous savez, c&#8217;est dr&#244;le parce que je suis moi aussi un grand fan des routes courbes et en fait on vient d&#8217;ajouter l&#8217;outil pour faire des routes rondes aussi.&#160; 
+ C&#8217;est int&#233;ressant car les routes sont un &#233;l&#233;ment cl&#233; des jeux Sim City, tout se connecte aux routes et c&#8217;est la mani&#232;re dont le Glassbox fonctionne. Avoir des routes courbes ouvre deux styles de jeux diff&#233;rents. Les joueurs cr&#233;atifs pourront dessiner leur ville comme ils le d&#233;sirent. On peut ainsi faire une ville guitare et plein d&#8217;autres styles de villes dr&#244;les &#224; regarder qui fonctionnent vraiment. Les joueurs plus hardcore pourront tirer parti de l&#8217;environnement. Par exemple, s&#8217;il y a une c&#244;te ou une falaise, ils peuvent courber la route pour suivre les rebords et ne pas g&#226;cher d&#8217;espace.&#160; 
+ 
+ Couple Of Pixels :  Les routes courbes permettent en effet aux joueurs de laisser libre cours &#224; leur fantaisie. Vu que le jeu est multijoueur, que se passera-t-il si des designs offensants font leur apparition ? Y aura-t-il un syst&#232;me de censure ? 
+ Jason Haber :  (Rires) Il y a un syst&#232;me pour signaler ce genre de choses et vous pouvez toujours quitter la r&#233;gion si cela vous offense. 
+ Couple Of Pixels :  Y aura-t-il des &#233;l&#233;ments futuristes ? &#160;Les b&#226;timents &#233;volueront-ils au fil du temps ? 
+ Jason Haber :  Dans ce Sim City, le temps est plus fixe. On obtient des b&#226;timents plus modernes au fur et &#224; mesure qu&#8217;ils prosp&#232;rent mais c&#8217;est une distinction minimale. Dans l&#8217;image ici (voir le fond de la photo ci-dessous), on voit notre ville &#233;lectronique qui a un air plus futuriste que notre ville industrielle plus loin, mais c&#8217;est plus ou moins la seule diff&#233;rence que vous aurez. 
+ Couple Of Pixels :  A quel point pourra-t-on personnaliser les b&#226;timents ? 
+ Jason Haber :  Pour tous les b&#226;timents que l&#8217;on pose directement, ceux de service par exemple, on peut ouvrir un &#233;diteur de b&#226;timent et leur ajouter des modules suppl&#233;mentaires. On peut ainsi personnaliser non seulement ce &#224; quoi ils ressemblent mais aussi comment ils fonctionnent. Par exemple, en ajoutant des garages &#224; une caserne de pompier, on aura plus de camions de pompier. 
+ Couple Of Pixels :  Mais peut-on changer les couleurs ? 
+ Jason Haber :  Non. 
+ 
+ Couple Of Pixels :  Les villes pourront se sp&#233;cialiser. Quelles sont les sp&#233;cialisations un peu originales ? Y aura-t-il par exemple une ville cin&#233;ma genre Hollywood ? 
+ Jason Haber :  (Rires) Il y a d&#233;finitivement des sp&#233;cialisations (p&#233;trole, casino&#8230;). Chacune poss&#232;de ses propres challenges et influence la fa&#231;on dont la ville fonctionne et ce &#224; quoi elle ressemble. Mais on peut aussi cr&#233;er sa propre sp&#233;cialisation en plus de celles d&#233;j&#224; propos&#233;es. Mon exemple pr&#233;f&#233;r&#233; est la ville poubelle (Trash City). Je cr&#233;e des d&#233;charges, des usines de traitements des eaux, on peut ajouter quelques industries lourdes car la ville est d&#233;j&#224; sale, et j&#8217;utilise tout &#231;a pour couvrir les besoins de toutes les autres villes de la r&#233;gion qui comme &#231;a n&#8217;ont pas &#224; s&#8217;occuper de leurs d&#233;chets et de leurs &#233;gouts. Ainsi je me cr&#233;e ma propre sp&#233;cialisation. Parfois, je dessine m&#234;me la ville pour qu&#8217;elle repr&#233;sente ce qu&#8217;elle est/fait. 
+ Couple Of Pixels :  Vous pensez qu&#8217;avec le temps vous allez ajouter de nouvelles sp&#233;cialisations, via DLC par exemple ? 
+ Jason Haber :  Pour l&#8217;instant, on est vraiment concentr&#233; sur le jeu actuel. On verra ce qu&#8217;il y aura apr&#232;s dans un second temps. 
+ Couple Of Pixels :  Je suppose que votre sp&#233;cialisation pr&#233;f&#233;r&#233;e est la ville poubelle ou y en a-t-il une autre ? 
+ Jason Haber :  (Rires) C&#8217;est dr&#244;le. J&#8217;aime beaucoup cette ville en fait. Quand il s&#8217;agit des sp&#233;cialisations toutes faites, j&#8217;ai tendance &#224; beaucoup faire la ville p&#233;trole. J&#8217;aime &#224; quoi elle ressemble et elle n&#8217;est pas aussi simple qu&#8217;elle parait. On pense qu&#8217;il faut juste pomper le p&#233;trole, mais cela va plus loin car on peut faire d&#8217;autres choses avec le p&#233;trole, on peut le transformer en plastique, en essence,... 
+ 
+ Couple Of Pixels :  Qu&#8217;est-ce qui vous a fait abandonner le syst&#232;me de zone d&#8217;influence au profit de la gestion du trafic routier ? 
+ Jason Haber :  Le syst&#232;me de zone d&#8217;influence n&#8217;&#233;tait pas exact, ne correspondait pas &#224; comment cela fonctionne en vrai, cela ne refl&#232;te pas combien de temps il faut pour un camion de pompier pour aller jusqu'au lieu de l&#8217;incendie. Montrer la couverture du r&#233;seau routier est plus juste.&#160; 
+ Couple Of Pixels :  Sim City est li&#233; &#224; l&#8217;histoire du jeu PC. Pensez-vous qu&#8217;il soit possible d&#8217;adapter la profondeur de ce gameplay sur console et envisageriez-vous de le faire ? 
+ Jason Haber :  Comme je l&#8217;ai dit auparavant, pour l&#8217;instant, on se concentre vraiment sur les PC et Mac. On ne sait pas ce que le futur r&#233;serve mais pour l&#8217;instant, on se concentre sur ces versions. 
+ Couple Of Pixels :  Derni&#232;re question : quel est votre Sim City pr&#233;f&#233;r&#233; ? 
+ Jason Haber :  Mon Sim City pr&#233;f&#233;r&#233; ? A vrai dire, c&#8217;est celui-ci mais s'il ne compte pas, je dois dire que j&#8217;ai vraiment ador&#233; le Sim City original car c&#8217;&#233;tait l&#8217;un des premiers jeux auxquels j&#8217;ai jou&#233;. Enfant, je b&#226;tissais des villes puis les d&#233;truisais et j&#8217;ai encore la nostalgie de cette &#233;poque. Mais ce nouveau Sim City est de loin mon pr&#233;f&#233;r&#233; car il est tellement fun &#224; jouer. 
+ Couple Of Pixels :  Merci beaucoup ! 
+ 
+ 
+ 
+ 
+        </text>
+</document>

@@ -1,0 +1,17 @@
+<document>
+	<date>2014-06-18</date>
+        <title>
+Notifyr: vos notifications iOS sur votre Mac !</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>notifications</tag>
+                <tag>Notifyr</tag>
+        </tags_set>
+        <categories_set>
+                <category>Tests Logiciels</category>
+        </categories_set>
+        <text>Il est possible aujourdhui detre alerte de la moindre information sur son iPhone ou son iPad, via un message popup qui saffiche a lecran. Cest tres pratique, mais quand je suis a la maison, personnellement le smartphone ou la tablette ne sont pas toujours a cote de moi, surtout quand je suis deja en train de surfer sur mon Mac. Du coup, certaines notifications passent inapercues. Mais ca, cetait avant :D Une nouvelle application tres pratique permet en effet de transmettre toutes les notifications recues sur un appareil iOS vers son Mac. Il sagit de  Notifyr .   Ceci concerne absolument toutes les notifications de lappareil iOS. Certaines notifications ne seront pas reellement utiles, comme celles de Twitter ou Facebook quon peut deja avoir sur le Mac. Mais il y a de nombreuses autres applications qui nont pas de systeme sur Mac, je pense par exemple a nos applications domotiques comme Fibaro ou  eedomus , qui peuvent nous transmettre une notification sur iOS seulement.    
+ I. Installation  Linstallation est assez simple: on commence par  installer lapplication Notifyr sur liPhone ou liPad(payante, a 3,99 )   Au premier lancement, celle ci nous demande dinstaller lapplication cliente sur le Mac. Cette application gratuite est  disponible sur le site GetNotifyr .   La communication entre lappareil iOS et le Mac se faisant en Bluetooth (Low Energy), il faudra bien sur activer le bluetooth sur les deux appareils, et les apparairer:    Lappairage sur le Mac:   Une fois le processus termine, on obtient cet ecran sur liPhone ou ici liPad:   Il suffit de laisser cette application tourner en arriere plan pour que la transmission des notifications se fasse vers le Mac.    Des quune notification arrive sur lappareil iOS, elle est automatiquement transmise au Mac:   Il sagit ici dune  notification Prowl , mais le resultat est le meme avec une notification issue par exemple de lapplication Fibaro. Sur le Mac, en allant dans les parametres systemes, il est possible de desactiver les notifications quon souhaite, pour ne pas etre submerge:    
+ II. Conclusion  Voila une application bien pratique, qui permet de recevoir ses notifications meme sur son Mac, tres facilement. Un systeme que je trouve vraiment pratique pour nos applications domotiques, mais egalement pour les autres, comme lorsque mon  Fitbit  mencourage a bouger, ou ma  station Netatmo  me dit que le taux de CO2 est trop eleve. Personnellement je lai adoptee ! Il ny a quun seul inconvenient: la batterie de lappareil iOS qui fond tout de meme. Jai par exemple laisse mon iPad une nuit a 100% et lai retrouve le lendemain midi a 60%, alors quhabituellement je laurai retrouve aux environs de 95% :/ Cest vraiment le seul point negatif, malgre lutilisation du Bluetooth Low Energy, je trouve que cela consomme tout de meme pas mal la batterie.   notifications   Notifyr 
+        </text>
+</document>

@@ -1,0 +1,17 @@
+<document>
+	<date>2008-11-04</date>
+        <title>Comment utiliser un vido-projecteur sous Linux</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Sortie VGA</tag>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+                <category>Generalitees</category>
+        </categories_set>
+        <text>
+                                                 
+Sous Linux, il suffit de connecter le video-projecteur, de lallumer, puis de redemarrer le serveur X (Ctrl+Alt+Del). Au lieu de  redemarrer le serveur X, vous pouvez aussi saisir dans un Terminal la commande :  xrandr --auto 
+Linteret dutiliser la commande  xrand debian ubuntu 
+        </text>
+</document>

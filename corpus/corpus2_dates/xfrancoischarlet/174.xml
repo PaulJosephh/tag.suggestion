@@ -1,0 +1,41 @@
+<document>
+	<date>2011-07-14</date>
+        <title>Que risque le hacker en droit p&#233;nal suisse ?</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Droit p&#233;nal</tag>
+                <tag>S&#233;rie droit p&#233;nal</tag>
+        </tags_set>
+        <categories_set>
+                <category>Droit</category>
+        </categories_set>
+        <text>
+                                                
+                                                         [Mis &#224; jour en janvier 2012 pour suivre l'&#233;volution l&#233;gislative suite &#224; la Convention europ&#233;enne sur la cybercriminalit&#233;] 
+ Premier &#233;pisode de ma  s&#233;rie  estivale d'articles explicatifs sur les d&#233;lits informatiques et leur r&#233;pression. 
+ En droit p&#233;nal suisse, le  hacking  consiste en l'acc&#232;s indu &#224; un syst&#232;me informatique. 
+ 
+ Art. 143 bis du Code p&#233;nal suisse (CP) 
+ 1 Quiconque s&#8217;introduit sans droit, au moyen d&#8217;un dispositif de transmission de donn&#233;es, dans un syst&#232;me informatique appartenant &#224; autrui et sp&#233;cialement prot&#233;g&#233; contre tout acc&#232;s de sa part est, sur plainte, puni d&#8217;une peine privative de libert&#233; de trois ans au plus ou d&#8217;une peine p&#233;cuniaire. 
+ 2 Quiconque met en circulation ou rend accessible un mot de passe, un programme ou toute autre donn&#233;e dont il sait ou doit pr&#233;sumer qu&#8217;ils doivent &#234;tre utilis&#233;s dans le but de commettre une infraction vis&#233;e &#224; l&#8217;al. 1 est puni d&#8217;une peine privative de libert&#233; de trois ans au plus ou d&#8217;une peine p&#233;cuniaire. 
+ 
+ Le hacking peut &#234;tre consid&#233;r&#233; comme l'&#233;quivalent informatique de la violation de domicile ( art. 186 CP ). Avant de voler quelque chose, il faut entrer. Nous ne nous int&#233;resserons ici qu'&#224; l'alin&#233;a 1. 
+ Syst&#232;me informatique 
+ Il faut donc l'existence d'un syst&#232;me informatique appartenant &#224; autrui. Les termes "syst&#232;me informatique" excluent donc les supports de donn&#233;es tels que les cl&#233;s USB, ainsi que les appareils ne fournissant qu'un service ou bien en particulier, comme des distributeurs automatiques, &#224; moins qu'ils soient directement reli&#233;s &#224; un ordinateur, comme un bancomat (distributeur &#224; billets). On vise donc &#224; prot&#233;ger l'ordinateur en tant que tel, en particulier l'espace virtuel qu'on peut consid&#233;rer comme un "domicile informatique". Il faut bien &#160;comprendre que l'art. 143 bis CP ne prot&#232;ge pas les donn&#233;es ou leur support, mais bien le syst&#232;me. 
+ Appartenant &#224; autrui 
+ Il est d&#233;terminant de savoir qui a l'acc&#232;s au syst&#232;me informatique et qui en dispose. On prot&#232;ge ici le domicile informatique. Cela implique que si l'utilisateur du syst&#232;me n'est pas le propri&#233;taire de l'appareil, seul l'utilisateur du syst&#232;me pourra porter plainte.&#160;Seule la personne directement l&#233;s&#233;e peut porter plainte, car le domicile informatique de la personne concern&#233;e importe plus que celui du d&#233;tenteur de la machine. Qu'en est-il si une personne &#233;tant l&#233;gitim&#233;e &#224; acc&#233;der au syst&#232;me principal acc&#232;de sans droit &#224; un sous-syst&#232;me dont il n'est pas utilisateur&#160;?&#160;C'est une question encore d&#233;battue, mais il n'y a pas de raison, &#224; mon avis, de ne pas r&#233;primer cette personne, bien qu'elle ait acc&#232;s au syst&#232;me. En d'autres termes, un administrateur syst&#232;me ne peut pas acc&#233;der sans droit aux sous-syst&#232;mes ou sessions des utilisateurs utilisant le syst&#232;me informatique. 
+ Sp&#233;cialement prot&#233;g&#233; 
+ Le syst&#232;me doit &#234;tre "sp&#233;cialement prot&#233;g&#233; contre tout acc&#232;s" gr&#226;ce &#224; une barri&#232;re informatique. Une barri&#232;re physique ou morale, voire contractuelle, ne suffit pas. &#160;Une porte (m&#234;me ferm&#233;e &#224; cl&#233;), une interdiction formelle ou un accord contractuel ne r&#233;pondent pas &#224; l'exigence l&#233;gale de la protection contre tout acc&#232;s. L'efficacit&#233; de la barri&#232;re n'a que peu d'importance, au vu des prouesses des hackers, &#224; moins que la barri&#232;re transparente au point qu'on peut consid&#233;rer qu'il n'y en a pas. Si le syst&#232;me dispose de plusieurs barri&#232;res le prot&#233;geant, il suffit qu'une barri&#232;re soit franchie pour consid&#233;rer que le hacker est "dans le syst&#232;me". La personne &#224; qui on autorise un certain acc&#232;s au syst&#232;me et qui va au del&#224; de ses droits n'est pas punissable. 
+ Syst&#232;me de transmission de donn&#233;es 
+ L'acc&#232;s doit intervenir via un dispositif de transmission de donn&#233;es. La notion est large et n'est pas &#224; prendre &#224; la lettre&#160;: le l&#233;gislateur a voulu insister sur le caract&#232;re informatique du d&#233;lit (entrer via un proc&#233;d&#233; informatique). Le r&#233;seau Internet est un tel dispositif. Cette notion n'implique pas que l'infraction se fait &#224; distance&#160;; elle impose seulement que l'acc&#232;s au syst&#232;me soit un acc&#232;s informatique et non un acc&#232;s r&#233;el (comme l'acc&#232;s &#224; une salle de serveurs). L'acc&#232;s dont il est question ici peut se faire tant depuis l'autre bout du monde que via le clavier m&#234;me de l'ordinateur vis&#233;. Les actes de phishing rentrent dans le champ d'application de l'art. 143 bis CP, bien qu'on pr&#233;f&#233;rera leur appliquer les art.  143 ,  146  ou  147  CP. 
+ Sans droit 
+ Enfin, l'acc&#232;s doit se faire sans droit,&#160;c'est-&#224;-dire que le hacker n'est pas autoris&#233; par la loi, par le consentement de la victime, ou par un motif justificatif &#224; s'introduire dans le syst&#232;me. On constate donc ici que l'ethical hacking est parfaitement l&#233;gal en Suisse. 
+ Intention 
+ L'acte doit &#234;tre intentionnel ou &#234;tre commis &#224; tout le moins par dol &#233;ventuel ( c'est-&#224;-dire  qu'on tient pour possible le r&#233;sultat, mais qu'on passe n&#233;anmoins &#224; l'action car on s'accommode du r&#233;sultat au cas o&#249; il se produirait, m&#234;me si on ne le souhaite pas). La commission par dol &#233;ventuel est toutefois difficilement envisageable.&#160;Celui qui se trouve dans un syst&#232;me par n&#233;gligence n'est donc pas punissable. Si, dans ces conditions, on reste dans le syst&#232;me malgr&#233; des injonctions &#224; sortir, on n'est pas punissable du fait de l' art. 1 CP  car la r&#232;gle n'est pas pr&#233;vue (on est ici face &#224; une lacune de la loi). 
+ Voil&#224; pour le hacking&#160;! Le prochain &#233;pisode sera d&#233;di&#233; &#224; la  soustraction de donn&#233;es ,&#160;c'est-&#224;-dire le "cracking" (art. 143 CP). 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

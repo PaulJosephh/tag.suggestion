@@ -1,0 +1,28 @@
+<document>
+	<date>2014-12-18</date>
+        <title>Jeedom  Guide dutilisation du dtecteur dinondation Fibaro FGFS-001</title>
+        <author> Algeroth </author>
+        <tags_set>
+                <tag>domotique</tag>
+                <tag>fgfs-001</tag>
+                <tag>fibaro</tag>
+                <tag>guide</tag>
+                <tag>inondation</tag>
+                <tag>installation</tag>
+                <tag>jeedom</tag>
+                <tag>securite</tag>
+                <tag>tuto</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Jeedom</category>
+        </categories_set>
+        <text>
+                                                         Grace a son plugin  Z-Wave Jeedom Z-Wave le detecteur dinondation FGFS-001 de Fibaro Jeedom 1. Presentation du produit Le but nest pas ici de detailler le produit mais son integration et son utilisation sous Jeedom On ne sy trompe pas cest beau : cest du  Fibaro Dans la boite on trouve 2 manuels (un en Anglais et lautre en Polonais) puis leFlood Sensor dans un socle en plastique. Le Flood Sensor ressemble a un galet blanc et comme la plupart des produits  Fibaro Il suffit de saisir le Flood Sensor avec les 2 mains puis de tourner la partie superieure ou inferieure pour louvrir. Avant linclusion il faut retirer la languette pour fermer le circuit de lalimentation. 2. Inclusion dans Jeedom Depuis le dashboard, il faut se rendre dans plugins, protocole  domotique Ensuite il faut mettre  Jeedom Capot ouvert il faut appuyer 3 fois (rapidement) sur le bouton tamper (voir photo 5) pour proceder a linclusion sous  Jeedom Sinon il faut recommencer linclusion depuis le debut de ce chapitre. 3. Configuration Le detecteur dinondation de  Fibaro Jeedom Toutefois les reglages peuvent etre modifies par le bouton  configurer partager On accede ainsi au menu suivant. Bien sur a la fin des reglages, il ne faut surtout pas oublier de sauver. 4. Utilisation La premiere utilisation qui vient a lesprit avec un detecteur dinondation et de pouvoir recuperer cette information, de la traiter et dalerter les principaux interessespar differents moyens :sirene, mail,  SMS SMS Je vais donc detailler la creation dun scenario sous  Jeedom SMS 5. Exemples concrets et interaction Depuis le dashboard, il faut dans un premier temps rejoindre longlet scenario. Ensuite on cree un nouveau scenario par la commande + Nouveau scenario. Il ne reste plus qua nommer le scenario pour voir apparaitre la fenetre classique des scenarios. Ce scenario est tres simple a mettre en oeuvre. Dans mon exemple jai attribue le groupe Alarme a ce scenario ainsi que lobjet parent Cave a vin. Le mode du scenario est provoque et lelement provocateur est linformation inondation du detecteur dinondation. Il suffit de rajouter lelement si/alors/sinon avec comme condition le test inondation a 1 pour envoyer un  SMS 6. Test Pour sassurer du bon fonctionnement du systeme, on peut faire le test suivant: le Flood Sensor est pose dans une assiette (a soupe). Letat sous  Jeedom Maintenant, si on verse de leau dans lassiette (un peu deau suffit a declencher le capteur), la diode du capteur change de couleur, la sirene du capteur se met a sonner et on peut observer un changement detat sous  Jeedom 7. Conclusion Pour terminer on se rend compte que le Flood Sensor fait bien son travail de detection dinondation. Il est beau et tres bien fini. Le point negatif se trouve au niveau de la batterie, qui meme avec un temps de rafraichissement des informations correct (1800 secondes), se vide assez rapidement: moins dun mois et deja a 55% de batterie. Le detecteur dinondation FGFS-001  Fibaro la boutique Domadoo.  Un grand merci a Sylvain(alias Gerandhal), beta testeur de  JEEDOM  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Realisation et domotisation dun miroir infini 
+ Plugin Thermostat JEEDOM : pour le controle total de votre chauffage 
+ Jeedom  Guide dutilisation du compteur denergie HEM3 dAeon Labs 
+ Jeedom  Guide dutilisation de la multiprise commandee Greenwave END .entry-content  
+        </text>
+</document>

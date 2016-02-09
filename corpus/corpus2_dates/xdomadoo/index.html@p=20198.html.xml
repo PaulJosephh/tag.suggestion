@@ -1,0 +1,24 @@
+<document>
+	<date>2009-12-15</date>
+        <title>Guide dutilisation de ActiveHome Pro : Timers et Macros</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels Active Home</category>
+        </categories_set>
+        <text>
+                                                         Ce guide va vous aider a creer des Timers et des Macros dans  ActiveHome Pro 1. Creation dun Timer Un Timer permet dallumer ou deteindre des modules a des heures et jours definis. 
+ Cliquez sur New pour creer un nouveau Timer. 
+ Choisissez a quel moment vous souhaitez que le module soit active ou desactive : horaires precis, tombe de la nuit, lever du jour, les jours de semaine, le weekend Exemple : Une fois parametre, il suffit de fermer la fenetre. Ainsi, le module va sactionner tous les jours de 11h a 12h.  Une Macro permet de realiser plusieurs actions conditionnelles ou inconditionnelles. 
+ Pour ajouter une nouvelle Macro, cliquez sur +. 
+ Lassistant Smart Macros saffiche alors. Nous allons prendre un exemple : Allumer une lampe a la tombee de la nuit les jours de semaine si le detecteur de presence parametre sur ladresse C3 detecte une presence (soit C3 ON). Selectionnez Its after dusk (a la tombee de la nuit).  
+ Cliquez sur Next. 
+ Cliquez sur Next.  
+ Selectionnez On weeks day (Les jours de semaine). Cliquez sur Next. 
+ Cliquez sur Finish. 
+ Vous pouvez alors donner un nom a la Macro, changer ladresse du Trigger (Declencheur), soit, dans notre exemple, le detecteur de presence, et definir la piece dans laquelle la Macro sera visible. Faites glisser dans le rectangle en pointille le module que vous voulez actionner. Selectionner la bonne piece si necessaire.   Ainsi, quand toutes les conditions seront remplies la lampe C1 sallumera.  Beaucoup dautres Macros sont possibles. Il ny a que seule limite votre imagination.
+    Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

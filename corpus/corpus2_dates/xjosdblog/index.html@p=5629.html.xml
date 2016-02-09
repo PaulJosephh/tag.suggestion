@@ -1,0 +1,32 @@
+<document>
+	<date>2014-05-26</date>
+        <title>Dtecteur Z-Wave Fibaro Flood Sensor FGFS-101</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>fib</tag>
+                <tag>Fibaro</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Modules</category>
+        </categories_set>
+        <text>
+                                                 Description 
+ 
+Le  Fibaro Flood Sensor FGFS-101 Inclusion / exclusion 
+ 
+Par defaut, le  Flood Sensor Flood Sensor 
+Pour inclure manuellement le  Flood Sensor Flood Sensor 
+Pour exclure le  Flood Sensor Flood Sensor Reinitialisation complete du Flood Sensor 
+ Exclure le  Flood Sensor Appuyer et maintenir pendant 15 a 20 secondes le bouton TMP jusqua ce que lindication lumineuse devienne jaune Relacher le bouton TMP Appuyer une fois sur le bouton TMP Lindication lumineuse devient rouge puis seteint pour confirmer le succes de loperation ; un signal sonore est egalement emit Association avec la Vera Lite (UI5, firmware 1.5.622) 
+ 
+ Inclure le  Flood Sensor Une fois le  Flood Sensor _Motion Sensor La  Vera Lite 
+ _Motion Sensor Generic I/O _Motion Sensor Modifier le module  Generic I/O D_TemperatureSensor1.xml Clef Advanced device_file D_TemperatureSensor1.xml Effectuer un triple appui sur le bouton TMP pour reveiller le module et lui permettre de parachever sa configuration. La temperature devrait apparaitre avec licone associe a la sonde de temperature a la place du module  Generic I/O Positionner le  Flood Sensor Association avec la Vera Lite (UI7 firmware 1.7.513) 
+ 
+ Inclure le  Flood Sensor Une fois le  Flood Sensor Positionner le  Flood Sensor Informations et sources 
+ 
+Shopping:  Fibaro Flood Sensor FGFS-101 Inclusion/Exclusion/Optimisation Z-Wave du detecteur dinondation domotique Fibaro Flood Sensor FGFS-101 Topic: Fibaro Flood Senso Notice du Fibaro Flood Sensor FGFS-101 
+ Sommaire Domotique 
+        </text>
+</document>

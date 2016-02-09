@@ -1,0 +1,15 @@
+<document>
+	<date>2006-06-23</date>
+        <title>Note perso #1</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>grumph</tag>
+                <tag>mysql</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Nommer une table MySQL  user , c'est mal; et ca peut faire perdre une apres midi  
+        </text>
+</document>

@@ -1,0 +1,21 @@
+<document>
+	<date>2014-04-10</date>
+        <title>eedomus : Importante mise  jour dAvril</title>
+        <author> Mallory </author>
+        <tags_set>
+                <tag>box domotique</tag>
+                <tag>connected object</tag>
+                <tag>eedomus</tag>
+                <tag>mise a jour</tag>
+                <tag>scripts</tag>
+                <tag>sdk</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Connected Object eedomus Les principales nouveautes apportees par cette mise a jour : Realisez vos propres scripts SDK eedomus Support experimental connecteurs filaires (RJ12) de la box eedomus Entree numerique Actionneur 0-3-5V Compteur dimpulsion Lecteur analogique Premiers Objets connectes pre-configures:  Station meteo Netatmo Koubachi Comme souvent, chaque mise a jour rend compatible la  eedomus Support de la nouvelle version de la  telecommande Aeon LabsKeyfob (4 boutons) Support duZL7431 In wall switchde Vision Support duZL7432 In wall switch, 2 relayde Vision Support duZL7433 In wall dimmer modulede Vision Support du detecteur 4 en 1 (PSM02)de Philio Support du module pour volet roulants (TZ08/PAN08)de TKB Control/Philio Support du module relais double (TZ06/PAN06)de TKB Control/Philio Support de lacle  3G Autres que le support de nouveaux peripheriques, la  eedomus Tout dabord concernant les modules  Z-Wave La limitation aux multiples de 10% avec les dimmers peut etre desactivee (Parametres expert) Amelioration des performances  Z-Wave Les peripheriques sur batteries en mode toujours alimentes sont correctement identifies dans la configuration, leur polling est parametrable. Meilleure gestion des parametres de configuration des peripheriques sur batterie (Plusieurs requetes possibles sans attendre) Ajout dune option Canaux secondaires au reveil uniquement De nombreux autres points comme la gestion des scenes, le rendu visuel ou lutilisation des requete  HTTP Regroupez vos capteurs/actionneurs entre eux pour une gestion facilitee, notamment lorsquil sagit du meme equipement physique (valable pour les etats generiques, capteurs/actionneurs  HTTP Utilisez des variables pour simplifier lutilisation des capteurs et actionneurs  HTTP Une option permet dutiliser le portail  eedomus Amelioration de la vitesse dexecution dessceneset de certaines regles De nouvelles icones sont disponibles pour personnaliser vos affichages. La frequence des requetes  HTTP Un Critere de desactivation LAPI  eedomus Nouvelle fonction periph.value_list Ajout dun champ value_text et de loption periph_id=all periph.caract Ajout dun champ value_type dans periph.list Pour finir suite a cette longue liste damelioration, voici la liste des corrections apportees par  Connected Object Dans certains cas rares, des regles horaires pouvaient ne pas sexecuter. Zone de chauffage: un bug empechait la mise en pause dun thermostat base sur un  fil pilote HTTP Apres une ouverture locale, letat dun actionneur de volet roulant netait pas toujours correctement remonte. Le trace dun graphe pouvait etre decale pour la section qui precedait un passage a lheure dete/hiver. Une fois de plus,  Connected Object eedomus  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,29 @@
+<document>
+	<date>2005-05-16</date>
+        <title>Les billets en PDF</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>dotclear</tag>
+                <tag>php</tag>
+                <tag>plugins</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dotclear</category>
+        </categories_set>
+        <text>Pendant que certains pourrissent mon blog en me traitant de ringard ou je ne sais plus quoi, j'essaye d'apporter a ce dernier (mon blog) et suite a la lecture de  ce post sur le forum Dotclear , une fonctionnalite supplementaire sympathique: l'export au format  PDF  des billets. 
+
+
+ Je n'ai quasiment rien developpe, tout est base sur  FPDF  et  HTML2PDF ; je n'ai fait qu'une ebauche d'integration sous forme de plugin pour Dotclear. Je compte donc publier la chose sous peu mais avant je voudrais etre sur que ca s'affiche bien chez vous... 
+
+
+ La seule limitation que j'ai trouve pour l'instant c'est l'impossibilite d'exporter les images PNG avec couche alpha... Sinon tout a l'air de rouler. 
+
+
+ Edit 
+
+
+ J'ai renonce a developper ce plugin. Trop de bugs, trop de charge engendree... Pas sain. 
+        </text>
+</document>

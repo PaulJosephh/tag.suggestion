@@ -1,0 +1,37 @@
+<document>
+	<date>2005-07-02</date>
+        <title>FreePlayer, pire frayeur</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>free.fr</tag>
+                <tag>grumph</tag>
+                <tag>video</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Free  vient de lancer son offre  FreePlayer  permettant de diffuser du contenu Audio/Video en wifi depuis son ordinateur vers sa Freebox reliee a une television et/ou une chaine hifi, le tout en utilisant  VLC Streaming , suite logicielle libre et francaise bien connue des amateurs de diffusion de flux multimedia. En gros, la Freebox devient un MediaCenter Wifi, c'est plutot une excellente nouvelle. 
+
+
+ Evidemment, je tente immediatement d'utiliser la chose; je me rend donc sur la  page dediee  sur le site de Free, et telecharge donc l'utilitaire Linux permettant de mettre en oeuvre la chose. Je vous passe l'episode de la configuration du mode routeur de la freebox, apte a faire blemir n'importe quel client de Darty Informatique. 
+
+
+ Mais la ou je tombe vraiment des nues, c'est quand je tombe sur ce passage du README: 
+
+
+ Une  version  recente du  logiciel  VLC  Media  Player (VideoLan)  est
+necessaire pour utiliser le Freeplayer. La derniere version officielle
+en  date (0.8.2) n'est  pas suffisante  car il  n'est pas  possible de
+restreindre l'acces  au serveur HTTP  a certaines adresses  IPs. Cette
+fonctionnalite est disponible dans la version SVN. 
+ 
+Toutes les  informations necessaires pour compiler une  version SVN de
+VLC sont disponibles sur http://developers.videolan.org. 
+
+
+ Non pas que de compiler une nightly de VLC me fasse particulierement peur, mais je trouve que pour le commun des utilisateurs d'un ordinateur, c'est vraiment depasser les bornes. Ils auraient pu (du?) attendre de finaliser une solution immediatement operationnelle. Du coup ca m'a ennerve, j'ai rien installe. 
+
+
+ A trop vouloir effrayer la concurrence, ce sont les clients qu'ils risquent d'effrayer. 
+        </text>
+</document>

@@ -1,0 +1,23 @@
+<document>
+	<date>2008-03-28</date>
+        <title>Mon premier billet</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>myself</tag>
+                <tag>sensio</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>... vient d'etre publie  sur le blog de Sensio Labs , mon nouvel employeur. 
+
+
+ Et oui, je travaille desormais la ou tout a commence pour  symfony [ 1 ] , en tant que responsable des offres de conseil et de formation. De jolies choses sont en preparation a ce sujet, d'ailleurs /teasing . 
+
+
+ Je me souhaite longue vie la-bas  
+ Notes 
+ [ 1 ] Avec un petit  s , sinon gare !  
+        </text>
+</document>

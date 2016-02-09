@@ -1,0 +1,30 @@
+<document>
+	<date>2005-12-27</date>
+        <title>Scoopeo, le Digg francophone</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>scoopeo</tag>
+                <tag>social</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Une fois n'est pas coutume, un petit coup de coeur pour un site de news communautaire:  Scoopeo . Le concept est relativement similaire a celui de  Digg : les membres redigent des breves sur differents sujets (Internet, Sports, Actu, etc.), participant ainsi a l'enrichissement et a la vie du site. 
+
+
+ Chaque membre possede un  Karma  qui evolue en fonction de la pertinence des informations soumises et des appreciations des autres membres. 
+
+
+ Scoopeo, actuellement en version beta, est developpe en  Ruby On Rails  et fait la part belle a  AJAX  ou aux flux de syndication  Atom  et  RSS . 
+
+
+ A essayer. Pour ma part,  c'est adopte   
+
+
+ Edit du 6 janvier 2006 
+
+
+ Scooper sur Scoopeo, ca paye:  j'ai gagne un iPod nano 2Go  ^^ 
+        </text>
+</document>

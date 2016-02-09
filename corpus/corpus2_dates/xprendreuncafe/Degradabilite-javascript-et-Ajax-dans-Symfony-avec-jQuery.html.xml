@@ -1,0 +1,98 @@
+<document>
+	<date>2007-10-03</date>
+        <title>Dgradabilit javascript et Ajax dans Symfony avec jQuery</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ajax</tag>
+                <tag>bestpractices</tag>
+                <tag>javascript</tag>
+                <tag>jquery</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Pour un projet, je suis en train d'utiliser la librairie javascript  jQuery  dans  Symfony , en lieu et place du couple  prototype  et  scripaculous  dont je vous avait  deja parle . 
+
+
+ L'idee est ici de ne pas avoir a utiliser les  helpers  fournis par Symfony (qui mettent en oeuvre exclusivement Scriptaculous) et ainsi d'eviter d'utiliser les deux librairies simultanement sur le projet, mais aussi de decoreller le code javascript des templates et de favoriser une meilleure degradabilite de ce dernier. 
+
+
+ Par exemple, au lieu d'utiliser la fonction  link_to_remote()  dans notre template, on peut tout a fait imaginer d'employer un bon vieux  link_to()  des familles et de lui appliquer une classe css qu'on va pouvoir cibler depuis jQuery afin d'effectuer un appel AJAX pointant vers l'url presente dans l'attribut  href  du lien. Avec un exemple, c'est un peu plus clair: 
+
+  php
+?php echo link_to('Mon lien', '@maroute?monparam=mavaleur', array('class' = 'ajax_link')) ?
+ 
+
+
+ Dans un fichier javascript (jQuery doit bien entendu etre charge): 
+
+  javascript
+$(document).ready(function() {
+  $('a.ajax_link').click(function()
+    {
+      $.ajax(
+        {
+          type: 'post',
+          url: $(this).attr('href'),
+          success: function(msg)
+          {
+            alert("Resultat: " + msg);
+          }
+        });
+      return false;
+    }
+  );
+});
+ 
+
+
+ Avantage supplementaire, vous continuez a beneficier du systeme de routing Symfony (pas d'urls en dur dans les fichiers javascripts externalises.) 
+
+
+ La ou Symfony va egalement nous aider, c'est au travers de sa gestion native de la decoration d'une vue en fonction du type d'appel HTTP: le framework va detecter si l'action a ete appelee ou non depuis une requete XmlHttpRequest et, si c'est le cas, decorer la vue avec le layout global de l'application et donc presenter a vos utilisateur le resultat escompte, qu'ils aient active javascript ou non pour surfer sur votre site. 
+
+
+ Si vous desirez mettre a jour un element de l'arbre DOM avec le contenu recu d'une requete Ajax, voici une autre petite astuce; on va utiliser une ancre dans l'url et s'en servir comme argument decrivant l'id DOM qu'on veut mettre a jour: 
+
+  php
+?php echo link_to('Mon lien', '@maroute?monparam=mavaleur#mon_div', array('class' = 'ajax_link')) ?
+div id="mon_div" style="display:none"/div
+ 
+
+
+ Et en javascript: 
+
+  javascript
+$(document).ready(function() {
+  $('a.ajax_link').click(function()
+    {
+      var href = $(this).attr('href');
+      var target = href.substring(href.lastIndexOf('#'), href.length);
+      $.ajax(
+        {
+          type: 'post',
+          url: href,
+          success: function(msg)
+          {
+            if ($(target))
+            {
+              $(target).html(msg).show('slow');
+            }
+          }
+        }
+      );
+      return false;
+    }
+  );
+});
+ 
+
+
+ Note: on aurait pu aussi detourner l'attribut  target  a cette fin mais ce dernier n'est pas valide en XHTML strict. 
+
+
+ Bien entendu, ceci n'est qu'un microscopique apercu de l'etendu des possibilites de jQuery et de son integration possible avec Symfony (ou d'autre frameworks et langages, bien entendu.) 
+        </text>
+</document>

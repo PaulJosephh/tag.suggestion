@@ -1,0 +1,45 @@
+<document>
+	<date>2013-11-29</date>
+        <title>Luup debugging (Vera Lite)</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Luup</tag>
+                <tag>Vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+ Introduction 
+Lun des gros avantage de la box domotique Vera Lite est de pouvoir developper ses propres fonctions en Lua. Les fonctions developpees doivent etre placees dans la fenetre  Edit Startup Lua APPSDevelop AppsEdit Startup Lua 
+ Comme la fenetre est petite, une ligne de code se retrouve souvent sur plusieurs lignes se qui ne facilite pas la lecture Pas de numerotation des lignes, aucune coloration syntaxique, encore moins dauto-completion Il faut sauver a chaque fois, en plusieurs cliques, puis attendre que la Vera redemarre le moteur Luup (plusieurs seconde) Il faut declencher lexecution du code (parfois lie a un evenement par exemple) Il faut scruter le fichier log ou les erreurs sont notifiees car la Vera ne signale pas derreur delle-meme Il faut bien deverminer les erreurs de syntaxe car elles ne sont pas toujours signalees dans le bon module Offline debugging 
+Tout cela incite a debugger offline, cest a dire en dehors de linterface de la Vera. On peut ainsi profiter dun bon editeur avec numerotation des lignes, coloration syntaxique et executer instantanement le code pour voir ce que cela donne. Cependant, le langage Luup est une extension propre a la Vera du langage Lua. Pour debugger offline, il faut donc se ramener a du Lua:
+ 
+ En commentant ( -- luup En utilisant une librairie qui implemente ou simule les instructions specifiquement Luup. Je nen ai pas trouve sur le net, il ne reste plus qua la faire
+
+
+ luup  = { } . log = print ... 
+Pour debugger du code Lua offline, il est possible dutiliser un editeur leger comme gedit ou environnement complet comme celui de  ZeroBrane Studio IDE LDT sous Eclipse ZeroBrane Studio Eclipse ProjectAnalyze Geany ZeroBrane Studio Lua Editor Support Online debugging 
+Un bon conseil est de commencer a debugger la partie Lua du code offline.
+Ensuite, il faut bien tester le code sur la Vera. Les erreurs sont reportees dans le fichier log (le niveau 01 est celui des erreurs critiques) que lon peut afficher dans un navigateur a ladresse suivante:
+ http://IP_VERA/cgi-bin/cmh/log.sh?Device=LuaUPnP luup.log("message") 
+La fenetre  Test Luup code (Lua) APPSDevelop AppsTest Luup code (Lua) Edit Startup Lua Test Luup code (Lua) return true Code failed SSH sur Vera Lite Visualiser le fichier log dans une session  ssh 
+Il est possible de se connecter sur la  Vera Lite ssh $ ssh remote@IP_VERA Vera Lite ACCOUNTTech support Tech support full control enabled, access code XXXXXXXX-YYYYYY ssh YYYYYY 
+Le fichier log se trouve ici:  /var/log/cmh/LuaUPnP.log Vera root@MiOS_XXXXXXXX:~#  tail -f -n5000 /var/log/cmh/LuaUPnP.log | grep -E '^(01|50)' ssh $ ssh -t remote@IP_VERA "tail -f -n5000 /var/log/cmh/LuaUPnP.log | grep -E '^(01|50)'" ssh $ ssh -p PORT -t remote@ADRESSE_VERA "tail -f -n5000 /var/log/cmh/LuaUPnP.log | grep -E '^(01|50)'" Faire un  ssh 
+Pour se connecter en  ssh ssh Vera 
+ Generer le jeu de cle/certificat sur le client:  Client$ ssh-keygen -t dsa Copier la cle publique sur le serveur:
+ 
+Client$ cat ~/.ssh/id_dsa.pub | ssh remote@IP_VERA "cat -  /etc/dropbear/authorized_keys" Fichier Log 
+La  Vera Lite ssh Vera uptime Vera log 
+Il est cependant possible de stocker le fichier log sur clef usb ( SETUP Logs Store logs on USB device Vera Verbose logging SETUP Logs Verbose logging 
+Voici un petit script  bash CatchVeraLog.sh Vera Vera ssh un outil dedie comme glogg 
+
+
+ #!/bin/bash # $1 : le nom du fichier qui va recevoir le log # Exemple : ./CatchVeraLog.sh veraLog.log if [ $# -lt 1 ] then echo "Preciser le fichier destination : ./CatchVeraLog.sh veraLog.log" exit fi while true do echo "Demarrage logging ( $(date +%c) ssh -n -o ConnectTimeout 5 -o ServerAliveInterval 10 -o ServerAliveCountMax 1 'root@192.168.1.44' "tail -n5000 -f /var/log/cmh/LuaUPnP.log"  $1 echo "Interruption logging ( $(date +%c) echo -e " \n $(date +%D\ %T)  $1 while ! ping -c2 '192.168.1.44' / / do echo -n "." sleep 5 done echo "Ping Ok" sleep 10 done Informations et sources 
+ 
+Shopping:  Vera Lite  Controleur domotique Z-wave Luup Debugging Store logs USB SSH: Simplifier une connexion passant par un Proxy  Topic: Approved method for getting ssh off port 22? Chinese hackers found me. glogg  the fast, smart log explorer Lua Editor Support 
+ Sommaire Domotique 
+        </text>
+</document>

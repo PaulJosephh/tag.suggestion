@@ -1,0 +1,75 @@
+<document>
+	<date>2007-03-04</date>
+        <title>Rhythmbox tips</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>gajim</tag>
+                <tag>gnome</tag>
+                <tag>plugins</tag>
+                <tag>rhythmbox</tag>
+                <tag>tips</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>(Excusez cette soudaine profusion de billets, je solde) 
+
+
+ Je suis fan de  Rhythmbox , le gestionnaire de fichiers musicaux fourni avec  Gnome  dans  Ubuntu . C'est simple, ca fonctionne. Voici quelques astuces destinees a une utilisation optimale du programme. 
+
+
+ Applet de controle dans un tableau de bord Gnome 
+
+
+ Music Applet  permet de controler votre lecteur musical prefere depuis un tableau de bord Gnome: 
+
+
+ 
+
+
+ Pour l'installer: 
+
+
+ $ sudo apt-get install rhythmbox-applet 
+
+
+ Puis ajouter un nouvel applet au tableau de bord et choisissez  Music Applet  dans la section  Multimedia . Notez qu'il est egalement capable de piloter  Banshee  ou  Muine . 
+
+
+ Notification du titre ecoute dans Gajim 
+
+ Pierpaolo Follia  a realise un  plugin pour Rhythmbox  permettant de changer votre message de statut  Gajim  en fonction du titre que vous ecoutez. Pour l'installer, c 'est tres simple: 
+
+
+ $ mkdir ~/.gnome2/rhythmbox ~/.gnome2/rhythmbox/plugins
+$ cd ~/.gnome2/rhythmbox/plugins
+$ wget -c http://madchicken.altervista.org/tech/download/gajim-status.tar.gz
+$ tar xvzf gajim-status.tar.gz  rm gajim-status.tar.gz 
+
+
+ Relancez Rhythmbox, et configurez le plugin via le menu  Edition  Greffons  Gajim status changer : 
+
+
+ 
+
+
+ Suggestions Last.fm avec le plugin LastRhythm 
+
+
+ Je suis egalement un tres grand  fan  de  last.fm , particulierement des fonctionnalites de suggestions par similarite artistique. Aussi, quand je suis tombe completement par hasard sur l'existence d'un  plugin LastRhythm pour Rhythmbox , je me suis empresse de l'installer pour le tester. 
+
+
+ Verdict, ca marche fort bien (sous  Edgy  du moins.) 
+
+
+ La procedure d'installation est tres simple: 
+
+
+ $ sudo apt-get install subversion python-elementtree
+$ svn co https://svn.usrportage.de/lastrhythm/trunk/ /usr/lib/rhythmbox/plugins/lastrhythm 
+
+
+ Redemarrez rhythmbox, activez le  plugin  greffon et appreciez  
+        </text>
+</document>

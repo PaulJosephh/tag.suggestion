@@ -1,0 +1,21 @@
+<document>
+	<date>2005-04-03</date>
+        <title>Rcuprer un disque dur</title>
+        <author>NiKo</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text> Il y a deux jours (le 1er avril exactement, mais ce n'etait -  helas !  - pas un poisson), le disque dur Maxtor de la machine sur laquelle je travaille dans ma boite a lache - enfin disons qu'une des partitions etendue, celle ou je stockais les donnees partagees entre mes systemes Linux et Windows XP en FAT 32, a mysterieusement disparue. 
+
+
+ Toujours est-il que la partition XP bootait, ainsi que la debian (merci lilo), mais impossible d'acceder, depuis un systeme comme l'autre et meme depuis un LiveCD  Knoppix , a la fameuse partition mutualisee  
+
+
+ Dans l'urgence generee par le besoin d'acceder rapidement a mes donnees (tssss, ces clients, toujours a exiger le vieux fichier paume le jour ou ton disque crashe), on a essaye, puis achete un soft genial permettant la recuperation de donnees depuis des partitions FAT 12, 16, 32 et NTFS:  EasyRecovery DataRecovery  (199 HT tout de meme). C'est bien simple, il a reconstitue la partition quasiment entierement (47Go en moins d'une heure sur un PIV 3.2GHz 1Go de memoire), et j'ai pu recuperer environ 90% de mes fichiers - y compris le fameux fichier paume (mais crucial)  
+
+
+ Alors c'est sur, c'est proprio, c'est Windows, c'est pas libre, c'est payant, mais je peux vous assurer que ce soft est tout bonnement excellent, je vous le recommande vivement si jamais pareille mesaventure venait a vous arriver  
+        </text>
+</document>

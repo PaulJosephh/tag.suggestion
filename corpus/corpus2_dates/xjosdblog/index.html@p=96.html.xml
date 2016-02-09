@@ -1,0 +1,19 @@
+<document>
+	<date>2007-10-30</date>
+        <title>Activer le serveur Telnet du Synology DS107e</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Synology</category>
+        </categories_set>
+        <text>
+                                                 Pour activer le serveur Telnet :
+ 
+ 
+ Assurez-vous de posseder  le firmware 2.0.3-0462 ou superieur 
+ Telechargez le patch  EnableTelnet.zip 
+ Decompressez-le pour obtenir le fichier  EnalbeTelnet.pat 
+ Appliquez ce patch en utilisant linterface de configuration web (Systeme  Mise a niveau progiciel). 
+        </text>
+</document>

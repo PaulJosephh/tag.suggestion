@@ -1,0 +1,14 @@
+<document>
+	<date>2011-10-27</date>
+        <title>ZiBASE : Nouveau firmware pour supporter le Z-Wave</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          On navait pas eut de nouvelles de lequipe  Zodianet ZiBASE Z-Wave  La version 1.4 de l application iPhone ZiBASE   Cote  ZiBASE Z-Wave ZiBASE Desormais le nombre de peripheriques est illimite, le retour detat est pris en charge et de nouveaux types de peripheriques sont supportes.  Zodianet Z-Wave  Pour piloter des peripheriques  Z-Wave ZiBASE ZiBASE Plusieurs autres ameliorations ont ete apportees comme vous pouvez le remarquer dans la publication sur le site  Zodianet 24 Octobre 2011 : ZiBASE  Nouveau moteur* Zwave sans limitation sur le nombre de peripheriques Zwave geres (actionneurs + capteurs). IDs en pseudo-adresse  X10 NB : les anciennes installations avec Zwave doivent etre resynchronisees sur les ID Zwave (qui etaient prealablement limites a M1..M16N1..N8).  Graphe (assez impressionnant) des liaisons radio entre peripheriques Zwave (voir  exemple  Disponibilite de 32 variables Vx dont 15 volatiles (V0-V14, remises a 0 a chaque initialisation) et 17 sauvegardees (V15-V31).  Disponibilite pour le calculateur des etats des actionneurs dans les variables I10-I41. Etat jour = 1  ou nuit = 0  dans la variable systeme S10.  Fonctions de debug: Afficher les variables de sondes et actionneurs (Ixx)  et Afficher les variables systeme (Sxx). (Ne pas laisser ces fonctions en place apres debug car elles ralentissent votre  ZiBASE  Possibilite de declencher un scenario selon une liste dIDs de capteurs ou sondes (factorisation redoutable pour economiser des scenarios). La raison du declenchement se trouve alors dans les variables I7-9:  I7: type, I8: MSB ID, I9: LSB ID.  Possibilite de rendre accessible ou non a ZAPI (API de  ZIBASE  Action de reveil par Wake On LAN.  Retrait du bloc  GSM ADSL 3G  Correction de bug sur caracteres accentues dans les  SMS  Edition des scenarios : Possibilite de deplacer (remonter) une action dans la liste dactions dun scenario.  * Une liste des peripheriques Zwave compatibles va etre etablie.   Cest encore une grosse mise a jour que nous a concoctee lequipe  Zodianet ZiBASE  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

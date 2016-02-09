@@ -1,0 +1,21 @@
+<document>
+	<date>2012-08-17</date>
+        <title>Guide dutilisation de la tlcommande Remotec ZRC-100</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>domotique</tag>
+                <tag>guide</tag>
+                <tag>remotec</tag>
+                <tag>telecommande</tag>
+                <tag>z-wave</tag>
+                <tag>zrc-100</tag>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         
+ La telecommande ZRC-100 peut etre utilisee comme controleur  Z-Wave Z-Wave Elle peut gerer un reseau de 128 peripheriques maximum, et permet de controler 12scenes. Elle dispose aussi de 3 boutons de raccourcis qui permettent a lutilisateur de configurer tous les peripheriques frequemment utilises ou des scenes.  La telecommande  Remotec  Commencez par inserer 4 piles AAA (LR03).  Refermez le couvercle du compartiment a pile, et retournez la telecommande. Lecran  LCD  Utilisation en controleur principal En tant que controleur principal, la telecommande est capable de gerer le reseau  Z-Wave Appuyez simultanement quelques secondes sur les touches  de la telecommande. Le menu de configuration va apparaitre. Selectionnez Add Device et appuyez sur le bouton OK. Mettez le peripherique a ajouter au reseau en mode inclusion en appuyant sur son bouton dedie (exemple avec un module  Everspring Le peripherique est maintenant inclus par la telecommande. Vous pouvez renommer ce peripherique en appuyant 4 fois sur la touche Bas pour entrer dans le menu Device Config. Appuyez sur la touche OK, la liste des peripheriques va apparaitre. Appuyez de nouveau sur la touche OK, et selectionnez le menu Rename. Changez le nom du peripherique en utilisant les boutons fleches. Cliquez sur le bouton OK pour sauvegarder. Appuyez 3 fois sur le bouton BACK pour revenir au menu principal. Pour piloter le peripherique que vous venez dajouter, selectionnez Device et appuyez sur OK. Votre peripherique apparait et en appuyant sur le bouton  vous pouvez le mettre en marche, et sur le bouton  leteindre. A noter que letat du peripherique saffiche en face de son nom. Utilisation en controleur secondaire Si vous disposez deja dun controleur principal, la telecommande  Remotec Mettez tout dabord votre controleur principal en mode inclusion. Appuyez simultanement quelques secondes sur les touches  de la telecommande.  Le menu de configuration va apparaitre.  A laide de la touche Basdescendez jusquau menu AdvancedSetup, et appuyez sur la touche OK. Selectionnez Learning Mode et appuyez sur la touche OK. Si loperation sest bien deroulee, un message OK saffiche en bas de lecran. Vous pouvez desormais ajouter les peripheriques deja inclus dans votre reseau et que vous souhaitez controler avec la telecommande. Il suffit pour cela dappuyer simultanement quelques secondes sur les touches  de la telecommande et de choisir le menu Add Device, puis dappuyer sur le bouton dinclusion du peripherique a piloter. Ce guide decrit lutilisation basique de la telecommande  Remotec manuel dutilisation  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

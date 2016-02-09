@@ -1,0 +1,18 @@
+<document>
+	<date>2015-03-10</date>
+        <title>
+Utilisation du dtecteur de fume Fibaro FGSD-002 avec la base domotique Homelive dOrange</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Fibaro</tag>
+                <tag>fumee</tag>
+                <tag>homelive</tag>
+                <tag>incendie</tag>
+                <tag>orange</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>La base domotique Homelive dOrange communique nativement en utilisant la technologie Z-Wave. Nous allons voir ici comment ajouter le detecteur de fumee Fibaro FGSD-002 qui est conforme a la norme EN 14604:2005. Bien quautonome, il est egalement communiquant grace a la technologie Z-Wave Plus. Grace a ce nouveau protocole, le module consomme moins denergie et permet egalement de mettre a jour le firmware du capteur via le reseau Z-Wave. Ce DAAF (Detecteur Avertisseur Autonome de Fumee) detecte la fumee mais il propose egalement un capteur de temperature qui permet de lancer une alerte si une forte augmentation de temperature est detectee. Lire larticle complet sur  News Domotiques by Domadoo   Fibaro   fumee   homelive   incendie   orange 
+        </text>
+</document>

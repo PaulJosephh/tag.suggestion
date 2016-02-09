@@ -1,0 +1,30 @@
+<document>
+	<date>2006-05-24</date>
+        <title>Plugin Scoopeo pour Dotclear</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>dotclear</tag>
+                <tag>php</tag>
+                <tag>plugins</tag>
+                <tag>scoopeo</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dotclear</category>
+        </categories_set>
+        <text>Je viens de faire un nouveau plugin pour  Dotclear  permettant d'afficher ses derniers scoops postes sur  Scoopeo . Je l'ai code super vite, donc il se peut qu'il y ait des bugs remanants, mais chez moi ca marche. 
+
+
+ J'ai utilise la classe  lastRSS  qui devrait theoriquement permettre une utilisation sur la plupart des plateformes d'hebergement disposant de  PHP . 
+
+
+ Voici les urls d'installation de la version 0.1: 
+
+ 
+ Plugin Scoopeo v 0.1 -  Installeur 
+ Plugin Scoopeo v 0.1 -  Archive ZIP 
+ Plugin Scoopeo v 0.1 -  Archive TAR.GZ 
+ 
+        </text>
+</document>

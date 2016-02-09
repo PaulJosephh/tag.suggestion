@@ -1,0 +1,15 @@
+<document>
+	<date>2009-08-24</date>
+        <title>Installation des interrupteurs Crystal PLCBUS</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>PLCBUS Produits</category>
+        </categories_set>
+        <text>
+                                                         Ce guide est valable pour tous les interrupteurs Crystal  PLCBUS PLC2220 PLC2221 PLC2224 PLC2225 1. Mettez hors tension le reseau electrique concerne par linstallation de linterrupteur. 2. Connecter linterrupteur en suivant les indications du bornier. 
+  L  correspond a la  phase  N  correspond au  neutre  1  et  2  aux charges a piloter 3. Retirer la partie en verre de linterrupteur a laide dun petit tournevis plat comme ci-dessous.   4. Installer linterrupteur sur le mur en le fixant avec les vis fournis ou les vis de votre boite dencastrement. 5. Appuyer sur le bouton  S5  ou  S6  (S5 pour ladresse de gauche et S6 pour lladresse de droite) pendant 5 secondes jusqua ce que la lampe connectee sallume.   6. Relacher le bouton. Les 4 Leds rondes se mettent a clignoter pour indiquer que linterrupteur est entre dans son mode de programmation. 7. Envoyer ladresse de programmation voulue (par exemple  A3 ON ) a partir de  HomeSeer HomePlanner PLCBUS PLC4034 8. La lampe connectee va alors seteindre pour indiquer que linterrupteur est sorti de son mode de programmation et que ladresse envoyee a bien ete programmee. Linterrupteur Crystal  PLCBUS  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

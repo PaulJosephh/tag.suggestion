@@ -1,0 +1,20 @@
+<document>
+	<date>2014-05-23</date>
+        <title>Guide dutilisation de linterrupteur ON/OFF double TKB Home TZ66D avec la eedomus</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>connected object</tag>
+                <tag>eedomus</tag>
+                <tag>interrupteur</tag>
+                <tag>tkb home</tag>
+                <tag>TZ66D</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                         La  eedomus Z-Wave interrupteur double TKB HomeTZ66D Z-Wave Z-Wave Nous ne verrons ici que lintegration du module avec la  Eedomus guide dinstallation de linterrupteur ON/OFF double TKB Home TZ66D 1- Inclusion A partir du centre de controle de votre  eedomus https://secure.eedomus.com/ Z-Wave Z-Wave Z-Wave Z-Wave Z-Wave eedomus Vous devez indiquer ses caracteristiques : Nom du module, piece dans laquelle il se situe, affichage personnalise et vos notes concernant ce module. Cliquez sur le bouton Sauver situe en bas de votre interface pour valider les caracteristiques de votre module. 2- Configuration Apres avoir correctement installe votre module, vous allez pouvoir configurer ses parametres. Cliquez sur votre module dans la rubrique Vos peripheriques. Loption Configurer apparait. SMS Z-Wave Pour commander manuellement jusqua 5 peripheriques  Z-Wave  Pour commander un ou plusieurs peripheriques  Z-Wave Dans Noeud, choisissez le module que vous souhaitez commander par un simple appui sur le bouton droit de votre interrupteur. Enfin, cliquez sur Envoyer pour que votre commande dassociation soit envoyee et executee. Lorsque le statut du message qui apparait dans Historique des parametres envoyes affiche Execute, alors cela signifie que vous pouvez desormais commander votre peripherique  Z-Wave TKB Home  Pour commander un ou plusieurs peripheriques  Z-Wave Enfin, cliquez sur Envoyer pour que votre commande dassociation soit envoyee et executee. Le peripherique concerne se mettra a jour lors de son prochain reveil. Vous pouvez egalement forcer ce reveil manuellement en appuyant sur son bouton dinclusion/exclusion. Lorsque le statut du message qui apparait dans Historique des parametres envoyes affiche Execute, alors cela signifie que vous pouvez desormais commander votre peripherique  Z-Wave TKB Home Vous pouvez a tout moment supprimer une ou plusieurs associations grace au nom de commande ASSOCIATION_REMOVE, au groupe 1 puis le noeud de votre choix. 3- Exemple de regle Votre imagination est la seule limite pour creer une regle. Rendez-vous dans la rubrique Regles associees de votre peripherique.Cliquez ensuite sur Nouvelle regle.  Nom : Le nom de votre regle.  Activee : Option dactivation ou desactivation de votre regle.  Groupe : Permet dassocier la regle a un groupe.  Autoriser le redeclenchement : Permet dautoriser immediatement, selon une duree definie ou jamais le redeclenchement de la regle.  Horaires : Vous definissez un ou plusieurs horaires pour que votre regle puisse etre activee.  Criteres : Vous selectionnez vos elements qui seront declencheurs de laction.  Actions : Vous selectionnez les elements qui vont realiser une action en fonction des criteres.  Notifications : Vous choisissez le type de notification que vous allez recevoir lors de lactivation de la regle (sur le portail  Eedomus SMS Apres avoir defini vos parametres, noubliez pas de sauvegarder pour valider votre regle. Nous allons prendre un exemple de regle : Si jactive le bouton gauche de mon interrupteur  TKB Home Voici notre regle : Cet interrupteur  TKB Home Pour plus dinformations, decouvrez notre  guide de creation de programmations et regles avec la Eedomus  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

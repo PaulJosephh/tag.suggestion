@@ -1,0 +1,30 @@
+<document>
+	<date>2014-12-23</date>
+        <title>
+Test de Greenwave: enfin une multiprise Z-wave !</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Greenwave</tag>
+                <tag>multiprise</tag>
+                <tag>Z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Test Peripheriques Domotiques</category>
+        </categories_set>
+        <text>
+ Multiprise Z-Wave Greenwave NP210 
+ 59,95 9.6 
+ Qualite 
+ 95/10 
+ Fonctions 
+ 100/10 
+ Utilisation 
+ 90/10 
+ Prix 
+ 99/10 Pour - Le prix imbattable - 6 prises independantes - suivi d'energie sur les 6 prises - qualite du produit   Contre - pas encore parfaitement reconnu sur toutes les box 
+ 
+ Acheter chez Domadoo   
+ Acheter chez Domilys   En Z-wave, pour piloter un appareil, il existe des prises Z-Wave. Lun des modeles les plus utilises est sans doute le  WallPlug de Fibaro , car tout petit, et capable de suivre la consommation electrique dun appareil. Sa petite taille permet meme den mettre plusieurs cote a cote sur une multiprise pour piloter plusieurs appareils independamment. Ce peripherique est excellent. Il na quun seul defaut: son prix, qui avoisine les 60. Autrement dit, si vous voulez piloter independamment tous les appareils branches sur une multiprise a 6 emplacements, par exemple, cela vous revient a 360 (hors cout de la multiprise). Autant le dire, cest exorbitant ! Aeon Labs nous fait rever depuis deux ans avec une eventuelle  multi prise Z-Wave , quon attend toujours :/ Elle nest en fait disponible que sur le marche US pour linstant, et il faut noter que seules 4 prises sont pilotables sur les 6 disponibles. Mais une autre solution est apparue: la multiprise Z-Wave de la societe  Greenwave . Je vous la presente aujourdhui. Sommaire Multiprise Z-Wave Greenwave NP210 Qualite Fonctions Utilisation Prix Pour Contre I. Presentation II. Utilisation 2.1 Box HC2 de Fibaro 2.2 Box Eedomus 2.3 Box VeraEdge 2.4 Homelive de Orange 2.5 Zipabox 2.6Jeedom III. Conclusion Commentaires (27) Powered by SEO TOC 1.7.3  
+ I. Presentation La multiprise Z-Wave de Greenwave ressemble a une multiprise tout ce quil y a de plus classique, ici avec la possibilite dy brancher 6 appareils: Attention, pour le moment elle nest pas disponible en prises francaises, il sagit de prises SCHUKO (allemandes): La bonne nouvelle, cest que la plupart de nos appareils aujourdhui sont compatibles avec ce type de prise. En fait, la seule difference reside dans le fait que la terre nest pas presente sous forme dun pico qui depasse, mais sous forme dune languette sur le cote de la prise: Pour les prises nayant pas la terre: aucun soucis. Pour les prises utilisant la terre, la plupart sont aujourdhui compatibles. La prise pour brancher la multiprise a une prise murale, en revanche, est parfaitement compatible avec nos prises francaises, puisque le trou pour le pico de la terre est present: Bref, cette prise fonctionnera donc sans probleme chez nous, sur le 220V, et supportera jusqua 10A (ou 2400W) :D Ce point etant regle, continuons notre tour du proprietaire. Sur lune des extremites nous avons une petite molette. Elle permet de selectionne une couleur: cette prise fait partie dun autre systeme de suivi denergie, qui a prevu daffecter une couleur differente pour identifier les prises. Dans notre cas elle na que peu dutilite. En revanche, en tournant jusquau symbole cadenas, il est possible de verrouiller la prise: un appui sur son bouton general dallumage / extinction naura aucun effet. Attention, cela aura aussi pour effet de bloquer le controle depuis la box domotique. Il vaut mieux le savoir avant de se dire que la prise est defectueuse. Pratique en tout cas pour eviter deteindre un appareil important par accident. Sur le bout, nous avons un tout petit bouton qui servira pour linclusion / lexclusion dans un reseau Z-Wave. Contrairement a beaucoup de peripheriques, il suffira ici dappuyer une seule fois. Enfin, sur le dessus, un interrupteur general, qui permettra deteindre ou dallumer toutes les prises de la multiprise en une seule fois (si la molette nest pas reglee sur le cadenas bien sur). Ce bouton dispose egalement dun cercle led qui sallumera de facons differentes pour signaler son etat (inclusion, exclusion, tous les appareils allumes, etc) Bien que tres classique, cette prise Greenwave est un poil plus grande quune multiprise classique (comparee ici avec une vieille multiprise a 5 ports seulement, pour vous donner une idee, cest tout ce que javais sous la main ;-) Cette prise mesure 41cm de long, pour 6,5cm de large, sur 4,5cm de haut. Elle prend un peu de place, mais il fallait bien integrer lelectronique, Z-wave et protection contre les surtensions. En tout cas, ses prises sont suffisamment bien fichues pour pouvoir y connecter plusieurs blocs cote a cote: A lutilisation cette multiprise est pratique, et ne fait pas du tout cheap, cest du solide. A noter quaucune notice nest fournie, mais on peut la trouver sur le net,  par exemple ici . Mais son vrai point fort est sa connexion Z-Wave, que nous allons voir des maintenant     1   2 Greenwave   multiprise   Z-wave 
+        </text>
+</document>

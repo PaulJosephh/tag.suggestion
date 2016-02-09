@@ -1,0 +1,16 @@
+<document>
+	<date>2011-03-04</date>
+        <title>Guide dinstallation de la tlcommande ACT ZTH200</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         
+  La telecommande ZTH200 permet de controler nimporte   quel module compatible  Z-Wave Plus quune telecommande, le ZTH200 est un veritable controleur puisquil permet egalement de  programmer   le declenchement dun eclairage ou appareil a une heure precise   (fonction timer), de bloquer lalimention de certains appareils   potentiellement dangereux pour proteger les enfants, ou de simuler une   presence en activant aleatoirement les lumieres ou appareils. 
+    Ouvrez le compartiment a piles situe derriere la telecommande.  Inserez les piles et remettez le couvercle.  Retournez la telecommande et reglez lheure.  Reglez les heures en appuyant sur les fleches, puis cliquez sur OK. Reglez de la meme facon les minutes. Cliquez sur OK.  La telecommande est desormais prete a etre utilisee.   Ajouter un module Appuyez sur le bouton menu.  Appuyez sur OK.  Appuyez de nouveau sur OK. Choisissez le numero du groupe auquel vous souhaitez affecter le module.  Cliquez sur OK.  Appuyez sur le bouton dassociation du module.  Le module change alors detat pour indiquer que lassociation est reussie.   Commander un module Pour selectionner un groupe/module, il suffit dappuyer sur les fleches, puis de cliquer sur OK pour allumer ou eteindre le groupe/module choisi. Les touches numerotees de 1 a 6 correspondent aux 6 premiers groupes/modules. Ce sont des touches de raccourci. Un appui sur une de ces touches allume ou eteint le groupe/module correspondant.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

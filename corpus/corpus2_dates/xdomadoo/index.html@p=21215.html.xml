@@ -1,0 +1,16 @@
+<document>
+	<date>2010-12-23</date>
+        <title>Guide dinstallation du contrleur X10/IR S3011</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>X10 Produits</category>
+        </categories_set>
+        <text>
+                                                         
+  Le controleur S3011 permet de piloter des  appareils  IR X10 X10 IR Il peut memoriser jusqua 32 code  IR X10 X10 
+  Alimentez le controleur dans une prise electrique proche de lappareil  IR Deplacer le capot de protection de lemetteur/recepteur  IR  Maintenez appuye pendant 5 secondes le bouton de parametrage situe sur le dessus du controleur.  Les LEDs rouge et verte clignotent pour indiquer que le controleur est entre en mode programmation.  Envoyez une commande  X10  Envoyez ensuite la premiere commande  IR  La LED rouge seteint et la LED verte sallume pour indiquer que la commande a bien ete recue.  Envoyer alors la seconde commande  IR X10 Les LEDs rouge et verte clignotent de nouveau, et vous pouvez programmer une autre adresse  X10  Le controleur est programme, il ne reste plus qua le positionner en face du recepteur  IR  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

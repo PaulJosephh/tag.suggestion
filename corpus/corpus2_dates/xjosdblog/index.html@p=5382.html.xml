@@ -1,0 +1,25 @@
+<document>
+	<date>2014-04-15</date>
+        <title>Vera : capturer une image depuis une camra IP</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Camera IP</tag>
+                <tag>Luup</tag>
+                <tag>Vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Surveillance</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Voici une petite fonction permettant, a partir dune Vera Lite, de capturer une photo avec une camera IP.
+ -- Capturer une image d'une camera IP et la placer dans le fichier specifie -- requete : requete permettant la capture de l'image -- cible   : le chemin de l'image (ex : "/root/img.jpg") function ( , ) local = assert ( io.open ( , "wb" ) ) local , = . . ( ) : write ( ) assert ( : ( ) ) end 
+En complement,  ce billet Ce billet 
+Attention, ces captures peuvent consommer trop de ressources pour la  Vera lite Vera Lite : Plantage severe 
+ 
+ Sommaire Domotique 
+        </text>
+</document>

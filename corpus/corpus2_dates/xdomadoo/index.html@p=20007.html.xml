@@ -1,0 +1,24 @@
+<document>
+	<date>2009-08-26</date>
+        <title>Installation X10 de base avec un ordinateur</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>X10 Applications</category>
+        </categories_set>
+        <text>
+                                                         Tout comme linstallation  X10 X10 domotique X10 
+ Le controleur permet de faire la liaison entre lordinateur et le reseau electrique. Deux modeles sont disponibles :
+   CM11 ,  Interface PC ou MAC pour la construction de scenarii. Il   permet detablir une passerelle de communication par courant porteur X10 domotique .  Le  CM11  se branche sur un port COM ou sur un port  USB Le  CM15   domotique X10 CM15 CM11 USB X10 Le recepteur peut etre un module appareil (ordre ON / OFF uniquement) ou un module lampe (ordres ON / OFF et variation). On peut le trouver sous differentes formes : Module prise ( AM12 LM12 Module  Rail DIN AD10 LD11 Module Douille ( LM15 LM15EB Module avec fils apparents ( AM12W LM12W Interrupteurs ( AW10 LW11 Micromodules encastrables derriere une prise electrique ou un interrupteur ( AW12 LW12 X10 Active Home CM11 Active Home Pro CM15  logiciels compatibles avec Windows XP et Vista. Leur utilisation est quasiment identique. Les representations graphiques des differents modules aident grandement a faciliter la programmation des evenements planifies, des macros et des macros conditionnelles.  Cec CM11  ou  CM15  pour ainsi fonctionner sans ordinateur. Ces deux logiciels fonctionnent uniquement avec une installation  X10 
+ HomeSeer domotique HomeSeer HomeSeer domotique X10 HomeSeer PLCBUS Z-WAVE LUTRON 
+ mControl mControl   est egalement un serveur  domotique Media Center Media Center   Media Center . Tout comme  HomeSeer ,  mControl  permet de  mControl INSTEON Z-WAVE X10 
+ Dautres logiciels sont egalement disponibles mais pas aussi complet que  HomeSeer mControl Exemple avec un  CM11 : Produit indispensable des que lon souhaite approfondir le pilotage de son installation   X10   CM11 X10 ActiveHome X10 Le   CM11   
+ un mode connecte quand lordinateur est allume. Le  CM11 Vous pouvez mettre en uvre de tres nombreux scenarios tels que : Macro Coucher qui fermera les lumieres et les volets roulants de la maison Macro TV qui reduira lintensite lumineuse dans le salon et eteindra les autres pieces Macro Arrosage qui declenchera lirrigation a 20h tous les soirs Macro Simulation de presence Gestion intelligente du chauffage en fonction de la presence etc CM11 CM11 USB X10 X10 
+ Pour controler le  CM11 X10 TM13 .   TM13  
+ Exemple avec un  CM15 : Version amelioree de linterface  CM11 CM15 CM11 CM15  incorpore un transmetteur  X10 TM13 TM13 . Aussi, le logiciel  ActiveHome Pro  X10 CM15 CM11 CM15 
+ un mode connecte quand lordinateur est allume. Le  CM15 Avec votre ordinateur vous pilotez ce que vous voulez. 
+ Le gros avantage du  CM15 CM11 TM13 X10  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

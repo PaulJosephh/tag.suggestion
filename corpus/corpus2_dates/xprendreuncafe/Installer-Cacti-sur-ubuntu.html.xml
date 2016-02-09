@@ -1,0 +1,69 @@
+<document>
+	<date>2006-12-24</date>
+        <title>Installer Cacti sur Ubuntu</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>linux</tag>
+                <tag>server</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Alerte de securite du 8 fevrier 2007 
+
+
+ La version de Cacti presente dans les depots Universe (non supportes officiellement donc) possede une  faille de securite importante  permettant a un utilisateur peu scrupuleux d'executer du code arbitraire oudes injections SQL sur votre machine: autant dire que le probleme est serieux. 
+
+
+ Je me vois donc contraint de vous rappeler que les depots Universe ne sont pas officiellement maintenus sur Ubuntu et donc que les programmes en emanant peuvent faire l'objet de failles de securite dont les correctifs peuvent tarder a venir. 
+
+
+ Installation 
+
+
+ Cacti  est un outil de monitoring materiel  tres complet  et generant de jolis graphes informatifs sur la charge CPU, la charge reseau et autres informations bien utiles aux administrateurs systeme en herbe. 
+
+
+ Cacti s'installe tres facilement sous  Ubuntu , voici la procedure pour une 6.06 lts (Dapper drake) deja configuree en serveur Apache2, MySQL et PHP: 
+
+
+ $ sudo apt-get update
+$ sudo apt-get install cacti 
+
+
+ A la question: 
+
+
+ Faut-il configurer la base de donnees de cacti avec dbconfig-common ? 
+
+
+ Repondez oui et entrez les parametres MySQL demandes par l'assistant de configuration. Si par hasard l'assistant vous declare ne pas reussir a creer la base de donnees  cacti , ouvrez un autre shell et creez une nouvelle base de donnees  cacti  comme suit: 
+
+
+ $ mysql -uroot -p
+Password:
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 21 to server version: 5.0.24a-Debian_9-log
+
+Type 'help;' or '\h' for help. Type '\c' to clear the buffer.
+
+mysql CREATE DATABASE cacti;
+Query OK, 1 row affected (0.00 sec)
+
+mysql \q
+Bye 
+
+
+ Ceci fait, faites pointer votre renard prefere vers  http://votredomaine.tld/cacti  et suivez les etapes de configuration en ligne de l'outil. Theoriquement vous n'avez rien de particulier a changer aux options preremplies par defaut. Une fois les etapes de configuration franchies, logguez vous dans la console d'administration Cacti en  admin:admin  puis changez immediatement votre mot de passe. 
+
+
+ Les graphes seront automatiquement generes a intervalles reguliers et vous aideront a superviser votre machine, comme dans la capture d'ecran ci-dessous. 
+
+
+ 
+
+
+ Ah, et bonnes fetes a tous  
+        </text>
+</document>

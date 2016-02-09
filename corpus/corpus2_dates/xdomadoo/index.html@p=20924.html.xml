@@ -1,0 +1,14 @@
+<document>
+	<date>2010-08-11</date>
+        <title>Prsentation de linterface HSTouch</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels Homeseer</category>
+        </categories_set>
+        <text>
+                                                          HomeSeer home automation software and controllers. onmouseover=this.style.backgroundColor=#ebeff9 onmouseout=this.style.backgroundColor=#fff'HSTouch est une interface graphique utilisateur pour le logiciel  domotique HomeSeer domotique HomeSeer system. onmouseover=this.style.backgroundColor=#ebeff9 onmouseout=this.style.backgroundColor=#fff'  HomeSeer system. onmouseover=this.style.backgroundColor=#ebeff9 onmouseout=this.style.backgroundColor=#fff'  HomeSeer system. onmouseover=this.style.backgroundColor=#ebeff9 onmouseout=this.style.backgroundColor=#fff' HomeSeer system. onmouseover=this.style.backgroundColor=#ebeff9 onmouseout=this.style.backgroundColor=#fff'HSTouch est compose dun logiciel de creation dinterface (HSTouch Designer) fonctionnant uniquement sous Windows, un logiciel client pour Windows, WinCE et appareils Mobiles, et un plug-in pour integrer le Designer et les clients avec nimporte quel systeme  domotique HomeSeer home automation software and controllers. onmouseover=this.style.backgroundColor=#ebeff9 onmouseout=this.style.backgroundColor=#fff' HomeSeer HomeSeer system. onmouseover=this.style.backgroundColor=#ebeff9 onmouseout=this.style.backgroundColor=#fff'.  Les projets sont crees a partir du Designer, puis deploye sur les clients. I l faut donc installer le plugin HSTouch sur le serveur  HomeSeer ,  puis installer HSTouch Designer sur un autre ordinateur et creer  linterface graphique. Ensuite, il faut installer les clients sur les  machines qui vont servir de controleurs. Pour une utilisation sur liPad  et liPhone/iPod Touch, il faut installer lapplication adequate (gratuite). Lavantage de cette interface est quelle est totalement personnalisable. Vous pouvez creer vos propres boutons, themes et fonds decrans. De plus, elle gere laffichage des flux  RSS    Guide dinstallation du logiciel HomeSeer Touch Designer  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

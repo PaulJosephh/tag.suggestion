@@ -1,0 +1,25 @@
+<document>
+	<date>2005-04-05</date>
+        <title>Faille gnante dans Netscape et Mozilla</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>grumph</tag>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>Une  faille basee sur javaScript  a ete recensee par  Secunia  dans les navigateurs Netscape 6.x et 7.x, Mozilla 1.7.x et firefox 1.x entre autres, permettant de lire une partie du contenu de la memoire vive de l'ordinateur. Vous pouvez tester la faille en  effectuant un test ici . 
+
+
+ Pour ma part, les informations affichees dans le TextArea contenaient entre autres mon adresse email, une partie des urls de mon historique... Bref: j'aime pas trop. 
+
+
+ J'espere donc que les editeurs concernes sauront reagir rapidement, d'autant que la mise en oeuvre de  l'exploit  est vraiment facile  
+
+
+ Edit 23h52: 
+
+
+ S'il y en a qui doivent etre en train de faire des heures sup' (de plaisir, bien sur), ce sont les devs de chez Ubuntu, de Debian et de Mozilla: en effet, je viens d'effectuer un  sudo apt-get dist-upgrade  afin de mettre a jour mon Hoary et firefox faisait visiblement parti des paquets updates; resultat: le test de Secunia ne fonctionne plus! Si ca c'est pas de la reactivite   Certains feraient mieux de s'en inspirer plutot que d'essayer de  pomper les logos des autres   
+        </text>
+</document>

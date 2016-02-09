@@ -1,0 +1,16 @@
+<document>
+	<date>2010-10-11</date>
+        <title>Guide dinstallation du kit CK60, clairage automatique</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>X10 Kits</category>
+        </categories_set>
+        <text>
+                                                          Le kit  CK60  1 detecteur de presence MS13  1 transmetteur radio vers courant porteur TM13  1 recepteur douille LM15 (tout autre recepteur  X10 Le detecteur de presence MS13 est equipe dun capteur de luminosite. Il est possible de le parametrer pour quil detecte une presence uniquement la nuit. Ainsi, il emettra un signal radio que recevra le transmetteur TM13 qui le convertira en signal courant porteur a destination du module LM15.  
+ Dans un premier temps, installez le transmetteur TM13 dans une prise electrique. Consultez notre guide dinstallation du TM13 Installez ensuite le module LM15 sans changer son adresse dorigine. Consultez notre guide dinstallation du LM15   
+ Installez ensuite le MS13 a une hauteur denviron 2 metres.  Att ention, pour une utilisation en exterieur, le detecteur MS13 doit etre protege de la pluie.  Parametrez le MS13 sur la meme adresse que le module LM15 (par defaut A2), et configurez le sur le mode de fonctionnement 2 (transmission de la detection de mouvements uniquement en absence de lumiere).  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

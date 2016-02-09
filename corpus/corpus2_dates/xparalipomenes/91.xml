@@ -1,0 +1,74 @@
+<document>
+	<date>2010-10-24</date>
+        <title>Le Cloud computing, une r&#233;volution contractuelle ?</title>
+        <author>Mich&#232;le Battisti</author>
+        <tags_set>
+                <tag>cloud computing</tag>
+                <tag>Contrat</tag>
+                <tag>Donn&#233;es personnelles</tag>
+                <tag>Responsabilit&#233;</tag>
+        </tags_set>
+        <categories_set>
+                <category>Contrat</category>
+        </categories_set>
+        <text>
+                                                                                 
+ 
+ 
+   
+ T&#233;moignages de prestataires 
+ ADIJ, 21 octobre 2010&#160;: 2e atelier sur le  Cloud computing 
+ Si le  Cloud computing , comme semble l&#8217;indiquer  le 1 er  atelier , ne repr&#233;sente finalement qu&#8217;une simple &#233;volution de l&#8217;informatique li&#233;e &#224; une maturit&#233;&#160;technique, mettre ses donn&#233;es dans les nuages se traduirait, en revanche, par des bouleversements juridiques. Telles sont les conclusions que l&#8217;on est tent&#233; de tirer du 2 e  atelier organis&#233; par  l&#8217;ADIJ  avec Google et Microsoft, en tant que prestataires de Cloud, pour grands t&#233;moins. 
+ L&#8217;objectif des ateliers de l&#8217;ADIJ &#233;tant de comprendre le ph&#233;nom&#232;ne de Cloud Computing pour d&#233;finir des  best practices  en mati&#232;re de contrats, les juristes de Google et de Microsoft devaient nous aider &#224; cerner les &#233;l&#233;ments juridiques qui accompagnent cette d&#233;marche, aujourd&#8217;hui in&#233;luctable pour les entreprises. 
+ Les points cl&#233;s d&#8217;un contrat de Cloud 
+ C&#8217;est la  privacy  (les donn&#233;es personnelles) li&#233;e au souci de  confidentialit&#233;  qui s&#8217;est av&#233;r&#233;e tr&#232;s vite et &#224; nouveau &#234;tre la plus pr&#233;gnante et la plus d&#233;licate  [1] . L&#8217;entreprise s&#8217;inqui&#232;te aussi de la  s&#233;curit&#233;  de ses donn&#233;es et veut savoir o&#249; elles se trouvent, d&#8217;o&#249; une exigence de transparence tr&#232;s forte&#160; [2] . 
+ Dans cette liste de point clefs, on trouve le  droit applicable  en cas de litige&#160; [3] , un aspect complexe pour lequel un trait&#233; international serait utile, mais aussi  la r&#233;versibilit&#233;  qui permet de se retirer d&#8217;un Cloud  [4]  pour reprendre ses donn&#233;es ou les transf&#233;rer &#224; un autre prestataire  [5] , ainsi que les  garanties  apport&#233;es, au-del&#224; des solutions techniques  [6] , s&#8217;il y a   perte des donn&#233;es en cas de faillite du prestataire ou de clash informatique. 
+ On a cit&#233; &#233;galement l&#8217; interop&#233;rabilit&#233;  [7]  des syst&#232;mes et la  fixation du prix  d&#233;finissant ce qui d&#233;clenche le paiement&#160; (le mois ? le nombre de personnes&#160;? la transaction&#160;?). 
+ Quant &#224; la question des  march&#233;s publics , elle fera sans doute l&#8217;objet d&#8217;un atelier sp&#233;cifique. 
+ Tout &#224; inventer au niveau juridique ? 
+ 
+ Des &#233;l&#233;ments nouveaux&#160;? 
+ 
+ Les questions pos&#233;es par le Cloud se posaient d&#233;j&#224; lorsque l&#8217;on externalisait ses services. Mais le  buzz  autour du Cloud lui donne une dimension psychologique particuli&#232;re  [8] , d&#8217;o&#249; un besoin imp&#233;rieux de communiquer&#160; [9] . Puisque l&#8217;approche est sensiblement diff&#233;rente du traditionnel droit de l&#8217;informatique, tout comme aux d&#233;buts de l&#8217;Internet, on se pose visiblement encore beaucoup de questions. 
+   
+ Si, par ailleurs, l&#8217;externalisation est ma&#238;tris&#233;e par les juristes, il convient de dissocier le Cloud computing de l&#8217;outsourcing classique pour  &#171;&#160;&#233;viter que le d&#233;bat ne parte en larsen&#160;&#187;.  
+ Bien que la volont&#233; &#8211; et l&#8217;int&#233;r&#234;t &#8211; du Cloud est de faire du Cloud public, on peut &#233;voquera alors la  customisation ,  soit la gestion   de d&#233;veloppements sp&#233;cifiques dans un Cloud public, qui repr&#233;sentent g&#233;n&#233;ralement des param&#232;tres susceptibles d&#8217;&#234;tre activ&#233;s, mais pas de code propre &#224; un client. La personnalisation prendra une autre dimension d&#232;s lors que l&#8217;on descend dans le  Paas,  pour des services r&#233;ellement sp&#233;cifiques, ce qui rend la question de la r&#233;versibilit&#233; et de l&#8217;interop&#233;rabilit&#233; plus cruciale. Comment mettre en &#339;uvre aussi la  clause d&#8217;audit  &#171;&#160;lorsque les donn&#233;es sont au P&#244;le Nord&#160;&#187;&#160;? 
+ 
+ Des contrats &#160;un peu particuliers 
+ 
+ Le contrat de service propos&#233; par Google&#160;est dans les faits un contrat d&#8217;adh&#233;sion pour des services &#233;volutifs  [10] . Pas d&#8217;avenant, mais un simple courriel pour acceptation lorsqu&#8217;un service est modifi&#233;, et un contrat d&#8217;une dur&#233;e volontairement tr&#232;s courte au terme duquel &#171;&#160;on adh&#232;re encore ou on sort&#160;&#187;. Ce contrat d&#8217;adh&#233;sion qui &#233;volue est d&#8217;autant plus &#233;tonnant pour des juristes qu&#8217;il est sans objet  [11]  : on n&#8217;y trouve qu&#8217;une liste de fonctionnalit&#233;s mais aucune annexe, la &#171;&#160;roadmap&#160;&#233;tant affolante&#160;&#187;  [12] . Le contrat de Google pr&#233;sente une autre particularit&#233;, car si le contrat lui-m&#234;me est r&#233;gi par le droit fran&#231;ais, la loi applicable en cas de litige est celle des &#201;tats-Unis. 
+ Dans les faits, l&#8217;adh&#233;sion en ligne n&#8217;est propos&#233;e qu&#8217;aux petits comptes et des n&#233;gociations sont organis&#233;es avec les soci&#233;t&#233;s dont le nombre d&#8217;utilisateurs est important ou qui, selon les commerciaux de Google, repr&#233;sentent un enjeu strat&#233;gique pour Google. 
+ Microsoft distingue les consommateurs &#224; qui des conditions g&#233;n&#233;rales d&#8217;utilisation (CGU) sont propos&#233;es et les entreprises, y compris les TPE et les PME &#224; qui l&#8217;on offre une licence standard &#224; n&#233;gocier. Mais qu&#8217;un contrat &#233;tatsunien soit propos&#233; sur un march&#233; fran&#231;ais est sans nul doute un autre d&#233;fi. 
+ Le Cloud un r&#233;v&#233;lateur&#160;? 
+   L&#8217;objectif&#160;des ateliers de l&#8217;ADIJ est d&#8217;obtenir des outils juridiques types&#160; [13]  pertinents &#224; proposer &#224; toute personne voulant faire du Cloud. Si certaines questions (comme la confidentialit&#233;) se posaient d&#233;j&#224; dans les contrats d&#8217;externalisation, le Cloud est l&#8217;occasion de simplifier la r&#233;daction de ces contrats qui contiennent souvent&#160; des &#171;&#160; SLA  farfelues&#160;&#187;, des plans d&#8217;assurance qualit&#233; se traduisant par des &#171;&#160;pav&#233;s&#160;&#187; incompr&#233;hensibles aux non-juristes mais o&#249; l&#8217;essentiel est absent, et de plans de s&#233;curit&#233; avec &#171;&#160;des mesures alambiqu&#233;es&#160;&#187; qui ne seront jamais mises en &#339;uvre. 
+ Le pragmatisme est donc de mise.&#160;Il s&#8217;agit de proposer des contrats avec des mesures &#160;r&#233;alistes (le SLA ou service au client, par exemple, ne demandant pas des crit&#232;res nombreux mais des crit&#232;res pertinents). Mais le Cloud, c&#8217;est de l&#8217;informatique &#224; consommer, tout comme on consomme de l&#8217;&#233;lectricit&#233;, avait-on soulign&#233; lors du 1 er  atelier, d&#8217;o&#249; aussi cette offre standardis&#233;e qui &#233;tonne et inqui&#232;te car il s&#8217;agit de donn&#233;es, mais qui pourtant est le mod&#232;le r&#233;ellement adapt&#233; &#224; ce type de prestation. 
+   
+ Les d&#233;fis 
+ Il convient de revisiter les clauses traditionnelles, sachant qu&#8217;il existe d&#8217;autres prestataires que Google et Microsoft, avec des probl&#233;matiques diff&#233;rentes. Il s&#8217;agit aussi d&#8217;articuler Cloud public &#8211; la vocation traditionnelle du Cloud &#8211; avec Cloud priv&#233; &#8211; qui repr&#233;sente un d&#233;fi &#233;conomique en raison des co&#251;ts qu&#8217;il repr&#233;sente, mais aussi contractuel, en terme de souplesse et d&#8217;adaptabilit&#233;. 
+ Il y a ind&#233;niablement encore une absence de maturit&#233; aujourd&#8217;hui sur certaines offres. Si le Cloud est l&#8217;avenir, une offre &#171;&#160;non Cloud&#160;&#187; subsistera. Par ailleurs, si les prestataires (du moins les plus gros) privil&#233;gient du Cloud public, on ne sait pas ce qu&#8217;il adviendra de l&#8217;expectative des entreprises en mati&#232;re de services personnalis&#233;s. Doit-on s&#8217;attendre &#224; des d&#233;veloppements sp&#233;cifiques ou renonceront-elles &#224; toute personnalisation, consid&#233;rant que la gestion de la donn&#233;e informatique par le Cloud est diff&#233;rente d&#8217;un service d&#8217;externalisation plus classique, adapt&#233; &#224; des aspects m&#233;tiers plus strat&#233;giques&#160;? 
+   
+ Si le client est aujourd&#8217;hui &#171;&#160;face &#224; du pas tr&#232;s sec&#160;&#187; car il lui faut donner   une r&#233;ponse rapide, un accompagnement est n&#233;cessaire avec un dialogue plus soutenu encore entre juristes et techniciens au risque, comme le note Aventis, d&#8217;entretenir encore la confusion actuelle entre les aspects techniques et juridiques. S&#8217;il s&#8217;agit d&#8217;apporter un cadre s&#233;curisant au client, en revisitant certaines clauses, en les rendant adaptables et r&#233;versibles, le cadre contractuel n&#8217;est pas encore stabilis&#233; et l&#8217;on tend aujourd&#8217;hui &#224; b&#226;tir des solutions hybrides, donnant une large place  au feed-back. 
+ Transparence et pragmatisme 
+   
+ Voil&#224; deux autres mots-clefs que l&#8217;on retiendra donc pour cette r&#233;volution des techniques contractuelles &#233;voqu&#233;e en introduction. 
+ 
+ Illustr. IBM Cloud Computing. Ivan Walsh.  Licence CC BY NC .  Sur Flickr 
+ Notes 
+ [1]  Un rapport &#8211; tr&#232;s attendu &#8211; sur le Cloud computing serait publi&#233; d&#232;s le 9 novembre par le CNIL, l&#8217;occasion d&#8217;en faire l&#8217;objet du 3 e  atelier du groupe, d&#232;s le 2 d&#233;cembre 2010. 
+ [2]  Selon Google et Microsoft, d&#233;poser ses donn&#233;es dans des &#171;&#160;fermes&#160;&#187; lointaines g&#233;r&#233;es par des gros prestataires serait moins risqu&#233; (et moins co&#251;teux) qu&#8217;un d&#233;p&#244;t assur&#233; sur une plateforme locale par un petit prestataire. 
+ [3]  Le pays h&#244;te d&#8217;un serveur peut-il imposer sa l&#233;gislation&#160;? Est-on pr&#234;t &#224; appliquer le droit chinois&#160;ou &#224; voir ses donn&#233;es inspect&#233;es au nom du  Patriot Act  &#233;tatsunien&#160;? Lorsqu&#8217;il s&#8217;agit de donn&#233;es personnelles, la loi applicable&#160;pour le traitement des donn&#233;es personnelles est d&#233;fini par l&#8217;article 5 de la  loi dite &#171;&#160;Informatique et libert&#233;s&#160;&#187; . Quant au transfert vers des pays non europ&#233;ens, il est encadr&#233; par  le Safe Harbor . Le ma&#238;tre des fichiers sera d&#233;termin&#233; &#160;&#224; partir d&#8217;un faisceau d&#8217;indices. 
+ [4]  A cet &#233;gard, les informations diffus&#233;es par  le  Data Liberation Front   &#160; seront sans nul doute pr&#233;cieuses. 
+ [5]  La r&#233;versibilit&#233;&#160; implique de pouvoir r&#233;cup&#233;rer ses donn&#233;es &#224; tout moment, dans un d&#233;lai raisonnable et de ne pas &#160;payer au-del&#224; du service rendu. 
+ [6]  Ce peut &#234;tre une duplication des serveurs par le prestataire, mais &#233;videmment pas par des copies en interne&#160; par le client, ce qui annihilerait les avantages apport&#233;s par le Cloud&#160; en terme de co&#251;ts. La donn&#233;e en outre, n&#8217;a pas de sens, sans les logiciels qui permettent de les traiter. A cet &#233;gard aussi, les explications doivent &#234;tre claires. 
+ [7]  La Commission europ&#233;enne finance un projet r&#233;pondant au joli nom de V&#233;nus C qui vise &#224; mettre au point des standards pour l&#8217;interop&#233;rabilit&#233; dans le&#160; Cloud. 
+ [8]  La carte de cr&#233;dit avait suscit&#233; les m&#234;mes peurs. 
+ [9]  Les mod&#232;les adopt&#233;s par les ces deux grands prestataires&#160; pour les relations clients sont diff&#233;rentes&#160;:&#160; Google privil&#233;gie&#160; l&#8217;information en ligne, Microsoft a une approche plus personnalis&#233;e. 
+ [10]  C&#8217;est la solution adopt&#233;e pour &#233;viter de n&#233;gocier avec des milliers de clients tr&#232;s vari&#233;s&#160;(selon une logique BtoC, on adh&#232;re &#224; l&#8217;esprit Google) et &#233;viter de b&#226;tir des usine &#224; gaz. Si Microsoft s&#8217;appuie sur un r&#233;seau de revendeurs de&#160; contrats ,il semble que ce soit le cas de Google lorsqu&#8217;il s&#8217;agit d&#8217;offres sp&#233;cifiques. 
+ [11]  En fait, si l&#8217;objet n&#8217;est pas d&#233;termin&#233;, il est d&#233;terminable. 
+ [12]  En 18 mois une centaine de fonctionnalit&#233;s nouvelles ont &#233;t&#233; ajout&#233;es 
+ [13]  Est-il n&#233;cessaire de souligner qu&#8217;un contrat-type&#160; n&#8217;est qu&#8217;une base de n&#233;gociation&#160;? 
+                                         
+                                                                                                        
+                                 
+        </text>
+</document>

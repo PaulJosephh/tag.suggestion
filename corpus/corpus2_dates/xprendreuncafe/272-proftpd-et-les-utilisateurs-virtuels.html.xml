@@ -1,0 +1,77 @@
+<document>
+	<date>2005-09-12</date>
+        <title>ProFTPd et les utilisateurs virtuels</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ftp</tag>
+                <tag>linux</tag>
+                <tag>tutoriel</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Lorsque vous avez beaucoup d'intervenants devant fournir des donnees  [ 1 ]  sur une machine via FTP, il peut-etre contraignant de creer autant d'utilisateurs locaux que de comptes FTP necessaires; il est alors interessant d'utiliser les  utilisateurs virtuels  - ici grace a  ProFTPd . 
+
+
+ D'abord, il vous faut bien evidemment disposer de proftpd: 
+
+
+ $ sudo -s
+Password:
+# apt-get install proftpd proftpd-common 
+
+
+ Nous allons creer les utilisateurs virtuels du serveur FTP via la commande  ftpasswd , dans le fichier  /etc/fptd.passwd , dont la syntaxe est proche de celle du fichier  /etc/passwd : 
+
+
+ # ftpasswd --passwd --name=login --uid=user_id --gid=group_id --home=ftp_root_path --shell=/bin/false 
+
+
+ Ce qui nous donne par exemple pour l'utilisateur  redacteur  du site  monsite , deposant des fichiers accessibles en ecriture par le serveur web (apache, par exemple): 
+
+
+ # cd /etc
+# ftpasswd --passwd --name=redacteur --uid=80 --gid=80 --home=/home/sites/monsite --shell=/bin/false 
+
+
+ Vous noterez que l'utilisateur se voit interdire l'utilisation du  shell ; il nous faut donc editer notre fichier  /etc/shells : 
+
+
+ # vi /etc/shells 
+
+
+ ... et y ajouter l'entree suivante - si elle n'est pas deja presente - a la fin du fichier: 
+
+
+ /bin/false 
+
+
+ Il nous faut maintenant specifier au demon proftpd que l'on desire utiliser les  utilisateurs virtuels  precedemment definis; pour cela, il nous faut editer le fichier  /ect/proftpd.conf : 
+
+
+ # vi /etc/proftpd.conf 
+
+
+ ... et y ajouter la directive suivante: 
+
+
+ AuthUserFile    /etc/ftpd.passwd  [ 2 ] 
+
+
+ On redemarre le service pour prendre en compte les changements: 
+
+
+ # /etc/init.d/proftpd restart 
+
+
+ Pour aller plus loin 
+
+
+ On peut egalement gerer le meme type d'acces pour les groupes d'utilisateurs, au moyen de la directive  AuthGroupFile  de ProFTPd. On peut de meme passer par  MySQL  pour stocker en base les acces et les administrer encore plus simplement via  phpMyAdmin  par exemple, ou mieux,  MyFTP Admin  (tutoriel  ici ). 
+ Notes 
+ [ 1 ] Comprendre  uploader des fichiers 
+ [ 2 ] On peut meme court-circuiter completement les utilisateurs locaux de la machine en faisant preceder la directive de la declaration  AuthOrder mod_auth_file.c 
+ 
+        </text>
+</document>

@@ -1,0 +1,50 @@
+<document>
+	<date>2013-04-06</date>
+        <title>Razer Naga Hex, notre test de la souris MOBA ultime&#8230; enfin presque</title>
+        <author>Quantic</author>
+        <tags_set>
+                <tag>razer naga hex</tag>
+                <tag>souris gamer</tag>
+                <tag>test</tag>
+                <tag>moba</tag>
+        </tags_set>
+        <categories_set>
+                <category>Gaming</category>
+                <category>Geek</category>
+                <category>PC</category>
+                <category>P&#233;riph&#233;riques</category>
+                <category>Test</category>
+        </categories_set>
+        <text>
+ 
+ 
+ 
+ Comme  Aelya  se trainait encore une pauvre souris gamer de base, j&#8217;ai fait des folies et lui ait ramen&#233; la  Razer Naga Hex  pour No&#235;l. Nous nous sommes donn&#233;s quelques mois pour la tester et voici notre verdict. 
+ Cette souris au look tr&#232;s futuriste est d&#233;cor&#233;e d&#8217;une belle robe verte avec des reflets assez r&#233;ussis susceptible de plaire &#224; madame Coupleofpixels. Mais surtout techniquement cette souris est &#224; la pointe avec  son capteur 3,5 G qui monte &#224; une sensibilit&#233; de 5600 ppp . 
+ Mais sa grande particularit&#233; est de s&#8217;adresser en priorit&#233; aux joueurs de MOBA ou plus g&#233;n&#233;ralement de RPG/Action en proposant  6 boutons sur le pouce totalement configurables . De m&#234;me, au contraire des souris orient&#233;es FPS qui proposent des boutons de changement de sensibilit&#233;, cette souris pr&#233;f&#232;re configurer les classiques boutons de sensis &#224; d&#8217;autres t&#226;ches. Il faut dire qu&#8217;il n&#8217;est pas tr&#232;s utile de changer de sensis &#224; la vol&#233;e dans un RPG ou un MOBA. 
+ 
+ Bref, sur le papier, cette souris s'annonce excellente. A l&#8217;utilisation,  elle s'av&#232;re assez bonne  avec un driver simple &#224; utiliser et la possibilit&#233; d&#8217;associer des configs &#224; diff&#233;rents jeux. Quant aux fameux boutons MOBA, il faut plusieurs heures de prise en main avant de commencer &#224; les utiliser de mani&#232;re efficace. De m&#234;me, leur utilisation s&#8217;av&#232;re finalement  limit&#233; &#224; seulement 2-3 boutons.   
+ On peut tout &#224; fait utiliser les 6 boutons mais le temps pass&#233; &#224; bouger son pouce est finalement plus long que celui pass&#233; &#224; bouger sa main sur son clavier.  L&#8217;utilisation combin&#233;e des deux p&#233;riph&#233;riques se r&#233;v&#232;le donc le plus efficace. 
+ On remarquera par contre  une f&#226;cheuse tendance de la souris &#224; d&#233;crocher  (le curseur fait des bonds ou refuse de bouger correctement).  
+ Dans ces cas-l&#224;, apr&#232;s avoir perdu 10 unit&#233;s dans Starcraft ou s'&#234;tre fait tuer dans votre MOBA pr&#233;f&#233;r&#233; et avoir r&#226;ler comme un putois,  la solution consiste &#224; nettoyer la souris de fond en comble ainsi que votre tapis de souris  (un jet d'air de cannette sous pression fonctionne assez bien). Si cela n'est pas suffisant, on peut toujours tripoter au driver, histoire que la souris retrouve ses marques.  C'est un peu &#233;nervant pour une souris de ce prix et destin&#233;e aux gamers... 
+ Razer et son support toujours aussi lamentable. 
+ En plus de ce d&#233;faut de d&#233;crochage, Razer est encore une fois &#224; la hauteur de sa  mis&#233;rable r&#233;putation en mati&#232;re de finition de ses drivers/firmwares . En effet, il nous a fallu pr&#232;s de 2 heures de recherche avant de parvenir &#224; la faire fonctionner correctement. 
+ 
+ Petit retour en arri&#232;re. Il y a 5-6 ans,  Aelya  (d&#233;j&#224; elle^^) avait flash&#233; sur une souris Razer que nous n&#8217;avons jamais r&#233;ussi &#224; faire fonctionner puisque nous tournions sur un Vista flambant neuf et que les drivers ont mis des mois &#224; sortir. 
+ A l&#8217;&#233;poque, je me souviens m&#8217;&#234;tre dit : &#171;Razer, plus jamais&#187; mais avec le temps et la r&#233;putation grandissante de la marque, je me suis laiss&#233; tenter pour d&#233;couvrir quasiment les m&#234;mes probl&#232;mes de compatibilit&#233; qu'&#224; l'&#233;poque. 
+ En effet, une fois, le driver install&#233;, la souris n&#8217;&#233;tait pas reconnue et affichait un accueillant message : " Veuillez connecter un p&#233;riph&#233;rique compatible ". Je ne m&#8217;inqui&#232;te pas trop, persuad&#233; qu&#8217;il doit s&#8217;agir d&#8217;une mise &#224; jour du driver qui manque ou quelque chose de ce genre. 
+ 
+ Probl&#232;me, le site de Razer parle en effet dans sa FAQ d&#8217;un souci de ce genre en indiquant simplement de v&#233;rifier que c&#8217;est bien le driver Razer qui est activ&#233; et pas celui de Microsoft. Et point&#8230; Quoi ? C&#8217;est tout ? D&#233;j&#224;, bonne chance aux gamers qui n&#8217;ont pas l&#8217;habitude de triturer leurs drivers mais surtout, comme on pouvait s&#8217;y attendre, cette solution de Razer ne fonctionne absolument pas. 
+ Pour ceux qui seraient dans notre cas, la solution est tr&#232;s simple  : Mettre &#224; jour le firmware de la souris qui, en sortie de boite est en version 1.1 et qui doit &#234;tre migr&#233;e vers la version 2.0 pour &#234;tre enfin reconnue par les drivers Razer. Pour cela, t&#233;l&#233;chargez  le fichier suivant  et ex&#233;cutez l'update avec votre Razer connect&#233;e.  Au besoin, d&#233;branchez et re-branchez l&#224; sur le m&#234;me port USB si rien ne se passe. Normalement, le firmware sera mis &#224; jour et votre souris fonctionnera parfaitement. 
+ N&#233;anmoins,  c&#8217;est un vrai scandale que Razer mette en vente une souris dont le firmware en sortie de bo&#238;te est incompatible avec leur driver   et surtout qu&#8217;aucune explication ne soit disponible sur leur site web. 
+ 
+ Conclusion 
+ Si on passe le fait que, comme toujours, le support Razer est lamentable et que la souris est inutilisable en sortie de bo&#238;te sans mise &#224; jour lourdingue et mal document&#233;e, mais aussi ses soucis de d&#233;crochage qui peuvent se r&#233;gler par un simple nettoyage,  la Razer Naga Hex  reste une souris sympathique. 
+ Son design est sympa et on la prend tr&#232;s bien en main. Quant aux fameux boutons MOBA, ils apportent un plus avec un peu d'entrainement et &#224; condition de se limiter &#224; quelques boutons. 
+ Cette souris reste un achat satisfaisant pour tous les gamers m&#234;me ceux qui ne sont pas trop orient&#233;s MOBA ou RPG/Action, &#224; condition d'&#234;tre suffisamment d&#233;brouillard pour l'installer sans crise de nerfs et pour rester calme si elle d&#233;cide de d&#233;crocher en pleine partie. 
+ 
+ 
+ 
+ 
+        </text>
+</document>

@@ -1,0 +1,108 @@
+<document>
+	<date>2012-12-16</date>
+        <title>Node : un systme modulaire, une centrale de capteurs de poche</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>capteur</tag>
+                <tag>node</tag>
+                <tag>systeme modulaire</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+  
+ Le resume de ce couteau suisse est une plateforme de capteur 
+ Lelement principal est le le Node Kore autour du quel tourne un ensemble de capteurs. 
+ 
+ 
+ il y a la centrale le Kore ; Le Chroma ; le Therma ; le Clima ; le Luma ; Le Oxa 
+ 1 Le Kore 
+ 
+ Cest un dispositif modulaire, qui communique avec les smartphones via le Bluetooth 4.0. Le Bluetooth necessite moins denergie que le Wifi et peut envoyer des informations directement sur votre appareil compatible Bluetooth. Avec le Bluetooth 4.0, Node peut communiquer avec les telephones (iPhone a partir du 4S et certains smartphone Android) jusqua 50 metres avec encore moins denergie que le Bluetooth classique. Avec plusieurs Node en reseau dans votre maison ou votre bureau, vous pouvez controler les differents appareils de par votre situation geographique. 
+ Il faut compter pour le module de base 149 $ 
+ Voici les bases de chaque nud: 
+ compatible Arduino 
+Lithium Polymer batterie (650 mAh) 
+12-14 heures avec la batterie en usage continu Bluetooth 
+2 Mo de memoire 
+Accelerometre 
+axes magnetometre 
+axes gyroscope 
+buzzer audio 
+Bluetooth 2.1 ou Bluetooth Low Energy 
+2 ports pour connecter les modules 
+2 LED dimmable bleues 
+micro-USB pour la recharge et la programmation du firmware 
+ NODE est equipe de trois capteurs standard (gyroscope, accelerometre et magnetometre), mais peut executer deux unites de capteurs supplementaires, ou modules, lorsquils sont fixes a chaque extremite. Etant donne que ces modules sont interchangeables, vous pouvez personnaliser lappareil en fonction de quelque situation que vous rencontrez. 
+ Open API, Open Firmware et le code est Open Source 
+ NODE est verouille au niveau materiel, mais le firmware et lAPI sont ouvert et compatible avec la plate-forme Arduino. Le code source du Node sera mis a disposition. 
+  
+ Les 2 premiers modules interchangeables disponibles sont : 
+ 2 Clima 
+  
+ 
+ Clima vous permet de mesurer le climat autour de vous. Il analyse la pression barometrique, la vitesse du vent, la temperature et lhumidite, Node vous permet de trouver votre altitude lors dune randonnee en montagne, peut analyser votre taux dhumidite dans votre cave par exemple. 
+ il faudra compter dans les 50 $ pour ce capteur 
+ 3 Luma 
+  
+ 
+cest aussi une lampe de poche, qui utilise 8 LED pour eclairer lespace autour de vous. Avec lapplication Node, vous pouvez selectionner le nombre de voyants que vous voulez activer ou desactiver et meme assigner un motif que vous pouvez faire clignoter. Vous pouvez utiliser Node comme une simple lampe de poche compacte en voiture ou lors dune panne delectricite. Allumez Luma partir de votre smartphone plutot que de rechercher une autre lampe de poche. 
+ Il faudra compter dans les 25 $ pour ce capteur 
+ 4 Therma 
+  
+ 
+  
+ Module interchangeable 
+ Comment trouvez-vous la temperature des elements que vous ne pouvez pas atteindre ou toucher?Avec le module de Therma, fournit le parfait outil-solution a la mesure de temperature a distance.Utilisez Node + Therma pour inspecter votre maison pour connaitre le taux disolation, connaitre la temperature de votre boisson ; la temperature de votre bain par exemple.Il sagit de la premiere dune serie de capteurs infrarouges en preparation. 
+ il faudra compter dans les 75 $ pour ce capteur 
+ 5 Oxa 
+  
+ 
+ Vous vous demandez comment est lair que vous respirez? Les capteurs Oxa pourront vous aider a comprendre votre environnement quotidien. 
+ Oxa est un capteur qui analyse Le CO et le monoxyde de carbone present dans lairambiantpouvant se degager de certains materiaux. 
+ Dautres modules pouvant analyser dautre gaz seront disponibles sur demande: 
+ NO, NO2, Cl2, SO2, H2S 
+ Il faudra compter dans les 149 $ pour ce capteur. 
+  
+ 6 Chroma 
+     
+  
+ Ce module peut controler la qualite et de la conception de la peinture, de la couleur ainsi que la couleur ideale.Chroma utilise un embout special avec des LED a lumiere blanche pour calculer sRGB vrai, CMJN, CIE L * a * b *, et les valeurs Hex, quelle que soit la lumiere ambiante. 
+ il faudra compter dans les 75 $ pour ce capteur 
+  
+ En resume et en video 
+ Vous allez bientot pouvoir prendre votre temperature a deux metres de distance de votre corps, analyser la permeabilite de votre maison ou encore determiner lhumidite de votre sous-sol, le tout avec un seul et meme gadget:le Node. 
+ Invente par Georges Yu et fonctionnant en compagnie dun iPhone, ce petit couteau suisse de capteurs enregistre le monde qui lentoure et transmet toutes les donnees versle telephone via Bluetooth: temperature, lumiere, humidite, vitesse, altitude, 
+ En fevrier dernier, Georges Yu a depose un prototype du Node surKickstarter,recueillantpres de 76 500  en a peine un mois. Il a ensuiterassemble 300 000 $ de fonds dinvestisseurs prives et a commence a creer le veritable produit Node au mois de septembre 2012. Il pense tout dabord commercialiser son produit dans le secteur de la sante et des technologies. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

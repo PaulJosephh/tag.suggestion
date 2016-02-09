@@ -1,0 +1,39 @@
+<document>
+	<date>2013-07-02</date>
+        <title>SynoZwave : La domotique sur le NAS Synology</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>SynoZwave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+                <category>Synology</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+ Z-Wave 
+ 
+Z-Wave est un protocole radio concu pour la domotique utilisant une technologie radio de faible puissance optimise pour des echanges a faible bande passante (9 et 40 kbps) et des appareils sur pile ou alimentes electriquement.
+La portee est denviron 50 m (davantage en exterieur, moins en interieur). Ce protocole utilise la technologie du maillage pour augmenter la portee au dela des 50 m et la fiabilite. Chaque module alimente Z-Wave fonctionne ainsi comme un repeteur sans fil avec les autres modules afin dassurer une couverture totale de lhabitation. Ce protocole implemente egalement la fonction daccuse reception. Ainsi, si un emetteur ne recoit pas daccuse reception, il fera jusque 3 nouvelles tentatives avant dabandonner et dinformer le logiciel dun defaut de communication avec le module concerne.
+ SynoZwave 
+ 
+ SynoZwave Zibase de Zodianet 
+SynoZwave est actuellement en phase beta de son developpement. Cest un logiciel gratuit, mais pas open-source, developpe principalement par Mickael (Bilil). Rien ne dit quil ne deviendra pas payant un jour ( Interview du createur de SynoZwave 
+Actuellement, la solution sappuie sur le projet  Open Z-Wave Aeon Labs Z-Wave USB Z-Stick S2 Installation de SynoZwave Installation des paquets 
+ Se connecter au NAS Synology et ouvrir le  Centre de paquets Selectionner le  Canal beta Mise a jour de canal Parametres  Dans longlet  Sources de paquet Parametres 
+ Nom: SynoZwave Emplacement: http://repo.synozwave.com/ 
+ Une fois le depot correctement configure, il faut installer les deux paquets suivants dans longlet  Communaute 
+ SynoZwave SynoZwave Interface Web 
+ Redemarrer le NAS Synology Execution de SynoZwave 
+ Creer sur le Synology le repertoire public  /volume1/public/backup Ouvrir  Panneau de configuration  services web  onglet Parametres PHP Cocher  Personnaliser PHP open_basedir Ajouter a la fin de la ligne  open_basedir :/var/packages/synozwave/target/usr:/volume1/public/backup 
+ Cliquer sur appliquer pour sauvegarder les modifications Branchez le Stick  Aeon Labs Z-Wave USB Z-Stick S2 Se connecter au NAS Synology et ouvrir le  Centre de paquets 
+ SynoZwave SynoZwave Interface Web Redemarrer le NAS Synology (SynoZwave aime bien ca) Adresse pour se connecter sur linterface de configuration de SynoZwave:
+ http://IP_DU_NAS/SynoZwaveConfig Adresse pour se  connecter sur linterface domotique de SynoZwave http://IP_DU_NAS/SynoZwaveWeb 
+ 
+ Z-Wave open-zwave Les avantages du Z-Wave SynoZwave Interview du createur de SynoZwave SynoZwave : Votre Domotique sur un Synology 
+ Sommaire Domotique 
+        </text>
+</document>

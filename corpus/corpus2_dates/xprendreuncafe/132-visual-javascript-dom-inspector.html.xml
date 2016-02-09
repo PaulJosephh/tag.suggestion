@@ -1,0 +1,24 @@
+<document>
+	<date>2005-06-10</date>
+        <title>Visual Javascript DOM Inspector</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>firefox</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>[Via  liens et boterhammen ] 
+
+
+ Petit script tres tres utile et bien foutu , ce  bookmarklet  permet, une fois active dans votre navigateur, d'afficher lors d'un rollover sur les differents elements de l'arbre DOM du document en cours de consultation des informations bien utiles aux developpeurs web et autres curieux. 
+
+
+ Pour l'installer, glisser-deposer simplement le lien ci-dessous sur votre Barre Personnelle, et cliquez dessus pour declencher l'audit de la page que vous etes en train de lire  
+
+ DOM Inspector 
+ 
+        </text>
+</document>

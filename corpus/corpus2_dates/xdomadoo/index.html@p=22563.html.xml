@@ -1,0 +1,15 @@
+<document>
+	<date>2012-06-07</date>
+        <title>Un driver KIRA pour Control4</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          On ne presente plus les developpeurs Anglais de  Extra Vegetables domotique Control4 IP IR   Les modulesKIRA, du fabricant Anglais  KeeneElectronics IR IP IR IR Control4  Les modules KIRA sont petits et tres abordables en terme de prix. Les modeles suivant sont compatibles avec ce driver : KIRAM  Le module dentree de gamme (89,90). Il dispose dune entree et dune sortie  IR KIRARS232  Il dispose dune sortie  IR IR  Voici le tutoriel video de la programmation : 
+   Le KIRA associe au driver est capable de recevoir et de reconnaitre les commandes IR . Il suffit de pointer la telecommande vers le KIRA et on peut controler lensemble du systeme  Control4 .  Retrouvez les modules KIRA sur la boutique Domadoo.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

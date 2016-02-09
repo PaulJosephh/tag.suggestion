@@ -1,0 +1,22 @@
+<document>
+	<date>2014-07-25</date>
+        <title>Comment grer ses priphriques RFY (Somfy RTS) sur la box domotique eedomus ?</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>box domotique</tag>
+                <tag>connected object</tag>
+                <tag>domotique</tag>
+                <tag>eedomus</tag>
+                <tag>RFXCOM</tag>
+                <tag>rfxtrx433e</tag>
+                <tag>rts</tag>
+                <tag>somfy</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Domotiques</category>
+        </categories_set>
+        <text>
+                                                         Grace a la nouvelle interfaceRFXtrx433E (14103), vous pouvez desormais controler vos peripheriques RFY ( Somfy domotique eedomus Somfy eedomus Z-Wave Connectezvotre RFXtrx433Esur le port  USB domotique eedomus USB Rendez-vous sur linterface de votre  eedomus Cliquez ensuite sur Ajouter ou supprimer un peripherique. Cliquez sur loption Ajouter un autre type de peripherique. Dans la rubrique Extensions radio, cliquez sur  RFXCOM USB Loption Creer apparait. Cliquez sur celle-ci. Vous pouvez desormais configurer votre peripherique RFY ( Somfy Indiquez le nom, la piece et laffichage personnalise pour votre peripherique. Dans Usage, selectionnez loption Actionneur RFY. Dans Protocole, choisissez RFY. Enfin, dans Adresse de lactionneur, indiquez uncode unique et non utilise devotre choix au format : XXXXXX:NN (XXXXXX est compris entre 000001 et FFFFFF et NN entre 01 et 04). Cliquez sur Sauver pour valider vos reglages. Debranchez tous vos peripheriques RFY sauf celui que vous voulez appairer puis appuyez sur le bouton dappairage de votre telecommande de ceperipherique pendant 2 a 3 secondes jusqua que celui-ci reponde (par exemple : descente et montee rapide du volet roulant  Somfy Lorsque votre peripherique a repondu, cela signifie quil est en mode appairage. Accedez a la piece dans laquelle se situe votre peripherique. Celui-ci affiche plusieurs options : Fermer, Ouvrir, Stop et Program. Cliquez sur Program. Lorsque lordre a ete envoye, votre peripherique va une nouvelle fois transmettre une reponse (par exemple : descente et montee rapide du volet roulant  Somfy Felicitations, vous pouvez desormais gerer votre peripherique RFY ( Somfy eedomus Z-Wave Somfy  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

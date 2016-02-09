@@ -1,0 +1,16 @@
+<document>
+	<date>2007-10-25</date>
+        <title>LaTeX : Comment changer le titre de la bibliographie ?</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>LaTeX</category>
+        </categories_set>
+        <text>
+                                                Suivant la classe de document que lon utilise (article, book, report, ), il faut redefinir lune des deux commandes suivantes :
+
+
+ \ renewcommand { bibname }{ } \ renewcommand } begin{document} french babel 
+        </text>
+</document>

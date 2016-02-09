@@ -1,0 +1,24 @@
+<document>
+	<date>2014-06-26</date>
+        <title>EEDOMUS: Support du RFXtrx433E, des priphriques BLYSS et du protocole X10</title>
+        <author> Maximin </author>
+        <tags_set>
+                <tag>blyss</tag>
+                <tag>box domotique</tag>
+                <tag>connected object</tag>
+                <tag>eedomus</tag>
+                <tag>RFXCOM</tag>
+                <tag>rfxtrx433e</tag>
+                <tag>rts</tag>
+                <tag>somfy</tag>
+                <tag>X10</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>News</category>
+        </categories_set>
+        <text>
+                                                         Apres les nombreuses mises a jour dAvril et de Mai, lequipe  Connected Object nouvelle interface RFXCOM RFXtrx433E X10 Les nouveautes: Support du nouveauRFXtrx433EcompatibleRFY(Reference:  14103 Support experimental des peripheriques Blyss avec tous lesRFXtrx Il na pas fallu longtemps pourque la nouvelle interface RFXtrx433E soit compatible avec la  eedomus eedomus Somfy ZiBASE HomeWizard Somfy Le support, experimental pour linstant, des peripherique Blyss de Castoramapermet delargir le panel de modules compatibles avec la  eedomus Les ameliorations: La sirene du Smoke Detector (KD101) Support experimental du protocole  X10 Les RFXtrx aegalement permis louverture de la  eedomus X10 Z-Wave SSA3 Fortrezz Une modification dun capteur ou actionneur  HTTP API Les cookies peuvent etre geres par la fonction httpQuery() des scripts eedomus Le contenu des mails de notifications des regles peut desormais atteindre les 500 caracteres. Le parametre dynamic_value set periph.macro de lAPI Les corrections: La surveillance intrusion netait pas toujours correctement desactivee si un critere de desactivation etait defini. Les historiques importants de donnees ne devraient plus poser de probleme au telechargement Encore une belle mise a jour avec des nouveautes plutot interessantes. Bravo a toute lequipe de  Connected Object  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

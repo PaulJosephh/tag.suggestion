@@ -1,0 +1,24 @@
+<document>
+	<date>2007-10-30</date>
+        <title>Sauvegardes avec rsync</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+        </categories_set>
+        <text>
+                                                 
+ rsync source destination 
+rsync -a source destination source destination source destination -a (--archive) -rlptgoD 
+ 
+ -r (--recursive) 
+ -l (--links) 
+ -o (--owner) 
+ -g (--group) 
+ -D (--devices) 
+ -t (--times) /home/toto/source /media/destination /home/toto/source/tmp  :
+ 
+rsync -a --exclude=/source/tmp/ /home/toto/source /media/destination --exclude=chemin tmp/ tmp 
+        </text>
+</document>

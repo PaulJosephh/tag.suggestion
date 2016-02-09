@@ -1,0 +1,32 @@
+<document>
+	<date>2013-11-23</date>
+        <title>IPX800 v3 : le serveur de domotique cble</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>IPX800</tag>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+ Presentation 
+L IPX800 Vera Lite IPX800 Z-Wave IPX800 Specifications 
+ 
+ 8 entrees digitales tout ou rien (contact sec) extensible a 32 4 entrees analogiques 8 sorties relais sur contact inverseur 250v/10A extensible a 32 3 Compteurs dimpulsions Programmateur sur 1 semaine integre Alertes emails avec messages personnalisables par evenement Envoi des donnees vers lurl de son choix (Notification Push) Ping watchdog Memorisation de letat des relais en cas de coupure secteur Boitier rail din (9 modules) pour installation dans un tableau electrique Alimentation 12V continu Demarrage, parametrage et mise a jour 
+Pour demarrer l IPX800 DC Input 
+Premier parametrage et mise a jour:
+ 
+ Rechercher ladresse IP de l IPX800 Verifier si le micrologiciel de l IPX800 proceder a une mise a jour Pour configurer lIP statique et securiser le controleur, se rendre dans  LAN SETTINGS 
+   Decocher  Enable DHCP Cocher  Enable password Username Username Cliquer sur  Save Ping WatchDog 
+L IPX800 ping Ping WatchDog Ping WatchDog M2MPING 
+Par defaut, la sortie associee au  Ping WatchDog Ping WatchDog Ping WatchDog Redemarrer (reboot) 
+Il est parfois utile de redemarrer l IPX800 Lan settings Save Reboot Mon avis 
+De la mise en uvre a linterface en passant par la procedure de mise a jour, il faut bien reconnaitre que tout est spartiate avec l IPX800 procedure de mise a jour du micrologiciel Liens et informations 
+ 
+ myIPX800.com GCE Electronics  Support Forum Un ecrin dore pour mon IPX800 : Tableau electrique secondaire 
+Sur ce blog :  IPX800 v3 : Procedure de mise a jour mode demploi IPX800 V3 Sommaire Domotique 
+        </text>
+</document>

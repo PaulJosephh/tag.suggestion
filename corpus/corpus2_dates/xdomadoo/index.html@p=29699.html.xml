@@ -1,0 +1,22 @@
+<document>
+	<date>2014-01-15</date>
+        <title>Guide dinstallation du dtecteur deau Everspring ST812 avec la Zipabox</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>detecteur</tag>
+                <tag>everspring</tag>
+                <tag>inondation</tag>
+                <tag>st812</tag>
+                <tag>z-wave</tag>
+                <tag>zipabox</tag>
+                <tag>zipato</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Zipabox</category>
+                <category>Zipabox Produits</category>
+        </categories_set>
+        <text>
+                                                         La  Zipabox Z-Wave Z-Wave Everspring Z-Wave Zipabox 1- Installation : Zipabox https://my.zipato.com/ Si votre module a deja ete inclus dans un autre reseau  Z-Wave Lorsque vous avez clique sur le bouton Ajouter des modules, une fenetre souvre et celle-ci vous permet de selectionner le protocole correspondant a votre module (dans notre cas, il sagit du protocole  Z-Wave Everspring Une nouvelle fenetre nommee Assistant dajout de peripherique apparait avec un compte a rebours durant lequel vous devez appuyer brievement 3 fois sur le bouton dapprentissage(le bouton dinclusion de votre module  Z-Wave Ce bouton dapprentissage est situe au dos de votre module. Une fois que votre module est detecte par votre  Zipabox Apres avoir correctement associe votre module, celui-ci apparait dans la categorie Capteurs  avec le nom par defaut: Water Leak Sensor . 2- Configuration Pour configurer vos parametres generaux (nom de la piece, type de module, nom du module) cliquez sur le bouton  Vous pouvez egalement configurer vos parametres generaux dans la categorie General en cliquant sur Modules Totaux. Puis cliquez sur Water leak sensor disponible dans le dossier  Everspring Apres avoir realise vos modifications, cliquez sur le bouton Sauvegarder. Dans la categorie Capteurs de votre interface, vous allez pouvoir visualiser si il y a une fuite (Leak detected/Fuite detectee et bouton rouge) ou non (No leak/Pas de fuite et bouton vert). Si vous desirez modifier les parametres avances de ce module, cliquez sur  Modules totaux  dans la categorie  General . La fenetre Gerer vos modules apparait. Selectionnez le dossier de votre module( Everspring Cliquez ensuite sur longlet Configuration: Vous allez pouvoir definir dansWake Up Interval(min), lintervalle de reveil de ce module. Celui-ci se reveillera periodiquement en notifiant le controleur (etat batterie) et permettra ainsi daugmenter la longevite des piles mais en contre partie, les requetes vers ce module seront emises lors de son reveil. Dans Custom Configuration, vous pouvez ajouter des configurations supplementaires (disponibles dans votre notice de ce module). 3- Exemple de  scenario Lorsque mon detecteur deau detecte une fuite, le module declairage de mon salon se met en ON, allume ma lampe et je recois egalement un email dinformation. Vous devez en premier lieu vous rendre dans le centre de controle de votre  Zipabox Vous etes desormais dans linterface Createur de regles dans laquelle vous pouvez creer les scenarios que vous souhaitez grace a : http Nous allons donc realiser le scenario suivant:Quand le detecteur deau detecte une fuite, un message dinformation est envoye par email et le module de mon eclairage se met sur ON. Nous avons donc besoin de:  4 pieces de Puzzle (1 controle, 2 actions et 1 capteur)  2 Modules (1 capteur dinondation et 1 actionneur du module de la lampe) Il suffit simplement dassembler ces elements pour creer notre scenario. Pour cela, selectionnez chaque partie et deplacez-les dans les cases attribuees (sans oublier dindiquer le statut du detecteur deau Leak, votre adresse email dans laction envoi message et letat de votre module ON). Cliquez sur le bouton Sauvegarder pour valider votre scenario. Voici notre scenario: Comme vous pouvez constater, pas besoin detre un professionnel de la programmation informatique pour realiser un scenario. Ce detecteur deau peut bien evidemment servir pour dautres applications comme par exemple, activer une sirene lors dune detection de fuite deau.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

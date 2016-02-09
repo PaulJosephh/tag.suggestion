@@ -1,0 +1,31 @@
+<document>
+	<date>2008-06-08</date>
+        <title>Un plugin jQuery pour gnrer des plans automatiquement</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>javascript</tag>
+                <tag>jquery</tag>
+                <tag>plugins</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Avec un temps pareil, autant coder des plugins  jQuery , non? 
+
+
+ Quelques heures de boulot plus tard,  jqplanize [ 1 ]  est ne et permet de generer automatiquement une table des matieres extraite de la hierarchie induite de la sequence des titres dun document HTML [ 2 ] . 
+
+
+ La doc est sur  la page daccueil du projet  (hebergee chez Google), ou plus exhaustivement sur cette  page dediee  du present site, avec quelques exemples live. 
+
+
+ Le code semble fonctionner sous Firefox 3 RC2 et Safari 3.1, mais ca ne marche curieusement pas sous Opera 9, et jai pas teste sous  IE  donc attendez vous a des updates [ 3 ] . 
+
+
+ Vivement lete. 
+ Notes 
+ [ 1 ] Non mais vous avez deja vu un nom aussi naze? 
+ [ 2 ] Si tant est que le balisage des titres soit semantique, hein. 
+ [ 3 ] Ou pas, bien entendu. 
+        </text>
+</document>

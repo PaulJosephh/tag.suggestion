@@ -1,0 +1,14 @@
+<document>
+	<date>2012-07-25</date>
+        <title>Guide dinstallation du dtecteur Z-Wave EZMotion avec la ZiBASE</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>ZiBASE Produits</category>
+        </categories_set>
+        <text>
+                                                          Le detecteur EZMotion fonctionne avec la technologie  Z-Wave   ZiBASE  Detecteur de mouvement LEZMotion est avant tout un detecteur de mouvement. Il faut donc le creer en allant dans longlet  Domotique   Donnez un nom au detecteur, et dans la liste proposee selectionnez Detecteurs.   Choisissez  Z-Wave   Choisissez Presence pour le logo de lapplication.   Cliquez sur ASSOC pour inclure le detecteur, puis quand les LEDs de la  ZiBASE ZiBASE   Capteur de luminosite Cliquez sur longlet Scenario.  Cliquez sur Action, puis Lire une instance de sonde dans Fonctions ZWAVE.   Selectionnez votre EZMotion dans la liste puis mettez 2 comme numero dinstance.   Lancez le scenario en cliquant sur Tester le scenario. A son execution, un message comme ci-dessous va safficher avec un numero dID specifique.   Vous pouvez maintenant creer un nouveau scenario qui vous donnera la valeur de la luminosite. La luminosite est stockee dans la variable I8, cest en la recuperant que vous pourrez vous en servir. Il faut donc affecter une chaine de caracteres a une variable. Il faut aussi reutiliser lID qui a ete cree jute avanten cochant Liste dIDs de declenchement.   Entrez la variable V2 et ensuite cliquez sur Modifier.   Entrez par exemple Luminosite :, puis entrez la variable I8 (%25 = caractere special %).    Vous pouvez enfin creer une derniere action qui vous enverra le contenu de la variable V2 par email.   Sonde de temperature De la meme facon que pour le capteur de luminosite, la temperature peut etre lue sur le canal/instance N3 de lEZMotion. La temperature est alors disponible dans les variables  de sondes I8 et I9 (poids fort/faible) qui doivent etre re-assembles en  une valeur unique sur 16 bits par la 1ere action ci dessous. Cette  valeur resultante est en dixiemes de Fahrenheitpour lEZMotion.   A titre dexemple, cette valeur peut etre envoyee dans une sonde virtuelle avec conversion en dixiemes de degre (formule de conversion de C vers Fahrenheit : C = 0,555* (F  32) ). Cette sonde pourra etre representee sur PCPAD/iPhone/iPad/Android comme une sonde THx128 ordinaire.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

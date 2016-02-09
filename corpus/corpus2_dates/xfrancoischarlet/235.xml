@@ -1,0 +1,38 @@
+<document>
+	<date>2014-10-13</date>
+        <title>iOS 8 : les claviers alternatifs peuvent enregistrer vos mots de passe</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Apple</tag>
+                <tag>Protection des donn&#233;es</tag>
+        </tags_set>
+        <categories_set>
+                <category>Technologies</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Apple a annonc&#233; cet &#233;t&#233; une nouveaut&#233; "majeure" pour l'actuelle version syst&#232;me d'exploitation mobile, iOS 8&#160;: la possibilit&#233; d'utiliser des claviers alternatifs. Ces claviers se vantent d'&#234;tre plus rapides, personnalisables, pr&#233;dictifs quant aux mots que vous allez taper, etc. Mais pour apprendre et pr&#233;dire, ces claviers ont besoin de communiquer via Internet. Que se passe-t-il si vous utilisez de tels claviers pour taper vos mots de passe ou num&#233;ros de carte de cr&#233;dit avec le num&#233;ro de s&#233;curit&#233; ? 
+ Installation d'un clavier alternatif 
+ Android propose cette fonctionnalit&#233; depuis longtemps mais Apple a d&#233;cid&#233; d'utiliser une structure d'autorisation diff&#233;rente pour ces claviers alternatifs. Une fois t&#233;l&#233;charg&#233; depuis l'App Store, le clavier alternatif devra &#234;tre install&#233; (cela se passe dans les r&#233;glages d'iOS). 
+ Une fois ajout&#233;, une fl&#232;che indique qu'un r&#233;glage est possible pour ce clavier&#160;:  autoriser l'acc&#232;s complet . 
+ En quoi consiste cet "acc&#232;s complet" ? 
+ L'activation de l'acc&#232;s complet n'est pas n&#233;cessaire pour utiliser le clavier , mais ce dernier sera moins fonctionnel ou utile sans cet acc&#232;s complet. En effet, Apple impose aux d&#233;veloppeurs de fournir au moins un acc&#232;s minimal au clavier sans que l'acc&#232;s complet soit autoris&#233;. 
+ Apple met d'ailleurs en garde au sujet des risques que posent ces claviers alternatifs pour les utilisateurs mais aussi pour les d&#233;veloppeurs. Ces derniers se voient notamment attribuer des responsabilit&#233;s suppl&#233;mentaires au sujet de la confiance que les utilisateurs placent dans son service. 
+ La raison principale de l'existence de cet acc&#232;s complet est que le clavier aura en principe besoin d'une connexion &#224; Internet pour &#234;tre en mesure de communiquer avec d'autres applications, avec le cloud du d&#233;veloppeur du clavier o&#249; se trouvent des ressources n&#233;cessaires au bon fonctionnement de toutes les options du clavier, etc. 
+ Il faut garder &#224; l'esprit qu'un clavier, qui plus est connect&#233; &#224; Internet comme le sont ces claviers alternatifs, peut &#234;tre utilis&#233; pour enregistrer les frappes, ainsi que l'endroit o&#249; la frappe est r&#233;alis&#233;e (champ de formulaire de mot de passe, par exemple). 
+ Quelles sont les cons&#233;quences&#160;? 
+ Pour &#234;tre tout &#224; fait clair l&#224;-dessus,  si vous autorisez l'acc&#232;s complet, vous permettez techniquement &#224; ce clavier d'enregistrer et de transmettre ce que vous tapez &#224; une tierce personne , en g&#233;n&#233;ral le d&#233;veloppeur du clavier. 
+ Au vu du risque que cela repr&#233;sente en terme de s&#233;curit&#233; et de protection des donn&#233;es et de la personnalit&#233;, ces claviers feront en sorte d'&#233;viter ce type de comportement ou auront une politique de confidentialit&#233; 1 . 
+ Les d&#233;veloppeurs qui se serviraient des possibilit&#233;s offertes par une analyse sur leur cloud sont encourag&#233;s par Apple &#224; ne pas stocker les donn&#233;es sauf si c'est n&#233;cessaire pour fournir des services qui sont li&#233;s &#224; l'utilisation du clavier. On peut en d&#233;duire que l'utilisation des donn&#233;es &#224; des fins marketing est donc interdite. Ce qui est clair, c'est qu'Apple ne peut &#234;tre tenue responsable des (mauvaises) actions de ces concepteurs de claviers et il revient &#224; l'utilisateur d'&#234;tre des plus prudents. 
+ Par ailleurs, si les d&#233;veloppeurs font bien leur travail, ils veilleront &#224; ne pas r&#233;colter ou analyser la frappe dans des champs de texte signal&#233;s comme contenant un mot de passe ou d'autres informations sensibles. 
+ Exemples 
+ Swiftkey  est sans doute le plus populaire des claviers alternatifs. Il r&#233;colte des donn&#233;es si les utilisateurs utilisent l'option cloud qui est propos&#233;e. Cette fonction permet la personnalisation, la pr&#233;diction et la sauvegarde des termes utilis&#233;s. Swiftkey annonce aussi d&#233;sactiver la collecte pour des sites ou applications qui d&#233;signent certains champs comme contenant des informations sensibles. Plus d'informations sur les  mesures de s&#233;curit&#233;  et sur la  protection des donn&#233;es  selon Swiftkey. 
+ Flesky  annonce d&#233;sactiver par d&#233;faut la collecte de donn&#233;es, en particulier pendant l'installation. Cependant, bien qu'on d&#233;clare ne pas collecter de donn&#233;es &#224; moins que l'utilisateur y consente, je n'ai pas vu de r&#233;glage sp&#233;cifique pour d&#233;sactiver cette collecte. Il faut donc partir de l'id&#233;e que le fait d'autoriser l'acc&#232;s complet (Flesky parle de "personnalisation") revient &#224; &#234;tre d'accord aussi pour cette collecte de donn&#233;es. Plus d'informations sur la  protection des donn&#233;es  de Flesky. 
+ Conclusion 
+ Des gardes-fous ont &#233;t&#233; pos&#233;s, des directives appliqu&#233;es, des garanties octroy&#233;es... Il n'emp&#234;che que je peine &#224; faire confiance &#224; ces claviers alors que je sais pertinemment qu'ils enregistrent et transmettent ce que je tape. De plus, la d&#233;sactivation de la collecte et de l'analyse dans les champs destin&#233;s aux mots de passe et autres informations sensibles d&#233;pend encore d'une multitude d'autres personnes. Si les concepteurs de sites web et d'applications omettent ou d&#233;cident de ne pas d&#233;signer correctement les champs en question pour que les claviers alternatifs les reconnaissent, ces derniers enregistreront et transmettront quand m&#234;me vos mots de passe et autres informations sensibles&#160;! 
+
+         Notes &#160;&#160;&#160;[  +  ]                                                 1.      &#8629;         Celle-ci devrait au moins pr&#233;voir que les donn&#233;es sont anonymis&#233;es et agr&#233;g&#233;es si elles sont partag&#233;es.                                                                          
+                                                                                                        
+                                                 
+        </text>
+</document>

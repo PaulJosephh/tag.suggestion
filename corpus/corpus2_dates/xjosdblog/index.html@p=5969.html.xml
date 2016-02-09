@@ -1,0 +1,53 @@
+<document>
+	<date>2014-10-05</date>
+        <title>Domotique : la galre du Z-Wave</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Aeon Labs</tag>
+                <tag>Everspring</tag>
+                <tag>Fibaro</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Modules</category>
+        </categories_set>
+        <text>
+                                                 Introduction 
+ 
+Jai commence a mequiper en domotique en juin 2013. Cela fait maintenant plus dun an et jaimerai faire ici le point sur les problemes dincompatibilite, dinclusion, de parametrage et de fiabilite que jai rencontre avec mes dispositifs  Z-Wave plug and play Problemes de fiabilite materielle 
+
+ Prises Everspring AD142  gradateur (2pb/2ex) 
+Cette prise gradateur semble avoir une tres mauvaise tenue dans le temps. Le probleme se traduit par le clignotement du dispositif pilote (generalement un luminaire). Plus precisement, la prise allume puis eteint dans une boucle infinie le luminaire connecte a une frequence denviron 1 ou 2 hertz. De maniere synchrone, son bouton de commande rouge sallume et seteint. Le module ne repond plus ni a une action manuelle sur le bouton de commande, ni a un ordre envoye par le reseau  Z-Wave pas le seul a rencontrer ce probleme hotline Domadoo MultiSensor DSB05 by Aeon Labs (3pb/4ex!) 
+Le  MultiSensor Aeon Labs ici Aeon Labs MultiSensor Ce billet 
+Ensuite, lun de mes deux  MultiSensor 
+Enfin, lun de mes deux  MultiSensor Thermostat Z-Wave Secure SCS317 (1pb/2ex) 
+Le premier exemplaire recu avait une partie de laffichage HS, jespere que ce netait pas le signe dun materiel peu fiable.
+ Prise Fibaro Wall Plug (2pb/9ex) 
+Jen possede 6 et ai du en retourner 2 apres reception. Le bouton de commande de la premiere etait defectueux. La memoire de la seconde defaillante, une fois deconnectee, elle perdait instantanement tout parametrage dont son association dans le reseau  Z-Wave Avec quel module nai-je pas encore rencontre de probleme de fiabilite materielle? 
+ Detecteur douverture Z-Wave Fibaro FGK-101 Detecteur dinondation Z-Wave Fibaro FGFS-101 Detecteur de fumee Z-Wave Fibaro FGSS-001 Detecteur Universel Z-Wave Fibaro FGBS-001 Key Fob Remote Control by Aeon Labs Prises Everspring AN158  actionneur On/Off avec mesure de la consommation Prises Everspring AN157  simple actionneur On/Off Problemes dinclusion, de parametrage ou dincompatibilite 
+
+ Prises Everspring AD142  gradateur 
+Je ne parvenait pas a piloter correctement ce variateur a partir de  SynoZWave SynoZWave OpenZWave open source SynoZWave MultiSensor DSB05 by Aeon Labs 
+Suite a une remise a plat du maillage du reseau  Z-Wave Vera Lite MultiSensor MultiSensor dans ce billet Thermostat Z-Wave Secure SCS317 et SSR303 
+Ce thermostat est relativement complexe a mettre en uvre dans un reseaux  Z-Wave Z-Wave Internet decrite dans ce billet 
+De plus, un plantage severe de mon  controleur Z-Wave dexclusion et de re-association 
+Suite au  passage de la  Vera Lite Detecteur de fumee Z-Wave FGSS-001 
+La, cest un probleme dincompatibilite avec la  Vera Lite firmware  beta ce billet 
+Dautre part, jai rencontre plusieurs problemes avec ce module (bip intempestif, mesure de temperature pas fiable, niveau des piles restant a 100%) que  jai pu finalement resoudre Key Fob Remote Control by Aeon Labs 
+Ici le problemes proviennent du manque et des erreurs de documentation ainsi que de la complexite de cette telecommande 4 boutons qui:
+ 
+ distingue les appuis courts des appuis longs pour permettre de piloter 8 modules (ou groupe de modules) ou 8 scenes; peut sinserer dans un reseau  Z-Wave possede deux modes de fonctionnement: le  Group Mode Scene Mode 
+Avec  SynoZWave Scene Mode Group Mode 
+Avec la  Vera Lite Group Mode Scene Mode Internet Scene Mode decrite dans ce billet Detecteur Universel Z-Wave FGBS321 
+ Mon  Universal Sensor Fibaro trouver une solution device Passage de UI5 a UI7 avec la Vera Lite 
+Le  passage de la Vera Lite a UI7 Conclusion 
+ 
+Le  Z-Wave plug and play Z-Wave 
+Clairement, les modules sur piles sont plus embetant a parametrer du fait quils ne fonctionnent que par intermittence, ont certainement une puissance demission/reception plus faible et ne participent pas au maillage du reseau.
+ 
+Tout les problemes rapidement evoques ici mont coute plusieurs semaines dequivalent temps plein et ce nest pas acceptable. Je rencontre moins de problemes avec lIPX800 (dont le  firmware 
+ 
+ Sommaire Domotique 
+        </text>
+</document>

@@ -1,0 +1,121 @@
+<document>
+	<date>2008-03-10</date>
+        <title>Symfony 1.1 beta, tour du propritaire - Installation</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>framework</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+                <tag>tutoriel</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Il y a quelques jours,  Fabien  a annonce la  disponibilite de Symfony 1.1 beta 1  dans le depot du projet. Symfony 1.1 est un changement majeur au niveau architecture, et la compatibilite ascendante est rompue en de nombreux points. Pour un outil eminemment base sur les conventions, cela implique une reappropriation de ces dernieres quand elles ont change - mais c'est la le prix a payer pour beneficier des nouvelles fonctionnalites. Et elles valent le coup! 
+
+
+ Ce billet sera donc le premier d'une serie destinee a explorer les fonctionnalites phares de cette preversion. On commence par le commencement avec la procedure d'installation. 
+
+
+ Remarques preliminaires 
+
+
+ Nous ne verrons pas la procedure de mise a jour d'un projet en symfony 1.0 vers la version 1.1 [ 1 ] . On verra ca plus en detail sur ce blog si les  CNTP  le permettent. Pour l'heure, on partira donc d'un projet vierge en 1.1. 
+
+
+ Installation de Symfony 1.1 
+
+
+ Il faut pour l'heure installer Symfony 1.1 a partir des sources subversion; voici une demarche possible, en admettant que vous disposez d'un environnement Unix/Linux [ 2 ] : 
+
+
+ $ mkdir vendor  cd vendor
+$ svn co http://svn.symfony-project.com/branches/1.1/ symfony11
+$ sudo ln -s `pwd`/symfony11/data/bin/symfony /usr/bin/symfony11 
+
+
+ Je cree ici un lien symbolique  symfony11  accessible depuis  /usr/bin , ce qui permettra de gerer aussi bien des projets en 1.0 qu'en 1.1 [ 3 ] . 
+
+
+ Pour verifier que tout s'est bien deroule, vous pouvez lancer cette commande: 
+
+
+ $ symfony11 -V
+symfony version 1.1.0-DEV (/Users/niko/www/vendor/symfony11/lib) 
+
+
+ Creation d'un nouveau projet 
+
+
+ Grace a notre nouvelle installation isolee de Symfony 1.1, on peut creer un projet et une nouvelle application  main  via cette serie de commandes: 
+
+
+ $ cd /path/to/workspace
+$ mkdir sf11test  cd sf11test
+$ symfony11 generate:project sf11test
+$ ./symfony generate:app main 
+
+
+ Vous noterez que toutes les commandes ont ete renommees par rapport a la version 1.0 et qu'elles utilisent desormais des espaces de noms specifiques a certains domaines:  generate: ,  propel: ,  plugins: ,  log: , etc. Pour lister l'ensemble des taches en lignes de commande disponibles, vous pouvez lancer la commande  symfony11  telle quelle, ou utiliser l'executable  symfony  disponible a la racine de votre projet: 
+
+
+ $ ./symfony 
+
+
+ Notez que l'emploi de  symfony11  ou  ./symfony  a la racine de votre projet ont ici strictement le meme effet, puisque les deux executables referencent la meme installation de Symfony. 
+
+
+ Il nous reste a creer un VHost Apache [ 4 ]  minimaliste pour acceder a notre projet au travers de notre navigateur: 
+
+
+ VirtualHost *
+  ServerName   local.sf11test.org
+  DocumentRoot %PROJECT_ROOT%/web
+  Directory "%PROJECT_ROOT%/web"
+    AllowOverride All 
+    Allow from All 
+  /Directory
+  Alias /sf    %VENDOR_ROOT%/symfony11/data/web/sf
+  ErrorLog     %PROJECT_ROOT%/log/error.log
+  CustomLog    %PROJECT_ROOT%/log/access.log common
+/VirtualHost 
+
+
+ N'oubliez pas de remplacer les chaines  %PROJECT_ROOT%  et  %VENDOR_ROOT%  par les chemins systeme correspondant (respectivement la racine du projet et la racine de votre repertoire  vendor  cree precedemment). 
+
+
+ On ajoutera egalement une entree dans le fichier  /etc/hosts  pour avoir la resolution du nom  local.sf11test.org  localement: 
+
+
+ 127.0.0.1       local.sf11test.org 
+
+
+ Si toutes les etapes ont ete correctement suivies et apres avoir recharge la configuration d'Apache, en lancant notre navigateur prefere sur l'adresse  local.sf11test.org , nous obtenons: 
+
+
+ 
+
+
+ Ca vous rappelle quelque chose?  
+
+
+ La suite au prochain episode, avec les formulaires dont la gestion a ete entierement revue en Symfony 1.1. 
+
+
+ Edit :  J'ai modifie l'url du depot pour faire pointer vers la branche 1.1, qui evolue constamment, comme suggere par Fabien en commentaire  
+
+
+ Pour ceux qui veulent mettre a jour du tag vers la branche, il faut lancer cette commande a la racine de votre repertoire  vendor : 
+
+
+ $ svn switch http://svn.symfony-project.com/branches/1.1/ symfony11 
+
+
+ Un petit  ./symfony cc  s'imposera dans vos projets utilisant le depot. 
+ Notes 
+ [ 1 ] La procedure est pour le moment documente dans  ce fichier sur le depot . 
+ [ 2 ] Enfin je veux dire, je ne m'occuperai pas de Windows  
+ [ 3 ] En admettant bien sur que vous disposiez deja d'une installation fonctionnelle de la 1.0  
+ [ 4 ] Comme toujours,  mod_rewrite  doit etre active. 
+        </text>
+</document>

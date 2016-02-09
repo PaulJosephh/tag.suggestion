@@ -1,0 +1,76 @@
+<document>
+	<date>2013-05-02</date>
+        <title>Rcupration de vos tempratures Zibase sous ThingSpeak</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>EnOcean</tag>
+                <tag>ThingSpeak</tag>
+                <tag>zibase</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+  
+ + 
+  
+ 
+  
+  
+ Au cours du dernier article sur les modules  EnOcean , je vous avais presente le capteur de temperature STM330 (avec capteur solaire). Nous allons voir comment recuperer la temperature de ce module via la  Zibase  sur  ThingSpeak . 
+ 
+ Pour commencer nous allons nous rendre sur  ThingSpeak  et creer notre compte afin de creer notre Chanel. 
+ 
+  
+ Remplissez les champs dont vous avez besoin, si vous cochez Make Public, vos donnees seront visibles par toutes les personnes venant sur ThingSpeak. 
+ Nous allons donc avoir besoin de lurl proposee par ThingSpeak pour recuperer les donnees de votre Zibase. 
+ Cette URL se trouve sur Channels, Data import, Sending data 
+ 
+ voici donc lurl que nous allons utiliser dans notre Zibase pour envoyer toutes les datas. 
+ http://api.thingspeak.com/update?key=JGSXVPLVXXXXXXXXfield1=0 
+ Rendez vous maintenant sur notre Zibase pour creer le Scenario qui va envoyer les temperatures sur ThingSpeak. 
+ Domotics de Touteladomotique a fait un  test tres complet  a ce sujet et vous permettra de creer votre scenario. Je ne reviendrai pas sur la creation du Scenario 
+ je vous donne juste les images de ce que vous devez avoir dans votre scenario 
+ 
+  
+ 
+ Un test du scenario et le tour est joue 
+ 
+ Vos donnees concernant le capteur de temperature ont ete envoyees sur ThingSpeak 
+ 
+ Vous pourrez modifier les amplitudes des axes X et Y comme tout graphique 
+ 
+ Jai vraiment aime ce service, relativement simple a mettre en oeuvre. On pourra bien sur lutiliser pour pas mal dautres donnees. Si vous aussi vous avez des exemples a nous donner, nhesitez pas a nous les faire partager. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

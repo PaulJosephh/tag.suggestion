@@ -1,0 +1,23 @@
+<document>
+	<date>2007-07-07</date>
+        <title>Go PHP 5</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>php</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Je relaie ici cette chouette initiative d'un groupement de projets open source pour inciter a l'adoption et au deploiement de php5 en lieu et place de l'antique et moins performant php4:  Go PHP 5 ! 
+
+
+ Php4 nous a rendu de fiers services, mais il est plus que temps de reconnaitre que cette version est maintenant largement depassee et que le maintien de son utilisation ne sert pas l'essor du langage sur des projets de grande envergure... d'autant que la  fin du support officiel de php4 est annoncee  pour cette annee. 
+
+
+ Le pire c'est que php6 et ses allechantes petites revolutions vont arriver l'annee prochaine, je sens qu'on est pas sorti de l'auberge :/ 
+
+
+ Edit :   La mort de php4 officiellement annoncee sur php.net . Le vendredi 13 lui a porte malchance ^^ 
+        </text>
+</document>

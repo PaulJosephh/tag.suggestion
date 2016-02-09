@@ -1,0 +1,15 @@
+<document>
+	<date>2015-02-06</date>
+        <title>
+Tuto Raspberry Pi 2 : Migrer Openelec et vos donnes depuis un ancien Raspberry Pi</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Raspberry-Pi</tag>
+                <tag>Veille</tag>
+        </tags_set>
+        <categories_set>
+                <category>Informatique</category>
+        </categories_set>
+        <text>LeRaspberry Pi 2 (modele B) ressemble comme deux goutes deau ou presque au Raspberry Pi B +. Mis a part quelques petites puces qui ont bouge a la surface de la carte les dimensions de la carte et le positionnement de la connectique na pas bouge dun millimetre. Globalement lensemble des coques (cases) prevues pour le Raspberry Pi B+ devraient etre compatibles avec ce nouveau modele. Jai constate par exemple que les coques PiBow qui fonctionnent par couches (layers) simbriquant les unes sur les autres ne sont pas compatibles avec ce nouveau modele. Lire larticle complet sur  Place4geek   Raspberry-Pi   Veille 
+        </text>
+</document>

@@ -1,0 +1,35 @@
+<document>
+	<date>2013-11-28</date>
+        <title>Vera Lite : Trucs et Astuces</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+ Mot de passe root (UI5) 
+ Telecharger une sauvegarde de la  Vera SETUP Backup Telecharger un backup Decompresser le fichier Editer le fichier  /etc/cmh/cmh.conf Le mot de passe se trouve sur la ligne commencant par: Password= Configuration avancee 
+Il existe une page cachee permettant de parametrer plus finement certains aspects de la  Vera Lite http://IP_VERA/cgi-bin/webif/info.sh Afficher le fichier Log 
+Il est possible dafficher en continu le fichier log dans un navigateur:
+ http://IP_VERA/cgi-bin/cmh/log.sh?Device=LuaUPnP Configuration complete 
+Il est possible dobtenir un resume de la configuration de la Vera Lite au format JSON:
+ http://IP_VERA:3480/data_request?id=lu_sdata 
+La configuration complete de la Vera Lite au format xml sobtient de la maniere suivante:
+ http://IP_VERA:3480/data_request?id=user_dataoutput_format=xml SSH sur Vera Lite Visualiser le fichier log dans une session  ssh 
+Il est possible de se connecter sur la  Vera Lite ssh $ ssh root@IP_VERA /var/log/cmh/LuaUPnP.log root@MiOS_XXXXXXXX:~# tail -f /var/log/cmh/LuaUPnP.log | grep '^01\|^50' ssh Vera $ ssh -t root@IP_VERA "tail -f /var/log/cmh/LuaUPnP.log" Faire un  ssh 
+Pour se connecter en  ssh ssh Vera 
+ Generer le jeu de cle/certificat sur le client:  Client$ ssh-keygen -t dsa Copier la cle publique sur le serveur:
+ 
+Client$ ssh-copy-id -i ~/.ssh/id_dsa.pub root@IP_VERA Quelques commandes relatives a la clef de chiffrement sur la  Vera 
+ Generer la clef de chiffrement:  root@MiOS_XXXXXXXX:~# dropbearkey -t rsa -f ~/.ssh/id_dss Afficher la clef de chiffrement:  root@MiOS_XXXXXXXX:~# dropbearkey -y -f ~/.ssh/id_dss Prise en compte des modifications:  root@MiOS_XXXXXXXX:~# /etc/init.d/dropbear restart Undefined Device 
+ Veralite  Undefined Device impossible a supprimer Devices http://Vera_IP:3480/data_request?id=deviceaction=deletedevice=device_ID Informations et sources 
+ 
+Shopping:  Vera Lite  Controleur domotique Z-wave Luup Requests Requetes http sur Vera Lite 
+ Sommaire Domotique 
+        </text>
+</document>

@@ -1,0 +1,104 @@
+<document>
+	<date>2013-02-11</date>
+        <title>Rcuprer les donnes de votre NetAtmo dans vos box domotique  laide de lAPI</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>API</tag>
+                <tag>Co2</tag>
+                <tag>eedomus</tag>
+                <tag>humidite</tag>
+                <tag>Netatmo</tag>
+                <tag>temperature</tag>
+                <tag>Vera</tag>
+                <tag>zibase</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ Comme je lavais ecrit dans le  precedent article ou je vous presentais  NetAtmo gentillementpretee par notre partenaire  Domadoo , on a la possibilite dintegrer les donnees de votre station dans votre box domotique a laide de lAPI. 
+ 
+ Mais pourquoi recuperer toutes ces informations ? Parce que vous pourrez mettre en marche ou arreter votre chauffage, declencher une alarme en fonction du niveau sonore par exempleet tout ca grace a votre box domotique. 
+ Il existe plusieurs solutions en fonction de si vous avez un serveur PHP, un serveur Nas,Il faudra tout dabord se rendre sur  dev.netatmo  et creer une application pour pouvoir recuperer ses cles. Vous devrez enregistrer quelques fichiers, et faire quelques modifications de certains des fichiers.   Dailleur Domotics du blog  Touteladomotique a fait un tres bon article a ce sujet. 
+ Ces informations seront donc recuperables par tout systeme capable de lire un fichier xml, comme par exemple la box eedomus, la Zibase, ou encore la Vera (via un script Lua). 
+  
+ Pour la box vera, Sebastien Joly a realise un script permettant de collecter justement ces informations sur le forum de  NetAtmo . 
+  
+  
+ Pour la Zibase, vous pouvez allez voir la page du  Blog de Domotique.INFO de Pascal Stephany   ou toujours celle de Cedric 
+  
+ Pour eeDomus, nous allons developper la facon de faire : 
+ jai choisi la solution de Cedric dans son  Blog Maison et Domotique  afin dutiliser son script quil heberge chez lui. 
+  
+ Il suffit pour cela dappeler cette adresse dans votre box :http://www.maison-et-domotique.com/scripts/netatmo.php?login= VOTRE_EMAIL password= MOTDEPASSE 
+ Ces champs marques en rouge sont vos identifiants de votre NetAtmo bien sur. 
+ Commencons 
+ 1 ajouter un nouveau peripherique     2 Autres types de peripheriques 
+ 
+  
+ 3 HTTP / Capteur 
+ 
+  
+ 4 capteur cree, il faut renseigner ladresse du script ainsi que votre login et mot de passe de votre NetAtmo 
+  
+ fichier xml cree a laide du script de Cedric du blog Maison et Domotique 
+  
+  
+ xml version=1.0 encoding=utf8 ? 
+ netatmo 
+ temperature_interieure20.6/temperature_interieure 
+ co21121/co2 
+ humidite_interieure59/humidite_interieure 
+ pression1009.7/pression 
+ niveau_sonore57/niveau_sonore 
+ temperature_exterieure12.5/temperature_exterieure 
+ humidite_exterieure87/humidite_exterieure 
+ /netatmo 
+  
+ Cela vous permettra de selectionner les infos a renseigner dans le  path (les variables que vous souhaitez recuperer (temperature interieure, exterieure, humidite, Co2) 
+ 
+  
+ Il vous faudra creer autant de capteurs que de type de donnees que vous souhaiterez recuperer. 
+ 
+ Une fois ces capteurs crees, vous pourrez creer autant de regle que vous le souhaitez, comme par exemple si la temperature est en dessous de x ; il faudra enclencher le chauffage par exemple ou inversement. 
+  
+ Sachez que lon a la possibilite dobtenir un historique sous forme de courbe par exemple de vos temperatures (voir ma station) : 
+ 
+  
+ Si vous voulez utiliser le capteur de Co2, vous pourrez creer une regle qui fait en sorte que des que le taux de Co2 depasse un certain seuil, la VMC passera en vitesse double, pour renouveler votre air ou vous indiquer via votre karozt que lair est sature et quil est temps daerer votre maison pour en renouveler lair. 
+ Vous pourrez enclencher une alarme dans le cas ou le niveau sonore de votre piece depasse un certain seuil pendant votre absence. 
+ Les idees de creation de regle dependront de ce que vous souhaitez faire chez vous et il y a pas mal de combinaison possible. 
+ Je rappelle que la NetAtmo remonte les infos toutes les 5 mn, il est donc inutile de mettre une frequence de recuperation sur votre box inferieure a ces 5 mn. 
+ Si vous avez vous aussi des idees dexploitation de ces donnees, je suis preneur. Nhesitez pas a nous les faire partager. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

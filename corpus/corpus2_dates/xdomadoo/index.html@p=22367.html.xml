@@ -1,0 +1,14 @@
+<document>
+	<date>2012-05-15</date>
+        <title>eedomus : nouvelle mise  jour version 1285</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          Hier a 10h precise, une nouvelle mise a jour a ete deployee pour la box  eedomus   La premiere nouveaute est le support du protocole  xPL xPL RFXLAN RFXCOM Oregon Scientific X10 Chacon Deux nouveaux peripheriques font ainsi leur apparition dans la liste des autres types de peripheriques :   Lactionneur  xPL xPL x10 X10 Chacon xPL xPL Oregon Scientific Avec le support de linterface  RFXLAN eedomus domotique X10 Chacon Z-Wave Oregon Scientific Z-Wave Autre nouveaute, lextension de XPath a XQuery dans lutilisation des  capteurs  HTTP XML De nouveaux indicateurs meteos font leur apparition : pluviometrie et indice UV (disponibilite selon les villes).   De nouveaux peripheriques  Z-Wave Aeon Labs Micro Smart Energy Switch G2 Micro Smart Energy Illuminator G2 Micro Double Smart Energy Switch Une page de configuration pour la box  eedomus   Dautres petites nouveautes et ameliorations ont egalement ete apportees :  Ajout dune page locale de parametrage manuel du reseau pour les box ( http://IP_DE_VOTRE_BOX/config DHCP  Ajout dun champ Date de remplacement de la batterie pour les peripheriques  Z-Wave  Possibilite de definir le type de donnees pour les capteurs  HTTP  Possibilite de definir une image personnalisee pour les capteurs  HTTP  Possibilite de masquer une macro dans la liste des actions du peripheriques   Amelioration du comportement de la box en labsence de connexion internet   Amelioration du processus de mise a jour des box   Et enfin, les bugs connus ont ete corriges :  Correction dun bug lors de la sauvegarde de lagenda   Correction dun bug lors de la suppression de donnees non numeriques dans les historiques   Correction dun bug pour les capteurs et actionneurs  HTTP  Correction dun bug mineur lors de la creation de compte   Correction dun bug dans la gestion des vacances et journees de conges uniques   Correction dun bug: le complement de message dans la  programmation Surveillance intrusion netait pas present dans les  mails et  SMS  Correction dun bug lors de la suppression dun peripherique    Lequipe  Connected Object  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

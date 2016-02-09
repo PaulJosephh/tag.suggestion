@@ -1,0 +1,39 @@
+<document>
+	<date>2013-11-16</date>
+        <title>MultiSensor DSB05 by Aeon Labs</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Aeon Labs</tag>
+                <tag>Fonction Luup</tag>
+                <tag>Vera</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Modules</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+ Presentation 
+Le  MultiSensor Aeon Labs Z-Wave Mise a jour du firmware 
+ Telecharger le firmware sur  le site du fabricant Connecter le  Multisensor Executer le fichier executable telecharge et suivre les indications Inclusion / Exclusion 
+Rapprocher et mettre le controleur en mode inclusion (resp. exclusion) puis presser le bouton  Z-Wave MultiSensor Procedure de parametrage sur Vera Lite 
+ Inclure le module Linclusion doit faire apparaitre le module  _4 in 1 sensor (motion) Vera Presser a nouveau le bouton noir du  MultiSensor La  Vera MultiSensor light motion temp humidity Dans longlet  Settings MultiSensor _4 in 1 sensor (motion) Poll now La valeur des mesures des capteurs devrait apparaitre apres avoir rafraichi linterface Dans longlet  Settings MultiSensor _4 in 1 sensor (motion) Poll this node at most once every Dans longlet  Device Options MultiSensor _4 in 1 sensor (motion) 3-Motion timeout Appuyer sur le bouton rouge  Save Vera Presser a nouveau le bouton noir du  MultiSensor Dans longlet  Settings MultiSensor _4 in 1 sensor (motion) Configure node right now Recharger linterface et verifier que les nouvelles valeurs des parametres ont bien ete prises en compte Trucs et astuces a connaitre 
+ 
+ Tous le parametrage doit se faire sur le device principal ( i.e. Un probleme important avec le  MultiSensor forcer de  MultiSensor MultiSensor Poll now Configure node right now En general, comme la plupart des modules sur pile, le DSB05 sera inclus et parametre pres de la box avant detre installe sur place. Une fois installe, il peut etre judicieux de faire un  Update Neighbor Nodes Device Options _4 in 1 sensor (motion) MultiSensor Fausse detection periodique de mouvement Description du probleme 
+ 
+Sur lun de mes deux  MultiSensor Wakeup interval (seconds) Solution partiellement palliative 
+Il est possible de contourner partiellement le probleme avec une fonction Lua qui filtre ces fausses detections cycliques. Une scene possede un trigger declenche par la detection de mouvement du  MultiSensor josdTriggerMvtDevantMaison1FausseDetection = 0 function ( ) local = os.time ( ) if ( - = 1665 ) then = return false end return true end false true Solution satisfaisante du probleme 
+Ce probleme est aborde  ici MultiSensor Aeon Labs MultiSensor polling MultiSensor Wakeup interval (seconds) polling Vera pushing 
+ Dans longlet  Settings MultiSensor _4 in 1 sensor (motion) Poll this node at most once every Dans le meme onglet, passer le parametre  Wakeup interval (seconds) 86400 Dans longlet  Device Options Add configuration settings 101 4 byte dec Data Size 225 101 MultiSensor pushing 0 225 1 32 64 128 Dans le meme onglet, ajouter ( Add configuration settings 111 4 byte dec Data Size 600 720 Fermer la fenetre de parametrage et sauver la configuration (bouton rouge  SAVE Appuyer successivement et rapidement trois fois sur le bouton noir du  MultiSensor Dans longlet  Settings MultiSensor Configure node right now Fermer la fenetre de parametrage et attendre quelques seconde que le  MultiSensor Verifier dans longlet  Device Options MultiSensor Appuyer successivement et rapidement trois fois sur le bouton noir du  MultiSensor LUUP -- Armer et Desarmer . ( "urn:micasaverde-com:serviceId:SecuritySensor1" , "Armed" , "1" ,   ) . ( "urn:micasaverde-com:serviceId:SecuritySensor1" , "Armed" , "0" ,   ) -- Niveau de la pile local = . ( "urn:micasaverde-com:serviceId:HaDevice1" , "BatteryLevel" ,  ) -- Wakeup interval (seconds) local = . ( "urn:micasaverde-com:serviceId:ZWaveDevice1" , "WakeupInterval" ,  ) -- Temperature courante local = . ( "urn:upnp-org:serviceId:TemperatureSensor1" , "CurrentTemperature" ,  ) -- Humidite courante local = . ( "urn:micasaverde-com:serviceId:HumiditySensor1" , "CurrentLevel" ,  ) -- Luminosite courante local = . ( "urn:micasaverde-com:serviceId:LightSensor1" , "CurrentLevel" ,  ) -- Etat de detection et date (au format epoch) de la derniere detection local = . ( "urn:micasaverde-com:serviceId:SecuritySensor1" , "Tripped" ,  ) local = . ( "urn:micasaverde-com:serviceId:SecuritySensor1" , "LastTrip" ,  ) Mon avis 
+ 
+ 
+Le probleme des fausses detections cycliques est embetant mais pas redhibitoire car on parvient a les supprimer. Jai eu 3  MultiSensor 
+Bref le  MultiSensor vraiment pas fiable systeme de detection de mouvement video de camera IP Au final, jaime bien ce detecteur, mais les problemes de parametrage et de fiabilite (3 retours en lespace de 1 an pour seulement 2 exemplaires achetes) sont tels quil mest impossible de le conseiller. 
+Son seul concurrent est le detecteur de mouvements  Fibaro Motion Sensor FGMS-001 multiSensor DSB05 Fibaro Motion Sensor FGMS-001 Informations et Sources 
+ 
+ Multisensor Manual Any news on the aeon-labs multi sensor Z-Wave Device Library Aeon 4in1 Parametres du detecteur 4 en 1  Multisensor Aeon Labs DSB05 Guide de mise a jour du Multisensor dAeon Labs Luup Scenes Events 
+ Sommaire Domotique 
+        </text>
+</document>

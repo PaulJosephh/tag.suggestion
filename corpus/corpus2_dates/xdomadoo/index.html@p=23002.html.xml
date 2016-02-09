@@ -1,0 +1,30 @@
+<document>
+	<date>2013-08-30</date>
+        <title>Guide dinstallation du dtecteur de mouvement Everspring HSP02</title>
+        <author> Maximin </author>
+        <tags_set>
+                <tag>alarme</tag>
+                <tag>domotique</tag>
+                <tag>everspring</tag>
+                <tag>guide</tag>
+                <tag>hsp02</tag>
+                <tag>installation</tag>
+                <tag>mouvement</tag>
+                <tag>pir</tag>
+                <tag>securite</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                         Le detecteur HSP02 du fabricant Taiwanais  Everspring Z-Wave Le HSP02 est fourni avec ses accessoires: Pile, chevilles, vis, scotch double face et sa notice dutilisation (anglais uniquement). Commencez par alimenter le module, pour cela il faut enlever la vis maintenant le capot de protection arriere. 
+ Puis inserer la pile dans le compartiment prevu (noubliez pas denlever la protection plastique qui entoure la pile). Une LED, situe dans le module, devrait alors se mettre a clignoter en rouge. Des lors, votre module fonctionne et est en mode test, il vous faut maintenant linclure dans votre reseau  Z-Wave La LED de votre module devrait alors clignoter en alternance de vert et de rouge. Une fois le detecteur inclus a votre reseau  Z-Wave Et voila, dorenavant tout mouvement detecter par le module sera envoye a votre controleur  Z-Wave  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Guide dutilisation du detecteur de mouvement Fibaro FGMS-001 avec la base domotique Homelive dOrange 
+ #BBWF : Essence presente sa solution Z-Wave WeR@Home 
+ Jeedom  Guide dutilisation du detecteur dinondation Fibaro FGFS-001 
+ #CES2015 : iSmartAlarm annonce sa compatibilite Z-Wave END .entry-content  
+        </text>
+</document>

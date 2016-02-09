@@ -1,0 +1,14 @@
+<document>
+	<date>2012-11-13</date>
+        <title>Nouveau firmware pour les tlcommandes Aeon Labs</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          Certains dentre vous ont rencontre des difficultes avec les dernieres telecommandes  Aeon Labs Z-Wave   Les premiers modeles qui sont arrives cet ete Aeon Labs Malheureusement, cette modification a entraine une incompatibilite avec les differents controleurs  domotique Vera ZiBASE eedomus Hors si on veut executer des scenes de nos box  domotique Rassurez-vous, cest juste une histoire de parametrage. En effet, il faut mettre la valeur 1 dans le parametre 250 de la telecommande. Voici differents guides pour vous aidez a realiser cette manipulation.  Guide dinstallation de la telecommande porte-cles 4 boutons Aeon labs Utilisation de la telecommande porte-cles 4 boutons Aeon Labs avec leedomus Utilisation de la telecommande porte-cles 4 boutons Aeon Labs avec la Vera Utilisation de la telecommande porte-cles 4 boutons Aeon Labs avec la ZiBASE  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

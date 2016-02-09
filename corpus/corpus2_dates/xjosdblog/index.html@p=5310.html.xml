@@ -1,0 +1,45 @@
+<document>
+	<date>2014-04-08</date>
+        <title>Authentification par cl SSH : Linux, Synology, Vera</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Questions Reseau</category>
+                <category>Synology</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 Problematique 
+ 
+SSH (Secure SHell) permet de se connecter de facon securisee a un systeme Unix ou Linux et doit etre privilegie par rapport a dautres programmes tels que  rlogin telnet rcp ftp rsh 
+Avec SSH, lauthentification peut se faire sans lutilisation de mot de passe ou de phrase secrete en utilisant la cryptographie asymetrique. Cette technique est a la fois plus sure mais aussi plus pratique (plus de mot de passe a taper) et enfin et surtout indispensable pour pouvoir scripter ou programmer des echanges en utilisant ce protocole.
+ Principe 
+ 
+Le principe de mise en place dune authentification par cle est simple et comporte deux etapes:
+ 
+ Creation de la paire de cle sur le client (celui depuis lequel on souhaite lancer une commande SSH) ; cette est a faire une fois pour toutes Envoyer sa cle publique sur le serveur dans le fichier  authorized_keys 
+La mise en pratique est parfois moins triviale de part la diversite des systemes utilises (PC, Nas, Box) et de part la diversite des implementations logicielles du protocole SSH.
+ 
+On peut distinguer deux principales implementations logicielles du protocole SSH:
+ 
+ OpenSSH Dropbear OpenSSH 
+ Remarque known_hosts known_hosts OpenSSH et Dropbear OpenSSH 
+ Creation de la cle:  [client]$ ssh-keygen -t dsa Copie de la cle:  [client]$ ssh-copy-id -i ~/.ssh/id_dsa.pub login@adresse_serveur Connexion sans mot de passe: [client]$ ssh login@adresse_serveur Afficher des informations si cela ne fonctionne pas:  [client]$ ssh -vvv login@adresse_serveur Fichiers generes sur le client
+ 
+ ~/.ssh/id_dsa ~/.ssh/id_dsa.pub authorized_keys ssh-copy-id ~/.ssh/known_hosts login@adresse_serveur ~/.ssh/authorized_keys Dropbear sur la VeraLite 
+ Creation de la cle:  [client]$ dropbearkey -t rsa -f ~/.ssh/id_rsa Generation de la cle publique (facultatif):  [client]dropbearkey -y -f ~/.ssh/id_rsa   | grep "^ssh-rsa "  ~/.ssh/id_rsa.pub Copie de la cle:  [client]$dropbearkey -y -f ~/.ssh/id_rsa | grep "^ssh-rsa " | ssh login@adresse_serveur "cat -  ~/.ssh/authorized_keys" Connexion sans mot de passe: [client]$ ssh -i ~/.ssh/id_rsa login@adresse_serveur Fichiers generes sur le client
+ 
+ ~/.ssh/id_rsa ~/.ssh/id_dsa.pub ~/.ssh/known_hosts login@adresse_serveur ~/etc/dropbear/authorized_keys Redemarrer le service SSH 
+ PC Linux:  service ssh restart NAS Synology:  /usr/syno/etc.defaults/rc.d/S95sshd.sh restart VeraLite:  /etc/init.d/dropbear restart  Exemples de mise en place de  lauthentification par cle PC Linux sur Synology 
+ Creation de la cle (une seule fois):  [PC]$ ssh-keygen -t dsa Copie de la cle:  [PC]$ ssh-copy-id -i ~/.ssh/id_dsa.pub root@IP_Syno Connexion sans mot de passe: [PC]$ ssh root@IP_Syno PC Linux sur VeraLite 
+ Creation de la cle (une seule fois):  [PC]$ ssh-keygen -t dsa Copie de la cle:  [PC]$ cat ~/.ssh/id_dsa.pub | ssh root@IP_Vera "cat -  /etc/dropbear/authorized_keys" Connexion sans mot de passe: [PC]$ ssh root@IP_Vera Synology sur VeraLite 
+ Creation de la cle (une seule fois):  [Synology]$ ssh-keygen -t dsa Copie de la cle:  [Synology]$ cat ~/.ssh/id_dsa.pub | ssh root@IP_Vera "cat -  /etc/dropbear/authorized_keys" Connexion sans mot de passe: [Synology]$ ssh root@IP_Vera VeraLite sur Synology 
+ Creation de la cle (une seule fois):  [Vera]$ dropbearkey -t rsa -f ~/.ssh/id_rsa Copie de la cle:  [Vera]$dropbearkey -y -f ~/.ssh/id_rsa | grep "^ssh-rsa " | ssh root@IP_Syno "cat -  ~/.ssh/authorized_keys" Connexion sans mot de passe: [Vera]$ ssh -i ~/.ssh/id_rsa root@IP_Syno Informations et sources 
+ 
+ Secure Shell SSH : Authentification par cle Using Public Keys With Dropbear SSH Client 
+ Sommaire Domotique 
+        </text>
+</document>

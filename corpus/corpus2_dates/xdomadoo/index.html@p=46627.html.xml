@@ -1,0 +1,23 @@
+<document>
+	<date>2015-04-02</date>
+        <title>Aprs le 4-1, passons au 6-1 chez Aeotec !</title>
+        <author> Cdric L. </author>
+        <tags_set>
+                <tag>6in1</tag>
+                <tag>aeotec</tag>
+                <tag>multisensor</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         En  Z-Wave Son petit nom ne laisse aucun doute:  MultiSensor 6 detection de mouvement, avec une portee de 5m sur un angle de 120, qui pourra donc etre utilise aussi bien dans des scenarios de securite que de confort de lhumidite, pratique par exemple pour gerer la ventilation dans une salle de bain de la temperature, allant de -40C a 125C, pour gerer aussi bien le chauffage que louverture des volets et mesure de la luminosite, pour gerer leclairage ou encore louverture des volets Quelles sont donc les deux nouvelles fonctions ? Pour commencer, nous retrouvons la meme detection de vibrations que sur le Motion Sensor de  Fibaro Lautre nouvelle fonctionnalite est la mesure des UV. En mesurant le niveau des ultra violets, il sera en effet possible de se proteger des rayons nefastes en fermant automatiquement les volets ou les stores quand le niveau des UV devient dangereux. Une premiere sur ce type dequipement ! A noter que toutes les informations recueillies peuvent etre recalibrees par lutilisateur si besoin. Mais levolution par rapport au premier modele ne sarrete pas a lajout de nouvelles fonctions. De nombreuses autres choses invisibles ont egalement ete ameliorees. Tout dabord, nouvelle collection oblige, ce detecteur de generation 5 integre une puce  Z-Wave Plus La connexion radio est egalement securisee, puisque tout est maintenant encrypte en AES-128 bit. Avec toutes ces fonctionnalites, on pourrait craindre pour lautonomie, le gros point faible des peripheriques sans fil. Et bien Aeotec annonce une autonomie de deux ans grace a deux piles CR123A ! Si malgre cela le changement de piles vous pose un probleme, le capteur peut etre branche sur une alimentation via un cable  USB Le Multisensor 6 est70% plus petit que la premiere generation (42mm de cote), et 50% plus leger (74g). Grace a cela il sera possible de le placer discretement a de nombreux endroits. Simplement colle au mur a laide dun double face 3M, ou dans un angle sur une rotule, mais egalement encastre si on souhaite une integration parfaite: une boite dencastrement est en effet fournie pour y loger le detecteur, qui sera maintenu par un systeme aimante, afin de pouvoir le retirer tres facilement si besoin. Encastre par exemple ici dans le plafond, il ne depasse que de 12mm. Difficile de faire plus discret. Mais il pourra etre aussi simplement pose, sa petite taille aidant a le faire passer inapercu, comme on peut le voir sur cette etagere: Bref, si le MultiSensor 6 tient ses promesses, il sannonce comme un futur best seller. Il devrait etre disponible dici le mois de mai, a un prix encore inconnu. Nous vous tiendrons bien sur informes de sa sortie.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Test de la Sirene Z-Wave Plus dAeon Labs 
+ La telecommande porte-cles, le multisensor et le capteur douverture encastrable dAeon Labs passent au Z-Wave Plus 
+ Guide dutilisation de la prise commandee Aeotec ZW075 avec la camera Z-Wave Piper 
+ Jeedom  Guide dutilisation du multisensor 4en1 dAeon Labs END .entry-content  
+        </text>
+</document>

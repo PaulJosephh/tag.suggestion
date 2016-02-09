@@ -1,0 +1,25 @@
+<document>
+	<date>2013-03-13</date>
+        <title>Projet Bases de Donnes/Programmation C : Gogol</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Projet</tag>
+        </tags_set>
+        <categories_set>
+                <category>Cours</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Lobjectif du projet consiste a developper un petit moteur de recherche en appliquant les connaissances acquises dans les cours de bases de donnees et de programmation C.
+ 
+Plus precisement, lobjectif est de parvenir a identifier parmi un ensemble de fichiers texte ceux qui correspondent le mieux a la requete dun utilisateur. Les ressources mises a disposition pour ce projet sont un corpus denviron 3000 petits fichiers texte ainsi quun antidictionnaire sous la forme dun fichier texte enumerant les mots vides (un par ligne). Le
+corpus (i.e. lensemble des quelques 3000 fichiers) peut etre considere comme le resultat du premier processus du moteur de recherche : lexploration. Il reste donc a implementer les deux processus suivants : l indexation recherche 
+ Limplementation de lindexation i.e. 
+ Limplementation de la recherche 
+Ce projet a ete donne aux etudiants de 1ere annee du DUT informatique en apprentissage dans le cours de Bases de Donnees en janvier 2013.
+ 
+ 
+ Sujet du Projet Bases de Donnees/Programmation C  Gogol 
+        </text>
+</document>

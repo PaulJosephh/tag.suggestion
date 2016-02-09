@@ -1,0 +1,38 @@
+<document>
+	<date>2005-01-25</date>
+        <title>PostgreSQL 8.0 pour Windows</title>
+        <author>NiKo</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>Installation de PostgreSQL 8.0 
+
+ Apres avoir telecharge  l'archive contenant l'installeur , decompressez et lancez le setup. 
+
+ Commencez par selectionner la langue de l'installeur, puis selectionnez les paquets par defaut. Ajoutez cependant la gestion des langues afin d'avoir les interfaces et messages d'erreurs eventuelles en francais. Laissez l'installeur creer l'utilisateur postgres. 
+
+ Selectionnez un mot de passe pour vous connecter localement, puis la choisissez d'eventuels modules supplementaires a installer. Pas de panique, ils sont installables post-installation. Une fois l'installation effectuee et les services demarres, connectez-vous a pgAdmin III : 
+ C:\Program Files\PostgreSQL\8.0\pgAdmin III\pgAdmin3.exe 
+
+ pgAdmin III est un gestionnaire graphique pour PostgreSQL tres complet. Vous pouvez gerer entierement vos bases depuis cette application. Pour vous connecter, cliquez sur  Outils  Connexion  et enrez le mot de passe que vous avez determine lors de l'installation. 
+
+ Ensuite, creez un utilisateur administrateur : dans la colonne de gauche, cliquez avec le bouton droit sur le noeud  Utilisateurs  Creer utilisateur . Entrez un login/mot de passe et autorisez l'utilisateur a creer des bases et des utilisateurs. 
+
+ A partir de la vous pouvez soit continuer a creer/administrer vos bases  tables depuis pgAdmin III, soit utiliser un outil d'administration en ligne comme phpPgAdmin, dont l'installation est detaillee dans le paragraphe (les habitues d'outils comme phpMyAdmin devraient s'y retrouver). 
+
+ Installation de phpPgAdmin 
+
+ Assurez-vous d'avoir installe  PHP  et le support de PostgreSQL, notamment en activant l'extension dans le php.ini. 
+
+ Telechargez  phpPgAdmin , decompressez dans votre repertoire web. 
+
+ Editez le fichier  conf/config.inc.php , et modifiez les chemins vers les binaires comme dans l'exemple ci-dessous : 
+
+        $conf['servers'][0]['pg_dump_path'] = 'C:\Program Files\PostgreSQL\8.0\bin\pg_dump.exe';
+        $conf['servers'][0]['pg_dumpall_path'] = 'C:\Program Files\PostgreSQL\8.0\bin\pg_dumpall.exe'; 
+
+ Pointez votre navigateur vers l'adresse de phpPgAdmin, entrez votre login/mot de passe d'utilisateur cree precedemment : ca y est  
+        </text>
+</document>

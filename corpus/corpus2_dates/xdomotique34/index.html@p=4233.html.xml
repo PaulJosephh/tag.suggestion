@@ -1,0 +1,108 @@
+<document>
+	<date>2013-04-30</date>
+        <title>Dernier volet : association Zibase et EnOcean</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>capteur de temperature</tag>
+                <tag>Contacteur de porte</tag>
+                <tag>EnOcean</tag>
+                <tag>integration</tag>
+                <tag>interrupteur</tag>
+                <tag>zibase</tag>
+                <tag>Zodianet</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+  
+ 
+ Je vous ai presente il y a quelques jours un  kit EnOcean  prete par  Univers Domotique et  Giga-Concept . Je ne reviendrai donc pas sur la presentation des differents modules ; ceux ci ayant ete vus dans les articles precedents( Presentation du Pack EnOcean et Test du module RCM250 ). Cette technologie sera bientot disponible sur la centrale HC2 de  MyFox  mais nous allons voir comment utiliser cette technologie avec la  Zibase  de  Zodianet . 
+ 
+ Zodianet ma fait parvenir un prototype (uncontroleur EnOcean ) que lon va connecter directement sur le port serie de la Zibase. Vous pouvez dores et deja commander ce DongleEnOcean chez notre partenaire  MyDomotique . 
+ Dongle-EnOcean-zibase 
+  
+ Celui ci estauto alimentedes quil est connecte a la Zibase. 
+ Dongle EnOcean connecte a la zibase 
+  
+ Integration des modules dans la Zibase 
+  
+ Interrupteur sans fil ni pile PTM 210 avec habillage 
+ 
+  
+ Comme je viens de le dire, cet interrupteur est sans fil ni pile, vous lactionnez et ca lui fournit automatiquementlenergie dont il a besoin pour communiquer. Jai choisi le mode 1 bouton pour le test mais il peut servir en mode 2 boutons. 
+ Lorsque je lactionne celui-ci, et que je vais dans le journaldevenements de la Zibase, je vois apparaitre les deux appuis sur mon bouton 1 clic pour allumer et un clic pour eteindre. 
+ reperage des codes de linterrupteur dans la Zibase 
+ Une fois les codes (entre parenthese VRXXXXXXXX) copies, vous allez ajouter un peripherique et choisir comme Categorie une Telecommande Type KR22 ; Logo General. 
+ Dans les Id radio bouton 1 et 2, vous copiez les codes precedemment recuperes. voir photo ci-dessous : 
+ Toutes les infos a selectionner et a renseigner 
+  
+ Vous pouvez actionner votre interrupteur et allumer une lampe, ou vous pourrez aussi bien lancer un scenario. 
+  
+ SWITCH RCM 250 
+  
+ Ce Switch est pour le moment particulier, car pour lactiver et le faire reconnaitre par votre Zibase.Les actionneurs sont a mettre sur XDD868_INTER famille I1 P16, soit 128 inter possibles (ils seront deplaces sur un ID de protocole a eux plus tard, soit 256 ID possibles) 
+ 
+  
+ Il faudra donc appuyer sur le bouton LRN du module et appuyer sur ASSOC de la Zibase. Ainsi ce module sera associe a la Zibase 
+ 
+ Votre Zibase a reconnu le module 
+ 
+ Vous pouvez donc maintenant allumer votre lampe avec votre interrupteur, mais aussi avec votre Zibase (voir la video). 
+ 
+ Contact de porte STM250 
+  
+ Ce contacteur fonctionne a laide dun capteur solaire (sans pile). Pour le fairereconnaitredans votre Zibase, il suffit dappuyer sur le bouton au dos du capteur. Il apparait immediatement dans le journal desevenements de votre zibase. Il suffit de recuperer son identifiant CSXXXXXXXX. 
+ Allez dans votre Zibase, dans Categorie, choisissez Detecteurs, dans Type General, et bien sur lidentifiant radio copie precedemment. 
+ 
+ Video de Test de message sur votre Zibase si ouverture du contacteur de porte 
+ 
+ Si votre porte a ete ouverte, vous aurez ceci : 
+ 
+ Capteur de temperature STM330 
+  
+ STM 330 
+  
+ Ce capteur soutire son energie a laide de capteur solaire sur lune des faces du module. Comme je vous lavais dit dans larticle precedent concernant les modules EnOcean, il est tres precis. 
+ Pour linclure dans votre Zibase, nous suivrons le meme procede que pour les autres, cest a dire quil faut appuyer sur le bouton au dos du capteur, et vous pourrez lire sur le journal des evenements de votre Zibase son ID radio. OSXXXXXXX 
+ Une fois lID copie, il faut creer un nouveau peripherique, Categorie Sonde de mesure, Type General, Logo General, et surtout lID Radio (OSXXXXXXX) et un clic sur Capture identifiant. A chaque creation de peripherique, pensez a enregistrer. 
+ 
+ Vous aurez donc les temperatures releves par votre sonde sur votre Zibase 
+ 
+ Vous pourrez consulter le releve des temperatures sous forme de courbe 
+  
+ En conclusion 
+ Les modules  EnOcean  sincluent parfaitement dans la  Zibase , cest meme tres simple. Toutes les informations remontent tres bien sur la box. Une fois les capteurs solaires bien recharges ils font leur travail a merveille. Comme on peut le voir chez nos partenaires domotiques, il y a de plus en plus de modules disponible, certes ils sont pas donnes, mais je pense que tout ca va changer. Ca nous permet une economie decablage plus besoin de faire des saigner a gauche ou a droite pour passer les cables, bref un gain de temps. Vous placez vos interrupteurs ou bon vous semble. 
+ Zodianet  frappe un grand coup en mettant un nouveau protocole dans sa box. Son dongle est en commande chez  MyDomotique au prix de 69.00 . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

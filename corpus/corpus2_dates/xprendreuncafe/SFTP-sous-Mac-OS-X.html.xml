@@ -1,0 +1,35 @@
+<document>
+	<date>2007-05-30</date>
+        <title>Monter un lecteur rseau SSH/SFTP sous Mac OS X</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>fuse</tag>
+                <tag>mac</tag>
+                <tag>network</tag>
+                <tag>osx</tag>
+                <tag>ssh</tag>
+        </tags_set>
+        <categories_set>
+                <category>Mac</category>
+        </categories_set>
+        <text>Voici la procedure pour monter un lecteur reseau en utilisant  MacFuse  et  MacFusion  sous OS X Tiger: 
+
+ 
+ Recuperez  MacFuse et sshfs 
+ Recuperez  MacFusion 
+ Installez successivement MacFuse, sshfs puis MacFusion, lancez ce dernier 
+ Configurez l'acces a votre machine via  SSH : 
+ 
+
+ 
+
+
+ Un lecteur reseau est alors place sur le bureau et accessible depuis le Finder. Notez que vous pouvez utiliser une authentification par  cle SSH . 
+
+
+ 
+
+
+ On peut aussi faire la meme chose en  FTP , tout aussi facilement. 
+        </text>
+</document>

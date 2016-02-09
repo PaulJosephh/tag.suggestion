@@ -1,0 +1,15 @@
+<document>
+	<date>2013-07-01</date>
+        <title>
+Raspberry pour les NOOBS ?</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Raspberry-Pi</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Informatiques</category>
+                <category>Tests Logiciels</category>
+        </categories_set>
+        <text>Nous avons deja eu loccasion de  parler du Raspberry a plusieurs reprises . Meme si linstallation nest pas tres compliquee, elle sadresse tout de meme aux personnes bien familieres avec linformatique, surtout quand on parle decrire une image sur une carte SD pour installer lOS Pour faciliter cela,  Raspberry  a eu la bonne idee de creer le systeme  NOOBS , pour les NOOBS (=pour les debutants). En fait NOOBS signifie  New Out Of Box Software . Un joli jeu de mots :p Grace a cela linstallation est vraiment facilitee et ne prendra que quelques minutes pour installer votre petit ordinateur.  Pour commencer, il faut se rendre dans la  partie telechargements du site Rapsberry et telecharger NOOBS:    Au passage on telechargera loutils conseille pour le formatage de la carte SD, SD Formatter 4.0.   Ensuite, inserez votre carte SD dans votre ordinateur, puis lancez SD Formatter (ici sous Mac, mais le meme est dispo sous Windows). Selectionnez votre carte SD dans la liste deroulante, cochez Quick Format si ce nest deja fait, puis cliquez sur Format.   Apres quelques secondes votre carte SD est formatee. Il ne reste plus qua copier les fichiers de NOOBS sur la carte SD apres avoir decompresse le Zip telecharge precedemment:   Cest fini. Beaucoup plus simple a apprehender que lecriture dune image sur SD, nest ce pas ? Il ny a plus qua inserer votre SD dans votre Rapsberry, brancher celui ci a un ecran / clavier / souris / alimentation, et surtout a votre box ADSL, car une connexion internet sera necessaire. Au demarrage, une fenetre va apparaitre pour vous demander de selectionner lOS a installer sur votre SD: une fois selectionne, le systeme sera telecharge et installe, et un redemarrage plus tard, votre Raspbery sera fonctionnel :D Ca ne prendra que le temps du telechargement de lOS, celui ci dependant directement de votre connexion internet. Petite demo en video:   Comme on le voit apres le redemarrage du systeme, un mode recovery a meme ete prevu pour reinstaller le systeme en cas de probleme :D Bref, un must have pour tous les debutants sur Rapsberry (et meme les plus experimentes, on nest jamais contre un peu de facilite ;-). Le seul reproche quon pourrait lui faire ? Meme si le choix des OS est une bonne idee, il demanderait a grossir un peu avec les autres OS dedies au Raspberry, comme Squeezeplug, RasPBX, etc Mais a part cela, cest une excellente idee !   Raspberry-Pi 
+        </text>
+</document>

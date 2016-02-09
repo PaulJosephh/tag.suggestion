@@ -1,0 +1,71 @@
+<document>
+	<date>2005-03-10</date>
+        <title>Personnalisation de l'environnement (Gnome)</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Theme Metacity/GTK 
+
+
+ Metacity est le gestionnaire de fenetre par defaut livre avec Gnome... et il me convient tres bien   GTK c'est l'ensemblme des outils et controles disponibles sous Gnome. Souvent, un theme Gnome associe un theme Metacity et un theme GTK, pour plus de coherence visuelle  
+
+
+ 
+
+
+ Mon theme prefere est  Milk 2.1 . Accessoirement, il fournit un theme gtk que je trouve parfait egalement. D'une maniere generale, j'aime beaucoup les ports disponibles sur  le site Linux-Ports . 
+
+
+ Theme d'icones 
+
+
+ Connaissez-vous  mattahan ? C'est un designer de genie age d'a peine 15 ans, et c'est son set d'icones,  GNANT , que j'ai choisi pour habiller mon Ubuntu  
+
+
+ Il vient de sortir la version 3 de son set d'icones,  GANT3 . Malheureusement, je n'ai pas encore trouve de package pour Gnome mais cependant toutes les icones sont dispos au format PNG, ainsi il est possible d'attribuer certaines icones du set a certains elements de votre dock  
+
+
+ Theme de pointeurs de souris 
+
+
+ J'utilise  Grounation , et vous invite a en savoir plus quand a l'installation de theme de curseurs en lisant  le billet consacre . 
+
+
+ Fond d'ecran 
+
+
+ Je suis un fan absolu des fonds d'ecran de  David Lanham ... J'adore notamment  False Alarm . 
+
+
+ Installation d'un nouveau theme Metacity/GTK 
+
+
+ Sous  Ubuntu Hoary , installer un nouveau theme est enfantin  
+
+ 
+ Recuperer le package du theme, par exemple via  Gnome-look  ou  Art.gnome.org , 
+ Ouvrir le gestionnaire de themes, via  System  Preferences  Themes 
+ Cliquer sur  Installer un theme , puis cliquez sur  Parcourir 
+ Localiser l'archive sur votre disque dur, validez 
+ C'est fait  
+ 
+
+ Personnalisation supplementaire 
+
+
+ Pour un bureau qui en jette un max, il est possible d' ajouter des ombres sur les docks et fenetres ! 
+
+
+ Ou encore de l'agrementer de petits outils graphiques avec  gDesklets . Vous pouvez ainsi avoir en surimpression de votre papier-peint les previsions meteo, la temperature de votre processeur, la vitesse de rotation de vos ventilos, etc... Plus d'exemples dans  cette selection de captures d'ecran . Sous Hoary, l'install est enfantine, comme d'habitude: 
+
+
+ sudo apt-get install gdesklets gdesklets-data 
+
+
+ L'installation effectuee, lancer gDesklets avec la commande...  gdesklets   
+        </text>
+</document>

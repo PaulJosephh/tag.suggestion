@@ -1,0 +1,28 @@
+<document>
+	<date>2014-12-16</date>
+        <title>Guide dutilisation du dtecteur de fume Fibaro FGSS-001 avec la base domotique Homelive dOrange</title>
+        <author> Maximin </author>
+        <tags_set>
+                <tag>detection</tag>
+                <tag>domotique</tag>
+                <tag>fgss-001</tag>
+                <tag>fibaro</tag>
+                <tag>fumee</tag>
+                <tag>guide</tag>
+                <tag>homelive</tag>
+                <tag>incendie</tag>
+                <tag>orange</tag>
+                <tag>tuto</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Homelive</category>
+        </categories_set>
+        <text>
+                                                         La base domotique Orange Z-Wave Fibaro 1. INCLUSION A partir du portail Homelive ( http://homelive.orange.fr/accueil/ notre test de la solution Homelive dOrange Une fois sur le portail, rendez-vous dans objets connectes puis + ajouter un appareil. Une liste de peripheriques soffre a vous. Choisissez capteur de fumee. Inserez ensuite la pile dans le module et pensez bien a enlever la languette de protection si vous utilisez le module pour la premiere fois. Appuyez 3 fois sur le bouton dinclusion du module, situe sur le dessus de celui-ci. Le module doit etre automatiquement reconnu. Si ce nest pas le cas, vous pouvez le dissocier ou le restaurer avant de tenter de linclure a nouveau. En cliquant sur chacun des modules, on va pouvoir modifier: son nom, la piece dans laquelle il se trouve, voir dans quel(s) scenario(s) il est utilise et le supprimer. 2. SCENARIOS On va maintenant pouvoir creer des scenarios. Pour cela on se rend dans longlet scenarios puis + creer un scenario en haut adroite. On selectionne un de nos 2 modules en tant que declencheur. Par exemple capteur defumee. On selectionne un evenement, par exemple detecte de la fumee, puis on enregistre letape. On peut alors choisir un autre declencheur ou passer a letape 2. La on ajoute une action immediate si on veut que laction se declenche des que le capteur est active, ou differee si on veut attendre un certain temps. On peut imaginer un scenario ou une sirene se declenche lorsque le capteur detecte de la fumee par exemple. Jintegre donc une sirene dans mon scenario (la sirene aete prealablement incluse). A letape 3, on peut choisir dans quel(s) mode(s) le scenario va devoir senclencher. Les modes correspondent a letat dans lequel on amis le systeme Homelive: a la maison quand on est present, a lexterieur quand on est absent, la nuit ou en vacances. Ici jai selectionne tous les modes car dans tous les cas je veux que toutes personnes susceptibles detre presentes dans la maison soientalertes en cas dincendie. Enfin on peut choisir de notifier des personnes par mail lorsquele scenario senclenche. Pour ce faire, cliquez sur: Puis rentrer ladresse mail desiree. On nomme ensuite le scenario, et on enregistre. Il est possible de tester celui-ci en cliquant sur tester une fois la configuration terminee. Apercus depuis lapplication smartphone. Ce nest bien sur quun exemple de scenario. Vous avez pu voir que la creation de celui-ci aete tres simple. Plus vous possederez de peripheriques, plus les possibilites de creation de scenarios seront variees, comme par exemple ouvrir les volets lorsque le capteur detecte de la fumee. Vous pouvez retrouver lecapteur de  fumee Fibaro FGSS-001 sur la boutique Domadoo  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Guide dutilisation du detecteur de mouvement Fibaro FGMS-001 avec la base domotique Homelive dOrange 
+ Guide dutilisation de la sirene Aeon Labs ZW080 avec la base domotique Homelive dOrange 
+ Homelive, test de la box domotique dOrange END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,32 @@
+<document>
+	<date>2011-12-07</date>
+        <title>Installer WordPress sur un Nas Synology</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Synology</category>
+                <category>WordPress</category>
+        </categories_set>
+        <text>
+                                                 
+Ce billet explique comment installer  WordPress Synology Le nom de domaine 
+Pour obtenir un nom de domaine, il faut choisir un  registrar gandi Free Internet Personnaliser mon reverse DNS Photo Station Synology mon.nom.de.domaine Activation du serveur Web 
+Dans l'interface d'administration du  Synology Panneau de configuration  Service Web Activer Web Station Activer MySQL MySQL web /volume1/web NAS Activer et parametrer le service FTP 
+Cette etape n'est pas indispensable mais sera tres utile pour faciliter la configuration votre blog  WordPress 
+Nous allons commencer par creer un utilisateur specifique.
+Dans l'interface d'administration du  Synology Panneau de configuration  Utilisateur  Creer Information utilisateur ftpwpuser Nom ftpwppasswp Mot de passe Groupes utilisateur users Configuration des privileges Pas dacces web Lexture/ecriture Privileges d'application FTP 
+Il faut ensuite activer et configurer le service  FTP Synology Panneau de configuration  FTP Activer le service FTP Limites de connexion Permettre la connexion SSL/TLS uniquement 
+Il faut enfin effectuer la redirection de port associee sur votre routeur (copie d'ecran de l'interface de gestion locale de la  FreeBox Revolution 
+Ainsi, lorsque  WordPress FTP 
+Nom de l'Hote    : mon.nom.de.domaine
+ FTPS (SSL) Permettre la connexion SSL/TLS uniquement FTP Synology Creer La base de donnees dediee a WordPress 
+La premiere etape consiste, dans l'interface d'administration du  Synology phpMyAdmin Centre de packages  Disponible  phpMyAdmin Lancer phpMyAdmin Synology root Bases de donnees blog_db Serveur: localhost  Base de donnees: blog_db Privileges Ajouter un utilisateur 
+Nom d'utilisateur : blogadmin (ou le nom de votre choix)
+ Base de donnees pour cet utilisateur Donner tous les privileges sur la base de donnees blog_db Executer Installer WordPress 
+Commencer par telecharger  WordPress wordpress web /volume1/web/monblog ssh 
+chown -R ftpwpuser:users monblog 
+Il faut maintenant creer le fichier de configuration de  WordPress http://mon.nom.de.domaine http://mon.nom.de.domaine/monblog wordpress web Creer le fichier de configuration  Allons-y ! Valider Lancer linstallation ! securiser 
+ Comment installer WordPress sur un Nas synology 
+        </text>
+</document>

@@ -1,0 +1,39 @@
+<document>
+	<date>2015-03-23</date>
+        <title>Webtracking des internautes : une conseill&#232;re nationale "ne voit pas o&#249; est le probl&#232;me"</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Protection des donn&#233;es</tag>
+                <tag>Sph&#232;re priv&#233;e</tag>
+                <tag>Transparence</tag>
+        </tags_set>
+        <categories_set>
+                <category>Opinion</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Venant de Madame  C&#233;line Amaudruz , une conseill&#232;re nationale qui  vote en faveur de la r&#233;vision de la loi sur le renseignement , laquelle augmentera sensiblement les pouvoirs des services de renseignement, sans r&#233;els garde-fous, cette d&#233;claration d&#233;montre toute la m&#233;connaissance (si ce n'est le m&#233;pris) de cette &#233;lue sur les th&#232;mes relatifs &#224; la protection des donn&#233;es et de la sph&#232;re priv&#233;e. Consternant et dangereux. 
+ Transparence, transparence... 
+ Le  Tages Anzeiger  a publi&#233; r&#233;cemment un  article  apr&#232;s avoir parcouru les sites web des &#233;lus f&#233;d&#233;raux (tant du Conseil national que du Conseil des &#201;tats).&#160; 225 sites ont donc &#233;t&#233; analys&#233;s, et 142 mouchards (ou trackers) ont &#233;t&#233; trouv&#233;s. 
+ Le site de Mme Amaudruz contiendrait 20 trackers selon le Tages Anzeiger. Si c'est bien celui que j'ai visit&#233;, il est h&#233;berg&#233; chez Overblog, soci&#233;t&#233; fran&#231;aise et filiale du groupe Webedia. Il n'a apparemment pas &#233;t&#233; mis &#224; jour depuis 2011... Mais l&#224; n'est pas le probl&#232;me. 
+ Les donn&#233;es collect&#233;es par ces trackers sont communiqu&#233;es &#224; des tiers, sans que les internautes ne le sachent. J'ai visit&#233; quelques sites de parlementaires et aucun n'affichait une mention avertissant tant de la collecte de donn&#233;es que de leur communication &#224; des tiers. Ces tiers se trouvent en g&#233;n&#233;ral &#224; l'&#233;tranger. 
+ Parmi les donn&#233;es communiqu&#233;es se trouvent l'adresse IP, des donn&#233;es sur la configuration de l'ordinateur, le navigateur utilis&#233;, etc. Agr&#233;g&#233;s, ces &#233;l&#233;ments permettent assez facilement d'identifier un internaute, &#224; tout le moins de l'individualiser. Ces donn&#233;es sont loin d'&#234;tre compl&#232;tement anonymes. 
+ L' art. 4 al. 4  de la loi f&#233;d&#233;rale sur la protection des donn&#233;es (LPD) stipule que  la collecte de donn&#233;es personnelles, et en particulier les finalit&#233;s du traitement, doivent &#234;tre reconnaissables pour la personne concern&#233;e . Bien que cela soit malheureusement courant aujourd'hui de pister les internautes, il n'en reste pas moins qu'aucun internaute ne doit s'attendre &#224; ce qu'il soit traqu&#233; lorsqu'il visite le site d'un &#233;lu. On n'admettra qu'avec la plus grande retenue le fait que la collecte de donn&#233;es soit reconnaissable dans un pareil cas. 
+ Cette m&#234;me disposition exige aussi que la finalit&#233; du traitement soit connue. Si une communication &#224; des tiers, qui plus est &#224; l'&#233;tranger, est envisag&#233;e, les internautes doivent en &#234;tre avertis d&#232;s leur arriv&#233;e sur le site web. 
+ Madame Amaudruz, vous manquez totalement de transparence envers les internautes qui visitent votre site, vous violez la loi sur la protection des donn&#233;es ( art. 12 al. 2 let. a LPD ) et vous n'y voyez pas de probl&#232;me&#160;?  Votre r&#233;ponse &#224; cette probl&#233;matique, ainsi que votre ignorance et votre n&#233;gligence sont consternantes . Vous faites d&#233;cid&#233;ment bien peu de cas des droits fondamentaux des citoyens suisses, parmi lesquels on trouvera notamment vos &#233;lecteurs. C'est d'autant plus grave car vous si&#233;gez &#224; la Commissions des institutions politiques du Parlement f&#233;d&#233;ral, qui a dans ses attributions non seulement les droits des citoyens, mais aussi... la protection des donn&#233;es&#160;! 
+ Conseils pour les d&#233;tenteurs de sites web 
+ Des outils libres et respectueux de la sph&#232;re priv&#233;e existent. 
+ J'utilise  Piwik  sur mon site pour (b&#234;tement) mesurer l'audience de mes articles. Cet outil est h&#233;berg&#233; sur le m&#234;me serveur que mon site, chez Kreativmedia, en Suisse. Il est configur&#233; pour ne pas enregistrer les adresses IP compl&#232;tes et purge les donn&#233;es accessoires chaque semaine. 
+ Une charte de confidentialit&#233; est disponible et accessible  ici . 
+ Les outils que j'utilise, par exemple pour offrir la possibilit&#233; &#224; mes lecteurs de partager des articles sur les r&#233;seaux sociaux, ont &#233;t&#233; sp&#233;cialement s&#233;lectionn&#233;s parce qu'ils ne transmettent pas d'informations &#224; des tiers, ni m&#234;me &#224; moi-m&#234;me. Ainsi, je n'utilise pas les boutons officiels Twitter, Facebook, etc. pr&#233;cis&#233;ment parce qu'ils pistent les internautes, m&#234;me lorsqu'on ne les utilise pas. 
+ Il en va de m&#234;me pour les commentaires. Plut&#244;t que d'utiliser des services tiers comme Disqus ou les commentaires Facebook, je m'en tiens aux commentaires "de base". Peu sexy, certes, mais au moins respectueux des donn&#233;es de mes lecteurs. 
+ Si tout le monde suivait ne serait-ce que ces quelques conseils, l'impact sur nos donn&#233;es personnelles serait un peu r&#233;duit. Un premier pas, &#224; tout le moins dans la direction de la sensibilisation des &#233;lecteurs et des &#233;lus. 
+ Conseils pour les internautes 
+ Utilisez des outils comme  Disconnect  ou  Ghostery , tout en veillant &#224; les configurer correctement pour qu'eux-m&#234;mes ne transmettent pas d'informations (sur les publicit&#233;s bloqu&#233;es, quels trackers, etc.). 
+ Effacez r&#233;guli&#232;rement votre historique, le cache du navigateur et les cookies, et n'h&#233;sitez pas &#224; utiliser le mode "navigation priv&#233;e" (si cela veut encore dire quelque chose). 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

@@ -1,0 +1,38 @@
+<document>
+	<date>2006-10-22</date>
+        <title>Sauvegarde facile avec Hubackup</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>backup</tag>
+                <tag>bestpractices</tag>
+                <tag>libre</tag>
+                <tag>linux</tag>
+                <tag>softs</tag>
+                <tag>tips</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>[via  Jorge Castro ] 
+
+
+ Sauvegarder son repertoire  /home  regulierement peut vous premunir contre l'alienation mentale en cas de crash disque. Pour vous aider a backuper votre systeme simplement, Dieu a invente  hubackup : 
+
+
+ $ sudo apt-get install hubackup
+$ hubackup 
+
+
+ 
+
+
+ Vous n'avez plus qu'a inserer un CD/DVD vierge, et a le graver. 
+
+
+ Simple, efficace, sans bavure. 
+
+
+ Edit :  Preuve (s'il en est besoin) de l'utilite de  faire des backups regulierement   
+        </text>
+</document>

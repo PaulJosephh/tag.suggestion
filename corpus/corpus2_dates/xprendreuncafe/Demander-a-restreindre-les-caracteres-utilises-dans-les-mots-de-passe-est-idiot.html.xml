@@ -1,0 +1,33 @@
+<document>
+	<date>2008-06-04</date>
+        <title>Demander  restreindre les caractres utiliss dans les mots de passe est idiot</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>ergonomie</tag>
+                <tag>password</tag>
+                <tag>security</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Voulant creer un compte sur un nouveau service en ligne, j'ai eu la desagreable surprise d'obtenir ce message d'erreur au moment de la validation de mon mot de passe: 
+
+
+ Password may only contain alphanumeric characters 
+
+
+ Pour les anglophobes, on me demande de n'utiliser que des caracteres alphanumeriques pour mon mot de passe. 
+
+
+ Ce n'est pas la premiere fois que je tombe sur la mise en place de pareil procede. Quel est l'interet d'imposer cette limitation? Je pense que plus un mot de passe utilise une plage de caracteres diversifiee, plus il est securise. Je peux eventuellement imaginer les problemes que pourraient poser l'utilisation de caracteres codes sur deux octets, ou encore l'angoisse d'une faille XSS potentielle chez les plus paranos, mais de la a interdire purement et simplement les tirets, underscores, espaces [ 1 ] , je trouve ca tout simplement  idiot a tomber par terre . 
+
+
+ Voila, c'est dit. 
+
+
+ Edit :   Quelques astuces sur la securisation des mots de passe . 
+ Notes 
+ [ 1 ] Alors que  l'utilisation de deux espaces dans un mot de passe est tres securisante 
+        </text>
+</document>

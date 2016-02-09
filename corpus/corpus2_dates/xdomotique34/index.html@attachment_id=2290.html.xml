@@ -1,0 +1,93 @@
+<document>
+	<date>2012-12-22</date>
+        <title>Actions Rapide : une des nouveauts de la mise  jour de leedomus en exemple</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>Actions Rapide</tag>
+                <tag>android</tag>
+                <tag>eedomus</tag>
+                <tag>mise a jour</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+  
+ 
+  
+ Leedomus vient de recevoir une nouvelle mise a jour (on peut dire un cadeau de Noel avant lheure) avec pas mal de nouveautes et de corrections ; je ne reviendrai pas dessus. 
+ Nous allons nous attarder sur la nouveaute  Actions Rapide pour smartphone et tablette : 
+ Cela consiste a mettre un raccourci sur votre telephone ou votre tablette afin dacceder directement a certaines actions de votre eedomus sans lancer lapplication et acceder a vos pieces. Un gain de temps certain. 
+ 
+ Pour ma part si je dois activer mon alarme je dois passer par lapplication normale eedomus (a titre dexemple) 
+  
+ 
+ on se retrouve sur le menu principal faisant apparaitre toutes les pieces 
+ 
+ je clique sur licone variable intrusion pour acceder a mes capteurs dactivation de lalarme 
+ 
+ je choisis ma commande variable pour activer ou desactiver mon alarme 
+ 
+ jactive ou non mon alarme, en loccurence elle est desactivee. 
+ On voit donc toutes les etapes que lon doit faire pour arriver a cette option. Mais depuis la mise a jour on peut utiliser la fonction Actions Rapides qui est un moyen de creer des raccourcis daction pour acceder directement a certaines variable. 
+ En tout premier lieu, il faut utiliser lURL de lAPI suivante : 
+ http://api.eedomus.com/set?action=periph.valueperiph_id= [XXXX]value=[XXXX]api_user=[XXXX]api_secret=[XXXX]mode=mobile 
+ On a lURL de lAPI, il nous faut lid du peripherique, la ou les valeurs, et bien sur lapi_user et lapi_secret. 
+ Pour obtenir vos api_user et api_secret, cest simple (il faut se rendre sur mon compte,parametre) 
+ 
+ vous recevrez par email vos identifiant. 
+ Maintenant que vous avez tous les elements, il faut se mettre sur son telephone ou tablette. 
+ Il faut se rendre sur Applications, Parametre et selectionner licone Internet 
+ 
+ Dans ladresse URL, il faut ecrire ladresse API en remplacant les variables en rouge par vos donnees. Si tout est ok on tombe sur lecran suivant (pour mon cas vu plus haut, avec licone correspondant a laction souhaitee). 
+ 
+ On va enregistre cette page en favori pour pouvoir la positionner en page daccueil, en cliquant sur letoile en haut a droite pour obtenir lecran suivant : 
+ 
+ Enregistrer votre favori 
+ 
+ votre favori est cree, il apparait en bas a droite de lecran. Il faut maintenir votre doigt appuyer sur le favori pour que le menu suivant apparaisse 
+ 
+ A ce niveau, cest tout simple vous cliquez sur AJ. raccourci ecran acc., votre raccourci va alors se positionner sur une de vos pages daccueil de votre smartphone ou tablette. 
+ 
+ Pour faciliter les choses et eviter de cliquer sur certains de mes raccourcis, jai decide de creer un dossier eedomus regroupant les divers raccourcis que vous venez de creer. 
+ 
+ en maintenant appuyer votre doigt sur un espace vide de lecran, le menu ci-dessus apparait permettant de creer un dossier. 
+ 
+ voila le repertoire Eedomus est cree et regroupe les raccourcis que jai fait glisser dessus. 
+ 
+ les raccourcis permettant dacceder aux actions sont crees et pret a etre utiliser. Des que vous aurez clique sur lune des icones, vous lancerez lapplication correspondante via lURL. 
+ Un gain de temps non negligeable pour lancer certaines actions et encore un grand merci a lequipe de Connected Object pour cette nouveaute. 
+ Pour ceux qui ne sont toujours pas equipes avec cette magnifique box, il est toujours temps, vous la trouverez chez notre partenaire  Domadoo au prix de 299.00  
+ Si vous avez aime cet article,nhesitezpas a le partager sur les reseaux sociaux et a laisser un commentaire sur le blog ou sur le forum 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

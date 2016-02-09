@@ -1,0 +1,14 @@
+<document>
+	<date>2010-03-21</date>
+        <title>Principe du Protocole HomeEasy</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Protocole RF</category>
+        </categories_set>
+        <text>
+                                                          Le protocole de transmission  RF domotique Chacon  NEXA KlikAanKlikUit HomeEasy Intertechno Duwi Union internationale des telecommunications La trame est composee de 32 bits (ON/OFF) ou 36 bits (DIM). Avant les donnees, il y a un front haut de 275us puis un front bas de 2675us. Les bits de donnees sont encodes sous la forme 0 = 01 et 1 = 10. Exemple de signal enregistre :    Trame : Donnees : Les donnees correspondent aux informations suivantes : Bits 0 a 25 : Numero identifiant lemetteur (numero unique qui peut etre genere aleatoirement) Bit 26 : Flag Group Bit 27 : ON/OFF Bits 28 a 31 : Code device (un meme id peut avoir 16 code device) Bits 32 a 36 : Dim level (facultatif)  Merci a DaRkYoda (TouteLaDomotique.com) pour ces informations.    [endif]  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

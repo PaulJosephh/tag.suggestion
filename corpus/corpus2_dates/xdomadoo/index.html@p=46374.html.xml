@@ -1,0 +1,27 @@
+<document>
+	<date>2015-04-10</date>
+        <title>Guide dutilisation du dtecteur dinondation FIBARO FGFS-101 avec la base domotique Homelive dOrange</title>
+        <author> Pedro </author>
+        <tags_set>
+                <tag>domotique</tag>
+                <tag>fgfs-101</tag>
+                <tag>fibaro</tag>
+                <tag>guide</tag>
+                <tag>homelive</tag>
+                <tag>inondation</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Homelive</category>
+        </categories_set>
+        <text>
+                                                         La base  domotique Orange Z-Wave detecteur dinondation FGFS-101 de Fibaro Fibaro 1.INCLUSION A partir du portail Homelive ( http://homelive.orange.fr/accueil/ notre test de la solution Homelive dOrange Une fois sur le portail, rendez-vous dans  objets connectes  puis  + ajouter un appareil . Une liste de peripheriques soffre a vous. Choisissez  Detecteur de fuite deau . Inserez ensuite la pile dans le module et pensez bien a enlever la languette de protection si vous utilisez le module pour la premiere fois. Appuyez ensuite 3 fois sur le bouton dinclusion du module, situe a linterieur de celui-ci. Le module doit etre automatiquement reconnu. Si cest le cas, lappareil sera detecte. Il suffira de lui donner un nom, de selectionner une piece puis de cliquer sur  Terminer . Si ce nest pas le cas, vous pouvez le dissocier ou le restaurer avant de tenter de linclure a nouveau. Une fois inclus, 2 nouveaux modules sont crees. Chacun pour une fonction particuliere du detecteur, soit fuite deau ou temperature. En cliquant sur chacun des modules, on va pouvoir modifier: son nom, la piece dans laquelle il se trouve, voir dans quel(s) scenario(s) il est utilise et le supprimer. 2.SCENARIO On va maintenant pouvoir creer des scenarios. Pour cela on se rend dans longlet  scenarios  puis  + creer un scenario  en haut a droite. On imagine que lorsque ce module detecte une fuite deau, une sirene se met directement en route. On selectionne un de nos 2 modules en tant que declencheur. Par exemple  detecteur de fuite deau . On selectionne un evenement declencheur si plusieurs nous sont proposes. Par exemple  detecte une fuite deau  puis on enregistre letape. On peut alors choisir un autre declencheur ou passer a letape 2. La on ajoute une action immediate ou differee. Ayant egalement une  sirene Aeon Labs ZW080 On choisi laction queffectuera la sirene. Ici, jai choisi quelle senclenche. Puis on enregistre et on passe a letape 3. A letape 3, on peut choisir dans quel(s) mode(s) le scenario va devoir senclencher. Les modes correspondent a letat dans lequel on a mit le systeme Homelive:  a la maison  quand on est present,  a lexterieur  quand on est absent,  la nuit  ou  en vacances . Ici jai selectionne tous les modes car une inondation peut survenir a tout moment. Enfin on peut choisir de notifier des personnes par mail lorsque le scenario senclenche. On nomme ensuite le scenario, et on enregistre. Il est possible de tester celui-ci en cliquant sur  tester  une fois la configuration fini. Ce nest bien sur quun exemple de scenario. Vous avez pu voir que la creation de celui-ci a ete tres simple. Plus vous possederez de peripheriques, plus les possibilites de creation de scenarios seront variees car ce capteur ne se limite pas quaux detections de fuite deau. Il peut etre egalement utilise pour le chauffage, car il est capable de detecter un depassement de seuil sur temperature.  Vous pourrez retrouver le  detecteur dinondation FGFS-101 sur la boutique Domadoo  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Guide dutilisation du detecteur de mouvement Fibaro FGMS-001 avec la base domotique Homelive dOrange 
+ Guide dutilisation du detecteur de fumee Fibaro FGSS-001 avec la base domotique Homelive dOrange 
+ Guide dutilisation de la prise murale Fibaro FGWPE-101 avec la base domotique Homelive dOrange 
+ Guide dutilisation du detecteur douverture Fibaro FGK-101 avec la base domotique Homelive dOrange END .entry-content  
+        </text>
+</document>

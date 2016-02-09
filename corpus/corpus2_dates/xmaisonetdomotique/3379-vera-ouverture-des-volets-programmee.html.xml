@@ -1,0 +1,18 @@
+<document>
+	<date>2011-01-28</date>
+        <title>
+Vera: Ouverture des volets programme</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>micasaverde</tag>
+                <tag>vera</tag>
+                <tag>volet</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Automatismes</category>
+        </categories_set>
+        <text>Suite des articles pour se familiariser avec la  Vera : aujourdhui nous allons programmer louverture de nos volets ! La aussi, nous allons creer une scene, mais qui ne reposera plus cette fois sur le declenchement dun autre module ( comme la lumiere qui se declenche sur detection de mouvement ), mais sur un calendrier.  
+ I. Materiel  Le materiel se compose: dun  boitier Vera2 dun  module pour volets (dont je parle dans cet article) Je considere que le module est deja couple a la  Vera .  
+ II. Mise en place  Tout dabord, cliquez sur Scene sur linterface web de la  Vera , pour ajouter une nouvelle scene.  En cliquant sur le nom de la scene, en haut a gauche, il est possible de la renommer. Il faut ensuite aller sur longlet Calendriers, puis ajouter un calendrier.  Ici, jai ajoute deux calendriers, car je veux que mes volets souvrent a une heure differente la semaine et le week end. La semaine, je veux que mes volets souvrent au lever du soleil (je pars travailler de bonne heure, ce nest donc pas un probleme). Jindique donc du lundi au vendredi:  Je refais la meme chose pour le week end, mais cette fois jindique une heure fixe a 9h:  Cela permet de gerer differents horaires avec un seul scenario, ce qui est bien pratique. Enfin, on va indiquer laction a accomplir, en allant sur longlet Commandes:  On selectionne / coche ici le volet a ouvrir, et on demande a ce quil soit Open. On peut ici choisir tous les volets de la maison si on souhaite les ouvrir simultanement. On peut ensuite fermer la boite de dialogue a laide de la croix en haut a droite. Veillez a bien enregistrer la configuration en cliquant sur Sauver en haut a droite de linterface:  Voila, vos volets souvriront maintenant tout seul ! On peut utiliser exactement le meme principe pour les fermer: pour ma part les volets se ferment automatiquement 20 minutes avant le coucher du soleil (je considere quil fait suffisamment sombre 20 minutes avant, ce qui oblige a allumer la lumiere, et a partir de ce moment la on voit ce quil se passe chez moi :/ = donc je ferme les volets :D )    micasaverde   vera   volet 
+        </text>
+</document>

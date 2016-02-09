@@ -1,0 +1,42 @@
+<document>
+	<date>2005-11-05</date>
+        <title>Les errances de Liferea</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bug</tag>
+                <tag>grumph</tag>
+                <tag>linux</tag>
+                <tag>rss</tag>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>Liferea  est un  agregateur  sous licence GPL tres courant. La version  1.0RC3  vient de sortir et corrige entre autres un bug extrement genant: celui de la redirection infinie lors d'un parsing de  favicon . 
+
+
+ Le bug consiste en un parsing recursif et continu des liens du type  link rel="icon" type="image/png" href="/path/to/favicon.png" /  afin de decouvrir automatiquement les liens vers des flux de syndication, avec pour consequence l'etablissement d'une connexion permanente sur le port 80 vers le serveur hebergeant l'innocent site possedant ce type de balise...  dont le mien, encore il y a peu . 
+
+
+ C'est Arnaud de  Typhon  - mon hebergeur - qui, apres moult investigations a grands coups de  grep  dans les logs apache, a pu etablir clairement la responsabilite de Liferea  [ 1 ]  dans cette sale affaire  [ 2 ] . 
+
+
+ Je me suis empresse  de signaler ce tres vilain bug  a l'equipe de developpement, et je salue ici  leur reactivite   
+
+
+ Neanmoins, par securite et par compassion pour votre hebergeur, je vous invite a effectuer les demarches suivantes: 
+
+ 
+ Mettre a jour votre version de Liferea, 
+ Retirer les balises du type  link rel="icon" /  de votre site, sachant que la plupart des navigateurs recherchent par defaut la presence d'un fichier  favicon.ico  a la racine de votre docroot apache. 
+ 
+
+ Mise a jour du 20 novembre 2005 
+
+
+ Je pense que  ce post  resume assez bien la situation. N'hesitez plus a mettre a jour votre version de Liferea! [Via Arnaud de  Typhon ] 
+ Notes 
+ [ 1 ] Toutes les version sont concernees sauf la derniere, y compris celle du paquet officiel d'Ubuntu, la  0.9.7b . 
+ [ 2 ]  troll Je ne sais pas si  1 and 1  aurait pris le temps d'effectuer cette demarche et ne m'aurais pas radie sans preavis. /troll 
+ 
+        </text>
+</document>

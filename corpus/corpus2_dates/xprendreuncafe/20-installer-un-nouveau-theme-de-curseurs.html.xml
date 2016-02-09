@@ -1,0 +1,31 @@
+<document>
+	<date>2005-03-01</date>
+        <title>Installer un nouveau thme de pointeurs de souris</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Alors tout d'abord, il nous faut installer un petit utilitaire,  gCursor : 
+
+
+ $ sudo apt-get install gcursor 
+
+
+ Ensuite, il nous faut recuperer un joli set de pointeurs, en passant par exemple par  gnome-look.org . Perso, j'aime bien  Grounation   
+
+
+ La ou ca se corse, c'est que l'installeur de pointeur de gCursor fonctionne moyen   Qu'a cela ne tienne, nous allons donc installer les fichiers manuellement. Decompressez l'archive telechargee (pour Grounation, c'est 14484-Grounation-0.3.tar.bz2) et copiez le dossier Grounation-0.3.tar.bz2_FILES/Grounation-0.3/Grounation dans votre repertoire ~/.icons/ - de facons a obtenir ceci: 
+
+
+ 
+
+
+ Lancez maintenant gCursor (System  Preference  Cursor Selection sous Hoary), selectionnez Grounation dans le menu et relancez le serveur X (CTRL + ALT + DEL): vous devriez desormais disposer de votre nouveau set de pointeurs  
+
+
+ 
+        </text>
+</document>

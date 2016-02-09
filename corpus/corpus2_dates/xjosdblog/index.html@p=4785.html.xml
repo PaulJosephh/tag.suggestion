@@ -1,0 +1,35 @@
+<document>
+	<date>2013-12-09</date>
+        <title>Vera Lite : Polling</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Vera</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+                <category>Modules</category>
+        </categories_set>
+        <text>
+                                                 Problematique 
+ 
+Le  polling Vera Z-Wave polling polling Parametrage general 
+Le  polling Poll nodes SETUP Z-Wave Settings Options polling SETUP Z-Wave Settings Options 
+ Number of seconds to wait to start polling 20 Vera Luup polling Only poll a node if the Z-Wave network is idle at least 10 seconds Vera polling polling Unless specified otherwise, poll each node at most once every 60 seconds polling Poll a node every 30 seconds polling Parametrage par module 
+Le seul parametrage specifique a un module est  Poll this node at most once every xx seconds  (0=never poll, blank=default) Settings xx 
+Pour tout module  Z-Wave polling Poll this node at most once every Wakeup interval Procedure de  polling 
+Si le  polling Vera Luup 
+Les modules sont interroges successivement en commencant par le premier ( i.e. device Vera 
+Une fois que tous les nuds ont ete interroges, le processus se repete en prenant en compte la frequence maximum dinterrogation specifiee en (6) ou, par defaut, en (4).
+ 
+On comprend donc que cette procedure ne permet pas de specifier une frequence de  polling Z-Wave Produits 
+ 
+ 
+ 
+Shopping :  Vera Lite  Controleur domotique Z-wave Informations et sources 
+ 
+ Polling Settings 
+ Sommaire Domotique 
+        </text>
+</document>

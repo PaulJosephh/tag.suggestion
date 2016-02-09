@@ -1,0 +1,67 @@
+<document>
+	<date>2005-05-06</date>
+        <title>Afficher le nombre de billets par catgorie dans Dotclear</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>dotclear</tag>
+                <tag>php</tag>
+                <tag>tips</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dotclear</category>
+        </categories_set>
+        <text>Fichier  /dotclear_path/themes/montheme/prepend.php : 
+
+ 
+
+ function  dcCatListWithNumbers ( $block = 'ul%s/ul' , $item = 'li%s/li' , $number = 'nbsp;[%s]' ) 
+ { 
+         global   $rs_cat ,  $cat_id ,  $lang ,  $blog ;
+        
+         $comp_url  =  '' ;
+        
+         if   ( $lang )   { 
+                 $comp_url  =  $lang . '/' ;
+         } 
+        
+         if   ( ! $rs_cat - isEmpty ( ) ) 
+         { 
+                 $res  =  '' ;
+                
+                 while   ( ! $rs_cat - EOF ( ) ) 
+                 { 
+                         if   ( $rs_cat - f ( 'nb_post' )    0 ) 
+                         { 
+                                 $id  =  $rs_cat - f ( 'cat_libelle_url' ) ;
+                                 $libelle  =  $rs_cat - f ( 'cat_libelle' ) ;
+                                 $nPost  =  $rs_cat - f ( 'nb_post' ) ;
+                                
+                                 $lien  =  'a href="' .
+                                 sprintf ( $blog - front_url [ 'cat' ] , $comp_url . $id ) .
+                                 '"' . $libelle . '/a' .sprintf ( $number , $nPost ) ;
+                                
+                                 if   ( $cat_id  ==  $id )   { 
+                                         $lien  =  'strong' . $lien . '/strong' ;
+                                 } 
+                                
+                                 $res  .=  sprintf ( $item , $lien ) ;
+                         } 
+                         $rs_cat - moveNext ( ) ;
+                 } 
+                 $rs_cat - moveStart ( ) ;
+                
+                 printf ( $block , $res ) ;
+         } 
+ } 
+
+
+ Dans votre fichier  template.php , en lieu et place de la fonction  dcCatList() , il ne vous reste plus qu'a appeller votre nouvelle fonction  dcCatListWithNumbers() , voire lui passer en arguments la mise en forme a appliquer aux elements  $block ,  $item  et  $number . 
+
+
+ Par exemple, si l'affichage du nombre entre crochets ne vous satisfait pas, vous pouvez utiliser cette appel: 
+
+ ?php  dcCatListWithNumbers ( 'ul%s/ul' ,  'li%s/li' ,  'nbsp;(%s)' ) ;  ? 
+        </text>
+</document>

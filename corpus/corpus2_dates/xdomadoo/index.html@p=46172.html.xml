@@ -1,0 +1,19 @@
+<document>
+	<date>2015-03-27</date>
+        <title>Synology prsente son routeur au #Cebit15</title>
+        <author> Cdric L. </author>
+        <tags_set>
+                <tag>axis</tag>
+                <tag>cebit</tag>
+                <tag>Cebit15</tag>
+                <tag>routeur</tag>
+                <tag>synology</tag>
+        </tags_set>
+        <categories_set>
+                <category>Multimedia</category>
+        </categories_set>
+        <text>
+                                                         Comme vous devez sans doute le savoir, le  Cebit domotique Synology Nas Synology Nas Nas En pratique, ce type dappareil propose generalement plusieurs emplacements pour y loger des disques durs, afin davoir un espace de stockage important. Chez  Synology Nas Ou encore le DS2415+, accueillant 12 disques et plus grace a ses extensions: Le domaine professionnel est egalement bien loge, avec des racks destines a rejoindre des armoires de brassage: Des installations plutot impressionnantes etaient donc presentees, comme cette armoire clignotant de mille feux: Synology Cebit NAS DS215+ : processeur ARM double cur a 1,4 GHz avec chiffrement materiel, 1 Go de memoire vive, deux ports Gigabit  Ethernet USB DS715+ : processeur quadri cur a 1,4 GHz (probablement un Intel Atom), 2 Go de memoire vive, deux ports Gigabit  Ethernet DS1515 : idem mais cinq baies extensibles a quinze, emplacement pour SSD de memoire cache et quatre ports Gigabit  Ethernet Mais reduire linteret des  Nas Nas Synology Les  Nas Synology Mais aussi de la surveillance video, et meme un peu de  domotique Nas La version DSM 5.2 en beta etait egalement presentee. Cette version apporte bien sur de nombreuses nouveautes, mais lune des plus interessantes est Docker, qui va permettre dajouter la virtualisation aux  Nas Synology Bon je ne vous ferai pas un cours complet ici, mais je vous invite a  lire lexcellent article de Cachem a ce sujet cec un paquet est deja pret pour Jeedom domotique Nas Mais la grosse nouveaute materielle de  Synology Synology Nas Nas Wi-Fi ethernet Mais on trouve aussi unport  USB NAS Pour gerer tout  cec Synology De meme, il sera tres facile par exemple de localiser lorigine dune adresse IP, les outils necessaires etant integres: Comme DSM, SRM dispose dun gestionnaire de paquets: autrement dit il sera possible dy installer des applications. Cest a cela que sont destines le port SD et le port  Usb Nas Nas Nas domotique Nas SynoZwave domotique Il va toutefois falloir etre patient, puisquaucune date de disponibilite na ete devoilee. Il devrait simplement sortir avant la fin de lannee, a un prix qui salignera sur le marche actuel  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

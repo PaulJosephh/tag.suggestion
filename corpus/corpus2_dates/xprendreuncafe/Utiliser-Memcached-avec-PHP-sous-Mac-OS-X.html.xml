@@ -1,0 +1,58 @@
+<document>
+	<date>2008-10-30</date>
+        <title>Utiliser Memcached avec PHP sous Mac OS X</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>mac</tag>
+                <tag>memcache</tag>
+                <tag>osx</tag>
+                <tag>php</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Ayant recemment eu besoin de travailler sur une application utilisant  memcached , jai du linstaller sur ma machine perso tournant sous Mac OS X. Pour memoire, memcached est un systeme de stockage distribue de paires cle/valeur en memoire vive, tres rapide et performant. Cela peut saverer un outil de choix pour faire monter en charge une architecture, par exemple en ajoutant des frontaux web et en utilisant memcached comme espace partage de stockage des donnees de session utilisateur. On peut egalement imaginer dy stocker les resultats de traitements complexes, des templates compiles, des jeux de resultats SQL, etc. 
+
+
+ Jai trouve un  excellent tutoriel dinstallation de memcache pour OS X  pour cela, que je vous invite a suivre pour mettre en uvre les exemples ci-apres. Une fois linstallation effectuee, vous pouvez lancer le demon memcached avec cette ligne de commande: 
+
+
+ $ sudo memcached -d -u nobody -m 128 127.0.0.1 -p 11211 
+
+
+ Notez que cette derniere ligne de commande lance le demon memcached sous lutlisateur  nobody , en local sur le port  11211  et alloue 128Mo de memoire vive au service de stockage. 
+
+
+ Exemple dutilisation en PHP 
+
+
+ Le tutoriel couvre egalement linstallation de l extension PECL memcache , fournissant une API particulierement simple et efficace a PHP pour utiliser le service. 
+
+
+ Exemple dutilisation basique: 
+
+  php
+?php
+$m = new Memcache;
+$m-connect('localhost', 11211) or die ("Could not connect");
+$m-set('toto', 'tata');
+echo $m-get('toto'); // tata
+ 
+
+
+ Pour utiliser memcached comme systeme de stockage des sessions, PHP dispose dun gestionnaire de sessions memcache quil suffit dactiver par configuration dans votre fichier  php.ini . Il suffit de remplacer la valeur: 
+
+
+ session.save_handler = files 
+
+
+ Par ces deux lignes, en adaptant au besoin les valeurs de connexion au demon: 
+
+
+ session.save_handler = memcache
+session.save_path="tcp://127.0.0.1:11211?persistent=1weight=1timeout=1retry_interval=15" 
+
+
+ Attention cependant, en cas de coupure du service memcached, toutes les donnees de sessions actives seront perdues. 
+        </text>
+</document>

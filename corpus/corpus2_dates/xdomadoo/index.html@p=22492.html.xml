@@ -1,0 +1,14 @@
+<document>
+	<date>2012-10-29</date>
+        <title>Utilisation du Telldus Scheduler</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Telldus</category>
+        </categories_set>
+        <text>
+                                                          Le Scheduler est un complement du logiciel TelldusCenter qui vous permet de commander vos recepteurs (uniquement en on/off) en programmant des   Telldus Scheduler peut etre utilise avec le  TellStick TellStick Duo  Tout dabord, demarrez  Telldus Scheduler   Pour revenir a TelldusCenter afin deffectuer deventuels reglages, cliquez sur :   Pour creer des commandes, cliquez sur :  Une nouvelle fenetre souvre alors.   Vous allez pouvoir ajouter des commandes avec les recepteurs crees auparavant sur TelldusCenter. Pour ajouter des recepteurs, cliquez sur  Add  Selectionnez le recepteur que vous voulez ajouter puis choisissez le type daction (On pour commencer), puis appuyez sur  OK   Une fois les commandes crees, nommez et ajoutez une description de votre programmation, puis cliquez sur longlet   Schedule   Maintenant vous pouvez programmer vos scenarios.   Indiquez dans  Schedule Dans   Time Dans  Start date Et enfin dans  Schedule days Puis cliquez sur  OK Votre scenario saffiche dans longlet  Scheduled units   Pour creer un scenario  Off, la demarche sera exactement la meme sauf quau moment de creer votre scenario, vous selectionnerez  Off comme  cec     Vous savez maintenant comment creer des scenarios avec le Telldus Scheduler !  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

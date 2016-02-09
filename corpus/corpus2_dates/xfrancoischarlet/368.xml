@@ -1,0 +1,57 @@
+<document>
+	<date>2013-05-24</date>
+        <title>Ce qu'une adresse e-mail ou IP peut r&#233;v&#233;ler sur vous</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Protection des donn&#233;es</tag>
+                <tag>Sph&#232;re priv&#233;e</tag>
+        </tags_set>
+        <categories_set>
+                <category>Technologies</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Dans un  rapport  pr&#233;par&#233; par le Commissariat &#224; la protection de la vie priv&#233;e du Canada, celui-ci explique avoir men&#233; une analyse afin de d&#233;terminer quelles informations peuvent &#234;tre r&#233;colt&#233;es au sujet d'une personne &#224; partir d'un num&#233;ro de t&#233;l&#233;phone, une adresse e-mail ou une adresse IP. 
+ L'analyse r&#233;pond &#224; un projet de loi canadienne concernant "l'acc&#232;s l&#233;gal" &#224; des informations pour les services de s&#233;curit&#233; nationale ou ceux de mise en vigueur de la loi. L'acc&#232;s l&#233;gal fait ici r&#233;f&#233;rence &#224; l'absence de n&#233;cessit&#233; d'obtenir une autorisation judiciaire (un "mandat") afin d'acc&#233;der &#224; certaines informations comme le nom de la personne utilisant une adresse IP, par exemple. 
+ Le dernier projet de cette loi concernerait directement les informations suivantes&#160;: 
+ 
+ le nom&#160;; 
+ l&#8217;adresse&#160;; 
+ le num&#233;ro de t&#233;l&#233;phone&#160;; 
+ l&#8217;adresse e-mail&#160;; 
+ l&#8217;adresse IP&#160;; 
+ l&#8217;identifiant du fournisseur de services locaux. 
+ 
+ L'argument avanc&#233; est que ces renseignements sont "de nature similaire &#224; ceux contenus dans un annuaire t&#233;l&#233;phonique" et ne devraient donc pas n&#233;cessiter une autorisation sp&#233;cifique pour &#234;tre obtenus. Le Commissariat d&#233;ment cette affirmation, apr&#232;s avoir test&#233; quels sont les renseignements que tout un chacun peut obtenir en utilisant simplement un moteur de recherche ou des outils disponibles sur Internet. 
+ Lorsqu'on est en possession d'un  num&#233;ro de t&#233;l&#233;phone (fixe ou mobile) , il est possible de d&#233;couvrir entre autres&#160;: 
+ 
+ les noms et adresses associ&#233;s &#224; ce num&#233;ro&#160;; 
+ l'activit&#233; publique sur Internet et les documents accessibles o&#249; figure ce num&#233;ro de t&#233;l&#233;phone&#160;; 
+ le ou les noms de domaine associ&#233;s &#224; ce num&#233;ro (pour autant que ce soit public). 
+ 
+ Dans le cas d'une  adresse e-mail , on peut notamment connaitre&#160;: 
+ 
+ le nom r&#233;el du d&#233;tenteur (s'il est contenu dans l'adresse elle-m&#234;me ou s'il y est associ&#233;) ; 
+ l'inscription &#224; des services sur Internet si l'adresse a &#233;t&#233; utilis&#233;e comme identifiant personnel (username) ; 
+ si un nom de domaine a &#233;t&#233; enregistr&#233; en utilisant cette adresse (et par ce biais, obtenir d'autres informations encore) ; 
+ l'activit&#233; publique sur Internet et les documents accessibles o&#249; figure l'adresse e-mail (y compris des e-mails qui auraient &#233;t&#233; index&#233;s par les moteurs de recherche et qui contiendraient l'adresse e-mail recherch&#233;e) ; 
+ la liste des contacts sur les r&#233;seaux sociaux&#160;; 
+ les noms d'anciens employeurs (dans le cas o&#249; l'adresse e-mail est affich&#233;e dans un CV publi&#233; sur Internet). 
+ 
+ Enfin, gr&#226;ce &#224; l' adresse IP , on peut notamment recueillir&#160;: 
+ 
+ le propri&#233;taire ou l'exploitant d'un r&#233;seau (au moyen d'une base de donn&#233;es WHOIS, afin de d&#233;terminer &#224; quelle compagnie appartient l'adresse IP, sa localisation g&#233;ographique approximative ainsi qu'&#233;ventuellement celle de la personne, etc.) ; 
+ la correspondance entre l'adresse IP et un nom de domaine&#160;; 
+ le chemin logique vers un ordinateur au moyen d'un "traceroute" permettant de savoir par o&#249; transitent les paquets de donn&#233;es&#160;; 
+ l'emplacement g&#233;ographique (plus ou moins pr&#233;cis en fonction des outils utilis&#233;s), par exemple le pays, la province ou l&#8217;&#201;tat, la ville, la latitude/longitude, l&#8217;indicatif r&#233;gional du num&#233;ro de t&#233;l&#233;phone et une carte g&#233;ographique&#160;; 
+ les logs d'un serveur web, les r&#233;visions des pages Wikip&#233;dia, etc. ; 
+ des informations sur l'adresse e-mail en fonction de l'adresse IP utilis&#233;e. 
+ 
+ Tous ces renseignements, relativement ais&#233;ment glan&#233;s, permettent de savoir quels services Internet sont utilis&#233;s, les int&#233;r&#234;ts personnels et penchants de l'int&#233;ress&#233;, son &#233;tat de sant&#233;, ses affiliations &#224; des organisations, les endroits fr&#233;quent&#233;s, les fr&#233;quentations, etc. Toutes ces informations sont des informations personnelles, parfois sensibles, qui r&#233;v&#232;lent bien plus d'&#233;l&#233;ments sur une personne qu'une simple entr&#233;e dans un annuaire t&#233;l&#233;phonique.  
+ D&#232;s lors, au vu de la quantit&#233; de donn&#233;es disponibles, l'analogie entre les donn&#233;es d'annuaire et un num&#233;ro de t&#233;l&#233;phone, une adresse e-mail ou une adresse IP n'est pas soutenable. 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

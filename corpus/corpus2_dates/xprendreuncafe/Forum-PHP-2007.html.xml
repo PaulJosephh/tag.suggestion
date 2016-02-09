@@ -1,0 +1,32 @@
+<document>
+	<date>2007-10-31</date>
+        <title>Forum PHP 2007</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>afup</tag>
+                <tag>forumphp</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Juste un petit mot pour vous informer que le  Forum PHP 2007  se tiendra les 21 et 22 novembre prochains a Paris dans le 7eme arrondissement. 
+
+
+ Au programme, quelques invites prestigieux comme  Rasmus Lerdorf  et  Andrei Zmievski  mais aussi un  programme de conferences allechant : 
+
+ 
+ Clients riches avec PHP: L'exemple de  Flex 
+ Optimistations, methodes, securite: retours d'experience dans les grands comptes 
+ Les nouveautes de PHP6 
+ Comment Facebook tient la charge avec APC 
+ Securite: MySQL et PHP sous surveillance 
+ 
+
+ Cote  Symfony , Fabien Potencier animera une session sur la  simplification du developpement des interfaces aux bases de donnees . 
+
+
+ Bref, un evenement d'importance dans le petit monde de PHP, venez nombreux  
+        </text>
+</document>

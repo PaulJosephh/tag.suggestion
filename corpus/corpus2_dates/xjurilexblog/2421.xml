@@ -1,0 +1,48 @@
+<document>
+	<date>2008-03-27</date>
+        <title>QUIZZ : Logiciel libre et open source</title>
+        <author>Nathalie VILLEROT juriste</author>
+        <tags_set>
+                <tag>Droit d'auteur</tag>
+                <tag>Logiciel libre</tag>
+        </tags_set>
+        <categories_set>
+                <category>Droit d'auteur</category>
+        </categories_set>
+        <text>
+                    
+ Les logiciels libres et open source ont cet avantage de pouvoir &#234;tre utilis&#233;s et modifi&#233;s librement par le licenci&#233;. Mais cette licence impose quand m&#234;me de respecter un certain nombre de conditions. Faisons le point via le quizz en 6 questions. 
+ 1.&#160;Qu&#8217;est ce qu&#8217;un logiciel libre et un logiciel open source ? 
+ Les logiciels libres, ou &#171; free software &#187;, et les logiciels en Open Source sont des logiciels propos&#233;s par leur auteur en code source. Le code source est une version intelligible c&#8217;est-&#224;-dire compr&#233;hensible par un d&#233;veloppeur, &#224; la diff&#233;rence du code ex&#233;cutable qui est une version cod&#233;e en langage &#171; machine &#187;. 
+ 2.&#160;Quelle est la diff&#233;rence entre un logiciel libre et un logiciel open source ? 
+ Il y a peu de diff&#233;rence entre les deux, cela tient surtout au fait que ces licences ont &#233;t&#233; d&#233;velopp&#233;es par un concepteur diff&#233;rent. 
+ Pour les licences qui rel&#232;vent de l&#8217;Open Source Initiative ( www.opensource.org ), on parle de logiciel Open Source. 
+ Pour les licences qui rel&#232;vent du mouvement initi&#233; par Richard Stallman ( www.gnu.org ) : on parle de logiciel libre ou &#171; free software &#187;. 
+ 3.&#160;Ces logiciels sont-ils gratuits ?   
+ L&#8217;utilisation d&#8217;un logiciel Open source ou d&#8217;un logiciel libre n&#8217;est pas n&#233;cessairement gratuite : l&#8217;auteur demande parfois un paiement en contrepartie de l&#8217;acc&#232;s au code source.  
+ Les logiciels libres sont &#233;labor&#233;s gr&#226;ce aux contributions des membres de la communaut&#233;. Un &#171; core team &#187; &#8211; compos&#233; de contributeurs de haut niveau &#8211; effectue les contr&#244;les assure la coh&#233;rence et la qualit&#233; des d&#233;veloppements. Cette organisation permet de produire des logiciels dont le co&#251;t est limit&#233; et la technicit&#233; &#233;lev&#233;e. En cas de mise &#224; disposition &#224; titre gratuit du logiciel, les co&#251;ts sont report&#233;s sur le service ( formation , support et mise &#224; jour). 
+ 4.&#160;Quel est l&#8217;int&#233;r&#234;t d&#8217;une telle licence et quelles en sont les conditions? 
+ Quelque soit la licence choisie, l&#8217;auteur qui choisit de mettre son logiciel en Open Source ou en free software permet aux autres d&#233;veloppeurs d&#8217;adapter son logiciel de le faire &#233;voluer et de l&#8217;int&#233;grer dans d&#8217;autres logiciels. 
+ Toutefois, l&#8217;auteur du logiciel ne renonce pas &#224; son droit d&#8217;auteur pour autant; le code source des logiciels est prot&#233;g&#233; par le droit d&#8217;auteur et &#224; ce titre, l&#8217;auteur d&#8217;un logiciel libre pose des conditions &#224; l&#8217;utilisation de sa cr&#233;ation. Ces conditions sont pr&#233;cis&#233;es dans la licence d&#8217;utilisation du logiciel.  
+ 5.&#160;Que peut faire le titulaire d&#8217;une licence open source ? 
+ &#8226;&#160;Utiliser le logiciel sans limitation du nombre d&#8217;utilisateurs &#224; condition notamment de faire figurer &#171; visiblement &#187; sur les copies effectu&#233;es une mention selon laquelle le logiciel ne fait pas l&#8217;objet d&#8217;une garantie, de ne pas modifier les mentions faisant r&#233;f&#233;rence &#224; la General Public License (GPL), de fournir une copie de cette GPL avec chaque copie de logiciel. 
+ &#8226;&#160;Copier et distribuer le code ex&#233;cutable du logiciel sur tous supports et dans tous pays &#224; condition notamment &#171; de le distribuer avec une offre &#233;crite de fournir &#224; l&#8217;utilisateur la copie des codes source contre r&#233;mun&#233;ration sachant que cette r&#233;mun&#233;ration ne peut pas exc&#233;der le prix de la copie, et en cas de distribution &#171; non-commerciale &#187;, de r&#233;percuter l&#8217;offre d&#8217;acc&#232;s aux codes source. &#187; 
+ &#8226;&#160;Modifier le logiciel pour corriger des dysfonctionnements, adapter le logiciel, apporter de nouvelles fonctionnalit&#233;s ou effectuer des traductions. Il doit pour cela indiquer quelles sont les portions modifi&#233;es, son nom et la date de la modification.  
+ En contrepartie, le licenci&#233; renonce &#224; la r&#233;servation des droits sur l&#8217;ensemble du logiciel int&#233;grant les portions modifi&#233;es comme c&#8217;est le cas en mati&#232;re d&#8217;&#339;uvre collective.  
+ 6.&#160;Quel est l&#8217;inconv&#233;nient de ce type de licence ? 
+ La licence GPL des logiciels libres pr&#233;voit que le licenci&#233; assume seul la totalit&#233; du risque li&#233; &#224; la qualit&#233; et aux performances du logiciel ainsi qu&#8217;aux cons&#233;quences li&#233;es &#224; d&#8217;&#233;ventuelles pertes de donn&#233;es ou aux dysfonctionnements du logiciel. 
+ Toutefois, en droit fran&#231;ais, la voie des garanties l&#233;gales reste ouverte en cas de vices cach&#233;s. En effet, l&#8217;article 1625 du code civil &#233;nonce que : &#171; La garantie que le vendeur doit &#224; l&#8217;acqu&#233;reur a deux objets : le premier est la possession paisible de la chose vendue ; le second, les d&#233;fauts cach&#233;s de cette chose ou les vices r&#233;dhibitoires. &#187;.  
+ En outre, l&#8217;article 1386-1 du code civil pose un principe g&#233;n&#233;ral de la responsabilit&#233; du fabricant pour les d&#233;fauts des produits qu&#8217;il met en circulation (&#171; Le producteur est responsable du dommage caus&#233; par un d&#233;faut de son produit, qu&#8217;il soit ou non li&#233; par un  contrat  avec la victime &#187;). 
+ Sources :  Le Journal du Net  
+ &#160; 
+
+ 
+  
+
+          
+         
+
+
+                         
+        </text>
+</document>

@@ -1,0 +1,14 @@
+<document>
+	<date>2012-07-24</date>
+        <title>Guide dinstallation de la tlcommande minimote Aeon Labs avec la ZiBASE</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>ZiBASE Produits</category>
+        </categories_set>
+        <text>
+                                                          Ce guide va vous expliquer comment utiliser la telecommande  Z-Wave Aeon Labs ZiBASE  Tout dabord, il faut mettre a jour votre telecommande Minimote. Branchez-la avec le cable  USB Rendez vous sur la page  http://www.aeon-labs.com/site/products/view/3/ V5.02 P3 V1.17 EU   Ouvrez le fichier puis executer la mise a jour.   Cliquez sur Update, puis attendez que la mise a jour se termine sans debrancher votre telecommande   Connectez-vous maintenant a votre compte sur  zibase.net Dans longlet  Domotique Puis cliquez sur Ajouter en bas a gauche de la page.  Selectionnez Actionneurs, puis ZWAVE et enfin GENERAL pour le logo de dapplication. Attention de ne pas la declarer comme visible sur votre interface PCPad, iPhone ou Android (encadree en rouge sur limage ci-dessous).   Appuyez une fois sur le bouton LEARN de la telecommande. Cliquez sur Enregistrer. Ajoutez un nouveau peripherique et choisissez Telecommandes comme categorie.   Dans les parametres, cliquez sur Capture didentifiant puis dans le meme temps appuyez sur le bouton de votre choix de la telecommande (appui court ou long), jusqua ce que son identifiant saffiche dans le champ. Faites de meme pour les 4 boutons de la Minimote.   Pour utiliser votre telecommande Minimote, il faut maintenant creer des scenarios. Allez dans longlet Scenarios, et choisissez comme source de declenchement un des boutons de votre telecommande. Par exemple, nous allons creer un scenario pour louverture et la fermeture dun volet roulant. Le bouton 1 enverra une commande ON qui permettra douvrir le volet. Il faudra selectionner dans ACTION lactionneur de votre volet roulant.   Faites la meme manipulation pour la commande OFF mais cette fois selectionnez le bouton 2 et cochez OFF.   Vous pouvez desormais piloter votre volet roulant avec votre telecommande Minimote!  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

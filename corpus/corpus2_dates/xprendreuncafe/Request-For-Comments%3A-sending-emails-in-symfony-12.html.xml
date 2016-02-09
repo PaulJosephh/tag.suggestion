@@ -1,0 +1,32 @@
+<document>
+	<date>2008-09-17</date>
+        <title>Request For Comments: sending emails in symfony 1.2</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>community</tag>
+                <tag>email</tag>
+                <tag>rfc</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>There should be a standard way for sending emails in upcoming symfony 1.2, and Im in charge of implementing it, using the  excellent   SwiftMailer  library. So Ive created a  dedicated RFC page on the symfony wiki  just to get your opinions on the Right Way It Should Be Done. 
+
+
+ If youre interested, theres also a  dedicated thread on the devs mailing list . 
+
+
+ Edit:  Swift integration didnt make it for symfony 1.2, and here are my main reasons: 
+
+ 
+ I didnt get enough time 
+ Swift is strangely coded from an architecture point of view: you must override the SMTP connection class to be able to send a mail using PHP  mail()  native function; so its hard to extend or tweak it easily 
+ I didnt get enough time 
+ Swift looked like a dead project  at the time  symfony 1.2 was released 
+ I didnt get enough time 
+ 
+
+ To be honnest Id like to see it integrated for symfony 1.3, but maybe with another lib Stay tuned. 
+        </text>
+</document>

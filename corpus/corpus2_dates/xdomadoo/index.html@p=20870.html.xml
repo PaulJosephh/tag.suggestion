@@ -1,0 +1,21 @@
+<document>
+	<date>2010-07-22</date>
+        <title>Installation PLCBUS de base</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>PLCBUS Applications</category>
+        </categories_set>
+        <text>
+                                                          Une installation  PLCBUS PLCBUS 
+ Lemetteur peut etre une telecommande ( PLC4060 PLC4073 PLC4034 PLC4036 
+ Le recepteur peut etre un module appareil (ordre ON / OFF uniquement) ou un module lampe (ordres ON / OFF et variation). On peut le trouver sous differentes formes : 
+ Module prise ( PLC2026 ,  PLC2027 
+ Module  Rail DIN PLC2264HX ,  PLC2268HX2  ) 
+ Interrupteurs ( PLC2220 PLC3160H PLC2281E , ) 
+ Micromodules encastrables derriere une prise electrique ou un interrupteur ( PLC2263 PLC2267 , ) 
+ Convertisseur de signaux Radiofrequences en signaux courant porteur  PLCBUS  ( PLC4022 )  Exemple dinstallation: Dans lexemple suivant, les lumieres et les appareils sont commandes par lintermediaire dune telecommande   PLC4060 RF Le signal  RF  traverse les cloisons, planchers etc. Il peut quand meme etre attenue par des elements metalliques contenus dans les murs. Ce signal a besoin ensuite detre transforme en courant porteur  PLCBUS .  Le transmetteur RF /  PLCBUS   PLC4023 Le recepteur le plus simple a installer est le module prise qui se connecte directement entre la prise electrique et lappareil / lampe a piloter, soit un  PLC2026 ou un  PLC2027 . PLCBUS  sont au format Schuko (prise allemande), un  adaptateur Ainsi, lenvoi dun ordre avec la telecommande  PLC4060  sera recu par le  PLC4023 , puis converti et aussitot  transmis sur le reseau electrique. Les recepteurs   PLCBUS    relies aux differents appareils ( PLC2026 ou  PLC2027    pour cet exemple) vont interpreter le signal et executer la commande souhaitee. Linstallation est tres simple et necessite uniquement dinserer des modules dans des prises electriques. La programmation des adresses lest egalement : il suffit de regler tous les elements sur le meme code maison et de programmer les codes unites des recepteurs.   Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

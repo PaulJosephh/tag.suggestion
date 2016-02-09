@@ -1,0 +1,63 @@
+<document>
+	<date>2005-12-11</date>
+        <title>[KDE] Petites astuces  l'intention du migrant</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>kde</tag>
+                <tag>linux</tag>
+                <tag>myself</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Le navigateur de fichiers 
+
+
+ Konqueror , le navigateur de fichiers integre a KDE, est extremement puissant et agreable a utiliser, mais certaines fonctionnalites par defaut peuvent derouter l'utilisateur de Gnome. Par exemple, la navigation par simple clic au lieu du traditionnel double-clic de Nautilus. Pour remedier a cela, rendez vous a  Menu K  System Settings  Souris  et cochez l'option  Double-click to open files and folders . 
+
+
+ Le tableau de bord et les applets 
+
+
+ Tout comme les applets de Gnome, KDE propose d'ajouter des  applets  au  tableau de bord , la barre d'outils principale de KDE. On accede a la liste des applets disponibles en faisant un clic-droit sur le tableau de bord, en prenant soin de le deverouiller au prealable si tel est le cas, et en cliquant sur l'entree de menu  Ajouter des applets au tableau de bord . Vous obtenez un menu tel que celui-ci: 
+
+
+ 
+
+
+ Dans la liste des applets ou boutons utiles, et hormi ceux preinstalles par defaut, on peut citer: 
+
+ 
+ Afficher le bureau , qui permet de mnimiser toutes les fenetres ouvertes, 
+ Configuration , un menu d'acces direct aux interfaces de configuration de KDE, 
+ L'explorateur de fichiers rapide , qui affiche un menu recursif des entrees de n'importe quel dossier du systeme de fichiers, comme par exemple votre repertoire personnel, 
+ Klipper , un outil de gestion de l'historique des copier-coller effectues, 
+ Pipette , un outil tres simple et tres pratique qui permet de recuperer le code hexadecimal ou  RGB  d'une couleur, un peu a la  Colorzilla  mais avec gestion de l'historique en plus, 
+ Telecommande multimedia , qui porte tres bien son nom  
+ 
+
+ Vous pouvez egalement ajouter d'autres barre de tableaux de bord en faisant un clic droit sur le tableau de bord principal et en choisissant l'option  Ajouter un tableau de bord  Tableau de bord universel . J'ai ainsi pu disposer de ma barre des taches dans la partie superieure de l'ecran - comme je le faisais sous Gnome: 
+
+
+ 
+
+
+ L'environnement 
+
+
+ Sous Gnome, le raccourci fort pratique pour naviguer entre les bureaux virtuels est  Ctrl + Alt + Fleches gauche ou droite . Sous KDE c'est  Ctrl + Tab , ce qui pose un probleme de compatibilite avec la navigation par onglets de Firefox. Pour retablir nos bons vieux raccourcis habituels, rendez-vous dans  System Settings  Administration du systeme  Regionalisation et accessibilite  Raccourcis clavier  pour les redefinir. Idem pour ce qui est du deplacement d'une fenetre vers le bureau suivant ou precedent. 
+
+
+ Le gestionnaire d'ouverture de session 
+
+
+ Par defaut, Ubuntu utilise  GDM  comme gestionnaire d'ouverture de session. Etant sous KDE, vous pouvez choisir d'utiliser  KDM , son equivalent pour l'environnement KDE. Pour cela, il suffit de lancer en invite de commande: 
+
+
+ $ sudo dpkg-reconfigure kdm 
+
+
+ ... et de selectionner KDM lorsqu'on vous propose un choix. 
+        </text>
+</document>

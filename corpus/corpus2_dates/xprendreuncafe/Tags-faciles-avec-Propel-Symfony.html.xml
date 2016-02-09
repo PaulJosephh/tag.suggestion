@@ -1,0 +1,23 @@
+<document>
+	<date>2007-05-22</date>
+        <title>Tags faciles avec Propel dans Symfony</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>php</tag>
+                <tag>plugins</tag>
+                <tag>propel</tag>
+                <tag>symfony</tag>
+                <tag>tags</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Mon camarade de Nespresso  Xavier Lacot  nous gratifie d'un plugin pour  Symfony  repondant au doux nom de  sfPropelActAsTaggableBehaviorPlugin  et permettant de taguer n'importe quel objet  Propel  tres facilement, mais aussi de gerer les requetes multi-tags et la recuperation d'objets de types multiples. 
+
+
+ Ce plugin sera notamment utilise dans un projet qui touchera prochainement de tres pres ce blog, si les conditions normales de temperatures et de pression le permettent, comme d'hab. 
+
+
+ Du tres bon boulot, Xavier! 
+        </text>
+</document>

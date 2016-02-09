@@ -1,0 +1,40 @@
+<document>
+	<date>2014-03-17</date>
+        <title>Ponctualit des trains versus Ressenti des usagers</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Reflexions</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+La SNCF et la RATP communiquent leurs performances en annoncant une mesure de ponctualite de lordre de 95%. Lidee vehiculee par un tel chiffre est que les transports en commun sont pratiquement toujours a lheure. Pourtant, le vecu des usagers est tout autre: ils doivent subir des retards dans leur trajet souvent importants et toutes les semaines, voir plusieurs fois par semaine. Cet affichage est donc souvent percu de maniere insultante par les principaux interesses.
+ 
+Tout dabord, comment cette mesure de ponctualite est elle calculee?
+La ponctualite prend en compte tous les voyageurs du lundi au dimanche, du premier au dernier train. Un voyageur qui arrive a sa destination avec un delai supplementaire de 5 minutes ou plus est considere en retard.
+ 
+Prenons maintenant un cas concret (et reel) dusager. Ce dernier vit en proche banlieue parisienne et se rend au travail a Paris en empruntant un transilien (ligne H), puis un RER (ligne E) et enfin un metro (ligne 13). Voici la ponctualite affichee pour ces differentes lignes ( chiffres du trimestre janvier-decembre 2013 
+ Ligne H: 94,4% Ligne E: 94,7% Ligne 13: 94,3%* 
+*  Le chiffre du metro nest pas une mesure de ponctualite mais un pourcentage du nombre reel de metros en circulation aux heures de pointe par rapport au service commande.  
+Quelle est la probabilite pour lusager de ce trajet davoir un incident de plus de 5 minutes?
+ 
+ La probabilite davoir un incident sur ce trajet est de (1-0.9440.9470.943)=0.157 soit 15,7%. La probabilite davoir un incident pendant la journee (trajet aller + trajet retour) est de (1-(0.9440.9470.943)^2)=0.289 soit 28,9%. La probabilite davoir un incident pendant la semaine (5 trajets aller/retour) est de (1-(0.9440.9470.943)^10)=0.819 soit 81,9%. 
+Ainsi, pendant que le SNCF et la RATP communiquent sur 95% de ponctualite, lusager est quasiment certain (82% de chances) davoir au moins un probleme dans la semaine. Sachant que, en general, un probleme sur la ligne H cest un train supprime (donc 20 minutes de retard) ou un incident plus grave (qui se compte en heures) et la messe est dite:
+ 
+ 
+ 95% de ponctualite = une galere hebdomadaire pour les usagers! 
+ 
+Le calcul du nombre dincidents hebdomadaires moyen toujours pour le meme trajet est un peu plus complexe.
+ 
+ Probabilite de ne pas avoir dincident sur un trajet (Transilien+RER+Metro): P0=84,3% Probabilite davoir exactement 1 incident: P1=14,8% Probabilite davoir exactement 2 incidents: P2=0,87% Probabilite davoir exactement 3 incidents: P3=0,017%  P0=0.84301 ; P1=0.148145 ; P2=0.0086734 ; P3=0.00016918  
+Le nombre moyen de retard pour ce trajet sur la semaine de 5 jours est donc de 1,66 ( (P1+P22+P33)10 
+ 
+ 95% de ponctualite = 1 a 2 incidents hebdomadaires! 
+ 
+Cela dit, nous sommes encore loin du vecu des usagers ou sur ce trajet, les incidents sont quasi quotidiens (donc plutot de l'ordre 3 a 4 incidents hebdomadaires). Je me pose une question concernant la mesure de ponctualite: lorsqu'un train est supprime, l'usager doit prendre le train suivant. Il arrive donc immanquablement tres en retard, mais dans un train qui arrive a l'heure lui. La mesure considere-t-elle qu'il y a eu incident ou pas?
+ Sources 
+ Definition de la ponctualite voyageurs La qualite de service en chiffres : bulletin dinformation trimestriel  bulletin de la ponctualite BP-9-STIF 
+        </text>
+</document>

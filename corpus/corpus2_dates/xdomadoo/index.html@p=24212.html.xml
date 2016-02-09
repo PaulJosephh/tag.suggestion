@@ -1,0 +1,22 @@
+<document>
+	<date>2013-10-23</date>
+        <title>Guide dinstallation dune sonde Oregon Scientific avec la Zipabox</title>
+        <author> Mallory </author>
+        <tags_set>
+                <tag>guide</tag>
+                <tag>installation</tag>
+                <tag>module</tag>
+                <tag>oregon scientific</tag>
+                <tag>rf</tag>
+                <tag>thgr122nx</tag>
+                <tag>zipabox</tag>
+                <tag>zipato</tag>
+        </tags_set>
+        <categories_set>
+                <category>Zipabox Applications</category>
+        </categories_set>
+        <text>
+                                                         La  Zipabox grace a son nouveau module dextension Oregon Scientific Chacon CoCo X10 Oregon Scientific Zipabox A partir de linterface de configuration de la  Zipabox Une fenetre va souvrir, dans cette derniere il faudra choisir le bon module, dans notre cas, on veut associer une sonde  Oregon Scientific Apres avoir choisit le module, vous pouvez cliquer sur Associer. A ce moment, le processus dassociation va commencer, vous aurez alors 60 secondes pour incorporer les piles dans la sonde THGR122NX pour que celle-ci soit detecte par la  Zipabox Une fois la sonde detectee, il vous suffit dattendre que la configuration totale de la sonde se fasse automatiquement avec la  Zipabox Vous pourrez maintenant retrouver sur votre dashboard la sonde THGR122NX et voir les remontees dhumidite et de temperature : Les autres sondes  Oregon Scientific Voici la liste des sondes  Oregon Scientific  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

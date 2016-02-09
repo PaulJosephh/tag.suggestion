@@ -1,0 +1,69 @@
+<document>
+	<date>2005-03-09</date>
+        <title>Ombres sous les fentres Gnome</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Tout d'abord, installez via Synaptic ou apt-get en ligne de commande les paquets suivants: 
+
+
+ sudo apt-get install xcompmgr 
+
+
+ Une fois le telechargement des paquets et leur installation effectues, editez votre fichier xorg.conf: 
+
+
+ sudo cp /etc/X11/xorg.conf /etc/X11/xorg.conf.backup
+sudo gedit /etc/X11/xorg.conf 
+
+
+ Ajoutez les lignes suivantes dans votre section Extensions (vous pouvez la creer si elle n'existe pas): 
+
+
+ Section "Extensions"
+        Option          "Composite"     "Enable"
+EndSection 
+
+
+ Si vous souhaitez disposer de l'acceleration 3D des chips nVidia tout en utilisant composite, vous devez modifier votre section Device en ajoutant l'option  GLXWithComposite  comme ci-apres (exemple pour une nVidia GeForce FX 5700): 
+
+
+ Section "Device"
+   Identifier   "NVIDIA Corporation NV36 [GeForce FX 5700 LE]"
+   Driver       "nvidia"
+   BusID        "PCI:1:0:0"
+   Option       "NoLogo"
+   Option       "RenderAccel"             "true"
+   Option       "NvAGP"                   "1"
+   Option       "AllowGLXWithComposite"   "Enable"
+EndSection 
+
+
+ Sauvez le fichier, puis redemarrez le serveur X (Ctrl + Alt + Del). Ouvrez un terminal et lancez xcompmgr avec la gestion des ombres: 
+
+
+ xcompmgr -c 
+
+
+ Cela devrait vous permettre un affichage proche de celui-ci: 
+
+
+ 
+
+
+ Maintenant, pour que les ombres soient affichees au demarrage de votre session, ouvrez les gestionnaire de sessions Gnome via System  Preferences  Sessions, et dans l'onglet Programmes au demarrage, ajouter la commande  xcompmgr -c , comme dans la capture ci-dessous: 
+
+
+ 
+
+
+ Notez bien que pour eviter les plantages a l'initialisation de Gnome, j'utilise personnellement un  Ordre  de demarrage eleve - en fait le dernier de ma liste de demarrage. En effet: les ombres s'appliquant aux fenetres et differents docks presents sur le bureau, il est imperatif que tous soient dessines avant de rajouter effectivement l'ombrage. 
+
+
+ Voila, desormais vous aurez vos ombres a chaque ouverture de session  
+        </text>
+</document>

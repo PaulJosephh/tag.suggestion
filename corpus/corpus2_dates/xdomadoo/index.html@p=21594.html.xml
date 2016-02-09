@@ -1,0 +1,15 @@
+<document>
+	<date>2011-07-21</date>
+        <title>Installation Z-Wave de base avec un ordinateur</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                          Tout comme une installation  domotique Z-Wave domotique Z-Wave  Le controleur permet de faire la liaison entre lordinateur et lensemble de linstallation  Z-Wave Le  Z-Stick Series 2 Aeon Labs Z-Wave domotique USB USB USB Z-Wave   Le controleur  ZCS201 ACT Z-Wave domotique USB ZCU201   Le  controleur Z-Wave TrickleStar USB Lemetteur peut etre une telecommande ( AEO_MREM ZTH200 REM_ZURC550 DUW_05443 DUW_05460 EVR_SM103 EXP_EZM  Le  recepteur peut etre un module appareil (ordre ON / OFF uniquement), un module lampe (ordres ON / OFF et variation), ou un module pour volet roulant. On peut le trouver sous  differentes formes :
+  Module prise ( EVR_AN157-6 EVR_AD142-6  Module Encastrable ( DUW_064312 DUW_064336 Interrupteur ( DUW_05431 DUW_05459 Il existe divers logiciels permettant de controler une installation  Z-Wave HomeSeer : domotique HomeSeer HomeSeer domotique Z-Wave HomeSeer X10 Chacon Lutron PLCBUS   mControl Embedded Automation mControl   est   egalement un serveur  domotique Media Center Media Center   Media Center . Tout comme  HomeSeer ,  mControl  permet de  mControl Insteon Z-Wave Rako X10 KNX ZigBee   ThinkEssentials ControlThink Z-Wave Z-Wave  Exemple dinstallation Pour controler votre installation  domotique Z-Wave USB Aeon Labs Z-Stick Series 2 domotique HomeSeer A partir du logiciel  HomeSeer La cle  Aeon Labs Z-Stick Series 2 USB Elle etablit ainsi une communication entre lordinateur et linstallation  Z-Wave .   Ainsi, lenvoi dun ordre avec la cle  USB Aeon Labs Z-Stick Series 2   EVR_AN157-6 EVR_AD142-6 Linstallation     est tres simple et necessite uniquement dinserer des modules dans   des   prises electriques (module prise) et de connecter dessus la lampe   ou  lappareil a controler. La programmation des modules lest  egalement  :  il  suffit dinclure les recepteurs dans le reseau  Z-Wave USB Aeon Labs Z-Stick Series 2 Il ne peut y avoir quun seul controleur primaire (principal) dans un reseau  Z-Wave  Plus de details sur les controleurs primaire et secondaire.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

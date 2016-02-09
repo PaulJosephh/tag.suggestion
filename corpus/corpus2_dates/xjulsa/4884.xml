@@ -1,0 +1,16 @@
+<document>
+	<date>2014-11-22</date>
+        <title> </title>
+        <author>JulSa_</author>
+        <tags_set>
+                <tag>Android</tag>
+                <tag>carte SD</tag>
+                <tag>Spotify</tag>
+                <tag>Tuto</tag>
+        </tags_set>
+        <categories_set>
+                <category>High Tech</category>
+        </categories_set>
+        <text>  Avant il &#233;tait possible simplement de mettre ses musiques Spotify sur une carte micro SD. Mais Google a fait comprendre qu&#8217;il voulait enlever la possibilit&#233; d&#8217;utiliser les cartes micro SD dans les smartphones Android. Du coup Spotify a malheureusement enlev&#233; l&#8217;option. J&#8217;ai utilis&#233; cette  carte micro SD  sur le  LG G3  pour tester ce tutorial. Ca fonctionne, il suffit juste de bien suivre les &#233;tapes suivantes. Etape 1: &#160;Tout d&#8217;abord commencez par v&#233;rifier que votre carte SD est bien plus grande&#160;que la m&#233;moire interne de votre t&#233;l&#233;phone. Etape 2:  T&#233;l&#233;chargez et lancez &#171;&#160;MiniTool Partition&#160;&#187;&#160; Etape 3: &#160;Ins&#233;rez la carte SD dans votre PC&#160;et lancez &#171;&#160;MiniTool Partition&#160;&#187;&#160; Etape 4:  Cliquez sur &#171;&#160;MiniTool Partition Wizard&#160;&#187;: Etape 5: &#160;S&#233;lectionnez maintenant votre carte SD, cliquez sur &#171;&#160;delete&#160;&#187; puis sur &#171;&#160;create&#160;&#187;. Dans &#171;&#160;Partition Label&#160;&#187;, mettez&#160;&#171;&#160; sd1.spotify &#171;&#160;.&#160;Dans &#171;&#160;Create As&#160;&#187; choisir &#171;&#160; Primary &#171;&#160;. Enfin dans &#171;&#160;File System&#160;&#187;, choisir &#171;&#160; FAT 32 &#171;&#160;. Ne touchez pas au reste des options et&#160;cliquez sur OK. Cliquez maintenant&#160;sur &#171;&#160;Apply&#160;&#187; pour appliquer la modification. Etape 6:  Faites &#171;&#160;clique-droit&#160;&#187; sur votre carte SD et dans &#171;&#160;Modify&#160;&#187;, choisir &#171;&#160; Set active &#171;&#160;. Cliquez &#224; nouveau sur &#171;&#160;Apply&#160;&#187; pour appliquer la modification. Etape 7:  Ejectez correctement votre carte SD de l&#8217;ordinateur. Votre carte SD est parfaitement configur&#233;e pour Spotify.&#160;Pour le moment, ne l&#8217;ins&#233;rez pas dans votre smartphone. Etape 8: &#160;Verifiez que votre application Spotify est bien &#224; jour, puis ouvrez la. Allez dans &#171;&#160; Pr&#233;f&#233;rences &#171;&#160;, puis &#171;&#160; Vider le cache et donn&#233;es sauvegard&#233;es &#171;&#160;. Faites &#171;&#160; OK &#171;&#160;, &#224; nouveau &#171;&#160; OK &#171;&#160;, patientez un peu&#8230; Une fois que l&#8217;application est revenue sur l&#8217;&#233;cran de connection, quittez l&#8217;application, allez dans les param&#232;tres de votre t&#233;l&#233;phone, allez dans &#171;&#160;applications&#160;&#187;, puis &#171;&#160;Spotify&#160;&#187; puis s&#233;lectionnez &#171;&#160;Effacer les donn&#233;es&#160;&#187;, &#233;teignez votre portable. Etape 9:  Ins&#233;rez votre carte SD, puis allumez votre portable. Etape 10:  Lancez Spotify, connectez-vous et commencez &#224; syncroniser des musiques&#8230; Si tout s&#8217;est bien pass&#233;, d&#233;sormais, Spotify stocke vos musiques sur votre carte SD ! &#160; 
+        </text>
+</document>

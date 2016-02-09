@@ -1,0 +1,33 @@
+<document>
+	<date>2006-04-24</date>
+        <title>Amnagement des flux de syndication</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dotclear</tag>
+                <tag>prendreuncafe</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>J'ai bascule l'hebergement des flux de syndication pour ce blog chez  FeedBurner . J'ai bricole un truc un peu rapidement pour faire la redirection a partir des anciens scripts, j'espere que ca restera transparent pour vos agregateurs. 
+
+
+ Sinon, les nouvelles adresses de flux sont: 
+
+ 
+ pour les  billets  (+ photos  FlickR ):  feeds.feedburner.com/prendreuncafe 
+ pour les  commentaires :  feeds.feedburner.com/prendreuncafe-commentaires 
+ 
+
+ Edit :  Au secours, tous les posts apparaissent desormais sur le  PUF    J'ai bien une solution mais il faut modifier l'URL du flux appelle depuis le planet et personne de l'equipe ne repond. Je vais donc rebasculer temporairement sur les anciens flux. 
+
+
+ Donc amis lecteurs du Planet, ne tenez pas compte des photos loufoques ci-dessous, merci :$ 
+
+
+ Edit2 :  Tres bon  billet de Pep  sur Feedburner (merci  olivier ) 
+
+
+ Edit3 :  Bon, visiblement les liens vers les pages FlickR sont erronnes depuis Bloglines. Je tente d'utiliser la conversion de flux vers Atom qui semble mieux gerer la chose. 
+        </text>
+</document>

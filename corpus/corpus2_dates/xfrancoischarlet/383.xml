@@ -1,0 +1,33 @@
+<document>
+	<date>2013-08-08</date>
+        <title>Petite mise au point concernant vos donn&#233;es quand vous consultez ce site</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Protection des donn&#233;es</tag>
+                <tag>Sph&#232;re priv&#233;e</tag>
+        </tags_set>
+        <categories_set>
+                <category>Technologies</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Ch&#232;res lectrices, Chers lecteurs, 
+ Assurer que vos donn&#233;es ne soient pas collect&#233;es par des tiers&#160;quand vous consultez mon site tout en vous permettant par exemple de partager facilement&#160;mes articles avec d'autres personnes, notamment sur les r&#233;seaux sociaux, et en m'autorisant &#224; r&#233;colter quelques statistiques anonymes afin de savoir quels articles vous int&#233;ressent n'a pas &#233;t&#233; une chose facile &#224; r&#233;aliser. 
+ Mais je crois avoir r&#233;ussi&#160;! Ca peut sembler idiot, mais &#231;a a demand&#233; un peu de temps et de ressources pour y arriver, n'&#233;tant pas un d&#233;veloppeur ni un informaticien. 
+ Voici donc quelques informations pour votre tranquilit&#233; d'esprit (et la mienne). 
+ 
+ Mon site est et restera&#160;h&#233;berg&#233; en Suisse sur les serveurs de Kreativmedia. 
+ La r&#233;colte et le traitement de quelques  donn&#233;es statistiques anonymes  se fait directement sur mon site au moyen de Piwik et elles ne sont pas et ne seront jamais communiqu&#233;es &#224; des tiers. (J'ai renonc&#233; aux statistiques fournies par le plugin officiel&#160;de WordPress car il envoie des donn&#233;es &#224; des tiers, notamment les adresses IP.) 
+ Mon site et Piwik respectent votre choix de ne pas &#234;tre suivi(e) si vous avez activ&#233; la fonction "Do not track" dans votre navigateur. 
+ Aucun plugin ou code quelconque n'envoie de donn&#233;es &#224; des tiers. Le seul code pr&#233;sent&#160;est celui de Piwik. 
+ Les liens de partage vers les r&#233;seaux sociaux sont de simples liens qui ne collectent pas ni n'envoient d'informations &#224; qui que ce soit. 
+ 
+ Pour ma part, je vous sugg&#232;re d'installer  Ghostery , un plugin pour votre navigateur qui vous permettra de voir et bloquer&#160;une&#160;grande quantit&#233; de&#160;traceurs sur les sites que vous consultez. 
+ Si vous avez des questions ou suggestions, elles sont &#233;videmment bienvenues. Sachez d'ailleurs que je vais &#224; nouveau changer l'apparence de mon site tr&#232;s prochainement (je suis un &#233;ternel insatisfait sur ce point). 
+ Au plaisir, et merci pour vos visites, commentaires et votre soutien de mani&#232;re g&#233;n&#233;rale. 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

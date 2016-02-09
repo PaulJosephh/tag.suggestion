@@ -1,0 +1,14 @@
+<document>
+	<date>2012-02-21</date>
+        <title>RFXtrx433 : la dernire interface RFXCOM</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          Une nouvelle interface  RFXCOM USB RF Chacon X10  A limage du  RFXLAN v3 sortit lan dernier Le RFXtrx433 supporte les memes capteurs et actionneurs que le recepteur   RFXCOM   et  RFXmitter actuel, avec en plus les protocoles LightwaveRF , Siemens , La Crosse Technology , TFA  et MERTIK Maxitrol . Plusieurs logiciels sont deja compatibles avec le RFXtrx433, dautres sont en cours de developpement : DomotiGa Domogik Ed-win EventGhost FHEM HomeSeer HomiDom HouseAgent Indigo MeteoHub Webx xPL RFX Cette interface est egalement ideale pour les developpeurs qui veulent creer leur propre logiciel. Un  SDK support RFXCOM RFXCOM  propose la une interface tres performante pour un prix tres abordable : 95.     Retrouvez le RFXtrx433 sur la  boutique Domadoo  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

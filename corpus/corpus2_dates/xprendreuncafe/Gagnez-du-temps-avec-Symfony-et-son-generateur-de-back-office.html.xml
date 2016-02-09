@@ -1,0 +1,319 @@
+<document>
+	<date>2007-04-28</date>
+        <title>Gagnez du temps avec Symfony 1.0 et son gnrateur de back-office</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>framework</tag>
+                <tag>php</tag>
+                <tag>scaffolding</tag>
+                <tag>symfony</tag>
+                <tag>tutoriel</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Lors du dernier  petit-dejeuner  Clever Age que j'ai anime sur les frameworks PHP, j'ai effectue une demonstration des fonctionnalites de generation de back-office existantes dans  Symfony : la plupart des gens presents - pour la plupart decouvrant la notion meme de  framework  - ont ete tres impressionnes par la facilite deconcertante avec laquelle il etait possible de developper une application complete en tres peu de temps et d'etapes techniques grace au  generateur d'admin ... 
+
+
+ Personnellement, je suis tellement habitue a travailler avec de tels outils desormais que j'oublie parfois comme la vie est plus difficile sans eux... Je vais donc faire une demonstration afin que chacun puisse se faire son idee, sur sa propre machine  
+
+
+ Pour faire tres original, on va creer une petite application sommaire de gestion de weblog, dote des fonctionnalites suivantes: 
+
+ 
+ Un auteur par billet 
+ Billets multi-categoriques (on pourrait aussi parler de tags) 
+ Commentaires pour chaque billet 
+ 
+
+ L'avantage est que la plupart des frameworks web proposent ce type de tutoriaux, donc ainsi vous pourrez plus aisement comparer  
+
+
+ Installation de Symfony 
+
+
+ Je vous renvoie a la  documentation officielle  ou a  ce tutoriel  pour installer Symfony sur votre machine et configurer un  vhost apache  pour votre nouveau projet. On partira sur la  version 1.0.2 , soit la derniere version stable disponible a l'heure ou sont ecrites ces quelques lignes. 
+
+
+ Creation d'un nouveau projet 
+
+
+ Imaginons que votre projet soit cree dans /var/www: 
+
+
+ $ sudo -s
+# cd /var/www
+# mkdir sftest  cd sftest
+# symfony init-project sftest 
+
+
+ Note: Si la page web par defaut du projet n'affiche pas d'images, il se peut que votre vhost ne trouve pas les elements medias generiques de Symfony; dans ce cas, un lien symbolique comme ci-dessous devrait regler le probleme: 
+
+
+ # ln -s /usr/share/php/data/symfony/web/sf web/sf 
+
+
+ Note: Vous pourriez tout autant utiliser un alias apache dans votre vhost. 
+
+
+ Creons maintenant nos deux applications  front  et  back  qui recevront le front-office et la console d'administration de notre projet: 
+
+
+ # symfony init-app front 
+# symfony init-app back 
+
+
+ On cree une base de donnees dediee au projet: 
+
+
+ # mysql -uroot -p
+ CREATE DATABASE sftest CHARACTER SET utf8 COLLATE utf8_general_ci;
+ GRANT ALL ON sftest.* TO sftest@localhost IDENTIFIED BY '1234567'
+ FLUSH PRIVILEGES;
+ \q 
+
+
+ Configuration de l'acces a la base de donnees 
+
+
+ D'abord, on renseigne notre  DSN  MySQL dans le fichier  config/databases.yml : 
+
+
+ all:
+  propel:
+    class:          sfPropelDatabase
+    param:
+      dsn:          mysql://sftest:1234567@localhost/sftest 
+
+
+ On fait la meme chose pour Propel, dans le fichier  config/propel.ini : 
+
+
+ propel.database.url = mysql://sftest:1234567@localhost/sftest 
+
+
+ Configuration du modele de donnees 
+
+
+ On cree le schema de base notre de donnees, dans le fichier  config/schema.yml : 
+
+ 
+propel:
+
+  blog_authors:
+    _attributes:    { phpName: Author }
+    id: 
+    name:           varchar(255)
+    email:          varchar(255)
+
+  blog_posts:
+    _attributes:    { phpName: Post }
+    id: 
+    title:          varchar(255)
+    excerpt:        longvarchar
+    body:           longvarchar
+    author_id:
+    created_at:
+    updated_at:
+  
+  blog_comments:
+    _attributes:    { phpName: Comment }
+    id: 
+    post_id:
+    author:         varchar(255)
+    email:          varchar(255)
+    site:           varchar(255)
+    content:        longvarchar
+    created_at:
+
+  blog_sections:
+    _attributes:    { phpName: Section }
+    id: 
+    name:           varchar(255)
+
+  blog_posts_sections:
+    _attributes:    { phpName: PostSection }
+    id: 
+    post_id:
+    section_id:
+ 
+
+
+ Il y a beaucoup de magie dans la syntaxe de ce fichier. Retenez juste que les champs  id ,  *_id  et  *_at  sont nommes en vertus de conventions Symfony pour gerer automatiquement cles primaires, cles etrangeres et les champs de type DATETIME. 
+
+
+ Creation d'un jeu de donnees de test 
+
+
+ De meme et parce qu'on est des gens serieux (mais surtout parceque c'est pratique), on cree d'emblee un jeu de donnees de test (ou  fixtures ), dans un nouveau fichier  data/fixtures/data.yml : 
+
+ 
+Author:
+  NiKo:
+    name:    NiKo
+    email:   tepafou@fai.com
+
+Post:
+  FirstPost:
+    title:   Mon premier post !
+    excerpt: Un premier billet prometteur...
+    body: 
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer 
+      consectetuer congue diam. Sed eu enim. Cras fringilla, erat et pretium 
+      tincidunt, elit nibh imperdiet lectus, vel viverra erat velit in  
+      metus. Ut ipsum ante, ornare luctus, hendrerit in, ultricies id, est.
+    author_id: NiKo
+  
+  SecondPost:
+    title:   Mon deuxieme billet
+    excerpt: Un deuxieme billet tout aussi savoureux.
+    body: 
+      Suspendisse potenti. Mauris id risus. Cras urna. Etiam vel enim nec 
+      dui ultrices condimentum. Curabitur bibendum ultrices quam. Nulla 
+      sodales risus eget nunc.
+    author_id: NiKo
+
+Section:
+  Humeurs:
+    name:    Humeurs
+  Geek: 
+    name:    Geek
+  Ubuntu:
+    name:    Ubuntu
+
+PostSection:
+  # First post categories
+  FirstPost_Humeurs:
+    post_id: FirstPost
+    section_id: Humeurs
+  FirstPost_Geek: 
+    post_id: FirstPost
+    section_id: Geek
+
+  # Second post categories
+  SecondPost_Geek:
+    post_id: SecondPost
+    section_id: Geek
+  SecondPost_Geek: 
+    post_id: SecondPost
+    section_id: Ubuntu
+
+Comment:
+  Comment1:
+    post_id: FirstPost
+    author:  Jean-Paul
+    email:   "jp@fai.com"
+    site:    "http://blog.jeanpaul.com"
+    content: Bravo, belle intervention.
+
+  Comment2:
+    post_id: SecondPost
+    author:  Jean-Luc
+    email:   "jl@fai.com"
+    site:    "http://blog.jeanluc.org"
+    content: Exactement, vous avez raison.
+ 
+
+
+ Ceci fait, on va lancer la generation du fichier SQL et des classes representant notre modele, creer les tables physiquement dans notre base et inserer notre jeu de donnees de test: 
+
+
+ # symfony propel-build-all-load back 
+
+
+ Vous noterez qu'un seule ligne de commande est a appeller, ce qui simplifie grandement les phases de prototypage. 
+
+
+ Note: En cas de modification profonde du modele de donnees, il est vivement conseille de vider le cache symfony: 
+
+
+ # symfony cc 
+
+
+ Ajout des methodes  __toString()  aux objets de donnees 
+
+
+ Afin d'avoir facilement un descripteur texte pour notre objet  Author , nous allons implementer une methode  __toString()  dans sa classe associee situee dans le fichier  lib/model/Author.php : 
+
+  php
+class Author extends BaseAuthor
+{
+  public function __toString()
+  {
+    return $this-getName();
+  }
+}
+ 
+
+
+ Cette methode retournera le contenu du champs  name  de l'enregistrement de la table  blog_authors  correspondant pour identifier l'objet PHP sous la forme d'une chaine de caractere descriptive. Vous pouvez aussi adapter ce principe pour les objets  Post  et  Section , par exemple. 
+
+
+ Generation d'un back-office d'administration des billets 
+
+
+ Maintenant, on va generer une interface d'administration de nos objets  Post , accessible par un controleur  /posts  depuis notre application  back : 
+
+
+ # symfony propel-init-admin back posts Post 
+
+
+ L'interface d'administration est maintenant accessible via  /back_dev.php/posts  derriere la racine de l'url de votre instance projet Symfony  
+
+
+ 
+
+
+ C'est un peu sec par defaut et les sections associees aux billets du blog ne sont pas gerees, il nous faut donc adapter le fichier de configuration du generateur d'admin de Symfony pour ce module, situe dans le fichier  apps/back/modules/posts/config/generator.yml : 
+
+ 
+generator:
+  class:               sfPropelAdminGenerator
+  param:
+    model_class:       Post
+    theme:             default
+
+    # Customisation des colones de la vue en liste, lien d'edition sur le titre
+    list:
+      display:         [=title, excerpt, Author, created_at, updated_at]
+
+    # Customisation du formulaire d'ajout/edition
+    edit:
+    
+      # Champs personnalises
+      fields:
+        # Creation d'un champs d'administration des sections associees
+        post_sections: { type: admin_check_list, params: through_class=PostSection }
+    
+      # Specification des champs de formulaire a afficher
+      display:         [author_id, title, excerpt, body, post_sections]
+ 
+
+
+ Un raffraichissement des interfaces en mode developpement (en appellant le controleur  back_dev.php  dans l'url) affichera nos interfaces modifiees en consequences. Si vous utilisez le controleur de production ( /back.php ), n'oubliez pas de vider le cache symfony pour visualiser vos modifications: 
+
+
+ # symfony cc 
+
+
+ On reproduira exactement la meme operation pour nos autres objets a administrer ( Author ,  Comment  et  Section ): 
+
+
+ # symfony propel-init-admin back authors Author
+# symfony propel-init-admin back sections Section
+# symfony propel-init-admin back comments Comment 
+
+
+ Voila, une vingtaine de minutes nous auront suffit pour generer une application en ligne relativement complete. Il restera a gerer notamment: 
+
+ 
+ la  securite d'acces 
+ l'affichage des commentaires pour chaque billet 
+ l' affichage en front office  des billets 
+ ameliorer l'ergonomie et la presentation de ce back-office, par exemple en surchargeant ses elements generes ( documentation complete ) 
+ 
+
+ Amusez-vous bien  
+        </text>
+</document>

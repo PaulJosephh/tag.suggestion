@@ -1,0 +1,28 @@
+<document>
+	<date>2005-12-27</date>
+        <title>[KDE] Kompose, Expos sous KDE</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>extensions</tag>
+                <tag>kde</tag>
+                <tag>tips</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Je vous avais parle de  foXpose , je viens de decouvrir  Kompose , la meme chose mais pour  KDE . 
+
+
+ 
+
+
+ Pour l'installer, rien de plus simple sous Kubuntu: 
+
+
+ $ sudo apt-get update  sudo apt-get install kompose 
+
+
+ Enjoy  
+        </text>
+</document>

@@ -1,0 +1,14 @@
+<document>
+	<date>2008-09-08</date>
+        <title>Empcher une application de se lancer au dmarrage de Windows</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Windows (OS)</category>
+        </categories_set>
+        <text>
+                                                 
+Cest simple :  Menu Demarrer   Executer  msconfig  Demarrage 
+        </text>
+</document>

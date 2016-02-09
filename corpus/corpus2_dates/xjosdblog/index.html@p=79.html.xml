@@ -1,0 +1,16 @@
+<document>
+	<date>2007-12-15</date>
+        <title>Un disque accessible en lecture et en criture depuis Linux et Windows</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Generalitees</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Le seul systeme de fichier utilisable simplement et automatiquement a la fois depuis Linux et Windows en lecture et en ecriture est FAT32. En utilisant des clusters de 32Ko (ce qui est classique), on peut tout a fait formater des disques jusqua 2To ! Toutefois, sous  Windows 9x/2000/XP, il nest pas possible de formater des disque de plus de 32Go en FAT32. Microsoft impose volontairement cette limitation a 32Go afin de favoriser le systeme de fichier NTFS (ref :  http://support.microsoft.com/default.aspx?scid=kb;fr;184006 mkdosfs 
+ Remarque : EXT Windows NTFS 
+        </text>
+</document>

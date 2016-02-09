@@ -1,0 +1,35 @@
+<document>
+	<date>2013-04-28</date>
+        <title>Lynis : Auditer facilement la scurit de votre Synology</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Applications</category>
+                <category>Synology</category>
+                <category>Systeme</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Lynis est un outil daudit de securite systeme. Il scan le systeme, les logiciels disponibles et les parametres defectueux, afin de detecter les problemes de securite. Il fonctionne bien sur un systeme Linux classique (Ubuntu, Fedora, Debian) mais aussi sur nos petits Synology.
+ 
+Pour lutiliser, il faut avoir  installe ipkg textutils ipkg install textutils mktemp ipkg install mktemp 
+Il faut ensuite telecharger la derniere version de  Lynis 
+$ wget http://www.rootkit.nl/files/lynis-1.3.0.tar.gz 
+Il est maintenant possible dutiliser Lynis sans linstaller:
+ 
+$ sh lynis
+ 
+Mettre a jour les donnees de Lynis:
+ 
+$ sh lynis --check-update
+ 
+Lancer le scan:
+ 
+$ sh lynis --check-all
+ 
+ 
+ Lynis Realisez un audit securite de votre systeme GNU/Linux facilement 
+        </text>
+</document>

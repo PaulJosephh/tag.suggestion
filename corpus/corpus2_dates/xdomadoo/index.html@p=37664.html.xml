@@ -1,0 +1,23 @@
+<document>
+	<date>2014-05-13</date>
+        <title>eedomus : support de lampoule Z-Wave Zipato et de la Freebox</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>box domotique</tag>
+                <tag>connected object</tag>
+                <tag>domotique</tag>
+                <tag>eedomus</tag>
+                <tag>freebox</tag>
+                <tag>freebox revolution</tag>
+                <tag>mise a jour</tag>
+                <tag>z-wave</tag>
+                <tag>zipato</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Lequipe  Connected Object domotique eedomus ADSL Une precedente mise a jour avait ete deployee le 30 Avril pour supporter le  pluviometre Netatmo ampoule Z-Wave de Zipato La principale nouveaute de la mise a jour dhier est le support de la Freebox Revolutionquidispose duneAPI ouvertegrace a laquelle il est possible de recuperer des informations et la piloter.Certains pilotait deja leur Freebox grace a cette API, mais  comme pour les Philips Hue recemment Connected Object Ce plugin offre plusieurs fonctionnalites:  Etat de la connexion (Up / Down) Les autres ameliorations apportees par cette mise a jour : Possibilite de personnaliser les headers dans la fonction de script  http Ajout des fonctions de script chr, sha1, str_pad, str_repeat Mise a dispo des sources des scripts Objets connectes Netatmo RFXUSB : Support du Detecteur douverture (MD-210-R) Atlantic Z-Wave Support des pinces Energy meter G2 (3 pinces 60A) dAeon Labs Correction dun bug affectant les macros et la source des changement de valeurs avec les drivers  EnOcean Une petite mise a jour qui va bien faciliter lintegration de la Freebox Revolution. Bravo a lequipe  Connected Object  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

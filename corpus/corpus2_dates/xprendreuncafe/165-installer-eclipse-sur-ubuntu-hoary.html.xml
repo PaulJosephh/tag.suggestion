@@ -1,0 +1,58 @@
+<document>
+	<date>2005-06-24</date>
+        <title>Installer Eclipse sur Ubuntu Hoary</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>eclipse</tag>
+                <tag>java</tag>
+                <tag>linux</tag>
+                <tag>tutoriel</tag>
+                <tag>ubuntu</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>En prerequis, il vous faut installer le  JRE . La procedure  est decrite ici . 
+
+
+ Installation d'Eclipse 
+
+
+ Tout d'abord, recuperez l'archive d 'eclipse , pour Linux/Gtk2  a cette adresse . A l'heure ou je redige ce billet, vous avez le choix entre la version stable (3.0.2) et la 3.1  RC3 . Personnellement c'est cette derniere version que j'ai choisi d'installer. 
+
+
+ Une fois le fichier recupere, decompressez-le et deplacez-le dans votre repertoire  /opt . J'utilise ce repertoire pour tout les programmes installes/compiles manuellement, ce qui permet de distinguer les paquets officiels des bidouilles  maison . 
+
+
+ $ sudo -s
+Password:
+# cd repertoire contenant votre fichier telecharge
+# tar -zxvf eclipse-SDK-3.1RC3-linux-gtk.tar.gz 
+# mv eclipse /opt/eclipse
+# chown -R root:root /opt/eclipse 
+
+
+ Ensuite, on va creer un fichier texte executable  eclipse  que l'on va placer dans le repertoire  usr/bin/ . L'avantage immediat est que tous les utilisateurs du syteme pourront lancer  eclipse  (astuce trouvee sur le  wiki d'Ubuntu ). En voici le contenu: 
+
+
+ #!/bin/sh
+export MOZILLA_FIVE_HOME="/usr/lib/mozilla/"
+export ECLIPSE_HOME="/opt/eclipse"
+
+$ECLIPSE_HOME/eclipse $* 
+
+
+ Il nous reste a rendre le fichier executable: 
+
+
+ # chmod +x /usr/bin/eclipse 
+
+
+ Puis a creer un lanceur sur le bureau Gnome (la commande a lancer est... supsense...  eclipse )  
+
+
+ Dans un prochain billet, on verra differents plugins de coloration syntaxique et de gestion de projets interessants. 
+        </text>
+</document>

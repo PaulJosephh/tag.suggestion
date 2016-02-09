@@ -1,0 +1,51 @@
+<document>
+	<date>2008-07-20</date>
+        <title>Debug PHP facile avec Firefox, Firebug et FirePHP</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>debug</tag>
+                <tag>firebug</tag>
+                <tag>firefox</tag>
+                <tag>firephp</tag>
+                <tag>php</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Tous ceux qui ont deja eux a batailler avec du code javascript connaissent certainement la fabuleuse extension  Firebug  pour  Firefox . L'outil propose une console permettant d'examiner l'environnement d'execution javascript mais aussi HTML et CSS de n'importe quelle page web. 
+
+
+ FirePHP  est une autre extension qui a pour but de proposer le meme service mais pour le langage  PHP . L'extension repose elle-meme sur Firebug et propose, une fois installee, l'affichage dans la console des messages de debug emis depuis vos scripts PHP: 
+
+
+ 
+
+
+ Une fois l' extension Firefox  installee, pour pouvoir envoyer un message de log dans la console depuis vos scripts, il faut utiliser une librairie specifique PHP fournie  telechargeable  depuis la  page d'accueil  du projet FirePHP. Cette librairie tres simple est d'ailleurs  documentee ici . Une fois l'archive recuperee, decompressez-la et appelez FirePHP de cette facon depuis un script PHP standard: 
+
+  php
+require_once '/path/to/firephp/lib/FirePHPCore/FirePHP.class.php';
+
+$f = FirePHP::getInstance(true);
+$f-fb('Hello FirePHP console', FirePHP::INFO);
+$f-fb(array('hello' = 'how are you?'));
+$f-fb(array('hello' = array('how', 'are', 'you')));
+$f-fb(array('foo', 'bar'), 'Results', FirePHP::WARN);
+
+$o = new stdClass();
+$o-foo = 'foofoo';
+$o-bar = 'barbar';
+
+$f-fb($o);
+ 
+
+
+ Pour envoyer les informations de debug a la console, la librairie PHP envoie les donnees serialisees au format  JSON  dans un entete HTTP personnalise dedie ( X-FirePHP-Data ). Ainsi, aucune interference n'est possible avec vos scripts existants, la seule condition etant bien entendu de ne pas lancer la sortie standard PHP avant que ces entetes aient ete envoyes. 
+
+
+ 
+
+
+ En bref, un outil genialement simple et efficace. 
+        </text>
+</document>

@@ -1,0 +1,14 @@
+<document>
+	<date>2011-05-24</date>
+        <title>RFXLAN v3 : la nouvelle interface RFXCOM</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          Apres avoir revu une partie de sa gamme RFSmartLink domotique Le RFXLAN est en fait la meme chose quune interface LAN un module recepteur 433,92 MHz et module RFXmitter . Sauf que les modules ont ete remplaces et sont maintenant integres sur la carte principale. Ce nouveau modele de  RFXCOM RF Le RFXLAN dispose dun emplacement libre afin dy connecter un recepteur esclave VISONIC 868MHz, ainsi que 8 entrees/sorties numeriques. A noter que le firmware du RFXLAN peut etre directement mis a jour par lutilisateur, contrairement aux anciens modeles. Les mises a jour sont telechargeables depuis la page de telechargement du site  RFXCOM Dailleurs, le dernier firmware disponible permet dutiliser le RFXLAN en mode  xPL   capteurs RF recu comme des messages xpl  trig . Les messages   xpl  Cmnd   recus sont convertis en signaux RF . Plus dinformation  ici    Le RFXLAN est disponible pour 249 sur la boutique  Domadoo   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

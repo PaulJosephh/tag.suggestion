@@ -1,0 +1,22 @@
+<document>
+	<date>2009-09-18</date>
+        <title>Nouvelles du cours Bases de Donnes et langage SQL</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Cours</category>
+        </categories_set>
+        <text>
+                                                 Le cours  Bases de Donnees et langage SQL Jen parlerai prochainement dans un nouveau billet 
+ 
+De nouvelles notions (specialisation, lien identifiant, validite dun type association n-aire, agregat, fonctions et operateurs SQL, fonctions utilisateur, langage PL/pgSQL, declencheurs). La version editee est 2,5 fois plus volumineuse que la version en ligne (en nombre de phrases et en nombre de figures).
+ 
+Des seances de travaux diriges et de travaux pratiques accompagnees de corriges complets et detailles.
+ 
+De nombreuses ameliorations (corrections, illustrations, exemples). En fait, seulement 10% de la version editee se retrouve a lidentique dans la version en ligne.
+ 
+Une presentation bien plus agreable sous la forme dun vrai livre.
+ Le livre Bases de donnees  de la modelisation au SQL Le cours en ligne (lebauche du livre) 
+        </text>
+</document>

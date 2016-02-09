@@ -1,0 +1,62 @@
+<document>
+	<date>2015-02-22</date>
+        <title>Vera UI7 : crer ses devices virtuels</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 Problematique 
+ 
+Il peut etre interessant de creer des devices virtuels sur son interface UI7 afin de les utiliser pour afficher des valeurs moyennes (ex: moyenne de plusieurs sondes de temperature) ou encore des valeurs de capteurs non Z-Wave (ex: sonde de luminosite cablee sur une IPX800).
+ 
+Nous allons voir dans ce tutoriel comment creer des devices virtuels de temperature, de luminosite et dhumidite.
+Ces devices reagiront comme des devices Z-Wave classiques et pourront etre utilises dans des scenarios ou declencher des triggers.
+ Device virtuel Temperature 
+ 
+ Creer le device virtuel ( Apps Develop apps Create device 
+Device type = urn:schemas-micasaverde-com:device:TemperatureSensor:1
+ Create device Dans  DeviceSettings Settings Automatically configure No Dans  DeviceSettings Advanced Params altid m1 embedded Dans  DeviceSettings Advanced New service 
+New service: Variables
+ Add Dans  DeviceSettings Advanced New service 
+New service: Variables
+ Add Back Save Changes Redemarrer eventuellement le service Luup:  Apps Develop apps Serial Port configuration Reload Luup 
+Il est maintenant possible daffecter librement une temperature au device cree avec une requete http:
+ 
+
+http:// ipVera deviceId valeur Device virtuel Luminosite 
+ 
+ Creer le device virtuel ( Apps Develop apps Create device 
+Device type = urn:schemas-micasaverde-com:device:LightSensor:1
+ Create device Dans  DeviceSettings Settings Automatically configure No Dans  DeviceSettings Advanced Params altid m3 manufacturer 0,0,0 embedded Dans  DeviceSettings Advanced New service 
+New service: Variables
+ Add Dans  DeviceSettings Advanced New service 
+New service:  Variables
+ Add Back Save Changes Redemarrer eventuellement le service Luup:  Apps Develop apps Serial Port configuration Reload Luup 
+Il est maintenant possible daffecter librement une luminosite au device cree avec une requete http:
+ 
+
+http:// ipVera deviceId valeur Device virtuel Humidite 
+ 
+ Creer le device virtuel ( Apps Develop apps Create device 
+Device type = urn:schemas-micasaverde-com:device:HumiditySensor:1
+ Create device Dans  DeviceSettings Settings Automatically configure No Dans  DeviceSettings Advanced Params altid m5 embedded Dans  DeviceSettings Advanced New service 
+New service: Variables
+ Add Dans  DeviceSettings Advanced New service 
+New service: Variables
+ Add Dans  DeviceSettings Advanced New service 
+New service: Variables
+ Add Back Save Changes Redemarrer eventuellement le service Luup:  Apps Develop apps Serial Port configuration Reload Luup 
+Il est maintenant possible daffecter librement un taux dhumidite au device cree avec une requete http:
+ 
+
+http:// ipVera deviceId valeur Informations et sources 
+ 
+ Guide  Skapa temperatur, luftfuktighet och ljusenhet i Vera UI7 
+ Sommaire Domotique 
+        </text>
+</document>

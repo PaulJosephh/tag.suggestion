@@ -1,0 +1,16 @@
+<document>
+	<date>2015-03-20</date>
+        <title>
+Domotique : Traquer les portes ouvertes</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Aeon Labs</tag>
+                <tag>Domoticz</tag>
+                <tag>Z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>Vous lavez attendu le voila :) Le premier article de la serie ou lon va enfin ajouter un peripherique Z-Wave a notre installation ! Pour demarrer dans le monde du Z-Wave, jai choisi de tester un type de capteur qui a mauvaise reputation dans la gamme chacon (433Mhz) : un detecteur douverture de porte/fenetre Z-Wave. En effet, le protocole Chacon ne proposant pas de retour detat, les capteurs douverture de porte en 433Mhz ont une facheuse tendance a spammer le reseau radio en repetant N fois la meme information, brouillant au passage les messages de ses petits copains. Lire larticle complet sur  Le blog dalex   Aeon Labs   Domoticz   Z-wave 
+        </text>
+</document>

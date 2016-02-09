@@ -1,0 +1,52 @@
+<document>
+	<date>2015-09-03</date>
+        <title>Quand les gouvernements veulent interdire le chiffrement...</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Protection des donn&#233;es</tag>
+                <tag>Sph&#232;re priv&#233;e</tag>
+                <tag>Surveillance</tag>
+        </tags_set>
+        <categories_set>
+                <category>Opinion</category>
+        </categories_set>
+        <text>
+                                                
+                                                         David Cameron, Premier ministre britannique, avait d&#233;clar&#233; en janvier 2015, apr&#232;s les attentats de Paris, que les services de renseignement ne pouvaient faire leur travail (en d'autres termes&#160;: nous sauver des individus voulant nous an&#233;antir) que s'ils avaient un acc&#232;s complet aux communications des individus qui planifient des attaques. 
+ Selon ce m&#234;me politicien, aucun moyen de communication ne devrait &#234;tre imperm&#233;able aux services de renseignement. 
+ En juillet dernier, le directeur du FBI s'&#233;tait exprim&#233; devant deux comit&#233;s du S&#233;nat am&#233;ricain concernant le chiffrement bout &#224; bout ( end-to-end encryption ). Ce type de chiffrement est robuste et assure &#8211; actuellement et en th&#233;orie &#8211; que personne d'autre que les interlocuteurs ne puisse avoir connaissance du contenu de la communication. En effet, depuis 2013 et les r&#233;v&#233;lations d'Edward Snowden, une grande quantit&#233; de personnes se sont tourn&#233;es vers ces moyens de communication chiffr&#233;s ( votre serviteur y compris ). 
+ Le directeur du FBI, &#224; l'instar de David Cameron, expliquait que ces moyens de communication aident les criminels, d&#233;linquants et autres dangereux individus. M&#234;me avec un mandat, il serait techniquement impossible pour les autorit&#233;s d'&#233;couter ces communications. 
+ Deux questions 
+ Deux questions se posent principalement&#160;: 
+ 
+ Les soci&#233;t&#233;s&#160; fournissant des services et produits technologiques (Apple, Microsoft, Google, ProtonMail, etc.) devraient-elles &#234;tre autoris&#233;es &#224; fournir &#224; leurs clients et utilisateurs des communications chiffr&#233;es bout &#224; bout&#160;? 
+ Si oui, ces m&#234;mes soci&#233;t&#233;s devraient-elles avoir l'obligation de pr&#233;voir une  porte d&#233;rob&#233;e  ou de remettre une "master key" ( l'Anneau unique , en somme) aux autorit&#233;s pour qu'elles puissent quand m&#234;me acc&#233;der aux donn&#233;es&#160;? 
+ 
+ Le FBI aimerait une porte d&#233;rob&#233;e, bien &#233;videmment. Ce que les scientifiques  d&#233;noncent  fermement. 
+ Or il n'est (apparemment) pas possible de cr&#233;er une porte d&#233;rob&#233;e sp&#233;cialement pour le FBI et d'autres autorit&#233;s sans que des tiers ne puissent l'ouvrir &#233;galement s'ils la trouvent. 
+ Par ailleurs, si on affaiblit le chiffrement pour faire plaisir aux gouvernements, ils pourront donc acc&#233;der en tout temps &#224; l'ensemble des communications sans m&#234;me avoir besoin d'un mandat (bonjour la pr&#233;somption d'innocence et la vie priv&#233;e), mais cela signifie aussi que l'ensemble des communications sera vuln&#233;rable aux attaques de tiers, y compris des individus contre lesquels les autorit&#233;s veulent nous prot&#233;ger. 
+ Le serpent se mord la queue. 
+ Chiffrer les communications est suspicieux&#160;? 
+ La folie des autorit&#233;s a atteint un nouveau niveau cette semaine. Les autorit&#233;s turques ont  arr&#234;t&#233;  des employ&#233;s de  Vice News  parce qu'ils utilisaient la m&#234;me technologie de chiffrement que celle utilis&#233;e par l&#8217;&#201;tat islamique (ISIS). Ils sont d&#233;sormais poursuivis pour "association avec une activit&#233; terroriste". 
+ Donc chiffrer ses communications est suspicieux.&#160; Cette simple conception est malsaine. Quant &#224; celle de poursuivre un individu pour terrorisme parce qu'il chiffre ses communications, elle rel&#232;ve de la pure folie. 
+ On peut comprendre que les journalistes se servent des m&#233;thodes de chiffrement (ils devraient TOUS &#234;tre oblig&#233;s le faire), par exemple dans le but de prot&#233;ger leurs sources. 
+ Quant &#224; nous autres, nous attachons aussi de l'importance &#224; la s&#233;curit&#233; de nos donn&#233;es. Nous ne voulons pas que tout un chacun puisse les lire. Nous ne voulons pas que le voleur de notre smartphone puisse acc&#233;der aux photographies, carnets d'adresses, etc. Ce n'est pas que comme si nous avions quelque chose &#224; cacher (Dieu que je hais cette formule vide de sens et d'argument). 
+ Et pourtant, si nous voulons de la s&#233;curit&#233; pour nos donn&#233;es, c'est aussi parce que l&#8217;&#201;tat "d&#233;mocratique" met en place des politiques et l&#233;gislations de surveillance massive. 
+ Avant, les communications n'&#233;taient que peu chiffr&#233;es, les individus ne se doutant pas vraiment de cette surveillance invisible, impalpable, sans effet concret sur notre quotidien. 
+ Aujourd'hui, la prise de conscience de la population est rapide. L'information du public, encore tr&#232;s lacunaire, progresse n&#233;anmoins. 
+ Le retour de flamme est probl&#233;matique pour l&#8217;&#201;tat. Car ce qui est destin&#233; &#224; mettre des b&#226;tons dans les roues des services de renseignement met aussi des b&#226;tons dans les roues de la justice et des autorit&#233;s de poursuite p&#233;nale. 
+ C'est regrettable, mais l&#8217;&#201;tat l'a bien cherch&#233;. Se rendant bien compte qu'il est fasse &#224; un probl&#232;me &#233;pineux,  il utilise la corde sensible . 
+ 
+ Si l'on ne peut acc&#233;der aux donn&#233;es sur un smartphone ou ordinateur, on ne pourra peut-&#234;tre pas r&#233;soudre un crime et rendre justice aux victimes. 
+ 
+ C'est affligeant de mauvaise foi. Depuis quand r&#233;pond-on &#224; un crime par la surveillance de masse&#160;? 
+ On oublie encore qu'en th&#233;orie tout chiffrement est cassable. Celui qui a la volont&#233;,&#160;le temps et les moyens d'acc&#233;der aux donn&#233;es y arrivera t&#244;t ou tard. 
+ La volont&#233;, l&#8217;&#201;tat l'a assur&#233;ment. Les moyens, il peut les avoir. Le temps &#233;galement. Ce qu'il manque &#224; l&#8217;&#201;tat, c'est la patience, et la volont&#233; d'avoir la volont&#233;. 
+ En Suisse, dans le cadre d'une proc&#233;dure p&#233;nale et &#224; des conditions rigoureuses, le minist&#232;re public pourra bient&#244;t installer un logiciel sur l'appareil du suspect/pr&#233;venu qui captera les donn&#233;es avant leur chiffrement et leur envoi sur le r&#233;seau. 
+ Ce n'est pas la panac&#233;e, mais quand on veut, on peut. 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

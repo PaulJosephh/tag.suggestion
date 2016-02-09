@@ -1,0 +1,22 @@
+<document>
+	<date>2005-12-30</date>
+        <title>Is it easy teasing ? Yes, it is !</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Selectionner la langue et la disposition du clavier 
+
+
+ Une fois la touche  Entree  pressee, linstallateur se lance, ce qui prend quelques secondes pendant lesquelles des tas de caracteres vont defiler sur l'ecran. 
+
+
+ Il est primordial que vous notiez la valeur hexadecimale de 129 chiffres renvoyee par le bus lors de l'initialisation du kernel. Cette valeur est affichee par le framebuffer durant les premiers cycles d'horloge du lancement de l'installateur. 
+
+
+ Vous voyez pas?  Bon d'accord, c'etait une tentative d'humour, desole. Hem, continuons... 
+        </text>
+</document>

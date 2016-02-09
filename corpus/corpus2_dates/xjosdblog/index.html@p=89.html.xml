@@ -1,0 +1,14 @@
+<document>
+	<date>2007-11-13</date>
+        <title>Recherche de fichiers : commandes find et locate</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+        </categories_set>
+        <text>
+                                                Pour lister tous les fichiers qui contiennent la chaine motif dans le repertoire mon_rep, tapez la commande :
+ find mon_rep -name "*motif*" -print locate -i nom_fichier Remarque : updatedb locate 
+        </text>
+</document>

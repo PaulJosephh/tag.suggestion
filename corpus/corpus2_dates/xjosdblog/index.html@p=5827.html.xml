@@ -1,0 +1,34 @@
+<document>
+	<date>2014-09-27</date>
+        <title>Adaptateur USB Wi-Fi Bi-bande Edimax EW-7811UAC</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Edimax</tag>
+        </tags_set>
+        <categories_set>
+                <category>Materiel</category>
+                <category>Questions Reseau</category>
+        </categories_set>
+        <text>
+                                                 Presentation 
+ 
+Il sagit dun adaptateur USB Wi-Fi Bi-bande. Je lutilise pour palier les problemes (difficulte daccroche, coupures incessantes) que je rencontre avec la carte Wifi de mon ordinateur portable.
+ 
+ Compatible Wi-Fi AC (jusqua 430 Mbps) et Wi-Fi a/b/g/n (jusqua 150 Mbps) Connectivite sans fil Dual Band (2.4 GHz / 5 GHz) Connexion simple et securisee avec un bouton WPS (Wi-Fi Protected Setup) Signal de qualite sur une longue distance avec lantenne 4 dBi (2.4GHz) et 6 dBi (5GHz)  Socle USB avec cable USB de 1.2 m, pour une installation plus flexible et une meilleure qualite de signal Compatible Windows XP / Vista / 7 / 8 / 8.1, Linux et Mac OS X Installation sous Ubuntu 14.04 
+
+ 
+Jesperais un adaptateur USB Wi-Fi  plug and play Windows Linux 
+ Edimax propose des drivers pour Windows et Linux Windows Linux Ubuntu 14.04 Ubuntu 
+Le  chipset Realtek 8192C rtl8812au $  sudo apt-get update sudo apt-get install git git clone // / / cd / make sudo make install sudo 
+Attention, apres une mise-a-jour du noyau et un redemarrage dUbuntu, il faudra recompiler le driver pour le nouveau noyau:
+
+
+ $  cd / make make sudo make install sudo Mon avis 
+ 
+Je trouve le  Form Factor 
+Cote performances, jai gagne entre 1 et 2 barres par rapport a la carte wifi embarquee dans mon portable. La stabilite est pour le moment tres bonne et je nai pas observe de deconnexion intempestive. Je nai pas eu loccasion de tester du Wi-Fi AC (jusqua 430 Mbps). En Wi-Fi a/b/g/n (jusqua 150 Mbps), jobtiens un debit de 72 Mbps en me connectant sur une Freebox (avec un niveau excellent) et 65 Mbps en me connectant sur un point dacces D-Link DAP-2310  (avec un niveau excellent). On est assez loin des 150 Mbps annonces.
+ Informations et sources 
+ 
+Shopping:  Edimax EW-7811-UAC Adaptateur USB Wi-Fi Bi-bande How to install Edimax EW-7811UTC AC600 Wireless USB with no internet (no ethernet) installing rtl8812au on ubuntu for wireless dual-band usb adapters Edimax : drivers Windows et Linux 
+        </text>
+</document>

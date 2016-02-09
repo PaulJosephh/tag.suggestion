@@ -1,0 +1,66 @@
+<document>
+	<date>2013-09-06</date>
+        <title>Test de la camra IP D-Link DCS-2230  Partie 3/3</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Camera IP</tag>
+        </tags_set>
+        <categories_set>
+                <category>DLink</category>
+                <category>Domotique</category>
+                <category>Surveillance</category>
+                <category>Synology</category>
+        </categories_set>
+        <text>
+                                                 Programmation et detection de mouvements 
+
+ Avec linterface de configuration D-Link 
+ Attention, dans longlet  CONFIGURATION Detection de mouvement Internet Explorer CONFIGURATION  Assistant de configuration  Configuration manuelle de detection de mouvement 
+Le systeme pour parametrer les enregistrements dans linterface de configuration D-Link est assez complexe mais assez complet ( CONFIGURATION  Configuration de levenement 
+ Il faut tout dabord configurer des supports denregistrement dans la section  Serveur 
+   Un serveur FTP Un emplacement de stockage reseau La carte micro SD inseree dans la camera Une adresse email (pour recevoir des photos par exemple) Il faut ensuite configurer des types de media a enregistrer dans la section  Media 
+   Photos (choix du profil video, nombre de photos avant et apres levenement declenchant) Video (choix du profil video, nombre de secondes avant levenement declenchant, duree maximale) Journal systeme Il est alors possible de parametrer un evenement dans la section  Evenement 
+   Detection de presence par video Capteur infrarouge passif (PIR) Periodique (declenchement chaque x minutes) Entree numerique Demarrage du systeme Perte de reseau Avec Synology Surveillance Station 
+ Surveillance Station Surveillance Station  Gestion  Modifier une camera  Prog. denregistrement 
+ Continu Surveillance Station  Gestion  Modifier une camera  Enregistrement  Enregistrement Detection de mouvement Surveillance Station Alarme Detection de mouvement et Alarme 
+Le choix entre la detection de mouvement par la camera ou par  Surveillance Station Surveillance Station  Gestion  Modifier une camera  Avance Surveillance Station  Gestion  Avance  Detection de mouvement Detection du mouvement par la camera Sensibilite de detection 
+ 95 : Enregistrement continu (trop sensible) 50 et 25 : Enregistrement continu la nuit a cause du bruit blanc (encore trop sensible) 15 : Enregistrement intermitant la nuit a cause du bruit blanc (toujours un peu trop sensible) 10 : Semble constituer un bon compromis 05 : Pratiquement pas denregistrement (pas assez sensible) Surveillance Station Sensibilite 
+ Lutilisation du capteur PIR de la camera pour la detection de mouvement est neanmoins possible mais demande un peu de travail. 
+ Problematique de la visualisation des videos sous Linux  Surveillance Station surveillance Synology montage NFS du repertoire /usr/syno/etc/smb.conf Securisation de la connexion 
+ 
+La configuration du port https se fait dans  CONFIGURATION  Configuration du reseau  HTTPS 
+Il faut ensuite activer la fonction HTTPS. Pour cela, se rendre dans  CONFIGURATION  AVANCE  HTTPS  HTTPS Activer une connexion securisee HTTPS Enregistrer les parametres Creer un certificat Creer 
+Au lieu dutiliser une adresse du type  http://AdresseCamera:80 https://AdresseCamera:443 
+Pour acceder a la camera depuis lexterieur, mieux vaut passer par une connexion https. Il faut donc eviter au niveau du routeur la redirection vers le port http. Mieux vaut aussi  desactiver la presentation UPnP 
+ Voici un billet interessant voici un autre Conclusions et considerations finales 
+
+ Qualite dimage 
+Globalement, la qualite de limage est passable: tres loin de celle dune video Full HD prise avec un bon smartphone. Cela dit, bien que cette camera ne permet pas de capturer des videos familiales (et ce nest pas son objectif), limage est tout de meme plutot bonne pour de la simple surveillance et jai trouve la vision nocturne assez impressionnante. Cest ma premiere camera IP, je ne peux donc pas donner davis comparatif avec dautres produits de la meme famille. Linteret du Full HD me parait discutable  car limage comporte beaucoup de grain dans cette definition, le flux est plafonne a 15 images par secondes et enfin limportance du flux le rend de toute facon difficilement exploitable a distance. Cependant, le Full HD permet tout de meme de visualiser certains details ou de lire certaines inscriptions inaccessibles dans les definitions inferieures. Jai trouve que la definition 800600 constituait un bon compromis, mais le mieux est dutiliser les trois flux de la camera (ex.: 14401080, 800600, 320240).
+ Utilisation avec un NAS Synology 
+La camera est bien reconnue par le logiciel  Surveillance Station 6 Synology Modifier une camera  Video ie. CONFIGURATION  Audio et Video 
+Avec les outils de Synology ( Surveillance Station DS cam Affichage en direct Tableau Chronologique Microsoft Windows Internet Explorer Firefox Affichage en direct Surveillance Station Surveillance Station 
+A force de faire des tests, jai fini par faire partiellement planter le Synology une fois: la base de donnee ne repondait plus, donc josDBlog netait plus accessible ;  Surveillance Station Utilisation sous Linux 
+Lutilisation sous Linux est tout a fait possible, mais avec certaines petites limitations.
+Pour de la visualisation en direct, le mieux est dutiliser linterface de configuration D-Link ou VLC. Il est egalement possible de saisir directement ladresse dun flux http dans un navigateur.
+Linterface de configuration D-Link fonctionne legerement mieux sous  Google Chrome Firefox Google Chrome CCTV View 
+Avec  Surveillance Station Synology si vous voulez du son,  Surveillance Station 
+Jai contacte le service support de  Synology Synology 
+We only support Window and Mac, this is list on Surveillance station  Help
+ Utilisation sous Microsoft Windows 
+Clairement,  Surveillance Station Internet Explorer Google Chrome CCTV View Utilisation sous Android 
+Tres utile en configuration babyphone video comme pour garder un oeil sur sa maison, Android comporte une plethore dapplications capables dafficher des flux RTSP ou HTTP ou encore totalement dediees aux cameras IP. Par contre, les premiers parametrages sont un peu difficiles et le resultat nest pas toujours au rendez-vous.  DScam Synology VLC v0.1.3 IP Cam Viewer v4.9.5 DScam Surveillance dune piece avec des enfants 
+Une Camera IP peut permettre de surveiller de jeunes enfants ou encore de verifier que les plus grands sont bien rentres de lecole. Par contre, cest moins mobile quun baby phone (installation de la camera, alimentation, cable Ethernet): mieux vaut lui trouver un emplacement et ne plus y toucher.
+ Surveillance contre le vol 
+Une camera IP ne peut pas empecher un cambriolage. Intervenir a temps en etant averti dune intrusion a egalement tres peu de chance de fonctionner.
+Par contre, une Camera IP peut:
+ 
+ Rassurer le proprietaire en vacance qui peut jeter un il sur sa maison de temps en temps Constituer un element dissuasif si la camera est bien visible de lexterieur Permettre didentifier les cambrioleurs sil sagit de veritables amateurs Defauts 
+Je resume ici ce que je peux reprocher a cette camera.
+ 
+ Pas de parametrage des seuils de passage jour/nuit et nuit/jour (indispensable pour maitriser lhysteresis). Pas de possibilite denvoyer une requete http lors dune detection. Cela limite pas mal les possibilites dune telle camera dans le cadre dune solution domotique. Ce modele nest  pas conforme au  Profil S ONVIF La portee (5 metres) du capteur PIR et de leclairage IR est un peu faible pour une grande piece. Impossible de parametrer un effacement automatique danciens fichier afin de faire de la place pour de nouveaux enregistrements. 
+ 
+ Test de la camera IP D-Link DCS-2230  Partie 1/3 Test de la camera IP D-Link DCS-2230  Partie 2/3 Camera IP : Utilisation du capteur PIR avec Surveillance Station 
+Shopping:  Camera IP Full HD WiFi D-Link DCS-2230 Camera IP Full HD POE D-Link DCS-2210 Synology Camera Pack License NAS Synology DS213+ 
+ Cameras IP, toi aussi D-Link Camera IP  Le risque existe 
+        </text>
+</document>

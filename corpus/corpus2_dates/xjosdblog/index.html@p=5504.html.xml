@@ -1,0 +1,46 @@
+<document>
+	<date>2014-05-10</date>
+        <title>IPX800 fonction Push</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>IPX800</tag>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 Problematique 
+ 
+La technique de  Push Push 
+ Un parametrage centralise commun a toutes les entrees et sorties Un parametrage individualise pour chacune des entrees et chacune des sorties 
+Malheureusement, avec la derniere version en date du micrologiciel (3.05.38), les deux techniques, bien quutilisables ne fonctionnent pas parfaitement.
+ Parametrage centralise du Push 
+ 
+Le parametrage du  Push M2M  PUSH 
+ Server: adresse recevant le push 192.168.0.44 Port: le port 3480 Bien cocher  Enable Save Path: requete /data_request?id=lr_JHdata=$M$I 
+Dans la version precedente du micrologiciel, on pouvait selectionner les entrees et les sorties prises en compte pour envoyer les requetes  Push 
+ Remarque du 03/03/2015: 3.05.42 GCE Electronics Push blacklistage 3.05.47 Configure global push delay to avoid IP blacklist GCE Electronics Push Cloud 
+LIPX800 possede une syntaxe documentee dans le document  IPX_API.pdf Push JH Requetes HTTP sur Vera Lite 
+ 
+Avec une requete de la forme:
+
+
+ /data_request?id=lr_JHdata=$M$I data="00:04:A3:A1:ED:1400000000000000000000000000000000" data="00:04:A3:A1:ED:14" 
+Avec une requete de la forme:
+
+
+ /data_request?id=lr_JHMac=$MEntrees=$ISorties=$O Mac="00:04:A3:A1:ED:14",Entrees="10010100000000000000000000000000",Sorties="00000000000000000000000000000000" Mac="00:04:A3:A1:ED:14",Entrees="10010100000000000000000000000000orties=00000000000000000000000000000000" 
+Bref, cela ne fonctionne pas encore comme cela devrait. Le mieux est donc decrire une requete de la forme  /data_request?id=lr_JHParametres= 
+ 
+Elle permet deffectuer un  Push JH Pull Json 
+Elle permet, grace a  Parametres= Parametres= Push Parametrage individualise du Push 
+Pour acceder au parametrage individualise de la fonction  Push 
+ En haut a droite de linterface principale de lIPX800 cliquer sur  Edit Output Edit Input Selectionner le numero de lentree ou de la sortie a parametrer (champ  Enter channel:1-32 Select Cliquer sur  Push settings 
+Le parametrage des champs  Server: Port: Login: Push Path: Push Push 1: Push 2: Push Informations et sources 
+ 
+ Heberger une page web sur veralite Solutions de push : et lIPX dans tout ca ? Les requetes http pour commander votre systeme domotique 
+ Sommaire Domotique 
+        </text>
+</document>

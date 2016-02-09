@@ -1,0 +1,36 @@
+<document>
+	<date>2013-11-25</date>
+        <title>Key Fob : Contrle dun lampadaire halogne</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Aeon Labs</tag>
+                <tag>Everspring</tag>
+                <tag>Fonction Luup</tag>
+                <tag>Luup</tag>
+                <tag>Vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Modules</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+ Objectif 
+Lobjectif est de configurer la telecommande  Z-Wave Key Fob Aeon Labs Z-Wave prises AD142 d Everspring 
+La  Key Fob Group Mode Group Mode Vera Lite Group Mode 
+Ce tutoriel explique comment parametrer les comportements suivant avec la  Vera Lite 
+ Appui long sur le bouton superieur gauche pour eteindre le luminaire Appui long sur le bouton superieur droit pour allumer le luminaire Appui court sur le bouton superieur gauche pour diminuer lintensite lumineuse Appui court sur le bouton superieur droit pour augmenter lintensite lumineuse Allumer et eteindre le luminaire 
+Le principe est de creer une scene ( AUTOMATIONNew scene DEVICESLights 
+puis de creer un trigger dans cette scene (a parametrer dans longlet  TRIGGERSAdd trigger Key Fob Moduler lintensite lumineuse 
+Pour moduler lintensite lumineuse, le principe est un peu le meme: il faut creer deux scenes, une pour diminuer et lautre pour augmenter lintensite. Comme precedemment, il faut creer un trigger dans chacune des scenes associe a un evenement de la  Key Fob DEVICES LUUP Luup local = . ( "urn:upnp-org:serviceId:Dimming1" , "LoadLevelStatus" , ) . log ( "josDBlog|Scene - Lampadaire TV -|Niveau depart" .. ) if ( tonumber ( )  30 ) then = tonumber ( ) - 5 else = tonumber ( ) - 10 end if ( tonumber ( )  0 ) then = "0" end . log ( "josDBlog|Scene - Lampadaire TV -|Consigne" .. ) . ( "urn:upnp-org:serviceId:Dimming1" , "SetLoadLevelTarget" , { = } , ) return false 
+ou daugmenter lintensite lumineuse:
+ local = . ( "urn:upnp-org:serviceId:Dimming1" , "LoadLevelStatus" , ) . log ( "josDBlog|Scene - Lampadaire TV +|Niveau depart" .. ) = tonumber ( ) + 10 if ( tonumber ( )  100 ) then = "100" end . log ( "josDBlog|Scene - Lampadaire TV +|Consigne" .. ) . ( "urn:upnp-org:serviceId:Dimming1" , "SetLoadLevelTarget" , { = } , ) return false 
+Dans ces scripts  Luup id_lampadaire_tv device Device #9 Settings device id_lampadaire_tv 9 
+Ces scripts permettent de moduler lintensite lumineuse par pas de 10. Le scripts pour diminuer passe sur un pas de 5 strictement en dessous dune intensite lumineuse de 30 afin de pouvoir regler plus finement une petite lumiere dambiance (3020151050).
+ Informations et sources 
+ 
+Shopping:  Vera Lite  Controleur domotique Z-wave Aeon Labs KeyFob telecommande  Z-Wave 
+ Sommaire Domotique 
+        </text>
+</document>

@@ -1,0 +1,146 @@
+<document>
+	<date>2015-02-17</date>
+        <title>J&#8217;ai tent&#233; de cr&#233;er un jeu en 48 heures avec de parfaits inconnus</title>
+        <author>Kocobe</author>
+        <tags_set>
+                <tag>A la une</tag>
+                <tag>alaunemobile</tag>
+                <tag>Chronique</tag>
+                <tag>Global Game Jam 2015</tag>
+                <tag>Ind&#233;</tag>
+        </tags_set>
+        <categories_set>
+                <category>Chronique</category>
+        </categories_set>
+        <text>
+                                                                                                 
+         
+                 Je ne sais pas coder, je ne sais pas dessiner, je ne sais pas non plus jongler avec plus de trois boules, mais j&#8217;ai quand m&#234;me d&#233;cid&#233; de participer &#224; une game jam. 
+ 
+ more 
+ Pour ceux qui ne savent pas ce que c&#8217;est qu&#8217;une game jam, il s&#8217;agit d&#8217;un grand bouillon de culture dans lequel on jette plein de gens pendant une p&#233;riode donn&#233;e. Ces gens se mettent ensuite en &#233;quipe pour pondre un jeu suivant un th&#232;me. Les gens dorment peu, ils finissent par sentir mauvais et &#224; p&#233;ter des c&#226;bles, mais de nombreux jeux sont sortis d&#8217;un tel proc&#233;d&#233;. 
+ Bref, tout a commenc&#233; quand j&#8217;ai crois&#233;  un ami  &#224; la  game jam Project Spark , organis&#233;e par Microsoft. 
+ &#8211; Hey, &#231;a ne serait pas trop MDR que tu participes &#224; la Global Game Jam 2015 et que tu en fasses un papier &#171; en immersion &#187; ? 
+&#8211; Euh&#8230; 
+&#8211; Alleeeeeeeezzz ! 
+ 
+ Et me voil&#224; assis dans la salle, arborant le double badge de game designer et sound designer, m&#233;lang&#233; &#224; une centaine de d&#233;veloppeurs et autres &#233;tudiants en conception de jeux, &#224; attendre compl&#232;tement p&#233;toch&#233; l&#8217;annonce du th&#232;me. C&#8217;est parti pour 3 jours de Global Game Jam au sein de l&#8217;&#233;cole Isart, situ&#233;e &#224; deux pas de la Place de la Bastille, &#224; Paris. 
+ C'est parti pour la Global Game Jam ! Je ne sais pas du tout o&#249; je mets les pieds. 
+
+Mais h&#233; ! L'aventure !  #GGJParis   pic.twitter.com/qqdh6sXIOJ 
+ &#8212; C. Benoit-Gonin (@Kocobe)  23 Janvier 2015 
+ 
+ 
+ 
+[NDR : Tout ce qui est dit dans ce r&#233;cit est honteusement d&#233;form&#233; avec le plus grand soin afin de me faire passer pour une victime du syst&#232;me. Mon &#233;quipe &#233;tait tr&#232;s gentille en r&#233;alit&#233;, pas de panique.] 
+ Soir du premier jour (43 heures restantes) 
+ 
+ 
+ BON. Je me calme. Apr&#232;s tout, j&#8217;ai quand m&#234;me pass&#233; 1 mois entier &#224; apprendre &#224; me servir d&#8217;un synth&#233;tiseur sur 3DS pour pouvoir, au pire, composer des petites musiques rigolotes pour un jeu. Le th&#232;me est annonc&#233; : &#171;  What do we do now?  &#187; Super. Autant dire qu&#8217;il n&#8217;y a pas de th&#232;me. 
+ C&#8217;est &#224; ce moment que  la bourse aux amis  commence. Quelques personnes ont propos&#233; un projet, pitch&#233; en 20 secondes, et maintenant tout le monde cherche quelqu&#8217;un pour l&#8217;aider &#224; faire son jeu. J&#8217;ai moi-m&#234;me propos&#233; un projet. Le probl&#232;me, c&#8217;est que j&#8217;ai convaincu que deux codeurs. 
+ C&#8217;est tr&#232;s bien les codeurs, hein ? Mais il me faut absolument un graphiste 2D. Je suis s&#251;r que &#231;a doit se trouver facilement. C&#8217;est &#224; ce moment-l&#224; que  Fabien Delpiano  (du studio  Pasta Games  qui a coorganis&#233; l&#8217;&#233;v&#233;nement) d&#233;boule dans la salle en criant : 
+ ON RECHERCHE DES GRAPHISTES PAR ICI ! ET L&#192; AUSSI ! ET ICI AUSSI ! 
+ 
+ Super. Tout le monde cherche des graphistes, en fait. Ici, c&#8217;est vraiment le march&#233; de l&#8217;offre et de la demande. Vous &#234;tes demand&#233; ? Vous avez le pouvoir. Et comme c&#8217;est quand m&#234;me plus sympa un jeu avec des graphismes, je n&#8217;ai pas eu d&#8217;autre choix que de me ranger dans un projet tenu par des graphistes. Je te hais  Adam Smith . Toi et ta salet&#233; de main invisible, vous &#234;tes toujours l&#224; pour tout g&#226;cher. 
+ Un duo de graphistes (Quentin et Marion) a donc ostensiblement us&#233; de sa domination sociale pour m&#8217;imposer leur dessein personnel. C&#8217;est donc oppress&#233; que je me r&#233;signe &#224; participer &#224; ce projet dont l&#8217;id&#233;e principale &#233;tait : renverser les lois de la physique. Vaste programme, mais &#231;a laisse au moins plein de perspectives de m&#233;caniques de jeu. 
+ Je n'ai pas trouv&#233; de graphistes pour mon projet. Qu'&#224; cela ne tienne, j'ai trouv&#233; une chouette &#233;quipe.  #GGJParis   pic.twitter.com/frcBXcOS0X 
+ &#8212; C. Benoit-Gonin (@Kocobe)  23 Janvier 2015 
+ 
+ 
+ Brainstorming intense au sein de l&#8217;&#233;quipe. On est cinq au total. Il y a donc moi (escroquerie de game designer et succ&#233;dan&#233; de sound designer), Quentin et Marion (les deux graphistes 2D cit&#233;s plus haut), ainsi que Thomas et Remi (deux programmeurs sous Unity). On va partir sur un plateformer 2D &#224; la  Braid  avec une m&#233;canique de gameplay r&#233;volutionnaire qui va laisser baba tout le monde. Bref, on voit trop gros et on ne s&#8217;en est pas encore rendu compte. Surtout pas moi, car c&#8217;est ma tou-toute premi&#232;re fois comme dirait Jeanne Mas. 
+ On s&#8217;installe. J&#8217;essaye au maximum d&#8217;avoir l&#8217;air de servir &#224; quelque chose pendant que les graphistes sortent leur Cintiq &#224; 5 000 euros et que les programmeurs commencent d&#233;j&#224; &#224; taper leur charabia sur Unity. 
+ Je dois vraiment faire tout le LD ?, demand&#233;-je avec des yeux de petit chat. 
+ 
+ Le regard accusateur de Thomas me fait comprendre que oui. Je me mets au travail avec le mat&#233;riel de pointe de tout bon game designer / level designer : du papier et un stylo. Je n&#8217;ai d&#8217;ailleurs aucune fichue id&#233;e de comment je vais donner les niveaux aux graphistes proprement. Toutefois, je continue de leur sourire pour pr&#233;server la paix sociale dans le groupe. 
+ Il commence &#224; se faire tard, l&#8217;heure des derniers m&#233;tros arrive bient&#244;t. Tout le monde dans le groupe rentre chez lui se coucher. Pas moi. D&#8217;une part parce que je suis bien trop stress&#233;, et d&#8217;autre part parce que je dois avoir une id&#233;e, quand m&#234;me, de comment je vais me d&#233;patouiller de ma situation. 
+ Je me retourne et je vois  Yaki  (un ami). Je lui demande &#224; genoux et les larmes aux yeux comment je peux faire pour entrer num&#233;riquement mes niveaux et ainsi &#233;viter les nombreux coups de matraque quand mes tortionnaires reviendront. 
+ &#8211; Bah c&#8217;est tout con, tu utilises Excel. 
+&#8211; Quoi, c&#8217;est tout ? 
+&#8211; Bah, ouais, tu t&#8217;attendais &#224; quoi ? 
+ 
+ Bon, ben je peux aller me coucher alors. Avec mon sac de couchage, je vais en salle de repos. Je marche malencontreusement sur un codeur qui me menace de hacker mon compte Twitter en repr&#233;sailles. Je m&#8217;excuse platement et je trouve un matelas pas encore trop d&#233;gonfl&#233;. 
+ Dix niveaux sur quatorze sont design&#233;s. Je m'accorde le droit d'aller dormir un peu.  #GGJParis   pic.twitter.com/GFTcFfL8VE 
+ &#8212; C. Benoit-Gonin (@Kocobe)  24 Janvier 2015 
+ 
+ 
+ Aube du deuxi&#232;me jour (33 heures restantes) 
+ 
+ Aahhhh&#8230; Je n&#8217;ai pas eu besoin de r&#233;veil tant les matelas gonflables &#233;taient inconfortables. C&#8217;est donc avec un d&#233;but de scoliose que je me remets au boulot. J&#8217;ouvre Excel et je mets toutes les cases en carr&#233;s. C&#8217;est tellement facile de colorier les petits blocs que j&#8217;en pleure un peu et sale mon caf&#233; au passage. Je retranscris mes croquis au propre dans le tableau. C&#8217;est vraiment pratique Excel, car &#231;a permet de garder une belle m&#233;trique du niveau. Le perso fera un bloc et demi de hauteur, il sautera d&#8217;un bloc et demi en longueur et d&#8217;un peu plus d&#8217;un bloc en hauteur, etc. 
+ Apr&#232;s avoir mal dormi 6 h, je rentre les niveaux d&#233;j&#224; imagin&#233;s dans Excel.
+
+H&#233; oui, &#231;a sert aussi &#224; &#231;a.  #GGJParis   pic.twitter.com/K2iTxW2O70 
+ &#8212; C. Benoit-Gonin (@Kocobe)  24 Janvier 2015 
+ 
+ 
+ Les codeurs reviennent, puis les graphistes. Ils me disent bonjour poliment et plaisantent un peu avec moi, mais je sais qu&#8217;en r&#233;alit&#233;, ils s&#8217;assurent juste que leur domination sur moi est toujours pleine et enti&#232;re. Je dois faire attention. 
+ &#8211; Tu comptes faire combien de niveaux ?, me demande Thomas 
+&#8211; J&#8217;en suis &#224; 14. 
+&#8211; R&#233;duis. 
+&#8211; &#8230; 
+&#8211; &#8230; 
+&#8211; 8 ? 
+&#8211; &#8230; 
+&#8211; 5 ? 
+&#8211; C&#8217;est mieux, oui. 
+ 
+ Et voil&#224;, je viens encore de perdre des points dans le classement social de la vie de ce groupe impitoyable. J&#8217;entends le rire dans le for int&#233;rieur de mes camarades, vais-je sortir vivant de cet enfer ? 
+ Avec les moyens du bord et puisqu'on n'a pas de sound designer, je m'occupe de cr&#233;er une boucle musicale.  #GGJParis   pic.twitter.com/rCYd7DvZEe 
+ &#8212; C. Benoit-Gonin (@Kocobe)  24 Janvier 2015 
+ 
+ 
+ Les niveaux sont termin&#233;s. Je sors ma 3DS pour composer la musique du jeu. Les graphistes qui ont fait le choix de d&#233;cors en noir et blanc ont bien avanc&#233;. J&#8217;essaye de m&#8217;approcher pour voir l&#8217;ambiance du jeu et m&#8217;en inspirer pour composer. On me repousse du bout des doigts. Je ressens le d&#233;dain &#224; mon &#233;gard. 
+ &#201;coute mon loulou, me dit Quentin, j&#8217;aimerais vraiment que nos rapports se limitent strictement au partage de fichiers sur Dropbox et Google Drive. Tu risquerais de salir ma tablette graphique, tu comprends ? 
+ 
+ J&#8217;ai quand m&#234;me pu voir ce qu&#8217;ils faisaient. Le h&#233;ros est une sorte de scientifique aventurier enti&#232;rement en &#224;-plats noirs. Seules ses lunettes ressortent en blanc. C&#8217;est tr&#232;s r&#233;ussi. Quant aux niveaux, il s&#8217;agit de ruines dans la jungle. Je compose donc en cons&#233;quence et leur fais &#233;couter. &#199;a semble leur plaire ! Ils m&#8217;autorisent ainsi &#224; aller avec eux au Quick ! Je deviens cool ! Bon, par contre je n&#8217;ai toujours pas le droit de m&#8217;asseoir avec eux. Mais il y a du progr&#232;s ! L&#8217;ascenseur social se remet doucement en marche ! 
+ La nuit tombe. Je n&#8217;ai plus grand-chose &#224; faire en attendant que les codeurs finissent de faire un niveau. Avec  G-E2 , le coll&#232;gue d&#8217;une autre &#233;quipe, nous allons dans une salle vide pour enregistrer au micro divers jingles parl&#233;s, bruits m&#233;talliques sur le radiateur et autres bruits faits enti&#232;rement &#224; la bouche. Je passe ensuite un petit moment &#224; les modifier dans un logiciel de traitement sonore. Bon au final, les miens ne serviront &#224; rien, car on n&#8217;aura jamais le temps de les int&#233;grer dans le jeu. 
+ La boucle musicale est faite. Je m'occupe maintenant des quelques bruitages.  #GGJParis   pic.twitter.com/sVFhvKhF0w 
+ &#8212; C. Benoit-Gonin (@Kocobe)  24 Janvier 2015 
+ 
+ 
+ La fatigue commence &#224; rendre tout le monde un peu fou. L&#8217;odeur pestilentielle qui r&#232;gne dans la salle, m&#233;lange de sueur, de cadavres en putr&#233;faction et de ce  Red Bull Leader Price  qu&#8217;on nous a servi et que j&#8217;ai bu sans trop me m&#233;fier. La marque est  Crazy Tiger , et la bouteille ressemble beaucoup &#224; un flacon de  white spirit . 
+ En ce qui me concerne, rideau. Sac de couchage et matelas gonflable pour la derni&#232;re nuit avant le rendu. 
+ Aube du dernier jour (7 heures restantes) 
+ 
+ J&#8217;ai &#233;t&#233; r&#233;veill&#233; par le d&#233;but d&#8217;ulc&#232;re provoqu&#233; par le Crazy Tiger ingurgit&#233; la veille. Il est 8 heures du matin quand je m&#8217;aper&#231;ois que la version gratuite d&#8217;Unity n&#8217;a pas fini d&#8217;&#234;tre t&#233;l&#233;charg&#233;e sur mon ordinateur. Je me tourne les pouces en attendant que je puisse &#171; tweaker &#187; les valeurs, comme on dit dans le milieu. 
+ Comme je suis vraiment une caricature de game designer, je n&#8217;arrive pas &#224; retenir le mot &#171; tweaker &#187; alors je pr&#233;f&#232;re dire &#171; twerker les valeurs &#187;. Au bout de la troisi&#232;me fois, Remi me fait comprendre que ce n&#8217;est pas dr&#244;le et que je ferai mieux de le laisser travailler. 
+ Il est beau ! &amp;lt;3  #GGJParis   https://t.co/ZFtNVbom6J 
+ &#8212; C. Benoit-Gonin (@Kocobe)  24 Janvier 2015 
+ 
+ 
+ Alors, tweaker les valeurs, c&#8217;est chercher le bon &#233;quilibre dans la physique du personnage. Ainsi, en fonction de ce que veut le game designer, le personnage devra &#234;tre plus ou moins mobile, plus ou moins rapide, tomber plus ou moins vite, etc. Dans le cadre d&#8217;un puzzle plateformer comme le n&#244;tre, il fallait donc que le personnage soit rigide et peu mobile pour que le joueur soit oblig&#233; d&#8217;utiliser sa t&#234;te, et non sa dext&#233;rit&#233; pour finir les deux niveaux et demi qu&#8217;on allait impl&#233;menter de justesse. 
+ La deadline approche dangereusement et j&#8217;ai fini de modifier les r&#233;glages du personnage. Je n&#8217;ai plus rien &#224; faire sinon regarder travailler les codeurs et jouer l&#8217;inspecteur des travaux finis en leur disant ce qui va et ce qui ne va pas. 
+ Vous trouvez peut-&#234;tre que j&#8217;ai peu de choses &#224; faire ? En r&#233;alit&#233;, c&#8217;est inh&#233;rent au r&#244;le de game designer. Laissez-moi vous montrer avec ce graphique : 
+ 
+ Vous voyez comment le GD n&#8217;a rien &#224; faire les trois quarts du temps ? Vers la fin, il faut certes tweaker les valeurs et aider les programmeurs &#224; faire en sorte que le jeu fasse bien ce qu&#8217;il devrait faire, mais dans l&#8217;ensemble, c&#8217;est quand m&#234;me mieux quand il a quelque chose pour s&#8217;occuper au milieu du projet. Dans mon cas, le sound design. 
+ &#192; 30 minutes de l'&#233;ch&#233;ance, le jeu ne sera pas fini de mani&#232;re satisfaisante, mais reste tr&#232;s joli.  #GGJParis   pic.twitter.com/1ZySuYgpVb 
+ &#8212; C. Benoit-Gonin (@Kocobe)  25 Janvier 2015 
+ 
+ 
+ Il est bient&#244;t 15 heures, l&#8217;heure fatidique o&#249; il faut rendre les projets. Si le jeu a grave de la gueule, l&#8217;ambition du projet est malheureusement tomb&#233; sur les &#233;paules des programmeurs et la physique du jeu est probl&#233;matique. C&#8217;est d&#8217;une part parce que, je cite, &#171; faire un plateformer 2D est souvent trop ambitieux pour une game jam &#187; et d&#8217;autre part parce qu&#8217;Unity n&#8217;est pas le plus adapt&#233; pour en faire un. 
+ *Ding Dong*, il est 15 heures, il est temps de rendre  Doctor What , c&#8217;est le nom du jeu. Ce dernier a &#233;t&#233; d&#233;cid&#233; &#224; 14h58 par une &#233;quipe aucunement paniqu&#233;e. On a int&#233;gr&#233; deux niveaux &#171; finis &#187; et un niveau qui est l&#224; juste pour le LOL. Il y a un &#201;NORME bug d&#232;s le d&#233;but du jeu qui broie totalement l&#8217;apprentissage de la principale feature du jeu. 
+ 15 heures ! Fin de la  #GGJParis . Doctor What. aura donc deux magnifiques niveaux jouables et bugu&#233;s !  pic.twitter.com/1MxUan4cBW 
+ &#8212; C. Benoit-Gonin (@Kocobe)  25 Janvier 2015 
+ 
+ 
+ Le personnage est en effet arm&#233; d&#8217;un petit pistolet qui est sens&#233; changer les propri&#233;t&#233;s des objets quand on leur tire dessus. Premier niveau, une plateforme arrive de la droite pour s&#8217;arr&#234;ter &#224; gauche, devant le personnage. Au lieu de repartir dans l&#8217;autre sens, la plateforme dispara&#238;t, r&#233;appara&#238;t &#224; son point d&#8217;origine et repart vers la gauche, et ainsi de suite. Le joueur doit ainsi tirer avec son engin sur la plateforme pour qu&#8217;elle se d&#233;place dans l&#8217;autre sens et inverse son cycle. Logiquement, il s&#8217;agissait du seul moyen de traverser le premier foss&#233; du jeu. 
+ Sauf que le bug en question t&#233;l&#233;porte le joueur avec la plateforme s&#8217;il reste dessus au moment o&#249; elle dispara&#238;t. Gros fail. 
+ 
+ Les gens sont perdus et ne parviennent en g&#233;n&#233;ral pas le premier niveau si je ne les aide pas. C&#8217;est extr&#234;mement frustrant, surtout quand les gens qui viennent essayer notre jeu commencent &#224; me lancer divers objets contondants au visage.  
+ Cette m&#233;canique d&#8217;inversion &#233;tait &#233;galement sens&#233;e changer le poids et la temp&#233;rature des diverses plateformes et blocs. Si on a eu le temps d&#8217;int&#233;grer partiellement la notion de temp&#233;rature, il &#233;tait impensable d&#8217;int&#233;grer la notion de poids. 
+ Enfin, dernier bug qui finissait de la foutre mal, la musique ne boucle pas. Ma 3DS et moi-m&#234;me sommes extr&#234;mement tristes et nous partons pleurer dans un coin. 
+ Si vous voulez vous essayer &#224;  Doctor What ,  le jeu est disponible ici . Vous avez &#233;galement tous les autres jeux de la jam parisienne  disponibles ici . 
+ 
+ Fin de la Jam, tentative de reprise d&#8217;une vie normale 
+ 
+ Redevenons s&#233;rieux pendant deux secondes. Cette exp&#233;rience &#233;tait incroyable et m&#234;me si  Doctor What  n&#8217;a pas pu &#234;tre aussi abouti qu&#8217;esp&#233;r&#233;, je n&#8217;ai qu&#8217;une envie, c&#8217;est de repartir pour une autre jam. 
+ Vous qui r&#234;vez secr&#232;tement de cr&#233;er un jeu vid&#233;o un jour, je ne peux que vous conseiller de participer &#224; une game jam. Pas forc&#233;ment la Global Game Jam d&#8217;ailleurs. Vous allez apprendre beaucoup de choses en tr&#232;s peu de temps et &#233;galement apprendre &#224; mettre au service de la cr&#233;ation d&#8217;un jeu les comp&#233;tences que vous poss&#233;dez d&#233;j&#224;. 
+ C&#8217;est &#233;galement tr&#232;s bon pour le r&#233;seau. Vous rencontrerez d&#8217;autres jeunes (et moins jeunes) d&#233;veloppeurs comme vous qui cherchent &#233;galement &#224; faire un jeu ou faire de nouvelles connaissances. Vous croiserez &#233;galement des journalistes curieux de l&#8217;&#233;v&#233;nement qui pourraient devenir des relais int&#233;ressants pour vos projets futurs. 
+ Quant &#224; moi, j&#8217;ai h&#226;te de participer &#224; nouveau &#224; l&#8217;une d&#8217;entre elles. Il para&#238;t que la premi&#232;re est toujours celle o&#249; on jauge l&#8217;exercice. J&#8217;ai h&#226;te de voir ce que va donner ma deuxi&#232;me. 
+ &#8212; Merci &#224;  Thomas ,  Remi ,  Quentin  et  Marion  ! Merci &#233;galement &#224;  Yaki  et  G-E2  qui ont &#233;t&#233; de fort bon conseil. 
+ &#8212; Si vous souhaitez participer &#224; une game jam, rendez-vous sur  Jam Shaker  qui r&#233;pertorie tous les &#233;v&#233;nements du genre &#224; venir. 
+         
+ 
+                                                                                                         
+                                                                                                                                                                                                 
+        </text>
+</document>

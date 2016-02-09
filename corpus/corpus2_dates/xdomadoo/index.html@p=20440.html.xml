@@ -1,0 +1,14 @@
+<document>
+	<date>2010-03-29</date>
+        <title>Principe du Protocole 1-Wire</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Protocole 1-Wire</category>
+        </categories_set>
+        <text>
+                                                         La communication sur le bus  1-Wire Avant toute communication, le maitre met le bus a letat bas (0V) pendant 480 s pour faire une initialisation (reset) des composants connectes. Apres un delai de 15 a 60 s, le ou les esclaves connectes, forcent le bus a letat bas pendant 60 a 240 s pour signaler leur presence. Le maitre est alors informe des esclaves connectes sur le bus. Chaque circuit possede une adresse physique unique, gravee dans la puce a la fabrication. Cette adresse est constituee de 64 bits soit 8 octets. Le premier octet determine le type de famille auquel appartient le circuit. Les 6 octets suivants, constituent le code propre du circuit. Le dernier octet est le CRC. Cest un octet de controle calcule a partir des 56 bits precedents.  Toute transaction entre un maitre et un ou plusieurs esclaves, debute par une initialisation, constituee par lenvoi du pulse de Reset par le maitre. Le maitre doit ensuite envoyer une commande de type ROM qui est propre au protocole  1-Wire Pour emettre un bit sur le bus, le maitre force le bus a 0 pendant 1 a 15 s. Lesclave va lire le bus entre 15 et 45 s apres le front descendant ( valeur typique 30 s). La duree total dun bit est donc de 60us, ce qui donne une vitesse de communication maximale de 16kbits/s. Apres la reception dune commande du maitre, lesclave peut renvoyer des donnees. Pour lire les donnees de lesclave, le maitre force le bus a 0 pendant au moins 1 s. Si lesclave veut emettre un 1, il laisse le bus libre, donc tire a 1. Pour emettre un 0, lesclave doit tirer le bus a 0 pendant 15 s au minimum. Cec 1-Wire 1-Wire Vous trouverez toutes les informations liees aux commandes ROM sur le  document de Daniel Menesplier  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

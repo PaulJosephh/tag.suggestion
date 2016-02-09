@@ -1,0 +1,18 @@
+<document>
+	<date>2007-10-24</date>
+        <title>Synology DS107e et montage CIFS dans la fstab sous Linux</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Synology</category>
+        </categories_set>
+        <text>
+                                                 Ce fut la galere  noperm La procedure : 
+ 
+     Creer un utilisateur (Nom + Mot de passe, ex : josd+josdpass) avec linterface dadministration du  Synology Creer un dossier partage (ex : data) avec linterface dadministration du  Synology Permettre a cet utilisateur de lire et ecrire dans le dossier partage grace a la  Configurations des privileges Synology Ajouter dans le fichier  /etc/fstab 
+//192.168.0.XXX/data /media/synology cifs rw, user, auto,  noperm Ou mieux, passez par un fichier  credentials 
+ 
+     Creer le fichier cd Y mettre, avec un retour chariot a la fin : username=josd Proteger un peu le fichier : chmod 600 .passwd Ajouter dans le fichier  /etc/fstab //192.168.0.XXX/data /media/synology cifs rw, user, auto,  noperm Remarque : gere le protocole NFS en appliquant le firmware v2.0.3  0518 ou superieur 
+        </text>
+</document>

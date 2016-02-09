@@ -1,0 +1,121 @@
+<document>
+	<date>2010-07-14</date>
+        <title>Une exploration juridique du datamining</title>
+        <author>Mich&#232;le Battisti</author>
+        <tags_set>
+                <tag>base de donn&#233;es</tag>
+                <tag>Contrat</tag>
+                <tag>datamining</tag>
+                <tag>Donn&#233;es personnelles</tag>
+                <tag>Droit d'auteur</tag>
+                <tag>lien hypertexte</tag>
+                <tag>Responsabilit&#233;</tag>
+                <tag>web de donn&#233;es</tag>
+        </tags_set>
+        <categories_set>
+                <category>Contrat</category>
+                <category>Droit d'auteur</category>
+                <category>Responsabilit&#233;</category>
+        </categories_set>
+        <text>
+                                                                                 A para&#238;tre sur les pages  &#171;&#160;Droit de l&#8217;information&#160;&#187; de l&#8217;ADBS 
+ Apr&#232;s avoir abord&#233;  la donn&#233;e publique,   la donn&#233;e libre  et  le  Cloud computing,  pourquoi ne pas se pencher sur les aspects juridiques du  datamining,  proc&#233;d&#233; qui int&#233;ressera tous les gestionnaires de l&#8217;information et qui, comme nous l&#8217;avions not&#233; en 2009, fait l&#8217;objet d&#8217;une clause expresse du projet de  R&#232;glement Google Livres  ? 
+ Le  datamining  pr&#233;sente toutefois de multiples facettes, que l&#8217;on n&#8217;aura pas &#233;puis&#233;es, et &#160;Google, dans cet expos&#233;, ne sert qu&#8217;&#224; illustrer certains aspects de la question. 
+ 
+ Le datamining pour faire parler les donn&#233;es  
+ Le datamining,  technique qui va au-del&#224; de la simple interrogation de donn&#233;es et m&#234;me d&#8217;une analyse des donn&#233;es  classique  [ 11 ] ,  consiste &#224; extraire des informations pertinentes, non d&#233;celables imm&#233;diatement, par des techniques automatiques ou semi-automatiques, &#224; partir d&#8217;une base constitu&#233;e d&#8217;un tr&#232;s grand volume de donn&#233;es internes et/ou de donn&#233;es rapatri&#233;es. 
+ En combinant le  datamining  et la   linguistique, on peut traiter   de grandes   masses de donn&#233;es textuelles,   et d&#233;couvrir rapidement les th&#232;mes   abord&#233;s et les structurer sans les   conna&#238;tre  a priori . 
+ &#160; 
+ Le  datamining  a des nombreuses applications commerciales ou scientifiques. Dans le monde de l&#8217;entreprise, par exemple, il permet de g&#233;n&#233;rer automatiquement des barom&#232;tres de satisfaction, des rapports sur l&#8217;image de l&#8217;entreprise ou l&#8217;&#233;tat de la concurrence. Il sert aussi &#224; d&#233;couvrir des informations cach&#233;es (par exemple, les nouveaux domaines de recherche dans les brevets d&#233;pos&#233;s), &#224; communiquer en utilisant le m&#234;me vocabulaire que ses clients et en adaptant son discours &#224; chaque segment de client&#232;le [12] [13]. 
+ Les droits concern&#233;s  
+ &#160; 
+ Regrouper des corpus, en extraire des parties pour diffuser les r&#233;sultats d&#8217;une analyse fait intervenir des questions li&#233;es au droit d&#8217;auteur, au&#160; respect de la vie priv&#233;e, au droit de la concurrence et au droit des contrats. 
+ 
+ Pour acc&#233;der au corpus  
+ 
+ &#160; 
+ Le droit des contrats  
+ &#160; 
+ L&#8217;acc&#232;s aux donn&#233;es est libre, mais les conditions d&#8217;utilisation (note 1) seront d&#233;finies sur le site qui les h&#233;berge.&#160; Si l&#8217;on prend pour exemple Google livres, selon le projet de R&#232;glement, seuls des chercheurs &#171;&#160;qualifi&#233;s&#160;&#187;, accr&#233;dit&#233;s par Google, seraient autoris&#233;s &#224; explorer le corpus par des techniques de  datamining  pour des recherches qui, entreprises &#224; des fins non commerciales, ne doivent pas concurrencer l&#8217;un des services de Google. 
+ Dans certains cas, l&#8217;acc&#232;s au corpus lui-m&#234;me sera r&#233;serv&#233; &#224; des utilisateurs d&#251;ment autoris&#233;s. Il convient alors de n&#233;gocier avec les ayants droit pour d&#233;finir les modalit&#233;s de cet acc&#232;s et de son usage, d&#233;finir les responsabilit&#233;s de chacune des parties, ce qui devrait donner des garanties suppl&#233;mentaires. 
+ &#160; 
+ 
+ Pour num&#233;riser des textes  
+ 
+ &#160; 
+ Le droit d&#8217;auteur 
+ Reproduire un texte prot&#233;g&#233; par le droit d&#8217;auteur sur un nouveau support n&#233;cessite l&#8217;autorisation des titulaires de droits. 
+ Mais pour r&#233;aliser les diff&#233;rentes copies de  corpus,  simples instruments d&#8217;une analyse (la seule appel&#233;e &#224; &#234;tre diffus&#233;e), ne b&#233;n&#233;ficierait-on pas de l&#8217;exception au droit d&#8217;auteur qui permet d&#8217;effectuer, sans autorisation expresse, des copies techniques, transitoires et accessoires n&#8217;ayant aucune signification &#233;conomique&#160;ind&#233;pendante ? (note 2) 
+ Pour la Cour de justice de l&#8217;Union europ&#233;enne (CJUE), qui&#160; s&#8217;est pench&#233;e sur cette question en juillet 2009, dans le cadre d&#8217;un proc&#232;s qui opposait un journal danois &#224; un prestataire de veille du m&#234;me pays, seules les &#160;copies dont le proc&#233;d&#233; est automatis&#233; et&#160; dont la dur&#233;e de vie est limit&#233;e &#224; ce qui est techniquement n&#233;cessaire rel&#232;vent de cette exception [ 4 ]. D&#232;s lors que leur suppression est manuelle (note 3), une autorisation du titulaire des droits est requise. 
+ Le droit des contrats 
+ Il intervient&#160; notamment lorsqu&#8217;on recourt &#224; un prestataire pour h&#233;berger les  corpus  s&#233;lectionn&#233;s. On peut se r&#233;f&#233;rer alors aux r&#233;ponses contractuelles list&#233;es dans le dossier sur le  Cloud Computing . 
+ &#160; 
+ 
+ Pour extraire des donn&#233;es  
+ 
+ Le droit d&#8217;auteur 
+ L&#8217;indexation, qui consiste &#224; caract&#233;riser les id&#233;es contenues dans un texte ou un ensemble de donn&#233;es &#160;par plusieurs mots-cl&#233;s, devrait &#234;tre libre, le droit d&#8217;auteur ne prot&#233;geant pas les id&#233;es mais uniquement leur mise en forme. 
+ Or, non seulement le  datamining  n&#8217;implique pas une indexation humaine, pr&#233; requis exig&#233; (note 4) [ 3 ], mais dans le proc&#232;s danois [ 4 ] ,  objet de l&#8217;examen de la CJUE, les mots-cl&#233;s s&#233;lectionn&#233;s dans les articles de presse &#233;taient accompagn&#233;s des cinq mots qui les encadraient.&#160; Comme chaque article &#233;tait susceptible de contenir plusieurs mots-cl&#233;s, la reproduction de tous les ensembles de mots-cl&#233;s constituait une reproduction partielle, soit un extrait d&#8217;une &#339;uvre, exc&#233;dant ce qui est autoris&#233; par le droit de citation, impliquant de ce fait aussi une autorisation expresse des ayants droit (note 5) . 
+ Le droit des bases de donn&#233;es  (note 6) 
+ Le producteur d&#8217;une base de donn&#233;es qui a investi de mani&#232;re importante pour la construire et la mettre &#224; jour peut s&#8217;opposer &#224; toute extraction quantitativement ou qualitativement substantielle de sa base, m&#234;me si celles-ci est constitu&#233;e&#160; d&#8217;&#233;l&#233;ments non prot&#233;g&#233;s par le droit d&#8217;auteur, ce qui s&#8217;applique aux faits, aux &#339;uvres d&#233;nu&#233;es d&#8217;originalit&#233; (note 7), mais aussi aux &#339;uvres appartenant au domaine public du fait de l&#8217;expiration des droits patrimoniaux. Ce droit du producteur s&#8217;applique &#224; tout corpus de donn&#233;es, un ensemble de m&#233;tadonn&#233;es&#160; par exemple. 
+ La loi &#171;&#160;Informatique et libert&#233;s&#160;&#187;, la loi pour la confiance dans le commerce &#233;lectronique (LCEN) et la loi sur les archives 
+ Des r&#232;gles doivent &#234;tre observ&#233;es lorsque l&#8217;on collecte et utilise des donn&#233;es personnelles figurant dans&#160; les corpus. 
+ La loi &#171;&#160;Informatique et libert&#233;s&#160;&#187; exige une collecte loyale,&#160; une information des personnes concern&#233;es, des formalit&#233;s aupr&#232;s de la CNIL (diff&#233;rentes selon la nature des donn&#233;es et des traitements envisag&#233;s), et&#160; interdit d&#8217;utiliser les fichiers &#224; d&#8217;autres fins que celles qui sont initialement pr&#233;vues. La LCEN encadre les utilisations &#224; des fins publicitaires [ 9 ] . 
+ Les archives publiques, pour prendre un autre exemple, sont librement communicables, imm&#233;diatement comme l&#8217;indique la loi de 1978. Les exceptions &#224; la communicabilit&#233; ont &#233;t&#233; red&#233;finies par la loi sur les archives en 2008 [ 7 ]. Selon le cas, les documents dont la communication est diff&#233;r&#233;, seront disponibles 50 ans, 75 ou 100 apr&#232;s leur date de cr&#233;ation, et certains ne seraient jamais communicables. Mais des d&#233;rogations permettent aussi de consulter des documents avant l&#8217;expiration des d&#233;lais fix&#233;s. Ces r&#232;gles, en revanche, ne s&#8217;appliquent pas aux archives priv&#233;es. Mais toutes ces r&#232;gles ne pr&#233;jugent pas de la r&#233;utilisation&#160; des documents en question (note 8). 
+ &#160; 
+ Quelques &#160;remarques  
+ &#160; 
+ 
+ De l&#8217;&#339;uvre &#224; la donn&#233;e  
+ 
+ Le titulaire des droits &#160;d&#8217;auteur ne peut s&#8217;opposer qu&#8217;&#224; la reproduction et &#224; la repr&#233;sentation de la mise en forme originale des id&#233;es, et non &#224; la reprise des id&#233;es elles-m&#234;mes. 
+ Or, la valeur d&#8217;usage se trouve de plus en plus souvent aujourd&#8217;hui dans les donn&#233;es et les m&#233;tadonn&#233;es utilis&#233;es et &#233;labor&#233;es pour d&#233;tecter un sens, et les techniques employ&#233;es se passent de plus en plus souvent de toute reproduction du  corpus  initial. 
+ 
+ Du droit d&#8217;auteur au droit de la concurrence  
+ 
+ &#160; 
+ Dans le d&#233;bat autour du r&#232;glement Google [ 5 ] ,  les textes litt&#233;raires ne sont plus qu&#8217;un ensemble de donn&#233;es qui, li&#233;es les unes aux autres, permettent de voir &#171;&#160;au-del&#224; du livre&#160;&#187;.&#160; Et dans ce cadre, le droit d&#8217;auteur n&#8217;a plus vraiment de place&#160; (note 6). 
+ Indexer un site qui n&#8217;est pas verrouill&#233;, pour &#160;cr&#233;er une nouvelle activit&#233; commerciale, sera appr&#233;ci&#233; au regard du droit du producteur de base de donn&#233;es ou du droit de la concurrence, et l&#8217;extraction, m&#234;me temporaire, sera jug&#233;e parasitaire si celui qui a extrait les donn&#233;es n&#8217;a pas effectu&#233; d&#8217;investissement substantiel pour cr&#233;er le nouveau service. 
+ Le &#160; datamining , et toutes les techniques de veille exploitant les donn&#233;es figurant dans des corpus, repr&#233;sentent un service que pourraient d&#233;velopper les &#233;diteurs eux-m&#234;mes, et qu&#8217;ils entendent monnayer pour obtenir un retour sur investissement, le besoin de reproduire et de repr&#233;senter une &#339;uvre allant d&#233;croissant. Ne vient-on pas d&#8217;apprendre que le Centre fran&#231;ais d&#8217;exploitation du droit de copie (CFC) proposerait prochainement des contrats aux  webcrawlers  [ 1 ]   ? 
+ 
+ Du droit de la concurrence au droit des usagers  
+ 
+ L&#8217;IABD avait signal&#233; dans sa d&#233;claration du 7 septembre 2010 [ 6 ] que&#160;&#171;&#160; la disposition la plus grave du R&#232;glement Google Livres est peut-&#234;tre celle qui pr&#233;voit que seul le gestionnaire de la base de donn&#233;es contenant les copies num&#233;riques des livres (soit Google et lui seul) est habilit&#233; &#224; autoriser les analyses et les recherches sur son corpus&#160;: l&#8217;on voit sans peine tous les probl&#232;mes d&#8217;impartialit&#233; pos&#233;s par cette clause, notamment dans le domaine toujours sensible de la recherche scientifique.&#160;&#187; &#160;L&#8217;on a retrouv&#233; ces inqui&#233;tudes dans un d&#233;bat organis&#233; aux &#201;tats-Unis [ 5 ]. 
+ Que faire, en effet, &#160;sachant que Google peut retirer des informations, et qu&#8217;aucune garantie n&#8217;est donn&#233;e sur l&#8217;exhaustivit&#233; et la fiabilit&#233; du corpus&#160;? Quelle parade utiliser pour garantir un acc&#232;s dans de bonnes conditions &#224; une base de donn&#233;es jug&#233;e essentielle&#160;? La licence obligatoire est une voie qui a &#233;t&#233; envisag&#233;e [ 1 ]. La th&#233;orie des facilit&#233;s essentielles, qui r&#233;&#233;quilibre les &#171;&#160;droits du titulaire des droits intellectuels et l&#8217;int&#233;r&#234;t collectif du march&#233;&#160;&#187;, sans r&#233;pondre &#224; toutes les questions, donne des ouvertures [ 8 ]. 
+ 
+ Notes 
+ [1]  Le droit d&#8217;acc&#232;s libre ne se traduisant pas automatiquement par une libert&#233; d&#8217;utilisation, les modalit&#233;s de la r&#233;utilisation seront &#160;d&#233;finies par un contrat. 
+ [2]  Une exception ins&#233;r&#233;e dans le droit fran&#231;ais par la loi sur le droit d&#8217;auteur et les droits voisins dans la soci&#233;t&#233; de l&#8217;information (Dadvsi) qui transposait une directive europ&#233;enne. 
+ [3]  Ceci m&#234;me si&#160; les actes ont pour but ultime une utilisation licite de l&#8217;&#339;uvre, soit ici &#160;la consultation d&#8217;une synth&#232;se de plusieurs articles r&#233;alis&#233;e par des tiers. 
+ [4]  Comme l&#8217;a indiqu&#233; le juge fran&#231;ais,&#160; dans sa d&#233;cision de d&#233;cembre 2009, dans le proc&#232;s qui oppose Google &#224; l&#8217;&#233;diteur La Martini&#232;re o&#249; il contestait la lic&#233;&#239;t&#233; du caract&#232;re al&#233;atoire et automatique de l&#8217;extraction de brefs extraits des ouvrages pour s&#8217;opposer &#224; l&#8217;argument de l&#8217;exception de citation. 
+ [5]  Mais il n&#8217;incombait &#224; la CJUE que d&#8217;examiner si les actes techniques pr&#233;alables r&#233;pondaient aux exigences de la directive europ&#233;enne,&#160; laissant aux &#201;tats membres le soin de d&#233;terminer la signification et la port&#233;e des exceptions propos&#233;es par la directive &#224; titre optionnel, ce qui &#233;tait le cas de la citation. Il appartient maintenant aux juges danois d&#8217;&#233;valuer s&#8217;il est possible d&#8217;autoriser, au titre de la citation &#224; des fins de revue, la pratique de l&#8217;entreprise de veille danoise, ce qui semble &#224; ce jour n&#8217;avoir pas &#233;t&#233; examin&#233; &#224; ce jour. 
+ [6]  On signalera aussi que, m&#234;me s&#8217;il s&#8217;agit de donn&#233;es non prot&#233;g&#233;es par le droit d&#8217;auteur (des &#339;uvres entr&#233;es dans le domaine public, par exemple), extraire des donn&#233;es fait aussi intervenir le droit d&#8217;auteur, lorsque le choix des donn&#233;es et/ou sa structure sont originaux. Ces dispositions, mises en &#339;uvre en Europe depuis l&#8217;adoption d&#8217;une directive europ&#233;enne, n&#8217;existent pas aux &#201;tats-Unis 
+ [7]  Quoique le droit d&#8217;auteur tend &#224; s&#8217;&#233;tendre &#224; des cat&#233;gories de plus en plus &#233;trang&#232;res aux cr&#233;ations intellectuelle et artistiques  stricto sensu . 
+ [8]&#160; La r&#233;utilisation des documents d&#8217;archives donne lieu en ce moment &#224; d&#8217;int&#233;ressants d&#233;bats. Voir, par exemple :  Privatisation des archives : l&#8217;inqui&#233;tude perdure , Guillaume, FranceGenWeblog, 10 juillet 2010 
+ R&#233;f&#233;rences 
+ &#160; 
+ &#160; 
+ &#160; 
+ 
+ Veille et intelligence &#233;conomique face au droit . Compte rendu de l&#8217;atelier  &#160; &#171;  &#201;volution de la propri&#233;t&#233; intellectuelle dans le cadre des nouvelles pratiques de l&#8217;information num&#233;rique. I-Expo&#160;: 10 juin 2010, Mich&#232;le Battisti,  Paralipom&#232;nes,  14 juin 2010   
+ Google, le droit d&#8217;auteur et nous . Compte rendu de la conf&#233;rence sur le livre &#224; l&#8217;&#232;re num&#233;rique. AFPIDA&#160;: le 17 mai 2010, M.B.,   Paralipom&#232;nes ,  31 mai 2010 
+ Pas d&#8217;exception de courte citation pour Google Livres&#160;?,  ADI,  M.B.&#160;, 11 f&#233;vrier 2010   
+ Autour de l&#8217;indexation , M.B.,&#160;  ADI,  octobre 2009 
+ The Google Book Settlement: Data Mining and Non-Consumptive Use. UCBerkeley Events 24 Sep 2009.  Sur  YouTube 
+ Non au R&#232;glement Google Livres en France. Oui &#224; une solution publique alternative gr&#226;ce &#224; l&#8217;emprunt national, Interassociation Archives-Biblioth&#232;ques-Documentation, 7 septembre 2009.  Sur le site de l&#8217;IABD 
+ Une nouvelle loi pour les archives , M.B.,  ADI  n&#176; 93, juillet-ao&#251;t 2008 
+ Le droit de la concurrence et la propri&#233;t&#233; intellectuelle sont-ils incompatibles ?  Etienne Wery,  Droit &amp; Technologies , 10 juin 2008 
+ Quel droit pour le data mining ? ,&#160; Brigitte Misse,  Marketing Direct  N&#176;119, 1 er  avril 2008 
+ Data mining et droit : La propri&#233;t&#233; intellectuelle &#224; l&#8217;&#233;preuve des technique de l&#8217;information et de la communication , M&#233;moire DEA Informatique et droit de l&#8217;universit&#233; de Montpellier, Rapha&#235;l Rivi&#232;re, 14 novembre 2006 
+ 
+ Savoir plus sur le data mining 
+ 11. Cartographie de l&#8217;information . Cours et TD de l&#8217;URFIST&#160; de Paris. 2 f&#233;vrier 2009. Pr&#233;sentation succincte 
+12. Datamining,  M.B.,  L&#8217;&#339;il de l&#8217;ADBS , n&#176; 8, mai 2006 (acc&#232;s r&#233;serv&#233; aux adh&#233;rents de l&#8217;ADBS) 
+13. Textmining,  M.B.,  L&#8217;&#339;il de l&#8217;ADBS , n&#176; 9, mai 2006 (acc&#232;s r&#233;serv&#233; aux adh&#233;rents de l&#8217;ADBS) 
+14.Data mining d&#233;finition , Master professionnel. Droit de l&#8217;internet public 
+ 
+                                         
+                                                                                                        
+                                 
+        </text>
+</document>

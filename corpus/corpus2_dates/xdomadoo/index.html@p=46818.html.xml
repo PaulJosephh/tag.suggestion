@@ -1,0 +1,25 @@
+<document>
+	<date>2015-04-10</date>
+        <title>Smockeo: le dtecteur de fume connect, Made In France</title>
+        <author> Cdric L. </author>
+        <tags_set>
+                <tag>capteur de fumee</tag>
+                <tag>daaf</tag>
+                <tag>fumee</tag>
+                <tag>incendie</tag>
+                <tag>sido</tag>
+                <tag>Sigfox</tag>
+                <tag>Smockeo</tag>
+        </tags_set>
+        <categories_set>
+                <category>News</category>
+        </categories_set>
+        <text>
+                                                         Cette semaine sest tenu  le SIDO a Lyon Smockeo Smockeo lire notre article tres complet sur la question Loriginalite de  Smockeo Bien sur, ce type de peripherique existe deja, avec le Nest Protect par exemple. Mais le Smockeo va plus loin, car il nutilise ni connexion internet ni  GSM SigFox La solution de connectivite Sigfox est issue dune infrastructure dantennes et de stations de base totalement independantes des reseaux existants, comme les reseaux de telecommunications : pas de  Wi-Fi Bluetooth GSM SigFox assure deja une couverture quasi mondiale. Pour verifier que vous etes bien dans la zone de couverture, vous pouvez  verifier sur cette page Le cote connecte concerne egalement la connexion entre les detecteurs eux meme:si un feu se declenche dans une piece, tous les detecteurs de lhabitation sonneront simultanement afin que les occupants soient avertis et prets a evacuer. Jusqua 24 detecteurs pourront ainsi etre connectes. Pour en revenir au detecteur, il pourra donc vous prevenir de: Degagement de fumee et forte hausse de la temperature Batterie faible, vide ou inexistante, Detecteur decroche de son support Dysfonctionnement electronique Defaut de communication entre vos detecteurs ou sur le reseau Sigfox Detecteur teste manuellement Ces alertes pourront etre envoyees par appel,  sms Malgre cette communication en continu, lautonomie annoncee est de 5 ans, grace notamment a SigFox qui consomme tres peu denergie pour sa communication, et au fait que le Smockeo ne communique que lorsque cela est necessaire. Lorsque la pile est morte, il suffit de contacter la societe qui en enverra une nouvelle. Enfin, un mot sur sa conformite: certifie CE EN 14604 etNF 292 DAAF, Smockeoest lunique detecteur a assurer une analyse en temps reel de son bon fonctionnement grace a une remontee dinformation constante (conformement aux articles L.129-8 et L.129-9). A tout moment sur votre espace Smockeo, vous pouvez obtenirvotre certificat de mise en conformite a destination de votre assurance. Mieux, en cas de sinistre, il est possible de certifier letat de fonctionnement general des detecteurs: les donnees etant transferees sur les serveurs securisesde la societe, il est possible degarantir quils etaient bien installes et fonctionnels aupres dun assureur. Bref, la simplicite de mise en place, les services proposes, et la communication rendant totalement autonome ce detecteur nous ont seduit ! Le Smockeo sera prochainement disponible a la vente.  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Tout savoir sur les detecteurs de fumee pour bien sequiper avant le 8 mars 2015 
+ Guide dutilisation du detecteur de fumee Fibaro FGSS-001 avec la base domotique Homelive dOrange 
+ #Cebit15: Novi, toute la securite de votre maison dans un DAAF END .entry-content  
+        </text>
+</document>

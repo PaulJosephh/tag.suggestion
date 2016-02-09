@@ -1,0 +1,29 @@
+<document>
+	<date>2013-12-23</date>
+        <title>Luup et les Variables des Modules</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Luup</tag>
+                <tag>Vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 Principes de fonctionnement 
+
+ 
+Les  variables device Vera Advanced 
+Une variable est caracterisee par un nom et un  Service ID Advanced Service ID 
+ luup.variable_get Target DEVICE currentTarget = . ( "urn:upnp-org:serviceId:SwitchPower1" , "Target" ,  ) 
+ luup.call_action Target DEVICE luup . ( "urn:upnp-org:serviceId:SwitchPower1" , "SetTarget" , { = "1" } ,  ) . ( "urn:upnp-org:serviceId:SwitchPower1" , "SetTarget" , { = "0" } ,  ) Prises Everspring AD142, AN157 et AN158 ainsi que Fibaro Wall Plug -- Allumer et Eteindre . ( "urn:upnp-org:serviceId:SwitchPower1" , "SetTarget" , { = "1" } ,  ) . ( "urn:upnp-org:serviceId:SwitchPower1" , "SetTarget" , { = "0" } ,  ) -- Etat courant (Statut) et cible (Target)  local = . ( "urn:upnp-org:serviceId:SwitchPower1" , "Status" ,  ) local = . ( "urn:upnp-org:serviceId:SwitchPower1" , "Target" ,  ) -- Ajuster le gradateur (Everspring AD142) . ( "urn:upnp-org:serviceId:Dimming1" , "SetLoadLevelTarget" , { =  } ,  ) -- Etat courant du gradateur (Everspring AD142) local = . ( "urn:upnp-org:serviceId:Dimming1" , "LoadLevelStatus" ,  ) -- Consommation instantanee (Watts) et cumulee (KWH) (Everspring AN158 et Fibaro Wall Plug) local = . ( "urn:micasaverde-com:serviceId:EnergyMetering1" , "Watts" ,  ) local = . ( "urn:micasaverde-com:serviceId:EnergyMetering1" , "KWH" ,  ) Thermostat Z-Wave Secure SCS317 et SSR303 -- Allumer et Eteindre la chaudiere (module SSR303) . ( "urn:upnp-org:serviceId:HVAC_UserOperatingMode1" , "SetModeTarget" , { = "HeatOn" } ,  ) . ( "urn:upnp-org:serviceId:HVAC_UserOperatingMode1" , "SetModeTarget" , { = "Off" } ,  ) -- Redefinir la temperature de consigne (module SCS317) . ( "urn:upnp-org:serviceId:TemperatureSetpoint1_Heat" , "SetCurrentSetpoint" , { =  } ,  ) -- Temperature de la piece (module SCS317) local = . ( "urn:upnp-org:serviceId:TemperatureSensor1" , "CurrentTemperature" ,  ) -- Temperature de consigne (module SCS317) local = . ( "urn:upnp-org:serviceId:TemperatureSetpoint1_Heat" , "CurrentSetpoint" ,  ) -- Temperature de consigne suivante (module SCS317) local = . ( "urn:upnp-org:serviceId:TemperatureSetpoint1_Heat" , "SetpointTarget" ,  ) MultiSensor by Aeon Labs -- Armer et Desarmer . ( "urn:micasaverde-com:serviceId:SecuritySensor1" , "Armed" , "1" ,   ) . ( "urn:micasaverde-com:serviceId:SecuritySensor1" , "Armed" , "0" ,   ) -- Niveau de la pile local = . ( "urn:micasaverde-com:serviceId:HaDevice1" , "BatteryLevel" ,  ) -- Wakeup interval (seconds) local = . ( "urn:micasaverde-com:serviceId:ZWaveDevice1" , "WakeupInterval" ,  ) -- Temperature courante local = . ( "urn:upnp-org:serviceId:TemperatureSensor1" , "CurrentTemperature" ,  ) -- Humidite courante local = . ( "urn:micasaverde-com:serviceId:HumiditySensor1" , "CurrentLevel" ,  ) -- Luminosite courante local = . ( "urn:micasaverde-com:serviceId:LightSensor1" , "CurrentLevel" ,  ) -- Etat de detection et date (au format epoch) de la derniere detection local = . ( "urn:micasaverde-com:serviceId:SecuritySensor1" , "Tripped" ,  ) local = . ( "urn:micasaverde-com:serviceId:SecuritySensor1" , "LastTrip" ,  ) Virtual ON/OFF Switches (Plugin) -- Passer l'etat a ON ou a OFF . ( "urn:upnp-org:serviceId:VSwitch1" , "SetTarget" , { = "1" } ,   ) . ( "urn:upnp-org:serviceId:VSwitch1" , "SetTarget" , { = "0" } ,   ) -- Interroger l'etat du switch local = . ( "urn:upnp-org:serviceId:VSwitch1" , "Status" ,  ) Produits 
+ 
+ 
+ 
+Shopping :  Vera Lite  Controleur domotique Z-wave Informations et sources 
+ 
+ Luup Lua extensions Les Variables des Modules 
+ Sommaire Domotique 
+        </text>
+</document>

@@ -1,0 +1,20 @@
+<document>
+	<date>2012-03-14</date>
+        <title>sudo et beesu sous Fedora</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+                <category>Systeme</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+ sudo substitute user do sudogr /etc/sudoers 
+[user]$ su - Defaults requiretty tty # Defaults requiretty %sudogr  ALL=(ALL) ALL 
+[root]# chmod u-w /etc/sudoers sudogr 
+Pour executer une application graphique avec les droits dadministrateur, Ubuntu et Mint proposent  gksudo beesu 
+[user]$ su - 
+        </text>
+</document>

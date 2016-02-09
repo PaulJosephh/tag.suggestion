@@ -1,0 +1,45 @@
+<document>
+	<date>2014-05-17</date>
+        <title>Alarme Home Control 2 de MyFOX</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>MyFOX</tag>
+        </tags_set>
+        <categories_set>
+                <category>Alarme</category>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                 Presentation Cahier des charges 
+ 
+Mon cahier des charges minimal est assez simple:
+ 
+ Veritable alarme plutot quun patchwork a base de modules  Z-Wave Alarme connectee afin de pouvoir larmer, la desarmer ou faire dautres manipulations a distance Alarme interfacable avec la domotique de la maison 
+Je ne crois pas que ce soit une bonne idee de concevoir son systeme dalarme a base de modules  Z-Wave Z-Wave Vera Lite IPX800 HC2 MyFOX 
+Dans ce contexte, il est important que box domotique et systeme alarme puissent communiquer. En effet, il est interessant de pouvoir baisser le chauffage ou eteindre certaine lumiere quand lalarme est armee, et faire linverse quand elle est desarmee. Il est egalement interessant que la domotique puisse declencher lalarme en se basant sur lactivation de ses propres capteurs, ou etre informee dune intrusion pour prendre certaines mesures.
+ Pourquoi MyFOX ? Avantages et inconvenients 
+ 
+Les veritables systemes dalarme vraiment connectes ne sont pas encore legion. Si on y ajoute la contrainte douverture du systeme du type API, je ne vois plus que  MyFOX MyFOX 
+Voici passes en revue quelques avantages et inconvenients propre a la solution MyFOX
+ 
+ Cest une veritable alarme (detection de brouillage, bi-bande 433 et 868 MHz) Solution connectee et  ouverte grace a son API Technologie brevetee du capteur TAG permettant de declencher lalarme avant intrusion Les serveurs distants avertissent par courriel dune coupure de courant ou dInternet 
+ Le capteur TAG nest pas un capteur douverture classique magnetique: dans certains cas, il peut ne pas detecter une ouverture de louvrant sur lequel il est positionne Dependance aux serveurs distants de la societe  MyFOX Pas encore de requete HTTP dans les scenarios (cest dans la  roadmap MyFOX Mise en uvre Mise en route 
+ Se rendre sur  https://myfox.me/start Creer son compte utilisateur Suivre les instructions pour finalement arriver sur linterface de gestion  MyFox Placer et tester les capteurs TAG 
+ Le capteur TAG se colle simplement au double face  sur les montants des ouvrants 
+Pour tester les capteurs TAG il faut:
+ 
+ Reduire la duree de la temporisation darmement:  Mon systeme Ma centrale Personnaliser Duree de la temporisation darmement (de sortie) Regler chacun des TAG pour quil ne declenche pas lalarme mais signale bien la detection. On peut, par exemple utiliser le mode  Protection partielle Mon systeme Securite Personnaliser (sur un capteur TAG) Protection partielle Signalisation sonore 2 Bips uniquement Attendre au moins 35 secondes entre deux tests successifs sur le meme capteur TAG 
+Cette procedure permet de tester vos capteurs TAG: en cas de detection, la centrale emet ainsi deux bips.
+ Parrainage 
+
+ 
+Si vous achetez un systeme MyFOX, vous pouvez etre parraine et recevoir un cadeau en remerciement (40, capteur TAG, Telecommande). Il suffit pour cela de transmettre au parrain les informations demandees sur le formulaire et que le parrain envoi ce formulaire sous un delai de 15 jours apres activation de la centrale MyFOX par le filleul.
+ 
+ 
+ Nhesitez pas a me laisser un commentaire si vous voulez que je vous parraine! Informations et sources 
+ 
+ Installation de lalarme MyFox HC2 Test: Home Control 2 de MyFox Test de la centrale domotique Home Control HC2 de MyFox MyFox  Le Grand Test de lalarme Positionnement et reglage TAG [FO2001] Tutoriel : Changement des piles dun TAG [FO2001] 
+ Sommaire Domotique 
+        </text>
+</document>

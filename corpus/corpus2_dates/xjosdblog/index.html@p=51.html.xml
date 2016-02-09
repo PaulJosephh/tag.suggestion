@@ -1,0 +1,20 @@
+<document>
+	<date>2008-03-12</date>
+        <title>Comment utiliser un sparateur dcimal point  la place de la virgule sous OpenOffice.org en franais ?</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Applications</category>
+                <category>Galeres</category>
+        </categories_set>
+        <text>
+                                                 
+Pour pouvoir utiliser le point comme separateur decimal sous OpenOffice.org en francais, il suffit de specifier dans   Format  Cellules  Nombres Anglais 
+ La manipulation est decrite dans la FAQ de OpenOffice.org Une virgule sousOpenOffice.orgg en francais 
+ Autre solution sous Ubuntu : Systeme  Preferences  Clavier  Agencement France France  Autre 
+ Forum Ubuntu-fr.org 
+ Autre solution (probablement la meilleure) sous Ubuntu ou  Mint : Systeme  Preferences  Clavier  Agencement  bouton options  comportement de la touche de suppression du clavier numerique  choisir Touche obsolete avec virgule 
+ La virgule du pave numerique sous LibreOffice Calc  
+        </text>
+</document>

@@ -1,0 +1,87 @@
+<document>
+	<date>2013-09-22</date>
+        <title>Test des interrupteurs VIMAR (protocole EnOcean) avec un Smart Energy Switch Aeon Labs (Z-wave)</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Eedomus</category>
+                <category>EnOcean</category>
+                <category>Tutoriel</category>
+                <category>Zibase</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+  
+ Je vous ai parle a plusieurs reprises de la technologie  EnOcean . Ces modules utilisent la technologie sans fil ni pile et nont besoin daucune alimentation. 
+ Faisons un petit tour de presentation de cet interrupteur. 
+ 
+ CARACTERISTIQUES TECHNIQUES : 
+ 
+ Frequence demission : 868.3MHz 
+ Puissance demission : 10mW max 
+ Dimensions : base 80x80mm x hauteur 15mm 
+ Temperature : -25 jusqua +65C 
+ Cycles de commutation :  50.000 
+ Certifications : CE et RTEE directive 1999/5/CE 
+ Humidite relative de lair : 0% a 95% 
+ Portee dans les batiments :
+ 
+ Maconnerie : 20m, a travers 3 parois maximum 
+ Beton arme : 10m, a travers 1 paroi/plafond au maximum 
+ Placoplatre / Bois : 30m, a travers 5 parois maximum 
+ 
+  
+ 
+ Pas besoin de seterniser sur le descriptif, il sagit dun interrupteur de dimension classique, un peu plus epais (normal vu quil contient tout le necessaire pour le faire fonctionner). Nous allons donc utiliser la  Zibase , nayant pas le module qui sadapte sur lEedomus. 
+ 
+ Rendez-vous dans lhistorique de la Zibase pour obtenir les ID radio de votre interrupteur en appuyant sur les deux positions (haut et bas). 
+ 
+ Maintenant que nous avons recuperer les ID Radio, il suffit de creer notre peripherique EnOcean 
+ 
+ Precedemment javais deja enregistre le module Z-wave Smart Energy Switch Aeon Labs. 
+ 
+ Nos deux modules sont enregistres, il faut creer les scenaris qui vont actionner linterrupteur. oui jai bien dit les scenaris, car il en faut deux pour actionner linterrupteur (on et off). 
+ 
+ si lon consulte le journal des evenements on peut voir lexecution des scenaris se derouler correctement. 
+ 
+ voyons en image ce que cela donne lorsque lon actionne linterrupteur VIMAR: 
+ 
+  
+ En conclusion, les possibilites sont infinies,  la Zibase  reagit parfaitement, on peut donc commander tous nos modules. Les modules EnOcean prennent toute leur importance que ce soit dans votre future construction ou dans votre renovation. Certes, les modules sont encore  un peu cher , mais ils vont prendre de lampleur. Si vous construisez, vous allez eviter des saignees dans vos murs, des dizaines de metres de cable. Fini les trous dans les murs pour placer definitivement vos interrupteurs. Placez les comme bon vous semble en les collant simplement. 
+ En renovation, ce sera tout aussi simple. 
+ Sur la video, on entend pas forcement le petit cliquetis de linterrupteur, mais cest mecanique, cest ce qui permet de ne pas avoir de pile et de fil. 
+ Jusqua present seule la  Zibase  pouvait gerer aussi le protocole EnOcean mais depuis quelques semaine  la box eedomus  peut desormais gerer les modules EnOcean a laide du  Controleur USB EnOcean . Vous trouverez tous ces elements chez vos  fournisseurs de domotique . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

@@ -1,0 +1,28 @@
+<document>
+	<date>2015-02-05</date>
+        <title>Homelive  Guide dutilisation du rpteur Z-Wave DSD37 dAeon Labs</title>
+        <author> Maximin </author>
+        <tags_set>
+                <tag>aeon labs</tag>
+                <tag>domotique</tag>
+                <tag>dsd37</tag>
+                <tag>guide</tag>
+                <tag>homelive</tag>
+                <tag>orange</tag>
+                <tag>repeteur de signal</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Homelive</category>
+        </categories_set>
+        <text>
+                                                         La base  domotique Orange Z-Wave Aeon Labs Z-Wave A partir du portail Homelive ( http://homelive.orange.fr/accueil/ Orange Une fois sur le portail, rendez-vous dans  objets connectes  puis  + ajouter un appareil . Une liste de peripheriques soffre a vous. Choisissez  Repeteur Z-Wave . Vous pouvez ensuite brancher votre module a une prise electrique. Appuyez ensuite 3 fois sur le bouton dinclusion du module, situe sur le cote de celui-ci. Si cest le cas, lappareil sera detecte. Il suffira de lui donner un nom, de selectionner une piece puis de cliquer sur  Terminer . Si ce nest pas le cas, vous pouvez le dissocier ou le restaurer avant de tenter de linclure a nouveau. En cliquant sur le module, on va pouvoir modifier: son nom, la piece dans laquelle il se trouve, voir dans quel(s) scenario(s) il est utilise et le supprimer. Z-Wave Z-Wave Merci a Pedro pour la redaction de cet article! Vous pourrez retrouver  le repeteur de signaux Z-Wave DSD37 sur la boutique Domadoo!  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Guide dutilisation du detecteur de mouvement Fibaro FGMS-001 avec la base domotique Homelive dOrange 
+ Guide dutilisation de la sirene Aeon Labs ZW080 avec la base domotique Homelive dOrange 
+ Guide dutilisation de la prise murale Fibaro FGWPE-101 avec la base domotique Homelive dOrange 
+ Guide dutilisation du detecteur douverture Fibaro FGK-101 avec la base domotique Homelive dOrange END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,16 @@
+<document>
+	<date>2012-03-06</date>
+        <title>Guide dinstallation du micromodule variateur FIBARO FGD-211</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         
+  Le micromodule variateur FGD-211 permet de   controler une    lampe ou plafonnier a distance grace au protocole  Z-Wave Z-Wave  Il est compatible avec tout type de lampe supportant la variation (incandescence, fluo-compact, LED, ). 
+    Le micromodule  Fibaro   Le micromodule dimmer  Fibaro neutre  Mode 3 fils   Mode 2 fils   Ce module peut etre utilise en va et vient, mais lorsque  lon a plus de 2 interrupteurs, il peut etre utilise comme un  telerupteur  Mettez votre circuit electrique hors tension et retirez votre interrupteur existant. Connectez donc le module en fonction de si vous avez le file de  neutre neutre   Avant de ne plus avoir acces au module une fois dans la boite dencastrement derriere linterrupteur, il faut linclure dans votre reseau  Z-Wave Remettez alors le circuit electrique sous tension. Vous pouvez tester le  bon fonctionnement du micromodule en appuyant sur linterrupteur ou sur  le bouton integre au micromodule. Mettez alors votre controleur  Z-Wave eedomus   Vous pouvez maintenant placer le module au fond de la boite dencastrement.   Mettez linterrupteur en place.   Votre micromodule est maintenant installe et peut etre pilote a distance par votre controleur !  Note dutilisation en mode local via linterrupteur connecte :  Un appui court allume / eteint la lampe  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

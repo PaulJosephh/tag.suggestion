@@ -1,0 +1,47 @@
+<document>
+	<date>2005-05-07</date>
+        <title>Google Web Accelerator - Hep, pas si vite !</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bug</tag>
+                <tag>google</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>[Via  37 Signals ] 
+
+
+ Google  (encore lui) vient de sortir un nouveau  gadget  utilitaire destine a nous faire gagner du temps lors de notre sceance de surf:  Web Accelerator . Le principe est simple, lorsque vous consultez une page sur un site internet, Web Accelerator precharge en memoire les autres pages liees a celle-ci; ou plus simplement, en aspire le contenu lie, et ainsi accelere les temps de reponse et d'affichage lors du clic sur un lien dont le contenu a ete precharge. Soit. 
+
+
+ Maintenant, imaginons que vous ayez installe cette extension et que vous vous rendiez dans une interface d'administration de site internet; typiquement un espace qui nous permette d'ajouter, d'editer et de  supprimer  des elements, par le biais des liens ad-hoc. Or, nous venons de voir que Web Accellerator prechargeait  tous  les liens hypertextes presents dans  toutes  les pages qu'il rencontrait; nos liens d'effacement en font malheureusement partie... c'est la desagreable surprise qu'on eu certains utilisateurs de telles interfaces: tous leurs contenus purement et simplement effaces,  malgre l'absence de toute action en ce sens de leur part   
+
+
+ Alors si le prix a payer pour gagner quelques minutes d'attente de chargement de pages web est de potentiellement perdre plusieurs annees de contenu, je prefere definitivement me passer de Web Accelerator. 
+
+
+ Certains sont meme  entres en campagne  contre cette application. 
+
+
+ Edit du 8 mai (l'armistice ?) 
+
+
+ La page de telechargement de Web Accelerator affiche desormais le texte suivant: 
+
+
+ Thank you for your
+interest in Google Web Accelerator.
+We have currently reached our
+maximum capacity of users and
+are actively working to increase
+the number of users we can support. 
+
+
+ Limite d'utilisateurs maxi atteinte, mon cul oui. Ils se sont apercus que ce qu'ils mettait a disposition du public etait une bombe, voila tout. La vraie question est maintenant: que vont-ils proposer? Vont-ils tenter de corriger les failles (ce qui me semble rigoureusement impossible), ou vont-ils prendre acte et definitivement annuler la distribution de ce produit? 
+
+
+ J'ai l'impression qu'ils sont mechamment attendu au tournant, sur ce coup-la... 
+        </text>
+</document>

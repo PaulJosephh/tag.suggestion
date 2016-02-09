@@ -1,0 +1,14 @@
+<document>
+	<date>2012-11-13</date>
+        <title>Utilisation de la tlcommande porte-cls 4 boutons Aeon Labs avec leedomus</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                          Apres avoir inclus votre telecommande avec votre eedomus   Donnez-lui un nom, puis selectionnez la piece dans laquelle vous souhaitez la mettre. Cliquez sur Sauver. Retourner dans la configuration de ce peripherique, et allez dans longlet Parametrage Radio.   Configurez comme ci-dessous afin de modifier le parametre 250 et le mettre a la valeur 1.   Cliquez sur Envoyer.   A laide dun trombone, appuyez 3 secondes sur le bouton Learn de la telecommande pour la reveiller le temps de la configuration.   Cliquez sur Rafraichir, la commande a du etre executee.   Appuyez a laide dun trombone sur le bouton Mode de la telecommande, afin de sortir du mode Configuration. Lappui sur une touche doit maintenant generer un clignotement de la LED en vert.   Vous pouvez maintenant creer des regles pour les associer a chaque bouton.   Il faudra indiquer quel est le critere de declenchement, ainsi que laction a realiser. Pensez a sauvegarder vos modifications. Votre telecommande peut maintenant executer des scenes de votre box  eedomus   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,32 @@
+<document>
+	<date>2007-09-05</date>
+        <title>Release Time (part one)</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>myself</tag>
+                <tag>php</tag>
+                <tag>plugins</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>QOTD : 
+
+
+ A trop  procrastiner , on s'y casse le nez. 
+
+
+ Bon, je suis en train de sortir des cartons tout ce que je n'ai pas encore release. Voici une premiere fournee, sous la forme de deux plugins pour le framework  Symfony : 
+
+ 
+ sfPropelPollsPlugin Ce plugin permet de gerer des sondages simplement dans Symfony. Un module d'administration en back-office est inclus. 
+ sfPropelActAsRatableBehaviorPlugin Ce plugin permet de rendre n'importe quels objets Propel  notables , c'est a dire de leur attribuer une note. J'utilise un comportement Propel, et si ca vous interesse  un chouette tuto vous explique un peu comment ca marche . 
+ 
+
+ Ces plugins sont releases sous licence  MIT . Enjoy. 
+
+
+ Bon, c'est pas fini, d'autres choses vont suivre tres prochainement. 
+        </text>
+</document>

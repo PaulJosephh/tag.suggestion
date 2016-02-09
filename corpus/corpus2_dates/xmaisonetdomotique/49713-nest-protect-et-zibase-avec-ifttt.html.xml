@@ -1,0 +1,17 @@
+<document>
+	<date>2015-02-02</date>
+        <title>
+NEST Protect et Zibase avec IFTTT</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>IFTTT</tag>
+                <tag>Nest</tag>
+                <tag>Veille</tag>
+                <tag>Zibase</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>Apres avoir receptionne un Nest Protect, jai cherche comment faire interagir la  Zibase  avec dautres objets connectes ou services. A titre dexemple, quand le Nest Protect declenche une alarme suite a une detection de fumee, nous souhaitions declencher la sirene dont nous disposons sur la  Zibase  dans le cadre de notre systeme dalarme. Lidee est ici de faire une petite synthese sans pretention permettant au passage de vous presenter le service IFTTT et aussi faire connaitre son equivalent francais BUSIT Lire larticle complet sur  Domotique ZIBASE   IFTTT   Nest   Veille   Zibase 
+        </text>
+</document>

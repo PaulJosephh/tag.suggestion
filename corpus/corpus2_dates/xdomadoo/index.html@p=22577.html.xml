@@ -1,0 +1,14 @@
+<document>
+	<date>2012-06-26</date>
+        <title>eedomus : nouvelle mise  jour</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          Connected Object eedomus domotique Pour commencer, 2 nouveaux peripheriques virtuels font leur apparition.   Le peripherique Teleinformation  Avancee permet de lire nimporte quelle etiquette de teleinfo (Index de consommation cumulee entre autre). Le peripherique Contenu HTML permet dafficher dans un widget une page web ou un contenu HTML simple (comme une image ou un logo).  De nouveaux peripheriques  Z-Wave Le clavier sans fil  Z-Wave Poly-Control   La sirene/Flash  Z-Wave Fortrezz   Sonnette  Z-Wave Everspring  Afin de faciliter la creation de scenarios, la box  eedomus   Alerte detecteur: Recevez une alerte mail ou  SMS Centralisation des ouvertures: Fermer ou ouvrez en un clic vos ouvertures motorisees. Surveillance presence: Soyez alerte de larrivee de vos enfants a votre domicile. La Surveillance intrusion a ete modifiee, il est maintenant possible de modifier les delai dactivation et de declenchement de lalarme.  Les regles ont egalement recues plusieurs ameliorations : Ajout des tags [DATE], [TIME], [RULE_TRIGGER] dans le texte des regles. Ajour dune option dans les regles: Autoriser le redeclenchement, qui permet de ne pas declencher intempestivement une regle ou de limiter le nombre de messages par jour. Possibilite de revenir a la liste des regles apres une sauvegarde Bouton de desactivation/activation rapide de regles (Dans la liste des regles) Il est maintenant possible de monter et descendre les criteres des regles, ce qui evite de devoir refaire completement une regle quand les criteres changent dordre.  Cette mise a jour apporte aussi dautres ameliorations moins visibles et quelques corrections de bugs : Optimisation des performance et amelioration du mode de fonctionnement en cas de coupure internet longue Amelioration de la gestion des caracteres accentuees dans les valeurs de base des peripheriques Affichage dun message en cas dechec du Text2Speech Karotz Correction dun bug avec lutilisation des sources de changement de valeurs dans les regles Affichage dun message si la sortie teleinformation lue nest pas activee Filtrage de certaines trames invalides avec les consometres  Z-Wave Filtrage de certaines trames invalides avec les thermo-hygrometres ST814 Correction dun bug lors de lajout dune camera Axis Correction dun bug pouvant se produire apres linclusion multiples de peripheriques  Z-Wave Nouvel affichage Ouvrants qui regroupe les portes, fenetres, volets roulants  Connected Object eedomus  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

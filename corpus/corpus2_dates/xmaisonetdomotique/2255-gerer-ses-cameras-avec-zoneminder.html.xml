@@ -1,0 +1,19 @@
+<document>
+	<date>2010-11-04</date>
+        <title>
+Grer ses camras avec Zoneminder</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>aviosys</tag>
+                <tag>camera</tag>
+                <tag>Homeseer</tag>
+                <tag>securite</tag>
+                <tag>Zoneminder</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Securite</category>
+        </categories_set>
+        <text>Tous ceux qui se sont renseignes un minimum sur la gestion logicielle dun systeme de video surveillance seront tombes a un moment ou un autre sur Zoneminder. Javais moi meme decouvert Zoneminder il y a quelques annees, mais a ce moment la je trouvais cela trop complique. Aujourdhui, il est enfin installe chez moi, et je dois dire que ce soft est tout simplement excellent ! Cet outil necessitant un systeme Linux, je vous en ai fait un tutorial afin de pouvoir linstaller facilement.  Sommaire I. Presentation de Zoneminder II. Installation de l'OS Linux III. Installation de Zoneminder IV. Configuration de Zoneminder V. Zoneminder et le systeme domotique Commentaires (9) Powered by SEO TOC 1.7.3 
+ I. Presentation de Zoneminder  Zoneminder  est une solution open source de video surveillance, acceptant des sources video de toute sorte, quelles soient analogiques (connectees via une carte dacquisition), des webcams, ou encore des cameras reseau. Zoneminder soccupe de recuperer les flux video, les analyse, les enregistre, et est capable denvoyer les images capturees sur un serveur deporte via FTP ou SMTP (mail). Il dispose egalement dun serveur web dedie permettant de consulter les images et videos capturees ainsi que de controler le systeme de video surveillance. Zoneminder peut controler des cameras motorisees, et meme controler des modules X10 (pratique par exemple pour allumer la lumiere si un mouvement est detecte sur une camera). Pour fonctionner, Zoneminder necessite un ordinateur (idealement de faible consommation etant donne quil ne sera jamais eteint) sous systeme GNU/Linux et disposant dau moins 1 Go de memoire vive. Zoneminder est egalement optimise pour les systemes multi-coeurs en affectant la gestion dune camera par thread. Concernant lespace disque necessaire, cela depend de vos besoins: gardez en memoire que lespace disque employe sera forcement important si vous utilisez la fonction enregistrement des cameras.      1   2   3   4   5 aviosys   camera   Homeseer   securite   Zoneminder 
+        </text>
+</document>

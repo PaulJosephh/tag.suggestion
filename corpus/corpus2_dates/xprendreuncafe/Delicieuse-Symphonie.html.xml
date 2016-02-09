@@ -1,0 +1,20 @@
+<document>
+	<date>2007-10-02</date>
+        <title>Dlicieuse Symphonie</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>delicious</tag>
+                <tag>framework</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+                <tag>yahoo</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Alors ca c'est du lourd:  Symfony  propulse  del.icio.us preview . 
+
+
+ Il parait que Symfony rame, sauf chez Yahoo!. Poltergheist?  
+        </text>
+</document>

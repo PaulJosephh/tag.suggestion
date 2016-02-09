@@ -1,0 +1,18 @@
+<document>
+	<date>2014-10-14</date>
+        <title>nPerf, pour mesurer la qualit de votre ligne mobile</title>
+        <author> Cdric L. </author>
+        <tags_set>
+                <tag>mobile</tag>
+                <tag>nPerf</tag>
+                <tag>reseau</tag>
+                <tag>smartphone</tag>
+        </tags_set>
+        <categories_set>
+                <category>News</category>
+        </categories_set>
+        <text>
+                                                         La  domotique DegroupTest Tout dabord, lapplication nPerf, pour Network Performance, sest voulue simple dutilisation pour ne pas se destiner qua des geeks. Ainsi, au lancement, un ecran tres clair apparait avec simplement un bouton en son centre Lancer le test complet. Il suffit dappuyer dessus. Les trois premiers tests visent bien sur a mesurer le debit global: debit montant, descendant, et le temps de reponse des serveurs (ping). Pour cela, lapplication va charger des donnees stockees sur lun des serveurs mis en place pour loccasion par lediteur, puis envoyer dautres donnees sur ce meme serveur et enfin tester la latence, cest-a-dire le temps necessaire pour que la connexion se cree. Cette  phase En revanche, la seconde  phase La derniere etape consiste a tester le  streaming Au final, on obtient un score en points, et un recapitulatif des mesures effectuees. nPerf calcule un score final qui depend a 60 % des tests de performances brutes et a 40 % des deux mesures concretes (20 % pour les sites, 20 % pour la video). De cette facon, un operateur qui propose un excellent debit pourra toutefois etre moins bien place quun autre sil bride lacces a certains sites, comme Youtube par exemple. Cest ici tout linteret de cette nouvelle application: rendre compte de la qualite reelle de navigation. Tous les tests sont ensuite sauves dans un historique, quon peut consulter en details: Pour ceux qui ne voudraient faire quune partie du test, il est meme possible de selectionner le type de test a effectuer via le menu: Enfin, meme si nPerf se destine plutot a mesurer les performances dun reseau mobile, il est tout a fait possible de mesurer les performances dun reseau  Wi-Fi Le but, a terme, pour DegroupTest, est de recuperer ces donnees pour etablir un classement des operateurs et ainsi pouvoir informer efficacement les utilisateurs, parfois decus des promesses de leurs fournisseurs Ainsi, sur septembre, les tests ont deja pu etablir que Bouygues etait loperateur qui obtenait les meilleurs scores: nPerf est gratuite et financee par la publicite, mais pourceux qui souhaitent soutenir lequipe derriere nPerf, un achat in-app a 2 valable un an permet de supprimer le bandeau publicitaire et dacceder a lhistorique complet des tests. nPerf est actuellement disponible  sur Android iOS (a partir de iOS 7)  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

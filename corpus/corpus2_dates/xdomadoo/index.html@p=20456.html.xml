@@ -1,0 +1,14 @@
+<document>
+	<date>2010-04-07</date>
+        <title>Utilisation des fonctions de messagerie sous HomeSeer</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels Homeseer</category>
+        </categories_set>
+        <text>
+                                                         Apres le parametrage du compte messagerie sous  HomeSeer guide de configuration HomeSeer Il est necessaire de configurer un evenement (Event) qui une fois declenche, realisera laction denvoyer un e-mail. Dans le menu Events, ajoutez un nouvel evenement (Add Event) Dans longlet Name, configurez le nom et activez lexecution du declencheur (Trigger) Dans longlet Trigger, configurer un declencheur. Dans notre exemple, tout changement de statut de A1 Enfin dans longlet Action, ajouter une action (Add Action) de type Send Mail Cliquer sur Update puis sur Save A partir de maintenant tout changement de statut de A1 entrainera lenvoi dun mail.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

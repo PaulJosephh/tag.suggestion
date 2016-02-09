@@ -1,0 +1,46 @@
+<document>
+	<date>2005-07-22</date>
+        <title>Ooshop, on le choppe o ?</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>browsers</tag>
+                <tag>firefox</tag>
+                <tag>formats</tag>
+                <tag>libre</tag>
+                <tag>linux</tag>
+                <tag>standards</tag>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>Avant hier soir, par messagerie instantanee: 
+
+
+ (18:41:18) MT: Bonjour Niko, juste une petite question bete, les navigateurs Netscape et Explorer fonctionnent sous linux ?
+(18:41:29) NiKo: Ah heuuu Exlorer, non
+(18:42:17) NiKo: (c pas une grosse perte d'ailleurs)
+(18:42:46) MT: okay donc j'ai raison aucun des deux, j'accede pas a un site et le type "conseiller info" me dit de telecharger un des deux ?!?!!!!!!
+(18:43:30) NiKo: Alors pour Netscape, il existe Mozilla ou Firefox qui sont de tres bon navigateurs
+(18:43:39) NiKo: apt-get install mozilla-firefox  
+(18:44:06) MT: oui je l'ai mais leur site n'est pas completement compatible avec Mozilla-firebox
+(18:44:47) NiKo: ce sont des branques, voila tout
+(18:44:50) MT: c'est pk il me dit de telecharger un des navigateurs compatibles ... et pourtant je lui ai dit que j'etais sous Linux ! 
+(18:44:51) NiKo: essaye mozilla
+(18:44:58) NiKo: apt-get install mozilla-browser
+(18:45:17) MT: Marche pas, j'ai essaye Konqueror egalement tous les navigateurs que j'ai ne passe pas ou pas completement !
+(18:45:37) NiKo: si c pas indiscret, c'est quoi ce site a la con ?
+(18:45:38) MT: c'est le site  ooshop  ! Risque pas de m'avoir comme cliente eux !
+(18:45:50) NiKo: la honte
+(18:45:52) NiKo: en 2005
+(18:45:54) NiKo: je le crois pas
+(18:46:14) MT: remarque y'a un mieux ! avant on pouvait meme pas rentrer dans le magasin
+(18:46:14) NiKo: scuze, mais ca t'embete si je fais un copier-coller de cette conversation sur mon blog ?
+(18:46:34) NiKo: sans citer ton vrai nom, oeuf corse
+(18:46:55) MT: oeuf corse chez ami !! vas-y 
+(18:47:20) NiKo: ok
+(18:47:31) NiKo: ca illustrera tres bien mes propos libristes ^^ 
+
+
+ Je sais pas s'ils surveillent les statistiques d'utilisation des differents navigateurs, mais feraient mieux de se remuer la paillasse severe, chez Ooshop. 
+        </text>
+</document>

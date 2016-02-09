@@ -1,0 +1,24 @@
+<document>
+	<date>2013-10-17</date>
+        <title>Camra IP D-Link DCS-6511</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Camera IP</tag>
+        </tags_set>
+        <categories_set>
+                <category>DLink</category>
+                <category>Domotique</category>
+                <category>Surveillance</category>
+        </categories_set>
+        <text>
+                                                 Specifications 
+ Resolution: 12801024 (megapixels) Boitier etanche, conforme a la norme IP-66, avec chauffage et ventilateur integres Dome inviolable (certifie conforme a la norme IK-10) Objectif a foyer progressif motorise avec autofocus 3,3-12 mm, F1.4-F360C Angles de vision (H) 89,8-23,9, (V) 63,6-17,9, (D) 125,7-29,9 Alimentation par PoE Illuminateur infrarouge (portee 20m) et filtre de coupure IR pour la vision de nuit Technologie WDR (Wide Dynamic Range), pour des images claires dans des zones de fort retroeclairage Flux simultane (maximum 3) aux formats de compression H.264, MJPEG et MPEG-4 Entree/Sortie numerique pour capteurs et alarmes Impressions 
+ 
+Cest une camera taillee pour lexterieur (boitier etanche IP-66 et tres robuste IK-10, chauffage, ventilation). Le boitier entierement en metal inspire reellement confiance, ce qui permet de linstaller dans un lieu expose. La D-Link DCS-2230 fait vraiment jouet a cote et jimagine quil en est de meme pour une D-Link DCS-2310L ou une DCS-2332L
+ 
+Linterface de gestion est la meme que pour la D-Link DCS-2230.  Jai deja teste la DCS-2230 en detail 
+ Il sagit dun dome fixe. Je trouve cette solution bien plus pratique a installer que les petites molettes et rotules fragiles de la DCS-2230 (en fait, le systeme de reglage de la DCS-2230 nest meme pas suffisamment robuste pour resister a la raideur dun simple cable RJ45). Le foyer progressif motorise est un reel plus et offre une bien plus grande souplesse dinstallation quune focale fixe. Leclairage infra-rouge est bien plus puissant que celui de la DCS-2230. Limage produite est moins bruitee, surtout de nuit, que celui de la DCS-2230. Le piquer et les couleurs de limages sont par contre moins bon quavec la DCS-2230. De nuit, leclairage infra-rouge genere une sorte de brume au niveau de limage. Probablement un effet produit par le dome que je ne mexplique pas encore. Le reglage des seuils de la detection de mouvement est plus pointilleux quavec la DCS-2230 et il faut un peu pousser les curseurs dans les angles. Pour augmenter la sensibilite, il faut diminuer la valeur du parametre  pourcentage sensibilite 
+ 
+Shopping:  D-Link DCS-6511 
+        </text>
+</document>

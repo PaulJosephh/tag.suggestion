@@ -1,0 +1,23 @@
+<document>
+	<date>2009-08-26</date>
+        <title>Installation X10 de base</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>X10 Applications</category>
+        </categories_set>
+        <text>
+                                                         Linstallation  X10 X10 
+ Lemetteur peut etre une telecommande ( HR10 SH624 KR22 IR7243RF MC10 
+ Le recepteur peut etre un module appareil (ordre ON / OFF uniquement) ou un module lampe (ordres ON / OFF et variation). On peut le trouver sous differentes formes : 
+ Module prise ( AM12 LM12 
+ Module  Rail DIN AD10 LD11 
+ Module Douille ( LM15 LM15EB 
+ Module avec fils apparents ( AM12W LM12W 
+ Interrupteurs ( AW10 LW11 
+ Micromodules encastrables derriere une prise electrique ou un interrupteur ( AW12 LW12 
+ Convertisseur de signaux Radiofrequences en signaux  X10 TM13  Exemple dinstallation: Dans lexemple suivant, les lumieres et les appareils sont commandes par lintermediaire dune telecommande  KR22 X10 Le transmetteur RF /  X10 TM13 AM12 ou un  LM12 . Ainsi, lenvoi dun ordre avec la telecommande  KR22  sera recu par le  TM13 , puis converti et aussitot  transmis sur le reseau electrique. Les recepteurs   X10  relies aux differents appareils ( AM12  ou  LM12  pour cet exemple) vont interpreter le signal et executer la commande souhaitee. Linstallation est tres simple et necessite uniquement dinserer des modules dans des prises electriques. La programmation des adresses lest egalement : il suffit de regler tous les elements sur le meme code maison et de programmer les codes unites des recepteurs sur lemetteur.   Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

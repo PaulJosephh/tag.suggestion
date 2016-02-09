@@ -1,0 +1,15 @@
+<document>
+	<date>2011-10-24</date>
+        <title>Guide dinstallation dun metteur (X10 ou Chacon) avec la ZiBASE</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>ZiBASE Produits</category>
+        </categories_set>
+        <text>
+                                                          Le controleur  ZiBASE ZiBASE  Connectez vous au configurateur  ZiBASE DOMOTIQUE   Cliquez sur licone Ajouter en bas a gauche de lecran.   Donnez un nom au peripherique (exemple : EMML) et selectionnez la categorie Telecommandes.   Selectionnez la caracterisation de votre emetteur, cest a dire le nombre de boutons dont il dispose.
+ EM et PB200R : 1 bouton KR22 : 4 boutons TPC et KR18 : 2 boutons   Choisissez le logo associe.   Cliquez sur Capture didentifiant pour que la  ZiBASE   Appuyez ensuite sur votre emetteur pour quil envoie son code radio. Une fois le code recu, il saffiche dans le champ ID radio Bouton 1.   Si votre emetteur dispose de plusieurs boutons, procedez de la meme facon. Cliquez ensuite sur ENREGISTRER.   Votre emetteur peut maintenant etre utilise pour declencher un ou plusieurs scenarios !   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

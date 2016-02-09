@@ -1,0 +1,23 @@
+<document>
+	<date>2012-12-12</date>
+        <title>Touchpad : activer le bouton du milieu sous Linux</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Generalitees</category>
+                <category>Indispensable</category>
+                <category>Systeme</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Pour activer le clic a trois doigts sur le touchpad, simulant le bouton du milieu de la souris, il suffit de taper les commandes suivantes       :
+ synclient ClickFinger3=2 
+Cependant, ces modifications faites avec Synclient ne sont pas conservees au redemarrage. 
+Pour y remedier, il faut integrer ces commandes dans un script de demarrage.
+On peut, par exemple, ajouter la commande  synclient ClickFinger3=2 TapButton3=2 Outils systeme  Preferences  Applications au demarrage 
+ 
+ Linux : reactiver le clic a trois doigts sur un touchpad Configurer le pave tactile dun ordinateur portable 
+        </text>
+</document>

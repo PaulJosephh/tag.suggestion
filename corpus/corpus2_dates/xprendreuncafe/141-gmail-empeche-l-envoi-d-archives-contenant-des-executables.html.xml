@@ -1,0 +1,28 @@
+<document>
+	<date>2005-06-13</date>
+        <title>GMail empche l'envoi d'archives contenant des executables</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bug</tag>
+                <tag>gmail</tag>
+                <tag>google</tag>
+                <tag>haha</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Tout a l'heure, j'essaye d'envoyer via  GMail  une piece jointe zippee contenant un executable Windows (.EXE), mais voila que je tombe sur ce message d'erreur: 
+
+
+ 
+
+
+ Le pire - et vous pouvez reproduire vous-meme l'experience - c'est que nos pointilleux amis de Google ne se basent pas sur le type  MIME  du fichier contenu dans l'archive, mais  simplement sur son l'extension : creez un fichier toto.txt, renommer-le en toto.exe, zippez-le (.ZIP) et essayer de l'envoyer: GMail vous enverra bouler. Alors qu'un renommage d'un veritable executable en .txt  ne le fait pas moucher . 
+
+
+ Pire, il suffit de compresser votre vilain ver malicieux (.EXE) avec  WinRAR  (.RAR) et  GMail n'y voit plus que du feu . 
+
+
+ On dirait presque du Sarkozy: des mesures spectaculaires et mediatiques mais absolument inefficaces. Pire, elles s'averent meme  handicapantes  et  potentiellement dangereuses   
+        </text>
+</document>

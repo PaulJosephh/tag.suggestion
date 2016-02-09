@@ -1,0 +1,50 @@
+<document>
+	<date>2012-11-26</date>
+        <title>Base de donn&#233;es Whois : transparence vs protection des donn&#233;es</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Protection des donn&#233;es</tag>
+                <tag>T&#233;l&#233;communications</tag>
+        </tags_set>
+        <categories_set>
+                <category>Droit</category>
+        </categories_set>
+        <text>
+                                                
+                                                         La question m'est apparue comme un flash, suite aux r&#233;cents changements sur ce blog&#160;: pourquoi les donn&#233;es personnelles des d&#233;tenteurs de noms de domaine du ".ch" sont-elles librement accessibles sur Internet dans une base de donn&#233;es  Whois  alors que d'autres pays, comme la France pour le ".fr", permettent de les masquer voire le font automatiquement&#160;? 
+ (Avant d'aller plus loin, je pr&#233;cise que je suis au courant qu'il est possible pour certains noms de domaine de masquer toutes les informations relatives au titulaire. En ce qui me concerne, c'est par choix que j'ai pris un nom de domaine en ".ch".) 
+ 
+ Ressources d'adressage 
+ En Suisse, un nom de domaine (comme francoischarlet.ch) est une ressource d'adressage. Ces ressources permettent d'identifier les utilisateurs se servant d'outils de t&#233;l&#233;communications afin d'acheminer les informations vers leurs terminaux. La ressource d'adressage la plus connue est le num&#233;ro de t&#233;l&#233;phone. 
+ Une ressource d'adressage doit n&#233;cessairement &#234;tre li&#233;e &#224; une personne. De mani&#232;re g&#233;n&#233;rale, cela se fait de fa&#231;on contractuelle (un abonnement t&#233;l&#233;phonique chez un op&#233;rateur, par ex.). Comme des donn&#233;es personnelles sont collect&#233;es au moment de la conclusion du contrat, un lien direct est cr&#233;&#233; entre ces donn&#233;es et la ressource d'adressage. 
+ Les ressources d'adressage sont trait&#233;es tant dans la loi sur les t&#233;l&#233;communications ( LTC ) que dans l'Ordonnance sur les ressources d&#8217;adressage dans le domaine des t&#233;l&#233;communications ( ORAT ). 
+ Le  Message du Conseil f&#233;d&#233;ral  de 1996 (pp. 1392-1393) concernant la LTC disait ceci au sujet des ressources d'adressage&#160;: 
+ 
+ Les ressources d'adressage sont un bien math&#233;matiquement limit&#233;. [...] Les autres principes de base de la politique de num&#233;rotation sont l'attribution transparente et non discriminatoire, l'usage rationnel et judicieux des ressources d'adressage ainsi que l'adaptation de la r&#233;glementation et des plans de num&#233;rotation aux &#233;ventuels nouveaux services de t&#233;l&#233;communication. 
+ 
+ L' art. 28 LTC  pr&#233;voit donc une attribution transparente (m&#234;me s'il ne le dit pas express&#233;ment), ce qui implique n&#233;cessairement un conflit avec la protection des donn&#233;es. Toutefois, ces donn&#233;es personnelles li&#233;es &#224; une ressource d'adressage ne doivent pas &#234;tre consid&#233;r&#233;es en lien avec une communication&#160;; elles doivent &#234;tre prises dans le sens o&#249; elles constatent un &#233;tat, c'est-&#224;-dire l'attribution d'une ressource d'adressage &#224; un individu  1 . 
+ Pourquoi cette transparence&#160;? 
+ Alors qu'on autorise express&#233;ment - depuis l'entr&#233;e en vigueur de la LTC en 1997 - les individus &#224; d&#233;cider s'ils veulent figurer dans un annuaire t&#233;l&#233;phonique ( art. 12d LTC ), cette possibilit&#233; n'existe pas pour la base de donn&#233;e  Whois  pour les noms de domaine du ".ch". 
+ 
+ Les usagers doivent donc pouvoir d&#233;cider eux-m&#234;mes, compte tenu de la structure des annuaires, des donn&#233;es &#224; faire figurer dans ces derniers. Ainsi la protection de la personnalit&#233; est renforc&#233;e. ( Message du Conseil f&#233;d&#233;ral de 1996 ) 
+ 
+ A l'inverse, l' art. 14h ORAT  impose la publication des donn&#233;es que l'individu doit fournir afin de b&#233;n&#233;ficier d'un nom de domaine en ".ch". Ainsi, "le nom complet du titulaire" et "l&#8217;adresse postale du domicile ou du si&#232;ge du titulaire, indiquant le nom de la rue ou un num&#233;ro de case postale, la localit&#233;, le code postal, l&#8217;Etat ou la province (le canton pour la Suisse) et le pays" doivent &#234;tre rendus publics et librement accessibles pour tout un chacun. La protection de la personnalit&#233; &#233;nonc&#233;e plus haut concernant les annuaires semblent avoir ici beaucoup moins de poids. 
+ Cette transparence semble command&#233;e par les modes alternatifs de r&#232;glement des diff&#233;rends (Alternative Dispute Resolution [ADR]). Les ADR permettent &#224; une personne de demander une sorte d'arbitrage, en particulier dans le cas o&#249; elle doit faire face &#224; un enregistrements de nom de domaine qui viole ses droits, en mati&#232;re de propri&#233;t&#233; intellectuelle notamment. 
+ 
+ Ce d&#233;veloppement des ADR tient aux difficult&#233;s d&#8217;acc&#233;der &#224; la justice (dur&#233;e, complexit&#233; et co&#251;t des proc&#233;dures, en particulier lors de litiges transfrontaliers avec des conflits de loi et de juridiction), difficult&#233;s qui se sont accentu&#233;es dans le monde immat&#233;riel, sans fronti&#232;res et en rapide &#233;volution de l&#8217;internet. ( Message du Conseil f&#233;d&#233;ral  de 2003 concernant la r&#233;vision de la LTC, p. 7275) 
+ 
+ D&#232;s lors, et selon le  r&#232;glement d'utilisation  de la base de donn&#233;es Whois de Switch, cette base de donn&#233;es doit servir &#224; v&#233;rifier si un nom de domaine est d&#233;j&#224; enregistr&#233; ou non, et interroger les donn&#233;es concernant un nom de domaine afin d'identifier le d&#233;tenteur de ce nom de domaine. 
+ Les donn&#233;es &#224; publier ont &#233;t&#233; s&#233;lectionn&#233;es parmi celles recommand&#233;es se trouvant dans le  Rapport final  concernant le processus de consultation de l'OMPI sur les noms de domaine de l'Internet (paragraphes 73 et 81). Leur disponibilit&#233; publique vient notamment de l'OCDE  2  qui explique que "l&#8217;identification facile des entreprises en ligne est un &#233;l&#233;ment cl&#233; pour la confiance des consommateurs dans le march&#233; &#233;lectronique" de m&#234;me que "l&#8217;importance de la transparence des entreprises pour la confiance du consommateur en ligne". 
+ Pourtant, en France... 
+ Pourtant, en France, pour le ".fr", il est possible de masquer les donn&#233;es personnelles au public et de ne les r&#233;v&#233;ler qu'&#224; certaines conditions. L'AFNIC (Association Fran&#231;aise pour le Nommage Internet en Coop&#233;ration), sur cette  page , explique qu'il est possible de ne pas rendre publiquement disponible dans la base de donn&#233;es Whois les informations li&#233;es &#224; l'attribution du nom de domaine. 
+ 
+ Cette protection des donn&#233;es personnelles pour les particuliers est m&#234;me r&#233;alis&#233;e syst&#233;matiquement par l'AFNIC. Les donn&#233;es personnelles (nom, adresse, t&#233;l&#233;phone, etc..) que vous avez fournies &#224; l'enregistrement sont bien enregistr&#233;es mais elles sont remplac&#233;es par la mention "Diffusion restreinte" sur la fiche correspondant &#224; votre nom de domaine dans l'annuaire Whois. Ces coordonn&#233;es sont accessibles, sur demande expresse et motiv&#233;e, &#224; la Direction juridique de l&#8217;AFNIC et sous conditions. Notez que cette protection ne s'applique pas aux coordonn&#233;es professionnelles fournies par le repr&#233;sentant d'une personne morale (titulaire, contact administratif ou contact technique). 
+ 
+ S'il faut s'adresser au titulaire du nom de domaine, un lien dans la base de donn&#233;es Whois permet de remplir un formulaire qui enverra un e-mail au titulaire sans que ses donn&#233;es personnelles soient r&#233;v&#233;l&#233;es au tiers. En cas de litige, le tiers pourra s'adresser &#224; l'AFNIC (ou &#224; un tribunal) afin de  lever l'anonymat . 
+ Si le syst&#232;me est &#233;videmment moins transparent et implique de s'adresser &#224; un organisme avant de pouvoir, le cas &#233;ch&#233;ant, contacter le titulaire d'un nom de domaine, il a l'avantage de ne pas divulguer au monde entier nos noms et adresses postales. De plus, il ne me semble pas n&#233;cessaire de divulguer des donn&#233;es personnelles afin de prouver que le nom de domaine est d&#233;j&#224; pris&#160;; une simple r&#233;ponse n&#233;gative devrait suffire. Si cette derni&#232;re ne convient pas, il suffit de prendre les mesures qui s'imposent. 
+
+         Notes &#160;&#160;&#160;[  +  ]                                                 1.      &#8629;         Bondallaz, St&#233;phane,  La protection des personnes et de leurs donn&#233;es dans les t&#233;l&#233;communications , Th&#232;se, 2007.       2.      &#8629;         Consid&#233;rations  du point de vue de la politique &#224; l'&#233;gard des consommateurs sur l'importance d'avoir des donn&#233;es Whois exactes et disponibles                                                                              
+                                                                                                        
+                                                 
+        </text>
+</document>

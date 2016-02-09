@@ -1,0 +1,153 @@
+<document>
+	<date>2007-04-29</date>
+        <title>Symfony, Admin-Generator et Composants</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>framework</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+                <tag>tutoriel</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Dans un precedent billet, nous avons vu comment  creer un weblog basique avec l'admin-generator de Symfony . Nous allons reprendre la ou nous en etions et ajouter la liste des commentaires a notre back-office de gestion des billets grace a un simple appel de composant, qui n'est autre qu'un  template partiel  associe a un controleur dedie. 
+
+
+ Creation du module de gestion des commentaires en back-office 
+
+
+ Si ce n'est deja fait, on cree notre module de gestion des commentaires 
+
+
+ # symfony propel-init-admin back comments Comment 
+
+
+ Creation du composant qui va lister les commentaires d'un billet 
+
+
+ Bien. On va maintenant creer un composant  postcomments  qui affichera la liste des commentaires associes a un objet  Post , en creant un nouveau fichier  apps/back/modules/posts/actions/components.class.php  et en y inserent le contenu ci-dessous: 
+
+ 
+
+
+ On cree maintenant le template partiel associe au controleur, dans le fichier  apps/back/modules/posts/templates/_postcomments.php : 
+
+  php
+?php if (isset($comments)): ?
+  ?php if (count($comments)  0): ?
+    ?php use_helper('Comment', 'Text') ?
+    dl
+    ?php foreach ($comments as $comment): ?
+      dt
+        ?php echo sprintf('Poste le strong%s/strong par strong%s/strong :', 
+                           format_date($comment-getCreatedAt(), 'd/MM/yyyy a H:m'),
+                           format_comment_author($comment-getAuthor(),
+                                                 $comment-getSite())) ?
+      /dt
+      dd
+        ?php echo simple_format_text($comment-getContent()) ?
+      /dd
+      dd
+        [?php echo link_to('Editer', 'comments/edit?id='.$comment-getId()) ?]
+        [?php echo link_to('Supprimer', 
+                            'comments/delete?id='.$comment-getId(),
+                            'confirm=Etes-vous sur ?') ?]
+      /dd
+    ?php endforeach; ?
+    /dl
+  ?php else: ?
+    pNo comment yet./p
+  ?php endif; ?
+?php endif; ?
+ 
+
+
+ Utilisation d'un  helper  pour des taches courantes de templating 
+
+
+ La fonction  format_comment_author  est un  helper  maison, que nous definissons dans un  nouveau fichier  lib/helper/CommentHelper.php : 
+
+ 
+
+
+ Mise a jour du back-office de gestion des billets 
+
+
+ Ceci fait, modifions le fichier de configuration du back-office d'administration des billets cree  precemment  et situe dans le fichier  apps/back/modules/posts/config/generator.yml , afin d'appeller notre nouveau composant  postcomments  pour la vue d'edition d'un billet: 
+
+ 
+  [...]
+
+    # Customisation du formulaire d'ajout/edition
+    edit:
+      
+      [...]
+
+      # Affichage d'une selection de champs
+      display:         [author_id, title, excerpt, body, post_sections, ~postcomments]
+ 
+
+
+ Vous noterez le caractere  ~  precedant le nom du composant: encore une convention Symfony qui nous simplifie la vie  
+
+
+ Gestion de l'echappement 
+
+
+ Vous avez tous deja entendu parler des failles   XSS ? Pour nous en premunir partiellement, nous allons activer l'echappement automatique des contenus passes a une vue, en ajoutant ces directives dans le fichier  apps/back/config/settings.yml : 
+
+ 
+all:
+  .settings:
+    escaping_strategy: both
+    escaping_method:   ESC_ENTITIES
+ 
+
+
+ Ainsi, dans notre cas toutes les chaines seront echappees en entites HTML pour plus de securite. Pour plus d'information, rendez-vous dans la  section dediee de la documentation officielle . 
+
+
+ Au final, voici ce que ca donne quand on edite un billet: 
+
+
+ 
+
+
+ Champs virtuels 
+
+
+ Notre liste de billets, pour l'instant, ne nous informe pas pour chacun le nombre de commentaires associes. On va y remedier simplement en creant un getter ad-hoc dans notre objet de donnee  Post  et en appellant le champs virtuel associe. Dans le fichier  lib/model/Post.php , on rajoute la methode suivante: 
+
+  php
+  public function getCommentsNumber()
+  {
+    return $this-countComments();
+  }
+ 
+
+
+ Et dans le fichier  apps/back/modules/posts/config/generator.yml , on affiche le champs virtuel  comments_number  dans la vue en liste: 
+
+ 
+  [...]
+
+    # Customisation des colones de la vue en liste
+    list:
+      display:         [=title, excerpt, Author, comments_number, created_at, updated_at]
+ 
+
+
+ Voici ce que ca donne: 
+
+
+ 
+
+
+ En conclusion 
+
+
+ Voila, notre application prend forme doucement. On pourrait passez des heures a ajouter des details par-ci par-la, mais je vous laisse le faire en compagnie de la  documentation   
+        </text>
+</document>

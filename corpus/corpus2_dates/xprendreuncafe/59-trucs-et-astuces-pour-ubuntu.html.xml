@@ -1,0 +1,97 @@
+<document>
+	<date>2005-04-10</date>
+        <title>Trucs et astuces pour Ubuntu</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Ces astuces sont pour la plupart tirees d' Ubuntuguide.org  et du  Forum Ubuntu-fr.org . 
+
+
+ Activer le verouillage numerique au demarrage d'X 
+
+
+ Vous aussi, votre mot de passe contient un ou plusieurs chiffres, et ca vous ennerve d'avoir a activer Numlock manuellement a chaque demarrage? Voici le paquet qui s'acquittera automatiquement de cette tache a votre place (feignants !)  
+
+
+ $ sudo apt-get install numlockx 
+
+
+ Menus 
+
+
+ MenuEditor  vous permet - comme son nom l'indique - d'editer les items du menu Applications de Gnome/Ubuntu; vous pouvez le telecharger  a cette adresse . Ceci fait, installer le paquet au moyen de la commande suivante: 
+
+
+ $ sudo dpkg -i menueditor_0.4.3ubuntu1_all.deb 
+
+
+ Vous remarquerez que cette version de menueditor vous empeche d'effacer une entree creee via lui: c'est chiant   Pour virer une entree de menu recalcitrante de menueditor, il suffit de se rendre dans  ~/.local/share/  et de supprimer les fichiers .desktop incrimines. 
+
+
+ D'autre part, si vous voulez disposer d'un menu supplementaire/alternatif tres complet, vous pouvez installer le menu Debian, qui s'ajoutera dans le menu Applications de Gnome: 
+
+
+ $ sudo apt-get install menu 
+
+ Outils systemes 
+
+
+ Vous aussi, vous en avez marre d'utiliser des applis QT lourdingues sous Gnome pour des choses anodines? Voici le pendant de quelques softs KDE, aussi efficaces sinon plus: 
+
+ 
+ qtparted - gparted: gestionnaire de partitionnement de disque dur 
+ k3b - graveman ou gnomebaker: Deux excellents softs de gravures, simples et tres complets 
+ 
+
+ En dernier recours l'affichage des applis QT (comme skype) peut etre parametre via le paquet  qt3-qtconfig . 
+
+
+ Compression de donnees 
+
+
+ Si d'aventure vous tombiez sur une archive  RAR  qui refusait obstinement de s'ouvrir, essayez a tout hasard la version nonfree d'unrar: 
+
+
+ $ sudo apt-get install unrar-nonfree 
+
+
+ Detendons-nous un brin 
+
+
+ Je viens de tomber sur une petite merveille addictive:  chromium , un bon vieux shoot'em up des familles, sous OpenGL, tombe dans l' abandonware : 
+
+
+ $ sudo apt-get install chromium 
+
+
+ Prise en main a distance 
+
+
+ En mode texte, l'installation de SSH server suffit: 
+
+
+ $ sudo apt-get install ssh 
+
+
+ Pour se connecter a la machine depuis l'exterieur (ex: chezmoi.hd.free.fr), il faut utiliser la commande  ssh login@chezmoi.hd.free.fr  ou si on attaque son IP publique:  ssh login@82.98.XX.XX 
+
+
+ 
+
+
+ Sans oublier bien sur d'autoriser le port 22 depuis votre firewall, et de faire du port-forwarding de ce port de votre adresse publique vers l'IP interne de votre machine sur le reseau local  
+
+
+ Note: Si comme moi vous etes derriere un routeur, que vous desirez pouvoir attaquer votre machine depuis l'exterieur et que l'idee meme d'installer/configurer bind9 vous file des poussees de fievres, vous pouvez utiliser le fichier  /etc/hosts  pour y faire figurer votre adresse/IP publique, comme par exemple: 
+
+
+ 127.0.0.1 localhost.localdomain localhost chezmoi 82.98.XX.XX chezmoi.hd.free.fr 
+
+
+ Et voila, vous etes chez vous partout  
+        </text>
+</document>

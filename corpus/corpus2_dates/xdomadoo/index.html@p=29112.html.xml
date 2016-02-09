@@ -1,0 +1,17 @@
+<document>
+	<date>2013-11-29</date>
+        <title>Goldee: linterrupteur connect pour tous les piloter</title>
+        <author> Cdric L. </author>
+        <tags_set>
+                <tag>goldee</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>News</category>
+        </categories_set>
+        <text>
+                                                         Nous avons deja eu loccasion de decouvrir differentes ampoules connectees sur le blog:  Philips Hue Philips Hue Et a ce jour il nexiste pas dinterrupteur pour piloter directement ces ampoules. Mais cela pourrait changer avec  Goldee Cet interrupteur de 12cm de cote sur un peu moins d1cm depaisseur vient remplacer linterrupteur existant pour piloter le circuit declairage en place dans le cas dampoules traditionnelles (incandescentes, led, fluo). Dans le cas dampoules connectees comme les Hue ou les Lifx, il pourra piloter nimporte quelle ampoule, puisquil ne sera pas dependant ici dun circuit. En fait il pourra meme en piloter plusieurs a la fois. Sa mise en place se veut tres simple, puisquil se connecte en Wifi a la box internet. Pour ajouter a ses fonctions intelligentes, il est egalement capable de communiquer en  Bluetooth Dailleurs, parlons un peu de ces fonctions intelligentes: affichage couleur pour identifier les differents modes controle via gestures sans avoir besoin dappuyer dessus: mouvement vers la gauche ou la droite pour changer de scene, en haut pour allumer, en bas pour eteindre scenarios declairage pre-programmes (intensite et couleur) simulation de levee du soleil detection de mouvement pour allumage/extinction automatique et allumage automatique en pleine nuit timer, pour eteindre la lumiere progressivement sur une duree donnee simulation de presence par allumage/extinction aleatoire 
+ Tout cela dans un simple interrupteur. Couple a des ampoules connectees, il sera ainsi possible de declencher des scenes completes avec variations de lumiere, changement de couleurs, etc Plutot quun long discours, je vous laisse regarder la video de presentation: Le principe est plutot seduisant. Avec un tel interrupteur, on pourrait meme se passer de box  domotique profitez des pre reservations  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

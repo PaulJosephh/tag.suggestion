@@ -1,0 +1,21 @@
+<document>
+	<date>2014-02-11</date>
+        <title>Multiroom audio et vido avec la eedomus</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>audio</tag>
+                <tag>eedomus</tag>
+                <tag>kira128</tag>
+                <tag>multiroom</tag>
+                <tag>Raspberry Pi</tag>
+                <tag>synology</tag>
+                <tag>video</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Emmanuel est un de nos lecteurs reguliers et clients fideles. Il souhaite vous faire partager aujourdhui son experience avec son installation multiroom audio et video, quil controle a partir de sa box  domotique eedomus Dans notre maison domotisee, nous voulions pouvoir profiter de nos videos dans 3 pieces et de notre musique dans plusieurs pieces.Comme nous navions pas les moyens de recourir a des solutions cles en mains type  SONOS Synology eedomus eedomus domotique HTTP Tout dabord la source : Synology USB USB Le reseau : DEVOLO relais Wi-Fi relais Wi-Fi Les lecteurs : XBMC eedomus eedomus La diffusion et la TV : relais HTTP http La TV : relais WAF eedomus Mise en place : XBMC Tout dabord il faut creer un peripherique Actionneur  HTTP UPNP  Pour aller a laccueil: http  Play/Pause: http  Je me suis inspire du wiki de cette adresse: http://wiki.xbmc.org/index.php?title=JSON-RPC_API/Examples Et jen ai trouve dautres: Up:  http Down:  http Left:  http Right:  http Select:  http Back:  http Stop:  http Volume: http http http Afficher un message: http Ensuite, creation dun autre actionneur  HTTP Jai choisi par confort de creer un actionneur par piece mais vous pouvez en creer un par appareil. Pour les chaines de TV, jai cree des macros avec lappareil decodeur satellite. Cela permet de choisir des chaines necessitant plusieurs numeros. En effet les KIRA ne peuvent envoyer quun ordre a la fois. Donc pour choisir la chaine 100 par exemple, il faut passer par une macro du type Bouton du 1, attend 1 seconde, Bouton du 0, attend 1 seconde, Bouton du 0. Le temps de latence entre les 2 permet que le decodeur recoive bien les ordres et quils ne se telescopent pas. La creation des macros est un peu longue, surtout avec toutes les chaines que nous avons maintenant, mais vous netes pas oblige de mettre toutes les chaines. Voila le resultat chez moi :  Et enfin, pour parfaire lintegration, comme jai un plafonnier et 2 bandeaux LED dans la piece ou on se tient le plus souvent pour regarder des videos, jai fait en sorte que quand le Raspberry Pi est en lecture, le plafonnier seteint et un bandeau de LED sallume. Si on met en pause le Raspberry Pi, le 2nd bandeau LED sallume. Et enfin, quand on arrete la video, le plafonnier se rallume et les bandeaux LED seteignent. On peut meme pousser lintegration plus loin en le faisant allumer ou eteindre la TV en meme temps que lon met sur play ou sur stop. Merci a Emmanuel pour le partage !  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

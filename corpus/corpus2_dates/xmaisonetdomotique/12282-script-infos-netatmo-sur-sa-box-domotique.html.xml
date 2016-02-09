@@ -1,0 +1,40 @@
+<document>
+	<date>2013-07-02</date>
+        <title>
+Script mis  jour: infos Netatmo sur sa box domotique</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>eedomus</tag>
+                <tag>Netatmo</tag>
+                <tag>vera</tag>
+                <tag>Zibase</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Box Domotique</category>
+        </categories_set>
+        <text>Je vous ai  presente hier la station meteo Netatmo , une station meteo connectee pour iPhone (et appareils Android egalement). Cette station meteo dispose dune API, ce qui peut permettre par exemple de recuperer les infos de cette station meteo sur son systeme domotique. Jai realise un petit script tres simple qui se connecte a son compte Netatmo et recupere les mesures de la station meteo pour en faire un fichier xml. Ces informations seront donc recuperables par tout systeme capable de lire un fichier xml, comme par exemple la box  eedomus , la  Zibase , ou encore la  Vera  (via un script Lua). Je met le script a votre disposition comme les scripts vus precedemment, pour ceux qui nont pas la possibilite de lheberger eux meme. Pour ceux qui preferent lheberger eux meme, vous pouvez  telecharger la source ici .  
+[box_tip]Ce script a ete mis a jour pour supporter les  modules additionnels qui viennent de sortir pour linterieur .[/box_tip]  
+ I. Utilisation du script  Le script est vraiment tres simple. Il suffit dappeler ladresse  http://maison-et-domotique.com/scripts/netatmo.php?login=VOTRE_EMAILpassword=MOTDEPASSEbox=VOTRE_BOX  en completant bien sur ladresse avec ladresse mail de votre compte Netatmo et votre mot de passe. Pour le parametre VOTRE_BOX (facultatif), il suffit dindiquer le nom de la box utilisee (par exemple  zibase ,  eedomus  ou  vera ). Cest surtout utile actuellement pour la  Zibase , qui necessite de multiplier par 10 les temperatures, chose effectuee automatiquement par le script si vous indiquez le type de box. Vous obtiendrez un fichier xml de cette forme, qui contiendra toutes les informations:  xml version=1.0 encoding=utf8 ? 
+netatmo 
+temperature_interieure22.8/temperature_interieure 
+co2472/co2 
+humidite_interieure54/humidite_interieure 
+pression1020.6/pression 
+niveau_sonore36/niveau_sonore 
+temperature_exterieure21.2/temperature_exterieure 
+humidite_exterieure70/humidite_exterieure 
+temperature_additionnel121.8/temperature_additionnel1 
+co2_additionnel1521/co2_additionnel1 
+humidite_additionnel157/humidite_additionnel1 
+temperature_additionnel221.9/temperature_additionnel2 
+co2_additionnel2518/co2_additionnel2 
+humidite_additionnel257/humidite_additionnel2 
+temperature_additionnel322.3/temperature_additionnel3 
+co2_additionnel3628/co2_additionnel3 
+humidite_additionnel358/humidite_additionnel3 
+/netatmo Si vous possedez des modules additionnels, les informations seront egalement recuperees dans les tagstemperature_additionnel x ,co2_additionnel x , ethumidite_additionnel x , x etant le numero du module concerne.  
+ II. Exemple dutilisation  Jutilise ce script depuis plusieurs jours avec ma box  eedomus . La configuration est tres simple, il faudra juste creer un capteur HTTP pour chaque donnee quon souhaite recuperer. Exemple avec la mesure de CO2 du module principal:   Dans URL de la requete, on indique ladresse du script, dans laquelle vous aurez complete votre adresse mail et votre mot de passe, bien sur. Ensuite dans le chemin Xpath, vous indiquez //co2 pour recuperer la mesure de CO2. Vous pouvez indiquer lune des balises presntes dans le fichier xml pour recuperer la valeur souhaitee. Autre exemple pour le niveau de bruit:   Avec larrivee des modules additionnels, on peut egalement recuperer leurs infos, exemple pour la temperature du module additionnel n1:   
+[box_warning]Au niveau de la frequence de la requete, inutile de mettre moins de 10min. Dune part vous risquez de saturer le serveur, mais surtout la station Netatmo ne remonte les infos que toutes les 10min, il ny a donc aucun interet a linterroger plus souvent. Si des abus sont faits au niveau des temps de requete, je serais oblige de suspendre ce script, ce qui serait dommage :/[/box_warning]  On peut ensuite utiliser les differentes representations disponibles sur l eedomus . Jai par exemple ceci sur ma box:   Bien sur on peut consulter lhistorique des donnees:   Et les utiliser dans des scenarios. Un exemple ici qui declenche un message vocal sur le Karotz si on depasse le seuil des 1000 ppm en CO2:   Ces differentes informations peuvent etre utiles pour bien des cas. Concernant la temperature et lhumidite, cest du classique. Mais on peut imaginer egalement utiliser le niveau sonore pour indiquer une presence dans la maison, voire meme le niveau de CO2, qui a vite fait daugmenter quand plusieurs personnes sont presentes dans la piece. Le niveau de CO2 peut aussi etre utile pour augmenter ponctuellement la vitesse de la VMC afin de renouveler lair, etc Ces informations peuvent egalement etre recuperees sur la  Zibase , en utilisant une requete http recuperant une valeur dans une variable:   Ou sur la  Vera  en utilisant la fonctionextractElement dans un script Lua. Par exemple:  local   function extractElement(tag, xml, default)  local   pattern =  " " ..tag.. "(.*) /" ..tag.. ""  local   result = (xml:match(pattern) or default)  return   result end local   url =  "http://maison-et-domotique.com/scripts/netatmo.php?login=VOTRE_EMAILpassword=MOTDEPASSE"  local   status, rss = luup.inet.wget(url, 10) if   (status == 0) then  local   tempext = extractElement( "temperature_exterieure" , rss,  "N/A" )  luup.variable_set( "urn:upnp-org:serviceId:TemperatureSensor1" ,  "CurrentTemperature" , tempext, 94) end 
+ III. Conclusion La station Netatmo est un excellent produit, qui, grace a son API, nous permet en plus dexploiter les mesures quelle effectue. Temperature et humidite sont des donnees courantes, mais les valeurs de CO2 ou de niveau sonore le sont nettement moins. Dailleurs, je ne connais quun peripherique en Zwave capable danalyser la qualite de lair, mais qui coute deux fois le prix de la Netatmo. Le calcul est vite fait :p Les applications utilisant la station Netatmo risquent de fleurir dans les semaines a venir   eedomus   Netatmo   vera   Zibase 
+        </text>
+</document>

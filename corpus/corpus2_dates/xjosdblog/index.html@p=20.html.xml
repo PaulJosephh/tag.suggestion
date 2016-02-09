@@ -1,0 +1,23 @@
+<document>
+	<date>2009-12-13</date>
+        <title>Thunderbird sur un disque externe ou une clef usb</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Applications</category>
+                <category>Logiciels</category>
+        </categories_set>
+        <text>
+                                                 
+Je travaille regulierement sur plusieurs ordinateurs (3 PC de bureau et 1 portable). Le plus efficace pour cette configuration est de stocker toutes ses donnees sur un disques externe (disque pour lequel il faut mettre en place une politique de sauvegarde reguliere et automatique, un peu comme decrit dans  ce billet 
+ 
+ Telecharger Mozilla Thunderbird thunderbird 
+Sur le meme disque, copier le repertoire qui contient les mails ( thunderbird_mail Mail ImapMail pref.js 
+Vous pouvez maintenant executer Thunderbird depuis le disque externe en tapant la commande suivante dans un terminal :
+  /home/.../thunderbird/thunderbird -profile /home/.../thunderbird_mail/ 
+Avec gnome, vous pouvez ajouter un  Lanceur dapplication personnalise Application Type Commande /home/.../thunderbird/thunderbird -profile /home/.../thunderbird_mail/ 
+Enfin, pour pouvoir envoyer un mail par un simple click dans une page Internet, il faut configurer le gestionnaire de mail par defaut. Sous Ubuntu, aller dans  SystemePreferencesApplications preferees Logiciel de messagerie Personnalise Commande /home/.../thunderbird/thunderbird -profile /home/.../thunderbird_mail/ "%s" 
+Cette procedure fonctionne tres bien avec Thunderbird 3.0 et ses versions anterieures. Curieusement, loption  -profile thunderbird -help %s 
+        </text>
+</document>

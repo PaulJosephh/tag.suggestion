@@ -1,0 +1,32 @@
+<document>
+	<date>2008-02-21</date>
+        <title>Installation dUIMA sous Linux ( Suite)</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+ 
+ Verifying Your Installation  (extrait du  README apache-uima documentAnalyzer.sh 
+ documentAnalyzer.sh
+ Document Analyzer 
+ 
+Input Directory:  UIMA_HOME/examples/data 
+Output Directory:  UIMA_HOME/examples/data/processed 
+Location of Analysis Engine XML Descriptor:  UIMA_HOME/examples/descriptors/analysis_engine/PersonTitleAnnotator.xml UIMA_HOME Run Analyzed Results 
+ View the examples code with Eclipse UIMA Overview  SDK Setup 3.2. Setting up Eclipse to view Example Code 
+ 
+In Eclipse, if the Java perspective is not already open, switch to it by going to:
+ Window  Open Perspective  Java 
+Select the  File   Import 
+Select  General/Existing Project into Workspace Next 
+Click  Browse UIMA_HOME 
+Click  Finish uimaj-examples 
+To verify that you have set up the project correctly, check that there are no error messages in the  Problems 
+ UIMA Manuals and Guides Sommaire UIMA sur ce blog 
+        </text>
+</document>

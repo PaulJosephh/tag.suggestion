@@ -1,0 +1,260 @@
+<document>
+	<date>2012-12-27</date>
+        <title>Camra D-Link DCS-932 L WI-FI</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>camera</tag>
+                <tag>D-Link</tag>
+                <tag>DCS932 L</tag>
+                <tag>eedomus</tag>
+                <tag>video surveillance</tag>
+                <tag>vision diurne et nocturne</tag>
+                <tag>WI-FI</tag>
+        </tags_set>
+        <categories_set>
+                <category>Alarme</category>
+                <category>Box Domotique</category>
+                <category>Camera</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ Voici la petite derniere arrivee dans ma solution de telesurveillance pour ma maisongraceau Pere Noel, la camera D-Link DCS-932 L. Cette camera est WIFI et possede la vision nocturne grace a ses 4 LEDs. 
+ 
+ Vous pourrez la visualiser de nimporte ou dun PC ou Smartphone connecte a internet grace a son cloud. 
+ 
+  
+  
+ Caracteristiques 
+ Interface reseau 
+ 
+ Ports Fast Ethernet 10/100BASE-TX 
+ WLAN 802.11b/g/n 
+ 
+ Connectivite sans fil 
+ 
+ Sans fil 802.11b/g/n avec securite WEP/WPA/WPA2 
+ 
+ Memoire : 
+ 
+ SDRAM : 32 Mo 
+ Flash : 4 Mo 
+ 
+ Bouton de reinitialisation 
+ 
+ Retablissement des parametres dusine par defaut 
+ 
+ Codecs video 
+ 
+ MJPEG 
+ JPEG pour les images fixes 
+ 
+ Fonctionnalites video 
+ 
+ Taille et qualite dimage reglables 
+ Horodatage et superposition de texte 
+ Retourner limage et Miroir 
+ 
+ Resolution 
+ 
+ 640 x 480 jusqua 20 images par seconde 
+ 320 x 240 jusqua 30 images par seconde 
+ 160 x 120 jusqua 30 images par seconde 
+ 
+ Objectif 
+ 
+ Distance focale : 5,01 mm, F2.8 
+ 
+ Capteur 
+ 
+ Capteur CMOS VGA 1/5 pouce 
+ 
+ Eclairement minimum : 
+ 
+ 1 lux @ F2.8 
+ 
+ Angle de prise de vue 
+ 
+ Horizontal : 45,3 
+ Vertical : 34,5 
+ Diagonale : 54,9 
+ 
+ Zoom numerique 
+ 
+ Jusqua x 4 
+ 
+ Voyants 
+ 
+ Voyant infrarouge : 4 
+ Distance declairage : 5 m 
+ 
+ Controle 3A 
+ 
+ AGC (Commande automatique de gain) 
+ AWB (Equilibrage automatique des blancs) 
+ AES (Obturateur electronique automatique) 
+ 
+ Alimentation 
+ 
+ Entree : 100-240 Vca, 50/60 Hz 
+ Sortie : 5 Vcc, 1,2 A 
+ Adaptateur de puissance de commutation CA vers CC externe 
+ 
+ Dimensions (L x P x H) 
+ 
+ Camera uniquement : 27,2 x 60 x 96 mm 
+ Support et socle inclus : 65,8 x 65 x 126 mm 
+ 
+ Poids 
+ 
+ 76,9 g (sans le support et la base) 
+ 
+ Consommation denergie (max.) 
+ 
+ 2 watts 
+ 
+ Temperature 
+ 
+ Fonctionnement : de 0 a 40 C 
+ Stockage : de -20 a 70 C 
+ 
+ Humidite 
+ 
+ De 20 a 80 % dhumidite relative sans condensation 
+ 
+ Emission (interferences electromagnetiques), securite et autres certifications 
+ 
+ FCC Classe B 
+ IC 
+ C-Tick 
+ CE 
+ 
+ Deballage 
+ Etant donne que la camera est toute petite, le coffret est lui aussi petit mais contient tout le necessaire pour installer la camera. 
+                           
+  
+ La camera est livree avec uncablereseau, uncabledalimentation (un peu court a mon gout, tout juste un peu plus d1 metre), un set de vis, un cd et la notice dinstallation. 
+ A larriere de la camera, on voit, un petit bouton WPS (WI-FI Protected Setup) qui va permettre dinitialiser la connection WIFI de la camera (juste au dessus, on trouve un petit trou correspondant au Reset et un retour aux reglages dusine). 
+ Un autocollant orange est colle sur le connecteur reseau, signalant quil faut dabord inserer le cd et faire linstallation a partir de celui-ci. 
+ Installation 
+ Inserer le cd dans votre ordinateur et suivre toutes les indications. 
+ on commence par modifier la langue, en francais cest quand meme plus simple 
+ 
+ je souhaite connecter ma camera en WI-FI et ma box SFR est bien equipe du bouton WPS 
+ 
+  
+ jinstalle et regle mon pied comme indique 
+ 
+  
+ je raccorde ladaptateur secteur a la camera 
+ 
+  
+ jappuie sur le bouton WPS de la camera et de la box SFR ou votre routeur (si celui-ci en est pourvu) sinon il faudra passer par le cable reseau pour la premiere connection. 
+ 
+  
+ le voyant est vert (ouf cest ok), on peut continuer. 
+ 
+  
+ la camera est bien reconnue sur le reseau en DHCP (une adresse ip automatique lui est attribuee). 
+ 
+  
+ Jai la possibilite dacceder a ma camera via le Cloud  mydlink.com , je cree mon compte afin de pouvoir y acceder de nimporte ou sur le web. 
+ 
+  
+ mon compte est cree (il vous premettra de regler votre identifiant, votre mot de passe afin dacceder a votre camera) ; celle-ci est prete a lemploi et diffuses les premieres images en direct 
+ 
+  
+  
+ 
+  
+ Configuration 
+ Nous allons maintenant configurer la camera. Pour acceder a son menu, je vais taper ladresse dans mon navigateur et arriver au menu general 
+ 
+  
+ Une petite video vous presente tous les menusaccessibles a laide de ladresse Web de votre camera. 
+ 
+Un menu important est le menu FTP, a partir de celui-ci vous pourrezparametrervotre box domotique par exemple pour recuperer les images, videos et gerer votre video surveillance. 
+ Maintenant que nous avonsparametrernotre camera (qualite dimage, son, etc) passons a notre box domotique ici leedomus, mais nous verrons dans un autre article comment parametrer votre future Zipabox. 
+ Box domotique : eedomus 
+  
+ Dans votre eedomus, il vous faut ajouter un nouveau peripherique 
+ 
+  
+  
+ Comme cest une camera et que ce nest pas une marque Axis, nous allons ajouter un autre type de camera 
+ 
+  
+ Des que lon a clique sur lajout autre camera, nous arrivons sur un autre menu et la, notre marque de camera est identifiee. Sinon nous aurions pris une marque generique. 
+ 
+  
+ En choisissant la marque *D-Link (marque de ma camera), celle-ci est immediatement reconnu sur le reseau. 
+ 
+  
+ Cet ecran est important car il comporte tous les elements permettant de renseigner votre page ecran de la gestion de votre camera au niveau FTP 
+ lecran ne rentrant pas sur une page je lai coupe en deux !!! oupsss 
+ 
+ donc entre eedomus et ces ecrans, vous pourrez renseigner toutes les lignes : 
+  le nom de lhote : camera.eedomus.com 
+  le port : 21 
+  le nom dutilisateur : (donne dans la page deedomus, il vous sera propre a votre box) :cameraXXXXX 
+  le mot de passe : (donne aussi dans la page deedomus de votre camera) : mot de passe FTP : XXXXXXX 
+ et bien sur : cliquer sur activer le telechargement dimage sur le serveur ftp (pour que leedomus recupere toutes les images) 
+ une petite video : 
+ 
+Revenons sur notre page daccueil de leedomus et cliquons sur la camera : 
+ 
+  
+ limage est bien recuperee 
+ 
+  
+ nous allons explore les images et lhistorique des prises de vue, ainsi que la possibilite de nettoyage des diverses photos ou la totalite, pensez que votre stockage nest pas illimite. 
+ la preuve en video 
+ 
+ Application Google play et App Store 
+ Ayant un smartphone Android, nous allons utiliser lapplication de Google play  Mydlink Lite . Cette application est gratuite et suffit simplement pour la gestion de base. 
+ 
+  
+ Sur mon telephone, jai parametre mon identifiant et mon mot de passe, ceux-ci configures, voila mes copies ecran de mon telephone : 
+ 
+ 
+ Lapplication permet de zoomer (en fonction des capacites de la camera), de couper le son et de pouvoir prendre un cliche a un instant T. 
+  
+ En conclusion 
+ Cest une camera de surveillance polyvalente. Contrairement a une webcam classique, la camera transmet des images video et un son de haute qualite a des fins de telesurveillance domestique, meme dans lobscurite la plus totale grace a ses voyants infrarouges integres. Grace au service mydlink, vous pourrez visionner en direct ce qui se passe dans votre maison sur votre PC et meme sur votre Tablette, votre smartphone Android ou iPhone via lapplication gratuite. 
+ Elle inclut des voyants infrarouges integres pour une surveillance constante, meme dans lobscurite la plus totale. Grace a sa distance declairage de cinq metres, cette camera peut surveiller votre bureau ou la chambre de votre bebe pendant la nuit (ideale pour remplacer un baby Phone). 
+ Grace au logiciel D-ViewCam (DCS-100) fourni gratuitement, vous pouvez meme visualiser jusqua 32 cameras a partir dun PC Windows. Ce logiciel regroupe de puissantes fonctionnalites, notamment la gestion dalertes centralisee et lenregistrement video/audio. 
+ Cette camera nest pas excessivement chere, vous la trouverez chez  Amazon  au prix de 76.95  fdp inclus. 
+ 
+  
+ 
+  
+ Dans un prochain article, nous verrons comment lintegrer a la Zipabox et a lexploiter. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

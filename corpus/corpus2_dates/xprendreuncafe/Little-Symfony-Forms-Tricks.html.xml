@@ -1,0 +1,150 @@
+<document>
+	<date>2009-07-16</date>
+        <title>Little Symfony Forms Tricks</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>forms</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+                <tag>validators</tag>
+                <tag>widgets</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Hey, its been a long time I didnt blog something clever here on  Symfony , let me try to remedy this. 
+
+
+ Ive just stumbled upon this  blog post about the use of sfValidatorCallback , which is quite cool because by using this particular validator you can virtually employ any kind of php callable to validate something. But as the author warned, it can be problematic to tie the symfony form validation framework to your model classes. 
+
+
+ Personnaly, I rather prefer to declare a method in the form class itself to validate some value without boring myself writing each time a new  sfValidatorBase  derived class [ 1 ] : 
+
+  php
+?php
+class myForm extends sfForm
+{
+  public function configure()
+  {
+    $this-setWidgets(array(
+      'name' = new sfWidgetFormInput(),
+    ));
+    
+    $this-setValidators(array(
+      'name' = new sfValidatorCallback(array('callback' = array($this, 'validateChuckNorris'))),
+    ));
+  }
+  
+  public function validateChuckNorris(sfValidatorBase $validator, $value)
+  {
+    // you can't validate chuck norris, but chuck norris can invalidate you
+    if ('Chuck Norris' === $value)
+    {
+      throw new sfValidatorError($validator, 'invalid');
+    }
+  }
+}
+ 
+
+
+ Of course, if you got the exact same need in another form, you should create a dedicated validator class. If you want custom error messages and options, youll have to create a dedicated class as well. But for simple and casual needs, this is just enough. 
+
+
+ The neat thing with the  sfValidatorCallback  validator is you can even validate form schema values (say, an array containing all the values bound to the form) the same way, eg. using a post validator. Lets see an example reusing the form shown previously: 
+
+  php
+?php
+class myForm extends sfForm
+{
+  static protected $choices = array(
+    'none' = 'No emails', 
+    'commercials' = 'Commercial emails', 
+    'news' = 'Annoucement emails', 
+    'alerts' = 'Alert emails',
+  );
+
+  public function configure()
+  {
+    $this-setWidgets(array(
+      //...
+      'email' = new sfWidgetFormInput(),
+      'opt_in' = new sfWidgetFormSelectRadio(array('choices' = self::$choices)),
+    ));
+    
+    $this-setValidators(array(
+      //...
+      'email' = new sfValidatorEmail(array('required' = false)),
+      'opt_in' = new sfValidatorChoice(array('choices' = array_keys(self::$choices))),
+    ));
+    
+    $this-validatorSchema-setPostValidator(new sfValidatorCallback(array(
+      'callback' = array($this, 'validateSchema'),
+    )));
+  }
+  
+  // We want the user to provide his email if he choosed to receive stuff by email
+  public function validateSchema(sfValidatorBase $validator, array $values)
+  {
+    if ($values['opt_in'] !== 'none'  !$values['email'])
+    {
+      throw new sfValidatorErrorSchema($validator, array(
+        'email' = new sfValidatorError($validator, 'required'),
+      ));
+    }
+  }
+}
+ 
+
+
+ As a cool side effect, it will also make testing your form validation very easy, because you just have to test the callable method of your form. 
+
+
+ Heres another trick I stole to  Kris  on a project we worked together on lately, using a formatter callback to alter the presentation of a widget. Heres an example showing how to get rid of the unordered list displaying a collection of checkboxes by default, by inlining them instead: 
+
+  php
+?php
+class myForm extends sfForm
+{
+  static protected $choices = array(
+    'none' = 'No emails', 
+    'commercials' = 'Commercial emails', 
+    'news' = 'Annoucement emails', 
+    'alerts' = 'Alert emails',
+  );
+
+  public function configure()
+  {
+    $this-setWidgets(array(
+      //...
+      'opt_in' = new sfWidgetFormSelectRadio(array(
+        'choices' = self::$choices,
+        'formatter' = array($this, 'formatInline'),
+      )),
+    ));
+    
+    $this-setValidators(array(
+      //...
+      'opt_in' = new sfValidatorChoice(array('choices' = array_keys(self::$choices))),
+    ));
+  }
+  
+  public function formatInline($widget, $inputs)
+  {
+    $formatted = array();
+    
+    foreach ($inputs as $input)
+    {
+      $formatted[] = $input['input'].' '.$input['label'];
+    }
+
+    return join(' ', $formatted);
+  }
+}
+ 
+
+
+ There are tons of little tricks like these which make the life of a developer using the forms framework easier, Ill try to share them with you progressively. 
+ Notes 
+ [ 1 ] All my examples are using latest Symfony 1.2. 
+        </text>
+</document>
