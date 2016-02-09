@@ -162,7 +162,7 @@ for aPost in tfidf:
         topOfX.append(vectorizer.get_feature_names()[att])
     topsTFIDF.append(topOfX)
 
-f=open('../experiments/experiments1/'+args.resultfile+"_"+str(args.nTOpropose)+".res", 'wb')
+f=open('../../results/tfidfsuggestion/'+args.resultfile+"_"+str(args.nTOpropose)+".res", 'wb')
 
 cPickle.dump(topsTF, f)
 cPickle.dump(topsTFIDF, f)

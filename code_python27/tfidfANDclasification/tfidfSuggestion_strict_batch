@@ -1,0 +1,8 @@
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xtoutchilink/ toutchilink --n 20 > ../../results/tfidfsuggestion/toutchilink20.eval
+echo "linuxfr20 complete"
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xtoutchilink/ toutchilink --n 15 > ../../results/tfidfsuggestion/toutchilink15.eval
+echo "linuxfr15 complete"
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xtoutchilink/ toutchilink --n 10 > ../../results/tfidfsuggestion/toutchilink10.eval
+echo "toutchilink10 complete"
+python tfidfSuggestion_strict.py ../../corpus/corpus2_dates/xtoutchilink/ toutchilink --n 5 > ../../results/tfidfsuggestion/toutchilink5.eval
+echo "toutchilink5 complete"
