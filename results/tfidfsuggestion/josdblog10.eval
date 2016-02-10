@@ -1,4 +1,4 @@
-processing time: 123.077789068
+processing time: 266.923221827
 -------------------------------
 Evaluation of TF approach
 evaluated instances 108
@@ -15,4 +15,4 @@ Evaluation of Together approach
 Precision 0.0571821424763
 Recall 0.445524691358
 F1-measure 0.101355520408
-evaluation time: 0.0039381980896
+evaluation time: 0.00805592536926
