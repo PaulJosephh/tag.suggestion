@@ -1,0 +1,18 @@
+processing time: 332.458044052
+-------------------------------
+Evaluation of TF approach
+evaluated instances 474
+Precision 0.147257383966
+Recall 0.289626342949
+F1-measure 0.195244706831
+-------------------------------
+Evaluation of TFIDF approach
+Precision 0.150843881857
+Recall 0.29366352705
+F1-measure 0.199309822479
+-------------------------------
+Evaluation of Together approach
+Precision 0.115919176635
+Recall 0.32802563119
+F1-measure 0.171302650295
+evaluation time: 0.0337750911713
