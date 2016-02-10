@@ -1,0 +1,21 @@
+#!/bin/bash
+python k10foldClassify.py ../../corpus/corpus2_dates/xtoutchilink > ../../results/categorization/wordsAsFeatures/toutchilink_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xjosdblog > ../../results/categorization/wordsAsFeatures/josdblog_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xparalipomenes > ../../results/categorization/wordsAsFeatures/paralipomenes_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xdomotique34 > ../../results/categorization/wordsAsFeatures/domotique34_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xmaisonetdomotique > ../../results/categorization/wordsAsFeatures/maisonetdomotique_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xshots > ../../results/categorization/wordsAsFeatures/shots_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xlagourmandiseselonangie > ../../results/categorization/wordsAsFeatures/lagourmandiseselonangie_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xfrancoischarlet > ../../results/categorization/wordsAsFeatures/francoischarlet_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xbcommebon > ../../results/categorization/wordsAsFeatures/bcommebon_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xprendreuncafe > ../../results/categorization/wordsAsFeatures/prendreuncafe_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xroxarmy > ../../results/categorization/wordsAsFeatures/roxarmy_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xbeaualalouche > ../../results/categorization/wordsAsFeatures/beaualalouche_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xcoupleofpixels > ../../results/categorization/wordsAsFeatures/coupleofpixels_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xdomadoo > ../../results/categorization/wordsAsFeatures/domadoo_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xjulsa > ../../results/categorization/wordsAsFeatures/julsa_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xpechedegourmand > ../../results/categorization/wordsAsFeatures/pechedegourmand_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xphilippebilger > ../../results/categorization/wordsAsFeatures/philippebilger_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xjurilexblog > ../../results/categorization/wordsAsFeatures/jurilexblog_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xjohncouscous > ../../results/categorization/wordsAsFeatures/johncouscous_k10fold_words_features
+python k10foldClassify.py ../../corpus/corpus2_dates/xjournaldugamer > ../../results/categorization/wordsAsFeatures/journaldugamer_k10fold_words_features
