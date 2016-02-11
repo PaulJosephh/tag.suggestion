@@ -1,0 +1,13 @@
+514
+514
+<Experiment for data located in ../../corpus/corpus2_dates/xbcommebon/>
+<Results for Fold[1]>
+Fold train Matrix[1]:(462, 48467)
+Fold test Matrix[1]:(52, 48467)
+(462, 48467)
+(52, 48467)
+Linear SVM Classifier Accuracy:0.711538461538
+Multinomial Naive Bayes Accuracy:0.288461538462
+5 Nearest Neighbors Accuracy:0.596153846154
+Random Forest (25 learners) Accuracy:0.653846153846
+<Linear SVM Classifier Metrics>

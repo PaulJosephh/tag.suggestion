@@ -1,0 +1,10 @@
+<Experiment for data located in ../../corpus/corpus2_dates/xroxarmy/>
+Size of matrix:(1135, 2467)
+<Results for Fold[1]>
+Fold train Matrix[1]:(1021, 2267)
+Fold test Matrix[1]:(114, 2267)
+Linear SVM Classifier Accuracy:0.315789473684
+Multinomial Naive Bayes Accuracy:0.30701754386
+5 Nearest Neighbors Accuracy:0.166666666667
+Random Forest (25 learners) Accuracy:0.271929824561
+<Linear SVM Classifier Metrics>

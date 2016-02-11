@@ -1,0 +1,13 @@
+474
+474
+<Experiment for data located in ../../corpus/corpus2_dates/xlagourmandiseselonangie/>
+<Results for Fold[1]>
+Fold train Matrix[1]:(426, 43136)
+Fold test Matrix[1]:(48, 43136)
+(426, 43136)
+(48, 43136)
+Linear SVM Classifier Accuracy:0.520833333333
+Multinomial Naive Bayes Accuracy:0.291666666667
+5 Nearest Neighbors Accuracy:0.541666666667
+Random Forest (25 learners) Accuracy:0.5625
+<Linear SVM Classifier Metrics>

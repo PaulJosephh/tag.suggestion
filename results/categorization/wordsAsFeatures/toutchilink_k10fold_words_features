@@ -1,0 +1,13 @@
+184
+184
+<Experiment for data located in ../../corpus/corpus2_dates/xtoutchilink/>
+<Results for Fold[1]>
+Fold train Matrix[1]:(165, 36493)
+Fold test Matrix[1]:(19, 36493)
+(165, 36493)
+(19, 36493)
+Linear SVM Classifier Accuracy:0.421052631579
+Multinomial Naive Bayes Accuracy:0.157894736842
+5 Nearest Neighbors Accuracy:0.631578947368
+Random Forest (25 learners) Accuracy:0.368421052632
+<Linear SVM Classifier Metrics>

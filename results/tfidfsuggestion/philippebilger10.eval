@@ -1,0 +1,18 @@
+processing time: 43787.1967421
+-------------------------------
+Evaluation of TF approach
+evaluated instances 0
+Precision nan
+Recall nan
+F1-measure nan
+-------------------------------
+Evaluation of TFIDF approach
+Precision nan
+Recall nan
+F1-measure nan
+-------------------------------
+Evaluation of Together approach
+Precision nan
+Recall nan
+F1-measure nan
+evaluation time: 0.00533199310303

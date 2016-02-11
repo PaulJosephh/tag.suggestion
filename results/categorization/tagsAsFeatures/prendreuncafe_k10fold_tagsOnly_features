@@ -1,0 +1,662 @@
+<Experiment for data located in ../../corpus/corpus2_dates/xprendreuncafe/>
+Size of matrix:(573, 321)
+<Results for Fold[1]>
+Fold train Matrix[1]:(515, 302)
+Fold test Matrix[1]:(58, 302)
+Linear SVM Classifier Accuracy:0.689655172414
+Multinomial Naive Bayes Accuracy:0.793103448276
+5 Nearest Neighbors Accuracy:0.655172413793
+Random Forest (25 learners) Accuracy:0.741379310345
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.78      0.64      0.70        11
+     Divers       0.52      0.78      0.62        18
+   Dotclear       0.67      0.67      0.67         3
+ Libritudes       0.00      0.00      0.00         5
+Lien permanent       0.00      0.00      0.00         1
+       Moto       0.00      0.00      0.00         1
+    Musique       0.00      0.00      0.00         0
+     Rigolo       1.00      0.82      0.90        11
+       Ruby       1.00      1.00      1.00         1
+     Ubuntu       0.88      1.00      0.93         7
+
+avg / total       0.66      0.69      0.66        58
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.89      0.73      0.80        11
+     Divers       0.67      0.89      0.76        18
+   Dotclear       0.75      1.00      0.86         3
+ Libritudes       1.00      0.40      0.57         5
+Lien permanent       0.00      0.00      0.00         1
+       Moto       0.00      0.00      0.00         1
+     Rigolo       0.91      0.91      0.91        11
+       Ruby       0.00      0.00      0.00         1
+     Ubuntu       0.88      1.00      0.93         7
+
+avg / total       0.78      0.79      0.77        58
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.86      0.55      0.67        11
+     Divers       0.54      0.72      0.62        18
+   Dotclear       0.67      0.67      0.67         3
+ Libritudes       0.25      0.20      0.22         5
+Lien permanent       0.00      0.00      0.00         1
+       Moto       0.00      0.00      0.00         1
+     Rigolo       0.75      0.82      0.78        11
+       Ruby       1.00      1.00      1.00         1
+     Ubuntu       0.86      0.86      0.86         7
+
+avg / total       0.65      0.66      0.64        58
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.88      0.64      0.74        11
+     Divers       0.58      0.78      0.67        18
+   Dotclear       0.75      1.00      0.86         3
+ Libritudes       0.00      0.00      0.00         5
+Lien permanent       0.00      0.00      0.00         1
+       Moto       1.00      1.00      1.00         1
+    Musique       0.00      0.00      0.00         0
+     Rigolo       0.91      0.91      0.91        11
+       Ruby       1.00      1.00      1.00         1
+     Ubuntu       0.88      1.00      0.93         7
+
+avg / total       0.70      0.74      0.71        58
+
+<Results for Fold[2]>
+Fold train Matrix[2]:(515, 306)
+Fold test Matrix[2]:(58, 306)
+Linear SVM Classifier Accuracy:0.775862068966
+Multinomial Naive Bayes Accuracy:0.724137931034
+5 Nearest Neighbors Accuracy:0.689655172414
+Random Forest (25 learners) Accuracy:0.862068965517
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.86      0.75      0.80         8
+     Divers       0.67      0.89      0.76        18
+ Libritudes       1.00      0.57      0.73         7
+      Liens       1.00      1.00      1.00         2
+    Musique       0.00      0.00      0.00         0
+     Rigolo       0.80      0.57      0.67        14
+       Ruby       1.00      1.00      1.00         1
+     Ubuntu       0.89      1.00      0.94         8
+
+avg / total       0.81      0.78      0.78        58
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.86      0.75      0.80         8
+     Divers       0.59      0.89      0.71        18
+ Libritudes       1.00      0.43      0.60         7
+      Liens       1.00      1.00      1.00         2
+     Rigolo       0.80      0.57      0.67        14
+       Ruby       0.00      0.00      0.00         1
+     Ubuntu       0.78      0.88      0.82         8
+
+avg / total       0.76      0.72      0.71        58
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.67      0.50      0.57         8
+     Divers       0.58      0.78      0.67        18
+ Libritudes       0.67      0.29      0.40         7
+      Liens       1.00      1.00      1.00         2
+     Rigolo       0.69      0.64      0.67        14
+       Ruby       1.00      1.00      1.00         1
+     Ubuntu       0.89      1.00      0.94         8
+
+avg / total       0.69      0.69      0.68        58
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.80      1.00      0.89         8
+     Divers       0.89      0.89      0.89        18
+ Libritudes       0.86      0.86      0.86         7
+      Liens       1.00      1.00      1.00         2
+     Rigolo       0.83      0.71      0.77        14
+       Ruby       1.00      1.00      1.00         1
+     Ubuntu       0.88      0.88      0.88         8
+
+avg / total       0.86      0.86      0.86        58
+
+<Results for Fold[3]>
+Fold train Matrix[3]:(515, 305)
+Fold test Matrix[3]:(58, 305)
+Linear SVM Classifier Accuracy:0.741379310345
+Multinomial Naive Bayes Accuracy:0.689655172414
+5 Nearest Neighbors Accuracy:0.741379310345
+Random Forest (25 learners) Accuracy:0.724137931034
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.86      0.75      0.80         8
+     Divers       0.63      0.71      0.67        17
+   Dotclear       1.00      1.00      1.00         1
+ Libritudes       0.80      0.40      0.53        10
+      Liens       1.00      1.00      1.00         3
+       Moto       0.00      0.00      0.00         1
+    Musique       0.00      0.00      0.00         1
+     Rigolo       0.73      1.00      0.84         8
+     Ubuntu       0.75      1.00      0.86         9
+
+avg / total       0.73      0.74      0.72        58
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.71      0.62      0.67         8
+     Divers       0.60      0.71      0.65        17
+   Dotclear       0.50      1.00      0.67         1
+ Libritudes       0.80      0.40      0.53        10
+      Liens       1.00      1.00      1.00         3
+       Moto       0.00      0.00      0.00         1
+    Musique       0.00      0.00      0.00         1
+     Rigolo       0.73      1.00      0.84         8
+     Ubuntu       0.70      0.78      0.74         9
+
+avg / total       0.68      0.69      0.67        58
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.86      0.75      0.80         8
+     Divers       0.61      0.65      0.63        17
+   Dotclear       1.00      1.00      1.00         1
+ Libritudes       0.71      0.50      0.59        10
+      Liens       1.00      1.00      1.00         3
+       Moto       0.00      0.00      0.00         1
+    Musique       0.00      0.00      0.00         1
+     Rigolo       0.80      1.00      0.89         8
+     Ubuntu       0.75      1.00      0.86         9
+
+avg / total       0.72      0.74      0.72        58
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.83      0.62      0.71         8
+     Divers       0.60      0.71      0.65        17
+   Dotclear       1.00      1.00      1.00         1
+ Libritudes       0.75      0.30      0.43        10
+      Liens       1.00      1.00      1.00         3
+       Moto       1.00      1.00      1.00         1
+    Musique       0.00      0.00      0.00         1
+     Rigolo       0.73      1.00      0.84         8
+     Ubuntu       0.75      1.00      0.86         9
+
+avg / total       0.72      0.72      0.70        58
+
+<Results for Fold[4]>
+Fold train Matrix[4]:(516, 303)
+Fold test Matrix[4]:(57, 303)
+Linear SVM Classifier Accuracy:0.649122807018
+Multinomial Naive Bayes Accuracy:0.59649122807
+5 Nearest Neighbors Accuracy:0.614035087719
+Random Forest (25 learners) Accuracy:0.666666666667
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.70      0.78      0.74         9
+     Divers       0.48      0.71      0.57        14
+   Dotclear       1.00      0.75      0.86         4
+ Libritudes       0.50      0.38      0.43         8
+      Liens       1.00      1.00      1.00         3
+     Rigolo       1.00      0.50      0.67        12
+       Ruby       0.00      0.00      0.00         0
+     Ubuntu       0.71      0.71      0.71         7
+
+avg / total       0.72      0.65      0.66        57
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.75      0.67      0.71         9
+     Divers       0.42      0.71      0.53        14
+   Dotclear       1.00      0.50      0.67         4
+ Libritudes       0.25      0.12      0.17         8
+      Liens       1.00      1.00      1.00         3
+     Rigolo       0.86      0.50      0.63        12
+       Ruby       0.00      0.00      0.00         0
+     Ubuntu       0.75      0.86      0.80         7
+
+avg / total       0.65      0.60      0.59        57
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.75      0.67      0.71         9
+     Divers       0.36      0.57      0.44        14
+   Dotclear       1.00      0.75      0.86         4
+ Libritudes       0.25      0.12      0.17         8
+      Liens       1.00      1.00      1.00         3
+     Rigolo       0.88      0.58      0.70        12
+     Ubuntu       0.78      1.00      0.88         7
+
+avg / total       0.65      0.61      0.61        57
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.78      0.78      0.78         9
+     Divers       0.48      0.71      0.57        14
+   Dotclear       1.00      0.75      0.86         4
+ Libritudes       0.50      0.38      0.43         8
+      Liens       1.00      1.00      1.00         3
+     Rigolo       1.00      0.50      0.67        12
+       Ruby       0.00      0.00      0.00         0
+     Ubuntu       0.75      0.86      0.80         7
+
+avg / total       0.74      0.67      0.67        57
+
+<Results for Fold[5]>
+Fold train Matrix[5]:(516, 297)
+Fold test Matrix[5]:(57, 297)
+Linear SVM Classifier Accuracy:0.561403508772
+Multinomial Naive Bayes Accuracy:0.649122807018
+5 Nearest Neighbors Accuracy:0.561403508772
+Random Forest (25 learners) Accuracy:0.614035087719
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.50      0.43      0.46         7
+     Divers       0.59      0.64      0.62        25
+   Dotclear       0.00      0.00      0.00         0
+ Libritudes       0.75      0.43      0.55         7
+Lien permanent       0.00      0.00      0.00         2
+      Liens       1.00      1.00      1.00         1
+        Mac       0.00      0.00      0.00         1
+    Musique       0.00      0.00      0.00         0
+     Rigolo       0.67      0.67      0.67         9
+       Ruby       1.00      1.00      1.00         1
+     Ubuntu       0.29      0.50      0.36         4
+
+avg / total       0.57      0.56      0.56        57
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.67      0.57      0.62         7
+     Divers       0.72      0.72      0.72        25
+ Libritudes       0.60      0.43      0.50         7
+Lien permanent       0.00      0.00      0.00         2
+      Liens       1.00      1.00      1.00         1
+        Mac       0.00      0.00      0.00         1
+     Rigolo       0.57      0.89      0.70         9
+       Ruby       1.00      1.00      1.00         1
+     Ubuntu       0.40      0.50      0.44         4
+
+avg / total       0.62      0.65      0.63        57
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.60      0.43      0.50         7
+     Divers       0.60      0.60      0.60        25
+ Libritudes       0.50      0.57      0.53         7
+Lien permanent       0.00      0.00      0.00         2
+      Liens       1.00      1.00      1.00         1
+        Mac       0.00      0.00      0.00         1
+     Rigolo       0.54      0.78      0.64         9
+       Ruby       0.00      0.00      0.00         1
+     Ubuntu       0.40      0.50      0.44         4
+
+avg / total       0.53      0.56      0.54        57
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.57      0.57      0.57         7
+     Divers       0.64      0.72      0.68        25
+   Dotclear       0.00      0.00      0.00         0
+ Libritudes       0.60      0.43      0.50         7
+Lien permanent       0.00      0.00      0.00         2
+      Liens       1.00      1.00      1.00         1
+        Mac       0.00      0.00      0.00         1
+     Rigolo       0.75      0.67      0.71         9
+       Ruby       1.00      1.00      1.00         1
+     Ubuntu       0.33      0.50      0.40         4
+
+avg / total       0.60      0.61      0.60        57
+
+<Results for Fold[6]>
+Fold train Matrix[6]:(516, 308)
+Fold test Matrix[6]:(57, 308)
+Linear SVM Classifier Accuracy:0.736842105263
+Multinomial Naive Bayes Accuracy:0.666666666667
+5 Nearest Neighbors Accuracy:0.684210526316
+Random Forest (25 learners) Accuracy:0.719298245614
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       1.00      0.75      0.86        12
+     Divers       0.58      0.82      0.68        17
+   Dotclear       1.00      1.00      1.00         1
+ Libritudes       1.00      0.25      0.40         8
+      Liens       1.00      0.83      0.91         6
+     Rigolo       0.50      0.60      0.55         5
+       Ruby       0.50      1.00      0.67         1
+     Ubuntu       0.88      1.00      0.93         7
+
+avg / total       0.81      0.74      0.73        57
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       1.00      0.58      0.74        12
+     Divers       0.52      0.82      0.64        17
+   Dotclear       1.00      1.00      1.00         1
+ Libritudes       1.00      0.25      0.40         8
+      Liens       1.00      0.83      0.91         6
+     Rigolo       0.25      0.20      0.22         5
+       Ruby       0.50      1.00      0.67         1
+     Ubuntu       0.78      1.00      0.88         7
+
+avg / total       0.75      0.67      0.65        57
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       1.00      0.67      0.80        12
+     Divers       0.57      0.76      0.65        17
+   Dotclear       0.50      1.00      0.67         1
+ Libritudes       1.00      0.25      0.40         8
+      Liens       1.00      1.00      1.00         6
+     Rigolo       0.43      0.60      0.50         5
+       Ruby       0.00      0.00      0.00         1
+     Ubuntu       0.75      0.86      0.80         7
+
+avg / total       0.76      0.68      0.68        57
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       1.00      0.58      0.74        12
+     Divers       0.57      0.76      0.65        17
+   Dotclear       1.00      1.00      1.00         1
+ Libritudes       0.75      0.38      0.50         8
+      Liens       1.00      1.00      1.00         6
+     Rigolo       0.43      0.60      0.50         5
+       Ruby       1.00      1.00      1.00         1
+     Ubuntu       0.88      1.00      0.93         7
+
+avg / total       0.77      0.72      0.72        57
+
+<Results for Fold[7]>
+Fold train Matrix[7]:(516, 293)
+Fold test Matrix[7]:(57, 293)
+Linear SVM Classifier Accuracy:0.719298245614
+Multinomial Naive Bayes Accuracy:0.701754385965
+5 Nearest Neighbors Accuracy:0.684210526316
+Random Forest (25 learners) Accuracy:0.649122807018
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       1.00      0.57      0.73         7
+     Divers       0.53      0.56      0.55        16
+   Dotclear       0.67      1.00      0.80         2
+ Libritudes       0.60      1.00      0.75         3
+Lien permanent       0.00      0.00      0.00         0
+      Liens       1.00      1.00      1.00         4
+        Mac       0.00      0.00      0.00         1
+    Musique       1.00      1.00      1.00         1
+     Rigolo       0.80      0.62      0.70        13
+       Ruby       1.00      1.00      1.00         2
+     Ubuntu       0.80      1.00      0.89         8
+
+avg / total       0.74      0.72      0.72        57
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.71      0.71      0.71         7
+     Divers       0.56      0.62      0.59        16
+   Dotclear       0.67      1.00      0.80         2
+ Libritudes       0.40      0.67      0.50         3
+      Liens       1.00      1.00      1.00         4
+        Mac       0.00      0.00      0.00         1
+    Musique       0.00      0.00      0.00         1
+     Rigolo       0.80      0.62      0.70        13
+       Ruby       1.00      1.00      1.00         2
+     Ubuntu       0.88      0.88      0.88         8
+
+avg / total       0.70      0.70      0.69        57
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       1.00      0.71      0.83         7
+     Divers       0.48      0.62      0.54        16
+   Dotclear       0.00      0.00      0.00         2
+ Libritudes       0.50      0.67      0.57         3
+      Liens       1.00      1.00      1.00         4
+        Mac       0.00      0.00      0.00         1
+    Musique       0.00      0.00      0.00         1
+     Rigolo       0.73      0.62      0.67        13
+       Ruby       1.00      1.00      1.00         2
+     Ubuntu       0.89      1.00      0.94         8
+
+avg / total       0.68      0.68      0.67        57
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       1.00      0.29      0.44         7
+     Divers       0.43      0.56      0.49        16
+   Dotclear       0.50      0.50      0.50         2
+ Libritudes       0.50      1.00      0.67         3
+      Liens       1.00      1.00      1.00         4
+        Mac       0.00      0.00      0.00         1
+    Musique       0.00      0.00      0.00         1
+     Rigolo       0.80      0.62      0.70        13
+       Ruby       1.00      1.00      1.00         2
+     Ubuntu       0.80      1.00      0.89         8
+
+avg / total       0.69      0.65      0.63        57
+
+<Results for Fold[8]>
+Fold train Matrix[8]:(516, 299)
+Fold test Matrix[8]:(57, 299)
+Linear SVM Classifier Accuracy:0.824561403509
+Multinomial Naive Bayes Accuracy:0.771929824561
+5 Nearest Neighbors Accuracy:0.719298245614
+Random Forest (25 learners) Accuracy:0.771929824561
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.62      0.62      0.62         8
+     Divers       0.72      0.87      0.79        15
+   Dotclear       1.00      1.00      1.00         1
+ Libritudes       0.00      0.00      0.00         2
+      Liens       1.00      1.00      1.00         7
+    Musique       1.00      1.00      1.00         1
+     Rigolo       1.00      0.78      0.88         9
+     Ubuntu       1.00      0.93      0.96        14
+
+avg / total       0.84      0.82      0.83        57
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.78      0.88      0.82         8
+     Divers       0.62      0.67      0.65        15
+   Dotclear       0.00      0.00      0.00         1
+ Libritudes       0.33      0.50      0.40         2
+      Liens       1.00      1.00      1.00         7
+    Musique       0.00      0.00      0.00         1
+     Rigolo       0.62      0.56      0.59         9
+     Ubuntu       1.00      1.00      1.00        14
+
+avg / total       0.75      0.77      0.76        57
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.62      0.62      0.62         8
+     Divers       0.56      0.60      0.58        15
+   Dotclear       0.00      0.00      0.00         1
+ Libritudes       0.00      0.00      0.00         2
+      Liens       1.00      1.00      1.00         7
+    Musique       0.00      0.00      0.00         1
+     Rigolo       0.70      0.78      0.74         9
+     Ubuntu       1.00      0.93      0.96        14
+
+avg / total       0.71      0.72      0.72        57
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.57      0.50      0.53         8
+     Divers       0.62      0.67      0.65        15
+   Dotclear       0.50      1.00      0.67         1
+ Libritudes       0.50      0.50      0.50         2
+      Liens       1.00      1.00      1.00         7
+    Musique       1.00      1.00      1.00         1
+     Rigolo       0.78      0.78      0.78         9
+     Ubuntu       1.00      0.93      0.96        14
+
+avg / total       0.78      0.77      0.77        57
+
+<Results for Fold[9]>
+Fold train Matrix[9]:(516, 300)
+Fold test Matrix[9]:(57, 300)
+Linear SVM Classifier Accuracy:0.771929824561
+Multinomial Naive Bayes Accuracy:0.684210526316
+5 Nearest Neighbors Accuracy:0.684210526316
+Random Forest (25 learners) Accuracy:0.736842105263
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       1.00      0.67      0.80         9
+     Divers       0.63      0.75      0.69        16
+   Dotclear       1.00      1.00      1.00         3
+ Libritudes       0.33      0.20      0.25         5
+      Liens       1.00      1.00      1.00         2
+    Musique       1.00      1.00      1.00         1
+     Rigolo       0.86      0.86      0.86        14
+     Ubuntu       0.78      1.00      0.88         7
+
+avg / total       0.78      0.77      0.76        57
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.88      0.78      0.82         9
+     Divers       0.52      0.75      0.62        16
+   Dotclear       1.00      0.67      0.80         3
+ Libritudes       0.00      0.00      0.00         5
+      Liens       1.00      1.00      1.00         2
+    Musique       0.00      0.00      0.00         1
+     Rigolo       0.85      0.79      0.81        14
+     Ubuntu       0.83      0.71      0.77         7
+
+avg / total       0.68      0.68      0.67        57
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       1.00      0.56      0.71         9
+     Divers       0.55      0.75      0.63        16
+   Dotclear       1.00      0.67      0.80         3
+ Libritudes       0.00      0.00      0.00         5
+      Liens       1.00      1.00      1.00         2
+    Musique       0.00      0.00      0.00         1
+     Rigolo       0.71      0.86      0.77        14
+     Ubuntu       0.75      0.86      0.80         7
+
+avg / total       0.66      0.68      0.66        57
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       1.00      0.44      0.62         9
+     Divers       0.60      0.75      0.67        16
+   Dotclear       1.00      1.00      1.00         3
+ Libritudes       0.50      0.40      0.44         5
+      Liens       1.00      1.00      1.00         2
+    Musique       1.00      1.00      1.00         1
+     Rigolo       0.80      0.86      0.83        14
+     Ubuntu       0.75      0.86      0.80         7
+
+avg / total       0.76      0.74      0.73        57
+
+<Results for Fold[10]>
+Fold train Matrix[10]:(516, 310)
+Fold test Matrix[10]:(57, 310)
+Linear SVM Classifier Accuracy:0.877192982456
+Multinomial Naive Bayes Accuracy:0.771929824561
+5 Nearest Neighbors Accuracy:0.80701754386
+Random Forest (25 learners) Accuracy:0.771929824561
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.67      1.00      0.80         2
+     Divers       0.90      0.86      0.88        21
+   Dotclear       1.00      0.75      0.86         4
+ Libritudes       1.00      0.80      0.89         5
+Lien permanent       0.00      0.00      0.00         1
+      Liens       1.00      1.00      1.00         6
+    Musique       1.00      1.00      1.00         1
+     Rigolo       0.78      0.88      0.82         8
+       Ruby       1.00      1.00      1.00         1
+     Ubuntu       0.80      1.00      0.89         8
+
+avg / total       0.87      0.88      0.87        57
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.40      1.00      0.57         2
+     Divers       0.77      0.81      0.79        21
+   Dotclear       1.00      0.50      0.67         4
+ Libritudes       1.00      0.60      0.75         5
+Lien permanent       0.00      0.00      0.00         1
+      Liens       1.00      1.00      1.00         6
+    Musique       0.00      0.00      0.00         1
+     Rigolo       0.67      0.75      0.71         8
+       Ruby       1.00      1.00      1.00         1
+     Ubuntu       0.78      0.88      0.82         8
+
+avg / total       0.78      0.77      0.76        57
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       1.00      1.00      1.00         2
+     Divers       0.83      0.71      0.77        21
+   Dotclear       1.00      0.50      0.67         4
+ Libritudes       0.80      0.80      0.80         5
+Lien permanent       0.00      0.00      0.00         1
+      Liens       1.00      1.00      1.00         6
+    Musique       0.00      0.00      0.00         1
+     Rigolo       0.62      1.00      0.76         8
+       Ruby       1.00      1.00      1.00         1
+     Ubuntu       0.80      1.00      0.89         8
+
+avg / total       0.80      0.81      0.79        57
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+        Dev       0.20      0.50      0.29         2
+     Divers       0.87      0.62      0.72        21
+   Dotclear       1.00      0.75      0.86         4
+ Libritudes       1.00      0.80      0.89         5
+Lien permanent       0.00      0.00      0.00         1
+      Liens       1.00      1.00      1.00         6
+    Musique       1.00      1.00      1.00         1
+     Rigolo       0.67      1.00      0.80         8
+       Ruby       1.00      1.00      1.00         1
+     Ubuntu       0.70      0.88      0.78         8
+
+avg / total       0.82      0.77      0.78        57
+

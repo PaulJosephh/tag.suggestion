@@ -1,0 +1,10 @@
+<Experiment for data located in ../../corpus/corpus2_dates/xparalipomenes/>
+Size of matrix:(283, 77)
+<Results for Fold[1]>
+Fold train Matrix[1]:(254, 74)
+Fold test Matrix[1]:(29, 74)
+Linear SVM Classifier Accuracy:0.551724137931
+Multinomial Naive Bayes Accuracy:0.413793103448
+5 Nearest Neighbors Accuracy:0.379310344828
+Random Forest (25 learners) Accuracy:0.655172413793
+<Linear SVM Classifier Metrics>

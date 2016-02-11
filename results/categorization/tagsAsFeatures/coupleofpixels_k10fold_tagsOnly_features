@@ -1,0 +1,10 @@
+<Experiment for data located in ../../corpus/corpus2_dates/xcoupleofpixels/>
+Size of matrix:(1423, 1777)
+<Results for Fold[1]>
+Fold train Matrix[1]:(1280, 1666)
+Fold test Matrix[1]:(143, 1666)
+Linear SVM Classifier Accuracy:0.748251748252
+Multinomial Naive Bayes Accuracy:0.748251748252
+5 Nearest Neighbors Accuracy:0.727272727273
+Random Forest (25 learners) Accuracy:0.755244755245
+<Linear SVM Classifier Metrics>

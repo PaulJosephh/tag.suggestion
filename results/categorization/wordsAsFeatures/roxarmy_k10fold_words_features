@@ -1,0 +1,13 @@
+1135
+1135
+<Experiment for data located in ../../corpus/corpus2_dates/xroxarmy/>
+<Results for Fold[1]>
+Fold train Matrix[1]:(1021, 181587)
+Fold test Matrix[1]:(114, 181587)
+(1021, 181587)
+(114, 181587)
+Linear SVM Classifier Accuracy:0.578947368421
+Multinomial Naive Bayes Accuracy:0.368421052632
+5 Nearest Neighbors Accuracy:0.491228070175
+Random Forest (25 learners) Accuracy:0.526315789474
+<Linear SVM Classifier Metrics>
