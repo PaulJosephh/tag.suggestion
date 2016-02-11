@@ -84,8 +84,9 @@ def readXMLCorpusFrom(thisDirectory):
     for doc in corpusFiles:
         #print doc
         [dat,aut,tag,cat,txt,tit]=parseBlogFile(thisDirectory+doc)
-        corpus.append(tag)
-        targets.append(cat)
+        if len(tag)>0 and len(cat)>0:
+            corpus.append(tag)
+            targets.append(cat)
     return [corpus,targets]
 
 #transforms a list of post in a directory into a matrix

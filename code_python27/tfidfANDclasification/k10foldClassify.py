@@ -73,8 +73,9 @@ def readXMLCorpusFrom(thisDirectory):
     for doc in corpusFiles:
         #print doc
         [dat,aut,tag,cat,txt,tit]=parseBlogFile(thisDirectory+doc)
-        corpus.append(txt)
-        targets.append(cat)
+        if len(cat) > 0:
+            corpus.append(txt)
+            targets.append(cat)
     return [corpus,targets]
 
 def arArToSt(aA):
