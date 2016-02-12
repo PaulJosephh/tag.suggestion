@@ -1,890 +1,603 @@
 <Experiment for data located in ../../corpus/corpus2_dates/xjosdblog/>
-Size of matrix:(243, 40)
+Size of matrix:(108, 40)
 <Results for Fold[1]>
-Fold train Matrix[1]:(218, 40)
-Fold test Matrix[1]:(25, 40)
-Linear SVM Classifier Accuracy:0.4
-Multinomial Naive Bayes Accuracy:0.24
-5 Nearest Neighbors Accuracy:0.24
-Random Forest (25 learners) Accuracy:0.44
+Fold train Matrix[1]:(97, 40)
+Fold test Matrix[1]:(11, 40)
+Linear SVM Classifier Accuracy:0.727272727273
+Multinomial Naive Bayes Accuracy:0.636363636364
+5 Nearest Neighbors Accuracy:0.636363636364
+Random Forest (25 learners) Accuracy:0.636363636364
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-    Android       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         2
-  Bricolage       0.00      0.00      0.00         1
-  Commandes       0.24      1.00      0.38         4
+Applications       1.00      1.00      1.00         1
 Controleurs       0.00      0.00      0.00         1
-      Cours       0.00      0.00      0.00         2
-      DLink       1.00      0.50      0.67         2
-  Domotique       0.33      1.00      0.50         1
-    Eclipse       0.00      0.00      0.00         1
-    Galeres       0.00      0.00      0.00         1
-Generalitees       0.00      0.00      0.00         1
-      LaTeX       0.00      0.00      0.00         1
-   Location       1.00      0.75      0.86         4
- Reflexions       0.00      0.00      0.00         2
-       UIMA       1.00      1.00      1.00         1
-
-avg / total       0.33      0.40      0.31        25
-
-<Multinomial Naive Bayes Classifier Metrics>
-             precision    recall  f1-score   support
-
-    Android       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         2
-  Bricolage       0.00      0.00      0.00         1
-  Commandes       0.00      0.00      0.00         4
-Controleurs       0.00      0.00      0.00         1
-      Cours       0.00      0.00      0.00         2
-      DLink       1.00      0.50      0.67         2
-  Domotique       0.05      1.00      0.10         1
-    Eclipse       0.00      0.00      0.00         1
-    Galeres       0.00      0.00      0.00         1
-Generalitees       0.00      0.00      0.00         1
-      LaTeX       0.00      0.00      0.00         1
-   Location       1.00      0.75      0.86         4
- Reflexions       0.00      0.00      0.00         2
-       UIMA       1.00      1.00      1.00         1
-
-avg / total       0.28      0.24      0.23        25
-
-<5 Nearest Neighbors Classifier Metrics>
-             precision    recall  f1-score   support
-
-    Android       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         2
-  Bricolage       0.00      0.00      0.00         1
-Carto & GPS       0.00      0.00      0.00         0
-  Commandes       0.00      0.00      0.00         4
-Controleurs       0.00      0.00      0.00         1
-      Cours       0.00      0.00      0.00         2
-      DLink       1.00      0.50      0.67         2
-  Domotique       0.33      1.00      0.50         1
-    Eclipse       0.00      0.00      0.00         1
-    Galeres       0.00      0.00      0.00         1
-Generalitees       0.00      0.00      0.00         1
-      LaTeX       0.00      0.00      0.00         1
-   Location       1.00      0.75      0.86         4
- Reflexions       0.00      0.00      0.00         2
-       UIMA       1.00      1.00      1.00         1
-
-avg / total       0.29      0.24      0.25        25
-
-<Random Forest (25 learners) Classifier Metrics>
-             precision    recall  f1-score   support
-
-    Android       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         2
-  Bricolage       0.00      0.00      0.00         1
-  Commandes       0.25      1.00      0.40         4
-Controleurs       0.00      0.00      0.00         1
-      Cours       0.00      0.00      0.00         2
-      DLink       1.00      0.50      0.67         2
-  Domotique       0.33      1.00      0.50         1
-    Eclipse       1.00      1.00      1.00         1
-    Galeres       0.00      0.00      0.00         1
-Generalitees       0.00      0.00      0.00         1
-      LaTeX       0.00      0.00      0.00         1
-   Location       1.00      0.75      0.86         4
- Reflexions       0.00      0.00      0.00         2
-       UIMA       1.00      1.00      1.00         1
-
-avg / total       0.37      0.44      0.35        25
-
-<Results for Fold[2]>
-Fold train Matrix[2]:(218, 40)
-Fold test Matrix[2]:(25, 40)
-Linear SVM Classifier Accuracy:0.24
-Multinomial Naive Bayes Accuracy:0.28
-5 Nearest Neighbors Accuracy:0.32
-Random Forest (25 learners) Accuracy:0.24
-<Linear SVM Classifier Metrics>
-             precision    recall  f1-score   support
-
-     Alarme       0.00      0.00      0.00         1
-    Android       0.00      0.00      0.00         2
-Applications       1.00      0.33      0.50         3
-Carto & GPS       0.00      0.00      0.00         1
-  Commandes       0.00      0.00      0.00         0
-Controleurs       0.00      0.00      0.00         0
-      Cours       1.00      0.50      0.67         2
-  Domotique       1.00      0.33      0.50         3
-    FreeBox       0.00      0.00      0.00         1
-Generalitees       0.00      0.00      0.00         1
-      LaTeX       0.00      0.00      0.00         1
-   Location       1.00      1.00      1.00         2
- Reflexions       1.00      0.33      0.50         3
-   Synology       0.00      0.00      0.00         2
-Windows Mobile       0.00      0.00      0.00         2
-  WordPress       0.00      0.00      0.00         1
-
-avg / total       0.52      0.24      0.31        25
-
-<Multinomial Naive Bayes Classifier Metrics>
-             precision    recall  f1-score   support
-
-     Alarme       0.00      0.00      0.00         1
-    Android       0.00      0.00      0.00         2
-Applications       1.00      0.33      0.50         3
-Carto & GPS       0.00      0.00      0.00         1
-  Commandes       0.00      0.00      0.00         0
-Controleurs       0.00      0.00      0.00         0
-      Cours       1.00      0.50      0.67         2
-  Domotique       0.11      0.67      0.19         3
-    FreeBox       0.00      0.00      0.00         1
-Generalitees       0.00      0.00      0.00         1
-      LaTeX       0.00      0.00      0.00         1
-   Location       1.00      1.00      1.00         2
- Reflexions       1.00      0.33      0.50         3
-   Synology       0.00      0.00      0.00         2
-Windows Mobile       0.00      0.00      0.00         2
-  WordPress       0.00      0.00      0.00         1
-
-avg / total       0.41      0.28      0.28        25
-
-<5 Nearest Neighbors Classifier Metrics>
-             precision    recall  f1-score   support
-
-     Alarme       0.00      0.00      0.00         1
-    Android       0.12      1.00      0.21         2
-Applications       1.00      0.33      0.50         3
-Carto & GPS       0.00      0.00      0.00         1
-Controleurs       0.00      0.00      0.00         0
-      Cours       1.00      0.50      0.67         2
-  Domotique       1.00      0.33      0.50         3
-    FreeBox       0.00      0.00      0.00         1
-    Galeres       0.00      0.00      0.00         0
-Generalitees       0.00      0.00      0.00         1
-      LaTeX       0.00      0.00      0.00         1
-   Location       1.00      1.00      1.00         2
- Reflexions       1.00      0.33      0.50         3
-   Synology       0.00      0.00      0.00         2
-Windows Mobile       0.00      0.00      0.00         2
-  WordPress       0.00      0.00      0.00         1
-
-avg / total       0.53      0.32      0.33        25
-
-<Random Forest (25 learners) Classifier Metrics>
-             precision    recall  f1-score   support
-
-     Alarme       1.00      1.00      1.00         1
-    Android       0.00      0.00      0.00         2
-Applications       1.00      0.33      0.50         3
-  Bricolage       0.00      0.00      0.00         0
-Carto & GPS       0.00      0.00      0.00         1
-  Commandes       0.00      0.00      0.00         0
-Controleurs       0.00      0.00      0.00         0
-      Cours       1.00      0.50      0.67         2
-  Domotique       1.00      0.33      0.50         3
-    FreeBox       0.00      0.00      0.00         1
-Generalitees       0.00      0.00      0.00         1
-      LaTeX       0.00      0.00      0.00         1
-   Location       1.00      1.00      1.00         2
- Reflexions       0.00      0.00      0.00         3
-   Synology       0.00      0.00      0.00         2
-Windows Mobile       0.00      0.00      0.00         2
-  WordPress       0.00      0.00      0.00         1
-
-avg / total       0.44      0.24      0.29        25
-
-<Results for Fold[3]>
-Fold train Matrix[3]:(218, 40)
-Fold test Matrix[3]:(25, 40)
-Linear SVM Classifier Accuracy:0.44
-Multinomial Naive Bayes Accuracy:0.44
-5 Nearest Neighbors Accuracy:0.24
-Random Forest (25 learners) Accuracy:0.44
-<Linear SVM Classifier Metrics>
-             precision    recall  f1-score   support
-
-     Alarme       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         1
-  Bricolage       0.00      0.00      0.00         1
-  Commandes       0.15      1.00      0.27         2
-Controleurs       0.00      0.00      0.00         1
-      Cours       1.00      0.50      0.67         2
+      Cours       0.00      0.00      0.00         1
       DLink       1.00      1.00      1.00         1
-  Domotique       0.80      0.80      0.80         5
+  Domotique       0.25      1.00      0.40         1
     Eclipse       0.00      0.00      0.00         1
-    Galeres       0.00      0.00      0.00         3
-Generalitees       0.00      0.00      0.00         1
-   Location       0.00      0.00      0.00         1
- Reflexions       0.50      0.50      0.50         2
-   Synology       0.00      0.00      0.00         1
-       UIMA       0.67      1.00      0.80         2
+   Location       1.00      1.00      1.00         3
+ Reflexions       1.00      1.00      1.00         1
+       UIMA       1.00      1.00      1.00         1
 
-avg / total       0.39      0.44      0.38        25
+avg / total       0.66      0.73      0.67        11
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-     Alarme       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         1
-  Bricolage       0.00      0.00      0.00         1
-  Commandes       0.00      0.00      0.00         2
+Applications       1.00      1.00      1.00         1
 Controleurs       0.00      0.00      0.00         1
-      Cours       1.00      0.50      0.67         2
+      Cours       0.00      0.00      0.00         1
       DLink       1.00      1.00      1.00         1
-  Domotique       0.31      1.00      0.48         5
-    Eclipse       0.00      0.00      0.00         1
-    Galeres       0.00      0.00      0.00         3
-Generalitees       0.00      0.00      0.00         1
-   Location       1.00      1.00      1.00         1
- Reflexions       0.50      0.50      0.50         2
-   Synology       0.00      0.00      0.00         1
-       UIMA       0.67      1.00      0.80         2
-
-avg / total       0.32      0.44      0.33        25
-
-<5 Nearest Neighbors Classifier Metrics>
-             precision    recall  f1-score   support
-
-     Alarme       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         1
-  Bricolage       0.00      0.00      0.00         1
-  Commandes       0.00      0.00      0.00         2
-Controleurs       0.00      0.00      0.00         1
-      Cours       1.00      0.50      0.67         2
-      DLink       0.07      1.00      0.12         1
-  Domotique       0.75      0.60      0.67         5
-    Eclipse       0.00      0.00      0.00         1
-    Galeres       0.00      0.00      0.00         3
-Generalitees       0.00      0.00      0.00         1
-   Location       0.00      0.00      0.00         1
- Reflexions       0.00      0.00      0.00         2
-   Synology       0.00      0.00      0.00         1
-       UIMA       0.50      0.50      0.50         2
-
-avg / total       0.27      0.24      0.23        25
-
-<Random Forest (25 learners) Classifier Metrics>
-             precision    recall  f1-score   support
-
-     Alarme       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         1
-  Bricolage       0.00      0.00      0.00         1
-  Commandes       0.17      1.00      0.29         2
-Controleurs       0.00      0.00      0.00         1
-      Cours       1.00      0.50      0.67         2
-      DLink       1.00      1.00      1.00         1
-  Domotique       0.75      0.60      0.67         5
-    Eclipse       0.00      0.00      0.00         1
-    Galeres       0.00      0.00      0.00         3
-Generalitees       0.00      0.00      0.00         1
-   Location       1.00      1.00      1.00         1
- Reflexions       0.50      0.50      0.50         2
-   Synology       0.00      0.00      0.00         1
-       UIMA       0.67      1.00      0.80         2
-
-avg / total       0.42      0.44      0.39        25
-
-<Results for Fold[4]>
-Fold train Matrix[4]:(219, 39)
-Fold test Matrix[4]:(24, 39)
-Linear SVM Classifier Accuracy:0.416666666667
-Multinomial Naive Bayes Accuracy:0.291666666667
-5 Nearest Neighbors Accuracy:0.333333333333
-Random Forest (25 learners) Accuracy:0.416666666667
-<Linear SVM Classifier Metrics>
-             precision    recall  f1-score   support
-
-    Android       0.00      0.00      0.00         1
-Applications       1.00      1.00      1.00         1
-Cablage de prises       1.00      1.00      1.00         1
-  Commandes       0.12      1.00      0.22         2
-      Cours       1.00      0.50      0.67         6
-      DLink       0.00      0.00      0.00         1
-  Domotique       1.00      1.00      1.00         2
-    Galeres       0.00      0.00      0.00         2
-Indispensable       0.00      0.00      0.00         1
-      LaTeX       0.00      0.00      0.00         1
-   Location       1.00      1.00      1.00         1
- Reflexions       0.00      0.00      0.00         1
-   Synology       0.00      0.00      0.00         2
-       TALN       0.00      0.00      0.00         2
-
-avg / total       0.47      0.42      0.39        24
-
-<Multinomial Naive Bayes Classifier Metrics>
-             precision    recall  f1-score   support
-
-    Android       0.00      0.00      0.00         1
-Applications       1.00      1.00      1.00         1
-Cablage de prises       0.00      0.00      0.00         1
-  Commandes       0.00      0.00      0.00         2
-      Cours       1.00      0.50      0.67         6
-      DLink       0.00      0.00      0.00         1
-  Domotique       0.11      1.00      0.20         2
-    Galeres       0.00      0.00      0.00         2
-Indispensable       0.00      0.00      0.00         1
-      LaTeX       0.00      0.00      0.00         1
-   Location       1.00      1.00      1.00         1
- Reflexions       0.00      0.00      0.00         1
-   Synology       0.00      0.00      0.00         2
-       TALN       0.00      0.00      0.00         2
-
-avg / total       0.34      0.29      0.27        24
-
-<5 Nearest Neighbors Classifier Metrics>
-             precision    recall  f1-score   support
-
-    Android       0.06      1.00      0.12         1
-Applications       1.00      1.00      1.00         1
-Cablage de prises       0.00      0.00      0.00         1
-  Commandes       0.00      0.00      0.00         2
-      Cours       1.00      0.50      0.67         6
-      DLink       0.00      0.00      0.00         1
-  Domotique       1.00      1.00      1.00         2
-    Galeres       0.00      0.00      0.00         2
-Indispensable       0.00      0.00      0.00         1
-      LaTeX       0.00      0.00      0.00         1
-   Location       1.00      1.00      1.00         1
- Reflexions       0.00      0.00      0.00         1
-   Synology       0.00      0.00      0.00         2
-       TALN       0.00      0.00      0.00         2
-
-avg / total       0.42      0.33      0.34        24
-
-<Random Forest (25 learners) Classifier Metrics>
-             precision    recall  f1-score   support
-
-    Android       0.00      0.00      0.00         1
-Applications       1.00      1.00      1.00         1
-Cablage de prises       1.00      1.00      1.00         1
-  Commandes       0.12      1.00      0.22         2
-      Cours       1.00      0.50      0.67         6
-      DLink       0.00      0.00      0.00         1
-  Domotique       1.00      1.00      1.00         2
-    Galeres       0.00      0.00      0.00         2
-Indispensable       0.00      0.00      0.00         1
-      LaTeX       0.00      0.00      0.00         1
-   Location       1.00      1.00      1.00         1
- Reflexions       0.00      0.00      0.00         1
-   Synology       0.00      0.00      0.00         2
-       TALN       0.00      0.00      0.00         2
-
-avg / total       0.47      0.42      0.39        24
-
-<Results for Fold[5]>
-Fold train Matrix[5]:(219, 37)
-Fold test Matrix[5]:(24, 37)
-Linear SVM Classifier Accuracy:0.416666666667
-Multinomial Naive Bayes Accuracy:0.458333333333
-5 Nearest Neighbors Accuracy:0.333333333333
-Random Forest (25 learners) Accuracy:0.375
-<Linear SVM Classifier Metrics>
-             precision    recall  f1-score   support
-
-    Android       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         1
-  Commandes       0.08      1.00      0.14         1
-Controleurs       0.50      0.50      0.50         2
-      Cours       1.00      0.50      0.67         2
-      DLink       1.00      0.67      0.80         3
-  Domotique       0.80      0.80      0.80         5
-    FreeBox       0.00      0.00      0.00         1
-    Galeres       0.00      0.00      0.00         2
-      LaTeX       0.00      0.00      0.00         1
-   Location       1.00      0.50      0.67         2
- Reflexions       0.00      0.00      0.00         1
-       TALN       0.00      0.00      0.00         2
-
-avg / total       0.50      0.42      0.43        24
-
-<Multinomial Naive Bayes Classifier Metrics>
-             precision    recall  f1-score   support
-
-    Android       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         1
-  Commandes       0.00      0.00      0.00         1
-Controleurs       1.00      0.50      0.67         2
-      Cours       1.00      0.50      0.67         2
-      DLink       1.00      1.00      1.00         3
-  Domotique       0.28      1.00      0.43         5
-    FreeBox       0.00      0.00      0.00         1
-    Galeres       0.00      0.00      0.00         2
-      LaTeX       0.00      0.00      0.00         1
-   Location       1.00      0.50      0.67         2
- Reflexions       0.00      0.00      0.00         1
-       TALN       0.00      0.00      0.00         2
-
-avg / total       0.43      0.46      0.38        24
-
-<5 Nearest Neighbors Classifier Metrics>
-             precision    recall  f1-score   support
-
-    Android       0.08      1.00      0.14         1
-Applications       0.00      0.00      0.00         1
-  Commandes       0.00      0.00      0.00         1
-Controleurs       0.00      0.00      0.00         2
-      Cours       1.00      0.50      0.67         2
-      DLink       1.00      0.67      0.80         3
-  Domotique       0.75      0.60      0.67         5
-    FreeBox       0.00      0.00      0.00         1
-    Galeres       0.00      0.00      0.00         2
-      LaTeX       0.00      0.00      0.00         1
-   Location       1.00      0.50      0.67         2
- Reflexions       0.00      0.00      0.00         1
-       TALN       0.00      0.00      0.00         2
-
-avg / total       0.45      0.33      0.36        24
-
-<Random Forest (25 learners) Classifier Metrics>
-             precision    recall  f1-score   support
-
-    Android       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         1
-  Commandes       0.08      1.00      0.14         1
-Controleurs       0.00      0.00      0.00         2
-      Cours       1.00      0.50      0.67         2
-      DLink       1.00      1.00      1.00         3
-  Domotique       0.60      0.60      0.60         5
-    FreeBox       0.00      0.00      0.00         1
-    Galeres       0.00      0.00      0.00         2
-      LaTeX       0.00      0.00      0.00         1
-   Location       1.00      0.50      0.67         2
- Reflexions       0.00      0.00      0.00         1
-       TALN       0.00      0.00      0.00         2
-
-avg / total       0.42      0.38      0.37        24
-
-<Results for Fold[6]>
-Fold train Matrix[6]:(219, 38)
-Fold test Matrix[6]:(24, 38)
-Linear SVM Classifier Accuracy:0.333333333333
-Multinomial Naive Bayes Accuracy:0.208333333333
-5 Nearest Neighbors Accuracy:0.208333333333
-Random Forest (25 learners) Accuracy:0.458333333333
-<Linear SVM Classifier Metrics>
-             precision    recall  f1-score   support
-
-Applications       0.00      0.00      0.00         1
-  Bricolage       0.00      0.00      0.00         1
-Cablage de prises       0.00      0.00      0.00         1
-  Commandes       0.21      1.00      0.35         3
-Controleurs       0.50      0.50      0.50         4
-      Cours       1.00      1.00      1.00         1
-      DLink       0.00      0.00      0.00         3
-  Domotique       0.00      0.00      0.00         3
-    Eclipse       0.00      0.00      0.00         1
-    FreeBox       0.00      0.00      0.00         1
-Generalitees       0.00      0.00      0.00         1
- Reflexions       0.00      0.00      0.00         1
-   Synology       0.00      0.00      0.00         1
-       UIMA       1.00      1.00      1.00         2
-
-avg / total       0.24      0.33      0.25        24
-
-<Multinomial Naive Bayes Classifier Metrics>
-             precision    recall  f1-score   support
-
-Applications       0.00      0.00      0.00         1
-  Bricolage       0.00      0.00      0.00         1
-Cablage de prises       0.00      0.00      0.00         1
-  Commandes       0.00      0.00      0.00         3
-Controleurs       0.33      0.25      0.29         4
-      Cours       1.00      1.00      1.00         1
-      DLink       0.00      0.00      0.00         3
-  Domotique       0.06      0.33      0.10         3
-    Eclipse       0.00      0.00      0.00         1
-    FreeBox       0.00      0.00      0.00         1
-Generalitees       0.00      0.00      0.00         1
- Reflexions       0.00      0.00      0.00         1
-   Synology       0.00      0.00      0.00         1
-       UIMA       1.00      1.00      1.00         2
-
-avg / total       0.19      0.21      0.19        24
-
-<5 Nearest Neighbors Classifier Metrics>
-             precision    recall  f1-score   support
-
-    Android       0.00      0.00      0.00         0
-Applications       0.00      0.00      0.00         1
-  Bricolage       0.00      0.00      0.00         1
-Cablage de prises       0.00      0.00      0.00         1
-Carto & GPS       0.00      0.00      0.00         0
-  Commandes       0.00      0.00      0.00         3
-Controleurs       0.50      0.50      0.50         4
-      Cours       1.00      1.00      1.00         1
-      DLink       0.00      0.00      0.00         3
-  Domotique       0.33      0.33      0.33         3
-    Eclipse       0.00      0.00      0.00         1
-    FreeBox       0.00      0.00      0.00         1
-Generalitees       0.00      0.00      0.00         1
- Reflexions       0.00      0.00      0.00         1
-   Synology       0.00      0.00      0.00         1
-       UIMA       1.00      0.50      0.67         2
-
-avg / total       0.25      0.21      0.22        24
-
-<Random Forest (25 learners) Classifier Metrics>
-             precision    recall  f1-score   support
-
-Applications       0.00      0.00      0.00         1
-  Bricolage       0.00      0.00      0.00         1
-Cablage de prises       1.00      1.00      1.00         1
-  Commandes       0.23      1.00      0.38         3
-Controleurs       0.60      0.75      0.67         4
-      Cours       1.00      1.00      1.00         1
-      DLink       0.00      0.00      0.00         3
-  Domotique       0.50      0.33      0.40         3
-    Eclipse       0.00      0.00      0.00         1
-    FreeBox       0.00      0.00      0.00         1
-Generalitees       0.00      0.00      0.00         1
- Reflexions       0.00      0.00      0.00         1
-   Synology       0.00      0.00      0.00         1
-       UIMA       1.00      1.00      1.00         2
-
-avg / total       0.36      0.46      0.37        24
-
-<Results for Fold[7]>
-Fold train Matrix[7]:(219, 39)
-Fold test Matrix[7]:(24, 39)
-Linear SVM Classifier Accuracy:0.25
-Multinomial Naive Bayes Accuracy:0.166666666667
-5 Nearest Neighbors Accuracy:0.25
-Random Forest (25 learners) Accuracy:0.375
-<Linear SVM Classifier Metrics>
-             precision    recall  f1-score   support
-
-    Android       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         2
-  Commandes       0.13      1.00      0.24         2
-Controleurs       0.00      0.00      0.00         4
-      Cours       1.00      0.50      0.67         2
-      DLink       0.00      0.00      0.00         1
   Domotique       0.20      1.00      0.33         1
     Eclipse       0.00      0.00      0.00         1
-    Galeres       0.00      0.00      0.00         2
-   Location       1.00      1.00      1.00         2
+   Location       1.00      1.00      1.00         3
  Reflexions       0.00      0.00      0.00         1
-   Synology       0.00      0.00      0.00         2
-       TALN       0.00      0.00      0.00         1
-       UIMA       0.00      0.00      0.00         1
-Windows (OS)       0.00      0.00      0.00         1
+       UIMA       1.00      1.00      1.00         1
 
-avg / total       0.19      0.25      0.17        24
-
-<Multinomial Naive Bayes Classifier Metrics>
-             precision    recall  f1-score   support
-
-    Android       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         2
-  Commandes       0.00      0.00      0.00         2
-Controleurs       0.00      0.00      0.00         4
-      Cours       1.00      0.50      0.67         2
-      DLink       0.00      0.00      0.00         1
-  Domotique       0.05      1.00      0.10         1
-    Eclipse       0.00      0.00      0.00         1
-    Galeres       0.00      0.00      0.00         2
-   Location       1.00      1.00      1.00         2
- Reflexions       0.00      0.00      0.00         1
-   Synology       0.00      0.00      0.00         2
-       TALN       0.00      0.00      0.00         1
-       UIMA       0.00      0.00      0.00         1
-Windows (OS)       0.00      0.00      0.00         1
-
-avg / total       0.17      0.17      0.14        24
+avg / total       0.56      0.64      0.58        11
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-    Android       0.07      1.00      0.12         1
-Applications       0.00      0.00      0.00         2
-Carto & GPS       0.00      0.00      0.00         0
-  Commandes       0.00      0.00      0.00         2
-Controleurs       1.00      0.50      0.67         4
-      Cours       1.00      0.50      0.67         2
-      DLink       0.00      0.00      0.00         1
-  Domotique       0.00      0.00      0.00         1
+     Alarme       0.00      0.00      0.00         0
+Applications       1.00      1.00      1.00         1
+Controleurs       0.00      0.00      0.00         1
+      Cours       0.00      0.00      0.00         1
+      DLink       1.00      1.00      1.00         1
+  Domotique       0.33      1.00      0.50         1
     Eclipse       0.00      0.00      0.00         1
-    Galeres       0.00      0.00      0.00         2
-Generalitees       0.00      0.00      0.00         0
-   Location       1.00      1.00      1.00         2
+   Location       1.00      1.00      1.00         3
  Reflexions       0.00      0.00      0.00         1
-   Synology       0.00      0.00      0.00         2
-       TALN       0.00      0.00      0.00         1
-       UIMA       0.00      0.00      0.00         1
-Windows (OS)       0.00      0.00      0.00         1
+       UIMA       1.00      1.00      1.00         1
 
-avg / total       0.34      0.25      0.26        24
+avg / total       0.58      0.64      0.59        11
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-    Android       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         2
-  Commandes       0.13      1.00      0.24         2
-Controleurs       1.00      0.75      0.86         4
-      Cours       1.00      0.50      0.67         2
-      DLink       0.00      0.00      0.00         1
-  Domotique       0.50      1.00      0.67         1
+Applications       1.00      1.00      1.00         1
+  Bricolage       0.00      0.00      0.00         0
+Controleurs       0.00      0.00      0.00         1
+      Cours       0.00      0.00      0.00         1
+      DLink       1.00      1.00      1.00         1
+  Domotique       0.33      1.00      0.50         1
     Eclipse       0.00      0.00      0.00         1
-    Galeres       0.00      0.00      0.00         2
-   Location       1.00      1.00      1.00         2
+   Location       1.00      1.00      1.00         3
+   Materiel       0.00      0.00      0.00         0
  Reflexions       0.00      0.00      0.00         1
-   Synology       0.00      0.00      0.00         2
-       TALN       0.00      0.00      0.00         1
-       UIMA       0.00      0.00      0.00         1
-Windows (OS)       0.00      0.00      0.00         1
+       UIMA       1.00      1.00      1.00         1
 
-avg / total       0.37      0.38      0.33        24
+avg / total       0.58      0.64      0.59        11
+
+<Results for Fold[2]>
+Fold train Matrix[2]:(97, 39)
+Fold test Matrix[2]:(11, 39)
+Linear SVM Classifier Accuracy:0.636363636364
+Multinomial Naive Bayes Accuracy:0.727272727273
+5 Nearest Neighbors Accuracy:0.636363636364
+Random Forest (25 learners) Accuracy:0.636363636364
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+     Alarme       0.00      0.00      0.00         2
+Controleurs       0.00      0.00      0.00         0
+      Cours       1.00      1.00      1.00         1
+      DLink       1.00      1.00      1.00         1
+  Domotique       0.50      0.50      0.50         4
+   Location       1.00      1.00      1.00         2
+       UIMA       1.00      1.00      1.00         1
+
+avg / total       0.64      0.64      0.64        11
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+     Alarme       0.00      0.00      0.00         2
+Controleurs       0.00      0.00      0.00         0
+      Cours       1.00      1.00      1.00         1
+      DLink       1.00      1.00      1.00         1
+  Domotique       0.60      0.75      0.67         4
+   Location       1.00      1.00      1.00         2
+       UIMA       1.00      1.00      1.00         1
+
+avg / total       0.67      0.73      0.70        11
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+     Alarme       0.00      0.00      0.00         2
+Controleurs       0.00      0.00      0.00         0
+      Cours       0.50      1.00      0.67         1
+      DLink       1.00      1.00      1.00         1
+  Domotique       0.67      0.50      0.57         4
+   Location       1.00      1.00      1.00         2
+       UIMA       1.00      1.00      1.00         1
+
+avg / total       0.65      0.64      0.63        11
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+     Alarme       0.00      0.00      0.00         2
+Applications       0.00      0.00      0.00         0
+Controleurs       0.00      0.00      0.00         0
+      Cours       1.00      1.00      1.00         1
+      DLink       1.00      1.00      1.00         1
+  Domotique       0.67      0.50      0.57         4
+   Location       1.00      1.00      1.00         2
+       UIMA       1.00      1.00      1.00         1
+
+avg / total       0.70      0.64      0.66        11
+
+<Results for Fold[3]>
+Fold train Matrix[3]:(97, 40)
+Fold test Matrix[3]:(11, 40)
+Linear SVM Classifier Accuracy:0.727272727273
+Multinomial Naive Bayes Accuracy:0.636363636364
+5 Nearest Neighbors Accuracy:0.545454545455
+Random Forest (25 learners) Accuracy:0.636363636364
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+  Bricolage       0.00      0.00      0.00         1
+  Commandes       0.00      0.00      0.00         0
+      Cours       1.00      1.00      1.00         2
+  Domotique       1.00      1.00      1.00         3
+    Eclipse       0.00      0.00      0.00         1
+    Galeres       0.00      0.00      0.00         1
+   Location       1.00      1.00      1.00         1
+ Reflexions       0.50      1.00      0.67         1
+       UIMA       0.50      1.00      0.67         1
+
+avg / total       0.64      0.73      0.67        11
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+  Bricolage       0.00      0.00      0.00         1
+      Cours       1.00      1.00      1.00         2
+  Domotique       0.50      1.00      0.67         3
+    Eclipse       0.00      0.00      0.00         1
+    Galeres       0.00      0.00      0.00         1
+   Location       1.00      1.00      1.00         1
+ Reflexions       0.00      0.00      0.00         1
+       UIMA       0.50      1.00      0.67         1
+
+avg / total       0.45      0.64      0.52        11
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+  Bricolage       0.00      0.00      0.00         1
+  Commandes       0.00      0.00      0.00         0
+Controleurs       0.00      0.00      0.00         0
+      Cours       0.50      1.00      0.67         2
+  Domotique       1.00      0.67      0.80         3
+    Eclipse       0.00      0.00      0.00         1
+    Galeres       0.00      0.00      0.00         1
+   Location       1.00      1.00      1.00         1
+ Reflexions       0.00      0.00      0.00         1
+       UIMA       0.50      1.00      0.67         1
+
+avg / total       0.50      0.55      0.49        11
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+  Bricolage       0.00      0.00      0.00         1
+  Commandes       0.00      0.00      0.00         0
+Controleurs       0.00      0.00      0.00         0
+      Cours       1.00      1.00      1.00         2
+  Domotique       1.00      0.67      0.80         3
+    Eclipse       0.00      0.00      0.00         1
+    Galeres       0.00      0.00      0.00         1
+   Location       1.00      1.00      1.00         1
+ Reflexions       0.50      1.00      0.67         1
+       UIMA       0.50      1.00      0.67         1
+
+avg / total       0.64      0.64      0.61        11
+
+<Results for Fold[4]>
+Fold train Matrix[4]:(97, 39)
+Fold test Matrix[4]:(11, 39)
+Linear SVM Classifier Accuracy:1.0
+Multinomial Naive Bayes Accuracy:0.909090909091
+5 Nearest Neighbors Accuracy:1.0
+Random Forest (25 learners) Accuracy:0.909090909091
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+Applications       1.00      1.00      1.00         1
+Cablage de prises       1.00      1.00      1.00         1
+Controleurs       1.00      1.00      1.00         1
+      Cours       1.00      1.00      1.00         2
+      DLink       1.00      1.00      1.00         2
+  Domotique       1.00      1.00      1.00         2
+   Location       1.00      1.00      1.00         2
+
+avg / total       1.00      1.00      1.00        11
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+Applications       1.00      1.00      1.00         1
+Cablage de prises       1.00      1.00      1.00         1
+Controleurs       0.50      1.00      0.67         1
+      Cours       1.00      1.00      1.00         2
+      DLink       1.00      0.50      0.67         2
+  Domotique       1.00      1.00      1.00         2
+   Location       1.00      1.00      1.00         2
+
+avg / total       0.95      0.91      0.91        11
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+Applications       1.00      1.00      1.00         1
+Cablage de prises       1.00      1.00      1.00         1
+Controleurs       1.00      1.00      1.00         1
+      Cours       1.00      1.00      1.00         2
+      DLink       1.00      1.00      1.00         2
+  Domotique       1.00      1.00      1.00         2
+   Location       1.00      1.00      1.00         2
+
+avg / total       1.00      1.00      1.00        11
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+Applications       1.00      1.00      1.00         1
+Cablage de prises       1.00      1.00      1.00         1
+Controleurs       0.00      0.00      0.00         1
+      Cours       1.00      1.00      1.00         2
+      DLink       1.00      1.00      1.00         2
+  Domotique       0.67      1.00      0.80         2
+   Location       1.00      1.00      1.00         2
+
+avg / total       0.85      0.91      0.87        11
+
+<Results for Fold[5]>
+Fold train Matrix[5]:(97, 37)
+Fold test Matrix[5]:(11, 37)
+Linear SVM Classifier Accuracy:0.727272727273
+Multinomial Naive Bayes Accuracy:0.727272727273
+5 Nearest Neighbors Accuracy:0.636363636364
+Random Forest (25 learners) Accuracy:0.636363636364
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+Controleurs       0.00      0.00      0.00         1
+      Cours       1.00      1.00      1.00         2
+      DLink       1.00      1.00      1.00         1
+  Domotique       0.57      1.00      0.73         4
+ Reflexions       0.00      0.00      0.00         1
+       TALN       0.00      0.00      0.00         1
+       UIMA       1.00      1.00      1.00         1
+
+avg / total       0.57      0.73      0.63        11
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+Controleurs       0.00      0.00      0.00         1
+      Cours       1.00      1.00      1.00         2
+      DLink       1.00      1.00      1.00         1
+  Domotique       0.57      1.00      0.73         4
+ Reflexions       0.00      0.00      0.00         1
+       TALN       0.00      0.00      0.00         1
+       UIMA       1.00      1.00      1.00         1
+
+avg / total       0.57      0.73      0.63        11
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+Controleurs       0.00      0.00      0.00         1
+      Cours       0.50      1.00      0.67         2
+      DLink       1.00      1.00      1.00         1
+  Domotique       0.75      0.75      0.75         4
+ Reflexions       0.00      0.00      0.00         1
+       TALN       0.00      0.00      0.00         1
+       UIMA       1.00      1.00      1.00         1
+
+avg / total       0.55      0.64      0.58        11
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+Controleurs       0.00      0.00      0.00         1
+      Cours       1.00      1.00      1.00         2
+      DLink       1.00      1.00      1.00         1
+  Domotique       0.50      0.75      0.60         4
+ Reflexions       0.00      0.00      0.00         1
+       TALN       0.00      0.00      0.00         1
+       UIMA       1.00      1.00      1.00         1
+
+avg / total       0.55      0.64      0.58        11
+
+<Results for Fold[6]>
+Fold train Matrix[6]:(97, 38)
+Fold test Matrix[6]:(11, 38)
+Linear SVM Classifier Accuracy:0.363636363636
+Multinomial Naive Bayes Accuracy:0.363636363636
+5 Nearest Neighbors Accuracy:0.272727272727
+Random Forest (25 learners) Accuracy:0.545454545455
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+Cablage de prises       0.00      0.00      0.00         1
+Controleurs       0.60      0.50      0.55         6
+      DLink       0.00      0.00      0.00         0
+  Domotique       0.00      0.00      0.00         3
+       UIMA       1.00      1.00      1.00         1
+
+avg / total       0.42      0.36      0.39        11
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+Cablage de prises       0.00      0.00      0.00         1
+Controleurs       0.50      0.33      0.40         6
+  Domotique       0.17      0.33      0.22         3
+       UIMA       1.00      1.00      1.00         1
+
+avg / total       0.41      0.36      0.37        11
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+Cablage de prises       0.00      0.00      0.00         1
+Controleurs       1.00      0.17      0.29         6
+      Cours       0.00      0.00      0.00         0
+      DLink       0.00      0.00      0.00         0
+  Domotique       0.25      0.33      0.29         3
+       UIMA       1.00      1.00      1.00         1
+
+avg / total       0.70      0.27      0.32        11
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+Cablage de prises       0.00      0.00      0.00         1
+Controleurs       0.67      0.67      0.67         6
+  Domotique       0.33      0.33      0.33         3
+    Eclipse       0.00      0.00      0.00         0
+       UIMA       1.00      1.00      1.00         1
+
+avg / total       0.55      0.55      0.55        11
+
+<Results for Fold[7]>
+Fold train Matrix[7]:(97, 38)
+Fold test Matrix[7]:(11, 38)
+Linear SVM Classifier Accuracy:0.636363636364
+Multinomial Naive Bayes Accuracy:0.545454545455
+5 Nearest Neighbors Accuracy:0.636363636364
+Random Forest (25 learners) Accuracy:0.636363636364
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+Controleurs       1.00      0.50      0.67         2
+      Cours       1.00      1.00      1.00         1
+  Domotique       0.60      1.00      0.75         3
+    Eclipse       0.00      0.00      0.00         1
+   Location       1.00      1.00      1.00         2
+       TALN       0.00      0.00      0.00         2
+       UIMA       0.00      0.00      0.00         0
+
+avg / total       0.62      0.64      0.60        11
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+Controleurs       0.00      0.00      0.00         2
+      Cours       1.00      1.00      1.00         1
+  Domotique       0.50      1.00      0.67         3
+    Eclipse       0.00      0.00      0.00         1
+   Location       1.00      1.00      1.00         2
+       TALN       0.00      0.00      0.00         2
+       UIMA       0.00      0.00      0.00         0
+
+avg / total       0.41      0.55      0.45        11
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+Controleurs       1.00      0.50      0.67         2
+      Cours       0.50      1.00      0.67         1
+  Domotique       0.75      1.00      0.86         3
+    Eclipse       0.00      0.00      0.00         1
+   Location       1.00      1.00      1.00         2
+       TALN       0.00      0.00      0.00         2
+       UIMA       0.00      0.00      0.00         0
+
+avg / total       0.61      0.64      0.60        11
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+Applications       0.00      0.00      0.00         0
+Controleurs       1.00      0.50      0.67         2
+      Cours       1.00      1.00      1.00         1
+  Domotique       0.75      1.00      0.86         3
+    Eclipse       0.00      0.00      0.00         1
+   Location       1.00      1.00      1.00         2
+       TALN       0.00      0.00      0.00         2
+       UIMA       0.00      0.00      0.00         0
+
+avg / total       0.66      0.64      0.63        11
 
 <Results for Fold[8]>
-Fold train Matrix[8]:(219, 38)
-Fold test Matrix[8]:(24, 38)
-Linear SVM Classifier Accuracy:0.375
-Multinomial Naive Bayes Accuracy:0.25
-5 Nearest Neighbors Accuracy:0.208333333333
-Random Forest (25 learners) Accuracy:0.375
+Fold train Matrix[8]:(97, 38)
+Fold test Matrix[8]:(11, 38)
+Linear SVM Classifier Accuracy:0.636363636364
+Multinomial Naive Bayes Accuracy:0.727272727273
+5 Nearest Neighbors Accuracy:0.545454545455
+Random Forest (25 learners) Accuracy:0.454545454545
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
 Applications       0.00      0.00      0.00         1
-Carto & GPS       0.00      0.00      0.00         1
-  Commandes       0.25      1.00      0.40         4
 Controleurs       0.00      0.00      0.00         0
-      Cours       0.00      0.00      0.00         2
-      DLink       1.00      1.00      1.00         1
-  Domotique       1.00      0.67      0.80         6
-Photo & Video       0.00      0.00      0.00         1
- Reflexions       0.00      0.00      0.00         3
-   Synology       0.00      0.00      0.00         1
-       TALN       0.00      0.00      0.00         1
-       UIMA       0.00      0.00      0.00         1
-Windows Mobile       0.00      0.00      0.00         2
+      DLink       0.50      1.00      0.67         1
+  Domotique       0.80      0.67      0.73         6
+Surveillance       0.00      0.00      0.00         1
+       UIMA       1.00      1.00      1.00         2
 
-avg / total       0.33      0.38      0.31        24
+avg / total       0.66      0.64      0.64        11
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
 Applications       0.00      0.00      0.00         1
-Carto & GPS       0.00      0.00      0.00         1
-  Commandes       0.00      0.00      0.00         4
 Controleurs       0.00      0.00      0.00         0
-      Cours       0.00      0.00      0.00         2
-      DLink       1.00      1.00      1.00         1
-  Domotique       0.24      0.83      0.37         6
-Photo & Video       0.00      0.00      0.00         1
- Reflexions       0.00      0.00      0.00         3
-   Synology       0.00      0.00      0.00         1
-       TALN       0.00      0.00      0.00         1
-       UIMA       0.00      0.00      0.00         1
-Windows Mobile       0.00      0.00      0.00         2
+      DLink       0.50      1.00      0.67         1
+  Domotique       0.83      0.83      0.83         6
+Surveillance       0.00      0.00      0.00         1
+       UIMA       1.00      1.00      1.00         2
 
-avg / total       0.10      0.25      0.13        24
+avg / total       0.68      0.73      0.70        11
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-    Android       0.00      0.00      0.00         0
 Applications       0.00      0.00      0.00         1
-Carto & GPS       0.00      0.00      0.00         1
-  Commandes       0.00      0.00      0.00         4
 Controleurs       0.00      0.00      0.00         0
-      Cours       0.00      0.00      0.00         2
+      Cours       0.00      0.00      0.00         0
       DLink       0.50      1.00      0.67         1
-  Domotique       1.00      0.67      0.80         6
-Photo & Video       0.00      0.00      0.00         1
- Reflexions       0.00      0.00      0.00         3
-   Synology       0.00      0.00      0.00         1
-       TALN       0.00      0.00      0.00         1
-       UIMA       0.00      0.00      0.00         1
-Windows Mobile       0.00      0.00      0.00         2
+  Domotique       1.00      0.50      0.67         6
+Surveillance       0.00      0.00      0.00         1
+       UIMA       1.00      1.00      1.00         2
 
-avg / total       0.27      0.21      0.23        24
+avg / total       0.77      0.55      0.61        11
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
 Applications       0.00      0.00      0.00         1
-Carto & GPS       0.00      0.00      0.00         1
-  Commandes       0.25      1.00      0.40         4
 Controleurs       0.00      0.00      0.00         0
-      Cours       0.00      0.00      0.00         2
-      DLink       1.00      1.00      1.00         1
-  Domotique       1.00      0.67      0.80         6
-Photo & Video       0.00      0.00      0.00         1
- Reflexions       0.00      0.00      0.00         3
-   Synology       0.00      0.00      0.00         1
-       TALN       0.00      0.00      0.00         1
-       UIMA       0.00      0.00      0.00         1
-Windows Mobile       0.00      0.00      0.00         2
+      DLink       0.50      1.00      0.67         1
+  Domotique       1.00      0.50      0.67         6
+    Eclipse       0.00      0.00      0.00         0
+Surveillance       0.00      0.00      0.00         1
+       TALN       0.00      0.00      0.00         0
+       UIMA       1.00      0.50      0.67         2
 
-avg / total       0.33      0.38      0.31        24
+avg / total       0.77      0.45      0.55        11
 
 <Results for Fold[9]>
-Fold train Matrix[9]:(219, 39)
-Fold test Matrix[9]:(24, 39)
-Linear SVM Classifier Accuracy:0.5
-Multinomial Naive Bayes Accuracy:0.583333333333
-5 Nearest Neighbors Accuracy:0.375
-Random Forest (25 learners) Accuracy:0.458333333333
+Fold train Matrix[9]:(98, 40)
+Fold test Matrix[9]:(10, 40)
+Linear SVM Classifier Accuracy:0.8
+Multinomial Naive Bayes Accuracy:0.5
+5 Nearest Neighbors Accuracy:0.9
+Random Forest (25 learners) Accuracy:0.7
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-Applications       1.00      0.67      0.80         3
-  Commandes       0.09      1.00      0.17         1
-Controleurs       1.00      0.50      0.67         2
-      Cours       0.00      0.00      0.00         1
-      DLink       0.00      0.00      0.00         1
-  Domotique       0.83      0.83      0.83         6
-Indispensable       0.00      0.00      0.00         2
- Reflexions       0.00      0.00      0.00         2
-Surveillance       0.00      0.00      0.00         1
-   Synology       0.00      0.00      0.00         1
-       UIMA       1.00      0.75      0.86         4
-
-avg / total       0.59      0.50      0.51        24
-
-<Multinomial Naive Bayes Classifier Metrics>
-             precision    recall  f1-score   support
-
-Applications       1.00      0.67      0.80         3
-  Commandes       1.00      1.00      1.00         1
-Controleurs       1.00      0.50      0.67         2
-      Cours       0.00      0.00      0.00         1
-      DLink       0.00      0.00      0.00         1
-  Domotique       0.40      1.00      0.57         6
-Indispensable       0.00      0.00      0.00         2
- Reflexions       0.00      0.00      0.00         2
-Surveillance       0.00      0.00      0.00         1
-   Synology       0.00      0.00      0.00         1
-       UIMA       1.00      1.00      1.00         4
-
-avg / total       0.52      0.58      0.51        24
-
-<5 Nearest Neighbors Classifier Metrics>
-             precision    recall  f1-score   support
-
-    Android       0.00      0.00      0.00         0
-Applications       0.50      0.67      0.57         3
+Applications       1.00      1.00      1.00         2
   Commandes       0.00      0.00      0.00         1
 Controleurs       1.00      0.50      0.67         2
-      Cours       0.00      0.00      0.00         1
-      DLink       0.00      0.00      0.00         1
-  Domotique       1.00      0.67      0.80         6
-Generalitees       0.00      0.00      0.00         0
-Indispensable       0.00      0.00      0.00         2
- Reflexions       0.00      0.00      0.00         2
-Surveillance       0.00      0.00      0.00         1
-   Synology       0.00      0.00      0.00         1
-       UIMA       1.00      0.50      0.67         4
-
-avg / total       0.56      0.38      0.44        24
-
-<Random Forest (25 learners) Classifier Metrics>
-             precision    recall  f1-score   support
-
-Applications       1.00      0.67      0.80         3
-  Commandes       0.10      1.00      0.18         1
-Controleurs       0.00      0.00      0.00         2
-      Cours       0.00      0.00      0.00         1
-      DLink       0.00      0.00      0.00         1
-  Domotique       0.71      0.83      0.77         6
-Indispensable       0.00      0.00      0.00         2
- Reflexions       0.00      0.00      0.00         2
-Surveillance       0.00      0.00      0.00         1
-   Synology       0.00      0.00      0.00         1
-       TALN       0.00      0.00      0.00         0
-       UIMA       1.00      0.75      0.86         4
-
-avg / total       0.47      0.46      0.44        24
-
-<Results for Fold[10]>
-Fold train Matrix[10]:(219, 39)
-Fold test Matrix[10]:(24, 39)
-Linear SVM Classifier Accuracy:0.291666666667
-Multinomial Naive Bayes Accuracy:0.25
-5 Nearest Neighbors Accuracy:0.25
-Random Forest (25 learners) Accuracy:0.25
-<Linear SVM Classifier Metrics>
-             precision    recall  f1-score   support
-
-    Android       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         2
-Cablage de prises       0.00      0.00      0.00         2
-  Commandes       0.12      1.00      0.21         2
-Controleurs       1.00      0.33      0.50         3
-      Cours       0.00      0.00      0.00         1
-      DLink       1.00      1.00      1.00         1
-  Domotique       0.33      1.00      0.50         1
-    Galeres       0.00      0.00      0.00         2
-Generalitees       0.00      0.00      0.00         1
-   Materiel       0.00      0.00      0.00         1
-Questions Reseau       0.00      0.00      0.00         1
- Reflexions       0.00      0.00      0.00         2
-    Systeme       0.00      0.00      0.00         1
-       TALN       0.00      0.00      0.00         1
+  Domotique       0.75      1.00      0.86         3
+    Galeres       0.00      0.00      0.00         0
        UIMA       1.00      1.00      1.00         2
 
-avg / total       0.27      0.29      0.23        24
+avg / total       0.82      0.80      0.79        10
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-    Android       0.00      0.00      0.00         1
 Applications       0.00      0.00      0.00         2
-Cablage de prises       0.00      0.00      0.00         2
-  Commandes       0.50      0.50      0.50         2
-Controleurs       1.00      0.33      0.50         3
-      Cours       0.00      0.00      0.00         1
-      DLink       1.00      1.00      1.00         1
-  Domotique       0.06      1.00      0.11         1
-    Galeres       0.00      0.00      0.00         2
-Generalitees       0.00      0.00      0.00         1
-   Materiel       0.00      0.00      0.00         1
-Questions Reseau       0.00      0.00      0.00         1
- Reflexions       0.00      0.00      0.00         2
-    Systeme       0.00      0.00      0.00         1
-       TALN       0.00      0.00      0.00         1
+  Commandes       0.00      0.00      0.00         1
+Controleurs       0.00      0.00      0.00         2
+  Domotique       0.38      1.00      0.55         3
        UIMA       1.00      1.00      1.00         2
 
-avg / total       0.29      0.25      0.23        24
+avg / total       0.31      0.50      0.36        10
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-    Android       0.06      1.00      0.12         1
-Applications       0.00      0.00      0.00         2
-Cablage de prises       0.00      0.00      0.00         2
-  Commandes       1.00      0.50      0.67         2
-Controleurs       0.50      0.33      0.40         3
-      Cours       0.00      0.00      0.00         1
-      DLink       1.00      1.00      1.00         1
-  Domotique       0.33      1.00      0.50         1
-    Galeres       0.00      0.00      0.00         2
-Generalitees       0.00      0.00      0.00         1
-   Materiel       0.00      0.00      0.00         1
-Questions Reseau       0.00      0.00      0.00         1
- Reflexions       0.00      0.00      0.00         2
-    Systeme       0.00      0.00      0.00         1
-       TALN       0.00      0.00      0.00         1
-       UIMA       1.00      0.50      0.67         2
+Applications       1.00      1.00      1.00         2
+  Commandes       1.00      1.00      1.00         1
+Controleurs       1.00      0.50      0.67         2
+  Domotique       0.75      1.00      0.86         3
+       UIMA       1.00      1.00      1.00         2
 
-avg / total       0.29      0.25      0.23        24
+avg / total       0.93      0.90      0.89        10
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-    Android       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         2
-Cablage de prises       1.00      0.50      0.67         2
-  Commandes       0.07      0.50      0.12         2
+Applications       1.00      1.00      1.00         2
+  Commandes       0.00      0.00      0.00         1
+Controleurs       0.00      0.00      0.00         2
+  Domotique       0.60      1.00      0.75         3
+    Galeres       0.00      0.00      0.00         0
+       UIMA       1.00      1.00      1.00         2
+
+avg / total       0.58      0.70      0.62        10
+
+<Results for Fold[10]>
+Fold train Matrix[10]:(98, 39)
+Fold test Matrix[10]:(10, 39)
+Linear SVM Classifier Accuracy:0.5
+Multinomial Naive Bayes Accuracy:0.5
+5 Nearest Neighbors Accuracy:0.5
+Random Forest (25 learners) Accuracy:0.4
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+Cablage de prises       0.00      0.00      0.00         1
+  Commandes       0.00      0.00      0.00         1
 Controleurs       1.00      0.33      0.50         3
-      Cours       0.00      0.00      0.00         1
+      DLink       1.00      1.00      1.00         1
+  Domotique       0.20      1.00      0.33         1
+    Galeres       0.00      0.00      0.00         0
+   Materiel       0.00      0.00      0.00         1
+       UIMA       1.00      1.00      1.00         2
+
+avg / total       0.62      0.50      0.48        10
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+Cablage de prises       0.00      0.00      0.00         1
+  Commandes       0.00      0.00      0.00         1
+Controleurs       1.00      0.33      0.50         3
+      DLink       1.00      1.00      1.00         1
+  Domotique       0.17      1.00      0.29         1
+   Materiel       0.00      0.00      0.00         1
+       UIMA       1.00      1.00      1.00         2
+
+avg / total       0.62      0.50      0.48        10
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+Cablage de prises       0.00      0.00      0.00         1
+  Commandes       1.00      1.00      1.00         1
+Controleurs       0.33      0.33      0.33         3
+      Cours       0.00      0.00      0.00         0
       DLink       1.00      1.00      1.00         1
   Domotique       0.33      1.00      0.50         1
-    Galeres       0.00      0.00      0.00         2
-Generalitees       0.00      0.00      0.00         1
    Materiel       0.00      0.00      0.00         1
-Questions Reseau       0.00      0.00      0.00         1
- Reflexions       0.00      0.00      0.00         2
-    Systeme       0.00      0.00      0.00         1
-       TALN       0.00      0.00      0.00         1
        UIMA       1.00      0.50      0.67         2
 
-avg / total       0.35      0.25      0.25        24
+avg / total       0.53      0.50      0.48        10
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+Cablage de prises       0.00      0.00      0.00         1
+  Commandes       0.00      0.00      0.00         1
+Controleurs       1.00      0.33      0.50         3
+      DLink       1.00      1.00      1.00         1
+  Domotique       0.20      1.00      0.33         1
+    Galeres       0.00      0.00      0.00         0
+   Materiel       0.00      0.00      0.00         1
+       TALN       0.00      0.00      0.00         0
+       UIMA       1.00      0.50      0.67         2
+
+avg / total       0.62      0.40      0.42        10
 

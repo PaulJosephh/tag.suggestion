@@ -9,7 +9,7 @@ Fold test Matrix[1]:(58, 65661)
 Linear SVM Classifier Accuracy:0.5
 Multinomial Naive Bayes Accuracy:0.448275862069
 5 Nearest Neighbors Accuracy:0.189655172414
-Random Forest (25 learners) Accuracy:0.534482758621
+Random Forest (25 learners) Accuracy:0.568965517241
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -58,17 +58,17 @@ avg / total       0.10      0.19      0.13        58
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-        Dev       0.83      0.45      0.59        11
-     Divers       0.45      0.72      0.55        18
+        Dev       0.88      0.64      0.74        11
+     Divers       0.54      0.83      0.65        18
    Dotclear       1.00      0.33      0.50         3
  Libritudes       0.00      0.00      0.00         5
 Lien permanent       0.00      0.00      0.00         1
        Moto       0.00      0.00      0.00         1
-     Rigolo       0.47      0.64      0.54        11
+     Rigolo       0.46      0.55      0.50        11
        Ruby       0.00      0.00      0.00         1
-     Ubuntu       0.71      0.71      0.71         7
+     Ubuntu       0.57      0.57      0.57         7
 
-avg / total       0.52      0.53      0.50        58
+avg / total       0.54      0.57      0.53        58
 
 <Results for Fold[2]>
 Fold train Matrix[2]:(515, 68676)
@@ -78,7 +78,7 @@ Fold test Matrix[2]:(58, 68676)
 Linear SVM Classifier Accuracy:0.465517241379
 Multinomial Naive Bayes Accuracy:0.344827586207
 5 Nearest Neighbors Accuracy:0.327586206897
-Random Forest (25 learners) Accuracy:0.620689655172
+Random Forest (25 learners) Accuracy:0.568965517241
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -121,15 +121,15 @@ avg / total       0.34      0.33      0.18        58
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-        Dev       0.80      0.50      0.62         8
-     Divers       0.51      1.00      0.68        18
- Libritudes       0.00      0.00      0.00         7
-      Liens       0.67      1.00      0.80         2
-     Rigolo       0.88      0.50      0.64        14
+        Dev       0.75      0.38      0.50         8
+     Divers       0.44      0.89      0.59        18
+ Libritudes       1.00      0.14      0.25         7
+      Liens       1.00      1.00      1.00         2
+     Rigolo       0.75      0.43      0.55        14
        Ruby       0.00      0.00      0.00         1
      Ubuntu       0.71      0.62      0.67         8
 
-avg / total       0.60      0.62      0.57        58
+avg / total       0.68      0.57      0.54        58
 
 <Results for Fold[3]>
 Fold train Matrix[3]:(515, 67634)
@@ -188,17 +188,17 @@ avg / total       0.13      0.26      0.16        58
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-        Dev       0.50      0.38      0.43         8
-     Divers       0.41      0.82      0.55        17
+        Dev       0.33      0.12      0.18         8
+     Divers       0.45      0.76      0.57        17
    Dotclear       0.00      0.00      0.00         1
- Libritudes       0.00      0.00      0.00        10
+ Libritudes       0.50      0.10      0.17        10
       Liens       0.75      1.00      0.86         3
        Moto       0.00      0.00      0.00         1
     Musique       0.00      0.00      0.00         1
-     Rigolo       0.22      0.25      0.24         8
-     Ubuntu       0.80      0.44      0.57         9
+     Rigolo       0.33      0.50      0.40         8
+     Ubuntu       0.50      0.44      0.47         9
 
-avg / total       0.38      0.45      0.39        58
+avg / total       0.43      0.45      0.39        58
 
 <Results for Fold[4]>
 Fold train Matrix[4]:(516, 68618)
@@ -208,7 +208,7 @@ Fold test Matrix[4]:(57, 68618)
 Linear SVM Classifier Accuracy:0.614035087719
 Multinomial Naive Bayes Accuracy:0.350877192982
 5 Nearest Neighbors Accuracy:0.157894736842
-Random Forest (25 learners) Accuracy:0.508771929825
+Random Forest (25 learners) Accuracy:0.491228070175
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -251,15 +251,15 @@ avg / total       0.08      0.16      0.10        57
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-        Dev       0.60      0.33      0.43         9
-     Divers       0.38      0.86      0.52        14
+        Dev       0.67      0.44      0.53         9
+     Divers       0.32      0.64      0.43        14
    Dotclear       0.00      0.00      0.00         4
- Libritudes       0.00      0.00      0.00         8
-      Liens       0.60      1.00      0.75         3
-     Rigolo       0.67      0.50      0.57        12
+ Libritudes       1.00      0.12      0.22         8
+      Liens       1.00      1.00      1.00         3
+     Rigolo       0.46      0.50      0.48        12
      Ubuntu       0.83      0.71      0.77         7
 
-avg / total       0.46      0.51      0.45        57
+avg / total       0.58      0.49      0.47        57
 
 <Results for Fold[5]>
 Fold train Matrix[5]:(516, 67713)
@@ -269,7 +269,7 @@ Fold test Matrix[5]:(57, 67713)
 Linear SVM Classifier Accuracy:0.59649122807
 Multinomial Naive Bayes Accuracy:0.508771929825
 5 Nearest Neighbors Accuracy:0.280701754386
-Random Forest (25 learners) Accuracy:0.543859649123
+Random Forest (25 learners) Accuracy:0.561403508772
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -318,17 +318,17 @@ avg / total       0.21      0.28      0.23        57
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-        Dev       0.67      0.57      0.62         7
-     Divers       0.53      0.72      0.61        25
- Libritudes       0.00      0.00      0.00         7
+        Dev       0.60      0.43      0.50         7
+     Divers       0.56      0.76      0.64        25
+ Libritudes       0.50      0.14      0.22         7
 Lien permanent       0.00      0.00      0.00         2
       Liens       1.00      1.00      1.00         1
         Mac       0.00      0.00      0.00         1
-     Rigolo       0.38      0.56      0.45         9
+     Rigolo       0.42      0.56      0.48         9
        Ruby       0.00      0.00      0.00         1
      Ubuntu       1.00      0.75      0.86         4
 
-avg / total       0.46      0.54      0.49        57
+avg / total       0.53      0.56      0.52        57
 
 <Results for Fold[6]>
 Fold train Matrix[6]:(516, 67245)
@@ -338,7 +338,7 @@ Fold test Matrix[6]:(57, 67245)
 Linear SVM Classifier Accuracy:0.631578947368
 Multinomial Naive Bayes Accuracy:0.385964912281
 5 Nearest Neighbors Accuracy:0.0877192982456
-Random Forest (25 learners) Accuracy:0.59649122807
+Random Forest (25 learners) Accuracy:0.561403508772
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -384,16 +384,16 @@ avg / total       0.01      0.09      0.01        57
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-        Dev       0.83      0.42      0.56        12
-     Divers       0.52      0.76      0.62        17
-   Dotclear       1.00      1.00      1.00         1
+        Dev       1.00      0.42      0.59        12
+     Divers       0.50      0.71      0.59        17
+   Dotclear       0.00      0.00      0.00         1
  Libritudes       0.00      0.00      0.00         8
-      Liens       1.00      0.83      0.91         6
-     Rigolo       0.33      0.80      0.47         5
+      Liens       1.00      0.67      0.80         6
+     Rigolo       0.31      1.00      0.48         5
        Ruby       0.00      0.00      0.00         1
      Ubuntu       0.75      0.86      0.80         7
 
-avg / total       0.57      0.60      0.55        57
+avg / total       0.58      0.56      0.52        57
 
 <Results for Fold[7]>
 Fold train Matrix[7]:(516, 67767)
@@ -403,7 +403,7 @@ Fold test Matrix[7]:(57, 67767)
 Linear SVM Classifier Accuracy:0.561403508772
 Multinomial Naive Bayes Accuracy:0.368421052632
 5 Nearest Neighbors Accuracy:0.368421052632
-Random Forest (25 learners) Accuracy:0.543859649123
+Random Forest (25 learners) Accuracy:0.59649122807
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -455,18 +455,18 @@ avg / total       0.17      0.37      0.22        57
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-        Dev       0.50      0.29      0.36         7
-     Divers       0.45      0.94      0.61        16
+        Dev       0.57      0.57      0.57         7
+     Divers       0.48      0.94      0.64        16
    Dotclear       0.00      0.00      0.00         2
- Libritudes       0.00      0.00      0.00         3
-      Liens       0.80      1.00      0.89         4
+ Libritudes       0.50      0.33      0.40         3
+      Liens       0.75      0.75      0.75         4
         Mac       0.00      0.00      0.00         1
     Musique       0.00      0.00      0.00         1
-     Rigolo       0.60      0.23      0.33        13
+     Rigolo       0.71      0.38      0.50        13
        Ruby       0.00      0.00      0.00         2
-     Ubuntu       0.78      0.88      0.82         8
+     Ubuntu       1.00      0.75      0.86         8
 
-avg / total       0.49      0.54      0.47        57
+avg / total       0.59      0.60      0.56        57
 
 <Results for Fold[8]>
 Fold train Matrix[8]:(516, 68121)
@@ -476,7 +476,7 @@ Fold test Matrix[8]:(57, 68121)
 Linear SVM Classifier Accuracy:0.526315789474
 Multinomial Naive Bayes Accuracy:0.350877192982
 5 Nearest Neighbors Accuracy:0.210526315789
-Random Forest (25 learners) Accuracy:0.508771929825
+Random Forest (25 learners) Accuracy:0.561403508772
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -522,16 +522,16 @@ avg / total       0.09      0.21      0.12        57
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-        Dev       0.71      0.62      0.67         8
-     Divers       0.39      0.80      0.52        15
+        Dev       0.44      0.50      0.47         8
+     Divers       0.50      0.87      0.63        15
    Dotclear       0.00      0.00      0.00         1
  Libritudes       0.00      0.00      0.00         2
-      Liens       1.00      0.86      0.92         7
+      Liens       1.00      0.57      0.73         7
     Musique       0.00      0.00      0.00         1
-     Rigolo       0.57      0.44      0.50         9
-     Ubuntu       0.67      0.14      0.24        14
+     Rigolo       0.56      0.56      0.56         9
+     Ubuntu       0.86      0.43      0.57        14
 
-avg / total       0.58      0.51      0.48        57
+avg / total       0.62      0.56      0.55        57
 
 <Results for Fold[9]>
 Fold train Matrix[9]:(516, 66600)
@@ -541,7 +541,7 @@ Fold test Matrix[9]:(57, 66600)
 Linear SVM Classifier Accuracy:0.614035087719
 Multinomial Naive Bayes Accuracy:0.385964912281
 5 Nearest Neighbors Accuracy:0.245614035088
-Random Forest (25 learners) Accuracy:0.59649122807
+Random Forest (25 learners) Accuracy:0.543859649123
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -587,16 +587,16 @@ avg / total       0.06      0.25      0.10        57
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-        Dev       1.00      0.78      0.88         9
-     Divers       0.48      0.81      0.60        16
+        Dev       1.00      0.44      0.62         9
+     Divers       0.50      0.62      0.56        16
    Dotclear       0.00      0.00      0.00         3
  Libritudes       0.00      0.00      0.00         5
       Liens       1.00      1.00      1.00         2
     Musique       0.00      0.00      0.00         1
-     Rigolo       0.60      0.43      0.50        14
-     Ubuntu       0.55      0.86      0.67         7
+     Rigolo       0.45      0.71      0.56        14
+     Ubuntu       0.56      0.71      0.63         7
 
-avg / total       0.54      0.60      0.55        57
+avg / total       0.51      0.54      0.50        57
 
 <Results for Fold[10]>
 Fold train Matrix[10]:(516, 69481)
@@ -606,7 +606,7 @@ Fold test Matrix[10]:(57, 69481)
 Linear SVM Classifier Accuracy:0.561403508772
 Multinomial Naive Bayes Accuracy:0.385964912281
 5 Nearest Neighbors Accuracy:0.140350877193
-Random Forest (25 learners) Accuracy:0.456140350877
+Random Forest (25 learners) Accuracy:0.543859649123
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -659,15 +659,15 @@ avg / total       0.02      0.14      0.03        57
              precision    recall  f1-score   support
 
         Dev       0.25      0.50      0.33         2
-     Divers       0.43      0.43      0.43        21
+     Divers       0.58      0.52      0.55        21
    Dotclear       0.00      0.00      0.00         4
- Libritudes       0.50      0.20      0.29         5
+ Libritudes       1.00      0.20      0.33         5
 Lien permanent       0.00      0.00      0.00         1
       Liens       1.00      0.83      0.91         6
     Musique       0.00      0.00      0.00         1
-     Rigolo       0.33      0.88      0.48         8
+     Rigolo       0.36      1.00      0.53         8
        Ruby       0.00      0.00      0.00         1
-     Ubuntu       0.75      0.38      0.50         8
+     Ubuntu       0.83      0.62      0.71         8
 
-avg / total       0.47      0.46      0.43        57
+avg / total       0.58      0.54      0.51        57
 

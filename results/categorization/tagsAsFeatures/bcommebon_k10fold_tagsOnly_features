@@ -1,10 +1,10 @@
 <Experiment for data located in ../../corpus/corpus2_dates/xbcommebon/>
-Size of matrix:(514, 465)
+Size of matrix:(176, 465)
 <Results for Fold[1]>
-Fold train Matrix[1]:(462, 441)
-Fold test Matrix[1]:(52, 441)
-Linear SVM Classifier Accuracy:0.346153846154
-Multinomial Naive Bayes Accuracy:0.403846153846
-5 Nearest Neighbors Accuracy:0.0769230769231
-Random Forest (25 learners) Accuracy:0.365384615385
+Fold train Matrix[1]:(158, 441)
+Fold test Matrix[1]:(18, 441)
+Linear SVM Classifier Accuracy:0.5
+Multinomial Naive Bayes Accuracy:0.555555555556
+5 Nearest Neighbors Accuracy:0.166666666667
+Random Forest (25 learners) Accuracy:0.5
 <Linear SVM Classifier Metrics>

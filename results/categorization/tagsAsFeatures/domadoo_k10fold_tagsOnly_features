@@ -1,1362 +1,960 @@
 <Experiment for data located in ../../corpus/corpus2_dates/xdomadoo/>
-Size of matrix:(1423, 1231)
+Size of matrix:(705, 1231)
 <Results for Fold[1]>
-Fold train Matrix[1]:(1280, 1139)
-Fold test Matrix[1]:(143, 1139)
-Linear SVM Classifier Accuracy:0.531468531469
-Multinomial Naive Bayes Accuracy:0.524475524476
-5 Nearest Neighbors Accuracy:0.286713286713
-Random Forest (25 learners) Accuracy:0.531468531469
+Fold train Matrix[1]:(634, 1144)
+Fold test Matrix[1]:(71, 1144)
+Linear SVM Classifier Accuracy:0.647887323944
+Multinomial Naive Bayes Accuracy:0.647887323944
+5 Nearest Neighbors Accuracy:0.605633802817
+Random Forest (25 learners) Accuracy:0.661971830986
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-Articles de menu       0.00      0.00      0.00         1
         CES       0.00      0.00      0.00         0
-   CES 2013       0.00      0.00      0.00        11
-   CES 2014       1.00      0.90      0.95        10
+   CES 2014       1.00      0.89      0.94         9
    CES 2015       1.00      0.67      0.80         3
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       1.00      0.19      0.32        16
-  Domotique       0.50      0.97      0.65        58
+Confort de l'habitat       0.50      0.50      0.50         6
+  Domotique       0.68      0.90      0.77        30
 Guide Domotique Chacon       1.00      1.00      1.00         1
 Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         2
 Guide Domotique Homelive       1.00      1.00      1.00         1
 Guide Domotique Jeedom       0.75      1.00      0.86         3
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Telldus       0.00      0.00      0.00         1
 Guide Domotique Z-Wave       0.25      0.33      0.29         3
 Guides Domotique EnOcean       0.00      0.00      0.00         2
 Guides Domotiques       0.00      0.00      0.00         0
-Logiciels Active Home       0.00      0.00      0.00         2
-Logiciels Homeseer       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00         9
-Multimedia Media Center       0.00      0.00      0.00         1
-Multimedia Telecommandes       0.00      0.00      0.00         1
        News       0.00      0.00      0.00         6
-Protocole RF       0.00      0.00      0.00         1
-Protocole X10       0.00      0.00      0.00         1
 X10 Applications       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         1
 Z-Wave Applications       0.00      0.00      0.00         1
-Z-Wave Produits       0.00      0.00      0.00         2
-ZiBASE Kits       0.00      0.00      0.00         1
-Zipabox Applications       0.00      0.00      0.00         1
-
-avg / total       0.44      0.53      0.42       143
-
-<Multinomial Naive Bayes Classifier Metrics>
-             precision    recall  f1-score   support
-
-Articles de menu       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00        11
-   CES 2014       0.91      1.00      0.95        10
-   CES 2015       1.00      1.00      1.00         3
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.50      0.12      0.20        16
-  Domotique       0.48      0.97      0.64        58
-Guide Domotique Chacon       0.00      0.00      0.00         1
-Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         2
-Guide Domotique Homelive       0.50      1.00      0.67         1
-Guide Domotique Jeedom       0.67      0.67      0.67         3
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Telldus       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.33      0.33      0.33         3
-Guides Domotique EnOcean       0.00      0.00      0.00         2
-Logiciels Active Home       0.00      0.00      0.00         2
-Logiciels Homeseer       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00         9
-Multimedia Media Center       0.00      0.00      0.00         1
-Multimedia Telecommandes       0.00      0.00      0.00         1
-       News       0.00      0.00      0.00         6
-Protocole RF       0.00      0.00      0.00         1
-Protocole X10       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         1
-Z-Wave Applications       0.00      0.00      0.00         1
-Z-Wave Produits       0.00      0.00      0.00         2
-ZiBASE Kits       0.00      0.00      0.00         1
-Zipabox Applications       0.00      0.00      0.00         1
-
-avg / total       0.36      0.52      0.40       143
-
-<5 Nearest Neighbors Classifier Metrics>
-             precision    recall  f1-score   support
-
-Articles de menu       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00        11
-   CES 2014       0.69      0.90      0.78        10
-   CES 2015       1.00      0.33      0.50         3
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.00      0.00      0.00        16
-  Domotique       0.62      0.31      0.41        58
-Guide Domotique Chacon       0.00      0.00      0.00         1
-Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         2
-Guide Domotique Homelive       0.50      1.00      0.67         1
-Guide Domotique Jeedom       0.67      0.67      0.67         3
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Telldus       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.33      0.33      0.33         3
-Guides Domotique EnOcean       0.00      0.00      0.00         2
-Logiciels Active Home       0.00      0.00      0.00         2
-Logiciels Homeseer       0.00      0.00      0.00         1
- Multimedia       0.10      1.00      0.19         9
-Multimedia Media Center       0.00      0.00      0.00         1
-Multimedia Telecommandes       0.00      0.00      0.00         1
-       News       0.00      0.00      0.00         6
-Protocole RF       0.00      0.00      0.00         1
-Protocole X10       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         1
-Z-Wave Applications       0.00      0.00      0.00         1
-Z-Wave Produits       0.00      0.00      0.00         2
-ZiBASE Kits       0.00      0.00      0.00         1
-Zipabox Applications       0.00      0.00      0.00         1
-
-avg / total       0.35      0.29      0.27       143
-
-<Random Forest (25 learners) Classifier Metrics>
-             precision    recall  f1-score   support
-
-Articles de menu       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00        11
-   CES 2014       0.82      0.90      0.86        10
-   CES 2015       1.00      1.00      1.00         3
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.75      0.19      0.30        16
-  Domotique       0.48      0.93      0.64        58
-Guide Domotique Chacon       1.00      1.00      1.00         1
-Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         2
-Guide Domotique Homelive       0.50      1.00      0.67         1
-Guide Domotique Jeedom       0.60      1.00      0.75         3
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Telldus       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.50      0.67      0.57         3
-Guides Domotique EnOcean       0.00      0.00      0.00         2
-Logiciels Active Home       0.00      0.00      0.00         2
-Logiciels Homeseer       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00         9
-Multimedia Media Center       0.00      0.00      0.00         1
-Multimedia Telecommandes       0.00      0.00      0.00         1
-       News       0.00      0.00      0.00         6
-Protocole RF       0.00      0.00      0.00         1
-Protocole X10       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         1
-Z-Wave Applications       0.00      0.00      0.00         1
-Z-Wave Produits       0.00      0.00      0.00         2
+Z-Wave Produits       0.00      0.00      0.00         1
 ZiBASE Kits       0.00      0.00      0.00         1
 Zipabox Applications       0.00      0.00      0.00         1
 Zipabox Produits       0.00      0.00      0.00         0
 
-avg / total       0.39      0.53      0.41       143
+avg / total       0.57      0.65      0.60        71
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+   CES 2014       0.90      1.00      0.95         9
+   CES 2015       1.00      1.00      1.00         3
+Confort de l'habitat       0.67      0.33      0.44         6
+  Domotique       0.60      0.93      0.73        30
+Guide Domotique Chacon       0.00      0.00      0.00         1
+Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         2
+Guide Domotique Homelive       0.50      1.00      0.67         1
+Guide Domotique Jeedom       0.67      0.67      0.67         3
+Guide Domotique Z-Wave       0.33      0.33      0.33         3
+Guides Domotique EnOcean       0.00      0.00      0.00         2
+       News       0.00      0.00      0.00         6
+X10 Applications       0.00      0.00      0.00         1
+Z-Wave Applications       0.00      0.00      0.00         1
+Z-Wave Produits       0.00      0.00      0.00         1
+ZiBASE Kits       0.00      0.00      0.00         1
+Zipabox Applications       0.00      0.00      0.00         1
+
+avg / total       0.51      0.65      0.56        71
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+   CES 2014       0.57      0.89      0.70         9
+   CES 2015       1.00      0.33      0.50         3
+Chacon Applications       0.00      0.00      0.00         0
+Confort de l'habitat       0.75      0.50      0.60         6
+  Domotique       0.64      0.90      0.75        30
+Guide Domotique Chacon       0.00      0.00      0.00         1
+Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         2
+Guide Domotique Homelive       0.50      1.00      0.67         1
+Guide Domotique Jeedom       0.50      0.67      0.57         3
+Guide Domotique Z-Wave       0.33      0.33      0.33         3
+Guides Domotique EnOcean       0.00      0.00      0.00         2
+       News       0.00      0.00      0.00         6
+X10 Applications       0.00      0.00      0.00         1
+Z-Wave Applications       0.00      0.00      0.00         1
+Z-Wave Produits       0.00      0.00      0.00         1
+ZiBASE Kits       0.00      0.00      0.00         1
+Zipabox Applications       0.00      0.00      0.00         1
+
+avg / total       0.49      0.61      0.52        71
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+   CES 2014       0.73      0.89      0.80         9
+   CES 2015       1.00      1.00      1.00         3
+Confort de l'habitat       1.00      0.50      0.67         6
+  Domotique       0.63      0.90      0.74        30
+Guide Domotique Chacon       1.00      1.00      1.00         1
+Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         2
+Guide Domotique Homelive       1.00      1.00      1.00         1
+Guide Domotique Jeedom       0.60      1.00      0.75         3
+Guide Domotique Z-Wave       0.33      0.33      0.33         3
+Guides Domotique EnOcean       0.00      0.00      0.00         2
+       News       0.00      0.00      0.00         6
+X10 Applications       0.00      0.00      0.00         1
+Z-Wave Applications       0.00      0.00      0.00         1
+Z-Wave Produits       0.00      0.00      0.00         1
+ZiBASE Kits       0.00      0.00      0.00         1
+Zipabox Applications       0.00      0.00      0.00         1
+
+avg / total       0.55      0.66      0.59        71
 
 <Results for Fold[2]>
-Fold train Matrix[2]:(1280, 1125)
-Fold test Matrix[2]:(143, 1125)
-Linear SVM Classifier Accuracy:0.524475524476
-Multinomial Naive Bayes Accuracy:0.48951048951
-5 Nearest Neighbors Accuracy:0.363636363636
-Random Forest (25 learners) Accuracy:0.552447552448
+Fold train Matrix[2]:(634, 1127)
+Fold test Matrix[2]:(71, 1127)
+Linear SVM Classifier Accuracy:0.816901408451
+Multinomial Naive Bayes Accuracy:0.69014084507
+5 Nearest Neighbors Accuracy:0.619718309859
+Random Forest (25 learners) Accuracy:0.788732394366
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-Achat Autres       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00        13
-   CES 2014       0.83      1.00      0.91         5
-   CES 2015       1.00      0.82      0.90        11
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.83      0.19      0.31        26
-  Domotique       0.41      0.96      0.57        47
+   CES 2014       0.75      1.00      0.86         6
+   CES 2015       1.00      0.80      0.89        10
+Confort de l'habitat       0.82      0.75      0.78        12
+  Domotique       0.76      0.93      0.83        27
 Guide Domotique Homelive       1.00      1.00      1.00         1
-Guide Domotique Jeedom       1.00      1.00      1.00         2
+Guide Domotique Jeedom       1.00      1.00      1.00         1
 Guide Domotique Z-Wave       0.67      0.67      0.67         3
 Guide Domotique Zipabox       0.00      0.00      0.00         1
 Guides Autres       1.00      1.00      1.00         1
 Guides Domotique EnOcean       1.00      1.00      1.00         1
-Logiciels Homeseer       0.00      0.00      0.00         2
-Logiciels mControl       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        10
+ Multimedia       0.00      0.00      0.00         1
        News       1.00      0.33      0.50         3
-PLCBUS Applications       0.00      0.00      0.00         1
-Robot Nettoyant Scooba       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         3
-Z-Wave Applications       0.00      0.00      0.00         2
-Z-Wave Produits       0.00      0.00      0.00         2
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Applications       0.00      0.00      0.00         1
+Z-Wave Applications       0.00      0.00      0.00         1
 Zipabox Produits       1.00      1.00      1.00         3
 
-avg / total       0.48      0.52      0.43       143
+avg / total       0.80      0.82      0.79        71
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-Achat Autres       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00        13
-   CES 2014       0.62      1.00      0.77         5
-   CES 2015       1.00      0.64      0.78        11
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.67      0.23      0.34        26
-  Domotique       0.41      0.96      0.57        47
+   CES 2014       0.67      1.00      0.80         6
+   CES 2015       1.00      0.70      0.82        10
+Confort de l'habitat       0.71      0.42      0.53        12
+  Domotique       0.64      0.93      0.76        27
 Guide Domotique Homelive       1.00      1.00      1.00         1
-Guide Domotique Jeedom       1.00      1.00      1.00         2
-Guide Domotique Z-Wave       0.50      0.67      0.57         3
+Guide Domotique Jeedom       1.00      1.00      1.00         1
+Guide Domotique Z-Wave       0.40      0.67      0.50         3
 Guide Domotique Zipabox       0.00      0.00      0.00         1
 Guides Autres       0.00      0.00      0.00         1
 Guides Domotique EnOcean       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         2
-Logiciels mControl       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        10
+ Multimedia       0.00      0.00      0.00         1
        News       1.00      0.33      0.50         3
-PLCBUS Applications       0.00      0.00      0.00         1
-Robot Nettoyant Scooba       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         3
-Z-Wave Applications       0.00      0.00      0.00         2
-Z-Wave Produits       0.00      0.00      0.00         2
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Applications       0.00      0.00      0.00         1
+Z-Wave Applications       0.00      0.00      0.00         1
 Zipabox Produits       1.00      0.33      0.50         3
 
-avg / total       0.43      0.49      0.39       143
+avg / total       0.69      0.69      0.65        71
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-Achat Autres       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00        13
-   CES 2014       0.38      1.00      0.56         5
-   CES 2015       1.00      0.27      0.43        11
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.23      0.73      0.35        26
-  Domotique       0.61      0.40      0.49        47
-Guide Domotique Homelive       0.00      0.00      0.00         1
-Guide Domotique Jeedom       1.00      0.50      0.67         2
+   CES 2014       0.32      1.00      0.48         6
+   CES 2015       1.00      0.30      0.46        10
+Confort de l'habitat       0.80      0.33      0.47        12
+  Domotique       0.66      0.85      0.74        27
+Guide Domotique Homelive       1.00      1.00      1.00         1
+Guide Domotique Jeedom       1.00      1.00      1.00         1
 Guide Domotique Z-Wave       0.67      0.67      0.67         3
 Guide Domotique Zipabox       0.00      0.00      0.00         1
 Guides Autres       0.00      0.00      0.00         1
-Guides Domotique EnOcean       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         2
-Logiciels mControl       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        10
+Guides Domotique EnOcean       1.00      1.00      1.00         1
+ Multimedia       0.00      0.00      0.00         1
        News       0.00      0.00      0.00         3
-PLCBUS Applications       0.00      0.00      0.00         1
-Robot Nettoyant Scooba       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         3
-Z-Wave Applications       0.00      0.00      0.00         2
-Z-Wave Produits       0.00      0.00      0.00         2
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Applications       0.00      0.00      0.00         1
+Z-Wave Applications       0.00      0.00      0.00         1
 Zipabox Produits       1.00      1.00      1.00         3
 
-avg / total       0.38      0.36      0.32       143
+avg / total       0.67      0.62      0.58        71
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-Achat Autres       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00        13
-   CES 2014       0.71      1.00      0.83         5
-   CES 2015       1.00      0.82      0.90        11
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.77      0.38      0.51        26
-  Domotique       0.43      0.91      0.58        47
+   CES 2014       0.75      1.00      0.86         6
+   CES 2015       1.00      0.80      0.89        10
+Confort de l'habitat       0.80      0.67      0.73        12
+  Domotique       0.73      0.89      0.80        27
 Guide Domotique Homelive       1.00      1.00      1.00         1
-Guide Domotique Jeedom       1.00      1.00      1.00         2
+Guide Domotique Jeedom       1.00      1.00      1.00         1
 Guide Domotique Z-Wave       0.67      0.67      0.67         3
 Guide Domotique Zipabox       0.00      0.00      0.00         1
 Guides Autres       1.00      1.00      1.00         1
 Guides Domotique EnOcean       1.00      1.00      1.00         1
-Logiciels Homeseer       0.00      0.00      0.00         2
-Logiciels mControl       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        10
-       News       1.00      0.67      0.80         3
-PLCBUS Applications       0.00      0.00      0.00         1
-Robot Nettoyant Scooba       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         3
-Z-Wave Applications       0.00      0.00      0.00         2
-Z-Wave Produits       0.00      0.00      0.00         2
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Applications       0.00      0.00      0.00         1
+ Multimedia       0.00      0.00      0.00         1
+       News       0.50      0.33      0.40         3
+Z-Wave Applications       0.00      0.00      0.00         1
 Zipabox Produits       1.00      1.00      1.00         3
 
-avg / total       0.47      0.55      0.47       143
+avg / total       0.76      0.79      0.77        71
 
 <Results for Fold[3]>
-Fold train Matrix[3]:(1280, 1154)
-Fold test Matrix[3]:(143, 1154)
-Linear SVM Classifier Accuracy:0.531468531469
-Multinomial Naive Bayes Accuracy:0.545454545455
-5 Nearest Neighbors Accuracy:0.272727272727
-Random Forest (25 learners) Accuracy:0.531468531469
+Fold train Matrix[3]:(634, 1147)
+Fold test Matrix[3]:(71, 1147)
+Linear SVM Classifier Accuracy:0.774647887324
+Multinomial Naive Bayes Accuracy:0.718309859155
+5 Nearest Neighbors Accuracy:0.633802816901
+Random Forest (25 learners) Accuracy:0.788732394366
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00         7
-   CES 2014       0.86      0.75      0.80         8
-   CES 2015       0.86      0.86      0.86         7
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.80      0.25      0.38        16
-  Domotique       0.46      0.94      0.61        54
-Electricite Chauffage electrique       0.00      0.00      0.00         1
-Guide Domotique Jeedom       1.00      1.00      1.00         2
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Telldus       0.00      0.00      0.00         1
+   CES 2014       0.75      0.86      0.80         7
+   CES 2015       0.89      0.89      0.89         9
+Confort de l'habitat       0.83      0.62      0.71         8
+  Domotique       0.75      0.92      0.83        26
+Guide Domotique Chacon       1.00      1.00      1.00         1
+Guide Domotique Homelive       1.00      1.00      1.00         1
+Guide Domotique Jeedom       1.00      1.00      1.00         3
+Guide Domotique RFXCOM       0.00      0.00      0.00         0
 Guide Domotique Vera       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       1.00      1.00      1.00         1
+Guide Domotique Z-Wave       0.50      0.50      0.50         2
 Guides Autres       1.00      1.00      1.00         1
 Guides Compteurs d'energie       1.00      1.00      1.00         1
 Guides Domotique EnOcean       1.00      1.00      1.00         1
-Logiciels Homeseer       0.00      0.00      0.00         3
-Logiciels mControl       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        13
-       News       0.00      0.00      0.00         2
-PLCBUS Applications       0.00      0.00      0.00         1
-PLCBUS Produits       0.00      0.00      0.00         1
+       News       1.00      0.50      0.67         2
 Protocole RF       0.00      0.00      0.00         1
 Protocole Z-Wave       0.00      0.00      0.00         1
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-Robot Nettoyant Scooba       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         2
-   X10 Kits       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         3
-Z-Wave Applications       0.50      0.50      0.50         2
+Z-Wave Applications       0.00      0.00      0.00         1
 Z-Wave Produits       0.00      0.00      0.00         3
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Produits       1.00      0.67      0.80         3
+Zipabox Produits       1.00      1.00      1.00         2
 
-avg / total       0.42      0.53      0.43       143
+avg / total       0.74      0.77      0.75        71
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00         7
-   CES 2014       1.00      0.88      0.93         8
-   CES 2015       0.88      1.00      0.93         7
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       1.00      0.50      0.67        16
-  Domotique       0.46      0.98      0.63        54
-Electricite Chauffage electrique       0.00      0.00      0.00         1
-Guide Domotique Jeedom       1.00      0.50      0.67         2
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Telldus       0.00      0.00      0.00         1
+   CES 2014       0.70      1.00      0.82         7
+   CES 2015       0.89      0.89      0.89         9
+Confort de l'habitat       1.00      0.75      0.86         8
+  Domotique       0.64      0.96      0.77        26
+Guide Domotique Chacon       0.00      0.00      0.00         1
+Guide Domotique Homelive       1.00      1.00      1.00         1
+Guide Domotique Jeedom       1.00      0.67      0.80         3
 Guide Domotique Vera       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.50      1.00      0.67         1
+Guide Domotique Z-Wave       0.50      0.50      0.50         2
 Guides Autres       0.00      0.00      0.00         1
 Guides Compteurs d'energie       0.00      0.00      0.00         1
 Guides Domotique EnOcean       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         3
-Logiciels mControl       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        13
        News       0.00      0.00      0.00         2
-PLCBUS Applications       0.00      0.00      0.00         1
-PLCBUS Produits       0.00      0.00      0.00         1
 Protocole RF       0.00      0.00      0.00         1
 Protocole Z-Wave       0.00      0.00      0.00         1
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-Robot Nettoyant Scooba       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         2
-   X10 Kits       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         3
-Z-Wave Applications       0.50      0.50      0.50         2
+Z-Wave Applications       0.50      1.00      0.67         1
 Z-Wave Produits       0.00      0.00      0.00         3
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Produits       0.00      0.00      0.00         3
+Zipabox Produits       0.00      0.00      0.00         2
 
-avg / total       0.41      0.55      0.43       143
+avg / total       0.61      0.72      0.64        71
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00         7
-   CES 2014       0.62      0.62      0.62         8
-   CES 2015       0.67      0.29      0.40         7
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.14      0.75      0.23        16
-  Domotique       0.57      0.31      0.40        54
-Electricite Chauffage electrique       0.00      0.00      0.00         1
-Guide Domotique Jeedom       0.00      0.00      0.00         2
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Telldus       0.00      0.00      0.00         1
+   CES 2014       0.46      0.86      0.60         7
+   CES 2015       0.80      0.44      0.57         9
+Confort de l'habitat       1.00      0.50      0.67         8
+  Domotique       0.62      0.92      0.74        26
+Guide Domotique Chacon       1.00      1.00      1.00         1
+Guide Domotique Homelive       1.00      1.00      1.00         1
+Guide Domotique Jeedom       0.67      0.67      0.67         3
 Guide Domotique Vera       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.50      1.00      0.67         1
+Guide Domotique Z-Wave       0.50      0.50      0.50         2
 Guides Autres       0.00      0.00      0.00         1
 Guides Compteurs d'energie       0.00      0.00      0.00         1
 Guides Domotique EnOcean       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         3
-Logiciels mControl       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        13
        News       0.00      0.00      0.00         2
-PLCBUS Applications       0.00      0.00      0.00         1
-PLCBUS Produits       0.00      0.00      0.00         1
 Protocole RF       0.00      0.00      0.00         1
 Protocole Z-Wave       0.00      0.00      0.00         1
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-Robot Nettoyant Scooba       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         2
-   X10 Kits       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         3
-Z-Wave Applications       0.00      0.00      0.00         2
+Z-Wave Applications       0.00      0.00      0.00         1
 Z-Wave Produits       0.00      0.00      0.00         3
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Produits       1.00      0.67      0.80         3
+Zipabox Produits       1.00      1.00      1.00         2
 
-avg / total       0.32      0.27      0.25       143
+avg / total       0.58      0.63      0.58        71
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00         7
-   CES 2014       0.67      0.75      0.71         8
-   CES 2015       0.88      1.00      0.93         7
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.71      0.31      0.43        16
-  Domotique       0.47      0.94      0.63        54
-Electricite Chauffage electrique       0.00      0.00      0.00         1
-Guide Domotique Jeedom       0.67      1.00      0.80         2
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Telldus       0.00      0.00      0.00         1
+   CES 2014       0.75      0.86      0.80         7
+   CES 2015       0.90      1.00      0.95         9
+Chacon Applications       0.00      0.00      0.00         0
+Confort de l'habitat       0.78      0.88      0.82         8
+  Domotique       0.83      0.92      0.87        26
+Guide Domotique Chacon       0.00      0.00      0.00         1
+Guide Domotique Homelive       1.00      1.00      1.00         1
+Guide Domotique Jeedom       1.00      1.00      1.00         3
+Guide Domotique RFXCOM       0.00      0.00      0.00         0
 Guide Domotique Vera       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.00      0.00      0.00         1
+Guide Domotique Z-Wave       0.33      0.50      0.40         2
 Guides Autres       1.00      1.00      1.00         1
-Guides Compteurs d'energie       1.00      1.00      1.00         1
-Guides Domotique EnOcean       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         3
-Logiciels mControl       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        13
+Guides Compteurs d'energie       0.00      0.00      0.00         1
+Guides Domotique EnOcean       1.00      1.00      1.00         1
        News       1.00      0.50      0.67         2
-PLCBUS Applications       0.00      0.00      0.00         1
-PLCBUS Produits       0.00      0.00      0.00         1
 Protocole RF       0.00      0.00      0.00         1
 Protocole Z-Wave       0.00      0.00      0.00         1
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-Robot Nettoyant Scooba       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         2
-   X10 Kits       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         3
-Z-Wave Applications       0.00      0.00      0.00         2
+Z-Wave Applications       0.00      0.00      0.00         1
 Z-Wave Produits       0.00      0.00      0.00         3
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Produits       1.00      0.67      0.80         3
+Zipabox Produits       1.00      1.00      1.00         2
 
-avg / total       0.40      0.53      0.42       143
+avg / total       0.73      0.79      0.75        71
 
 <Results for Fold[4]>
-Fold train Matrix[4]:(1281, 1168)
-Fold test Matrix[4]:(142, 1168)
-Linear SVM Classifier Accuracy:0.528169014085
-Multinomial Naive Bayes Accuracy:0.5
-5 Nearest Neighbors Accuracy:0.323943661972
-Random Forest (25 learners) Accuracy:0.521126760563
+Fold train Matrix[4]:(634, 1166)
+Fold test Matrix[4]:(71, 1166)
+Linear SVM Classifier Accuracy:0.746478873239
+Multinomial Naive Bayes Accuracy:0.718309859155
+5 Nearest Neighbors Accuracy:0.577464788732
+Random Forest (25 learners) Accuracy:0.704225352113
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00        12
-   CES 2014       1.00      0.90      0.95        10
+   CES 2014       0.90      0.90      0.90        10
    CES 2015       1.00      1.00      1.00         7
-Chacon Applications       0.00      0.00      0.00         1
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.83      0.29      0.43        17
-  Domotique       0.43      0.96      0.59        46
-Guide Domotique Chacon       0.50      1.00      0.67         1
-Guide Domotique Homelive       1.00      1.00      1.00         2
+Chacon Applications       1.00      1.00      1.00         1
+Confort de l'habitat       0.80      0.67      0.73         6
+  Domotique       0.80      0.92      0.86        26
+Guide Domotique Homelive       1.00      1.00      1.00         1
 Guide Domotique Jeedom       1.00      1.00      1.00         1
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.50      0.50      0.50         4
+Guide Domotique Z-Wave       0.50      0.67      0.57         3
 Guide Domotique ZiBASE       0.00      0.00      0.00         1
-Guide Domotique Zipabox       0.00      0.00      0.00         1
+Guide Domotique Zipabox       0.00      0.00      0.00         2
 Guides Domotiques       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         4
- Multimedia       0.00      0.00      0.00        11
 Multimedia Communication IR       0.00      0.00      0.00         1
-       News       0.50      1.00      0.67         1
+       News       0.33      0.50      0.40         2
 Robot Aspirateur Roomba       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         2
-Z-Wave Applications       0.50      0.17      0.25         6
-Z-Wave Produits       0.50      0.17      0.25         6
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Applications       0.00      0.00      0.00         1
-Zipabox Produits       0.50      0.50      0.50         2
+Z-Wave Applications       0.33      0.50      0.40         2
+Z-Wave Produits       0.50      0.20      0.29         5
+Zipabox Produits       0.25      1.00      0.40         1
 
-avg / total       0.45      0.53      0.43       142
+avg / total       0.71      0.75      0.72        71
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00        12
-   CES 2014       0.82      0.90      0.86        10
+   CES 2014       0.75      0.90      0.82        10
    CES 2015       1.00      0.71      0.83         7
 Chacon Applications       0.00      0.00      0.00         1
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.80      0.24      0.36        17
-  Domotique       0.41      1.00      0.59        46
-Guide Domotique Chacon       0.00      0.00      0.00         1
-Guide Domotique Homelive       1.00      0.50      0.67         2
+Confort de l'habitat       0.75      0.50      0.60         6
+  Domotique       0.70      1.00      0.83        26
+Guide Domotique Homelive       1.00      1.00      1.00         1
 Guide Domotique Jeedom       1.00      1.00      1.00         1
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.50      0.50      0.50         4
+Guide Domotique Z-Wave       0.43      1.00      0.60         3
 Guide Domotique ZiBASE       0.00      0.00      0.00         1
-Guide Domotique Zipabox       0.00      0.00      0.00         1
+Guide Domotique Zipabox       0.00      0.00      0.00         2
 Guides Domotiques       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         4
- Multimedia       0.00      0.00      0.00        11
 Multimedia Communication IR       0.00      0.00      0.00         1
-       News       0.00      0.00      0.00         1
+       News       0.00      0.00      0.00         2
 Robot Aspirateur Roomba       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         2
-Z-Wave Applications       1.00      0.33      0.50         6
-Z-Wave Produits       0.00      0.00      0.00         6
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Applications       0.00      0.00      0.00         1
-Zipabox Produits       1.00      0.50      0.67         2
+Z-Wave Applications       1.00      1.00      1.00         2
+Z-Wave Produits       0.00      0.00      0.00         5
+Zipabox Produits       1.00      1.00      1.00         1
 
-avg / total       0.43      0.50      0.40       142
+avg / total       0.61      0.72      0.65        71
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00        12
-   CES 2014       0.57      0.80      0.67        10
+   CES 2014       0.43      1.00      0.61        10
    CES 2015       1.00      0.43      0.60         7
 Chacon Applications       0.00      0.00      0.00         1
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.25      0.12      0.16        17
-  Domotique       0.67      0.35      0.46        46
-Guide Domotique Chacon       0.00      0.00      0.00         1
-Guide Domotique Homelive       1.00      1.00      1.00         2
+Confort de l'habitat       0.75      0.50      0.60         6
+  Domotique       0.70      0.73      0.72        26
+Guide Domotique Homelive       1.00      1.00      1.00         1
 Guide Domotique Jeedom       1.00      1.00      1.00         1
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.00      0.00      0.00         4
+Guide Domotique Z-Wave       0.50      0.33      0.40         3
 Guide Domotique ZiBASE       0.00      0.00      0.00         1
-Guide Domotique Zipabox       0.00      0.00      0.00         1
+Guide Domotique Zipabox       0.00      0.00      0.00         2
 Guides Domotiques       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         4
- Multimedia       0.14      1.00      0.25        11
 Multimedia Communication IR       0.00      0.00      0.00         1
-       News       0.00      0.00      0.00         1
+       News       0.00      0.00      0.00         2
 Robot Aspirateur Roomba       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         2
-Z-Wave Applications       0.67      0.33      0.44         6
-Z-Wave Produits       0.00      0.00      0.00         6
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Applications       0.00      0.00      0.00         1
-Zipabox Produits       0.33      0.50      0.40         2
+Z-Wave Applications       0.50      1.00      0.67         2
+Z-Wave Produits       0.00      0.00      0.00         5
+Zipabox Produits       0.17      1.00      0.29         1
 
-avg / total       0.40      0.32      0.31       142
+avg / total       0.55      0.58      0.53        71
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00        12
    CES 2014       0.90      0.90      0.90        10
    CES 2015       1.00      1.00      1.00         7
 Chacon Applications       0.00      0.00      0.00         1
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.83      0.29      0.43        17
-  Domotique       0.43      0.96      0.59        46
-Guide Domotique Chacon       1.00      1.00      1.00         1
-Guide Domotique Homelive       1.00      1.00      1.00         2
-Guide Domotique Jeedom       1.00      1.00      1.00         1
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.25      0.25      0.25         4
+Confort de l'habitat       1.00      0.83      0.91         6
+  Domotique       0.74      0.88      0.81        26
+Guide Domotique Homelive       1.00      1.00      1.00         1
+Guide Domotique Jeedom       0.50      1.00      0.67         1
+Guide Domotique Z-Wave       0.33      0.67      0.44         3
 Guide Domotique ZiBASE       0.00      0.00      0.00         1
-Guide Domotique Zipabox       0.00      0.00      0.00         1
+Guide Domotique Zipabox       0.00      0.00      0.00         2
 Guides Domotiques       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         4
- Multimedia       0.00      0.00      0.00        11
-Multimedia Communication IR       1.00      1.00      1.00         1
-       News       0.00      0.00      0.00         1
+Multimedia Communication IR       0.00      0.00      0.00         1
+       News       0.00      0.00      0.00         2
 Robot Aspirateur Roomba       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         2
-Z-Wave Applications       0.50      0.17      0.25         6
-Z-Wave Produits       0.50      0.17      0.25         6
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Applications       0.00      0.00      0.00         1
-Zipabox Produits       0.50      0.50      0.50         2
+Z-Wave Applications       0.50      0.50      0.50         2
+Z-Wave Produits       0.00      0.00      0.00         5
+Zipabox Produits       0.33      1.00      0.50         1
 
-avg / total       0.44      0.52      0.43       142
+avg / total       0.64      0.70      0.66        71
 
 <Results for Fold[5]>
-Fold train Matrix[5]:(1281, 1157)
-Fold test Matrix[5]:(142, 1157)
-Linear SVM Classifier Accuracy:0.549295774648
-Multinomial Naive Bayes Accuracy:0.528169014085
-5 Nearest Neighbors Accuracy:0.366197183099
-Random Forest (25 learners) Accuracy:0.570422535211
+Fold train Matrix[5]:(634, 1152)
+Fold test Matrix[5]:(71, 1152)
+Linear SVM Classifier Accuracy:0.774647887324
+Multinomial Naive Bayes Accuracy:0.718309859155
+5 Nearest Neighbors Accuracy:0.788732394366
+Random Forest (25 learners) Accuracy:0.760563380282
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
         CES       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00        10
-   CES 2014       0.86      0.92      0.89        13
-   CES 2015       0.75      1.00      0.86         3
-Chacon Applications       0.00      0.00      0.00         1
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.60      0.18      0.27        17
-  Domotique       0.49      0.93      0.64        54
+   CES 2014       0.92      0.86      0.89        14
+   CES 2015       0.67      0.67      0.67         3
+Chacon Applications       0.50      1.00      0.67         1
+Confort de l'habitat       0.57      0.80      0.67         5
+  Domotique       0.87      0.90      0.88        29
 Guide Domotique Chacon       1.00      1.00      1.00         1
 Guide Domotique Homelive       1.00      1.00      1.00         2
 Guide Domotique Jeedom       1.00      1.00      1.00         3
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Telldus       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       1.00      0.50      0.67         2
+Guide Domotique Z-Wave       0.50      0.50      0.50         2
 Guide Domotique ZiBASE       0.00      0.00      0.00         1
-Guide Domotique Zipabox       0.00      0.00      0.00         1
 Guides Autres       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        12
-Multimedia Media Center       0.00      0.00      0.00         1
-       News       0.00      0.00      0.00         2
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         2
+Guides Domotiques       0.00      0.00      0.00         1
+ Multimedia       0.00      0.00      0.00         1
+       News       0.00      0.00      0.00         1
 Z-Wave Applications       0.33      0.50      0.40         2
-Z-Wave Produits       0.00      0.00      0.00         4
-ZiBASE Applications       0.00      0.00      0.00         1
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Produits       0.50      1.00      0.67         2
+Z-Wave Produits       0.00      0.00      0.00         1
+Zipabox Produits       0.67      1.00      0.80         2
 
-avg / total       0.42      0.55      0.44       142
+avg / total       0.74      0.77      0.75        71
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
         CES       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00        10
-   CES 2014       0.92      0.92      0.92        13
-   CES 2015       1.00      1.00      1.00         3
-Chacon Applications       0.00      0.00      0.00         1
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.67      0.24      0.35        17
-  Domotique       0.47      0.98      0.63        54
-Guide Domotique Chacon       0.00      0.00      0.00         1
-Guide Domotique Homelive       0.00      0.00      0.00         2
-Guide Domotique Jeedom       0.50      0.33      0.40         3
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Telldus       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.33      0.50      0.40         2
-Guide Domotique ZiBASE       0.00      0.00      0.00         1
-Guide Domotique Zipabox       0.00      0.00      0.00         1
-Guides Autres       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        12
-Multimedia Media Center       0.00      0.00      0.00         1
-       News       0.00      0.00      0.00         2
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         2
-Z-Wave Applications       0.50      0.50      0.50         2
-Z-Wave Produits       0.00      0.00      0.00         4
-ZiBASE Applications       0.00      0.00      0.00         1
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Produits       0.00      0.00      0.00         2
-
-avg / total       0.39      0.53      0.41       142
-
-<5 Nearest Neighbors Classifier Metrics>
-             precision    recall  f1-score   support
-
-        CES       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00        10
-   CES 2014       0.77      0.77      0.77        13
+   CES 2014       0.86      0.86      0.86        14
    CES 2015       1.00      0.67      0.80         3
 Chacon Applications       0.00      0.00      0.00         1
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.33      0.06      0.10        17
-  Domotique       0.71      0.37      0.49        54
+Confort de l'habitat       0.57      0.80      0.67         5
+  Domotique       0.70      0.97      0.81        29
+Guide Domotique Chacon       0.00      0.00      0.00         1
+Guide Domotique Homelive       1.00      0.50      0.67         2
+Guide Domotique Jeedom       0.67      0.67      0.67         3
+Guide Domotique Z-Wave       0.33      0.50      0.40         2
+Guide Domotique ZiBASE       0.00      0.00      0.00         1
+Guides Autres       0.00      0.00      0.00         1
+Guides Domotiques       0.00      0.00      0.00         1
+ Multimedia       0.00      0.00      0.00         1
+       News       0.00      0.00      0.00         1
+Z-Wave Applications       1.00      0.50      0.67         2
+Z-Wave Produits       0.00      0.00      0.00         1
+Zipabox Produits       0.00      0.00      0.00         2
+
+avg / total       0.63      0.72      0.66        71
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+        CES       0.00      0.00      0.00         1
+   CES 2014       0.80      0.86      0.83        14
+   CES 2015       1.00      0.33      0.50         3
+Chacon Applications       0.00      0.00      0.00         1
+Confort de l'habitat       0.57      0.80      0.67         5
+  Domotique       0.76      1.00      0.87        29
 Guide Domotique Chacon       1.00      1.00      1.00         1
 Guide Domotique Homelive       1.00      1.00      1.00         2
-Guide Domotique Jeedom       1.00      0.67      0.80         3
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Telldus       0.00      0.00      0.00         1
+Guide Domotique Jeedom       1.00      1.00      1.00         3
 Guide Domotique Z-Wave       1.00      0.50      0.67         2
 Guide Domotique ZiBASE       0.00      0.00      0.00         1
-Guide Domotique Zipabox       0.00      0.00      0.00         1
 Guides Autres       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         1
- Multimedia       0.13      0.92      0.23        12
-Multimedia Media Center       0.00      0.00      0.00         1
-       News       0.00      0.00      0.00         2
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         2
-Z-Wave Applications       0.00      0.00      0.00         2
-Z-Wave Produits       0.00      0.00      0.00         4
-ZiBASE Applications       0.00      0.00      0.00         1
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Produits       0.67      1.00      0.80         2
+Guides Domotiques       0.00      0.00      0.00         1
+ Multimedia       0.00      0.00      0.00         1
+       News       0.00      0.00      0.00         1
+Z-Wave Applications       1.00      0.50      0.67         2
+Z-Wave Produits       0.00      0.00      0.00         1
+Zipabox Produits       1.00      1.00      1.00         2
 
-avg / total       0.48      0.37      0.36       142
+avg / total       0.72      0.79      0.74        71
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
         CES       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00        10
-   CES 2014       0.80      0.92      0.86        13
-   CES 2015       1.00      1.00      1.00         3
-Chacon Applications       0.00      0.00      0.00         1
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.75      0.18      0.29        17
-  Domotique       0.49      0.96      0.65        54
-Guide Domotique Chacon       1.00      1.00      1.00         1
+   CES 2014       0.92      0.86      0.89        14
+   CES 2015       0.67      0.67      0.67         3
+Chacon Applications       1.00      1.00      1.00         1
+Confort de l'habitat       0.60      0.60      0.60         5
+  Domotique       0.75      0.93      0.83        29
+Guide Domotique Chacon       0.50      1.00      0.67         1
 Guide Domotique Homelive       1.00      1.00      1.00         2
-Guide Domotique Jeedom       1.00      1.00      1.00         3
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Telldus       0.00      0.00      0.00         1
+Guide Domotique Jeedom       1.00      0.67      0.80         3
 Guide Domotique Z-Wave       1.00      1.00      1.00         2
 Guide Domotique ZiBASE       0.00      0.00      0.00         1
-Guide Domotique Zipabox       0.00      0.00      0.00         1
 Guides Autres       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        12
-Multimedia Media Center       0.00      0.00      0.00         1
-       News       0.00      0.00      0.00         2
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         2
-Z-Wave Applications       0.50      0.50      0.50         2
-Z-Wave Produits       0.00      0.00      0.00         4
-ZiBASE Applications       0.00      0.00      0.00         1
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Produits       0.67      1.00      0.80         2
+Guides Domotiques       0.00      0.00      0.00         1
+ Multimedia       0.00      0.00      0.00         1
+       News       0.00      0.00      0.00         1
+Z-Wave Applications       0.00      0.00      0.00         2
+Z-Wave Produits       0.00      0.00      0.00         1
+Zipabox Produits       1.00      1.00      1.00         2
 
-avg / total       0.44      0.57      0.46       142
+avg / total       0.71      0.76      0.73        71
 
 <Results for Fold[6]>
-Fold train Matrix[6]:(1281, 1158)
-Fold test Matrix[6]:(142, 1158)
-Linear SVM Classifier Accuracy:0.471830985915
-Multinomial Naive Bayes Accuracy:0.443661971831
-5 Nearest Neighbors Accuracy:0.330985915493
-Random Forest (25 learners) Accuracy:0.457746478873
+Fold train Matrix[6]:(635, 1145)
+Fold test Matrix[6]:(70, 1145)
+Linear SVM Classifier Accuracy:0.728571428571
+Multinomial Naive Bayes Accuracy:0.671428571429
+5 Nearest Neighbors Accuracy:0.642857142857
+Random Forest (25 learners) Accuracy:0.714285714286
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
 Achat Autres       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00        11
-   CES 2014       1.00      0.83      0.91        12
-   CES 2015       1.00      0.86      0.92         7
+   CES 2014       1.00      1.00      1.00        10
+   CES 2015       1.00      1.00      1.00         6
 Chacon Applications       0.00      0.00      0.00         1
-Confort de l'habitat       0.44      0.21      0.29        19
-  Domotique       0.39      0.83      0.53        48
+Confort de l'habitat       0.40      0.80      0.53         5
+  Domotique       0.85      0.71      0.77        31
 Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         1
-Guide Domotique Jeedom       1.00      1.00      1.00         2
-Guide Domotique Z-Wave       0.33      0.67      0.44         3
-Guides Compteurs d'energie       0.00      0.00      0.00         1
-Guides Domotiques       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         4
-Logiciels mControl       0.00      0.00      0.00         2
- Multimedia       0.00      0.00      0.00        14
-       News       1.00      1.00      1.00         1
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         4
-Z-Wave Applications       0.25      0.50      0.33         2
-Z-Wave Produits       0.00      0.00      0.00         3
-ZiBASE Applications       0.00      0.00      0.00         2
+Guide Domotique Jeedom       1.00      1.00      1.00         3
+Guide Domotique RFXCOM       0.00      0.00      0.00         1
+Guide Domotique Z-Wave       0.25      0.50      0.33         4
+ Multimedia       0.00      0.00      0.00         1
+       News       0.50      0.50      0.50         2
+Z-Wave Applications       0.50      1.00      0.67         1
+Z-Wave Produits       0.00      0.00      0.00         1
 Zipabox Applications       1.00      1.00      1.00         1
+Zipabox Produits       1.00      1.00      1.00         1
 
-avg / total       0.36      0.47      0.38       142
+avg / total       0.74      0.73      0.72        70
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
 Achat Autres       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00        11
-   CES 2014       0.91      0.83      0.87        12
-   CES 2015       1.00      0.71      0.83         7
+   CES 2014       0.77      1.00      0.87        10
+   CES 2015       1.00      0.83      0.91         6
 Chacon Applications       0.00      0.00      0.00         1
-Confort de l'habitat       0.44      0.21      0.29        19
-  Domotique       0.38      0.83      0.53        48
+Confort de l'habitat       0.44      0.80      0.57         5
+  Domotique       0.76      0.71      0.73        31
 Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         1
-Guide Domotique Jeedom       0.33      0.50      0.40         2
-Guide Domotique Z-Wave       0.33      0.67      0.44         3
-Guides Compteurs d'energie       0.00      0.00      0.00         1
-Guides Domotiques       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         4
-Logiciels mControl       0.00      0.00      0.00         2
- Multimedia       0.00      0.00      0.00        14
-       News       0.00      0.00      0.00         1
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         4
-Z-Wave Applications       0.50      0.50      0.50         2
-Z-Wave Produits       0.00      0.00      0.00         3
-ZiBASE Applications       0.00      0.00      0.00         2
+Guide Domotique Jeedom       0.50      0.67      0.57         3
+Guide Domotique RFXCOM       0.00      0.00      0.00         1
+Guide Domotique Z-Wave       0.38      0.75      0.50         4
+ Multimedia       0.00      0.00      0.00         1
+       News       0.00      0.00      0.00         2
+Z-Wave Applications       0.50      1.00      0.67         1
+Z-Wave Produits       0.00      0.00      0.00         1
 Zipabox Applications       0.00      0.00      0.00         1
+Zipabox Produits       0.00      0.00      0.00         1
 
-avg / total       0.33      0.44      0.35       142
+avg / total       0.61      0.67      0.63        70
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
 Achat Autres       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00        11
-   CES 2014       0.77      0.83      0.80        12
-   CES 2015       1.00      0.43      0.60         7
+   CES 2014       0.48      1.00      0.65        10
+   CES 2015       1.00      0.67      0.80         6
 Chacon Applications       0.00      0.00      0.00         1
-Chacon Produits       0.00      0.00      0.00         0
-Confort de l'habitat       0.20      0.05      0.08        19
-  Domotique       0.61      0.35      0.45        48
+Confort de l'habitat       0.50      0.60      0.55         5
+  Domotique       0.75      0.68      0.71        31
 Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         1
-Guide Domotique Jeedom       1.00      0.50      0.67         2
-Guide Domotique Z-Wave       1.00      0.33      0.50         3
-Guides Compteurs d'energie       0.00      0.00      0.00         1
-Guides Domotiques       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         4
-Logiciels mControl       0.00      0.00      0.00         2
- Multimedia       0.15      0.93      0.27        14
-       News       0.00      0.00      0.00         1
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         4
-Z-Wave Applications       0.50      0.50      0.50         2
-Z-Wave Produits       0.00      0.00      0.00         3
-ZiBASE Applications       0.00      0.00      0.00         2
+Guide Domotique Jeedom       1.00      1.00      1.00         3
+Guide Domotique RFXCOM       0.00      0.00      0.00         1
+Guide Domotique Z-Wave       0.50      0.50      0.50         4
+ Multimedia       0.00      0.00      0.00         1
+       News       0.00      0.00      0.00         2
+Z-Wave Applications       0.50      1.00      0.67         1
+Z-Wave Produits       0.00      0.00      0.00         1
 Zipabox Applications       0.00      0.00      0.00         1
-Zipabox Produits       0.00      0.00      0.00         0
+Zipabox Produits       0.50      1.00      0.67         1
 
-avg / total       0.40      0.33      0.31       142
+avg / total       0.61      0.64      0.61        70
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
 Achat Autres       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00        11
-   CES 2014       0.91      0.83      0.87        12
-   CES 2015       1.00      0.86      0.92         7
+   CES 2014       1.00      1.00      1.00        10
+   CES 2015       1.00      1.00      1.00         6
 Chacon Applications       0.00      0.00      0.00         1
-Confort de l'habitat       0.43      0.16      0.23        19
-  Domotique       0.40      0.85      0.54        48
+Confort de l'habitat       0.50      0.80      0.62         5
+  Domotique       0.74      0.74      0.74        31
 Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         1
-Guide Domotique Jeedom       1.00      1.00      1.00         2
-Guide Domotique Z-Wave       0.17      0.33      0.22         3
-Guides Compteurs d'energie       0.00      0.00      0.00         1
-Guides Domotiques       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         4
-Logiciels mControl       0.00      0.00      0.00         2
- Multimedia       0.00      0.00      0.00        14
-       News       0.50      1.00      0.67         1
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         4
-Z-Wave Applications       0.33      0.50      0.40         2
-Z-Wave Produits       0.00      0.00      0.00         3
-ZiBASE Applications       0.00      0.00      0.00         2
+Guide Domotique Jeedom       0.33      0.67      0.44         3
+Guide Domotique RFXCOM       0.00      0.00      0.00         1
+Guide Domotique Z-Wave       0.50      0.50      0.50         4
+ Multimedia       0.00      0.00      0.00         1
+       News       1.00      0.50      0.67         2
+Z-Wave Applications       0.50      1.00      0.67         1
+Z-Wave Produits       0.00      0.00      0.00         1
 Zipabox Applications       0.00      0.00      0.00         1
-Zipabox Produits       0.00      0.00      0.00         0
+Zipabox Produits       1.00      1.00      1.00         1
 
-avg / total       0.34      0.46      0.36       142
+avg / total       0.69      0.71      0.69        70
 
 <Results for Fold[7]>
-Fold train Matrix[7]:(1281, 1150)
-Fold test Matrix[7]:(142, 1150)
-Linear SVM Classifier Accuracy:0.570422535211
-Multinomial Naive Bayes Accuracy:0.528169014085
-5 Nearest Neighbors Accuracy:0.422535211268
-Random Forest (25 learners) Accuracy:0.577464788732
+Fold train Matrix[7]:(635, 1165)
+Fold test Matrix[7]:(70, 1165)
+Linear SVM Classifier Accuracy:0.742857142857
+Multinomial Naive Bayes Accuracy:0.685714285714
+5 Nearest Neighbors Accuracy:0.671428571429
+Random Forest (25 learners) Accuracy:0.742857142857
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00         4
-   CES 2014       1.00      1.00      1.00         9
-   CES 2015       1.00      1.00      1.00         2
-Chacon Applications       0.00      0.00      0.00         2
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.50      0.20      0.29        15
-  Domotique       0.50      0.96      0.65        55
+   CES 2014       0.83      1.00      0.91        10
+   CES 2015       1.00      0.67      0.80         3
+Confort de l'habitat       0.71      0.83      0.77         6
+  Domotique       0.71      0.89      0.79        27
 Guide Domotique Homelive       1.00      1.00      1.00         3
-Guide Domotique Jeedom       1.00      1.00      1.00         5
-Guide Domotique RFXCOM       0.00      0.00      0.00         2
-Guide Domotique Telldus       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.50      1.00      0.67         3
+Guide Domotique Jeedom       1.00      1.00      1.00         4
+Guide Domotique Z-Wave       0.50      1.00      0.67         2
 Guide Domotique Zipabox       0.00      0.00      0.00         1
 Guides Compteurs d'energie       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        15
-       News       1.00      0.25      0.40         4
-PLCBUS Produits       0.00      0.00      0.00         1
+ Multimedia       0.00      0.00      0.00         1
+       News       1.00      0.33      0.50         3
 Protocole Z-Wave       0.00      0.00      0.00         1
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         2
-X10 Produits       0.00      0.00      0.00         4
-Z-Wave Applications       0.00      0.00      0.00         3
-Z-Wave Produits       0.00      0.00      0.00         1
+X10 Applications       0.00      0.00      0.00         0
+X10 Produits       0.00      0.00      0.00         2
+Z-Wave Applications       0.00      0.00      0.00         2
 ZiBASE Applications       0.00      0.00      0.00         2
-Zipabox Produits       1.00      0.50      0.67         4
+Zipabox Produits       1.00      0.50      0.67         2
 
-avg / total       0.45      0.57      0.46       142
+avg / total       0.68      0.74      0.69        70
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00         4
-   CES 2014       1.00      1.00      1.00         9
-   CES 2015       1.00      1.00      1.00         2
-Chacon Applications       0.00      0.00      0.00         2
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.44      0.27      0.33        15
-  Domotique       0.48      0.98      0.64        55
+   CES 2014       0.77      1.00      0.87        10
+   CES 2015       1.00      0.67      0.80         3
+Confort de l'habitat       0.80      0.67      0.73         6
+  Domotique       0.64      0.93      0.76        27
 Guide Domotique Homelive       1.00      0.67      0.80         3
-Guide Domotique Jeedom       1.00      0.40      0.57         5
-Guide Domotique RFXCOM       0.00      0.00      0.00         2
-Guide Domotique Telldus       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.40      0.67      0.50         3
+Guide Domotique Jeedom       1.00      0.50      0.67         4
+Guide Domotique Z-Wave       0.33      1.00      0.50         2
 Guide Domotique Zipabox       0.00      0.00      0.00         1
 Guides Compteurs d'energie       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        15
-       News       0.00      0.00      0.00         4
-PLCBUS Produits       0.00      0.00      0.00         1
+ Multimedia       0.00      0.00      0.00         1
+       News       1.00      0.33      0.50         3
 Protocole Z-Wave       0.00      0.00      0.00         1
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         2
-X10 Produits       0.00      0.00      0.00         4
-Z-Wave Applications       0.00      0.00      0.00         3
-Z-Wave Produits       0.00      0.00      0.00         1
+X10 Produits       0.00      0.00      0.00         2
+Z-Wave Applications       0.00      0.00      0.00         2
 ZiBASE Applications       0.00      0.00      0.00         2
-Zipabox Produits       0.00      0.00      0.00         4
+Zipabox Produits       0.00      0.00      0.00         2
 
-avg / total       0.37      0.53      0.41       142
+avg / total       0.62      0.69      0.62        70
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00         4
-   CES 2014       1.00      0.89      0.94         9
-   CES 2015       1.00      0.50      0.67         2
-Chacon Applications       0.00      0.00      0.00         2
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.50      0.13      0.21        15
-  Domotique       0.64      0.45      0.53        55
+   CES 2014       0.53      1.00      0.69        10
+   CES 2015       1.00      0.33      0.50         3
+Chacon Applications       0.00      0.00      0.00         0
+Confort de l'habitat       0.50      0.50      0.50         6
+  Domotique       0.75      0.89      0.81        27
 Guide Domotique Homelive       1.00      1.00      1.00         3
-Guide Domotique Jeedom       1.00      0.40      0.57         5
-Guide Domotique RFXCOM       0.00      0.00      0.00         2
-Guide Domotique Telldus       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.60      1.00      0.75         3
+Guide Domotique Jeedom       1.00      0.75      0.86         4
+Guide Domotique Z-Wave       0.50      1.00      0.67         2
 Guide Domotique Zipabox       0.00      0.00      0.00         1
 Guides Compteurs d'energie       0.00      0.00      0.00         1
- Multimedia       0.19      0.93      0.32        15
-       News       0.00      0.00      0.00         4
-PLCBUS Produits       0.00      0.00      0.00         1
+ Multimedia       0.00      0.00      0.00         1
+       News       0.00      0.00      0.00         3
 Protocole Z-Wave       0.00      0.00      0.00         1
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         2
-X10 Produits       0.00      0.00      0.00         4
-Z-Wave Applications       0.00      0.00      0.00         3
-Z-Wave Produits       0.00      0.00      0.00         1
+X10 Produits       0.00      0.00      0.00         2
+Z-Wave Applications       0.00      0.00      0.00         2
 ZiBASE Applications       0.00      0.00      0.00         2
-Zipabox Produits       1.00      0.50      0.67         4
+Zipabox Produits       1.00      0.50      0.67         2
 
-avg / total       0.50      0.42      0.41       142
+avg / total       0.59      0.67      0.61        70
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00         4
-   CES 2014       0.90      1.00      0.95         9
-   CES 2015       1.00      1.00      1.00         2
-Chacon Applications       0.00      0.00      0.00         2
-Chacon Produits       0.00      0.00      0.00         1
-Confort de l'habitat       0.50      0.27      0.35        15
-  Domotique       0.52      0.98      0.68        55
+   CES 2014       0.91      1.00      0.95        10
+   CES 2015       1.00      0.67      0.80         3
+Confort de l'habitat       0.67      0.67      0.67         6
+  Domotique       0.68      0.96      0.80        27
 Guide Domotique Homelive       1.00      1.00      1.00         3
-Guide Domotique Jeedom       1.00      0.80      0.89         5
-Guide Domotique RFXCOM       0.00      0.00      0.00         2
-Guide Domotique Telldus       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.43      1.00      0.60         3
+Guide Domotique Jeedom       1.00      0.75      0.86         4
+Guide Domotique Z-Wave       0.50      1.00      0.67         2
 Guide Domotique Zipabox       0.00      0.00      0.00         1
 Guides Compteurs d'energie       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        15
-       News       1.00      0.25      0.40         4
-PLCBUS Produits       0.00      0.00      0.00         1
+ Multimedia       0.00      0.00      0.00         1
+       News       1.00      0.33      0.50         3
 Protocole Z-Wave       0.00      0.00      0.00         1
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         2
-X10 Produits       0.00      0.00      0.00         4
-Z-Wave Applications       0.00      0.00      0.00         3
-Z-Wave Produits       0.00      0.00      0.00         1
+X10 Applications       0.00      0.00      0.00         0
+X10 Produits       0.00      0.00      0.00         2
+Z-Wave Applications       0.00      0.00      0.00         2
 ZiBASE Applications       0.00      0.00      0.00         2
-Zipabox Produits       1.00      0.50      0.67         4
+Zipabox Produits       1.00      0.50      0.67         2
 
-avg / total       0.45      0.58      0.47       142
+avg / total       0.68      0.74      0.69        70
 
 <Results for Fold[8]>
-Fold train Matrix[8]:(1281, 1140)
-Fold test Matrix[8]:(142, 1140)
-Linear SVM Classifier Accuracy:0.464788732394
-Multinomial Naive Bayes Accuracy:0.492957746479
-5 Nearest Neighbors Accuracy:0.260563380282
-Random Forest (25 learners) Accuracy:0.485915492958
+Fold train Matrix[8]:(635, 1139)
+Fold test Matrix[8]:(70, 1139)
+Linear SVM Classifier Accuracy:0.585714285714
+Multinomial Naive Bayes Accuracy:0.614285714286
+5 Nearest Neighbors Accuracy:0.514285714286
+Random Forest (25 learners) Accuracy:0.657142857143
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
         CES       0.00      0.00      0.00         0
-   CES 2013       0.00      0.00      0.00         9
-   CES 2014       1.00      0.67      0.80        12
-   CES 2015       1.00      0.71      0.83         7
+   CES 2014       0.89      0.73      0.80        11
+   CES 2015       1.00      1.00      1.00         5
 Chacon Applications       0.00      0.00      0.00         2
-Confort de l'habitat       0.50      0.16      0.24        19
-  Domotique       0.40      0.96      0.57        45
-Electricite Chauffage electrique       0.00      0.00      0.00         1
+Confort de l'habitat       0.54      0.58      0.56        12
+  Domotique       0.58      0.79      0.67        19
 Guide Domotique Chacon       0.00      0.00      0.00         0
-Guide Domotique Jeedom       1.00      1.00      1.00         2
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Telldus       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.29      0.67      0.40         3
+Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         0
+Guide Domotique Jeedom       1.00      0.50      0.67         2
+Guide Domotique RFXCOM       0.00      0.00      0.00         0
+Guide Domotique Z-Wave       0.33      0.67      0.44         3
 Guide Domotique Zipabox       0.00      0.00      0.00         1
-Logiciels Active Home       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         2
-Logiciels mControl       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        11
+Guides Domotique EnOcean       0.00      0.00      0.00         0
+ Multimedia       0.00      0.00      0.00         2
        News       0.00      0.00      0.00         4
-Protocole ZigBee       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         0
-X10 Produits       0.00      0.00      0.00         2
-Z-Wave Applications       1.00      0.29      0.44         7
-Z-Wave Produits       1.00      0.14      0.25         7
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Produits       0.00      0.00      0.00         2
+Z-Wave Applications       1.00      0.40      0.57         5
+Z-Wave Produits       1.00      0.33      0.50         3
+ZiBASE Produits       0.00      0.00      0.00         0
+Zipabox Produits       0.00      0.00      0.00         1
 
-avg / total       0.45      0.46      0.38       142
+avg / total       0.62      0.59      0.57        70
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00         9
-   CES 2014       0.83      0.83      0.83        12
-   CES 2015       1.00      0.57      0.73         7
+   CES 2014       0.85      1.00      0.92        11
+   CES 2015       1.00      0.80      0.89         5
 Chacon Applications       0.00      0.00      0.00         2
-Confort de l'habitat       0.58      0.37      0.45        19
-  Domotique       0.42      0.98      0.58        45
-Electricite Chauffage electrique       0.00      0.00      0.00         1
+Confort de l'habitat       0.67      0.50      0.57        12
+  Domotique       0.51      0.95      0.67        19
 Guide Domotique Jeedom       1.00      1.00      1.00         2
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Telldus       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.50      0.67      0.57         3
+Guide Domotique Z-Wave       0.33      0.67      0.44         3
 Guide Domotique Zipabox       0.00      0.00      0.00         1
-Logiciels Active Home       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         2
-Logiciels mControl       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        11
+ Multimedia       0.00      0.00      0.00         2
        News       0.00      0.00      0.00         4
-Protocole ZigBee       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         2
-Z-Wave Applications       0.50      0.14      0.22         7
-Z-Wave Produits       0.00      0.00      0.00         7
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Produits       0.00      0.00      0.00         2
+Z-Wave Applications       0.00      0.00      0.00         5
+Z-Wave Produits       0.00      0.00      0.00         3
+Zipabox Produits       0.00      0.00      0.00         1
 
-avg / total       0.38      0.49      0.39       142
+avg / total       0.50      0.61      0.53        70
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00         9
-   CES 2014       0.75      0.75      0.75        12
-   CES 2015       1.00      0.29      0.44         7
+   CES 2014       0.45      0.91      0.61        11
+   CES 2015       1.00      0.40      0.57         5
 Chacon Applications       0.00      0.00      0.00         2
-Confort de l'habitat       0.14      0.05      0.08        19
-  Domotique       0.43      0.22      0.29        45
-Electricite Chauffage electrique       0.00      0.00      0.00         1
-Guide Domotique Jeedom       1.00      0.50      0.67         2
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Telldus       0.00      0.00      0.00         1
+Confort de l'habitat       0.56      0.42      0.48        12
+  Domotique       0.48      0.63      0.55        19
+Guide Domotique Jeedom       1.00      1.00      1.00         2
 Guide Domotique Z-Wave       0.50      0.67      0.57         3
 Guide Domotique Zipabox       0.00      0.00      0.00         1
-Logiciels Active Home       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         2
-Logiciels mControl       0.00      0.00      0.00         1
- Multimedia       0.11      0.82      0.19        11
+Guides Domotique EnOcean       0.00      0.00      0.00         0
+ Multimedia       0.00      0.00      0.00         2
        News       0.00      0.00      0.00         4
-Protocole ZigBee       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         2
-Z-Wave Applications       0.67      0.29      0.40         7
-Z-Wave Produits       0.00      0.00      0.00         7
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Produits       1.00      0.50      0.67         2
+Z-Wave Applications       0.67      0.40      0.50         5
+Z-Wave Produits       0.00      0.00      0.00         3
+Zipabox Produits       0.50      1.00      0.67         1
 
-avg / total       0.35      0.26      0.25       142
+avg / total       0.47      0.51      0.46        70
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00         9
-   CES 2014       1.00      0.75      0.86        12
-   CES 2015       1.00      0.86      0.92         7
+        CES       0.00      0.00      0.00         0
+   CES 2014       1.00      0.73      0.84        11
+   CES 2015       1.00      1.00      1.00         5
 Chacon Applications       0.00      0.00      0.00         2
-Confort de l'habitat       0.62      0.42      0.50        19
-  Domotique       0.43      0.93      0.59        45
-Electricite Chauffage electrique       0.00      0.00      0.00         1
+Confort de l'habitat       0.78      0.58      0.67        12
+  Domotique       0.59      1.00      0.75        19
 Guide Domotique Chacon       0.00      0.00      0.00         0
-Guide Domotique Jeedom       0.67      1.00      0.80         2
-Guide Domotique RFXCOM       0.00      0.00      0.00         1
-Guide Domotique Telldus       0.00      0.00      0.00         1
-Guide Domotique Z-Wave       0.29      0.67      0.40         3
+Guide Domotique Jeedom       0.50      1.00      0.67         2
+Guide Domotique Z-Wave       0.50      1.00      0.67         3
 Guide Domotique Zipabox       0.00      0.00      0.00         1
-Logiciels Active Home       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         2
-Logiciels mControl       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        11
+ Multimedia       0.00      0.00      0.00         2
        News       0.00      0.00      0.00         4
-Protocole ZigBee       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         0
-X10 Produits       0.00      0.00      0.00         2
-Z-Wave Applications       0.00      0.00      0.00         7
-Z-Wave Produits       0.00      0.00      0.00         7
-ZiBASE Produits       0.00      0.00      0.00         1
-Zipabox Produits       0.00      0.00      0.00         2
+Z-Wave Applications       0.67      0.40      0.50         5
+Z-Wave Produits       0.00      0.00      0.00         3
+Zipabox Produits       0.00      0.00      0.00         1
 
-avg / total       0.37      0.49      0.39       142
+avg / total       0.61      0.66      0.60        70
 
 <Results for Fold[9]>
-Fold train Matrix[9]:(1281, 1165)
-Fold test Matrix[9]:(142, 1165)
-Linear SVM Classifier Accuracy:0.56338028169
-Multinomial Naive Bayes Accuracy:0.556338028169
-5 Nearest Neighbors Accuracy:0.422535211268
-Random Forest (25 learners) Accuracy:0.584507042254
+Fold train Matrix[9]:(635, 1171)
+Fold test Matrix[9]:(70, 1171)
+Linear SVM Classifier Accuracy:0.8
+Multinomial Naive Bayes Accuracy:0.728571428571
+5 Nearest Neighbors Accuracy:0.7
+Random Forest (25 learners) Accuracy:0.771428571429
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00        11
-   CES 2014       0.92      1.00      0.96        12
-Confort de l'habitat       1.00      0.27      0.43        22
-  Domotique       0.48      0.95      0.64        55
-Electricite Chauffage electrique       0.00      0.00      0.00         1
-Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         0
+   CES 2014       1.00      1.00      1.00        11
+Confort de l'habitat       1.00      0.60      0.75        15
+  Domotique       0.74      0.93      0.83        28
 Guide Domotique Homelive       1.00      0.50      0.67         2
 Guide Domotique Jeedom       1.00      1.00      1.00         4
-Guide Domotique Z-Wave       1.00      0.75      0.86         4
-Guides Autres       0.00      0.00      0.00         1
-Guides Compteurs d'energie       1.00      0.50      0.67         2
+Guide Domotique Z-Wave       0.75      0.75      0.75         4
+Guides Compteurs d'energie       0.00      0.00      0.00         2
 Guides Domotiques       0.00      0.00      0.00         0
- Multimedia       0.00      0.00      0.00        15
-Multimedia Media Center       0.00      0.00      0.00         1
        News       0.00      0.00      0.00         0
-Protocole 1-Wire       0.00      0.00      0.00         1
-Protocole PLCBUS       0.00      0.00      0.00         1
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-   X10 Kits       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         1
-Z-Wave Applications       0.33      0.33      0.33         3
-Z-Wave Produits       0.00      0.00      0.00         4
+Z-Wave Applications       0.67      0.67      0.67         3
+Z-Wave Produits       0.00      0.00      0.00         1
 
-avg / total       0.51      0.56      0.47       142
+avg / total       0.83      0.80      0.80        70
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00        11
-   CES 2014       1.00      1.00      1.00        12
+   CES 2014       0.92      1.00      0.96        11
    CES 2015       0.00      0.00      0.00         0
-Confort de l'habitat       1.00      0.41      0.58        22
-  Domotique       0.47      0.98      0.63        55
-Electricite Chauffage electrique       0.00      0.00      0.00         1
+Confort de l'habitat       1.00      0.53      0.70        15
+  Domotique       0.63      0.96      0.76        28
 Guide Domotique Homelive       1.00      0.50      0.67         2
 Guide Domotique Jeedom       0.00      0.00      0.00         4
-Guide Domotique Z-Wave       1.00      0.75      0.86         4
-Guides Autres       0.00      0.00      0.00         1
+Guide Domotique Z-Wave       0.80      1.00      0.89         4
 Guides Compteurs d'energie       0.00      0.00      0.00         2
- Multimedia       0.00      0.00      0.00        15
-Multimedia Media Center       0.00      0.00      0.00         1
-Protocole 1-Wire       0.00      0.00      0.00         1
-Protocole PLCBUS       0.00      0.00      0.00         1
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-   X10 Kits       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         1
 Z-Wave Applications       0.00      0.00      0.00         3
-Z-Wave Produits       0.00      0.00      0.00         4
+Z-Wave Produits       0.00      0.00      0.00         1
 
-avg / total       0.46      0.56      0.45       142
+avg / total       0.68      0.73      0.67        70
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00        11
-   CES 2014       0.92      0.92      0.92        12
-Confort de l'habitat       0.62      0.23      0.33        22
-  Domotique       0.66      0.38      0.48        55
-Electricite Chauffage electrique       0.00      0.00      0.00         1
+   CES 2014       0.65      1.00      0.79        11
+Confort de l'habitat       0.83      0.33      0.48        15
+  Domotique       0.64      0.89      0.75        28
 Guide Domotique Homelive       1.00      0.50      0.67         2
 Guide Domotique Jeedom       1.00      0.75      0.86         4
 Guide Domotique Z-Wave       1.00      0.75      0.86         4
-Guides Autres       0.00      0.00      0.00         1
 Guides Compteurs d'energie       0.00      0.00      0.00         2
- Multimedia       0.19      1.00      0.32        15
-Multimedia Media Center       0.00      0.00      0.00         1
-Protocole 1-Wire       0.00      0.00      0.00         1
-Protocole PLCBUS       0.00      0.00      0.00         1
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-   X10 Kits       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         1
 Z-Wave Applications       1.00      0.33      0.50         3
-Z-Wave Produits       0.00      0.00      0.00         4
+Z-Wave Produits       0.00      0.00      0.00         1
 
-avg / total       0.54      0.42      0.42       142
+avg / total       0.72      0.70      0.66        70
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-   CES 2013       0.00      0.00      0.00        11
-   CES 2014       1.00      1.00      1.00        12
-Confort de l'habitat       1.00      0.36      0.53        22
-  Domotique       0.50      1.00      0.67        55
-Electricite Chauffage electrique       0.00      0.00      0.00         1
+   CES 2014       1.00      1.00      1.00        11
+Confort de l'habitat       0.89      0.53      0.67        15
+  Domotique       0.73      0.96      0.83        28
 Guide Domotique Homelive       1.00      0.50      0.67         2
-Guide Domotique Jeedom       1.00      0.50      0.67         4
-Guide Domotique Z-Wave       0.80      1.00      0.89         4
-Guides Autres       0.00      0.00      0.00         1
+Guide Domotique Jeedom       1.00      0.75      0.86         4
+Guide Domotique Z-Wave       1.00      0.75      0.86         4
 Guides Compteurs d'energie       0.00      0.00      0.00         2
- Multimedia       0.00      0.00      0.00        15
-Multimedia Media Center       0.00      0.00      0.00         1
        News       0.00      0.00      0.00         0
-Protocole 1-Wire       0.00      0.00      0.00         1
-Protocole PLCBUS       0.00      0.00      0.00         1
-Robot Aspirateur Roomba       0.00      0.00      0.00         1
-   X10 Kits       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         1
-Z-Wave Applications       1.00      0.33      0.50         3
-Z-Wave Produits       0.00      0.00      0.00         4
-Zipabox Produits       0.00      0.00      0.00         0
+Z-Wave Applications       0.33      0.33      0.33         3
+Z-Wave Produits       0.00      0.00      0.00         1
+ZiBASE Applications       0.00      0.00      0.00         0
 
-avg / total       0.52      0.58      0.49       142
+avg / total       0.80      0.77      0.76        70
 
 <Results for Fold[10]>
-Fold train Matrix[10]:(1281, 1138)
-Fold test Matrix[10]:(142, 1138)
-Linear SVM Classifier Accuracy:0.443661971831
-Multinomial Naive Bayes Accuracy:0.464788732394
-5 Nearest Neighbors Accuracy:0.345070422535
-Random Forest (25 learners) Accuracy:0.443661971831
+Fold train Matrix[10]:(635, 1138)
+Fold test Matrix[10]:(70, 1138)
+Linear SVM Classifier Accuracy:0.657142857143
+Multinomial Naive Bayes Accuracy:0.7
+5 Nearest Neighbors Accuracy:0.628571428571
+Random Forest (25 learners) Accuracy:0.642857142857
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-Achat Autres       0.00      0.00      0.00         1
         CES       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00         6
-   CES 2014       1.00      0.67      0.80         9
+   CES 2014       1.00      0.75      0.86         8
    CES 2015       0.80      0.67      0.73         6
-Confort de l'habitat       0.67      0.12      0.21        16
-  Domotique       0.36      0.89      0.51        44
+Confort de l'habitat       0.50      0.67      0.57         6
+  Domotique       0.62      0.77      0.69        26
 Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         1
 Guide Domotique Homelive       1.00      1.00      1.00         3
 Guide Domotique Jeedom       0.50      0.50      0.50         2
-Guide Domotique Telldus       0.00      0.00      0.00         2
-Guide Domotique Z-Wave       0.67      1.00      0.80         4
-Logiciels Active Home       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         1
-Logiciels mControl       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        17
+Guide Domotique Telldus       0.00      0.00      0.00         1
+Guide Domotique Z-Wave       0.80      1.00      0.89         4
+ Multimedia       0.00      0.00      0.00         1
 Multimedia Communication IR       0.00      0.00      0.00         1
-Multimedia Media Center       0.00      0.00      0.00         1
-       News       0.50      0.50      0.50         2
+       News       0.33      0.50      0.40         2
 Protocole 1-Wire       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         3
-Z-Wave Applications       0.67      0.33      0.44         6
-Z-Wave Produits       0.00      0.00      0.00         5
-ZiBASE Applications       0.00      0.00      0.00         1
+Z-Wave Applications       0.67      1.00      0.80         2
+Z-Wave Produits       0.00      0.00      0.00         2
+ZiBASE Applications       0.00      0.00      0.00         0
 ZiBASE Kits       0.00      0.00      0.00         0
-ZiBASE Produits       0.00      0.00      0.00         4
+ZiBASE Produits       0.00      0.00      0.00         2
 Zipabox Applications       1.00      1.00      1.00         1
-Zipabox Produits       0.00      0.00      0.00         1
 
-avg / total       0.37      0.44      0.35       142
+avg / total       0.60      0.66      0.62        70
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-Achat Autres       0.00      0.00      0.00         1
         CES       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00         6
-   CES 2014       1.00      0.78      0.88         9
+   CES 2014       0.80      1.00      0.89         8
    CES 2015       0.80      0.67      0.73         6
-Confort de l'habitat       0.62      0.31      0.42        16
-  Domotique       0.38      0.98      0.55        44
+Confort de l'habitat       0.75      0.50      0.60         6
+  Domotique       0.64      0.96      0.77        26
 Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         1
-Guide Domotique Homelive       1.00      0.33      0.50         3
+Guide Domotique Homelive       1.00      0.67      0.80         3
 Guide Domotique Jeedom       1.00      0.50      0.67         2
-Guide Domotique Telldus       0.00      0.00      0.00         2
-Guide Domotique Z-Wave       0.67      0.50      0.57         4
-Logiciels Active Home       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         1
-Logiciels mControl       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        17
+Guide Domotique Telldus       0.00      0.00      0.00         1
+Guide Domotique Z-Wave       0.75      0.75      0.75         4
+ Multimedia       0.00      0.00      0.00         1
 Multimedia Communication IR       0.00      0.00      0.00         1
-Multimedia Media Center       0.00      0.00      0.00         1
        News       0.50      0.50      0.50         2
 Protocole 1-Wire       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         3
-Z-Wave Applications       0.67      0.33      0.44         6
-Z-Wave Produits       0.00      0.00      0.00         5
-ZiBASE Applications       0.00      0.00      0.00         1
-ZiBASE Produits       0.00      0.00      0.00         4
+Z-Wave Applications       0.67      1.00      0.80         2
+Z-Wave Produits       0.00      0.00      0.00         2
+ZiBASE Produits       0.00      0.00      0.00         2
 Zipabox Applications       0.00      0.00      0.00         1
-Zipabox Produits       0.00      0.00      0.00         1
 
-avg / total       0.38      0.46      0.37       142
+avg / total       0.61      0.70      0.63        70
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-Achat Autres       0.00      0.00      0.00         1
         CES       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00         6
-   CES 2014       0.50      0.56      0.53         9
-   CES 2015       1.00      0.17      0.29         6
-Confort de l'habitat       0.00      0.00      0.00        16
-  Domotique       0.56      0.41      0.47        44
+   CES 2014       0.46      0.75      0.57         8
+   CES 2015       1.00      0.50      0.67         6
+Confort de l'habitat       0.57      0.67      0.62         6
+  Domotique       0.66      0.88      0.75        26
 Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         1
 Guide Domotique Homelive       1.00      1.00      1.00         3
 Guide Domotique Jeedom       1.00      0.50      0.67         2
-Guide Domotique Telldus       0.00      0.00      0.00         2
-Guide Domotique Z-Wave       1.00      0.50      0.67         4
-Logiciels Active Home       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         1
-Logiciels mControl       0.00      0.00      0.00         1
- Multimedia       0.20      1.00      0.34        17
+Guide Domotique Telldus       0.00      0.00      0.00         1
+Guide Domotique Z-Wave       0.67      0.50      0.57         4
+ Multimedia       0.00      0.00      0.00         1
 Multimedia Communication IR       0.00      0.00      0.00         1
-Multimedia Media Center       0.00      0.00      0.00         1
        News       0.00      0.00      0.00         2
 Protocole 1-Wire       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         3
-Z-Wave Applications       0.50      0.33      0.40         6
-Z-Wave Produits       0.00      0.00      0.00         5
-ZiBASE Applications       0.00      0.00      0.00         1
-ZiBASE Produits       0.00      0.00      0.00         4
+Z-Wave Applications       0.67      1.00      0.80         2
+Z-Wave Produits       0.00      0.00      0.00         2
+ZiBASE Produits       0.00      0.00      0.00         2
 Zipabox Applications       0.00      0.00      0.00         1
-Zipabox Produits       0.00      0.00      0.00         1
+Zipabox Produits       0.00      0.00      0.00         0
 
-avg / total       0.36      0.35      0.30       142
+avg / total       0.56      0.63      0.57        70
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-Achat Autres       0.00      0.00      0.00         1
         CES       0.00      0.00      0.00         1
-   CES 2013       0.00      0.00      0.00         6
-   CES 2014       1.00      0.67      0.80         9
+   CES 2014       0.67      0.75      0.71         8
    CES 2015       0.80      0.67      0.73         6
-Confort de l'habitat       0.62      0.31      0.42        16
-  Domotique       0.36      0.89      0.52        44
+Confort de l'habitat       0.75      0.50      0.60         6
+  Domotique       0.62      0.88      0.73        26
 Guide Domotique Fibaro HC2 / HC Lite       0.00      0.00      0.00         1
 Guide Domotique Homelive       1.00      1.00      1.00         3
 Guide Domotique Jeedom       1.00      0.50      0.67         2
-Guide Domotique Telldus       0.00      0.00      0.00         2
-Guide Domotique Z-Wave       0.67      1.00      0.80         4
-Logiciels Active Home       0.00      0.00      0.00         1
-Logiciels Homeseer       0.00      0.00      0.00         1
-Logiciels mControl       0.00      0.00      0.00         1
- Multimedia       0.00      0.00      0.00        17
+Guide Domotique Telldus       0.00      0.00      0.00         1
+Guide Domotique Z-Wave       0.75      0.75      0.75         4
+Guide Domotique ZiBASE       0.00      0.00      0.00         0
+ Multimedia       0.00      0.00      0.00         1
 Multimedia Communication IR       0.00      0.00      0.00         1
-Multimedia Media Center       0.00      0.00      0.00         1
        News       0.50      0.50      0.50         2
 Protocole 1-Wire       0.00      0.00      0.00         1
-X10 Applications       0.00      0.00      0.00         1
-X10 Produits       0.00      0.00      0.00         3
-Z-Wave Applications       0.00      0.00      0.00         6
-Z-Wave Produits       0.00      0.00      0.00         5
-ZiBASE Applications       0.00      0.00      0.00         1
-ZiBASE Produits       0.00      0.00      0.00         4
-Zipabox Applications       0.00      0.00      0.00         1
-Zipabox Produits       0.00      0.00      0.00         1
+Z-Wave Applications       0.00      0.00      0.00         2
+Z-Wave Produits       0.00      0.00      0.00         2
+ZiBASE Produits       0.00      0.00      0.00         2
+Zipabox Applications       1.00      1.00      1.00         1
 
-avg / total       0.34      0.44      0.35       142
+avg / total       0.58      0.64      0.60        70
 

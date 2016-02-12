@@ -9,7 +9,7 @@ Fold test Matrix[1]:(25, 31940)
 Linear SVM Classifier Accuracy:0.56
 Multinomial Naive Bayes Accuracy:0.12
 5 Nearest Neighbors Accuracy:0.48
-Random Forest (25 learners) Accuracy:0.44
+Random Forest (25 learners) Accuracy:0.48
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -79,22 +79,22 @@ avg / total       0.53      0.48      0.48        25
              precision    recall  f1-score   support
 
     Android       0.00      0.00      0.00         1
-Applications       0.00      0.00      0.00         2
+Applications       1.00      0.50      0.67         2
   Bricolage       0.00      0.00      0.00         1
-  Commandes       0.00      0.00      0.00         4
+  Commandes       1.00      0.25      0.40         4
 Controleurs       0.00      0.00      0.00         1
-      Cours       1.00      1.00      1.00         2
+      Cours       1.00      0.50      0.67         2
       DLink       1.00      0.50      0.67         2
-  Domotique       0.50      1.00      0.67         1
+  Domotique       0.33      1.00      0.50         1
     Eclipse       0.00      0.00      0.00         1
     Galeres       0.00      0.00      0.00         1
 Generalitees       0.00      0.00      0.00         1
       LaTeX       0.00      0.00      0.00         1
    Location       1.00      1.00      1.00         4
- Reflexions       0.14      1.00      0.25         2
-       UIMA       0.50      1.00      0.67         1
+ Reflexions       0.15      1.00      0.27         2
+       UIMA       1.00      1.00      1.00         1
 
-avg / total       0.37      0.44      0.37        25
+avg / total       0.63      0.48      0.47        25
 
 <Results for Fold[2]>
 Fold train Matrix[2]:(218, 31356)
@@ -104,7 +104,7 @@ Fold test Matrix[2]:(25, 31356)
 Linear SVM Classifier Accuracy:0.44
 Multinomial Naive Bayes Accuracy:0.24
 5 Nearest Neighbors Accuracy:0.52
-Random Forest (25 learners) Accuracy:0.44
+Random Forest (25 learners) Accuracy:0.32
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -175,21 +175,22 @@ avg / total       0.54      0.52      0.52        25
 
      Alarme       0.00      0.00      0.00         1
     Android       0.00      0.00      0.00         2
-Applications       1.00      0.33      0.50         3
+Applications       0.00      0.00      0.00         3
 Carto & GPS       0.00      0.00      0.00         1
-Controleurs       0.00      0.00      0.00         0
-      Cours       0.50      1.00      0.67         2
-  Domotique       1.00      1.00      1.00         3
+  Commandes       0.00      0.00      0.00         0
+      Cours       0.67      1.00      0.80         2
+      DLink       0.00      0.00      0.00         0
+  Domotique       0.75      1.00      0.86         3
     FreeBox       0.00      0.00      0.00         1
 Generalitees       0.00      0.00      0.00         1
       LaTeX       0.00      0.00      0.00         1
    Location       1.00      1.00      1.00         2
- Reflexions       0.21      1.00      0.35         3
+ Reflexions       0.08      0.33      0.13         3
    Synology       0.00      0.00      0.00         2
 Windows Mobile       0.00      0.00      0.00         2
   WordPress       0.00      0.00      0.00         1
 
-avg / total       0.39      0.44      0.36        25
+avg / total       0.23      0.32      0.26        25
 
 <Results for Fold[3]>
 Fold train Matrix[3]:(218, 30496)
@@ -269,20 +270,21 @@ avg / total       0.37      0.48      0.39        25
      Alarme       0.00      0.00      0.00         1
 Applications       0.00      0.00      0.00         1
   Bricolage       0.00      0.00      0.00         1
-  Commandes       1.00      0.50      0.67         2
-Controleurs       0.50      1.00      0.67         1
+  Commandes       0.00      0.00      0.00         2
+Controleurs       1.00      1.00      1.00         1
       Cours       1.00      1.00      1.00         2
       DLink       1.00      1.00      1.00         1
-  Domotique       0.80      0.80      0.80         5
+  Domotique       0.83      1.00      0.91         5
     Eclipse       0.00      0.00      0.00         1
     Galeres       0.00      0.00      0.00         3
 Generalitees       0.00      0.00      0.00         1
    Location       1.00      1.00      1.00         1
- Reflexions       0.18      1.00      0.31         2
+ Reflexions       0.20      1.00      0.33         2
    Synology       0.00      0.00      0.00         1
+       TALN       0.00      0.00      0.00         0
        UIMA       0.50      0.50      0.50         2
 
-avg / total       0.47      0.52      0.46        25
+avg / total       0.42      0.52      0.45        25
 
 <Results for Fold[4]>
 Fold train Matrix[4]:(219, 32643)
@@ -292,7 +294,7 @@ Fold test Matrix[4]:(24, 32643)
 Linear SVM Classifier Accuracy:0.541666666667
 Multinomial Naive Bayes Accuracy:0.291666666667
 5 Nearest Neighbors Accuracy:0.583333333333
-Random Forest (25 learners) Accuracy:0.541666666667
+Random Forest (25 learners) Accuracy:0.5
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -362,23 +364,23 @@ avg / total       0.51      0.58      0.53        24
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-    Android       1.00      1.00      1.00         1
-Applications       0.00      0.00      0.00         1
-Cablage de prises       0.00      0.00      0.00         1
-  Commandes       0.25      0.50      0.33         2
-      Cours       1.00      1.00      1.00         6
-      DLink       0.00      0.00      0.00         1
+    Android       0.00      0.00      0.00         1
+Applications       1.00      1.00      1.00         1
+Cablage de prises       1.00      1.00      1.00         1
+  Commandes       0.20      0.50      0.29         2
+      Cours       1.00      0.67      0.80         6
+      DLink       1.00      1.00      1.00         1
   Domotique       1.00      1.00      1.00         2
     Galeres       0.00      0.00      0.00         2
 Indispensable       0.00      0.00      0.00         1
       LaTeX       0.00      0.00      0.00         1
    Location       1.00      1.00      1.00         1
- Reflexions       0.14      1.00      0.25         1
-   Synology       1.00      0.50      0.67         2
+ Reflexions       0.12      1.00      0.22         1
+   Synology       0.00      0.00      0.00         2
        TALN       0.00      0.00      0.00         2
        UIMA       0.00      0.00      0.00         0
 
-avg / total       0.53      0.54      0.51        24
+avg / total       0.52      0.50      0.48        24
 
 <Results for Fold[5]>
 Fold train Matrix[5]:(219, 32091)
@@ -388,7 +390,7 @@ Fold test Matrix[5]:(24, 32091)
 Linear SVM Classifier Accuracy:0.541666666667
 Multinomial Naive Bayes Accuracy:0.375
 5 Nearest Neighbors Accuracy:0.625
-Random Forest (25 learners) Accuracy:0.458333333333
+Random Forest (25 learners) Accuracy:0.541666666667
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -452,20 +454,19 @@ avg / total       0.61      0.62      0.58        24
 
     Android       0.00      0.00      0.00         1
 Applications       0.00      0.00      0.00         1
-Carto & GPS       0.00      0.00      0.00         0
   Commandes       0.00      0.00      0.00         1
-Controleurs       1.00      0.50      0.67         2
-      Cours       1.00      0.50      0.67         2
+Controleurs       0.50      0.50      0.50         2
+      Cours       1.00      1.00      1.00         2
       DLink       1.00      0.67      0.80         3
   Domotique       0.83      1.00      0.91         5
     FreeBox       0.00      0.00      0.00         1
     Galeres       0.00      0.00      0.00         2
       LaTeX       0.00      0.00      0.00         1
    Location       1.00      1.00      1.00         2
- Reflexions       0.00      0.00      0.00         1
+ Reflexions       0.14      1.00      0.25         1
        TALN       0.00      0.00      0.00         2
 
-avg / total       0.55      0.46      0.48        24
+avg / total       0.51      0.54      0.51        24
 
 <Results for Fold[6]>
 Fold train Matrix[6]:(219, 32155)
@@ -546,19 +547,20 @@ avg / total       0.62      0.62      0.61        24
 Applications       0.00      0.00      0.00         1
   Bricolage       0.00      0.00      0.00         1
 Cablage de prises       0.00      0.00      0.00         1
-  Commandes       0.67      0.67      0.67         3
+  Commandes       0.50      0.33      0.40         3
 Controleurs       0.00      0.00      0.00         4
       Cours       1.00      1.00      1.00         1
-      DLink       0.00      0.00      0.00         3
+      DLink       1.00      0.33      0.50         3
   Domotique       0.43      1.00      0.60         3
     Eclipse       0.00      0.00      0.00         1
     FreeBox       0.00      0.00      0.00         1
 Generalitees       0.00      0.00      0.00         1
  Reflexions       0.10      1.00      0.18         1
    Synology       0.00      0.00      0.00         1
-       UIMA       0.67      1.00      0.80         2
+       TALN       0.00      0.00      0.00         0
+       UIMA       1.00      1.00      1.00         2
 
-avg / total       0.24      0.38      0.27        24
+avg / total       0.37      0.38      0.32        24
 
 <Results for Fold[7]>
 Fold train Matrix[7]:(219, 32579)
@@ -637,21 +639,21 @@ avg / total       0.62      0.58      0.58        24
 
     Android       0.00      0.00      0.00         1
 Applications       0.00      0.00      0.00         2
-  Commandes       0.33      0.50      0.40         2
-Controleurs       1.00      0.25      0.40         4
+  Commandes       0.00      0.00      0.00         2
+Controleurs       1.00      0.50      0.67         4
       Cours       1.00      1.00      1.00         2
       DLink       1.00      1.00      1.00         1
-  Domotique       0.25      1.00      0.40         1
+  Domotique       0.33      1.00      0.50         1
     Eclipse       0.00      0.00      0.00         1
     Galeres       0.00      0.00      0.00         2
    Location       1.00      1.00      1.00         2
- Reflexions       0.12      1.00      0.22         1
+ Reflexions       0.08      1.00      0.15         1
    Synology       0.00      0.00      0.00         2
        TALN       0.00      0.00      0.00         1
        UIMA       0.50      1.00      0.67         1
 Windows (OS)       0.00      0.00      0.00         1
 
-avg / total       0.44      0.42      0.36        24
+avg / total       0.41      0.42      0.37        24
 
 <Results for Fold[8]>
 Fold train Matrix[8]:(219, 32290)
@@ -661,7 +663,7 @@ Fold test Matrix[8]:(24, 32290)
 Linear SVM Classifier Accuracy:0.5
 Multinomial Naive Bayes Accuracy:0.416666666667
 5 Nearest Neighbors Accuracy:0.416666666667
-Random Forest (25 learners) Accuracy:0.583333333333
+Random Forest (25 learners) Accuracy:0.458333333333
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -724,21 +726,21 @@ avg / total       0.41      0.42      0.37        24
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-Applications       0.50      1.00      0.67         1
+Applications       0.00      0.00      0.00         1
 Carto & GPS       0.00      0.00      0.00         1
-  Commandes       0.60      0.75      0.67         4
-      Cours       1.00      1.00      1.00         2
+  Commandes       0.33      0.25      0.29         4
+      Cours       1.00      0.50      0.67         2
       DLink       1.00      1.00      1.00         1
-  Domotique       0.86      1.00      0.92         6
+  Domotique       1.00      1.00      1.00         6
     FreeBox       0.00      0.00      0.00         0
 Photo & Video       0.00      0.00      0.00         1
  Reflexions       0.00      0.00      0.00         3
-   Synology       0.00      0.00      0.00         1
+   Synology       1.00      1.00      1.00         1
        TALN       0.00      0.00      0.00         1
        UIMA       0.50      1.00      0.67         1
 Windows Mobile       0.00      0.00      0.00         2
 
-avg / total       0.48      0.58      0.52        24
+avg / total       0.49      0.46      0.46        24
 
 <Results for Fold[9]>
 Fold train Matrix[9]:(219, 31186)
@@ -809,17 +811,18 @@ avg / total       0.81      0.67      0.70        24
 
 Applications       0.00      0.00      0.00         3
   Commandes       0.00      0.00      0.00         1
-Controleurs       1.00      0.50      0.67         2
+Controleurs       0.00      0.00      0.00         2
       Cours       0.00      0.00      0.00         1
-      DLink       1.00      1.00      1.00         1
+      DLink       0.50      1.00      0.67         1
   Domotique       0.71      0.83      0.77         6
+    Galeres       0.00      0.00      0.00         0
 Indispensable       0.00      0.00      0.00         2
  Reflexions       0.22      1.00      0.36         2
 Surveillance       0.00      0.00      0.00         1
    Synology       0.00      0.00      0.00         1
-       UIMA       1.00      0.75      0.86         4
+       UIMA       1.00      1.00      1.00         4
 
-avg / total       0.49      0.50      0.46        24
+avg / total       0.38      0.50      0.42        24
 
 <Results for Fold[10]>
 Fold train Matrix[10]:(219, 31931)
@@ -909,16 +912,16 @@ Cablage de prises       0.00      0.00      0.00         2
 Controleurs       1.00      0.33      0.50         3
       Cours       0.00      0.00      0.00         1
       DLink       1.00      1.00      1.00         1
-  Domotique       0.25      1.00      0.40         1
+  Domotique       0.33      1.00      0.50         1
     Galeres       0.00      0.00      0.00         2
 Generalitees       0.00      0.00      0.00         1
    Materiel       0.00      0.00      0.00         1
 Questions Reseau       0.00      0.00      0.00         1
- Reflexions       0.14      1.00      0.25         2
+ Reflexions       0.15      1.00      0.27         2
    Synology       0.00      0.00      0.00         0
     Systeme       0.00      0.00      0.00         1
        TALN       0.00      0.00      0.00         1
        UIMA       1.00      1.00      1.00         2
 
-avg / total       0.27      0.29      0.23        24
+avg / total       0.28      0.29      0.23        24
 

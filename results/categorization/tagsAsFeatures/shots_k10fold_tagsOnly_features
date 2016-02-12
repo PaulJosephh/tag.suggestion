@@ -1,19 +1,19 @@
 <Experiment for data located in ../../corpus/corpus2_dates/xshots/>
-Size of matrix:(374, 358)
+Size of matrix:(370, 358)
 <Results for Fold[1]>
-Fold train Matrix[1]:(336, 330)
-Fold test Matrix[1]:(38, 330)
-Linear SVM Classifier Accuracy:0.605263157895
-Multinomial Naive Bayes Accuracy:0.473684210526
-5 Nearest Neighbors Accuracy:0.421052631579
-Random Forest (25 learners) Accuracy:0.526315789474
+Fold train Matrix[1]:(333, 332)
+Fold test Matrix[1]:(37, 332)
+Linear SVM Classifier Accuracy:0.621621621622
+Multinomial Naive Bayes Accuracy:0.459459459459
+5 Nearest Neighbors Accuracy:0.459459459459
+Random Forest (25 learners) Accuracy:0.594594594595
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.59      0.89      0.71        18
+       actu       0.62      0.89      0.73        18
 atlantique jazz festival       1.00      1.00      1.00         1
-      brest       0.33      0.33      0.33         3
-   concerts       0.00      0.00      0.00         3
+      brest       0.50      0.33      0.40         3
+   concerts       0.00      0.00      0.00         2
     culture       1.00      0.75      0.86         4
     electro       0.00      0.00      0.00         1
   festivals       0.00      0.00      0.00         2
@@ -21,15 +21,15 @@ atlantique jazz festival       1.00      1.00      1.00         1
       photo       0.67      0.67      0.67         3
    pop rock       0.00      0.00      0.00         1
 
-avg / total       0.49      0.61      0.53        38
+avg / total       0.53      0.62      0.56        37
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
        actu       0.48      0.83      0.61        18
 atlantique jazz festival       0.00      0.00      0.00         1
-      brest       0.50      0.33      0.40         3
-   concerts       0.00      0.00      0.00         3
+      brest       0.00      0.00      0.00         3
+   concerts       0.00      0.00      0.00         2
     culture       1.00      0.50      0.67         4
     electro       0.00      0.00      0.00         1
   festivals       0.00      0.00      0.00         2
@@ -38,282 +38,280 @@ atlantique jazz festival       0.00      0.00      0.00         1
       photo       0.00      0.00      0.00         3
    pop rock       0.00      0.00      0.00         1
 
-avg / total       0.37      0.47      0.39        38
+avg / total       0.34      0.46      0.37        37
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.59      0.56      0.57        18
+       actu       0.61      0.61      0.61        18
 atlantique jazz festival       0.00      0.00      0.00         1
       brest       0.00      0.00      0.00         3
-   concerts       0.00      0.00      0.00         3
+   concerts       0.00      0.00      0.00         2
     culture       0.75      0.75      0.75         4
     electro       0.00      0.00      0.00         1
   festivals       0.00      0.00      0.00         2
   materiels       0.00      0.00      0.00         2
-      photo       0.38      1.00      0.55         3
+      photo       0.30      1.00      0.46         3
    pop rock       0.00      0.00      0.00         1
 
-avg / total       0.39      0.42      0.39        38
+avg / total       0.40      0.46      0.42        37
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.58      0.78      0.67        18
+       actu       0.67      0.78      0.72        18
 atlantique jazz festival       0.00      0.00      0.00         1
-      brest       0.33      0.33      0.33         3
-   concerts       0.00      0.00      0.00         3
-    culture       0.60      0.75      0.67         4
+      brest       0.50      0.67      0.57         3
+   concerts       0.33      0.50      0.40         2
+    culture       0.75      0.75      0.75         4
     electro       0.00      0.00      0.00         1
   festivals       0.00      0.00      0.00         2
   materiels       0.00      0.00      0.00         2
        news       0.00      0.00      0.00         0
-      photo       1.00      0.67      0.80         3
+      photo       0.67      0.67      0.67         3
    pop rock       0.00      0.00      0.00         1
 
-avg / total       0.44      0.53      0.48        38
+avg / total       0.52      0.59      0.55        37
 
 <Results for Fold[2]>
-Fold train Matrix[2]:(336, 334)
-Fold test Matrix[2]:(38, 334)
-Linear SVM Classifier Accuracy:0.447368421053
-Multinomial Naive Bayes Accuracy:0.578947368421
-5 Nearest Neighbors Accuracy:0.368421052632
-Random Forest (25 learners) Accuracy:0.5
+Fold train Matrix[2]:(333, 332)
+Fold test Matrix[2]:(37, 332)
+Linear SVM Classifier Accuracy:0.405405405405
+Multinomial Naive Bayes Accuracy:0.567567567568
+5 Nearest Neighbors Accuracy:0.378378378378
+Random Forest (25 learners) Accuracy:0.594594594595
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
  Non classe       0.00      0.00      0.00         1
-       actu       0.58      0.55      0.56        20
+       actu       0.53      0.47      0.50        19
 atlantique jazz festival       0.00      0.00      0.00         0
-      brest       1.00      0.67      0.80         3
-   concerts       0.00      0.00      0.00         1
-    culture       0.20      0.50      0.29         2
+      brest       0.67      0.67      0.67         3
+   concerts       0.00      0.00      0.00         2
+    culture       0.25      0.50      0.33         2
     electro       0.00      0.00      0.00         0
   festivals       0.00      0.00      0.00         1
   materiels       1.00      0.33      0.50         3
     musique       0.00      0.00      0.00         1
-       news       0.00      0.00      0.00         2
+       news       0.00      0.00      0.00         1
       photo       0.40      0.67      0.50         3
    pop rock       0.00      0.00      0.00         1
 
-avg / total       0.50      0.45      0.45        38
+avg / total       0.45      0.41      0.41        37
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
  Non classe       0.00      0.00      0.00         1
-       actu       0.60      0.90      0.72        20
+       actu       0.59      0.89      0.71        19
       brest       0.50      0.67      0.57         3
-   concerts       0.00      0.00      0.00         1
+   concerts       0.00      0.00      0.00         2
     culture       0.50      0.50      0.50         2
   festivals       0.00      0.00      0.00         1
   materiels       1.00      0.33      0.50         3
     musique       0.00      0.00      0.00         1
-       news       0.00      0.00      0.00         2
+       news       0.00      0.00      0.00         1
       photo       0.00      0.00      0.00         3
    pop rock       0.00      0.00      0.00         1
 
-avg / total       0.46      0.58      0.49        38
+avg / total       0.45      0.57      0.48        37
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
  Non classe       0.00      0.00      0.00         1
-       actu       0.73      0.40      0.52        20
+       actu       0.73      0.42      0.53        19
 atlantique jazz festival       0.00      0.00      0.00         0
-      brest       0.33      0.67      0.44         3
-   concerts       0.33      1.00      0.50         1
-    culture       0.25      0.50      0.33         2
+      brest       0.67      0.67      0.67         3
+   concerts       0.33      0.50      0.40         2
+    culture       0.14      0.50      0.22         2
   festivals       0.00      0.00      0.00         1
   materiels       0.00      0.00      0.00         3
     musique       0.00      0.00      0.00         1
-       news       0.00      0.00      0.00         2
-      photo       0.15      0.67      0.25         3
+       news       0.00      0.00      0.00         1
+      photo       0.17      0.67      0.27         3
    pop rock       0.00      0.00      0.00         1
 
-avg / total       0.44      0.37      0.36        38
+avg / total       0.47      0.38      0.38        37
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
  Non classe       1.00      1.00      1.00         1
-       actu       0.61      0.55      0.58        20
+       actu       0.67      0.74      0.70        19
 atlantique jazz festival       0.00      0.00      0.00         0
-      brest       0.50      0.67      0.57         3
-   concerts       0.00      0.00      0.00         1
-    culture       0.40      1.00      0.57         2
+      brest       1.00      1.00      1.00         3
+   concerts       0.00      0.00      0.00         2
+    culture       0.50      0.50      0.50         2
   festivals       0.00      0.00      0.00         1
   materiels       0.00      0.00      0.00         3
     musique       0.00      0.00      0.00         1
-       news       0.00      0.00      0.00         2
-      photo       0.43      1.00      0.60         3
+       news       0.00      0.00      0.00         1
+      photo       0.38      1.00      0.55         3
    pop rock       0.00      0.00      0.00         1
 
-avg / total       0.44      0.50      0.45        38
+avg / total       0.51      0.59      0.54        37
 
 <Results for Fold[3]>
-Fold train Matrix[3]:(336, 348)
-Fold test Matrix[3]:(38, 348)
-Linear SVM Classifier Accuracy:0.710526315789
-Multinomial Naive Bayes Accuracy:0.710526315789
-5 Nearest Neighbors Accuracy:0.394736842105
-Random Forest (25 learners) Accuracy:0.684210526316
-<Linear SVM Classifier Metrics>
-             precision    recall  f1-score   support
-
-       actu       0.90      0.83      0.86        23
-atlantique jazz festival       0.00      0.00      0.00         1
-      brest       0.60      1.00      0.75         3
-   concerts       0.00      0.00      0.00         1
-    culture       0.80      0.80      0.80         5
-    electro       0.00      0.00      0.00         1
-  festivals       0.00      0.00      0.00         0
-  materiels       0.00      0.00      0.00         1
-       news       0.00      0.00      0.00         2
-      photo       0.33      1.00      0.50         1
-
-avg / total       0.71      0.71      0.70        38
-
-<Multinomial Naive Bayes Classifier Metrics>
-             precision    recall  f1-score   support
-
-       actu       0.73      0.96      0.83        23
-atlantique jazz festival       0.00      0.00      0.00         1
-      brest       0.50      0.67      0.57         3
-   concerts       0.00      0.00      0.00         1
-    culture       1.00      0.60      0.75         5
-    electro       0.00      0.00      0.00         1
-  materiels       0.00      0.00      0.00         1
-       news       0.00      0.00      0.00         2
-      photo       0.00      0.00      0.00         1
-
-avg / total       0.61      0.71      0.65        38
-
-<5 Nearest Neighbors Classifier Metrics>
-             precision    recall  f1-score   support
-
-       actu       0.82      0.39      0.53        23
-atlantique jazz festival       0.00      0.00      0.00         1
-      brest       0.20      0.33      0.25         3
-   concerts       0.00      0.00      0.00         1
-    culture       0.67      0.80      0.73         5
-    electro       0.00      0.00      0.00         1
-  materiels       0.00      0.00      0.00         1
-       news       0.00      0.00      0.00         2
-      photo       0.08      1.00      0.15         1
-
-avg / total       0.60      0.39      0.44        38
-
-<Random Forest (25 learners) Classifier Metrics>
-             precision    recall  f1-score   support
-
-       actu       0.83      0.83      0.83        23
-atlantique jazz festival       0.00      0.00      0.00         1
-      brest       0.40      0.67      0.50         3
-   concerts       0.00      0.00      0.00         1
-    culture       0.80      0.80      0.80         5
-    electro       0.00      0.00      0.00         1
-  materiels       0.00      0.00      0.00         1
-       news       0.00      0.00      0.00         2
-      photo       0.33      1.00      0.50         1
-
-avg / total       0.65      0.68      0.66        38
-
-<Results for Fold[4]>
-Fold train Matrix[4]:(336, 337)
-Fold test Matrix[4]:(38, 337)
-Linear SVM Classifier Accuracy:0.394736842105
-Multinomial Naive Bayes Accuracy:0.5
-5 Nearest Neighbors Accuracy:0.342105263158
-Random Forest (25 learners) Accuracy:0.473684210526
-<Linear SVM Classifier Metrics>
-             precision    recall  f1-score   support
-
-       actu       0.50      0.65      0.57        20
-atlantique jazz festival       0.00      0.00      0.00         0
-      brest       0.17      0.33      0.22         3
-   concerts       0.00      0.00      0.00         4
-    culture       0.00      0.00      0.00         4
-    electro       1.00      0.33      0.50         3
-  materiels       0.00      0.00      0.00         1
-       news       0.00      0.00      0.00         1
-      photo       0.00      0.00      0.00         2
-
-avg / total       0.36      0.39      0.35        38
-
-<Multinomial Naive Bayes Classifier Metrics>
-             precision    recall  f1-score   support
-
-       actu       0.55      0.85      0.67        20
-      brest       0.29      0.67      0.40         3
-   concerts       0.00      0.00      0.00         4
-    culture       0.00      0.00      0.00         4
-    electro       0.00      0.00      0.00         3
-  materiels       0.00      0.00      0.00         1
-       news       0.00      0.00      0.00         1
-      photo       0.00      0.00      0.00         2
-
-avg / total       0.31      0.50      0.38        38
-
-<5 Nearest Neighbors Classifier Metrics>
-             precision    recall  f1-score   support
-
-       actu       0.50      0.35      0.41        20
-      brest       0.29      0.67      0.40         3
-   concerts       0.00      0.00      0.00         4
-    culture       0.67      0.50      0.57         4
-    electro       0.00      0.00      0.00         3
-  festivals       0.00      0.00      0.00         0
-  materiels       0.00      0.00      0.00         1
-       news       0.00      0.00      0.00         1
-      photo       0.18      1.00      0.31         2
-
-avg / total       0.37      0.34      0.32        38
-
-<Random Forest (25 learners) Classifier Metrics>
-             precision    recall  f1-score   support
-
-       actu       0.57      0.60      0.59        20
-      brest       0.25      0.67      0.36         3
-   concerts       0.00      0.00      0.00         4
-    culture       1.00      0.50      0.67         4
-    electro       1.00      0.33      0.50         3
-  materiels       0.00      0.00      0.00         1
-       news       0.00      0.00      0.00         1
-      photo       0.20      0.50      0.29         2
-
-avg / total       0.52      0.47      0.46        38
-
-<Results for Fold[5]>
-Fold train Matrix[5]:(337, 340)
-Fold test Matrix[5]:(37, 340)
-Linear SVM Classifier Accuracy:0.621621621622
+Fold train Matrix[3]:(333, 348)
+Fold test Matrix[3]:(37, 348)
+Linear SVM Classifier Accuracy:0.702702702703
 Multinomial Naive Bayes Accuracy:0.702702702703
-5 Nearest Neighbors Accuracy:0.378378378378
+5 Nearest Neighbors Accuracy:0.351351351351
 Random Forest (25 learners) Accuracy:0.648648648649
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.73      0.83      0.78        23
-      brest       0.67      0.40      0.50         5
+       actu       0.86      0.86      0.86        21
+atlantique jazz festival       0.00      0.00      0.00         1
+      brest       0.60      1.00      0.75         3
    concerts       0.00      0.00      0.00         1
-    culture       0.50      0.50      0.50         2
+    culture       1.00      0.80      0.89         5
     electro       0.00      0.00      0.00         1
+  festivals       0.00      0.00      0.00         0
+  materiels       0.00      0.00      0.00         1
+       news       0.00      0.00      0.00         3
+      photo       0.33      1.00      0.50         1
+
+avg / total       0.68      0.70      0.68        37
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+       actu       0.68      1.00      0.81        21
+atlantique jazz festival       0.00      0.00      0.00         1
+      brest       0.67      0.67      0.67         3
+   concerts       0.00      0.00      0.00         1
+    culture       1.00      0.60      0.75         5
+    electro       0.00      0.00      0.00         1
+  materiels       0.00      0.00      0.00         1
+       news       0.00      0.00      0.00         3
+      photo       0.00      0.00      0.00         1
+
+avg / total       0.57      0.70      0.61        37
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+       actu       0.78      0.33      0.47        21
+atlantique jazz festival       0.00      0.00      0.00         1
+      brest       0.33      0.33      0.33         3
+   concerts       0.00      0.00      0.00         1
+    culture       0.57      0.80      0.67         5
+    electro       0.00      0.00      0.00         1
+  materiels       0.00      0.00      0.00         1
+       news       0.00      0.00      0.00         3
+      photo       0.07      1.00      0.13         1
+
+avg / total       0.55      0.35      0.39        37
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+       actu       0.77      0.81      0.79        21
+atlantique jazz festival       0.00      0.00      0.00         1
+      brest       0.50      0.67      0.57         3
+   concerts       0.00      0.00      0.00         1
+    culture       0.80      0.80      0.80         5
+    electro       0.00      0.00      0.00         1
+  festivals       0.00      0.00      0.00         0
+  materiels       0.00      0.00      0.00         1
+       news       0.00      0.00      0.00         3
+      photo       0.33      1.00      0.50         1
+
+avg / total       0.60      0.65      0.62        37
+
+<Results for Fold[4]>
+Fold train Matrix[4]:(333, 337)
+Fold test Matrix[4]:(37, 337)
+Linear SVM Classifier Accuracy:0.486486486486
+Multinomial Naive Bayes Accuracy:0.513513513514
+5 Nearest Neighbors Accuracy:0.351351351351
+Random Forest (25 learners) Accuracy:0.513513513514
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+       actu       0.58      0.67      0.62        21
+      brest       0.17      0.50      0.25         2
+   concerts       0.00      0.00      0.00         4
+    culture       1.00      0.25      0.40         4
+    electro       1.00      0.50      0.67         2
+  materiels       1.00      1.00      1.00         1
+       news       0.00      0.00      0.00         1
+      photo       0.00      0.00      0.00         2
+
+avg / total       0.53      0.49      0.47        37
+
+<Multinomial Naive Bayes Classifier Metrics>
+             precision    recall  f1-score   support
+
+       actu       0.59      0.81      0.68        21
+      brest       0.29      1.00      0.44         2
+   concerts       0.00      0.00      0.00         4
+    culture       0.00      0.00      0.00         4
+    electro       0.00      0.00      0.00         2
+  materiels       0.00      0.00      0.00         1
+       news       0.00      0.00      0.00         1
+      photo       0.00      0.00      0.00         2
+
+avg / total       0.35      0.51      0.41        37
+
+<5 Nearest Neighbors Classifier Metrics>
+             precision    recall  f1-score   support
+
+       actu       0.54      0.33      0.41        21
+      brest       0.29      1.00      0.44         2
+   concerts       0.00      0.00      0.00         4
+    culture       0.67      0.50      0.57         4
+    electro       0.00      0.00      0.00         2
+  materiels       0.00      0.00      0.00         1
+       news       0.00      0.00      0.00         1
+      photo       0.17      1.00      0.29         2
+
+avg / total       0.40      0.35      0.33        37
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+       actu       0.61      0.67      0.64        21
+      brest       0.20      0.50      0.29         2
+   concerts       0.00      0.00      0.00         4
+    culture       1.00      0.50      0.67         4
+    electro       1.00      0.50      0.67         2
+  materiels       0.00      0.00      0.00         1
+       news       0.00      0.00      0.00         1
+      photo       0.20      0.50      0.29         2
+
+avg / total       0.53      0.51      0.50        37
+
+<Results for Fold[5]>
+Fold train Matrix[5]:(333, 341)
+Fold test Matrix[5]:(37, 341)
+Linear SVM Classifier Accuracy:0.648648648649
+Multinomial Naive Bayes Accuracy:0.702702702703
+5 Nearest Neighbors Accuracy:0.324324324324
+Random Forest (25 learners) Accuracy:0.621621621622
+<Linear SVM Classifier Metrics>
+             precision    recall  f1-score   support
+
+       actu       0.74      0.87      0.80        23
+      brest       0.67      0.40      0.50         5
+   concerts       0.00      0.00      0.00         0
+    culture       0.50      0.50      0.50         2
+    electro       0.00      0.00      0.00         2
   materiels       0.00      0.00      0.00         3
        news       0.00      0.00      0.00         1
       photo       0.25      1.00      0.40         1
 
-avg / total       0.58      0.62      0.59        37
+avg / total       0.58      0.65      0.60        37
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
        actu       0.70      1.00      0.82        23
       brest       0.75      0.60      0.67         5
-   concerts       0.00      0.00      0.00         1
     culture       0.00      0.00      0.00         2
-    electro       0.00      0.00      0.00         1
+    electro       0.00      0.00      0.00         2
   materiels       0.00      0.00      0.00         3
        news       0.00      0.00      0.00         1
       photo       0.00      0.00      0.00         1
@@ -323,62 +321,63 @@ avg / total       0.53      0.70      0.60        37
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.67      0.43      0.53        23
+       actu       0.67      0.35      0.46        23
       brest       0.67      0.40      0.50         5
-   concerts       0.00      0.00      0.00         1
+   concerts       0.00      0.00      0.00         0
     culture       1.00      0.50      0.67         2
-    electro       0.00      0.00      0.00         1
+    electro       0.00      0.00      0.00         2
+  festivals       0.00      0.00      0.00         0
   materiels       0.00      0.00      0.00         3
        news       0.00      0.00      0.00         1
-      photo       0.07      1.00      0.12         1
+      photo       0.06      1.00      0.11         1
 
-avg / total       0.56      0.38      0.43        37
+avg / total       0.56      0.32      0.39        37
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.79      0.83      0.81        23
+       actu       0.76      0.83      0.79        23
       brest       0.67      0.40      0.50         5
-   concerts       0.00      0.00      0.00         1
-    culture       0.67      1.00      0.80         2
-    electro       0.00      0.00      0.00         1
+   concerts       0.00      0.00      0.00         0
+    culture       0.50      0.50      0.50         2
+    electro       0.00      0.00      0.00         2
   materiels       0.00      0.00      0.00         3
        news       0.00      0.00      0.00         1
-      photo       0.17      1.00      0.29         1
+      photo       0.20      1.00      0.33         1
 
-avg / total       0.62      0.65      0.62        37
+avg / total       0.59      0.62      0.60        37
 
 <Results for Fold[6]>
-Fold train Matrix[6]:(337, 336)
-Fold test Matrix[6]:(37, 336)
-Linear SVM Classifier Accuracy:0.675675675676
+Fold train Matrix[6]:(333, 335)
+Fold test Matrix[6]:(37, 335)
+Linear SVM Classifier Accuracy:0.702702702703
 Multinomial Naive Bayes Accuracy:0.783783783784
-5 Nearest Neighbors Accuracy:0.594594594595
+5 Nearest Neighbors Accuracy:0.675675675676
 Random Forest (25 learners) Accuracy:0.702702702703
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.85      0.74      0.79        23
-      brest       0.60      0.75      0.67         4
-   concerts       0.00      0.00      0.00         1
+       actu       0.76      0.83      0.79        23
+      brest       0.67      0.50      0.57         4
+   concerts       0.00      0.00      0.00         2
     culture       1.00      0.50      0.67         2
-    electro       0.33      1.00      0.50         1
-  festivals       0.00      0.00      0.00         2
+    electro       0.50      1.00      0.67         1
+  festivals       0.00      0.00      0.00         1
        jazz       0.00      0.00      0.00         1
   materiels       1.00      1.00      1.00         1
       photo       1.00      1.00      1.00         2
 
-avg / total       0.74      0.68      0.69        37
+avg / total       0.69      0.70      0.69        37
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
        actu       0.77      1.00      0.87        23
       brest       0.75      0.75      0.75         4
-   concerts       0.00      0.00      0.00         1
+   concerts       0.00      0.00      0.00         2
     culture       1.00      1.00      1.00         2
     electro       0.00      0.00      0.00         1
-  festivals       0.00      0.00      0.00         2
+  festivals       0.00      0.00      0.00         1
        jazz       0.00      0.00      0.00         1
   materiels       1.00      1.00      1.00         1
       photo       0.00      0.00      0.00         2
@@ -388,291 +387,285 @@ avg / total       0.64      0.78      0.70        37
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       1.00      0.61      0.76        23
-      brest       0.75      0.75      0.75         4
-   concerts       0.20      1.00      0.33         1
-    culture       0.33      1.00      0.50         2
+       actu       0.94      0.70      0.80        23
+      brest       1.00      0.75      0.86         4
+   concerts       0.20      0.50      0.29         2
+    culture       0.50      1.00      0.67         2
     electro       0.00      0.00      0.00         1
-  festivals       0.00      0.00      0.00         2
+  festivals       0.00      0.00      0.00         1
        jazz       0.00      0.00      0.00         1
-  materiels       0.00      0.00      0.00         1
-      photo       0.29      1.00      0.44         2
+  materiels       1.00      1.00      1.00         1
+      photo       0.33      1.00      0.50         2
 
-avg / total       0.74      0.59      0.61        37
+avg / total       0.78      0.68      0.70        37
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.86      0.83      0.84        23
+       actu       0.83      0.83      0.83        23
       brest       0.67      0.50      0.57         4
-   concerts       0.00      0.00      0.00         1
-    culture       0.50      1.00      0.67         2
-    electro       0.50      1.00      0.67         1
-  festivals       0.00      0.00      0.00         2
+   concerts       0.00      0.00      0.00         2
+    culture       1.00      1.00      1.00         2
+    electro       0.33      1.00      0.50         1
+  festivals       0.00      0.00      0.00         1
        jazz       0.00      0.00      0.00         1
   materiels       0.00      0.00      0.00         1
        news       0.00      0.00      0.00         0
       photo       1.00      1.00      1.00         2
-   pop rock       0.00      0.00      0.00         0
 
-avg / total       0.70      0.70      0.69        37
+avg / total       0.70      0.70      0.70        37
 
 <Results for Fold[7]>
-Fold train Matrix[7]:(337, 342)
+Fold train Matrix[7]:(333, 342)
 Fold test Matrix[7]:(37, 342)
-Linear SVM Classifier Accuracy:0.675675675676
-Multinomial Naive Bayes Accuracy:0.675675675676
-5 Nearest Neighbors Accuracy:0.378378378378
-Random Forest (25 learners) Accuracy:0.621621621622
+Linear SVM Classifier Accuracy:0.72972972973
+Multinomial Naive Bayes Accuracy:0.702702702703
+5 Nearest Neighbors Accuracy:0.324324324324
+Random Forest (25 learners) Accuracy:0.648648648649
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
  Non classe       0.00      0.00      0.00         0
-       actu       0.79      0.96      0.86        23
+       actu       0.82      1.00      0.90        23
       brest       1.00      1.00      1.00         1
    concerts       0.00      0.00      0.00         1
-    culture       0.33      0.33      0.33         3
+    culture       0.50      0.33      0.40         3
     electro       0.00      0.00      0.00         2
-  festivals       0.00      0.00      0.00         1
+  festivals       0.00      0.00      0.00         2
        jazz       0.00      0.00      0.00         0
        news       0.00      0.00      0.00         2
-      photo       1.00      0.25      0.40         4
+      photo       1.00      0.67      0.80         3
 
-avg / total       0.65      0.68      0.63        37
+avg / total       0.66      0.73      0.69        37
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.67      0.96      0.79        23
+       actu       0.68      1.00      0.81        23
       brest       1.00      1.00      1.00         1
    concerts       0.00      0.00      0.00         1
-    culture       0.67      0.67      0.67         3
+    culture       1.00      0.67      0.80         3
     electro       0.00      0.00      0.00         2
-  festivals       0.00      0.00      0.00         1
+  festivals       0.00      0.00      0.00         2
        news       0.00      0.00      0.00         2
-      photo       0.00      0.00      0.00         4
+      photo       0.00      0.00      0.00         3
 
-avg / total       0.50      0.68      0.57        37
+avg / total       0.53      0.70      0.59        37
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
  Non classe       0.00      0.00      0.00         0
-       actu       0.82      0.39      0.53        23
-      brest       0.50      1.00      0.67         1
+       actu       0.80      0.35      0.48        23
+      brest       1.00      1.00      1.00         1
    concerts       0.00      0.00      0.00         1
     culture       0.25      0.33      0.29         3
     electro       0.00      0.00      0.00         2
-  festivals       0.00      0.00      0.00         1
+  festivals       0.00      0.00      0.00         2
        news       0.00      0.00      0.00         2
-      photo       0.19      0.75      0.30         4
+      photo       0.11      0.67      0.19         3
 
-avg / total       0.56      0.38      0.40        37
+avg / total       0.55      0.32      0.37        37
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
- Non classe       0.00      0.00      0.00         0
-       actu       0.86      0.83      0.84        23
-      brest       0.33      1.00      0.50         1
+       actu       0.79      0.83      0.81        23
+      brest       1.00      1.00      1.00         1
    concerts       0.00      0.00      0.00         1
-    culture       0.25      0.33      0.29         3
+    culture       0.50      0.67      0.57         3
     electro       0.00      0.00      0.00         2
-  festivals       0.00      0.00      0.00         1
+  festivals       0.00      0.00      0.00         2
        news       0.00      0.00      0.00         2
-      photo       0.50      0.50      0.50         4
+      photo       0.67      0.67      0.67         3
    pop rock       0.00      0.00      0.00         0
 
-avg / total       0.62      0.62      0.62        37
+avg / total       0.61      0.65      0.63        37
 
 <Results for Fold[8]>
-Fold train Matrix[8]:(337, 341)
-Fold test Matrix[8]:(37, 341)
+Fold train Matrix[8]:(333, 344)
+Fold test Matrix[8]:(37, 344)
 Linear SVM Classifier Accuracy:0.72972972973
-Multinomial Naive Bayes Accuracy:0.648648648649
-5 Nearest Neighbors Accuracy:0.486486486486
-Random Forest (25 learners) Accuracy:0.72972972973
+Multinomial Naive Bayes Accuracy:0.621621621622
+5 Nearest Neighbors Accuracy:0.513513513514
+Random Forest (25 learners) Accuracy:0.675675675676
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
  Non classe       1.00      1.00      1.00         1
-       actu       0.81      0.88      0.85        25
+       actu       0.81      0.88      0.84        24
       brest       0.00      0.00      0.00         0
    concerts       0.00      0.00      0.00         5
-    culture       1.00      1.00      1.00         1
+    culture       0.50      1.00      0.67         1
     electro       0.00      0.00      0.00         2
-  festivals       0.00      0.00      0.00         0
        news       0.00      0.00      0.00         0
-      photo       1.00      1.00      1.00         3
+      photo       0.80      1.00      0.89         4
    pop rock       0.00      0.00      0.00         0
 
-avg / total       0.69      0.73      0.71        37
+avg / total       0.65      0.73      0.69        37
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
  Non classe       0.00      0.00      0.00         1
-       actu       0.70      0.92      0.79        25
+       actu       0.67      0.92      0.77        24
       brest       0.00      0.00      0.00         0
    concerts       0.00      0.00      0.00         5
-    culture       1.00      1.00      1.00         1
+    culture       0.50      1.00      0.67         1
     electro       0.00      0.00      0.00         2
        news       0.00      0.00      0.00         0
-      photo       0.00      0.00      0.00         3
+      photo       0.00      0.00      0.00         4
 
-avg / total       0.50      0.65      0.56        37
+avg / total       0.45      0.62      0.52        37
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
  Non classe       0.00      0.00      0.00         1
-       actu       0.79      0.44      0.56        25
+       actu       0.79      0.46      0.58        24
       brest       0.00      0.00      0.00         0
    concerts       1.00      0.60      0.75         5
-    culture       1.00      1.00      1.00         1
+    culture       0.33      1.00      0.50         1
     electro       0.00      0.00      0.00         2
-      photo       0.23      1.00      0.38         3
+      photo       0.29      1.00      0.44         4
 
-avg / total       0.71      0.49      0.54        37
+avg / total       0.68      0.51      0.54        37
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
  Non classe       1.00      1.00      1.00         1
-       actu       0.85      0.88      0.86        25
+       actu       0.83      0.79      0.81        24
       brest       0.00      0.00      0.00         0
    concerts       0.00      0.00      0.00         5
-    culture       1.00      1.00      1.00         1
+    culture       0.50      1.00      0.67         1
     electro       0.00      0.00      0.00         2
        news       0.00      0.00      0.00         0
-      photo       0.75      1.00      0.86         3
+      photo       0.80      1.00      0.89         4
    pop rock       0.00      0.00      0.00         0
 
-avg / total       0.69      0.73      0.71        37
+avg / total       0.66      0.68      0.67        37
 
 <Results for Fold[9]>
-Fold train Matrix[9]:(337, 336)
-Fold test Matrix[9]:(37, 336)
+Fold train Matrix[9]:(333, 334)
+Fold test Matrix[9]:(37, 334)
 Linear SVM Classifier Accuracy:0.72972972973
 Multinomial Naive Bayes Accuracy:0.648648648649
-5 Nearest Neighbors Accuracy:0.513513513514
-Random Forest (25 learners) Accuracy:0.621621621622
+5 Nearest Neighbors Accuracy:0.459459459459
+Random Forest (25 learners) Accuracy:0.675675675676
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
- Non classe       0.00      0.00      0.00         0
-       actu       0.84      0.91      0.87        23
-      brest       0.00      0.00      0.00         3
+       actu       0.88      0.84      0.86        25
+      brest       0.00      0.00      0.00         1
    concerts       0.00      0.00      0.00         0
     culture       1.00      0.80      0.89         5
   festivals       0.00      0.00      0.00         3
+       news       0.00      0.00      0.00         0
       photo       0.40      0.67      0.50         3
 
-avg / total       0.69      0.73      0.70        37
+avg / total       0.76      0.73      0.74        37
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.66      1.00      0.79        23
-      brest       0.50      0.33      0.40         3
+       actu       0.69      0.96      0.80        25
+      brest       0.00      0.00      0.00         1
     culture       0.00      0.00      0.00         5
   festivals       0.00      0.00      0.00         3
+       news       0.00      0.00      0.00         0
       photo       0.00      0.00      0.00         3
 
-avg / total       0.45      0.65      0.53        37
+avg / total       0.46      0.65      0.54        37
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.79      0.48      0.59        23
-      brest       1.00      0.33      0.50         3
+       actu       0.83      0.40      0.54        25
+      brest       0.00      0.00      0.00         1
    concerts       0.00      0.00      0.00         0
     culture       1.00      0.80      0.89         5
     electro       0.00      0.00      0.00         0
   festivals       0.00      0.00      0.00         3
-      photo       0.20      1.00      0.33         3
+      photo       0.17      1.00      0.29         3
 
-avg / total       0.72      0.51      0.56        37
+avg / total       0.71      0.46      0.51        37
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.74      0.74      0.74        23
-      brest       1.00      0.33      0.50         3
-   concerts       0.00      0.00      0.00         0
+       actu       0.83      0.80      0.82        25
+      brest       0.00      0.00      0.00         1
     culture       1.00      0.40      0.57         5
   festivals       0.00      0.00      0.00         3
        news       0.00      0.00      0.00         0
-      photo       0.38      1.00      0.55         3
+      photo       0.33      1.00      0.50         3
 
-avg / total       0.71      0.62      0.62        37
+avg / total       0.73      0.68      0.67        37
 
 <Results for Fold[10]>
-Fold train Matrix[10]:(337, 340)
-Fold test Matrix[10]:(37, 340)
-Linear SVM Classifier Accuracy:0.648648648649
-Multinomial Naive Bayes Accuracy:0.594594594595
-5 Nearest Neighbors Accuracy:0.594594594595
+Fold train Matrix[10]:(333, 339)
+Fold test Matrix[10]:(37, 339)
+Linear SVM Classifier Accuracy:0.675675675676
+Multinomial Naive Bayes Accuracy:0.621621621622
+5 Nearest Neighbors Accuracy:0.567567567568
 Random Forest (25 learners) Accuracy:0.702702702703
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.78      0.78      0.78        23
+ Non classe       0.00      0.00      0.00         0
+       actu       0.86      0.78      0.82        23
 atlantique jazz festival       1.00      1.00      1.00         1
-      brest       0.67      1.00      0.80         2
+      brest       0.67      0.67      0.67         3
    concerts       0.00      0.00      0.00         1
-    culture       0.50      0.50      0.50         2
+    culture       0.67      1.00      0.80         2
   festivals       0.00      0.00      0.00         1
   materiels       0.00      0.00      0.00         0
        news       0.00      0.00      0.00         4
       photo       0.50      1.00      0.67         2
-run ar puns       0.00      0.00      0.00         1
 
-avg / total       0.60      0.65      0.62        37
+avg / total       0.68      0.68      0.67        37
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.62      0.91      0.74        23
+       actu       0.64      0.91      0.75        23
 atlantique jazz festival       0.00      0.00      0.00         1
-      brest       1.00      0.50      0.67         2
+      brest       1.00      0.67      0.80         3
    concerts       0.00      0.00      0.00         1
     culture       0.00      0.00      0.00         2
   festivals       0.00      0.00      0.00         1
   materiels       0.00      0.00      0.00         0
        news       0.00      0.00      0.00         4
       photo       0.00      0.00      0.00         2
-run ar puns       0.00      0.00      0.00         1
 
-avg / total       0.44      0.59      0.49        37
+avg / total       0.48      0.62      0.53        37
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.81      0.74      0.77        23
+       actu       0.93      0.61      0.74        23
 atlantique jazz festival       1.00      1.00      1.00         1
-      brest       0.33      0.50      0.40         2
-   concerts       0.00      0.00      0.00         1
-    culture       0.50      0.50      0.50         2
-  festivals       0.00      0.00      0.00         1
-       news       0.00      0.00      0.00         4
-      photo       0.22      1.00      0.36         2
-run ar puns       0.00      0.00      0.00         1
-
-avg / total       0.59      0.59      0.58        37
-
-<Random Forest (25 learners) Classifier Metrics>
-             precision    recall  f1-score   support
-
-       actu       0.87      0.87      0.87        23
-atlantique jazz festival       1.00      1.00      1.00         1
-      brest       0.33      0.50      0.40         2
+      brest       0.67      0.67      0.67         3
    concerts       0.00      0.00      0.00         1
     culture       0.50      1.00      0.67         2
   festivals       0.00      0.00      0.00         1
        news       0.00      0.00      0.00         4
-      photo       0.50      1.00      0.67         2
-run ar puns       0.00      0.00      0.00         1
+      photo       0.15      1.00      0.27         2
 
-avg / total       0.64      0.70      0.66        37
+avg / total       0.70      0.57      0.59        37
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+       actu       0.83      0.87      0.85        23
+atlantique jazz festival       0.00      0.00      0.00         1
+      brest       0.67      0.67      0.67         3
+   concerts       0.00      0.00      0.00         1
+    culture       0.50      1.00      0.67         2
+  festivals       0.00      0.00      0.00         1
+       news       0.00      0.00      0.00         4
+      photo       0.40      1.00      0.57         2
+
+avg / total       0.62      0.70      0.65        37
 

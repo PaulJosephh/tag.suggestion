@@ -9,5 +9,5 @@ Fold test Matrix[1]:(177, 174806)
 Linear SVM Classifier Accuracy:0.875706214689
 Multinomial Naive Bayes Accuracy:0.514124293785
 5 Nearest Neighbors Accuracy:0.54802259887
-Random Forest (25 learners) Accuracy:0.915254237288
+Random Forest (25 learners) Accuracy:0.898305084746
 <Linear SVM Classifier Metrics>

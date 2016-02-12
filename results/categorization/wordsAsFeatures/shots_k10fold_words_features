@@ -138,8 +138,8 @@ avg / total       0.40      0.55      0.43        38
              precision    recall  f1-score   support
 
  Non classe       0.00      0.00      0.00         1
-       actu       0.53      0.95      0.68        20
-      brest       1.00      0.33      0.50         3
+       actu       0.53      1.00      0.69        20
+      brest       0.00      0.00      0.00         3
    concerts       0.00      0.00      0.00         1
     culture       0.00      0.00      0.00         2
   festivals       0.00      0.00      0.00         1
@@ -149,7 +149,7 @@ avg / total       0.40      0.55      0.43        38
       photo       0.00      0.00      0.00         3
    pop rock       0.00      0.00      0.00         1
 
-avg / total       0.36      0.53      0.40        38
+avg / total       0.28      0.53      0.36        38
 
 <Results for Fold[3]>
 Fold train Matrix[3]:(336, 143978)
@@ -159,7 +159,7 @@ Fold test Matrix[3]:(38, 143978)
 Linear SVM Classifier Accuracy:0.578947368421
 Multinomial Naive Bayes Accuracy:0.605263157895
 5 Nearest Neighbors Accuracy:0.657894736842
-Random Forest (25 learners) Accuracy:0.631578947368
+Random Forest (25 learners) Accuracy:0.657894736842
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -208,9 +208,9 @@ avg / total       0.57      0.66      0.59        38
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.62      1.00      0.77        23
+       actu       0.64      1.00      0.78        23
 atlantique jazz festival       0.00      0.00      0.00         1
-      brest       0.00      0.00      0.00         3
+      brest       1.00      0.33      0.50         3
    concerts       0.00      0.00      0.00         1
     culture       1.00      0.20      0.33         5
     electro       0.00      0.00      0.00         1
@@ -218,7 +218,7 @@ atlantique jazz festival       0.00      0.00      0.00         1
        news       0.00      0.00      0.00         2
       photo       0.00      0.00      0.00         1
 
-avg / total       0.51      0.63      0.51        38
+avg / total       0.60      0.66      0.56        38
 
 <Results for Fold[4]>
 Fold train Matrix[4]:(336, 146276)
@@ -274,16 +274,16 @@ avg / total       0.55      0.61      0.52        38
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.56      0.95      0.70        20
+       actu       0.54      1.00      0.70        20
       brest       0.00      0.00      0.00         3
    concerts       0.00      0.00      0.00         4
-    culture       1.00      0.25      0.40         4
+    culture       0.00      0.00      0.00         4
     electro       0.00      0.00      0.00         3
   materiels       0.00      0.00      0.00         1
        news       0.00      0.00      0.00         1
       photo       0.00      0.00      0.00         2
 
-avg / total       0.40      0.53      0.41        38
+avg / total       0.28      0.53      0.37        38
 
 <Results for Fold[5]>
 Fold train Matrix[5]:(337, 144448)
@@ -474,7 +474,7 @@ avg / total       0.63      0.68      0.62        37
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.62      1.00      0.77        23
+       actu       0.64      1.00      0.78        23
       brest       0.00      0.00      0.00         1
    concerts       0.00      0.00      0.00         1
     culture       0.00      0.00      0.00         3
@@ -483,7 +483,7 @@ avg / total       0.63      0.68      0.62        37
        news       0.00      0.00      0.00         2
       photo       0.00      0.00      0.00         4
 
-avg / total       0.39      0.62      0.48        37
+avg / total       0.40      0.62      0.48        37
 
 <Results for Fold[8]>
 Fold train Matrix[8]:(337, 143387)
@@ -493,7 +493,7 @@ Fold test Matrix[8]:(37, 143387)
 Linear SVM Classifier Accuracy:0.675675675676
 Multinomial Naive Bayes Accuracy:0.675675675676
 5 Nearest Neighbors Accuracy:0.702702702703
-Random Forest (25 learners) Accuracy:0.648648648649
+Random Forest (25 learners) Accuracy:0.675675675676
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -534,13 +534,14 @@ avg / total       0.59      0.70      0.62        37
              precision    recall  f1-score   support
 
  Non classe       0.00      0.00      0.00         1
-       actu       0.67      0.96      0.79        25
+       actu       0.71      1.00      0.83        25
+      brest       0.00      0.00      0.00         0
    concerts       0.00      0.00      0.00         5
     culture       0.00      0.00      0.00         1
     electro       0.00      0.00      0.00         2
       photo       0.00      0.00      0.00         3
 
-avg / total       0.45      0.65      0.53        37
+avg / total       0.48      0.68      0.56        37
 
 <Results for Fold[9]>
 Fold train Matrix[9]:(337, 147047)
@@ -588,13 +589,13 @@ avg / total       0.49      0.62      0.54        37
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.62      1.00      0.77        23
+       actu       0.64      1.00      0.78        23
       brest       0.00      0.00      0.00         3
     culture       0.00      0.00      0.00         5
   festivals       0.00      0.00      0.00         3
       photo       0.00      0.00      0.00         3
 
-avg / total       0.39      0.62      0.48        37
+avg / total       0.40      0.62      0.48        37
 
 <Results for Fold[10]>
 Fold train Matrix[10]:(337, 145077)
@@ -654,7 +655,7 @@ avg / total       0.40      0.59      0.48        37
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-       actu       0.66      1.00      0.79        23
+       actu       0.64      1.00      0.78        23
 atlantique jazz festival       0.00      0.00      0.00         1
       brest       0.00      0.00      0.00         2
    concerts       0.00      0.00      0.00         1
@@ -664,5 +665,5 @@ atlantique jazz festival       0.00      0.00      0.00         1
       photo       0.00      0.00      0.00         2
 run ar puns       0.00      0.00      0.00         1
 
-avg / total       0.46      0.65      0.53        37
+avg / total       0.45      0.65      0.52        37
 

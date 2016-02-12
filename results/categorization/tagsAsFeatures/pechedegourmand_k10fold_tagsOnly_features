@@ -1,10 +1,10 @@
 <Experiment for data located in ../../corpus/corpus2_dates/xpechedegourmand/>
-Size of matrix:(1721, 265)
+Size of matrix:(1675, 265)
 <Results for Fold[1]>
-Fold train Matrix[1]:(1548, 259)
-Fold test Matrix[1]:(173, 259)
-Linear SVM Classifier Accuracy:0.768786127168
-Multinomial Naive Bayes Accuracy:0.705202312139
-5 Nearest Neighbors Accuracy:0.491329479769
-Random Forest (25 learners) Accuracy:0.745664739884
+Fold train Matrix[1]:(1507, 259)
+Fold test Matrix[1]:(168, 259)
+Linear SVM Classifier Accuracy:0.761904761905
+Multinomial Naive Bayes Accuracy:0.72619047619
+5 Nearest Neighbors Accuracy:0.636904761905
+Random Forest (25 learners) Accuracy:0.761904761905
 <Linear SVM Classifier Metrics>

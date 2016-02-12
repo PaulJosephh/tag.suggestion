@@ -1,10 +1,10 @@
 <Experiment for data located in ../../corpus/corpus2_dates/xjulsa/>
-Size of matrix:(1501, 3146)
+Size of matrix:(1482, 3146)
 <Results for Fold[1]>
-Fold train Matrix[1]:(1350, 2889)
-Fold test Matrix[1]:(151, 2889)
-Linear SVM Classifier Accuracy:0.774834437086
-Multinomial Naive Bayes Accuracy:0.715231788079
-5 Nearest Neighbors Accuracy:0.576158940397
-Random Forest (25 learners) Accuracy:0.741721854305
+Fold train Matrix[1]:(1333, 2891)
+Fold test Matrix[1]:(149, 2891)
+Linear SVM Classifier Accuracy:0.778523489933
+Multinomial Naive Bayes Accuracy:0.718120805369
+5 Nearest Neighbors Accuracy:0.671140939597
+Random Forest (25 learners) Accuracy:0.738255033557
 <Linear SVM Classifier Metrics>

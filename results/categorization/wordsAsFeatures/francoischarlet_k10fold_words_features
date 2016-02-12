@@ -9,7 +9,7 @@ Fold test Matrix[1]:(49, 115287)
 Linear SVM Classifier Accuracy:0.959183673469
 Multinomial Naive Bayes Accuracy:0.714285714286
 5 Nearest Neighbors Accuracy:0.836734693878
-Random Forest (25 learners) Accuracy:0.959183673469
+Random Forest (25 learners) Accuracy:0.918367346939
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -43,12 +43,12 @@ avg / total       0.83      0.84      0.81        49
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-       Blog       1.00      1.00      1.00         2
+       Blog       0.50      1.00      0.67         2
       Droit       0.95      1.00      0.97        35
     Opinion       1.00      0.60      0.75         5
-Technologies       1.00      1.00      1.00         7
+Technologies       1.00      0.71      0.83         7
 
-avg / total       0.96      0.96      0.95        49
+avg / total       0.94      0.92      0.92        49
 
 <Results for Fold[2]>
 Fold train Matrix[2]:(436, 116443)
@@ -107,7 +107,7 @@ Fold test Matrix[3]:(49, 116722)
 Linear SVM Classifier Accuracy:0.979591836735
 Multinomial Naive Bayes Accuracy:0.571428571429
 5 Nearest Neighbors Accuracy:0.755102040816
-Random Forest (25 learners) Accuracy:0.959183673469
+Random Forest (25 learners) Accuracy:0.979591836735
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -142,11 +142,11 @@ avg / total       0.79      0.76      0.72        49
              precision    recall  f1-score   support
 
        Blog       1.00      0.67      0.80         3
-      Droit       0.93      1.00      0.97        28
-    Opinion       1.00      0.93      0.96        14
+      Droit       0.97      1.00      0.98        28
+    Opinion       1.00      1.00      1.00        14
 Technologies       1.00      1.00      1.00         4
 
-avg / total       0.96      0.96      0.96        49
+avg / total       0.98      0.98      0.98        49
 
 <Results for Fold[4]>
 Fold train Matrix[4]:(436, 114383)
@@ -205,7 +205,7 @@ Fold test Matrix[5]:(49, 114153)
 Linear SVM Classifier Accuracy:0.877551020408
 Multinomial Naive Bayes Accuracy:0.551020408163
 5 Nearest Neighbors Accuracy:0.632653061224
-Random Forest (25 learners) Accuracy:0.857142857143
+Random Forest (25 learners) Accuracy:0.877551020408
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -240,11 +240,11 @@ avg / total       0.70      0.63      0.60        49
              precision    recall  f1-score   support
 
        Blog       1.00      1.00      1.00         1
-      Droit       0.79      1.00      0.89        27
-    Opinion       1.00      0.58      0.74        12
+      Droit       0.82      1.00      0.90        27
+    Opinion       1.00      0.67      0.80        12
 Technologies       1.00      0.78      0.88         9
 
-avg / total       0.89      0.86      0.85        49
+avg / total       0.90      0.88      0.87        49
 
 <Results for Fold[6]>
 Fold train Matrix[6]:(437, 115206)
@@ -398,7 +398,7 @@ Fold test Matrix[9]:(48, 116181)
 Linear SVM Classifier Accuracy:0.958333333333
 Multinomial Naive Bayes Accuracy:0.541666666667
 5 Nearest Neighbors Accuracy:0.666666666667
-Random Forest (25 learners) Accuracy:0.916666666667
+Random Forest (25 learners) Accuracy:0.895833333333
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -433,11 +433,11 @@ avg / total       0.67      0.67      0.62        48
              precision    recall  f1-score   support
 
        Blog       1.00      1.00      1.00         1
-      Droit       0.87      1.00      0.93        26
-    Opinion       1.00      1.00      1.00        10
+      Droit       0.84      1.00      0.91        26
+    Opinion       1.00      0.90      0.95        10
 Technologies       1.00      0.64      0.78        11
 
-avg / total       0.93      0.92      0.91        48
+avg / total       0.91      0.90      0.89        48
 
 <Results for Fold[10]>
 Fold train Matrix[10]:(437, 115236)
@@ -447,7 +447,7 @@ Fold test Matrix[10]:(48, 115236)
 Linear SVM Classifier Accuracy:0.958333333333
 Multinomial Naive Bayes Accuracy:0.583333333333
 5 Nearest Neighbors Accuracy:0.729166666667
-Random Forest (25 learners) Accuracy:0.958333333333
+Random Forest (25 learners) Accuracy:0.9375
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -482,9 +482,9 @@ avg / total       0.72      0.73      0.68        48
              precision    recall  f1-score   support
 
        Blog       1.00      1.00      1.00         2
-      Droit       0.93      1.00      0.97        28
+      Droit       0.90      1.00      0.95        28
     Opinion       1.00      1.00      1.00         6
-Technologies       1.00      0.83      0.91        12
+Technologies       1.00      0.75      0.86        12
 
-avg / total       0.96      0.96      0.96        48
+avg / total       0.94      0.94      0.93        48
 

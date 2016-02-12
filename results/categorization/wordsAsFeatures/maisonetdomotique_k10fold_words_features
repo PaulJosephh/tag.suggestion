@@ -93,26 +93,26 @@ avg / total       0.36      0.40      0.37        35
 Administratif       0.00      0.00      0.00         1
 Audio/Video       0.00      0.00      0.00         1
 Constructeur       0.00      0.00      0.00         1
-  Domotique       0.50      0.88      0.64         8
+  Domotique       0.35      0.75      0.48         8
 Guides Audio / Video       0.00      0.00      0.00         1
 Guides Automatismes       0.00      0.00      0.00         1
 Guides Box Domotique       0.00      0.00      0.00         0
 Guides Informatiques       0.00      0.00      0.00         1
 Guides Securite       0.00      0.00      0.00         1
 Informatique       0.50      1.00      0.67         1
-       News       0.00      0.00      0.00         0
-Objets Connectes       0.29      0.50      0.36         4
-Peripheriques Z-Wave       0.00      0.00      0.00         0
+     Maison       0.00      0.00      0.00         0
+Objets Connectes       0.50      0.75      0.60         4
   Robotique       0.00      0.00      0.00         2
       Sante       0.00      0.00      0.00         1
 Test Materiel Informatique       0.00      0.00      0.00         3
 Test Peripheriques Domotiques       0.00      0.00      0.00         1
+Tests Audio / Video       0.00      0.00      0.00         0
 Tests Box Domotique       0.00      0.00      0.00         2
 Tests Equipement Maison       0.00      0.00      0.00         1
 Tests Objets Connectes       0.00      0.00      0.00         4
      Veille       0.00      0.00      0.00         1
 
-avg / total       0.16      0.29      0.21        35
+avg / total       0.15      0.29      0.20        35
 
 <Results for Fold[2]>
 Fold train Matrix[2]:(308, 95506)
@@ -122,7 +122,7 @@ Fold test Matrix[2]:(35, 95506)
 Linear SVM Classifier Accuracy:0.371428571429
 Multinomial Naive Bayes Accuracy:0.342857142857
 5 Nearest Neighbors Accuracy:0.628571428571
-Random Forest (25 learners) Accuracy:0.314285714286
+Random Forest (25 learners) Accuracy:0.285714285714
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -194,16 +194,15 @@ avg / total       0.56      0.63      0.58        35
              precision    recall  f1-score   support
 
    BlyssBox       0.00      0.00      0.00         1
-  Domotique       0.33      0.78      0.47         9
+  Domotique       0.27      0.44      0.33         9
  Evenements       0.00      0.00      0.00         1
 Guides Audio / Video       0.00      0.00      0.00         3
-Guides Automatismes       0.00      0.00      0.00         0
 Guides Box Domotique       0.00      0.00      0.00         2
 Guides Eclairage       0.00      0.00      0.00         1
 Guides Informatiques       0.00      0.00      0.00         1
      Maison       0.00      0.00      0.00         2
        News       0.00      0.00      0.00         1
-Objets Connectes       0.38      0.75      0.50         4
+Objets Connectes       0.31      1.00      0.47         4
 Peripheriques Wifi       0.00      0.00      0.00         1
 Peripheriques Z-Wave       0.00      0.00      0.00         2
  Smartwatch       0.00      0.00      0.00         1
@@ -211,9 +210,9 @@ Test Materiel Informatique       0.00      0.00      0.00         0
 Test Peripheriques Domotiques       0.00      0.00      0.00         1
 Tests Audio / Video       1.00      0.25      0.40         4
 Tests Box Domotique       0.00      0.00      0.00         0
-Tests Objets Connectes       0.00      0.00      0.00         1
+Tests Objets Connectes       1.00      1.00      1.00         1
 
-avg / total       0.24      0.31      0.22        35
+avg / total       0.25      0.29      0.21        35
 
 <Results for Fold[3]>
 Fold train Matrix[3]:(308, 93388)
@@ -223,7 +222,7 @@ Fold test Matrix[3]:(35, 93388)
 Linear SVM Classifier Accuracy:0.228571428571
 Multinomial Naive Bayes Accuracy:0.142857142857
 5 Nearest Neighbors Accuracy:0.314285714286
-Random Forest (25 learners) Accuracy:0.228571428571
+Random Forest (25 learners) Accuracy:0.0857142857143
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -313,17 +312,17 @@ avg / total       0.32      0.31      0.29        35
 Audio/Video       0.00      0.00      0.00         2
    BlyssBox       0.00      0.00      0.00         1
 Constructeur       0.00      0.00      0.00         2
-  Domotique       0.15      0.60      0.24         5
-Guides Audio / Video       0.50      1.00      0.67         1
+  Domotique       0.06      0.20      0.09         5
+Guides Audio / Video       0.00      0.00      0.00         1
 Guides Automatismes       0.00      0.00      0.00         1
 Guides Box Domotique       0.00      0.00      0.00         0
-Guides Chauffage       1.00      1.00      1.00         1
+Guides Chauffage       0.00      0.00      0.00         1
 Guides Eclairage       0.00      0.00      0.00         1
-Guides Informatiques       0.00      0.00      0.00         1
+Guides Informatiques       0.25      1.00      0.40         1
 Guides Securite       0.00      0.00      0.00         1
 Informatique       0.00      0.00      0.00         2
      Maison       0.00      0.00      0.00         4
-Objets Connectes       0.33      1.00      0.50         2
+Objets Connectes       0.00      0.00      0.00         2
 Peripheriques Z-Wave       0.00      0.00      0.00         0
   Robotique       0.00      0.00      0.00         1
 Test Materiel Informatique       0.00      0.00      0.00         1
@@ -333,7 +332,7 @@ Tests Logiciels       0.00      0.00      0.00         3
 Tests Objets Connectes       0.50      1.00      0.67         1
      Veille       0.00      0.00      0.00         2
 
-avg / total       0.10      0.23      0.13        35
+avg / total       0.03      0.09      0.04        35
 
 <Results for Fold[4]>
 Fold train Matrix[4]:(309, 93606)
@@ -343,7 +342,7 @@ Fold test Matrix[4]:(34, 93606)
 Linear SVM Classifier Accuracy:0.176470588235
 Multinomial Naive Bayes Accuracy:0.0882352941176
 5 Nearest Neighbors Accuracy:0.5
-Random Forest (25 learners) Accuracy:0.117647058824
+Random Forest (25 learners) Accuracy:0.235294117647
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -426,20 +425,21 @@ avg / total       0.57      0.50      0.48        34
 
 Administratif       0.00      0.00      0.00         1
    BlyssBox       0.00      0.00      0.00         1
-  Domotique       0.11      0.67      0.18         3
+  Domotique       0.10      0.67      0.17         3
 Guides Audio / Video       0.00      0.00      0.00         1
 Guides Automatismes       0.00      0.00      0.00         1
 Guides Box Domotique       0.00      0.00      0.00         0
 Guides Chauffage       0.00      0.00      0.00         3
 Guides Eclairage       0.00      0.00      0.00         1
+Guides Informatiques       0.00      0.00      0.00         0
 Guides Securite       0.00      0.00      0.00         1
 Informatique       0.00      0.00      0.00         1
-       News       0.00      0.00      0.00         2
-Objets Connectes       0.33      0.33      0.33         6
+       News       1.00      0.50      0.67         2
+Objets Connectes       0.62      0.83      0.71         6
 Peripheriques Z-Wave       0.00      0.00      0.00         2
  Smartwatch       0.00      0.00      0.00         1
 Test Materiel Informatique       0.00      0.00      0.00         2
-Test Peripheriques Domotiques       0.00      0.00      0.00         0
+Tests Audio / Video       0.00      0.00      0.00         0
 Tests Box Domotique       0.00      0.00      0.00         2
 Tests Equipement Maison       0.00      0.00      0.00         2
 Tests Logiciels       0.00      0.00      0.00         2
@@ -447,7 +447,7 @@ Tests Objets Connectes       0.00      0.00      0.00         0
 Tests Robots       0.00      0.00      0.00         1
      Veille       0.00      0.00      0.00         1
 
-avg / total       0.07      0.12      0.07        34
+avg / total       0.18      0.24      0.18        34
 
 <Results for Fold[5]>
 Fold train Matrix[5]:(309, 95536)
@@ -457,7 +457,7 @@ Fold test Matrix[5]:(34, 95536)
 Linear SVM Classifier Accuracy:0.264705882353
 Multinomial Naive Bayes Accuracy:0.147058823529
 5 Nearest Neighbors Accuracy:0.470588235294
-Random Forest (25 learners) Accuracy:0.205882352941
+Random Forest (25 learners) Accuracy:0.235294117647
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -537,7 +537,8 @@ avg / total       0.57      0.47      0.46        34
              precision    recall  f1-score   support
 
    BlyssBox       0.00      0.00      0.00         1
-  Domotique       0.19      0.60      0.29         5
+Constructeur       0.00      0.00      0.00         0
+  Domotique       0.20      0.80      0.32         5
  Evenements       0.00      0.00      0.00         2
 Guides Audio / Video       0.00      0.00      0.00         1
 Guides Box Domotique       0.00      0.00      0.00         1
@@ -545,9 +546,8 @@ Guides Informatiques       0.00      0.00      0.00         2
 Guides Securite       0.00      0.00      0.00         1
      Maison       0.00      0.00      0.00         4
        News       0.00      0.00      0.00         1
-Objets Connectes       0.40      0.67      0.50         6
+Objets Connectes       0.67      0.67      0.67         6
 Peripheriques Z-Wave       0.00      0.00      0.00         1
-  Robotique       0.00      0.00      0.00         0
 Test Materiel Informatique       0.00      0.00      0.00         0
 Test Peripheriques Domotiques       0.00      0.00      0.00         1
 Tests Audio / Video       0.00      0.00      0.00         2
@@ -558,7 +558,7 @@ Tests Objets Connectes       0.00      0.00      0.00         0
 Tests Robots       0.00      0.00      0.00         1
      Veille       0.00      0.00      0.00         1
 
-avg / total       0.10      0.21      0.13        34
+avg / total       0.15      0.24      0.16        34
 
 <Results for Fold[6]>
 Fold train Matrix[6]:(309, 92540)
@@ -568,7 +568,7 @@ Fold test Matrix[6]:(34, 92540)
 Linear SVM Classifier Accuracy:0.382352941176
 Multinomial Naive Bayes Accuracy:0.176470588235
 5 Nearest Neighbors Accuracy:0.470588235294
-Random Forest (25 learners) Accuracy:0.323529411765
+Random Forest (25 learners) Accuracy:0.294117647059
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -643,25 +643,25 @@ avg / total       0.44      0.47      0.43        34
              precision    recall  f1-score   support
 
 Administratif       0.00      0.00      0.00         1
-Audio/Video       0.00      0.00      0.00         2
-  Domotique       0.30      1.00      0.46         6
+Audio/Video       1.00      0.50      0.67         2
+  Domotique       0.25      0.83      0.38         6
  Evenements       0.00      0.00      0.00         2
-Guides Audio / Video       0.00      0.00      0.00         1
+Guides Audio / Video       1.00      1.00      1.00         1
 Guides Automatismes       0.00      0.00      0.00         3
 Guides Box Domotique       0.00      0.00      0.00         2
-Guides Informatiques       1.00      1.00      1.00         3
+Guides Informatiques       0.67      0.67      0.67         3
 Informatique       0.00      0.00      0.00         2
        News       0.00      0.00      0.00         1
-Objets Connectes       0.50      0.50      0.50         4
+Objets Connectes       0.00      0.00      0.00         4
 Peripheriques Chacon / MyFox       0.00      0.00      0.00         1
-Peripheriques Z-Wave       0.00      0.00      0.00         3
+Peripheriques Z-Wave       1.00      0.33      0.50         3
 Tests Box Domotique       0.00      0.00      0.00         1
-Tests Logiciels       0.00      0.00      0.00         0
+Tests Equipement Maison       0.00      0.00      0.00         0
 Tests Objets Connectes       0.00      0.00      0.00         0
      Veille       0.00      0.00      0.00         1
     eeDomus       0.00      0.00      0.00         1
 
-avg / total       0.20      0.32      0.23        34
+avg / total       0.28      0.29      0.24        34
 
 <Results for Fold[7]>
 Fold train Matrix[7]:(309, 93200)
@@ -671,7 +671,7 @@ Fold test Matrix[7]:(34, 93200)
 Linear SVM Classifier Accuracy:0.411764705882
 Multinomial Naive Bayes Accuracy:0.264705882353
 5 Nearest Neighbors Accuracy:0.470588235294
-Random Forest (25 learners) Accuracy:0.323529411765
+Random Forest (25 learners) Accuracy:0.294117647059
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -749,26 +749,25 @@ avg / total       0.54      0.47      0.44        34
 
 Administratif       0.00      0.00      0.00         1
 Constructeur       0.00      0.00      0.00         1
-  Domotique       0.32      1.00      0.48         8
+  Domotique       0.31      1.00      0.47         8
 Guides Audio / Video       0.00      0.00      0.00         0
 Guides Automatismes       0.00      0.00      0.00         1
-Guides Box Domotique       0.00      0.00      0.00         0
 Guides Chauffage       0.00      0.00      0.00         1
 Guides Eclairage       0.00      0.00      0.00         3
-Guides Informatiques       0.00      0.00      0.00         2
+Guides Informatiques       0.33      0.50      0.40         2
 Guides Securite       0.00      0.00      0.00         1
 Informatique       0.00      0.00      0.00         2
        News       0.00      0.00      0.00         1
-Objets Connectes       0.60      0.50      0.55         6
+Objets Connectes       0.50      0.17      0.25         6
  Smartwatch       0.00      0.00      0.00         2
-Tests Box Domotique       0.00      0.00      0.00         0
+Tests Audio / Video       0.00      0.00      0.00         0
 Tests Equipement Maison       0.00      0.00      0.00         1
 Tests Logiciels       0.00      0.00      0.00         1
 Tests Objets Connectes       0.00      0.00      0.00         1
 Tests Robots       0.00      0.00      0.00         1
      Veille       0.00      0.00      0.00         1
 
-avg / total       0.18      0.32      0.21        34
+avg / total       0.18      0.29      0.18        34
 
 <Results for Fold[8]>
 Fold train Matrix[8]:(309, 95734)
@@ -778,7 +777,7 @@ Fold test Matrix[8]:(34, 95734)
 Linear SVM Classifier Accuracy:0.470588235294
 Multinomial Naive Bayes Accuracy:0.382352941176
 5 Nearest Neighbors Accuracy:0.558823529412
-Random Forest (25 learners) Accuracy:0.323529411765
+Random Forest (25 learners) Accuracy:0.382352941176
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -848,24 +847,23 @@ avg / total       0.55      0.56      0.54        34
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-  Domotique       0.33      0.33      0.33        12
+  Domotique       0.38      0.50      0.43        12
 Guides Audio / Video       0.00      0.00      0.00         1
-Guides Box Domotique       0.00      0.00      0.00         1
-Guides Informatiques       0.50      0.50      0.50         2
+Guides Box Domotique       1.00      1.00      1.00         1
+Guides Informatiques       1.00      0.50      0.67         2
 Guides Securite       0.00      0.00      0.00         2
 Informatique       0.00      0.00      0.00         3
        News       0.00      0.00      0.00         1
-Objets Connectes       0.23      1.00      0.38         3
-Peripheriques Z-Wave       0.00      0.00      0.00         0
+Objets Connectes       0.25      1.00      0.40         3
  Smartwatch       0.00      0.00      0.00         2
 Test Materiel Informatique       0.00      0.00      0.00         1
 Tests Audio / Video       1.00      1.00      1.00         1
-Tests Box Domotique       0.50      1.00      0.67         1
+Tests Box Domotique       0.00      0.00      0.00         1
 Tests Equipement Maison       0.00      0.00      0.00         1
 Tests Logiciels       0.00      0.00      0.00         1
 Tests Objets Connectes       0.50      0.50      0.50         2
 
-avg / total       0.24      0.32      0.26        34
+avg / total       0.30      0.38      0.31        34
 
 <Results for Fold[9]>
 Fold train Matrix[9]:(309, 95516)
@@ -875,7 +873,7 @@ Fold test Matrix[9]:(34, 95516)
 Linear SVM Classifier Accuracy:0.382352941176
 Multinomial Naive Bayes Accuracy:0.235294117647
 5 Nearest Neighbors Accuracy:0.5
-Random Forest (25 learners) Accuracy:0.352941176471
+Random Forest (25 learners) Accuracy:0.294117647059
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -957,25 +955,26 @@ avg / total       0.43      0.50      0.44        34
 
 Audio/Video       0.00      0.00      0.00         1
 Constructeur       0.00      0.00      0.00         1
-  Domotique       0.20      0.67      0.31         6
+  Domotique       0.24      1.00      0.39         6
  Evenements       0.00      0.00      0.00         1
 Guides Audio / Video       0.00      0.00      0.00         1
-Guides Box Domotique       1.00      0.33      0.50         3
+Guides Box Domotique       0.00      0.00      0.00         3
 Guides Chauffage       0.00      0.00      0.00         1
 Guides Informatiques       0.00      0.00      0.00         0
 Guides Securite       0.00      0.00      0.00         1
 Informatique       1.00      0.50      0.67         2
      Maison       0.00      0.00      0.00         2
        News       0.00      0.00      0.00         2
-Objets Connectes       0.67      1.00      0.80         6
+Objets Connectes       0.60      0.50      0.55         6
 Peripheriques Z-Wave       0.00      0.00      0.00         1
   Robotique       0.00      0.00      0.00         1
  Smartwatch       0.00      0.00      0.00         1
 Test Peripheriques Domotiques       0.00      0.00      0.00         1
 Tests Audio / Video       0.00      0.00      0.00         1
 Tests Box Domotique       0.00      0.00      0.00         2
+Tests Equipement Maison       0.00      0.00      0.00         0
 
-avg / total       0.30      0.35      0.28        34
+avg / total       0.21      0.29      0.20        34
 
 <Results for Fold[10]>
 Fold train Matrix[10]:(309, 95279)
@@ -985,7 +984,7 @@ Fold test Matrix[10]:(34, 95279)
 Linear SVM Classifier Accuracy:0.441176470588
 Multinomial Naive Bayes Accuracy:0.264705882353
 5 Nearest Neighbors Accuracy:0.558823529412
-Random Forest (25 learners) Accuracy:0.441176470588
+Random Forest (25 learners) Accuracy:0.529411764706
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
@@ -1054,22 +1053,21 @@ avg / total       0.55      0.56      0.54        34
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-  Domotique       0.33      0.86      0.48         7
+  Domotique       0.43      0.86      0.57         7
 Guides Audio / Video       0.00      0.00      0.00         1
-Guides Automatismes       1.00      0.50      0.67         2
-Guides Box Domotique       0.00      0.00      0.00         2
-Guides Informatiques       1.00      0.33      0.50         3
+Guides Automatismes       0.00      0.00      0.00         2
+Guides Box Domotique       0.50      0.50      0.50         2
+Guides Informatiques       0.50      0.67      0.57         3
 Informatique       0.00      0.00      0.00         1
      Maison       0.00      0.00      0.00         1
        News       0.00      0.00      0.00         1
 Objets Connectes       0.67      0.75      0.71         8
 Peripheriques ZigBee       0.00      0.00      0.00         1
   Robotique       0.00      0.00      0.00         2
-Test Materiel Informatique       0.00      0.00      0.00         0
-Tests Audio / Video       1.00      0.50      0.67         2
+Tests Audio / Video       1.00      1.00      1.00         2
 Tests Box Domotique       0.00      0.00      0.00         0
 Tests Equipement Maison       0.00      0.00      0.00         1
-Tests Objets Connectes       0.00      0.00      0.00         2
+Tests Objets Connectes       0.50      0.50      0.50         2
 
-avg / total       0.43      0.44      0.39        34
+avg / total       0.41      0.53      0.45        34
 

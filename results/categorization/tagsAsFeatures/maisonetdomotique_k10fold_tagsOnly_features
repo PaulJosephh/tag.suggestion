@@ -1,19 +1,17 @@
 <Experiment for data located in ../../corpus/corpus2_dates/xmaisonetdomotique/>
-Size of matrix:(343, 397)
+Size of matrix:(321, 397)
 <Results for Fold[1]>
-Fold train Matrix[1]:(308, 361)
-Fold test Matrix[1]:(35, 361)
-Linear SVM Classifier Accuracy:0.285714285714
-Multinomial Naive Bayes Accuracy:0.314285714286
-5 Nearest Neighbors Accuracy:0.114285714286
-Random Forest (25 learners) Accuracy:0.285714285714
+Fold train Matrix[1]:(288, 361)
+Fold test Matrix[1]:(33, 361)
+Linear SVM Classifier Accuracy:0.363636363636
+Multinomial Naive Bayes Accuracy:0.333333333333
+5 Nearest Neighbors Accuracy:0.212121212121
+Random Forest (25 learners) Accuracy:0.242424242424
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         1
 Audio/Video       0.00      0.00      0.00         1
-Constructeur       0.00      0.00      0.00         1
-  Domotique       0.29      0.62      0.40         8
+  Domotique       0.36      0.62      0.45         8
 Guides Audio / Video       0.00      0.00      0.00         1
 Guides Automatismes       0.00      0.00      0.00         1
 Guides Informatiques       0.00      0.00      0.00         1
@@ -22,26 +20,24 @@ Informatique       0.00      0.00      0.00         1
        News       0.00      0.00      0.00         0
 Objets Connectes       0.75      0.75      0.75         4
 Peripheriques Z-Wave       0.00      0.00      0.00         0
-  Robotique       0.00      0.00      0.00         2
+  Robotique       1.00      1.00      1.00         2
       Sante       0.00      0.00      0.00         1
 Test Materiel Informatique       0.00      0.00      0.00         3
 Test Peripheriques Domotiques       0.00      0.00      0.00         1
 Tests Box Domotique       0.00      0.00      0.00         2
 Tests Equipement Maison       0.00      0.00      0.00         1
+Tests Logiciels       0.00      0.00      0.00         0
 Tests Objets Connectes       0.67      0.50      0.57         4
-Tests Robots       0.00      0.00      0.00         0
      Veille       0.00      0.00      0.00         1
     eeDomus       0.00      0.00      0.00         0
 
-avg / total       0.23      0.29      0.24        35
+avg / total       0.32      0.36      0.33        33
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         1
 Audio/Video       0.00      0.00      0.00         1
-Constructeur       0.00      0.00      0.00         1
-  Domotique       0.26      0.88      0.40         8
+  Domotique       0.28      0.88      0.42         8
 Guides Audio / Video       0.00      0.00      0.00         1
 Guides Automatismes       0.00      0.00      0.00         1
 Guides Informatiques       0.00      0.00      0.00         1
@@ -59,17 +55,17 @@ Tests Equipement Maison       0.00      0.00      0.00         1
 Tests Objets Connectes       1.00      0.25      0.40         4
      Veille       0.00      0.00      0.00         1
 
-avg / total       0.26      0.31      0.22        35
+avg / total       0.28      0.33      0.24        33
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         1
-Audio/Video       0.05      1.00      0.10         1
-Constructeur       0.00      0.00      0.00         1
-  Domotique       0.25      0.12      0.17         8
+Audio/Video       0.00      0.00      0.00         1
+   BlyssBox       0.00      0.00      0.00         0
+  Domotique       0.33      0.75      0.46         8
 Guides Audio / Video       0.00      0.00      0.00         1
 Guides Automatismes       0.00      0.00      0.00         1
+Guides Chauffage       0.00      0.00      0.00         0
 Guides Eclairage       0.00      0.00      0.00         0
 Guides Informatiques       0.00      0.00      0.00         1
 Guides Securite       0.00      0.00      0.00         1
@@ -83,25 +79,23 @@ Test Materiel Informatique       0.00      0.00      0.00         3
 Test Peripheriques Domotiques       0.00      0.00      0.00         1
 Tests Box Domotique       0.00      0.00      0.00         2
 Tests Equipement Maison       0.00      0.00      0.00         1
-Tests Objets Connectes       1.00      0.25      0.40         4
+Tests Objets Connectes       0.00      0.00      0.00         4
      Veille       0.00      0.00      0.00         1
 
-avg / total       0.29      0.11      0.13        35
+avg / total       0.20      0.21      0.16        33
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.12      1.00      0.22         1
 Audio/Video       0.00      0.00      0.00         1
-Constructeur       0.00      0.00      0.00         1
-  Domotique       0.57      0.50      0.53         8
+  Domotique       0.38      0.62      0.48         8
 Guides Audio / Video       0.00      0.00      0.00         1
 Guides Automatismes       0.00      0.00      0.00         1
 Guides Informatiques       0.00      0.00      0.00         1
 Guides Securite       0.00      0.00      0.00         1
 Informatique       0.00      0.00      0.00         1
        News       0.00      0.00      0.00         0
-Objets Connectes       0.60      0.75      0.67         4
+Objets Connectes       0.75      0.75      0.75         4
 Peripheriques Z-Wave       0.00      0.00      0.00         0
   Robotique       0.00      0.00      0.00         2
       Sante       0.00      0.00      0.00         1
@@ -109,35 +103,35 @@ Test Materiel Informatique       0.00      0.00      0.00         3
 Test Peripheriques Domotiques       0.00      0.00      0.00         1
 Tests Box Domotique       0.00      0.00      0.00         2
 Tests Equipement Maison       0.00      0.00      0.00         1
-Tests Logiciels       0.00      0.00      0.00         0
-Tests Objets Connectes       0.67      0.50      0.57         4
+Tests Objets Connectes       0.00      0.00      0.00         4
 Tests Robots       0.00      0.00      0.00         0
      Veille       0.00      0.00      0.00         1
+    eeDomus       0.00      0.00      0.00         0
 
-avg / total       0.28      0.29      0.27        35
+avg / total       0.18      0.24      0.21        33
 
 <Results for Fold[2]>
-Fold train Matrix[2]:(308, 369)
-Fold test Matrix[2]:(35, 369)
-Linear SVM Classifier Accuracy:0.485714285714
-Multinomial Naive Bayes Accuracy:0.371428571429
-5 Nearest Neighbors Accuracy:0.142857142857
-Random Forest (25 learners) Accuracy:0.457142857143
+Fold train Matrix[2]:(289, 372)
+Fold test Matrix[2]:(32, 372)
+Linear SVM Classifier Accuracy:0.46875
+Multinomial Naive Bayes Accuracy:0.375
+5 Nearest Neighbors Accuracy:0.40625
+Random Forest (25 learners) Accuracy:0.40625
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
    BlyssBox       1.00      1.00      1.00         1
-  Domotique       0.50      0.78      0.61         9
+  Domotique       0.46      0.75      0.57         8
  Evenements       0.00      0.00      0.00         1
 Guides Audio / Video       0.50      0.33      0.40         3
 Guides Automatismes       0.00      0.00      0.00         0
 Guides Box Domotique       0.00      0.00      0.00         2
 Guides Eclairage       0.00      0.00      0.00         1
-Guides Informatiques       0.00      0.00      0.00         1
+Guides Informatiques       0.00      0.00      0.00         0
 Informatique       0.00      0.00      0.00         0
-     Maison       0.50      0.50      0.50         2
+     Maison       0.00      0.00      0.00         2
        News       0.00      0.00      0.00         1
-Objets Connectes       0.60      0.75      0.67         4
+Objets Connectes       0.60      1.00      0.75         3
 Peripheriques Wifi       0.00      0.00      0.00         1
 Peripheriques Z-Wave       0.00      0.00      0.00         2
  Smartwatch       1.00      1.00      1.00         1
@@ -146,22 +140,22 @@ Tests Audio / Video       1.00      0.50      0.67         4
 Tests Box Domotique       0.00      0.00      0.00         0
 Tests Objets Connectes       0.50      1.00      0.67         1
 
-avg / total       0.45      0.49      0.45        35
+avg / total       0.42      0.47      0.42        32
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
    BlyssBox       0.00      0.00      0.00         1
-  Domotique       0.40      0.89      0.55         9
+  Domotique       0.39      0.88      0.54         8
  Evenements       0.00      0.00      0.00         1
 Guides Audio / Video       1.00      0.33      0.50         3
 Guides Box Domotique       0.00      0.00      0.00         2
 Guides Eclairage       0.00      0.00      0.00         1
-Guides Informatiques       0.00      0.00      0.00         1
+Guides Informatiques       0.00      0.00      0.00         0
 Informatique       0.00      0.00      0.00         0
      Maison       0.00      0.00      0.00         2
        News       0.00      0.00      0.00         1
-Objets Connectes       0.38      0.75      0.50         4
+Objets Connectes       0.38      1.00      0.55         3
 Peripheriques Wifi       0.00      0.00      0.00         1
 Peripheriques Z-Wave       0.00      0.00      0.00         2
  Smartwatch       1.00      1.00      1.00         1
@@ -171,189 +165,183 @@ Tests Audio / Video       0.00      0.00      0.00         4
 Tests Box Domotique       0.00      0.00      0.00         0
 Tests Objets Connectes       0.00      0.00      0.00         1
 
-avg / total       0.26      0.37      0.27        35
+avg / total       0.26      0.38      0.26        32
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         0
-Audio/Video       0.00      0.00      0.00         0
-   BlyssBox       0.00      0.00      0.00         1
-Constructeur       0.00      0.00      0.00         0
-  Domotique       0.60      0.33      0.43         9
+   BlyssBox       0.20      1.00      0.33         1
+  Domotique       0.50      0.75      0.60         8
  Evenements       0.00      0.00      0.00         1
-Guides Audio / Video       0.00      0.00      0.00         3
+Guides Audio / Video       1.00      0.33      0.50         3
+Guides Automatismes       0.00      0.00      0.00         0
 Guides Box Domotique       0.00      0.00      0.00         2
+Guides Chauffage       0.00      0.00      0.00         0
 Guides Eclairage       0.00      0.00      0.00         1
-Guides Informatiques       0.00      0.00      0.00         1
+Guides Informatiques       0.00      0.00      0.00         0
      Maison       0.00      0.00      0.00         2
        News       0.00      0.00      0.00         1
-Objets Connectes       1.00      0.25      0.40         4
+Objets Connectes       0.50      0.33      0.40         3
 Peripheriques Wifi       0.00      0.00      0.00         1
-Peripheriques Z-Wave       0.00      0.00      0.00         2
+Peripheriques Z-Wave       1.00      1.00      1.00         2
  Smartwatch       1.00      1.00      1.00         1
 Test Materiel Informatique       0.00      0.00      0.00         0
 Test Peripheriques Domotiques       0.00      0.00      0.00         1
-Tests Audio / Video       0.00      0.00      0.00         4
+Tests Audio / Video       1.00      0.25      0.40         4
+Tests Equipement Maison       0.00      0.00      0.00         0
 Tests Objets Connectes       0.00      0.00      0.00         1
 
-avg / total       0.30      0.14      0.18        35
+avg / total       0.49      0.41      0.39        32
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         0
    BlyssBox       1.00      1.00      1.00         1
-  Domotique       0.55      0.67      0.60         9
+  Domotique       0.40      0.50      0.44         8
  Evenements       0.00      0.00      0.00         1
 Guides Audio / Video       0.50      0.33      0.40         3
 Guides Automatismes       0.00      0.00      0.00         0
 Guides Box Domotique       0.00      0.00      0.00         2
 Guides Eclairage       0.00      0.00      0.00         1
-Guides Informatiques       0.00      0.00      0.00         1
+Guides Informatiques       0.00      0.00      0.00         0
      Maison       0.50      0.50      0.50         2
        News       0.00      0.00      0.00         1
-Objets Connectes       0.60      0.75      0.67         4
+Objets Connectes       0.43      1.00      0.60         3
 Peripheriques Wifi       0.00      0.00      0.00         1
 Peripheriques Z-Wave       0.00      0.00      0.00         2
- Smartwatch       0.50      1.00      0.67         1
+ Smartwatch       1.00      1.00      1.00         1
 Test Materiel Informatique       0.00      0.00      0.00         0
 Test Peripheriques Domotiques       0.00      0.00      0.00         1
 Tests Audio / Video       1.00      0.50      0.67         4
-Tests Equipement Maison       0.00      0.00      0.00         0
-Tests Objets Connectes       1.00      1.00      1.00         1
+Tests Objets Connectes       0.00      0.00      0.00         1
 
-avg / total       0.47      0.46      0.45        35
+avg / total       0.41      0.41      0.38        32
 
 <Results for Fold[3]>
-Fold train Matrix[3]:(308, 372)
-Fold test Matrix[3]:(35, 372)
-Linear SVM Classifier Accuracy:0.4
-Multinomial Naive Bayes Accuracy:0.257142857143
-5 Nearest Neighbors Accuracy:0.114285714286
-Random Forest (25 learners) Accuracy:0.314285714286
+Fold train Matrix[3]:(289, 370)
+Fold test Matrix[3]:(32, 370)
+Linear SVM Classifier Accuracy:0.40625
+Multinomial Naive Bayes Accuracy:0.25
+5 Nearest Neighbors Accuracy:0.25
+Random Forest (25 learners) Accuracy:0.25
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-Audio/Video       0.00      0.00      0.00         2
+Audio/Video       0.00      0.00      0.00         1
    BlyssBox       0.00      0.00      0.00         1
-Constructeur       1.00      0.50      0.67         2
-  Domotique       0.29      1.00      0.45         5
+Constructeur       1.00      1.00      1.00         1
+  Domotique       0.31      1.00      0.47         4
 Guides Audio / Video       0.33      1.00      0.50         1
 Guides Automatismes       0.00      0.00      0.00         1
-Guides Box Domotique       0.00      0.00      0.00         0
 Guides Chauffage       0.00      0.00      0.00         1
 Guides Eclairage       0.00      0.00      0.00         1
-Guides Informatiques       0.00      0.00      0.00         1
+Guides Informatiques       0.00      0.00      0.00         2
 Guides Securite       0.50      1.00      0.67         1
 Informatique       0.00      0.00      0.00         2
-     Maison       0.00      0.00      0.00         4
-Objets Connectes       0.50      1.00      0.67         2
+     Maison       0.00      0.00      0.00         3
+Objets Connectes       0.50      0.67      0.57         3
   Robotique       0.00      0.00      0.00         1
  Smartwatch       0.00      0.00      0.00         0
 Test Materiel Informatique       1.00      1.00      1.00         1
 Tests Box Domotique       0.00      0.00      0.00         1
-Tests Equipement Maison       1.00      0.50      0.67         2
+Tests Equipement Maison       1.00      1.00      1.00         1
 Tests Logiciels       0.00      0.00      0.00         3
 Tests Objets Connectes       0.00      0.00      0.00         1
      Veille       1.00      1.00      1.00         2
 
-avg / total       0.29      0.40      0.30        35
+avg / total       0.27      0.41      0.31        32
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-Audio/Video       0.00      0.00      0.00         2
+Audio/Video       0.00      0.00      0.00         1
    BlyssBox       0.00      0.00      0.00         1
-Constructeur       0.00      0.00      0.00         2
-  Domotique       0.19      1.00      0.31         5
+Constructeur       0.00      0.00      0.00         1
+  Domotique       0.17      1.00      0.29         4
 Guides Audio / Video       0.00      0.00      0.00         1
 Guides Automatismes       0.00      0.00      0.00         1
 Guides Chauffage       0.00      0.00      0.00         1
 Guides Eclairage       0.00      0.00      0.00         1
-Guides Informatiques       0.00      0.00      0.00         1
+Guides Informatiques       0.00      0.00      0.00         2
 Guides Securite       1.00      1.00      1.00         1
 Informatique       0.00      0.00      0.00         2
-     Maison       0.00      0.00      0.00         4
-Objets Connectes       0.40      1.00      0.57         2
+     Maison       0.00      0.00      0.00         3
+Objets Connectes       0.40      0.67      0.50         3
   Robotique       0.00      0.00      0.00         1
 Test Materiel Informatique       1.00      1.00      1.00         1
 Tests Box Domotique       0.00      0.00      0.00         1
-Tests Equipement Maison       0.00      0.00      0.00         2
+Tests Equipement Maison       0.00      0.00      0.00         1
 Tests Logiciels       0.00      0.00      0.00         3
 Tests Objets Connectes       0.00      0.00      0.00         1
      Veille       0.00      0.00      0.00         2
 
-avg / total       0.11      0.26      0.13        35
+avg / total       0.12      0.25      0.15        32
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         0
-Audio/Video       0.00      0.00      0.00         2
+Audio/Video       0.00      0.00      0.00         1
    BlyssBox       0.00      0.00      0.00         1
-Constructeur       0.00      0.00      0.00         2
-  Domotique       0.50      0.20      0.29         5
+Constructeur       0.00      0.00      0.00         1
+  Domotique       0.17      0.75      0.27         4
 Guides Audio / Video       0.00      0.00      0.00         1
-Guides Automatismes       0.00      0.00      0.00         1
+Guides Automatismes       0.50      1.00      0.67         1
 Guides Chauffage       0.00      0.00      0.00         1
 Guides Eclairage       0.00      0.00      0.00         1
-Guides Informatiques       0.00      0.00      0.00         1
-Guides Securite       0.00      0.00      0.00         1
+Guides Informatiques       0.00      0.00      0.00         2
+Guides Securite       1.00      1.00      1.00         1
 Informatique       0.00      0.00      0.00         2
-     Maison       0.00      0.00      0.00         4
-Objets Connectes       1.00      0.50      0.67         2
+     Maison       0.00      0.00      0.00         3
+Objets Connectes       0.50      0.33      0.40         3
   Robotique       0.00      0.00      0.00         1
-Test Materiel Informatique       1.00      1.00      1.00         1
+Test Materiel Informatique       0.33      1.00      0.50         1
 Tests Box Domotique       0.00      0.00      0.00         1
-Tests Equipement Maison       1.00      0.50      0.67         2
+Tests Equipement Maison       0.50      1.00      0.67         1
 Tests Logiciels       0.00      0.00      0.00         3
 Tests Objets Connectes       0.00      0.00      0.00         1
      Veille       0.00      0.00      0.00         2
 
-avg / total       0.21      0.11      0.15        35
+avg / total       0.14      0.25      0.16        32
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         0
-Audio/Video       0.00      0.00      0.00         2
+Audio/Video       0.00      0.00      0.00         1
    BlyssBox       0.00      0.00      0.00         1
-Constructeur       1.00      0.50      0.67         2
-  Domotique       0.40      0.40      0.40         5
-Guides Audio / Video       0.33      1.00      0.50         1
+Constructeur       0.00      0.00      0.00         1
+  Domotique       0.16      0.75      0.26         4
+Guides Audio / Video       0.00      0.00      0.00         1
 Guides Automatismes       0.00      0.00      0.00         1
-Guides Box Domotique       0.00      0.00      0.00         0
 Guides Chauffage       0.00      0.00      0.00         1
 Guides Eclairage       0.00      0.00      0.00         1
-Guides Informatiques       0.00      0.00      0.00         1
-Guides Securite       0.33      1.00      0.50         1
+Guides Informatiques       0.00      0.00      0.00         2
+Guides Securite       1.00      1.00      1.00         1
 Informatique       0.00      0.00      0.00         2
-     Maison       0.00      0.00      0.00         4
-Objets Connectes       0.50      1.00      0.67         2
+     Maison       0.00      0.00      0.00         3
+Objets Connectes       0.50      0.33      0.40         3
   Robotique       0.00      0.00      0.00         1
-Test Materiel Informatique       1.00      1.00      1.00         1
+ Smartwatch       0.00      0.00      0.00         0
+Test Materiel Informatique       0.50      1.00      0.67         1
 Tests Box Domotique       0.00      0.00      0.00         1
-Tests Equipement Maison       1.00      0.50      0.67         2
+Tests Equipement Maison       0.50      1.00      0.67         1
 Tests Logiciels       0.00      0.00      0.00         3
-Tests Objets Connectes       0.33      1.00      0.50         1
+Tests Objets Connectes       0.00      0.00      0.00         1
      Veille       1.00      0.50      0.67         2
 
-avg / total       0.31      0.31      0.28        35
+avg / total       0.19      0.25      0.18        32
 
 <Results for Fold[4]>
-Fold train Matrix[4]:(309, 366)
-Fold test Matrix[4]:(34, 366)
-Linear SVM Classifier Accuracy:0.352941176471
-Multinomial Naive Bayes Accuracy:0.176470588235
-5 Nearest Neighbors Accuracy:0.176470588235
-Random Forest (25 learners) Accuracy:0.382352941176
+Fold train Matrix[4]:(289, 365)
+Fold test Matrix[4]:(32, 365)
+Linear SVM Classifier Accuracy:0.4375
+Multinomial Naive Bayes Accuracy:0.25
+5 Nearest Neighbors Accuracy:0.3125
+Random Forest (25 learners) Accuracy:0.34375
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         1
    BlyssBox       1.00      1.00      1.00         1
-  Domotique       0.16      1.00      0.27         3
+  Domotique       0.25      1.00      0.40         4
 Guides Audio / Video       1.00      1.00      1.00         1
 Guides Automatismes       0.00      0.00      0.00         1
 Guides Box Domotique       0.00      0.00      0.00         0
@@ -362,25 +350,23 @@ Guides Eclairage       0.00      0.00      0.00         1
 Guides Securite       0.00      0.00      0.00         1
 Informatique       0.00      0.00      0.00         1
        News       0.50      0.50      0.50         2
-Objets Connectes       1.00      0.33      0.50         6
+Objets Connectes       1.00      0.43      0.60         7
 Peripheriques Z-Wave       1.00      0.50      0.67         2
  Smartwatch       1.00      1.00      1.00         1
 Test Materiel Informatique       0.00      0.00      0.00         2
 Tests Box Domotique       1.00      0.50      0.67         2
-Tests Equipement Maison       1.00      0.50      0.67         2
-Tests Logiciels       0.00      0.00      0.00         2
+Tests Equipement Maison       1.00      1.00      1.00         1
+Tests Logiciels       0.00      0.00      0.00         1
 Tests Objets Connectes       0.00      0.00      0.00         0
-Tests Robots       0.00      0.00      0.00         1
      Veille       0.00      0.00      0.00         1
 
-avg / total       0.48      0.35      0.35        34
+avg / total       0.53      0.44      0.42        32
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         1
    BlyssBox       0.00      0.00      0.00         1
-  Domotique       0.11      1.00      0.19         3
+  Domotique       0.16      1.00      0.28         4
 Guides Audio / Video       0.00      0.00      0.00         1
 Guides Automatismes       0.00      0.00      0.00         1
 Guides Box Domotique       0.00      0.00      0.00         0
@@ -389,94 +375,87 @@ Guides Eclairage       0.00      0.00      0.00         1
 Guides Securite       0.00      0.00      0.00         1
 Informatique       0.00      0.00      0.00         1
        News       0.00      0.00      0.00         2
-Objets Connectes       0.75      0.50      0.60         6
+Objets Connectes       0.80      0.57      0.67         7
 Peripheriques Z-Wave       0.00      0.00      0.00         2
  Smartwatch       0.00      0.00      0.00         1
 Test Materiel Informatique       0.00      0.00      0.00         2
 Tests Box Domotique       0.00      0.00      0.00         2
-Tests Equipement Maison       0.00      0.00      0.00         2
-Tests Logiciels       0.00      0.00      0.00         2
-Tests Robots       0.00      0.00      0.00         1
+Tests Equipement Maison       0.00      0.00      0.00         1
+Tests Logiciels       0.00      0.00      0.00         1
      Veille       0.00      0.00      0.00         1
 
-avg / total       0.14      0.18      0.12        34
+avg / total       0.20      0.25      0.18        32
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.05      1.00      0.10         1
 Audio/Video       0.00      0.00      0.00         0
-   BlyssBox       0.00      0.00      0.00         1
-  Domotique       0.25      0.33      0.29         3
+   BlyssBox       0.33      1.00      0.50         1
+  Domotique       0.19      1.00      0.32         4
 Guides Audio / Video       0.00      0.00      0.00         1
-Guides Automatismes       0.00      0.00      0.00         1
+Guides Automatismes       1.00      1.00      1.00         1
 Guides Chauffage       0.00      0.00      0.00         3
 Guides Eclairage       0.00      0.00      0.00         1
 Guides Securite       0.00      0.00      0.00         1
 Informatique       0.00      0.00      0.00         1
-     Maison       0.00      0.00      0.00         0
        News       1.00      0.50      0.67         2
-Objets Connectes       1.00      0.17      0.29         6
+Objets Connectes       1.00      0.14      0.25         7
 Peripheriques Z-Wave       1.00      0.50      0.67         2
  Smartwatch       0.00      0.00      0.00         1
 Test Materiel Informatique       0.00      0.00      0.00         2
 Tests Box Domotique       0.00      0.00      0.00         2
-Tests Equipement Maison       1.00      0.50      0.67         2
-Tests Logiciels       0.00      0.00      0.00         2
-Tests Robots       0.00      0.00      0.00         1
+Tests Equipement Maison       1.00      1.00      1.00         1
+Tests Logiciels       0.00      0.00      0.00         1
      Veille       0.00      0.00      0.00         1
 
-avg / total       0.38      0.18      0.20        34
+avg / total       0.44      0.31      0.26        32
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         1
    BlyssBox       1.00      1.00      1.00         1
-Constructeur       0.00      0.00      0.00         0
-  Domotique       0.38      1.00      0.55         3
-Guides Audio / Video       1.00      1.00      1.00         1
-Guides Automatismes       0.50      1.00      0.67         1
+  Domotique       0.22      1.00      0.36         4
+Guides Audio / Video       0.00      0.00      0.00         1
+Guides Automatismes       0.00      0.00      0.00         1
 Guides Box Domotique       0.00      0.00      0.00         0
 Guides Chauffage       0.00      0.00      0.00         3
 Guides Eclairage       0.00      0.00      0.00         1
 Guides Securite       0.00      0.00      0.00         1
 Informatique       0.00      0.00      0.00         1
        News       1.00      0.50      0.67         2
-Objets Connectes       1.00      0.50      0.67         6
-Peripheriques Z-Wave       0.50      0.50      0.50         2
+Objets Connectes       1.00      0.29      0.44         7
+Peripheriques Z-Wave       1.00      0.50      0.67         2
  Smartwatch       0.50      1.00      0.67         1
 Test Materiel Informatique       0.00      0.00      0.00         2
 Tests Box Domotique       0.00      0.00      0.00         2
-Tests Equipement Maison       1.00      0.50      0.67         2
-Tests Logiciels       0.00      0.00      0.00         2
+Tests Equipement Maison       1.00      1.00      1.00         1
+Tests Logiciels       0.00      0.00      0.00         1
 Tests Objets Connectes       0.00      0.00      0.00         0
-Tests Robots       0.00      0.00      0.00         1
      Veille       0.00      0.00      0.00         1
 
-avg / total       0.44      0.38      0.37        34
+avg / total       0.45      0.34      0.31        32
 
 <Results for Fold[5]>
-Fold train Matrix[5]:(309, 374)
-Fold test Matrix[5]:(34, 374)
-Linear SVM Classifier Accuracy:0.529411764706
-Multinomial Naive Bayes Accuracy:0.352941176471
-5 Nearest Neighbors Accuracy:0.205882352941
-Random Forest (25 learners) Accuracy:0.441176470588
+Fold train Matrix[5]:(289, 373)
+Fold test Matrix[5]:(32, 373)
+Linear SVM Classifier Accuracy:0.53125
+Multinomial Naive Bayes Accuracy:0.34375
+5 Nearest Neighbors Accuracy:0.3125
+Random Forest (25 learners) Accuracy:0.34375
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
    BlyssBox       1.00      1.00      1.00         1
-  Domotique       0.38      1.00      0.56         5
- Evenements       0.00      0.00      0.00         2
-Guides Audio / Video       0.00      0.00      0.00         1
+  Domotique       0.45      1.00      0.62         5
+ Evenements       0.00      0.00      0.00         1
+Guides Audio / Video       0.00      0.00      0.00         2
 Guides Box Domotique       1.00      1.00      1.00         1
 Guides Informatiques       1.00      0.50      0.67         2
 Guides Securite       0.00      0.00      0.00         1
 Informatique       0.00      0.00      0.00         0
-     Maison       1.00      0.50      0.67         4
+     Maison       0.67      0.67      0.67         3
        News       0.00      0.00      0.00         1
-Objets Connectes       0.71      0.83      0.77         6
+Objets Connectes       0.67      0.80      0.73         5
 Peripheriques Z-Wave       0.50      1.00      0.67         1
   Robotique       0.00      0.00      0.00         0
 Test Peripheriques Domotiques       0.00      0.00      0.00         1
@@ -488,22 +467,22 @@ Tests Objets Connectes       0.00      0.00      0.00         0
 Tests Robots       0.00      0.00      0.00         1
      Veille       0.00      0.00      0.00         1
 
-avg / total       0.52      0.53      0.48        34
+avg / total       0.47      0.53      0.47        32
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
    BlyssBox       0.00      0.00      0.00         1
-  Domotique       0.23      1.00      0.37         5
- Evenements       0.00      0.00      0.00         2
-Guides Audio / Video       0.00      0.00      0.00         1
+  Domotique       0.24      1.00      0.38         5
+ Evenements       0.00      0.00      0.00         1
+Guides Audio / Video       0.00      0.00      0.00         2
 Guides Box Domotique       1.00      1.00      1.00         1
 Guides Informatiques       1.00      0.50      0.67         2
 Guides Securite       0.00      0.00      0.00         1
 Informatique       0.00      0.00      0.00         0
-     Maison       0.00      0.00      0.00         4
+     Maison       0.00      0.00      0.00         3
        News       0.00      0.00      0.00         1
-Objets Connectes       0.62      0.83      0.71         6
+Objets Connectes       0.57      0.80      0.67         5
 Peripheriques Z-Wave       0.00      0.00      0.00         1
   Robotique       0.00      0.00      0.00         0
 Test Peripheriques Domotiques       0.00      0.00      0.00         1
@@ -514,50 +493,48 @@ Tests Logiciels       0.00      0.00      0.00         1
 Tests Robots       0.00      0.00      0.00         1
      Veille       0.00      0.00      0.00         1
 
-avg / total       0.23      0.35      0.25        34
+avg / total       0.22      0.34      0.24        32
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         0
-Audio/Video       0.00      0.00      0.00         0
-   BlyssBox       0.00      0.00      0.00         1
-  Domotique       0.50      0.40      0.44         5
- Evenements       0.00      0.00      0.00         2
-Guides Audio / Video       0.00      0.00      0.00         1
+   BlyssBox       1.00      1.00      1.00         1
+  Domotique       0.26      1.00      0.42         5
+ Evenements       0.00      0.00      0.00         1
+Guides Audio / Video       0.00      0.00      0.00         2
 Guides Box Domotique       0.00      0.00      0.00         1
 Guides Informatiques       1.00      0.50      0.67         2
 Guides Securite       0.00      0.00      0.00         1
-     Maison       1.00      0.25      0.40         4
+     Maison       0.00      0.00      0.00         3
        News       0.00      0.00      0.00         1
-Objets Connectes       0.67      0.33      0.44         6
+Objets Connectes       0.67      0.40      0.50         5
 Peripheriques Z-Wave       0.00      0.00      0.00         1
+  Robotique       0.00      0.00      0.00         0
 Test Materiel Informatique       0.00      0.00      0.00         0
 Test Peripheriques Domotiques       0.00      0.00      0.00         1
 Tests Audio / Video       0.00      0.00      0.00         2
 Tests Box Domotique       0.00      0.00      0.00         2
-Tests Equipement Maison       1.00      1.00      1.00         1
+Tests Equipement Maison       0.50      1.00      0.67         1
 Tests Logiciels       0.00      0.00      0.00         1
 Tests Robots       0.00      0.00      0.00         1
      Veille       0.00      0.00      0.00         1
 
-avg / total       0.40      0.21      0.26        34
+avg / total       0.25      0.31      0.24        32
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         0
    BlyssBox       1.00      1.00      1.00         1
-  Domotique       0.57      0.80      0.67         5
- Evenements       0.00      0.00      0.00         2
-Guides Audio / Video       0.00      0.00      0.00         1
+  Domotique       0.22      0.40      0.29         5
+ Evenements       0.00      0.00      0.00         1
+Guides Audio / Video       0.00      0.00      0.00         2
 Guides Box Domotique       0.00      0.00      0.00         1
 Guides Eclairage       0.00      0.00      0.00         0
 Guides Informatiques       1.00      0.50      0.67         2
 Guides Securite       0.00      0.00      0.00         1
-     Maison       1.00      0.50      0.67         4
+     Maison       0.67      0.67      0.67         3
        News       0.00      0.00      0.00         1
-Objets Connectes       0.50      0.67      0.57         6
+Objets Connectes       0.33      0.40      0.36         5
 Peripheriques Z-Wave       0.50      1.00      0.67         1
   Robotique       0.00      0.00      0.00         0
 Test Materiel Informatique       0.00      0.00      0.00         0
@@ -570,31 +547,28 @@ Tests Objets Connectes       0.00      0.00      0.00         0
 Tests Robots       0.00      0.00      0.00         1
      Veille       0.00      0.00      0.00         1
 
-avg / total       0.48      0.44      0.43        34
+avg / total       0.35      0.34      0.33        32
 
 <Results for Fold[6]>
-Fold train Matrix[6]:(309, 371)
-Fold test Matrix[6]:(34, 371)
-Linear SVM Classifier Accuracy:0.382352941176
-Multinomial Naive Bayes Accuracy:0.235294117647
-5 Nearest Neighbors Accuracy:0.176470588235
-Random Forest (25 learners) Accuracy:0.323529411765
+Fold train Matrix[6]:(289, 372)
+Fold test Matrix[6]:(32, 372)
+Linear SVM Classifier Accuracy:0.4375
+Multinomial Naive Bayes Accuracy:0.28125
+5 Nearest Neighbors Accuracy:0.34375
+Random Forest (25 learners) Accuracy:0.28125
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         1
-Audio/Video       0.00      0.00      0.00         2
-  Domotique       0.31      0.83      0.45         6
+Audio/Video       0.00      0.00      0.00         1
+  Domotique       0.40      0.86      0.55         7
  Evenements       0.00      0.00      0.00         2
-Guides Audio / Video       0.00      0.00      0.00         1
 Guides Automatismes       0.00      0.00      0.00         3
 Guides Box Domotique       0.00      0.00      0.00         2
 Guides Eclairage       0.00      0.00      0.00         0
 Guides Informatiques       1.00      0.67      0.80         3
 Informatique       1.00      0.50      0.67         2
-     Maison       0.00      0.00      0.00         0
        News       0.00      0.00      0.00         1
-Objets Connectes       0.75      0.75      0.75         4
+Objets Connectes       0.60      0.75      0.67         4
 Peripheriques Chacon / MyFox       0.00      0.00      0.00         1
 Peripheriques Z-Wave       1.00      0.33      0.50         3
   Robotique       0.00      0.00      0.00         0
@@ -604,16 +578,14 @@ Tests Logiciels       0.00      0.00      0.00         0
      Veille       1.00      1.00      1.00         1
     eeDomus       0.00      0.00      0.00         1
 
-avg / total       0.41      0.38      0.35        34
+avg / total       0.44      0.44      0.40        32
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         1
-Audio/Video       0.00      0.00      0.00         2
-  Domotique       0.20      0.83      0.32         6
+Audio/Video       0.00      0.00      0.00         1
+  Domotique       0.26      0.86      0.40         7
  Evenements       0.00      0.00      0.00         2
-Guides Audio / Video       0.00      0.00      0.00         1
 Guides Automatismes       0.00      0.00      0.00         3
 Guides Box Domotique       0.00      0.00      0.00         2
 Guides Informatiques       1.00      0.33      0.50         3
@@ -628,74 +600,70 @@ Tests Box Domotique       0.00      0.00      0.00         1
      Veille       0.00      0.00      0.00         1
     eeDomus       0.00      0.00      0.00         1
 
-avg / total       0.17      0.24      0.15        34
+avg / total       0.20      0.28      0.19        32
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.05      1.00      0.09         1
-Audio/Video       0.00      0.00      0.00         2
-  Domotique       0.29      0.33      0.31         6
+Audio/Video       0.00      0.00      0.00         1
+   BlyssBox       0.00      0.00      0.00         0
+  Domotique       0.35      0.86      0.50         7
  Evenements       0.00      0.00      0.00         2
-Guides Audio / Video       0.00      0.00      0.00         1
 Guides Automatismes       0.00      0.00      0.00         3
 Guides Box Domotique       0.00      0.00      0.00         2
+Guides Chauffage       0.00      0.00      0.00         0
 Guides Informatiques       1.00      0.33      0.50         3
-Informatique       0.00      0.00      0.00         2
+Informatique       1.00      0.50      0.67         2
        News       0.00      0.00      0.00         1
-Objets Connectes       1.00      0.25      0.40         4
+Objets Connectes       1.00      0.50      0.67         4
 Peripheriques Chacon / MyFox       0.00      0.00      0.00         1
-Peripheriques Z-Wave       1.00      0.33      0.50         3
-Test Materiel Informatique       0.00      0.00      0.00         0
-Tests Box Domotique       0.00      0.00      0.00         1
-     Veille       0.00      0.00      0.00         1
-    eeDomus       0.00      0.00      0.00         1
-
-avg / total       0.35      0.18      0.19        34
-
-<Random Forest (25 learners) Classifier Metrics>
-             precision    recall  f1-score   support
-
-Administratif       0.25      1.00      0.40         1
-Audio/Video       0.00      0.00      0.00         2
-  Domotique       0.36      0.67      0.47         6
- Evenements       0.00      0.00      0.00         2
-Guides Audio / Video       0.00      0.00      0.00         1
-Guides Automatismes       0.00      0.00      0.00         3
-Guides Box Domotique       0.00      0.00      0.00         2
-Guides Eclairage       0.00      0.00      0.00         0
-Guides Informatiques       1.00      0.67      0.80         3
-Guides Securite       0.00      0.00      0.00         0
-Informatique       0.50      0.50      0.50         2
-     Maison       0.00      0.00      0.00         0
-       News       0.00      0.00      0.00         1
-Objets Connectes       0.50      0.50      0.50         4
-Peripheriques Chacon / MyFox       0.00      0.00      0.00         1
-Peripheriques Z-Wave       1.00      0.33      0.50         3
+Peripheriques Z-Wave       0.50      0.33      0.40         3
   Robotique       0.00      0.00      0.00         0
  Smartwatch       0.00      0.00      0.00         0
 Test Materiel Informatique       0.00      0.00      0.00         0
 Tests Box Domotique       0.00      0.00      0.00         1
-Tests Logiciels       0.00      0.00      0.00         0
      Veille       0.00      0.00      0.00         1
     eeDomus       0.00      0.00      0.00         1
 
-avg / total       0.34      0.32      0.30        34
+avg / total       0.41      0.34      0.32        32
+
+<Random Forest (25 learners) Classifier Metrics>
+             precision    recall  f1-score   support
+
+Audio/Video       0.00      0.00      0.00         1
+  Domotique       0.33      0.71      0.45         7
+ Evenements       0.00      0.00      0.00         2
+Guides Automatismes       0.00      0.00      0.00         3
+Guides Box Domotique       0.00      0.00      0.00         2
+Guides Eclairage       0.00      0.00      0.00         0
+Guides Informatiques       1.00      0.33      0.50         3
+Guides Securite       0.00      0.00      0.00         0
+Informatique       1.00      0.50      0.67         2
+       News       0.00      0.00      0.00         1
+Objets Connectes       0.17      0.25      0.20         4
+Peripheriques Chacon / MyFox       0.00      0.00      0.00         1
+Peripheriques Z-Wave       0.50      0.33      0.40         3
+  Robotique       0.00      0.00      0.00         0
+ Smartwatch       0.00      0.00      0.00         0
+Tests Box Domotique       0.00      0.00      0.00         1
+Tests Objets Connectes       0.00      0.00      0.00         0
+     Veille       0.00      0.00      0.00         1
+    eeDomus       0.00      0.00      0.00         1
+
+avg / total       0.30      0.28      0.25        32
 
 <Results for Fold[7]>
-Fold train Matrix[7]:(309, 376)
-Fold test Matrix[7]:(34, 376)
+Fold train Matrix[7]:(289, 376)
+Fold test Matrix[7]:(32, 376)
 Linear SVM Classifier Accuracy:0.5
-Multinomial Naive Bayes Accuracy:0.470588235294
-5 Nearest Neighbors Accuracy:0.235294117647
-Random Forest (25 learners) Accuracy:0.5
+Multinomial Naive Bayes Accuracy:0.5
+5 Nearest Neighbors Accuracy:0.25
+Random Forest (25 learners) Accuracy:0.46875
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         1
    BlyssBox       0.00      0.00      0.00         0
-Constructeur       0.00      0.00      0.00         1
-  Domotique       0.44      0.88      0.58         8
+  Domotique       0.46      0.75      0.57         8
 Guides Audio / Video       0.00      0.00      0.00         0
 Guides Automatismes       1.00      1.00      1.00         1
 Guides Box Domotique       0.00      0.00      0.00         0
@@ -716,14 +684,12 @@ Tests Objets Connectes       0.00      0.00      0.00         1
 Tests Robots       0.00      0.00      0.00         1
      Veille       1.00      1.00      1.00         1
 
-avg / total       0.45      0.50      0.45        34
+avg / total       0.48      0.50      0.48        32
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         1
-Constructeur       0.00      0.00      0.00         1
-  Domotique       0.33      1.00      0.50         8
+  Domotique       0.36      1.00      0.53         8
 Guides Automatismes       1.00      1.00      1.00         1
 Guides Box Domotique       0.00      0.00      0.00         0
 Guides Chauffage       0.00      0.00      0.00         1
@@ -740,25 +706,22 @@ Tests Objets Connectes       1.00      1.00      1.00         1
 Tests Robots       0.00      0.00      0.00         1
      Veille       0.00      0.00      0.00         1
 
-avg / total       0.34      0.47      0.36        34
+avg / total       0.37      0.50      0.39        32
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.05      1.00      0.10         1
-Audio/Video       0.00      0.00      0.00         0
    BlyssBox       0.00      0.00      0.00         0
-Constructeur       0.00      0.00      0.00         1
-  Domotique       1.00      0.50      0.67         8
+  Domotique       0.28      0.62      0.38         8
 Guides Audio / Video       0.00      0.00      0.00         0
-Guides Automatismes       0.00      0.00      0.00         1
+Guides Automatismes       1.00      1.00      1.00         1
 Guides Chauffage       0.00      0.00      0.00         1
 Guides Eclairage       0.00      0.00      0.00         3
-Guides Informatiques       0.00      0.00      0.00         2
+Guides Informatiques       0.50      0.50      0.50         2
 Guides Securite       0.00      0.00      0.00         1
 Informatique       0.00      0.00      0.00         2
        News       1.00      1.00      1.00         1
-Objets Connectes       1.00      0.33      0.50         6
+Objets Connectes       0.00      0.00      0.00         6
 Peripheriques Z-Wave       0.00      0.00      0.00         0
  Smartwatch       0.00      0.00      0.00         2
 Test Materiel Informatique       0.00      0.00      0.00         0
@@ -768,17 +731,13 @@ Tests Objets Connectes       0.00      0.00      0.00         1
 Tests Robots       0.00      0.00      0.00         1
      Veille       0.00      0.00      0.00         1
 
-avg / total       0.44      0.24      0.28        34
+avg / total       0.16      0.25      0.19        32
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.25      1.00      0.40         1
-Audio/Video       0.00      0.00      0.00         0
    BlyssBox       0.00      0.00      0.00         0
-Constructeur       0.00      0.00      0.00         1
-  Domotique       0.88      0.88      0.88         8
- Evenements       0.00      0.00      0.00         0
+  Domotique       0.43      0.75      0.55         8
 Guides Audio / Video       0.00      0.00      0.00         0
 Guides Automatismes       0.00      0.00      0.00         1
 Guides Box Domotique       0.00      0.00      0.00         0
@@ -789,33 +748,33 @@ Guides Securite       0.00      0.00      0.00         1
 Informatique       0.00      0.00      0.00         2
        News       1.00      1.00      1.00         1
 Objets Connectes       0.80      0.67      0.73         6
-Peripheriques Z-Wave       0.00      0.00      0.00         0
  Smartwatch       1.00      1.00      1.00         2
 Test Materiel Informatique       0.00      0.00      0.00         0
+Tests Box Domotique       0.00      0.00      0.00         0
 Tests Equipement Maison       0.00      0.00      0.00         1
 Tests Logiciels       0.00      0.00      0.00         1
 Tests Objets Connectes       0.00      0.00      0.00         1
 Tests Robots       1.00      1.00      1.00         1
      Veille       1.00      1.00      1.00         1
 
-avg / total       0.50      0.50      0.49        34
+avg / total       0.41      0.47      0.43        32
 
 <Results for Fold[8]>
-Fold train Matrix[8]:(309, 376)
-Fold test Matrix[8]:(34, 376)
-Linear SVM Classifier Accuracy:0.588235294118
-Multinomial Naive Bayes Accuracy:0.588235294118
-5 Nearest Neighbors Accuracy:0.352941176471
-Random Forest (25 learners) Accuracy:0.588235294118
+Fold train Matrix[8]:(289, 378)
+Fold test Matrix[8]:(32, 378)
+Linear SVM Classifier Accuracy:0.625
+Multinomial Naive Bayes Accuracy:0.53125
+5 Nearest Neighbors Accuracy:0.5625
+Random Forest (25 learners) Accuracy:0.65625
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-  Domotique       0.70      0.58      0.64        12
+  Domotique       0.75      0.60      0.67        10
 Guides Audio / Video       0.00      0.00      0.00         1
 Guides Box Domotique       0.00      0.00      0.00         1
 Guides Chauffage       0.00      0.00      0.00         0
-Guides Informatiques       1.00      1.00      1.00         2
-Guides Securite       0.00      0.00      0.00         2
+Guides Informatiques       0.67      1.00      0.80         2
+Guides Securite       1.00      0.50      0.67         2
 Informatique       1.00      0.67      0.80         3
      Maison       0.00      0.00      0.00         0
        News       1.00      1.00      1.00         1
@@ -825,17 +784,17 @@ Objets Connectes       0.50      0.67      0.57         3
 Test Materiel Informatique       1.00      1.00      1.00         1
 Tests Audio / Video       1.00      1.00      1.00         1
 Tests Box Domotique       0.50      1.00      0.67         1
-Tests Equipement Maison       0.33      1.00      0.50         1
+Tests Equipement Maison       1.00      1.00      1.00         1
 Tests Logiciels       0.00      0.00      0.00         1
 Tests Objets Connectes       0.00      0.00      0.00         2
      Veille       0.00      0.00      0.00         0
 
-avg / total       0.61      0.59      0.59        34
+avg / total       0.68      0.62      0.64        32
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-  Domotique       0.50      0.83      0.62        12
+  Domotique       0.42      0.80      0.55        10
 Guides Audio / Video       0.00      0.00      0.00         1
 Guides Box Domotique       0.00      0.00      0.00         1
 Guides Informatiques       0.67      1.00      0.80         2
@@ -847,81 +806,80 @@ Objets Connectes       0.50      1.00      0.67         3
 Test Materiel Informatique       1.00      1.00      1.00         1
 Tests Audio / Video       1.00      1.00      1.00         1
 Tests Box Domotique       1.00      1.00      1.00         1
-Tests Equipement Maison       1.00      1.00      1.00         1
+Tests Equipement Maison       0.00      0.00      0.00         1
 Tests Logiciels       0.00      0.00      0.00         1
 Tests Objets Connectes       0.00      0.00      0.00         2
 
-avg / total       0.44      0.59      0.48        34
+avg / total       0.38      0.53      0.42        32
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         0
-Audio/Video       0.00      0.00      0.00         0
-  Domotique       0.78      0.58      0.67        12
+  Domotique       0.53      0.80      0.64        10
+ Evenements       0.00      0.00      0.00         0
 Guides Audio / Video       0.00      0.00      0.00         1
+Guides Automatismes       0.00      0.00      0.00         0
 Guides Box Domotique       0.00      0.00      0.00         1
-Guides Informatiques       1.00      0.50      0.67         2
+Guides Informatiques       1.00      1.00      1.00         2
 Guides Securite       0.00      0.00      0.00         2
-Informatique       0.00      0.00      0.00         3
+Informatique       1.00      0.33      0.50         3
+     Maison       0.00      0.00      0.00         0
        News       1.00      1.00      1.00         1
-Objets Connectes       1.00      0.33      0.50         3
+Objets Connectes       0.50      0.33      0.40         3
+Peripheriques Z-Wave       0.00      0.00      0.00         0
  Smartwatch       1.00      0.50      0.67         2
-Test Materiel Informatique       0.00      0.00      0.00         1
-Tests Audio / Video       0.00      0.00      0.00         1
-Tests Box Domotique       0.00      0.00      0.00         1
-Tests Equipement Maison       0.33      1.00      0.50         1
+Test Materiel Informatique       0.33      1.00      0.50         1
+Tests Audio / Video       1.00      1.00      1.00         1
+Tests Box Domotique       1.00      1.00      1.00         1
+Tests Equipement Maison       1.00      1.00      1.00         1
 Tests Logiciels       0.00      0.00      0.00         1
 Tests Objets Connectes       0.00      0.00      0.00         2
 
-avg / total       0.52      0.35      0.40        34
+avg / total       0.57      0.56      0.53        32
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-  Domotique       0.82      0.75      0.78        12
+  Domotique       0.80      0.80      0.80        10
 Guides Audio / Video       0.00      0.00      0.00         1
-Guides Automatismes       0.00      0.00      0.00         0
 Guides Box Domotique       0.00      0.00      0.00         1
 Guides Chauffage       0.00      0.00      0.00         0
-Guides Eclairage       0.00      0.00      0.00         0
 Guides Informatiques       0.67      1.00      0.80         2
 Guides Securite       1.00      0.50      0.67         2
 Informatique       1.00      0.33      0.50         3
        News       1.00      1.00      1.00         1
-Objets Connectes       0.33      0.33      0.33         3
+Objets Connectes       0.50      0.67      0.57         3
       Sante       0.00      0.00      0.00         0
  Smartwatch       1.00      1.00      1.00         2
 Test Materiel Informatique       0.50      1.00      0.67         1
 Tests Audio / Video       1.00      1.00      1.00         1
-Tests Box Domotique       0.00      0.00      0.00         1
-Tests Equipement Maison       0.50      1.00      0.67         1
+Tests Box Domotique       0.33      1.00      0.50         1
+Tests Equipement Maison       1.00      1.00      1.00         1
 Tests Logiciels       0.00      0.00      0.00         1
 Tests Objets Connectes       0.00      0.00      0.00         2
 
-avg / total       0.65      0.59      0.59        34
+avg / total       0.68      0.66      0.63        32
 
 <Results for Fold[9]>
-Fold train Matrix[9]:(309, 372)
-Fold test Matrix[9]:(34, 372)
-Linear SVM Classifier Accuracy:0.352941176471
-Multinomial Naive Bayes Accuracy:0.294117647059
-5 Nearest Neighbors Accuracy:0.147058823529
-Random Forest (25 learners) Accuracy:0.352941176471
+Fold train Matrix[9]:(289, 370)
+Fold test Matrix[9]:(32, 370)
+Linear SVM Classifier Accuracy:0.4375
+Multinomial Naive Bayes Accuracy:0.34375
+5 Nearest Neighbors Accuracy:0.3125
+Random Forest (25 learners) Accuracy:0.40625
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
-Audio/Video       0.00      0.00      0.00         1
 Constructeur       1.00      1.00      1.00         1
-  Domotique       0.29      0.83      0.43         6
+  Domotique       0.40      0.86      0.55         7
  Evenements       0.00      0.00      0.00         1
 Guides Audio / Video       0.50      1.00      0.67         1
 Guides Box Domotique       0.00      0.00      0.00         3
 Guides Chauffage       0.00      0.00      0.00         1
-Guides Securite       0.00      0.00      0.00         1
-Informatique       0.00      0.00      0.00         2
+Guides Securite       1.00      1.00      1.00         1
+Informatique       0.00      0.00      0.00         1
      Maison       1.00      0.50      0.67         2
-       News       0.00      0.00      0.00         2
+       News       0.00      0.00      0.00         1
 Objets Connectes       0.50      0.50      0.50         6
 Peripheriques Z-Wave       1.00      1.00      1.00         1
   Robotique       0.00      0.00      0.00         1
@@ -929,27 +887,25 @@ Peripheriques Z-Wave       1.00      1.00      1.00         1
 Test Peripheriques Domotiques       0.00      0.00      0.00         1
 Tests Audio / Video       0.00      0.00      0.00         1
 Tests Box Domotique       0.00      0.00      0.00         2
-Tests Equipement Maison       0.00      0.00      0.00         0
 Tests Logiciels       0.00      0.00      0.00         0
 Tests Objets Connectes       0.00      0.00      0.00         0
 Tests Robots       0.00      0.00      0.00         0
 
-avg / total       0.27      0.35      0.28        34
+avg / total       0.35      0.44      0.37        32
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-Audio/Video       0.00      0.00      0.00         1
 Constructeur       0.00      0.00      0.00         1
-  Domotique       0.17      0.67      0.28         6
+  Domotique       0.24      0.71      0.36         7
  Evenements       0.00      0.00      0.00         1
 Guides Audio / Video       1.00      1.00      1.00         1
 Guides Box Domotique       0.00      0.00      0.00         3
 Guides Chauffage       0.00      0.00      0.00         1
 Guides Securite       0.00      0.00      0.00         1
-Informatique       0.00      0.00      0.00         2
+Informatique       0.00      0.00      0.00         1
      Maison       0.00      0.00      0.00         2
-       News       0.00      0.00      0.00         2
+       News       0.00      0.00      0.00         1
 Objets Connectes       0.56      0.83      0.67         6
 Peripheriques Z-Wave       0.00      0.00      0.00         1
   Robotique       0.00      0.00      0.00         1
@@ -959,54 +915,50 @@ Tests Audio / Video       0.00      0.00      0.00         1
 Tests Box Domotique       0.00      0.00      0.00         2
 Tests Objets Connectes       0.00      0.00      0.00         0
 
-avg / total       0.16      0.29      0.20        34
+avg / total       0.19      0.34      0.23        32
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         0
-Audio/Video       0.00      0.00      0.00         1
-Constructeur       0.50      1.00      0.67         1
-  Domotique       0.38      0.50      0.43         6
+Constructeur       1.00      1.00      1.00         1
+  Domotique       0.25      0.71      0.37         7
  Evenements       0.00      0.00      0.00         1
-Guides Audio / Video       0.00      0.00      0.00         1
+Guides Audio / Video       0.50      1.00      0.67         1
 Guides Box Domotique       0.00      0.00      0.00         3
 Guides Chauffage       0.00      0.00      0.00         1
 Guides Securite       0.00      0.00      0.00         1
-Informatique       0.00      0.00      0.00         2
+Informatique       0.00      0.00      0.00         1
      Maison       1.00      0.50      0.67         2
-       News       0.00      0.00      0.00         2
-Objets Connectes       0.00      0.00      0.00         6
+       News       0.00      0.00      0.00         1
+Objets Connectes       0.50      0.33      0.40         6
 Peripheriques Z-Wave       0.00      0.00      0.00         1
   Robotique       0.00      0.00      0.00         1
  Smartwatch       0.00      0.00      0.00         1
+Test Materiel Informatique       0.00      0.00      0.00         0
 Test Peripheriques Domotiques       0.00      0.00      0.00         1
 Tests Audio / Video       0.00      0.00      0.00         1
 Tests Box Domotique       0.00      0.00      0.00         2
 Tests Equipement Maison       0.00      0.00      0.00         0
 
-avg / total       0.14      0.15      0.13        34
+avg / total       0.26      0.31      0.25        32
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         0
-Audio/Video       0.00      0.00      0.00         1
 Constructeur       1.00      1.00      1.00         1
-  Domotique       0.50      0.67      0.57         6
+  Domotique       0.31      0.71      0.43         7
  Evenements       0.00      0.00      0.00         1
 Guides Audio / Video       0.50      1.00      0.67         1
 Guides Box Domotique       0.00      0.00      0.00         3
 Guides Chauffage       0.00      0.00      0.00         1
 Guides Securite       1.00      1.00      1.00         1
-Informatique       0.00      0.00      0.00         2
+Informatique       0.00      0.00      0.00         1
      Maison       1.00      0.50      0.67         2
-       News       0.00      0.00      0.00         2
-Objets Connectes       0.50      0.50      0.50         6
+       News       0.00      0.00      0.00         1
+Objets Connectes       0.50      0.33      0.40         6
 Peripheriques Z-Wave       1.00      1.00      1.00         1
   Robotique       0.00      0.00      0.00         1
- Smartwatch       0.00      0.00      0.00         1
-Test Materiel Informatique       0.00      0.00      0.00         0
+ Smartwatch       1.00      1.00      1.00         1
 Test Peripheriques Domotiques       0.00      0.00      0.00         1
 Tests Audio / Video       0.00      0.00      0.00         1
 Tests Box Domotique       0.00      0.00      0.00         2
@@ -1014,24 +966,24 @@ Tests Logiciels       0.00      0.00      0.00         0
 Tests Objets Connectes       0.00      0.00      0.00         0
 Tests Robots       0.00      0.00      0.00         0
 
-avg / total       0.34      0.35      0.34        34
+avg / total       0.37      0.41      0.36        32
 
 <Results for Fold[10]>
-Fold train Matrix[10]:(309, 367)
-Fold test Matrix[10]:(34, 367)
-Linear SVM Classifier Accuracy:0.411764705882
-Multinomial Naive Bayes Accuracy:0.382352941176
-5 Nearest Neighbors Accuracy:0.176470588235
-Random Forest (25 learners) Accuracy:0.411764705882
+Fold train Matrix[10]:(289, 367)
+Fold test Matrix[10]:(32, 367)
+Linear SVM Classifier Accuracy:0.4375
+Multinomial Naive Bayes Accuracy:0.40625
+5 Nearest Neighbors Accuracy:0.46875
+Random Forest (25 learners) Accuracy:0.4375
 <Linear SVM Classifier Metrics>
              precision    recall  f1-score   support
 
 Audio/Video       0.00      0.00      0.00         0
-  Domotique       0.38      0.86      0.52         7
+  Domotique       0.43      0.86      0.57         7
  Evenements       0.00      0.00      0.00         0
 Guides Audio / Video       1.00      1.00      1.00         1
-Guides Automatismes       1.00      0.50      0.67         2
-Guides Box Domotique       0.00      0.00      0.00         2
+Guides Automatismes       1.00      1.00      1.00         1
+Guides Box Domotique       0.00      0.00      0.00         1
 Guides Informatiques       1.00      0.67      0.80         3
 Informatique       0.00      0.00      0.00         1
      Maison       0.50      1.00      0.67         1
@@ -1041,19 +993,19 @@ Peripheriques ZigBee       0.00      0.00      0.00         1
   Robotique       0.00      0.00      0.00         2
 Test Materiel Informatique       0.00      0.00      0.00         0
 Test Peripheriques Domotiques       0.00      0.00      0.00         0
-Tests Audio / Video       0.50      0.50      0.50         2
+Tests Audio / Video       1.00      0.50      0.67         2
 Tests Equipement Maison       1.00      1.00      1.00         1
 Tests Objets Connectes       0.00      0.00      0.00         2
 
-avg / total       0.41      0.41      0.37        34
+avg / total       0.44      0.44      0.40        32
 
 <Multinomial Naive Bayes Classifier Metrics>
              precision    recall  f1-score   support
 
-  Domotique       0.30      1.00      0.47         7
+  Domotique       0.33      1.00      0.50         7
 Guides Audio / Video       0.00      0.00      0.00         1
-Guides Automatismes       0.00      0.00      0.00         2
-Guides Box Domotique       0.00      0.00      0.00         2
+Guides Automatismes       0.00      0.00      0.00         1
+Guides Box Domotique       0.00      0.00      0.00         1
 Guides Informatiques       1.00      1.00      1.00         3
 Informatique       0.00      0.00      0.00         1
      Maison       0.00      0.00      0.00         1
@@ -1065,24 +1017,22 @@ Tests Audio / Video       1.00      0.50      0.67         2
 Tests Equipement Maison       0.00      0.00      0.00         1
 Tests Objets Connectes       0.00      0.00      0.00         2
 
-avg / total       0.30      0.38      0.30        34
+avg / total       0.33      0.41      0.32        32
 
 <5 Nearest Neighbors Classifier Metrics>
              precision    recall  f1-score   support
 
-Administratif       0.00      0.00      0.00         0
 Audio/Video       0.00      0.00      0.00         0
-Constructeur       0.00      0.00      0.00         0
-  Domotique       0.75      0.43      0.55         7
+  Domotique       0.47      1.00      0.64         7
  Evenements       0.00      0.00      0.00         0
-Guides Audio / Video       0.00      0.00      0.00         1
-Guides Automatismes       0.00      0.00      0.00         2
-Guides Box Domotique       0.00      0.00      0.00         2
-Guides Informatiques       1.00      0.33      0.50         3
+Guides Audio / Video       0.50      1.00      0.67         1
+Guides Automatismes       1.00      1.00      1.00         1
+Guides Box Domotique       0.00      0.00      0.00         1
+Guides Informatiques       1.00      1.00      1.00         3
 Informatique       0.00      0.00      0.00         1
      Maison       0.00      0.00      0.00         1
        News       0.00      0.00      0.00         1
-Objets Connectes       0.00      0.00      0.00         8
+Objets Connectes       0.50      0.12      0.20         8
 Peripheriques ZigBee       0.00      0.00      0.00         1
   Robotique       0.00      0.00      0.00         2
 Test Materiel Informatique       0.00      0.00      0.00         0
@@ -1090,31 +1040,29 @@ Tests Audio / Video       1.00      0.50      0.67         2
 Tests Equipement Maison       0.50      1.00      0.67         1
 Tests Objets Connectes       0.00      0.00      0.00         2
 
-avg / total       0.32      0.18      0.22        34
+avg / total       0.45      0.47      0.40        32
 
 <Random Forest (25 learners) Classifier Metrics>
              precision    recall  f1-score   support
 
 Audio/Video       0.00      0.00      0.00         0
-Constructeur       0.00      0.00      0.00         0
-  Domotique       0.57      0.57      0.57         7
+  Domotique       0.40      0.86      0.55         7
  Evenements       0.00      0.00      0.00         0
 Guides Audio / Video       1.00      1.00      1.00         1
-Guides Automatismes       0.00      0.00      0.00         2
-Guides Box Domotique       0.00      0.00      0.00         2
+Guides Automatismes       0.00      0.00      0.00         1
+Guides Box Domotique       0.00      0.00      0.00         1
 Guides Informatiques       1.00      0.67      0.80         3
 Informatique       0.00      0.00      0.00         1
-     Maison       0.33      1.00      0.50         1
+     Maison       0.50      1.00      0.67         1
        News       0.00      0.00      0.00         1
-Objets Connectes       0.50      0.50      0.50         8
+Objets Connectes       0.25      0.12      0.17         8
 Peripheriques ZigBee       0.00      0.00      0.00         1
   Robotique       0.00      0.00      0.00         2
 Test Materiel Informatique       0.00      0.00      0.00         0
-Test Peripheriques Domotiques       0.00      0.00      0.00         0
 Tests Audio / Video       1.00      0.50      0.67         2
 Tests Equipement Maison       1.00      1.00      1.00         1
-Tests Objets Connectes       0.00      0.00      0.00         2
+Tests Objets Connectes       1.00      0.50      0.67         2
 Tests Robots       0.00      0.00      0.00         0
 
-avg / total       0.45      0.41      0.42        34
+avg / total       0.45      0.44      0.40        32
 
