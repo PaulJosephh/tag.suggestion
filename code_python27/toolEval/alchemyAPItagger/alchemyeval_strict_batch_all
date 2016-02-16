@@ -1,0 +1,36 @@
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xtoutchilink/ toutchilink --n 10 > ../../../results/tooleval/alchemyAPItagger/toutchilink10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xjosdblog/ josdblog --n 10 > ../../../results/tooleval/alchemyAPItagger/josdblog10.eval
+python alchemyeval_strict.py ../../../corpus/corpus2_dates/xparalipomenes/ paralipomenes --n 10 > ../../../results/tooleval/alchemyAPItagger/paralipomenes10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xdomotique34/ domotique34 --n 10 > ../../../results/tooleval/alchemyAPItagger/domotique3410.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xmaisonetdomotique/ maisonetdomotique --n 10 > ../../../results/tooleval/alchemyAPItagger/maisonetdomotique10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xshots/ shots --n 10 > ../../../results/tooleval/alchemyAPItagger/shots10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xlagourmandiseselonangie/ lagourmandiseselonangie --n 10 > ../../../results/tooleval/alchemyAPItagger/lagourmandiseselonangie10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xfrancoischarlet/ francoischarlet --n 10 > ../../../results/tooleval/alchemyAPItagger/francoischarlet10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xbcommebon/ bcommebon --n 10 > ../../../results/tooleval/alchemyAPItagger/bcommebon10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xprendreuncafe/ prendreuncafe --n 10 > ../../../results/tooleval/alchemyAPItagger/prendreuncafe10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xroxarmy/ roxarmy --n 10 > ../../../results/tooleval/alchemyAPItagger/roxarmy10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xbeaualalouche/ beaualalouche --n 10 > ../../../results/tooleval/alchemyAPItagger/beaualalouche10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xcoupleofpixels/ coupleofpixels --n 10 > ../../../results/tooleval/alchemyAPItagger/coupleofpixels10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xdomadoo/ domadoo --n 10 > ../../../results/tooleval/alchemyAPItagger/domadoo10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xjulsa/ julsa --n 10 > ../../../results/tooleval/alchemyAPItagger/julsa10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xpechedegourmand/ pechedegourmand --n 10 > ../../../results/tooleval/alchemyAPItagger/pechedegourmand10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xphilippebilger/ philippebilger --n 10 > ../../../results/tooleval/alchemyAPItagger/philippebilger10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xjurilexblog/ jurilexblog --n 10 > ../../../results/tooleval/alchemyAPItagger/jurilexblog10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xjohncouscous/ johncouscous --n 10 > ../../../results/tooleval/alchemyAPItagger/johncouscous10.eval
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xjournaldugamer/ journaldugamer --n 10 > ../../../results/tooleval/alchemyAPItagger/journaldugamer10.eval
+
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xjosdblog/ josdblog --n 10 > ../../../results/tooleval/alchemyAPItagger/josdblog10.eval
+
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xjohncouscous/ johncouscous --n 10 > ../../../results/tooleval/alchemyAPItagger/johncouscous10.eval
+
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xfrancoischarlet/ francoischarlet --n 10 > ../../../results/tooleval/alchemyAPItagger/francoischarlet10.eval
+
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xdomotique34/ domotique34 --n 10 > ../../../results/tooleval/alchemyAPItagger/domotique3410.eval
+
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xdomadoo/ domadoo --n 10 > ../../../results/tooleval/alchemyAPItagger/domadoo10.eval
+
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xcoupleofpixels/ coupleofpixels --n 10 > ../../../results/tooleval/alchemyAPItagger/coupleofpixels10.eval
+
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xbeaualalouche/ beaualalouche --n 10 > ../../../results/tooleval/alchemyAPItagger/beaualalouche10.eval
+
+#python alchemyeval_strict.py ../../../corpus/corpus2_dates/xbcommebon/ bcommebon --n 10 > ../../../results/tooleval/alchemyAPItagger/bcommebon10.eval
