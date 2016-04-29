@@ -1,0 +1,35 @@
+<document>
+	<date>2005-06-21</date>
+        <title>La "ligne de commande" du web</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>moteurs</tag>
+                <tag>rails</tag>
+                <tag>ruby</tag>
+                <tag>signets</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Liens</category>
+        </categories_set>
+        <text>[Via  DLFP ] 
+
+
+ 
+
+
+ Yubnub  est un moteur de recherche pas comme les autres, puisque la syntaxe utilisee pour les requetes s'effectue sous la forme de commandes rappelant celles du monde *n*x, comme par exemple: 
+
+ 
+ g ubuntu  - Effectue la requete  ubuntu  sur  Google 
+ gim ubuntu  - Recherche les images correspondant au mot  ubuntu  sur  Google Images 
+ wp ubuntu  - Recherche la definition d 'ubuntu  sur  Wikipedia 
+ gnews ubuntu  - Recherche l'actualite liee a  ubuntu  sur  Google News 
+ flk ubuntu  - Recherche le tag  ubuntu  sur  Flickr 
+ tts ubuntu  - Obtenir un fichier audio en synthese vocale du mot  ubuntu  (je suis scie) 
+ etc. 
+ 
+
+ La ou le concept devient carrement interessant, c'est qu'on peut  creer ses propres commandes ! Un apercu de toutes les commandes mutualisees est disponible  en tappant la commande ''ls'' 
+        </text>
+</document>

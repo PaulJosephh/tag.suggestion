@@ -1,0 +1,104 @@
+<document>
+	<date>2008-03-13</date>
+        <title>Symfony 1.1 beta, tour du propritaire - L'internationalisation (i18n)</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>framework</tag>
+                <tag>i18n</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+                <tag>tutoriel</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Dans la liste des taches nouvellement ajoutees en Symfony 1.1, on remarque une section dediee a l'internationalisation: 
+
+
+ i18n
+  :extract            Extracts i18n strings from php files
+  :find               Finds non "i18n ready" strings in an application 
+
+
+ Et oui, la fonctionnalite dont tous les gens qui ont un jour travaille sur des applications internationalisees en Symfony 1.0 ont reve a enfin ete ajoutee: une tache d'extraction des chaines de caracteres a traduire, avec generation et mise a jour des fichiers de traductions  XLIFF   
+
+
+ Si vous avez suivi les  precedents   tutoriels , vous devez disposer d'un projet  sf11test , d'une application  main  et d'un module  contact . 
+
+
+ On va activer la gestion de l'internationalisation dans l'application en editant le fichier de configuration  apps/main/config/settings.yml  comme suit: 
+
+ 
+[...]
+all:
+  [...]
+  .settings:
+    [...]
+    i18n:                   on
+    [...]
+    standard_helpers:       [Partial, Cache, Form, I18N]
+    [...]
+    default_culture:        en
+ 
+
+
+ On part du principe que la langue par defaut sera l'anglais (en). Ajoutons quelques chaines internationalisees dans le template  apps/main/modules/contact/templates/indexSuccess.php  au moyen du helper  __() : 
+
+  php
+h2?php echo __('Contact us') ?/h2
+p?php echo __('Drop us a message using the form below:') ?/p
+form action="?php echo url_for('contact/index') ?" method="post"
+  table
+    ?php echo $form ?
+    tr
+      td/td
+      tdinput type="submit" value="?php echo __('Send your message') ?" //td
+    /tr
+  /table
+/form
+ 
+
+
+ Maintenant, lancons la commande d'extraction des chaines a traduire pour notre future version francaise, en lui demandant poliment de generer automatiquement le fichier de traduction et de supprimer automatiquement les entrees orphelines: 
+
+ 
+ $ ./symfony i18n:extract --auto-save --auto-delete main fr
+ i18n      extracting i18n strings for the "main" application
+ i18n      found "3" new i18n strings
+ i18n      found "0" old i18n strings
+ i18n      saving new i18n strings
+ i18n      deleting old i18n strings
+ 
+
+
+ Le fichier  apps/main/i18n/fr/messages.xml  a ete genere, examinons son contenu: 
+
+  xml
+?xml version="1.0"?
+xliff version="1.0"
+  file source-language="EN" target-language="fr" datatype="plaintext"
+    original="messages" date="2008-03-13T11:13:45Z"
+    product-name="messages"
+    body
+      trans-unit id="1"
+        sourceContact us/source
+        target/target
+      /trans-unit
+      trans-unit id="2"
+        sourceDrop us a message using the form below:/source
+        target/target
+      /trans-unit
+      trans-unit id="3"
+        sourceSend your message/source
+        target/target
+      /trans-unit
+    /body
+  /file
+/xliff
+ 
+
+
+ Il ne nous reste  plus qu'a  traduire nos chaines en remplissant les balises  target/target  en consequence pour traduire notre application en francais. Si l'on venait a modifier notre template en supprimant, modifiant ou ajoutant de nouvelles chaines, la tache d'extraction se chargerait de mettre a jour nos fichiers de traduction en consequence, tout en preservant le travail deja effectue  
+        </text>
+</document>

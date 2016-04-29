@@ -1,0 +1,14 @@
+<document>
+	<date>2013-05-10</date>
+        <title>ZiBASE : Nouvelle mise  jour et redondance Multi Server</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          Une nouvelle mise a jour pour la  ZiBASE Zodianet ZiBASE   Actuellement ce sont les serveurs  http://zibase.net http://zibase-club.net ZiBASE ZiBASE Par contre, lenregistrement sur une plateforme est toujours necessaire (login/password/email). Zodianet ZiBASEs la propagation de la configuration  domotique La mise a jour V724 de la  ZiBASE Correction de bugs sur CRITERES  (Timer, Comparaison  ) Gestion de 60 variables:   V0V59 avec V15V44 sauvegardees. Attention! Seules les variables V0V31 (comme avant) sont visibles des applications smartphones/tablettes, en consequence V32V59 ne peuvent etre utilisees dans les thermostats. Gestion du ZXT120 de  Remotec Amelioration dans la gestion d EnOcean EnOcean  Avec cette mise a jour V724,  Zodianet EnOcean Zodianet  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

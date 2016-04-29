@@ -1,0 +1,22 @@
+<document>
+	<date>2012-03-21</date>
+        <title>Principes dune chane de traitements UIMA</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Analysis engine</tag>
+                <tag>CAS</tag>
+                <tag>Document viewer</tag>
+        </tags_set>
+        <categories_set>
+                <category>TALN</category>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+Lobjectif dune  chaine de traitements UIMA 
+ Charger un document non structure (comme le texte du Petit Prince de Saint-Exupery dans lillustration ci-dessous). Generer le  schema dannotation commun Common Analysis Structure Enchainer les  composants dannotation Generer une sortie (generalement un fichier xmi) a partir des annotations contenues dans le CAS (le fichier xmi genere est visualise dans loutil UIMA  Document Viewer 
+ 
+ 
+ Introduction au TALN, aux plateformes dannotations linguistiques et a UIMA Sommaire UIMA sur ce blog 
+        </text>
+</document>

@@ -1,0 +1,14 @@
+<document>
+	<date>2007-11-29</date>
+        <title>ScheduleWorld + Funambol = Synchronisation gratuite avec Google Agenda</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Windows Mobile</category>
+        </categories_set>
+        <text>
+                                                 
+Lorsque lon est connecte a Internet, en WiFi par exemple, il est possible de synchroniser directement et gratuitement son agenda avec Google Agenda. Il faut installer sur le PDA un client  Funambol Il faut sinscrire sur  ScheduleWorld Calendar Agenda Une fois tout installe et parametre, la premiere tentative de connexion du client  Funambol ScheduleWorld SyncML Device fwm- (          funambol smartphone plug-in  ) ScheduleWorld Helas, cette solution nest aujourdhui plus gratuite et na jamais fonctionnee parfaitement pour moi Dans les solutions payantes, je prefere largement  OggSync 
+        </text>
+</document>

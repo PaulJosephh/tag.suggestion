@@ -1,0 +1,36 @@
+<document>
+	<date>2014-08-22</date>
+        <title>Universal Sensor Fibaro FGBS321</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Fibaro</tag>
+                <tag>Vera</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Modules</category>
+        </categories_set>
+        <text>
+                                                 Description 
+ 
+Ce module permet principalement dintegrer dans un reseau Z-Wave deux entrees de type contacts secs (alarme, detecteur de presence, detecteur douverture) ainsi quun bus filaire data 1-wire sur lequel quatre sondes de temperature Dallas DS18B20 peuvent etre raccordees. Il dispose egalement de deux sorties tout ou rien libres de potentiel qui sont de simples copies des entrees ( i.e. Sonde 1-wire Dallas DS18B20 
+ 
+Cette sonde nest pas fournie avec le detecteur.  Elle coute moins de 3 Inclusion / exclusion 
+Pour inclure le FGBS321, approcher le controleur, le mettre en mode inclusion puis appuyer 3 fois tres rapidement sur le bouton B. 
+ 
+Pour exclure le FGBS321, approcher le controleur, le mettre en mode exclusion puis appuyer 3 fois tres rapidement sur le bouton B. 
+ Reinitialisation complete du FGBS321 
+ Exclure le module FGBS321 du reseau Z-Wave Couper lalimentation du module Appuyer sur le bouton du module et retablir lalimentation en maintenant le bouton appuye Attendre 10 secondes Supprimer puis restaurer a nouveau lalimentation du module Association avec la Vera Lite (UI5, firmware beta 1.5.672) 
+ 
+Le module FGBS321 na pas besoin du  firmware beta 1.5.67 Vera Lite 
+ Inclure le module FGBS321. Une fois le module FGBS321 inclus, il doit apparaitre dans la liste des modules sous la forme dun detecteur de mouvements. Le mieux est de le renommer immediatement (ex: Universal Sensor) pour le distinguer des modules enfants qui vont ensuite apparaitre.
+ Dans longlet  Settings Configure node right now Deux nouveau modules de type detecteur de mouvements doivent apparaitre. Ils correspondent aux deux entrees du FGBS321. De plus, autant de capteurs generiques (bug) que de sonde Dallas DS18B20 cablees doivent egalement apparaitre. Afin de retrouver des sondes de temperatures exploitables, il faut remplacer le fichier de configuration  D_GenericIO1.xml D_TemperatureSensor1.xml Clef Advanced device_file Figement de la temperature de lune des sondes 
+ 
+Mon  Universal Sensor Fibaro Capabilities 211,156,0,4,33,1,L,R,B,RS,|49, 
+Jai pu retrouver un fonctionnement normal sans exclure et reinclure l Universal Sensor Configure node right now Settings Capabilities Configure node right now Informations et sources 
+ 
+Shopping:  Detecteur Universel Z-wave Fibaro Sonde Dallas DS18B20 Test: Module Universel de Fibaro FGBS321 Test du Detecteur Universel Fibaro FGBS-001  
+ Sommaire Domotique 
+        </text>
+</document>

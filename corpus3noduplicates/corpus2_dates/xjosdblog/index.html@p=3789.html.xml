@@ -1,0 +1,80 @@
+<document>
+	<date>2013-09-06</date>
+        <title>Test de la camra IP D-Link DCS-2230  Partie 2/3</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Camera IP</tag>
+        </tags_set>
+        <categories_set>
+                <category>DLink</category>
+                <category>Domotique</category>
+                <category>Surveillance</category>
+                <category>Synology</category>
+        </categories_set>
+        <text>
+                                                 Visualisation en direct sous Linux et sous Windows 
+
+ 
+Les tests ont ete effectues avec ordinateur et camera en filaire (pas de Wi-Fi) en 800480 a 25 images par seconde et en qualite excellente. Sauf indication contraire, le firmware utilise etait le plus recent (Firmware 1.20.00).
+Jai teste deux configuration sous Linux et une sous  Microsoft Windows 
+   Configuration 1 :  Firefox 18.0.2 Google Chrome 25.0.1364.160 VLC 1.1.13 The Luggage Fedora release 16 (Verne) Configuration 2 :  Firefox 23.0 Google Chrome 28.0.1500.71 VLC 2.0.8 Twoflower Ubuntu 13.04 Raring Configuration 3 :  Firefox 23.0.1 Internet Explorer 10.0.9200.16660 VLC 2.0.8 Twoflower Microsoft Windows 7 Professionnel Service Pack 1 Firefox Google Chrome Internet Explore Microsoft Windows Google Chrome CCTV View Avec linterface de configuration D-Link 
+ 
+ Firefox / JPEG:
+   
+   Image fluide avec 3 secondes de decalage le son fonctionne Image fluide avec 5 secondes de decalage pas de son Image saccadee pas de son Google Chrome  Internet Explorer / JPEG:
+   
+   Image fluide avec 3 secondes de decalage le son fonctionne Image fluide avec 5 secondes de decalage pas de son Image tres fluide le son fonctionne Firefox / MPEG4:
+   
+   Image fluide avec 3 secondes de decalage le son fonctionne Image fluide avec 4 secondes de decalage pas de son Image saccadee pas de son Google Chrome  Internet Explorer / MPEG4:
+   
+   Image fluide avec 3 secondes de decalage le son fonctionne Image fluide avec 4 secondes de decalage pas de son Image fluide le son fonctionne Firefox / H.264:
+   
+   Image tres fluide avec 3 secondes de decalage le son fonctionne Image fluide avec 4 secondes de decalage pas de son Image saccadee pas de son Google Chrome  Internet Explorer / H.264:
+   
+   Image tres fluide avec 3 secondes de decalage le son fonctionne Image fluide avec 4 secondes de decalage pas de son Image tres fluide le son fonctionne Remarque : 
+ Sous  Internet Explorer video en direct Le haut parleur de la camera emet un son strident en continu avec le firmware 1.00.00. Se probleme nexiste pas avec le firmware 1.20 Avec Synology Surveillance Station 
+ 
+ Firefox / JPEG:
+   
+   Image tres fluide sans decalage pas de son Image fluide avec leger decalage pas de son Ecran noir Google Chrome  Internet Explorer / JPEG:
+   
+   Image tres fluide pas de son Image fluide avec leger decalage pas de son Image tres fluide pas de son Firefox / MPEG4:
+   
+   Ecran noir Ecran noir Image tres fluide le son fonctionne Google Chrome  Internet Explorer / MPEG4:
+   
+   Ecran noir Ecran noir Image tres fluide le son fonctionne Firefox / H.264:
+   
+   Ecran noir Ecran noir Image tres fluide le son fonctionne Google Chrome  Internet Explorer / H.264:
+   
+   Ecran noir Ecran noir Image tres fluide le son fonctionne Remarques : 
+ Que ce soit avec  Internet Explorer Firefox Microsoft Windows Affichage en direct Surveillance Station Surveillance Station DS Cam Surveillance Station Jai egalement fait un test en degradant la version du firmware D-Link de la camera pour passer a la version 1.00.00. Cette version permet effectivement a  Surveillance Station Affichage en direct Firefox Google Chrome Internet Exploreur Avec VLC 
+ 
+ Flux http / JPEG:  Image tres fluide avec 2 secondes de decalage pas de son Flux RTSP / JPEG:  Image fluide avec 2 secondes de decalage le son fonctionne Flux http / MPEG4:  Image saccadee avec 4 secondes de decalage pas de son Flux RTSP / MPEG4:
+   
+   Image fluide avec 2 secondes de decalage le son fonctionne Pas dimage le son fonctionne Image fluide avec 2 secondes de decalage le son fonctionne Flux http / H.264:  Image saccadee avec 3 secondes de retard pas de son Flux RTSP / H.264:  Image fluide avec 1 seconde de retard le son fonctionne Remarque : Microsoft Windows Visualisation en direct sous Android 
+
+ 
+Avec Android (Galaxy S2), jai eu du mal a faire fonctionner les applications en local. Curieusement,  le fonctionnement distant en parametrant les redirections de port au niveau du routeur est bien plus stable et fiable 
+ IP Cam Viewer v4.9.5 ImperiHome 1.9.2 DS Cam Un navigateur tinyCam Monitor 4.3.9 Onvifer 3.89 MX Player 1.7.18 VLC v0.1.3 RTSP Player Version2.2.1303.2911 RTSP Viewer 1.0.0 IP Camera Multi-Viewer 1.0 Avec un navigateur 
+Il est possible douvrir  Surveillance Station Avec DS Cam 
+ 
+ Wi-Fi / JPEG:  Image fluide avec 2 secondes de decalage le son ne fonctionne pas Wi-Fi / MPEG4:  Image tres saccadee avec 2 secondes de decalage le son fonctionne Wi-Fi / H.264:  Image tres saccadee avec 3 secondes de decalage le son fonctionne DS cam MX Player 1.7.18 
+ Flux RTSP en Wi-Fi / JPEG / 640360 15 images par secondes :  Ecran noir Flux RTSP en Wi-Fi / MPEG4 / 640360 15 images par secondes :  Image fluide avec 8 secondes de retard le son fonctionne Flux RTSP en Wi-Fi / H.264 / 640360 15 images par secondes :  Image fluide avec 5 secondes de retard le son fonctionne VLC v0.1.3 
+Le temps de chargement avant de voir apparaitre une image est long. Suivant la configuration, cela ne fonctionne souvent pas (surtout en local). 
+ 
+ Flux RTSP en Wi-Fi / JPEG / 640360 15 images par secondes :  Ecran noir Flux RTSP en Wi-Fi / MPEG4 / 640360 15 images par secondes :  Image fluide avec 1 secondes de retard le son fonctionne Flux RTSP en Wi-Fi / H.264 / 640360 15 images par secondes :  Image fluide avec 1 secondes de retard le son fonctionne IP Cam Viewer v4.9.5 
+Le temps de chargement avant de voir apparaitre une image est long. Suivant la configuration, cela ne fonctionne souvent pas (surtout en local). La stabilite nest pas exemplaire.
+ 
+ Flux JPEG en Wi-Fi / 640360 15 images par secondes :  Image fluide  le son fonctionne le haut parleur de la camera fonctionne! Flux MPEG4 en Wi-Fi / 640360 15 images par secondes :  Image relativement fluide  le son fonctionne le haut parleur de la camera fonctionne! Flux H.264 en Wi-Fi / 640360 15 images par secondes :  Image pratiquement fluide  le son fonctionne le haut parleur de la camera fonctionne! IP Cam Viewer tinyCam Monitor 4.3.9 
+Fonctionne avec une connexion Wifi ou, dans une moindre mesure, data. Beaucoup de parametres (trop). Penser a preciser le bon encodage de la video ( Gerer les cameras  MaCamera  Parametres avancees  Choisir un CODEC Onvifer 3.89 
+ ONVIF IP Camera viewer/explore ImperiHome 1.9.2 
+ImperiHome permet de gerer differents systemes domotique tels que Vera, ZiBASE, eedomus ou LightManager, mais egalement des cameras IP. Lapplication est gratuite mais une version Pro payante avec des fonctions avancees devrait bientot arriver. Pour visualiser les flux de cameras IP, ImperiHome est lune des rares applications stables que jai pu tester, y compris avec une connexion data.
+ Teste sans succes 
+ 
+ RTSP Player Version2.2.1303.2911 RTSP Viewer 1.0.0 IP Camera Multi-Viewer 1.0 
+ 
+ Test de la camera IP D-Link DCS-2230  Partie 1/3 Test de la camera IP D-Link DCS-2230  Partie 3/3 Camera IP : Utilisation du capteur PIR avec Surveillance Station 
+Shopping:  Camera IP Full HD WiFi D-Link DCS-2230 Camera IP Full HD POE D-Link DCS-2210 Synology Camera Pack License NAS Synology DS213+ 
+ Test Surveillance Station Avec Ds213+ Et D-Link Dcs-2230 
+        </text>
+</document>

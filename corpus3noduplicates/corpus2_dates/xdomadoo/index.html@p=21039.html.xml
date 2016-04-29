@@ -1,0 +1,14 @@
+<document>
+	<date>2011-03-02</date>
+        <title>Cration dun bouton actif pour HSTouch</title>
+        <author> Loc </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels Homeseer</category>
+        </categories_set>
+        <text>
+                                                         Dans un precedent article nous avions deja vu comment creer graphiquement un bouton :  Dessiner votre propre bouton pour HSTouch Nous avions vu comment creer les 2 etats dun bouton (donc 2 images ) :  1 image du bouton a letatnormal   1 image du bouton lorsquil est presse -                                               - Nous allons voir maintenant comment creer un bouton actif, cest a dire  qui respecte letat (allume/eteint) du device auquel il est rattache. Il faut pour cela creer une 3 eme eme  Cet etat permet de savoir directement si un element est actif ou non. Une fois cette 3 eme eme   Commencez par creer un bouton de base.   Pour plus de detail, vous pouvez consulter notre article  Creation dun bouton action Nous allons maintenant ajouter le 3 eme Allez dans longlet  StatusTrackingNormal   Selectionnez le Device concerne, puis cocher la case  Use Status Image  Allez dans longlet  StatusImages   Ajoutez un nouveau status, puis allez chercher limage du bouton allume dans lun des dossiers HSTouch, la ou vous lavez stockee.    Voila, le bouton est fini. Vous pouvez lancer votre client HSTouch pour tester !   Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

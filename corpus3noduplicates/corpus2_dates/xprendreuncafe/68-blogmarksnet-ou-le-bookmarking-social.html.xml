@@ -1,0 +1,31 @@
+<document>
+	<date>2005-04-14</date>
+        <title>Blogmarks.net, ou le bookmarking social</title>
+        <author>NiKo</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>
+
+
+ J'ai decouvert un service en ligne de gestion de (favoris|bookmarks|signets), qui permet de les partager avec les autres membres et de les rendre publics:  Blogmarks.net . C'est vachement bien. Dans les plus, on peut noter: 
+
+ 
+ La generation automatique d'une capture d'ecran du site ajoute, 
+ L'utilisation des tags multiples pour s'y retrouver plus facilement, 
+ La differenciation des tags publics/prives, 
+ La gestion du site de provenance du lien (site referant), 
+ Et enfin,  last but certainly not least , un outil de  postage  automatique des derniers blogmarks sur son blog est disponible, si ce dernier dispose d'une interface  XMLRPC  comme  Dotclear . Avec template editable, s'il vous plait. 
+ 
+
+ Seul petit reproche, le postage via XMLRPC ne propose pas l'UTF-8 - je suis donc oblige de repasser derriere les billets generes automatiquement  
+
+
+ Voila, ca dechire quand meme globalement. En plus la partie publique du site presente les derniers liens ajoutes et rendus publics, avec le fil RSS qui va bien, on trouve vraiment plein de petites perles. 
+
+
+ Vous pouvez visiter mes  blogmarks  en  suivant ce lien , ou attendre qu'ils soient regulierement et automatiquement publies sur ce blog  
+        </text>
+</document>

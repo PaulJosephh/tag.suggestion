@@ -1,0 +1,27 @@
+<document>
+	<date>2014-11-07</date>
+        <title>Guide dutilisation du dtecteur de mouvement Fibaro FGMS-001 avec la base domotique Homelive dOrange</title>
+        <author> Maximin </author>
+        <tags_set>
+                <tag>domotique</tag>
+                <tag>fgms-001</tag>
+                <tag>fibaro</tag>
+                <tag>guide</tag>
+                <tag>homelive</tag>
+                <tag>mouvement</tag>
+                <tag>orange</tag>
+                <tag>scenario</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Homelive</category>
+        </categories_set>
+        <text>
+                                                         La base  domotique Orange Z-Wave Fibaro Nous ne verrons que lintegration du module avec la base Homelive. Pour plus dinformations sur linstallation, nous vous invitons a consulter notre  guide dutilisation du detecteur de mouvement Fibaro FGMS-001. 1. Inclusion A partir du portail Homelive ( http://homelive.orange.fr/accueil/ notre test de la solution Homelive dOrange Une fois sur le portail, rendez-vous dans objets connectes puis + ajouter un appareil. Une liste de peripheriques soffre a vous. Choisissez Capteur 3 en 1 (mouvement). Inserez ensuite la pile dans le module et pensez bien a enlever la languette de protection si vous utiliser le module pour la premiere fois. Appuyez ensuite 3 fois sur le bouton dinclusion du module, a linterieur de celui-ci. Le module doit etre automatiquement reconnu. Si cest le cas, lappareil sera detecte. Il suffira de lui donner un nom, de selectionner une piece puis de cliquer sur Terminer. Si ce nest pas le cas, vous pouvez le dissocier ou le restaurer avant de tenter de linclure a nouveau. Une fois inclus, 3 nouveaux modules sont crees. Un par fonction du detecteur, soit mouvement, temperature et lumiere. En cliquant sur chacun des modules, on va pouvoir modifier: son nom, la piece dans laquelle il se trouve, voir dans quel(s) scenario(s) il est utilise et le supprimer. 2. Scenarios On va maintenant pouvoir creer des scenarios. Pour cela on se rend dans longlet scenarios puis + creer un scenario en haut adroite. On selectionne un de nos 3 modules en tant que declencheur. Par exemple mouvement. On selectionne un evenement declencheur si plusieurs nous sont proposes. Par exemple detecte un mouvement, puis on enregistre letape. On peut alors choisir un autre declencheur ou passer a letape 2. La on ajoute une action immediate ou differee. Ayant egalement une  sirene Aeon Labs DSD31 On choisi laction queffectuera la sirene. Ici jai choisi quelle senclenche. Puis on enregistre et on passe a letape 3. A letape 3, on peut choisir dans quel(s) mode(s) le scenario va devoir senclencher. Les modes correspondent a letat dans lequel on amis le systeme Homelive: a la maison quand on est present, a lexterieur quand on est absent, la nuit ou en vacances. Ici jai selectionne tous les modes sauf a la maison. Enfin on peut choisir de notifier des personnes par mail lorsquele scenario senclenche. On nomme ensuite le scenario, et on enregistre. Il est possible de tester celui-ci en cliquant sur tester une fois la configuration fini. Ce nest bien sur quun exemple de scenario. Vous avez pu voir que la creation de celui-ci aete tres simple. Plus vous possederez de peripheriques, plus les possibilites de creation de scenarios seront variees. Comme par exemple detecter si vos enfants sont bien couches et ne sortent pas de leurs chambres a lheure de la sieste, ou eteindre la tele si aucun mouvement na ete detecte depuis plus de 2h dans le salon entre 14h et 18h.Votre imagination est la limite! 
+ Vous pouvez retrouver le  detecteur de mouvement FIBARO FGMS-001 sur la boutique DOMADOO  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Homelive, test de la box domotique dOrange END .entry-content  
+        </text>
+</document>

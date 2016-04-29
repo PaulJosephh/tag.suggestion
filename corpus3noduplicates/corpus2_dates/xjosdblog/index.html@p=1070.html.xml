@@ -1,0 +1,37 @@
+<document>
+	<date>2012-01-30</date>
+        <title>Composant dannotation (Analysis Engine)</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Analysis engine</tag>
+                <tag>Annotator</tag>
+                <tag>Component descriptor</tag>
+        </tags_set>
+        <categories_set>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Le  composant dannotation Analysis Engine chaine de traitements UIMA 
+Un composant dannotation UIMA ( Analysis Engine 
+ 
+Un  descripteur de composant componant descriptor 
+Un annotateur ( Annotator 
+En resume :
+ 
+Composant dannotation = Descripteur de composant + Annotateur
+ Analysis Engine = Componant Descriptor + Annotator 
+ Tutoriel UIMA I : creation dun composant dannotation (Analysis Engine) Sommaire UIMA sur ce blog  .entry-content  
+                                                                                                Cette entree a ete publiee dans  UIMA Analysis engine Annotator Component descriptor permalien  .entry-utility   #post-##  
+                                          Importer ses POI dans differents systemes de cartographie ou navigation    #nav-below  
+
+
+
+
+                                                                 
+                                 Laisser un commentaire  Annuler la reponse. 
+                                                                                                                                                         Votre adresse de messagerie ne sera pas publiee. * Nom  * Adresse de contact  * Site web Commentaire Vous pouvez utiliser ces balises et attributs  HTML a href="" title="" abbr title="" acronym title="" b blockquote cite="" cite code del datetime="" em i q cite="" strike strong  
+                                                          #respond   #comments  
+        </text>
+</document>

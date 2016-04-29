@@ -1,0 +1,23 @@
+<document>
+	<date>2014-08-18</date>
+        <title>Grer ses Priphriques Somfy RTS avec JEEDOM</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>14103</tag>
+                <tag>guide</tag>
+                <tag>jeedom</tag>
+                <tag>RFXCOM</tag>
+                <tag>rts</tag>
+                <tag>somfy</tag>
+                <tag>tuto</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Jeedom</category>
+        </categories_set>
+        <text>
+                                                         Depuis la sortie du  nouveau module RFXcom RFXtrx433E Somfy JEEDOM domotique JEEDOM RFXcom JEEDOM Pour cela, vous devez commencer par connecter le RFXtrx433E a un port  USB JEEDOM 1. Installation du plugin RFXCom Connectez-vous a linterface web de  JEEDOM RFXcom Pour cela, naviguez dans le menu  General  Plugins Market Cliquer sur le plugin  RFXcom Installer Stable Une fois revenu dans le menu  General  Plugins RFXcom Protocole  Domotique Activer Le panneau de configuration du plugin  RFXcom Port  RFXcom USB Voila, le plugin  RFXcom Somfy 2. Ajout dun peripherique RTS Pour ajouter un nouveau peripherique, se rendre dans le menu  Plugins  Protocole  Domotique RFXcom Cliquer sur le bouton  +Ajouter Se rendre sur le nouveau Peripherique cree, et dans le menu deroulant  Equipement RTS Store  Somfy Les commandes utiles pour gerer le volet roulant sont automatiquement generees. Il ne reste plus qua appairer le volet avec ce peripherique  JEEDOM Pour cela, appuyer sur le bouton dappairage de la telecommande du volet que vous souhaitez commander pendant 2 a 3 secondes, jusqua ce que le volet fasse un leger aller/retour. Une fois que le volet a signifie quil est en attente de commande pour lappairage, cliquer sur le bouton  Tester Programme JEEDOM Pour valider lapprentissage de la nouvelle commande, le volet va alors faire de nouveau un bref aller/retour. Afin de tester tout de suite, vous pouvez cliquer sur les boutons  Tester Monter Descendre Stop Stop Activez et rendez visible le peripherique avec les cases a cocher correspondantes afin de pouvoir le visualiser et lutiliser dans le dashboard. Felicitations, vous pouvez desormais commander votre volet  Somfy JEEDOM  Un grand merci aSshafi, beta testeur de  JEEDOM   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Jeedom  Guide dutilisation de lampoule connectee ZIPATO RGBW END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,111 @@
+<document>
+	<date>2007-12-29</date>
+        <title>Amazon SimpleDB plugin for Symfony</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>amazon</tag>
+                <tag>database</tag>
+                <tag>php</tag>
+                <tag>plugins</tag>
+                <tag>simpledb</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Hey, this is a post written in english. Handle with care  
+
+
+ I've just released an alpha version of a new plugin for the  Symfony framework  to use the brand new  Amazon SimpleDB  service :  sfAmazonSimpleDBPlugin . This plugin is in an alpha state but provide a clean and Symfony-compliant API to handle and query your SimpleDB database, if you have the luck to have an account. 
+
+
+ The purpose of SimpleDB is to provide simple and efficient data storage through a webservice. You can find  billing policy  on their website. 
+
+
+ I've mainly used the  PHP5 library provided by Amazon  ( API documentation available ), but I thought some operations were a bit complicated. 
+
+
+ For example, with the official client, to insert a row in a table you have to do something like this : 
+
+  php
+?php
+require_once ('Amazon/SimpleDB/Model/ReplaceableAttribute.php');
+$domainName = 'MyStore';
+$itemName = 'Item_01';
+$attribute1 = new Amazon_SimpleDB_Model_ReplaceableAttribute();
+$attribute1-withName('Category')-withValue('Clothes');
+$attribute2 = new Amazon_SimpleDB_Model_ReplaceableAttribute();
+$attribute2-withName('Subcategory')-withValue('Sweater');
+$attribute3 = new Amazon_SimpleDB_Model_ReplaceableAttribute();
+$attribute3-withName('Name')-withValue('Cathair Sweater');
+$attribute4 = new Amazon_SimpleDB_Model_ReplaceableAttribute();
+$attribute4-withName('Color')-withValue('Siamese');
+$attribute5 = new Amazon_SimpleDB_Model_ReplaceableAttribute();
+$attribute5-withName('Size')-withValue('Small');
+$attribute6 = new Amazon_SimpleDB_Model_ReplaceableAttribute();
+$attribute6-withName('Size')-withValue('Medium');
+$attribute7 = new Amazon_SimpleDB_Model_ReplaceableAttribute();
+$attribute7-withName('Size')-withValue('Large');
+$attributeList = array($attribute1, $attribute2, $attribute3, $attribute4, $attribute5, $attribute6, $attribute7);
+$action = new Amazon_SimpleDB_Model_PutAttributes();
+$action-withDomainName($domainName)-withItemName($itemName)-setAttribute($attributeList);
+invokePutAttributes($service, $action);
+ 
+
+
+ With the Symfony plugin, you can do the same with : 
+
+  php
+?php
+$data = array('Category'    = 'Clothes',
+              'Subcategory' = 'Sweater',
+              'Name'        = 'Cathair Sweater',
+              'Color'       = 'Siamese',
+              'Size'        = array('Small', 'Medium', 'Large'));
+sfAmazonSimpleDBClient::getInstance()-selectDomain('MyStore')-putAttributes('Item_01', $data);
+ 
+
+
+ Personnaly I prefer the shorter syntax but it's mainly matter of taste here. In a future release, I'll try to also provide a backend module to handle the databases. 
+
+
+ Last but not least, the plugin API is entirely unit tested. You can find  the test suite here . 
+
+
+ I hope you'll find this plugin somewhat useful for your Symfony projects  
+
+
+ Edit :  The author of the official Amazon PHP library sent me a mail to clarify a point : there's an alternative syntax available, array based, to put attributes: 
+
+  php
+$action = array ( "DomainName" =  $domainName,
+            "ItemName" =    $itemName,
+            "Attribute" =   array(
+                        array ("Name" = "Category", "Value" = "Clothes"),
+                        array ("Name" = "Subcategory", "Value" = "Sweater"),
+                        array ("Name" = "Name", "Value" = "Cathair Sweater"),
+                        array ("Name" = "Color", "Value" = "Siamese"),           
+                        array ("Name" = "Size", "Value" = "Small"),   
+                        array ("Name" = "Size", "Value" = "Medium"),
+                        array ("Name" = "Size", "Value" = "Large"))
+            );
+$service-putAttributes($action);
+ 
+
+
+ So next step for me, I'd like to ORMize all this to be able to do some pretty things like: 
+
+  php
+$product = new Product();
+$product-setCategory('Clothes');
+$product-setSubcategory('Sweater');
+$product-setName('Cathair Sweater');
+$product-setColor('Siamese');
+$product-setSize(array('Small', 'Medium', 'Large'));
+$product-save();
+ 
+
+
+ Not very hard to do but I wonder if I will be able to avoid code generation (yurk)... 
+        </text>
+</document>

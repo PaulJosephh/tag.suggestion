@@ -1,0 +1,26 @@
+<document>
+	<date>2015-01-20</date>
+        <title>Jeedom  Guide dutilisation de linterrupteur NodOn EnOcean</title>
+        <author> Algeroth </author>
+        <tags_set>
+                <tag>enocean</tag>
+                <tag>guide</tag>
+                <tag>interrupteur</tag>
+                <tag>jeedom</tag>
+                <tag>nodon</tag>
+                <tag>tuto</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Jeedom</category>
+                <category>Guides</category>
+                <category>Guides Domotique EnOcean</category>
+        </categories_set>
+        <text>
+                                                         Jeedom EnOcean USB EnOcean Jeedom EnOcean Jeedom EnOcean NodOn Cet interrupteur compose de 2 touches (1 en option) permet de piloter sa  domotique 1  Presentation de linterrupteur NodOn Linterrupteur mural NodOn EnOcean Jeedom Description: Alimentation : Magneto-resistive (sans batterie) 4 boutons (2 canaux) ou 1 bouton (1 canal) sont 2 possibilites incluses dans le produit. Montage mural par adhesif double face (inclus) ou vis (non incluses) Temperature de fonctionnement : 0C a 40C  Altitude : 2000m Protocole Radio  EnOcean Portee: 30m indoor Dimension : 80*80*15mm 2  Association Apres avoir prealablement telecharge le plugin  EnOcean Jeedom EnOcean EnOcean Cochez la case Creer automatiquement les nouveaux equipements Sauvegardez et redemarrez le demon. Cette etape na besoin detre faite quune seule fois pour tous les modules  EnOcean Rendez-vous maintenant dans le plugin  EnOcean Domotique Enocean Activez votre interrupteur  NodOn Rafraichissez la page. Votre interrupteur  NodOn 3  Configuration Selectionnez votre interrupteur  NodOn Vous arrivez alors dans sa page de configuration. Il suffit de lui donner un nom, un emplacement dans votre logement (Objet) et selectionner le type de module, par exemple Automatisme. Vous pouvez modifier egalement les noms des commandes. Pour terminer, cliquez sur Sauvegarder. (en bas de la page) Votre interrupteur est desormais fonctionnel dans  Jeedom 4  Exemples de personnalisation et dutilisation Linterrupteur  NodOn Vous pouvez changer son apparence via les widgets. Pour cela rendez vous dans le menu Plugins/Programmation/Widgets. Sur le bandeau de gauche selectionnez le widget que vous desirez. Dans notre cas il sagit dune info binaire, on choisira un type info.binary. Prenons le widget light. En haut a droite cliquez sur le bouton Appliquer sur des commandes. Selectionnez la touche de votre interrupteur. Faites de meme pour le deuxieme bouton. Vous venez de changer lapparence de votre interrupteur sur le Dashboard de  Jeedom Vous pouvez ensuite utiliser votre interrupteur  NodOn Z-Wave  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Jeedom  Guide dutilisation de la telecommande Soft Remote NodOn EnOcean 
+ Jeedom  Guide dutilisation du capteur de temperature NodOn EnOcean 
+ Jeedom  Guide dutilisation du detecteur de mouvement Fibaro FGMS-001 END .entry-content  
+        </text>
+</document>

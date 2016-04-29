@@ -1,0 +1,40 @@
+<document>
+	<date>2015-03-08</date>
+        <title>LightPack , le syst&#232;me Ambilight-like [Pr&#233;sentation]</title>
+        <author>Roxarmy</author>
+        <tags_set>
+                <tag>21:9</tag>
+                <tag>ambibox</tag>
+                <tag>ambilight</tag>
+                <tag>LightPack</tag>
+                <tag>Prismatik</tag>
+        </tags_set>
+        <categories_set>
+                <category>Cin&#233;ma</category>
+                <category>High-tech</category>
+                <category>test</category>
+        </categories_set>
+        <text>
+                                                 Je pense que vous avez d&#233;j&#224; tous entendu parl&#233; d&#8217;Ambilight, le syst&#232;me exclusif &#224; Philips pr&#233;sent sur le haut de gammes de ses t&#233;l&#233;viseurs. Non ? Etrange. Enfin, le syst&#232;me ambilight utilise des LEDs permettant de projeter les couleurs des bords de votre image vers le mur arri&#232;re. En gros &#231;a donne &#231;a : 
+ 
+ Si je vous parle de &#231;a, c&#8217;est que je trouve l&#8217;id&#233;e vraiment excellente. Avoir de la lumi&#232;re projet&#233; vous permet une meilleur immersion avec une sensation d&#8217;avoir un &#233;cran plus grand et de deux d&#8217;&#233;viter la fatigue visuelle (elle peut remplacer la petite veilleuse tant recommand&#233; lorsqu&#8217;on regarde la TV). Bref, &#231;a fait d&#233;j&#224; un moment que j&#8217;appr&#233;ciais un tel syst&#232;me, mais je ne voulais remplacer mon &#233;cran de PC (qui est au format 21:9 &#232;me) par un t&#233;l&#233;vision Philips. Et c&#8217;est ainsi que j&#8217;ai entendu parl&#233; de LightPack, un syst&#232;me open source simulant l&#8217;Ambilight, financ&#233; via KickStarter. Bien s&#251;r des dizaines d&#8217;autres syst&#232;mes existent &#224; pr&#233;sent mais j&#8217;ai trouv&#233; que c&#8217;&#233;tait le plus simple &#224; installer et &#224; utiliser. 
+ 
+ &#160; 
+ Bon apr&#232;s vous avoir l&#226;ch&#233; une somptueuse photo (faut bien que je meuble) avec un rangement des c&#226;bles digne de l&#8217;&#233;mission D&amp;co, voici une petite explication. Le syst&#232;me LightPack se compose de trois &#233;l&#233;ments cl&#233;s : 
+ 
+ D&#8217;un boitier de contr&#244;le 
+ De 10 rubans de LEDs RGB (3 LEDs par rubans) 
+ D&#8217;un logiciel d&#8217;analyse d&#8217;image 
+ 
+ Les 10 rubans sont reli&#233;s au boitier de contr&#244;le, ensuite le boitier de contr&#244;le est lui m&#234;me reli&#233; au PC via USB. Une fois l&#8217;installation r&#233;alis&#233;e, tout se passe sur ordinateur. En effet nous avons un logiciel de gestion, soit&#160;Prismatik (d&#233;velopp&#233; par les gars de LightPack), soit AmbiBox un autre logiciel de contr&#244;le. Ces derniers, une fois lanc&#233;, analyse l&#8217;image de votre &#233;cran pour ensuite g&#233;rer les couleurs des diff&#233;rents rubans de LEDs. La configuration se r&#233;alise tr&#232;s facilement &#224; l&#8217;aide de petit rectangle &#224; placer l&#224; o&#249; on le souhaite, tout en g&#233;rant plusieurs profils. 
+ 
+ Pour information, les bandes noires sur les c&#244;t&#233;s sont normales, en effet poss&#233;dant un &#233;cran 21:9 &#232;me, j&#8217;ai le droit &#224; des bandes noires sur tout ce qui est au format 16:9 &#232;me (anime, youtube, console, etc.). 
+ &#160;Bon, comme une image vaut bien plus que des mots, voici deux&#160;vid&#233;os ci dessus et dessous du rendu visuel du LightPack. 
+ &#160; 
+ 
+ &#160; 
+ Les avantages d&#8217;un tel syst&#232;me sont assez nombreux, premi&#232;rement et c&#8217;est un point tr&#232;s important , &#231;a  r&#233;duit grandement la fatigue oculaire  pour ceux qui n&#8217;ont pas l&#8217;habitude d&#8217;utiliser une veilleuse. D&#8217;autre part ce syst&#232;me permet une meilleur immersion avec une sensation d&#8217;avoir un &#233;cran un peu plus grand.&#160; Au fur et &#224; mesure que je l&#8217;ai utilis&#233; (et vous vous en &#234;tes dout&#233; je pense) les  films ne sont pas si coloris&#233;  qu&#8217;on ne le croit et on se retrouve la plus part du temps avec des couleurs projet&#233;es assez sombres.  &#192; l&#8217;inverse des anim&#233;s o&#249; je me r&#233;gale !  La seule limite viens du format de mon &#233;cran, m&#8217;obligeant &#224; avoir quelques bandes noires sur les c&#244;t&#233;s lorsque je regarde du contenu en 16:9, mais sinon, le rendu est tout simplement g&#233;nial ! 
+ Un syst&#232;me Lighpack co&#251;te 89$ (~80&#8364;) sur le  site officiel , notez qu&#8217;il est possible d&#8217;avoir jusqu&#8217;&#224; 5 Lightpack en m&#234;me temps (pour les t&#233;l&#233;s tr&#232;s, tr&#232;s, tr&#232;s grande). Bien entendu,  si vous avez n&#8217;importe quelles questions, n&#8217;h&#233;sitez pas ! 
+                                                                                         
+        </text>
+</document>

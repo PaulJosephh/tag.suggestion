@@ -1,0 +1,37 @@
+<document>
+	<date>2005-05-03</date>
+        <title>Utiliser efficacement et simplement Blogmarks.net</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>blogmarks</tag>
+                <tag>firefox</tag>
+                <tag>javascript</tag>
+                <tag>tips</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Je profite de ce billet pour tester la macro html dans la syntaxe wiki de Dotclear: ca marche d'enfer  
+
+
+ Je parle beaucoup de  Blogmarks.net  autour de moi ces temps-ci, car je crois que c'est le genre de concepts qui peuvent s'averer certes ludiques mais aussi diablement efficaces, et finalement rapidement indispensables lors des surfs quotidiens. Seulement, on m'objecte souvent qu'il est rebarbatif de devoir a chaque fois taper les adresses et les descriptions dans le formulaire prevu a cet effet. Erreur, c'est tres simple! Il suffit d'utiliser un  bookmarklet  (tiens, voila encore de quoi briller lors des repas familliaux dominicaux ^^) 
+
+
+ Si vous utilisez Firefox, glissez/deposez ce lien dans votre barre personnelle: 
+
+ Add to Blogmarks 
+
+
+
+ Normalement, un nouveau signet a ete cree dans votre barre, comme dans la capture ci-dessous: 
+
+
+ 
+
+
+ Maintenant, ouvrez une nouvelle page dans un nouvel onglet, selectionner du texte dans le corps du document en question et cliquez sur votre tout nouveau  bookmarklet . Voila: votre formulaire est prerempli, pret a etre soumis. Ceise sur le gateau, une suggestion de tag(s) est le plus souvent suggeree. Vous pouvez cependant rajouter quelques  tags  supplementaires, publics pour aider la communaute et/ou prives pour votre propre organisation. 
+
+
+ Elle est pas belle, la vie? 
+        </text>
+</document>

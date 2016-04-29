@@ -1,0 +1,86 @@
+<document>
+	<date>2015-01-26</date>
+        <title>Bases de donnes de sries chronologiques</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                 Contexte 
+ 
+Le contexte general de ce billet est celui du  metrologie/monitoring domotique 
+Ces releves sont des donnees singulieres pour une base de donnees. Il est donc important de se poser des questions a leur sujet comme: Comment les traiter? Existe-t-il ou faut-il utiliser un SGBD particulier pour les traiter? Quels outils utiliser pour les explorer en produisant des graphiques?
+ Particularites des series chronologiques Problematique 
+ 
+Les releves que la base de donnees va devoir stocker sont particuliers et sont caracterises par au moins:
+ 
+ Un horodatage (timestamp) Une source permettant didentifier lorigine de la mesure Une metrique permettant, entre autres, de caracteriser la nature de la mesure Une valeur 
+De plus, ces releves vont produire une grande quantite de donnees immuables. Par exemple, une centaine de capteurs avec en moyenne une mesure toutes les dix minutes vont produire plus de 5 millions de releves par an. En principe, ces donnees ne sont jamais modifiees apres insertion.
+ 
+Il faut noter que dans ces donnees, la caracteristique horodatage est centrale: elle constitue un critere de tri et dacces particulier quil peut etre pertinent doptimiser.
+ 
+Enfin, il est souvent necessaire de reduire la resolution de ces releves chronologiques pour les afficher. Or cette reduction nest pas triviale et fait intervenir des fonctions mathematiques pour produire des comptages, des moyennes, des interpolations, des lissages, des maximums, des minimums
+ SGBD relationnel ou SGBD dedie ? 
+ 
+Pour trouver de linformation sur Internet a ce sujet, on peut utiliser les mots-cles suivant:
+ 
+ Time Series Database Bases de donnees de series chronologiques Bases de donnees de series temporelles 
+Une petite recherche sur Internet permet de se rendre compte quil existe des SGBD dedies, mais que lon peut aussi utiliser un SGBD relationnel classique.
+ SGBD relationnel classique Series chronologiques avec un SGBD relationnel classique 
+ 
+Concernant lutilisation dun SGBD classique, jai trouve que le billet  Querying Time Series in Postgresql timestamptz timestamp with time zone date_trunc window function 
+ 
+ Querying Time Series in Postgresql Quelle librairie graphique utiliser? 
+ 
+A ce niveau, deux grandes tendances se dessinent: les librairies PHP et les librairies JavaScript avec lesquelles le code est execute sur le poste client.
+ 
+Du cote des librairies PHP, on peut citer:
+ 
+ JpGraph pChart mtChart 
+Du cote des librairies JavaScript, on peut citer:
+ 
+ Highcharts jqPlot dygraphs SGBD dedies aux series chronologiques 
+ 
+Les bases de donnees relationnelles traditionnelles peuvent montrer leurs limites ou ne pas etre les plus adaptees pour manipuler des donnees de series chronologiques. Pour repondre a ce probleme specifique et recurrent (cf.le domaine de la supervision dinstallations informatiques), des systemes de gestion de bases de donnees dedies ont ete concus.
+ RRDTool 
+ 
+ RRDtool Round-Robin Database Graphite 
+ 
+ Graphite  Graphite 
+ Whisper  Whisper 
+ Ceres  Ceres 
+ 
+ Graphite  les bases 10 Things I Learned Deploying Graphite OpenTSDB 
+ 
+ OpenTSDB 
+Pour la partie visualisation, il est possible dutiliser Grafana.
+ KairosDB 
+ 
+ KairosDB InfluxDB 
+ 
+ InfluxDB LevelDB 
+Pour la partie visualisation, il est possible dutiliser Grafana.
+ 
+ 
+ Time-Series Databases and InfluxDB Remplacer Graphite par InfluxDB pour les metriques. My Impressions of InfluxDB  Conclusions 
+ 
+En guise de conclusion voici les solutions que je retiens concernant le projet de depart de monitoring domotique:
+ 
+ PostGreSQL + Highcharts (JavaScript) ou mtChart (PHP) InfluxDB + Grafana Autres references 
+ 
+ La problematique des base de donnees en supervision Graphite  StatsD: Le tandem de choix pour vos metriques Measure Anything, Measure Everything Nouvelle donne pour la metrologie ? Rippled monitoring 
+ Sommaire Domotique  .entry-content  
+                                                                                                Cette entree a ete publiee dans  Domotique permalien  .entry-utility   #post-##  
+                                          Detecteur de mouvement Z-Wave Fibaro FGMS-001    #nav-below  
+
+
+
+
+                                                                 
+                                 Laisser un commentaire  Annuler la reponse. 
+                                                                                                                                                         Votre adresse de messagerie ne sera pas publiee. * Nom  * Adresse de contact  * Site web Commentaire Vous pouvez utiliser ces balises et attributs  HTML a href="" title="" abbr title="" acronym title="" b blockquote cite="" cite code del datetime="" em i q cite="" strike strong  
+                                                          #respond   #comments  
+        </text>
+</document>

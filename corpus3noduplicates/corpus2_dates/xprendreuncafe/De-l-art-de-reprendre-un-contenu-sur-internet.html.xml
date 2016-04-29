@@ -1,0 +1,65 @@
+<document>
+	<date>2007-07-17</date>
+        <title>De l'art de reprendre un contenu sur internet</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>blogs</tag>
+                <tag>copyright</tag>
+                <tag>droit</tag>
+                <tag>licence</tag>
+                <tag>propriete intelectuelle</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Suite a ma recente mesaventure [ 1 ]  heureusement bien terminee avec un blogueur qui avait repris un contenu issu de ce blog sans en crediter la source, voici rapidement quelques enseignements que l'on peut tirer de cette histoire: 
+
+ 
+ La reprise de contenus preexistants doit faire l'objet d'une citation de la source originelle. 
+ La licence du contenu repris doit etre respectee. Pour memoire, sur ce blog la licence retenue est la  Creative Commons BY-SA-NC :
+ 
+ Citation de l'auteur original 
+ Partage a l'identique 
+ Pas d'utilisation a des fins commerciales (les sites gaves de pubs sont donc exclus) 
+ 
+ Si aucune licence n'est stipulee, le droit commun du pays ou est hebergee la ressource s'applique par defaut (en France, c'est le  code de la propriete intellectuelle .) 
+ Le  leeching , c'est mal, surtout a l'heure ou de  nombreux services d'hebergement gratuits  existent. Donc gaffe aux copier-coller, d'autant plus qu'on peut se confronter tot ou tard a de  desagreables suprises ... 
+ Toujours laisser une adresse mail ou un formulaire de contact sur son blog histoire d'etre facilement joignable en cas de souci. Se reposer sur les informations contenues dans les bases de donnees du  NIC  reste a mes yeux super gonfle. De plus ce type de mise en place facilite la tache a l'editeur echaude et lui evite de faire un billet pour interpeler le fautif. 
+ Si vous etes pris en faute, il est suicidaire d'essayer de faire semblant de rien, par exemple en effacant sciemment les tentatives de dialogue en commentaires. Ca ne marchera de toutes facons pas et ne fera qu'amplifier les consequences potentielles du probleme. 
+ 
+
+ Mais surtout, car c'est frequemment la source du mal: 
+
+ 
+ Il est illusoire de penser publier quelque chose sur internet sans restriction d'acces et de penser etre le seul a pouvoir le consulter [ 2 ] . 
+ 
+
+ Vous ne pouvez jamais presupposer qu'un contenu publie sur votre site ne sera pas indexe par tel ou tel bot a la mode, ou que son url ne sera jamais deduite par quelques petits malins n'ayant que ca a faire. Le blogueur dont je parlais etait par exemple tres surpris d'apprendre que  Technorati  indexait tres bien tous les billets de son blog soit disant  privatif  et  non-reference ... 
+
+
+ De plus, il n'est pas toujours evident de distinguer les intentions derriere une reprise de contenu: bloc-note personnel, amateurisme naif ou meconnaissance des conditions de licence? Afficher la couleur de vos intentions peut-etre une bonne idee, dans tous les cas. 
+
+
+ Note en passant, si vous desirez publier pour vous et vous seul, il existe quelques solutions techniques bien connues pour limiter voire empecher l'acces a une ressource sur internet: 
+
+ 
+ Les fameux fichiers  .htaccess  et autres regles  Apache  (des equivalents existent pour la plupart des logiciels serveurs HTTP), 
+ L'authentification utilisateur via login/password, 
+ L'hebergement sur un reseau local ou prive, 
+ etc. 
+ 
+
+ Pour balayer devant ma propre porte, en tant qu'editeur de contenus je vois aussi quelques bonnes pratiques a appliquer: 
+
+ 
+ Mettre en place une page dediee a la description de la licence et aux conditions de reutilisation des contenus, 
+ Se mefier de la puissance de feu de ses propres lecteurs quand ils decident de prendre faits et cause pour vous, 
+ S'acharner a contacter l'auteur d'une reutilisation pour verifier ses intentions et eviter les erreurs judiciaires, 
+ Prendre des vacances, vite. 
+ 
+ Notes 
+ [ 1 ] Le billet a ete supprime afin de ne pas nuire au blogueur en question, celui-ci etant de bonne foi et ayant bien reagi. 
+ [ 2 ] Des preuves de ce que j'avance  existent . 
+        </text>
+</document>

@@ -1,0 +1,30 @@
+<document>
+	<date>2008-02-18</date>
+        <title>Rendre les extensions Firefox disponibles pour la version 3 beta</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>browsers</tag>
+                <tag>extensions</tag>
+                <tag>firefox</tag>
+                <tag>tips</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Clairement,  Firefox 3 beta 3  est une enorme tuerie. Le programme, a charge d'extensions comparable, est beaucoup plus veloce et moins gourmand en memoire que son aine Firefox 2. 
+
+
+ J'utilise depuis quelques temps la version 3 beta comme navigateur principal avec bonheur, a une exception pres: l'absence cruelle de disponibilite d'extensions incontournables pour tout developpeur web qui se respecte, comme la  Web Developer Toolbar  par exemple. 
+
+
+ Pour contourner le probleme et forcer l'installation de ces extensions officiellement declarees non compatibles avec Firefox 3, voici une petite astuce ( via ) qui desactivera la verification de compatibilite a l'installation de ces dernieres: 
+
+ 
+ Ouvrir le panneau de configuration en tapant  about:config  dans la barre d'adresse du navigateur 
+ Creer une nouvelle entree booleenne nommee  extensions.checkCompatibility  et positionner sa valeur a  false 
+ C'est tout, vous pouvez installer ce que bon vous semble. 
+ 
+
+ Attention :  La desactivation la verification de compatibilite des extensions peut engendrer une instabilite de ces dernieres et du navigateur. A manier avec la plus grande precaution. 
+        </text>
+</document>

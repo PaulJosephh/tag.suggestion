@@ -1,0 +1,66 @@
+<document>
+	<date>2008-08-24</date>
+        <title>Comment faire fuir  coup sr vos utilisateurs ?</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>ergonomie</tag>
+                <tag>formulaires</tag>
+                <tag>grumph</tag>
+                <tag>nimp</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Cest bien connu, il est deja sufisament dur de faire (re)venir des utilisateurs sur vos services en ligne pour ne pas les faire partir a la moindre occasion. Cest pourtant ce que fait un site dedie a la guitare que jai tente de consulter recemment. Connaissant les tendances derivistes des services juridiques de certaines entites, je mabstiendrai donc de faire un lien hypertexte direct vers ce dernier, et meme de le citer textuellement [ 1 ] . 
+
+
+ Je tombe sur ce site, qui propose apparemment moult ressources sur linstrument et qui minteressent potentiellement, mais au moment de consulter larticle objet de ma convoitise, on me notifie du message suivant: 
+
+
+ 
+
+
+ Jusque-la, rien de profondement choquant meme si on peut imaginer que nombre dinternautes ne sembeteront pas a creer un compte pour consulter la ressource et passeront a la concurrence [ 2 ] . 
+
+
+ Allez, je suis dans un bon jour, je demande la creation dun compte. Je me retrouve face a un formulaire assez copieux, exigeant bien entendu des informations hautement necessaires pour consulter un tutoriel de guitare comme ma localisation geographique, mon nom de famille, ma date de naissance, sans oublier bien entendu les inevitables propositions dabonnement a des newsletter tres etroitement liees a la pratique de la guitare: 
+
+
+ 
+
+
+ Sentant le SPAM arriver a grand pas, je rentre mon email suffixe pour  detecter a posteriori le service a lorigine deventuels courriels indesirables recus . Ben non: 
+
+
+ 
+
+
+ Vous noterez le plus fort, cest que non seulement le service nest pas a meme de valider convenablement une adresse email (le signe + est acceptable), mais en plus on me soupconne ouvertement de SPAM potentiel. 
+
+
+ Normalement, a ce stade,  je me casse sur Mars , comme on dit. Mais pour la beaute de lexercice, je  corrige  mon adresse email, persevere en entrant un mot de passe et valide a nouveau le formulaire: 
+
+
+ 
+
+
+ Oui, cela commence a faire beaucoup. Je ne reexpliquerai pas ici pourquoi  limiter les caracteres dans les mots de passe est idiot , cela a deja ete fait ici-meme precedemment. 
+
+
+ Toujours dans la perspective de poursuivre cette experience amusante, jarrive enfin a valider le formulaire sans retours derreur et midentifie donc sur le service pour consulter la ressource en question. Patatra: 
+
+
+ 
+
+
+ Non seulement la creation dun compte etait obligatoire, mais maintenant il faut sabonner (cest a dire  payer ) pour consulter la ressource en question, chose qui navait ete aucunement stipulee auparavant. Sachant bien entendu qua ce stade, je nai toujours  aucune  idee de la qualite des contenus proposes par le site. 
+
+
+ Bref, je leur souhaite malgre tout un avenir comptable radieux, meme si je ne peux mempecher de pouffer a lidee du chiffre daffaire genere par le se(r)vice. 
+ Notes 
+ [ 1 ] Mais les curieux trouveront bien entendu sans peine le site en question. 
+ [ 2 ] Sur le Web, vous avez quasiment systematiquement un concurrent qui propose la meme chose que vous gratuitement. Cest comme ca, et cest aussi un peu pour ca que cest chouette. 
+        </text>
+</document>

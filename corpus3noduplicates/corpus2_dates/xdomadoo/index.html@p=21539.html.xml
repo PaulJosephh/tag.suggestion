@@ -1,0 +1,14 @@
+<document>
+	<date>2011-05-24</date>
+        <title>Guide de mise  jour des interfaces RFXCOM</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique RFXCOM</category>
+        </categories_set>
+        <text>
+                                                          Les nouvelles interfaces  RFXCOM  Tout dabord, il vous faut le logiciel  RFXFlash Programmer RFXCOM Une fois ces elements en votre possession, voici comment mettre a jour votre interface.  Debranchez lalimentation de votre interface  RFXCOM USB Appuyez sur le bouton Reset a larriere du  RFXCOM  Le PC doit detecter un nouveau peripherique. Ne pas autoriser  Windows a installer le driver, mais choisir le CD-ROM fourni avec le   RFXCOM Installez le driver fourni, un nouveau port serie virtuel doit apparaitre. Demarrez le logiciel RFXFlash. Selectionnez le port serie correspondant au  RFXCOM  Cliquez sur le bouton Erase Device  Selectionnez le fichier correspondant au firmware que vous souhaitez installer (fichier de type RFXaaa_x_yy.hex).  Cliquez sur le bouton Write Device pour programmer le  RFXCOM  Cliquez sur le bouton Normal Execution Mode pour que le  RFXCOM  Votre interface  RFXCOM  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

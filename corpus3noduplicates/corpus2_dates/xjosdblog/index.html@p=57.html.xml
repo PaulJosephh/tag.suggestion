@@ -1,0 +1,15 @@
+<document>
+	<date>2008-02-27</date>
+        <title>TV multiposte (tlvision sur lordinateur) avec VLC</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Applications</category>
+                <category>FreeBox</category>
+                <category>Questions Reseau</category>
+        </categories_set>
+        <text>
+                                                 En etant abonne a Free, pour pouvoir regarder une chaine tele, ou ecouter une station de radio, sur lordinateur, il faut : Configurer le pare-feux ( firewall Firestarter Politique du trafic entrant mafreebox.freebox.fr Lancer VLC, puis  Fichier  Ouvrir un fichier (avance) http://mafreebox.freebox.fr/freeboxtv/playlist.m3u Ouvrir Ok Liste de lecture Le plus simple est de configurer un raccourci ( Lanceur dapplication personnalise vlc -vvv http://mafreebox.freebox.fr/freeboxtv/playlist.m3u 
+        </text>
+</document>

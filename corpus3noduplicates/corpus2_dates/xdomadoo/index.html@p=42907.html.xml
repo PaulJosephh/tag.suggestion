@@ -1,0 +1,23 @@
+<document>
+	<date>2014-11-13</date>
+        <title>eedomus : support des produits Nest et NodOn</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>eedomus</tag>
+                <tag>enocean</tag>
+                <tag>mise a jour</tag>
+                <tag>Nest</tag>
+                <tag>nest protect</tag>
+                <tag>nodon</tag>
+                <tag>thermostat</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Il y a seulement un mois,  lequipe de Connected Object avait presente une importante mise a jour secure eedomus Qubino NodOn Ubiwizz 1- Nouveautes Si Google a rachete la societe Nest, ce nest pas pour rien. Le thermostat que presente cette societe est un produit a la pointe de la technologie et tres esthetique.  Eedomus Support du  thermostat Nest Support du  detecteur de fumee Nest Protect 2- Ameliorations techniques 2.1- Protocole  Z-Wave Cette box communiquant nativement en  Z-Wave le premier micromodule Z-Wave fil pilote par Qubino le module thermostat ON/OFF eedomus Support du module Module  fil pilote Qubino Support du module Module thermostat On/Off encastrable  Qubino Support du switch externe Door sensor (ZD2102) 2.2- Protocole  Enocean Le protocole connu pour etre sans fil et sans pile est compatible avec  la box domotique eedomus grace a un USB300 par exemple EnOcean Support  des peripheriques NodOn Support de la prise gigogne (on/off  230V  10A)  UbiWizz 2.3- Autres ameliorations Nouvelle action reboot dans la toolbox Meilleure gestion des peripheriques RFXUSB/RFXLAN qui envoient des donnees trop frequemment (vitesse, direction du vent) pour un engorgement moindre de la box 3- Corrections techniques Lors dun import dhistorique de donnees, la derniere valeur dun peripherique netait pas mise a jour auparavant. En cette periode de lannee ou les thermostats et modules gerant votre chauffage sont sollicites, la box francaise  eedomus  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ eedomus : Mise a jour du 6 octobre 2014 END .entry-content  
+        </text>
+</document>

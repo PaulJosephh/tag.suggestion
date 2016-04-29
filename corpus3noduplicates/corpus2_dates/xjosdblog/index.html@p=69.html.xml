@@ -1,0 +1,22 @@
+<document>
+	<date>2007-12-15</date>
+        <title>Diffuser une application sous Linux</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Applications</category>
+        </categories_set>
+        <text>
+                                                 
+En raison de la proliferation des distributions des systemes  Unix Linux Windows Deploying an Application on Qt/X11 
+La solution que je propose ici nest pas tres elegante, mais elle possede lavantage detre simple et fonctionnelle. Cette solution consiste a utiliser la commande  ldd 
+ Voici un petit script qui realise tout cela automatiquement  ./gen_package.sh ouestleprogram ougenererlepackage ougenererlepackage 
+ 
+un repertoire contenant toutes les librairies dont depend lapplication ;
+ 
+lapplication en question designee par  ouestleprogram 
+un script portant le meme nom que lapplication, permettant de lancer lapplication et rendant accessible le repertoire ou se trouvent les librairies dont depend lapplication. Cest donc ce script quil faut appeler pour lancer lapplication. Le repertoire ainsi cree peut etre diffuse sans probleme.
+ 
+        </text>
+</document>

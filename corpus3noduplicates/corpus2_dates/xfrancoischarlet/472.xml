@@ -1,0 +1,39 @@
+<document>
+	<date>2014-12-09</date>
+        <title>S'inscrire &#224; des services web en utilisant ses comptes de r&#233;seaux sociaux : pratique, mais...</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Protection des donn&#233;es</tag>
+                <tag>Sph&#232;re priv&#233;e</tag>
+        </tags_set>
+        <categories_set>
+                <category>Technologies</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Il y a quelques mois, le G29&#160; adoptait &#160;des lignes directrices pour obtenir le consentement des utilisateurs lors de l&#8217;installation de cookies sur leurs ordinateurs. Seulement les cookies ne sont que la partie &#233;merg&#233;e de l&#8217;iceberg&#8230; Une autre m&#233;thode existe pour les grosses soci&#233;t&#233;s comme Google, Facebook et Twitter, d&#8217;obtenir des donn&#233;es sur les internautes sans utiliser de cookies&#160;: l&#8217;authentification unique. 
+ Cookies 
+ Les  cookies  sont de petits fichiers qui peuvent &#234;tre utiles, voire indispensables, mais qui peuvent aussi se transformer en mouchards. Ainsi, lorsque vous faites des achats en ligne et que vous ajoutez des articles dans votre panier d&#8217;achats, comment faire en sorte que celui-ci garde votre article en m&#233;moire&#160;? On stocke ces informations dans un cookie. Il en va de m&#234;me lorsque vous cochez la case "rester connect&#233;" ou "connexion automatique" lorsque vous vous connectez &#224; un site.&#160;Mais les services comme Google et Facebook s&#8217;en servent aussi pour vous pister partout. 
+ Pour limiter l&#8217;action et la transmission de donn&#233;es de ces cookies, il existe des outils comme&#160; Ghostery &#160;et les bloqueurs de publicit&#233; comme&#160; Adblock Edge . 
+ Authentification unique 
+ Seulement, on nous traque aussi autrement&#160;: par le biais de&#160; l&#8217;authentification unique . 
+ L'authentification unique&#160;(ou identification unique&#160;; en anglais&#160;Single Sign-On&#160;:&#160;SSO) est une m&#233;thode permettant &#224; un utilisateur d'acc&#233;der &#224; plusieurs applications&#160;informatiques&#160;(ou&#160;sites web&#160;s&#233;curis&#233;s) en ne proc&#233;dant qu'&#224; une seule&#160;authentification. ( Wikipedia ) 
+ Vous avez s&#251;rement d&#233;j&#224; remarqu&#233;, lorsque vous souhaitez vous inscrire sur un site ou utiliser un service web, on vous propose souvent diff&#233;rentes options&#160;: connectez-vous via votre compte Facebook, Google+, Twitter, ou cr&#233;ez un compte sp&#233;cifique. 
+ Aujourd&#8217;hui, les utilisateurs ont une  multitude de comptes  partout et n&#8217;importe o&#249;. Et si l&#8217;on suit les recommandations en mati&#232;re de s&#233;curit&#233;, il faut cr&#233;er un mot de passe diff&#233;rent pour chaque service. Quand on en a plus de 300 comme moi, soit on a une excellente m&#233;moire, soit on s&#8217;&#233;quipe d&#8217;outils, soit&#8230; on se connecte via les r&#233;seaux sociaux. 
+ Quoi de plus simple apr&#232;s tout&#160;! Il n&#8217;y a pas de mot de passe &#224; cr&#233;er, le service saurait automatiquement quelles sont les donn&#233;es (email, pseudonyme, pr&#233;nom, nom, pays, fuseau horaire, etc.) dont il a besoin sans que l&#8217;utilisateur doive les saisir, etc. Et pour les fournisseurs de service, cela pr&#233;sente aussi des avantages en terme de co&#251;ts, de taille de base de donn&#233;es, etc. 
+ 
+ &#160; 
+ Quels risques&#160;? 
+ Si la  paresse des internautes  est bien compr&#233;hensible, elle comporte &#233;galement des risques suppl&#233;mentaires en mati&#232;re de protection des donn&#233;es. 
+ En effet, cette m&#233;thode d&#8217;authentification permet &#224; Facebook, Google, Twitter et d&#8217;autres de  suivre l&#8217;activit&#233; des utilisateurs sur les services tiers , r&#233;colter des donn&#233;es auxquelles ils n&#8217;auraient normalement pas acc&#232;s 1 , et cibler encore mieux la publicit&#233; qui vous est propos&#233;e lorsque vous naviguez sur Internet. 
+ Par exemple, Spotify imposait au d&#233;but de se connecter avec son compte Facebook. Aucun autre moyen n&#8217;&#233;tait propos&#233;. Cela a chang&#233; depuis, mais les utilisateurs qui se sont inscrits par ce biais fournissent &#224; Facebook des informations sur la musique qu&#8217;ils &#233;coutent, informations qui sont centralis&#233;es et d&#233;sormais irr&#233;m&#233;diablement associ&#233;es au compte Facebook des utilisateurs. 
+ 
+ Que faire&#160;? 
+ Si l&#8217;inscription &#224; un service s&#8217;est faite au moyen du compte Facebook ou Google (ou d&#8217;autres) et qu&#8217;un compte sp&#233;cifique n&#8217;a pas &#233;t&#233; cr&#233;&#233;, il n&#8217;y a plus grand-chose &#224; faire. Tout au plus est-il possible de "limiter les d&#233;g&#226;ts" en se d&#233;sinscrivant et en recr&#233;ant un compte sans passer par l&#8217;authentification unique. Mais cela implique s&#251;rement que les donn&#233;es du compte seront totalement effac&#233;es, et aucun utilisateur ne le souhaite. 
+ Si l&#8217;inscription s&#8217;est faite par la cr&#233;ation d&#8217;un compte sp&#233;cifique, tout va bien. Il faut continuer &#224; proc&#233;der de cette mani&#232;re. Certes, le plus dur sera de garder une trace de tous ces comptes. Il existe des applications pour cela. J&#8217;utilise&#160; 1Password , application multiplateforme, payante, mais qui est un must dans le domaine. 
+
+         Notes &#160;&#160;&#160;[  +  ]                                                 1.      &#8629;         Inutile de mentionner &#233;galement que les sites qui utilisent le syst&#232;me de commentaire de Facebook permettent &#224; ce dernier de r&#233;colter des donn&#233;es au sujet des utilisateurs.                                                                          
+                                                                                                        
+                                                 
+        </text>
+</document>

@@ -1,0 +1,103 @@
+<document>
+	<date>2013-08-14</date>
+        <title>Premire prise en main de la Cubieboard</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>Cubieboard</tag>
+                <tag>LED</tag>
+                <tag>Raspberry Pi</tag>
+                <tag>XBMC</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Cubieboard</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ Vous connaissez tous le Raspberry Pi ? he bien voici la  Cubieboard 
+ 
+  
+ PETITE PRESENTATION 
+ La Cubieboard est unordinateur monocarte(ordinateur complet construit sur uncircuit imprime, avec un ou plusieurs microprocesseur(s), de la memoire, des lignes dentree/sortie (notee parfoisI/Ode langlaisInput/Output) et dautres elements pour en faire un ordinateur fonctionnel). sous licencemateriel librea bas prix (49 US$), vendu comme un ordinateur en carte-unique , permettant de faire tournerAndroid 4 ICS, ainsi que le systeme de bureauUbuntuet dautres distributionsGNU/Linuxou bien detre utilise comme unNAS. 
+ Elle utilise leSoCdarchitecture ARMAllWinner A10deja populaire sur les tablettes, telephones et PC media a faible cout, tandis que laCubieboard2est equipee dun SoCAllWinner A20plus puissant. 
+ 
+ ses caracteristiques techniques sont : 
+ 
+ Alimentation : 5VDC/2A 
+ Processeur : ARM 1GHz Cortex-A8, NEON, VFPv3, 256KB L2 cache 
+ GPU (Processeur Graphique) : Mali400, OpenGL ES 
+ Memoire : 1Go DDR3 a 480MHz 
+ Sortie video : HDMI 1080p 
+ Audio :3.5mm jack, HDMI 
+ Port Ethernet : 10/100M RJ45 
+ Memoire : NAND Flash 4Gb 
+ Connectique : 2 ports USB Hote, 1 port micro SD, 1port SATA, 1 port Infrarouge 
+ 96 broches dextension avec I2C, SPI, RGB/LVDS, CSI/TS, FM-IN, ADC, CVBS, VGA, SPDIF-OUT, R-TP. 
+ Dimensions :10cm x 6cm x 2cm 
+ Poids : 140g 
+ 
+  
+ DEBALLAGE 
+ Mon partenaire  Domadoo  a accepte de men preter un afin que je vous le presente. Assez parle passons au deballage : 
+ 
+  
+ Le package est en carton et le contenu est tres bien protege. Le kit est complet (on y trouve la Cubieboard (oufff), et dans un petit emballage secondaire, un cable dalimentation jack/usb, ainsi qu un cable SATA permettant de raccorder un disque dur 
+  
+ 
+  
+ 
+ 
+ 
+  
+ Sur la photo suivante, jai positionne le boitier en plexiglas (mais je nai pas enleve la protection). Vous trouverez ce boitier chez Domadoo   ici 
+ 
+  
+ 
+ 
+ Si vous le souhaitez vous pouvez le raccorder a laide dun adaptateur usb 5V 1.2 A de ce style que vous pouvez trouver chez  Domadoo 
+ 
+ BRANCHEMENT ET RACCORDEMENT A VOTRE TV 
+ Le branchement est tres simple. Vous raccordez votre Cubieboard a votre TV a laide dun cable HDMI, jai en suite branche mon cordon jack/usb a mon PC et a ma Cubieboard. 
+ 
+ Afin dutiliser la partie logicielle, jai mis un stick usb souris. 
+ Premiere impression, vous navez pas besoin dinstaller un systeme dexploitation pour la 1ere utilisation. En effet Android est pre installe et se lance immediatement. Et oui vous etes deja sur un systeme Android ICS (Ice Cream Sandwich) 4.0. 
+ Pour ceux qui ont un telephone Android vous ne serez pas depayses. 
+   
+ voici une petite video vous montrant le systeme dexploitation 4.0 ICS deja installe sur la memoire flash. 
+ 
+ Vous pourrez aussi brancher un dongle usb WIFI. 
+ Pour leteindre, la Cubieboard dispose dun petit bouton juste a cote du port HDMI. Il est plus que recommandable dutiliser ce bouton (comme pour les telephones Android, un appui prolonge suffit). Sinon vous pourrez toujours telecharger via le  Play Store 
+ 
+ En vous rendant sur le site CubieboardAn Open ARM Mini PC vous pourrez modifier le systeme dexploitation. 
+ En conclusion 
+ Voici une carte qui a bien des capacites. La possibilite de brancher un disque dur SATA, 96 broches GPIO pour faire vos montages. Un recepteur infrarouge (pour votre XBMC==telecommande), la possibilite de connecter sur un de vos ports USB un dongle WIFI (il y a toujours un port Ethernet). La sortie HDMI pour votre ecran et la HD ainsi quune entree et sortie Audio. La carte est equipe pour recevoir une micro SD (fini la carte SD qui depasse de votre boitier). Lautre grand avantage est le systeme exploitation Android deja installe sur la memoire Flash. Donc pour une premiere utilisation, vous pouvez lutilisez tel quel. 
+ Dans un prochain article nous verrons comment installer xbmc sur votre cubieboard. Encore un grand merci a Domadoo pour mavoir prete ce Cubieboard que vous trouverez dans leur boutique  ici  au prix de 55 . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

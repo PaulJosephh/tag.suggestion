@@ -1,0 +1,59 @@
+<document>
+	<date>2010-09-25</date>
+        <title>Le Cloud computing, r&#233;volution ou &#233;volution informatique ?</title>
+        <author>Mich&#232;le Battisti</author>
+        <tags_set>
+                <tag>cloud computing</tag>
+                <tag>Contrat</tag>
+                <tag>Responsabilit&#233;</tag>
+        </tags_set>
+        <categories_set>
+                <category>Contrat</category>
+        </categories_set>
+        <text>
+                                                                                 Comprendre le concept et conna&#238;tre les acteurs &#233;conomiques du  Cloud computing 
+ ADIJ , 23 septembre 2010&#160;: 1er atelier sur le  Cloud computing   
+ Qu&#8217;il s&#8217;agisse d&#8217;une rupture technologique ou d&#8217;une simple &#233;volution m&#226;tin&#233;e d&#8217;un peu de marketing  [1] , comme pour toute solution informatique, il appartient aux juristes de canaliser les risques du Cloud computing par des clauses  ad hoc  dans les contrats, d&#8217;o&#249; la n&#233;cessit&#233; de d&#233;finir avec pr&#233;cision les contours de ce concept. 
+ Tel &#233;tait &#160;l&#8217;objet des interventions de Lo&#239;c Rivi&#232;re qui reprenait les grandes lignes d&#8217;un  livre blanc sur le Cloud computing publi&#233; par l&#8217;association fran&#231;aise des &#233;diteurs de logiciels  (Afdel) et de Pierre Liautaud&#160; qui en a pr&#233;sent&#233; les principaux acteurs &#160; [2] . 
+ Autour d&#8217;un concept 
+ O&#249; l&#8217;on rappelle que le  Cloud computing   [3]  consiste &#224; partager des ressources informatiques distribu&#233;es sur Internet comme l&#8217;on partage l&#8217;eau et l&#8217;&#233;lectricit&#233;, qu&#8217;il est le r&#233;sultat d&#8217;une &#233;volution de plusieurs technologies arriv&#233;es &#224; maturit&#233;, et que cette &#233;volution s&#8217;emballe puisqu&#8217;il est d&#233;sormais &#233;tabli que les services du Cloud seront pr&#233;valents pour les entreprises d&#232;s 2012. 
+ Un peu de jargon, avec le IaaS ( Infrastructure as a Service ), le PaaS ( Platform as a Service ) et le SaaS ( Software as a Service ), mais rien d&#8217;insurmontable puisqu&#8217;il s&#8217;agit des trois couches de services que distribue le Cloud  [4]  ou nuage, autrement dit de l&#8217;h&#233;bergement, des conteneurs de services logiciels et des logiciels  [5] . 
+ Les choses se compliquent lorsque l&#8217;on comprend qu&#8217;il y a une intrication entre l&#8217;entreprise et le grand public, entre la technique et les mod&#232;les &#233;conomiques, et que l&#8217;on apprend qu&#8217;il y a du Cloud public, ce qui para&#238;t naturel, mais aussi du Cloud priv&#233; voire du priv&#233; priv&#233; et du public public [6] . 
+ On se ressaisit quelque peu en reprenant les crit&#232;res qui permettent de d&#233;finir le Cloud. Il doit s&#8217;agir d&#8217;une infrastructure virtuelle et partag&#233;e (1), obtenue &#224; la demande (2), pour laquelle on ne paie que ce que l&#8217;on consomme&#160;(3) et qui est accessible partout et &#224; tout moment (4). 
+   
+ Mais la complexit&#233; r&#233;appara&#238;t lorsque l&#8217;on aborde&#160;: 
+ 
+ des aspects      techniques, car si les IaaS, PaaS et SaaS percutent les couches      informatiques traditionnelles lorsqu&#8217;elles mettent du virtuel dans les      couches physiques, ce n&#8217;est pas de mani&#232;re constante, d&#8217;o&#249; des &#171;&#160;trous&#160;&#187;      et des failles dans l&#8217;architecture informatique, ce qui est pour le moins      troublant ; 
+ les mod&#232;les      d&#8217;usage du  Cloud  des entreprises, aux fronti&#232;res perm&#233;ables avec      les usages informatiques du grand public qui, d&#233;clinables &#224; l&#8216;envi entre      IaaS, PaaS et SaaS, bousculent constamment la cha&#238;ne de valeur&#160;informatique&#160;; 
+ les strat&#233;gies      des  Cloud providers , les grands acteurs classiques (Microsoft,      Amazon [7] ,      Google, &#8230;) mais dont les trajectoires ne sont pas d&#233;finitivement fix&#233;es,      et des nouveaux entrants prometteurs qui se positionnent sur les m&#234;mes      offres, transformant la cha&#238;ne de valeur informatique en un v&#233;ritable      maelstr&#246;m&#160;; 
+ la virtualit&#233; d&#8217;un      syst&#232;me rendant impossible de localiser avec pr&#233;cision les donn&#233;es et les serveurs      que l&#8217;on utilise. N&#8217;a-t-on pas fait remarquer que les donn&#233;es se      d&#233;pla&#231;aient constamment autour du monde pour suivre le soleil qui se      couche pour &#160;r&#233;pondre &#224; la n&#233;cessit&#233;      de les &#171;&#160;refroidir&#160;&#187; ? O&#249; virtuel et physique s&#8217;entrem&#234;lent &#224;      nouveau. 
+ 
+   
+ Mais le Cloud, ce sont aussi des promesses  
+ En tant qu&#8217;internaute, du Cloud on en fait tous depuis longtemps, mais sans le savoir, avec des acteurs connus comme ceux que l&#8217;on vient de citer, ou d&#8217;autres qui le sont moins. Facilit&#233; d&#8217;usage, fourniture &#224; la demande et prix calcul&#233; selon la consommation, font que les attentes des consommateurs, les v&#233;ritables &#171;&#160;drivers&#160;&#187; en la mati&#232;re, et ceux des entreprises se sont rejointes. 
+ Pour l&#8217;entreprise cela signifie une baisse des d&#233;penses d&#8217;investissement et des co&#251;ts, une capacit&#233; &#224; s&#8217;adapter imm&#233;diatement &#224; des besoins commerciaux changeants, &#8230; Plus aucune entreprise qui aura t&#226;t&#233; du Cloud ne reviendra en arri&#232;re. 
+ &#8230; et des inqui&#233;tudes  
+ Le souci de la confidentialit&#233;, de la qualit&#233;, de la s&#233;curit&#233; des services et les questions juridiques sous-jacentes explique que les entreprises lorgnent vers des solutions de Cloud priv&#233;, ce qui r&#233;duit alors le b&#233;n&#233;fice tir&#233; des &#233;conomies d&#8217;&#233;chelle. Elles se pr&#233;occupent aussi de l&#8217;absence de standard, des difficult&#233;s rencontr&#233;es pour n&#233;gocier et manager ces services ainsi que de la non-flexibilit&#233; des licences qui explique le succ&#232;s actuel de  l&#8217;open source . Ce sont aussi des acteurs informatiques qui doivent repenser leurs outils et des entreprises qui doivent reconsid&#233;rer leurs mod&#232;les internes, &#233;galement en termes de ressources humaines, pour les rendre  Cloud compatible , ce qui est loin d&#8217;&#234;tre simple. 
+ Que le  Cloud computing  soit une expression r&#233;serv&#233;e aux usages en entreprises m&#8217;a laiss&#233;e perplexe, tout comme le fait que la question de la s&#233;curit&#233; des usages serait secondaire pour le public &#224; qui l&#8217;on propose des services gratuits en &#233;change de contrats d&#8217;adh&#233;sion, soit des contrats non n&#233;gociables. Or, si l&#8217;entreprise se pr&#233;occupe du service rendu &#224; son client (ou SLA), le consommateur qui se trouve trop souvent encore face &#224; des clauses aberrantes [8]  ne fait pas l&#8217;objet des travaux de cet atelier. Seul lui serait reconnu le droit au respect des donn&#233;es personnelles. Cette derni&#232;re pr&#233;occupation &#233;tant &#233;galement partag&#233;e par les entreprises, elle fera l&#8217;objet d&#8217;un atelier &#224; part enti&#232;re tant la question, abord&#233;e lors de cette r&#233;union &#224; la lumi&#232;re de la r&#233;vision en cours de la directive europ&#233;enne sur les donn&#233;es personnelles, a sembl&#233; essentielle et complexe. 
+   
+ Un retard fran&#231;ais&#160;?  Ce n&#8217;est pas certain. On note toutefois une certaine frilosit&#233; des entreprises face &#224; l&#8217;externalisation de l&#8217;ensemble de la cha&#238;ne et une offre logicielle traditionnellement plus atomis&#233;e que dans d&#8217;autres pays. Puisque l&#8217;on d&#233;nombre aujourd&#8217;hui peu d&#8217;acteurs de r&#233;f&#233;rence en dehors du SaaS,&#160; une politique publique avait &#160;sembl&#233; n&#233;cessaire. Tel &#233;tait l&#8217;objet du livre blanc de l&#8217;Afdel pr&#233;sent&#233; en introduction. Le grand emprunt devrait combler cette lacune, en finan&#231;ant un projet r&#233;unissant Dassault, Orange et Thal&#232;s pour construire une offre nationale tr&#232;s attendue dans le Cloud. 
+ Un nuage bien encombr&#233;  
+ &#201;voquer la s&#233;rendipit&#233;, cette &#171;&#160;aptitude &#224; accueillir l&#8217;inattendu&#160;&#187; propre au concept de  recherche floue  bien connue du &#160;monde de la documentation, ou plus largement la  logique floue , m&#8217;a sembl&#233; &#233;vident. Quel bel exemple&#160;! 
+ 
+ Savoir plus  :  Le blog  consacr&#233; aux ateliers sur le  Cloud computing  de l&#8217;Adij o&#249; l&#8217;on trouver l&#8217;&#233;tude de l&#8217;Afdel, une bibliographie, les pr&#233;sentations des intervenants et les comptes rendus des ateliers. 
+ Un rappel.  Un &#233;crit personnel sur la question. Le Cloud computing, un mode d&#8217;exploitation risqu&#233;&#160;?  Mich&#232;le Battisti , Actualit&#233;s du droit de &#160;l&#8217;information , septembre 2009 
+ Illustration.  Cumulonimbus from plane over NewYork, Jez Fabi. Licence CC BY .  Wikim&#233;dia Commons 
+ ******** 
+ [1] L&#8217;image du   nuage ou des fermes de serveurs, n&#8217;explique &#233;videmment pas le succ&#232;s du concept mais ont contribu&#233; &#224; sa m&#233;diatisation. 
+ [2]  Savoir plus sur les contributeurs et prendre connaissance de leurs pr&#233;sentations sur  le blog  consacr&#233; aux ateliers sur le  Cloud computing  de l&#8217;Adij. 
+ [3]  Cloud Computing ou &#171;&#160;informatique en nuage&#160;&#187; depuis le 6 juin 2010 date o&#249; cette d&#233;finition de la Commission g&#233;n&#233;rale de terminologie a &#233;t&#233; publi&#233;e au  Journal officiel , le nuage&#160; &#233;tant&#160; un &#171;&#160;ensemble des mat&#233;riels et des logiciels accessibles par l&#8217;internet, qu&#8217;un prestataire met &#224; la disposition de ses clients sous la forme de services en ligne&#160;&#187;. Une traduction jug&#233;e malheureuse&#160;; il aurait fallu adopter l&#8217;expression d&#8217; &#171; informatique &#224; la demande&#160;&#187;, plus parlante. 
+ [4]  Dois-je souligner que l&#8217;expression de &#171;&#160;informatique en nuage&#160;&#187; n&#8217;a quasiment jamais &#233;t&#233; reprise&#160;lors de l&#8217;atelier ? 
+ [5]   Panorama du SaaS, PaaS, IaaS , Laurent Marquet, LogicaManagement Consulting, Journ&#233;e Cloud Computing, 17 mars 2009. 
+ [6]  Amazon,&#160; notamment, propose&#160; du Cloud priv&#233;, un&#160; pont entre l&#8217;informatique traditionnelle qui peut d&#233;border si besoin dans le nuage d&#8217;Amazon, comme le fait un VPN, cr&#233;ant ainsi un pare-feu pour l&#8217;entreprise. 
+ [7]  Amazon, pionnier dans ce domaine, a eu l&#8217;id&#233;e de proposer &#224; des tiers d&#8217;utiliser l&#8217;infrastructure qui lui &#233;tait n&#233;cessaire pour r&#233;pondre &#224; la demande de livres &#224; No&#235;l, inutilis&#233;e le reste de l&#8217;ann&#233;e, rentabilisant ainsi son investissement. 
+ [8]   ActuaLitte  nous apprenait le 2 septembre 2010 que &#171;&#160;Scribd d&#233;poss&#233;dait les auteurs de leurs archives&#160;&#187;. 
+                                         
+                                                                                                        
+                                 
+        </text>
+</document>

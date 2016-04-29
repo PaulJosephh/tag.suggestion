@@ -1,0 +1,70 @@
+<document>
+	<date>2013-12-10</date>
+        <title>Thermostat Z-Wave Secure SCS317 et SSR303</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Vera</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Modules</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+ Presentation 
+ 
+Il sagit dun thermostat Z-Wave, compose du thermostat proprement dit (SCS317) et de son recepteur (SSR303), permettant de controler une chaudiere (gaz, fioul ou electrique). Le thermostat dispose dun ecran LCD retroeclaire et fonctionne avec 2 piles AA (autonomie annoncee de 2 ans). La configuration est memorisee meme en cas de panne de batterie. Le recepteur doit etre branche sur le 220V et peut etre commande localement a laide de deux boutons ( ON OFF 
+Ce thermostat permet une programmation assez poussee differenciant les jours de la semaine et permettant de parametrer jusqua 6 plages de temperature par jour. Il est possible dintervenir a tout moment et simplement sur la temperature de consigne en appuyant sur les touches + ou -.
+En outre, le thermostat propose un mode  Standby Holiday 
+Ce thermostat met en uvre un algorithme proportionnel-integral en fonction du temps (TPI) pour offrir un controle precis de la temperature ainsi quune capacite (debrayable) de savoir quand commencer a chauffer pour atteindre la prochaine temperature de consigne a lheure programmee (inutile dans ce cas de prevoir le temps de montee en temperature lors de la programmation).  Helas, la precision de la temperature de consigne est le degre. Si cela est acceptable en degres Fahrenheit, cela lest beaucoup moins en degres Celsius (1F0,56C). 
+Ce thermostat constitue donc un excellent thermostat parfaitement utilisable de maniere autonome ( i.e. Association avec la box Vera Lite Association du module Thermostat (SCS317) avec la Vera 
+ Mettre la  Vera Sur le thermostat, se rendre dans  Setup Set up Z-Wave Learn ENTER Le message  network datas received Lorsque le thermostat revient sur lecran principal (inclusion achevee), mettre fin au processus dinclusion en appuyant sur le bouton + de la  Vera Le module correspondant au thermostat doit maintenant apparaitre dans linterface de gestion de la  Vera En attente de reveil pour configurer lappareil Reveiller le module thermostat pour parachever lassociation en se rendant dans  Setup Set up Z-Wave Send NIF ENTER Association du module recepteur (SSR303) avec la Vera 
+ 
+ Alimenter le module (220V), le voyant du bas doit clignoter en rouge Mettre la  Vera Appuyer et maintenir (environ 3 secondes) le bouton dassociation du module (bouton du bas,  || Mettre fin au processus dinclusion en appuyant sur le bouton + de la  Vera Le module correspondant au recepteur doit maintenant apparaitre dans linterface de gestion de la  Vera Association du module Thermostat avec le module recepteur 
+ 
+Jai tente dassocier le module thermostat avec le module recepteur sans passer par la Vera comme cela est decrit  ici Associer le relai avec le thermostat Setup Set up Z-Wave Associate node polling Vera Z-Wave 
+ Dans linterface de la  Vera Device Options Ajouter un nouveau groupe (2 par exemple) dans le champs  Group ID: Add group Appuyer sur  Set Selectionner le  device Back to ZWave options Fermer la fenetre de configuration du module SCS317 et sauver la configuration en appuyant sur  SAVE Vera Reveiller le module thermostat pour parachever lassociation en se rendant dans  Setup Set up Z-Wave Send NIF ENTER Frequence de reveil 
+ 
+Par defaut, la frequence de reveil du module est de 1800 secondes (30 minutes). Si le thermostat doit etre pilote par Z-Wave, cela fait un temps de reponse trop long. Mieux vaut descendre la frequence de reveil a 5 minutes par exemple ( Settings Wakeup interval (seconds): 300 Polling Settings Poll this node at most once every 60 seconds Vera Lite (UI7, firmware 1.7.513) 
+ 
+Avec la mise a jour de Vera en version UI7 1.7.513, le thermostat SCS317 nest plus directement fonctionnel car on ne parvient pas a regler la temperature de consigne depuis linterface UI7.
+Pour resoudre le probleme, aller dans  Advanced New service 
+New service: urn:upnp-org:serviceId:HVAC_UserOperatingMode1
+ 
+ Remarque du 21/02/2015: Wakeup interval How to change WakeupInterval on Thermostats? Detail du menu 
+Pour acceder au menu, il suffit dappuyer deux fois sur  ENTER 
+ Programme ENTER i.e. Stanby ENTER Standby temperature Lower temperature limit Setup Holiday Stanby Time/Date Setup 
+ Select clock format Select clock 24 hr Select clock AM/PM Daylight saving Daylight saving On Daylight saving Off Standby temperature Stanby Holiday Lower temperature limit Lower temperature limit Upper temperature limit TPI cycles per hour 
+ 3 6 Enfin 9 et surtout  12 Optimum start Optimum start off Optimum start on Tamper setting Set up Z-Wave 
+ Include node/receiver Exclude node/receiver Send NIF Listen Listen Learn Listen Associate node Disassociate nodes Controller Shift Network Reset Software version 017AAD15 Particularites 
+
+ Temporary Override 
+Il est possible d'intervenir a tout moment et simplement sur la temperature de consigne en appuyant sur les touches + ou-. La temperature de consigne revient a celle parametree dans la programmation lors du passage a la periode programmee suivante. Il est egalement possible de specifier une duree (maximum 4 heure) de l'ajustement de temperature voir de demander que l'ajustement soit permanent (il faut alors une intervention manuelle pour revenir au cycle proagramme).
+ Fail Safe du module recepteur (SSR303) 
+Le module recepteur (SSR303) possede une propriete  Fail Safe ON OFF i.e. Reinitialisation du thermostat SCS317 
+Il est possible de reinitialiser le thermostat SCS317 en pressant simultanement les touches  BACK ENTER 4 single byte configurations 
+ The C-Stat supports 4 single byte configurations in the range 1-4 respectively. 
+ Configuration Parameter Number 1: 0-127=Celsius, 128-255=Fahrenheit. Default=0. Configuration Parameter Number 2: Lower Temperature Limit. Default=5. Min value=5, Max value=30. Configuration Parameter Number 3: Upper Temperature Limit. Default=5. Min value=5, Max value=30. Configuration Parameter Number 4: 1=100 = Delta T in steps of 0.1 degree. Default=5 (0.5). 
+Attention, le SCS317 met en uvre un algorithme TPI qui ne fonctionne pas sur le principe d'un controle par hysteresis. Le seul parametre accessible de cet algorithme est le nombre de cycle TPI par heure, le parametre numero 4 n'a donc probablement aucun impact sur le fonctionnement du thermostat ( i.e. LUUP 
+ 
+La commande de redefinition de la temperature de consigne fait passer le thermostat SCS317 en mode  Temporary Override Standby Holiday Temporary Override Standby Holiday -- Allumer et Eteindre la chaudiere (module SSR303) . ( "urn:upnp-org:serviceId:HVAC_UserOperatingMode1" , "SetModeTarget" , { = "HeatOn" } ,  ) . ( "urn:upnp-org:serviceId:HVAC_UserOperatingMode1" , "SetModeTarget" , { = "Off" } ,  ) -- Redefinir la temperature de consigne (module SCS317) . ( "urn:upnp-org:serviceId:TemperatureSetpoint1_Heat" , "SetCurrentSetpoint" , { =  } ,  ) -- Temperature de la piece (module SCS317) local = . ( "urn:upnp-org:serviceId:TemperatureSensor1" , "CurrentTemperature" ,  ) -- Temperature de consigne (module SCS317) local = . ( "urn:upnp-org:serviceId:TemperatureSetpoint1_Heat" , "CurrentSetpoint" ,  ) -- Temperature de consigne suivante (module SCS317) local = . ( "urn:upnp-org:serviceId:TemperatureSetpoint1_Heat" , "SetpointTarget" ,  ) Mon avis 
+
+ 
+Je suis tres satisfait de ce thermostat. Les reproches que je lui ferait sont la faible precision de la temperature de consigne (le degre), la relative difficulte de sa mise en uvre dans un reseaux Z-Wave et l'absence de documentation a ce sujet. Je l'utilise de maniere entierement pilote par la box domotique. La programmation des consignes de temperature se fait donc sur ma box et tient compte des jours de la semaine, des jours feries, de la temperature exterieure, etc.
+ 
+Je ne comprends pas ceux qui preferent faire la regulation eux-meme a partir d'un simple actionneur et d'une sonde de temperature. Lhysteresis d'un tel dispositif est enorme les variations de temperature peuvent aller de 1 a 2 C ce qui est tres inconfortable. L'interet de passer par un veritable thermostat est qu'il met en uvre un algorithme proportionnel-integral en fonction du temps (TPI) pour offrir un controle precis de la temperature.
+ 
+Je ne peux me prononcer concernant la fiabilite dans le temps du module. Le premier exemplaire recu avait une partie de l'affichage HS, j'espere que ce n'etait pas le signe d'un materiel peu fiable. Actuellement, j'en suis tres contant, je le recommande chaudement.
+ Produits 
+ 
+
+ 
+ 
+Shopping :  Thermostat Z-Wave Secure SCS317 et SSR303 Vera Lite - Controleur domotique Z-wave Tete thermostatique Z-Wave Danfoss Informations et Sources 
+ 
+ Site du constructeur (Secure) Manuel d'installation (en anglais) Manuel d'utilisation (en anglais) Using the Secure SCS317 Programable Thermostat with VERA Adding and Configuring the Secure Thermostat and Receiver Thermostat Z-Wave Secure SCS317 et recepteur SSR303 Parametres du thermostat Secure SRT321(HRT4-ZW) Configurer le thermostat Secure/Horstmann SRT321 sur Vera UI7 
+ Sommaire Domotique 
+        </text>
+</document>

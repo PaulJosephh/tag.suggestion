@@ -1,0 +1,21 @@
+<document>
+	<date>2014-04-17</date>
+        <title>Lua : envoyer un courriel avec des images</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Lua</tag>
+                <tag>Vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Surveillance</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Voici une fonction en Lua permettant denvoyer un courriel avec  une ou plusieurs images Vera Lite celle presentee dans ce billet smtp -- Permet d'envoyer un courriel en passant en parametres le message, l'objet et des images au format jpeg a attacher en pieces jointes -- On peut ne donner comme parametres que (message, objet) voir que (message) -- message    : le message du courriel (ex : "Voici quelques photos") -- objet      : l'objet du courriel (ex : "Photos") -- imagesJPEG : les chemins des images (ex : "/img.jpg" ou encore {"/img1.jpg", "/img2.jpg", "/img3.jpg"} ) function ( , , ) local = require ( "socket.smtp" ) local = require ( "mime" ) local = require ( "ltn12" ) local = "@_courriel_emetteur" local = "@_courriel_destinataire" if ( type ( ) == "string" ) then = "[Vera]" .. " " .. else = "[Vera]" end = "Bonjour, ceci est un courriel envoye par la VeraLite (" .. os.date ( "%A %B %Y, %H:%M:%S" ) .. ") \n \n .. .. " \n \n local = { } [ 1 ] = { = { [ "content-type" ] = "text/plain; charset=utf8" } , = } if ( ~= nil ) then if ( type ( ) == "string" ) then = { } end for , in pairs ( ) do [ + 1 ] = { = { [ "content-type" ] = 'image/jpeg; name="image' .. tostring ( ) .. '.jpg"' , [ "content-disposition" ] = 'attachment; filename="image' .. tostring ( ) .. '.jpg"' , [ "content-description" ] = 'Image ' .. + 1 , [ "content-transfer-encoding" ] = "BASE64" } , = . . ( . . ( io.open ( , "rb" ) ) , . . ( . ( "base64" ) , . ( ) ) ) } end end local = . { = { = , = , = } , = } . { = , = , = , = "smtp" , = "25" } end 
+Attention, capturer des images et les envoyer par courriel peut consommer trop de ressources pour la  Vera lite Vera Lite : Plantage severe 
+ 
+ Sommaire Domotique 
+        </text>
+</document>

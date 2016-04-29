@@ -1,0 +1,16 @@
+<document>
+	<date>2011-03-04</date>
+        <title>Guide dinstallation du module lampe ACT ZDP230</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         
+ Le module ZDP230 permet dallumer ou deteindre un eclairage ou un groupe   declairage de puissance comprise entre 60 et 300W, ainsi que de faire   varier lintensite lumineuse, tout en etant pilote par des commandes  Z-Wave Il sintercale simplement entre la prise murale et la prise electrique de leclairage a piloter. Il est equipe dun bouton pour lassocier au reseau  Z-Wave 
+  Inserez le module dans une prise electrique proche de la lampe a commander.  Connectez la lampe que vous souhaitez piloter.  Pour associer le module a votre systeme  Z-Wave  Ce bouton sert egalement de controle local. Un simple appui allume ou eteint la lampe. Un appui prolonge fait varier lintensite.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

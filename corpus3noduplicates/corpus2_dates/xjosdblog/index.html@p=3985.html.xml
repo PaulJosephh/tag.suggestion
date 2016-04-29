@@ -1,0 +1,51 @@
+<document>
+	<date>2013-09-27</date>
+        <title>Requtes HTTP sur camera IP D-Llink</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Camera IP</tag>
+        </tags_set>
+        <categories_set>
+                <category>DLink</category>
+                <category>Domotique</category>
+                <category>Surveillance</category>
+        </categories_set>
+        <text>
+                                                 Tour dhorizon 
+
+ Documentation D-Link 
+Les cameras IP D-Link peuvent etre interrogees et parametrees par lintermediaire de requetes http. Helas, force est de constater que D-Link ne communique pas la-dessus. Je nai trouve aucune documentation du constructeur propre a mes cameras concernant cet aspect.
+ 
+La premiere documentation D-Link que jai trouvee est  IP Camera CGI Interface trouvee sur un site D-Link IP Camera CGI Interface (IPCamCGI) DCS-3420, DCS-6620/G, DCS-3220/G DCS-5300/G, DCS-2100/G/+, DCS-2000, DVS-301  DCS-5220, DCS-2120 
+Il existe un  Forum D-Link la camera IP DCS-2230 est compatible avec lAPI NVSCGI Common Gateway Interface (CGI)  
+La  Common Gateway Interface 
+ Syntaxe des requetes HTTP pour  les cameras IP D-Link DCS-910 et DCS-920 Syntaxe des requetes HTTP pour  les cameras IP D-Link DCS-3420, DCS-6620/G, DCS-3220/G Syntaxe des requetes HTTP pour  les cameras IP D-Link DCS-5300/G, DCS-2100/G/+, DCS-2000, DVS-301 Syntaxe des requetes HTTP pour  les cameras IP D-Link DCS-5220, DCS-2120 IPCAM CGI SDK 2.1  
+
+h3Real Time Streaming Protocol (RTSP)/h3
+
+p
+RTSP (emReal Time Streaming Protocol/em) permet de controler la distribution de flux multimedias (streaming) sur un reseau IP. C'est un protocole de niveau applicatif (niveau 7 du modele OSI) prevu pour fonctionner sur des protocoles tels que RTP/RTCP et RSVP.
+Les flux peuvent provenir soit de clips stockes soit d'une source temps reel (camera, micro).
+RTSP a ete developpe par l'IETF standardise en 1998 (RFC 2326).
+/p
+
+ D-Link et la norme Onvif 
+ONVIF ( Open Network Video Interface Forum 
+D-Link travaille en etroite collaboration avec l'ONVIF afin que ses produits de surveillance IP soient plus faciles a integrer avec des dispositifs tiers. Voici la liste complete des produits D-Link conformes aux exigences ONVIF:
+ 
+ Produits D-Link conformes aux exigences de Profile S par ONVIF Autres produits D-Link conformes aux exigences ONVIF 
+Je n'ai cependant rien trouve expliquant comment interagir avec une camera IP en utilisant des requetes HTTP dans le cadre de cette norme.
+ Requetes HTTP sur DCS-2230 et DCS-6511 
+ 
+Les camera IP DCS-2230 et DCS-6511 (et probablement la plupart des camera D-Link actuelles) sont compatibles avec l'API NVSCGI ( Network Video Server CGI Application Programming Interface Network IP Camera Application Programming Interface Convision NVSCGI API-1.0 CGI_2121 DCS2121 support table EV1180-NVSCGI API-V1.4a CONVISION_CC-8213-L_D_en CONVISION_CC-801x-Encoder-NVSCGI API-V1.6 CONVISION_CC-8xxx-Camera-NVSCGI API-V1.7c 
+Il est enfin theoriquement possible de  telecharger les sources des firmwares D-Link viole la GPL ? ce fichier  request.c 
+Voici quelques exemples de requetes que j'ai pu tester avec succes. Les url doivent commencer par  http://ipCam:port http://usr:pwd@ipCam:port 
+ Prendre une photo (depuis le flux 1):  /dms?nowprofileid=1 Prendre une photo:  /image/jpeg.cgi Streaming video en direct(depuis le flux 1):  /video/mjpg.cgi?profileid=1 Query stream information:  /config/stream_info.cgi Get basic information:  /common/info.cgi Get network config:  /config/network.cgi Get motion detection:  /config/motion.cgi Set motion detection (activation et sensibilite a 50):  /config/motion.cgi?enable=yessensitivity=50 Get digital input/output:  /config/io.cgi Set digital output (activation):  /config/io.cgi?out1=on (You can only set the available digital outputs, inputs are read-only) Get LED:  /config/led.cgi Set LED (eteindre):  /config/led.cgi?led=off Get ICR config:  /config/icr.cgi Get IR config:  /config/irled.cgi Set ICR (mode=auto|night|day|schedule):  /config/icr.cgi?mode=auto Set ICR (planification du mode jours de 8h a 20h):
+ /config/icr.cgi?mode=schedulestarttime=08:00endtime=20:00 Fichier log de la camera:  /cgi-bin/exportlog.cgi SD Card config:  /config/sdcard.cgi Get audio stream:  /audio/ACAS.cgi  
+linbsp;: code//code/li
+ 
+ 
+Shopping:  Camera IP Full HD WiFi D-Link DCS-2230 Camera IP Full HD POE D-Link DCS-2210 D-Link DCS-6511 PoE dome exterieur a focale variable 
+ D-Link viole la GPL ? 
+        </text>
+</document>

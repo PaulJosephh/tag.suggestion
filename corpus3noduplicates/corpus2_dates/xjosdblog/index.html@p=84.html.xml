@@ -1,0 +1,21 @@
+<document>
+	<date>2007-11-29</date>
+        <title>TwonkyMedia</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Applications</category>
+                <category>UPNP-DNLA</category>
+        </categories_set>
+        <text>
+                                                 
+ TwonkyMedia installe sur un NAS et lutilise avec le client  Terratec Noxon 2 TwonkyMedia 
+ 
+Le  fichier  /twonkyvision/twonkyvision-mediaserver.ini 
+Le  fichier  /twonkyvision/resources/TwonkyMediaConfig.js /rpc/rebuild wget http://192.168.0.23:9000/rpc/rebuild 
+Ainsi, pour  reconstruire la base de donnees de  TwonkyMedia  tous les deux jours a 4h du matin cron crontab -e 00 4 */2 * * wget http://192.168.0.23:9000/rpc/rebuild 
+Sur la page  TwonkyMedia Configuration: Statut espace memoire disponible pour  TwonkyMedia TwonkyMedia killall twonkymedia /twonkyvision/twonkyvision-mediaserver.ini maxmem=20000 TwonkyMedia /etc/rc.local 
+Attention,  TwonkyMedia  ne sait gerer un repertoire contenant plus de 300 sous-repertoire 
+        </text>
+</document>

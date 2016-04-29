@@ -1,0 +1,14 @@
+<document>
+	<date>2014-11-04</date>
+        <title>
+Mise  jour Homewizard: ajout des requtes HTTP !</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Homewizard</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>La  box Homewizard, que je vous avais presentee ici,  fait tranquillement son petit chemin, et recoit regulierement de nouvelles mises a jour.   Pour rappel, cette box domotique, tres abordable, a pour elle plusieurs avantages non negligeables: tout dabord elle est totalement autonome, ce qui evitera bien des deboires (cf  larticle de la semaine derniere sur la mort annoncee du Karotz ) elle supporte les automatismes Somfy, qui posent tant de problemes a piloter (voir  notre exemple pour utiliser la box comme passerelle Somfy par exemple ) elle peut  faire office de station meteo connectee elle  gere le suivi denergie elle gerede nombreux autres protocoles.  Lors de mon test javais juste trouve un peu limitees les possibilites de scenario, et notamment labsence de requetes http, qui permettent de piloter dautres appareils. Et bien bonne nouvelle: une mise a jour est arrivee il y a quelques jours ajoutant cette fonctionnalite ! Lutilisation se fera tres simplement, sous forme dinterrupteur IP, ou on pourra indiquer une adresse http pour lallumage et une autre pour lextinction. Exemple ici pour piloter une IPX800:   Il sera meme possible dutiliser un minuteur sur ce type dinterrupteur:    Cette nouveaute peut paraitre minime, mais elle ouvre de nombreuses possibilites: piloter une  carte type IPX800  par exemple piloter un  KIRA128  pour gerer son equipement audio video fonctionnant en infra rouge piloter ses appareils multimedia: ampli connecte, TV,  XBMC , etc envoyer des notifications via  PushingBox , etc Bref, voici donc une excellente nouvelle qui vient encore etendre les possibilites de cette petite box !   Homewizard 
+        </text>
+</document>

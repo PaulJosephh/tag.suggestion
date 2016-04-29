@@ -1,0 +1,36 @@
+<document>
+	<date>2013-10-03</date>
+        <title>NAS Synology comme contrleur Domotique</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>SynoZwave</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+                <category>Synology</category>
+        </categories_set>
+        <text>
+                                                 
+
+ SynoZwave 
+Lorsque lon dispose dun NAS, on dispose deja dun systeme connecte en permanence bien plus puissant que nimporte quelle box domotique. Cest donc un materiel parfaitement adapte a condition quune application dediee soit developpee. Helas, pour le moment, les fabricants de NAS ne se sont pas lance dans ce type de developpement. Un particulier, Mickael (Bilil), est cependant en train de le faire en developpant  SynoZwave Interview du createur de SynoZwave Open Z-Wave Aeon Labs Z-Wave USB Z-Stick S2 
+Jutilise  SynoZwave SynoZwave SynoZwave SynoZwave SynoZwave 
+ Mise a jour du 08/11/2013: Voici SynoZwave SynoZwave EnOcean EnOcean Zwave EnOcean SynoZwave Domogik 
+Comme  SynoZwave Domogik Open Z-Wave Domogik OpenRemote 
+ OpenRemote 
+ Le serveur, sur lequel tous les dispositif clients viendront se connecter, peut etre installe sur une architecture Linux, Windows, Mac, Raspberry, NAS Le serveur OpenRemote peut communiquer avec les dispositifs domotique par lintermediaire de requetes HTTP. Il peut aussi communiquer directement avec les dispositifs domotiques sil est installe sur la machine comportant linterface materiel necessaire (KNX, Lutron, AMX, Zwave, 1-Wire, FreeBox, VLC, XBMC, Russound, x10, xPL).
+ 
+Linterface de pilotage peut etre chargee dans un navigateur, mais il existe egalement des clients pour Android, IOS et les tablettes Windows.
+ 
+La creation de linterface se fait en ligne avec un editeur. Une fois enregistree, il suffit de charger le fichier genere dans le serveur pour que linterface deviennent accessible sur les clients connectes.
+ Domoticz 
+Cf.  Domoticz, controleur Z-Wave libre et gratuit ! NAS : pas tout de suite 
+Jai rencontre deux problemes avec  OpenRemote OpenRemote SynoZwave 
+ 
+Bref, une solution domotique serieuse, fiable et aboutie sur un NAS Synology, ce nest pas pour aujourdhui!  Informations et sources 
+ Comparatif des solutions Domotiques SynoZwave : La domotique sur le NAS Synology EnOcean et SynoZwave, point avec Mikael OpenRemote Un controle tactile avec OpenRemote OpenRemote package for Synology NAS Installing and running Domoticz on a Raspberry PI 
+ Sommaire Domotique 
+        </text>
+</document>

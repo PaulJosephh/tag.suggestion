@@ -1,0 +1,25 @@
+<document>
+	<date>2014-11-13</date>
+        <title>Jeedom  Guide dutilisation de la tlcommande Soft Remote NodOn EnOcean</title>
+        <author> Algeroth </author>
+        <tags_set>
+                <tag>domotique</tag>
+                <tag>enocean</tag>
+                <tag>guide</tag>
+                <tag>jeedom</tag>
+                <tag>nodon</tag>
+                <tag>soft remote</tag>
+                <tag>tuto</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Jeedom</category>
+        </categories_set>
+        <text>
+                                                         Jeedom EnOcean USB EnOcean Jeedom EnOcean Jeedom EnOcean NodOn Cette telecommande 4 touches permet de piloter sa  domotique 1  Presentation de la telecommande Soft Remote NodOn La Soft Remote est une telecommande sans fil  sans pile, compatible  EnOcean domotique Jeedom Elle est disponible dans deux coloris  Tech Blue Cozy Grey Specifications techniques: Alimentation : Magneto-resistive (sans batterie)  4 boutons (2 canaux) Aimant integre pour fixation sur surface metallique Resistante aux chocs et aux eclaboussures Temperature de fonctionnement : 0C a 40C  Altitude : 2000m Protocole Radio  EnOcean Portee: 30m indoor Dimension : 56*56*20mm 2  Association Apres avoir prealablement telecharge le plugin  EnOcean Jeedom EnOcean EnOcean Cochez la case Creer automatiquement les nouveaux equipements Sauvegardez et redemarrez le demon.Cette etape na besoin detre faite quune seule fois pour tous les modules  EnOcean Rendez-vous maintenant dans le plugin  EnOcean Domotique Enocean Activez votre Soft Remote  NodOn Rafraichissez la page. Votre Soft Remote  NodOn 3  Configuration Selectionnez votre Soft Remote  NodOn Vous arrivez alors dans sa page de configuration. Il suffit de lui donner un nom, un emplacement dans votre logement (Objet) et selectionner le type de module, par exemple Automatisme. Vous pouvez modifier egalement les noms des commandes. Pour terminer, cliquez sur Sauvegarder (en bas de la page). Votre telecommande Soft Remote est desormais fonctionnelle dans  Jeedom 4  Exemples dutilisation Votre Soft Remote  NodOn Vous pouvez changer son apparence via les widgets. Elle renvoie instantanement letat des touches. Vous pouvez utiliser cette telecommande Soft Remote  NodOn Z-Wave Prenons le cas pour piloter une lumiere  Z-Wave Pour cela rendez vous dans les scenarios de  Jeedom Sur longlet de gauche cliquez sur Ajouter scenario. Donnez un nom a votre scenario. Une fois selectionne, vous pouvez le configurer avec plusieurs options Pour faire un scenario simple il va falloir configurer le declencheur. Cliquez sur le bouton ajouter un declencheur, ensuite selectionnez la telecommande Soft Remote  NodOn Cliquez sur le bouton Ajouter un element au scenario. Dans notre cas on va ajouter une condition au scenario. Une nouvelle brique est ajoutee. Dans le SI selectionnez une des 2 paires de touches de la telecommande Soft Remote  NodOn Dans le ALORS selectionnez votre lampe  Z-Wave Puis dans le SINON selectionnez votre lampe  Z-Wave Sauvegardez et votre scenario est pret a lemploi. Votre lampe va sallumer quand vous appuyez sur la touche correspondante au ON de votre Soft Remote, puis seteindra quand vous aurez appuyer sur la touche OFF. Vous pouvez ainsi piloter une lampe  Z-Wave EnOcean  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Jeedom  Guide dutilisation du capteur de temperature NodOn EnOcean 
+ Plugin Thermostat JEEDOM : pour le controle total de votre chauffage 
+ Jeedom  Guide dutilisation du detecteur dinondation Fibaro FGFS-001 END .entry-content  
+        </text>
+</document>

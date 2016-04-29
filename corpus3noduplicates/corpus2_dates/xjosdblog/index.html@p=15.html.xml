@@ -1,0 +1,24 @@
+<document>
+	<date>2010-07-29</date>
+        <title>Rendre silencieux un Synology (ventilateur et fan check)</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Synology</category>
+        </categories_set>
+        <text>
+                                                 
+Je possede un NAS Synology DS209+II. Comme la plupart des Synology a deux baies, son ventilateur est un Evercool dont les specifications sont decrites ci-dessous.
+ 
+Modele : EC7025L12ER (Evercool) 
+Le probleme de ce ventilateur est son niveau sonore. Il nest pas tres important, mais dans une piece silencieuse, je le trouve genant. Jai donc decide de le remplacer par un modele plus silencieux. Les ventilateurs dans ces dimensions ne sont pas legion, mon choix sest porte sur un ventilateur Nexus dont les specifications sont decrites ci-dessous.
+ 
+Modele : SP702512M (Nexus) 
+Ce ventilateur est totalement compatible avec loriginal au niveau dimensions et visserie. Cependant, il consomme un peu plus (2.28 W) brasse legerement moins dair et nest pas compatible au niveau connecteur (il faut sortir son fer a souder pour placer un connecteur compatible sur le cable du ventilateur). Par contre, il est  nettement plus silencieux 
+Comme rien nest jamais simple en informatique, il reste un probleme : le Synology bip regulierement probablement en raison de la vitesse de rotation du ventilateur qui nest plus la meme. La solution radicale consiste a taper la commande suivante dans un shell ouvert sur le NAS :
+ DS209xII echo 0  /sys/module/ds508_synobios/parameters/check_fan S99zz_fan_check_disable.sh /usr/syno/etc.defaults/rc.d 
+ Remarque : check_fan /sys/module/ppc85xx_synobios/parameters updatedb locate check_fan 
+ Re: HDD temp vs fan noise: Only 1 disk with heatsink in DS-207? Regler La Vitesse Du Ventilateur 
+        </text>
+</document>

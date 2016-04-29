@@ -1,0 +1,158 @@
+<document>
+	<date>2007-08-19</date>
+        <title>Prsentation de Flex</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>actionscript</tag>
+                <tag>adobe</tag>
+                <tag>amfphp</tag>
+                <tag>bestpractices</tag>
+                <tag>flash</tag>
+                <tag>flex</tag>
+                <tag>framework</tag>
+                <tag>mxml</tag>
+                <tag>ria</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Pour les besoins du boulot, j'ai du me mettre a  Flex , le framework d' Adobe  oriente  RIA  en  Flash . 
+
+
+ Je pensais que mon passe de flasheur m'aiderait a monter rapidement en competence sur cette techno, ben non: c'est tout a fait autre chose que ce que je connaissais de l'IDE traditionnel, dont je m'etais arrete a la version 8. Avec Flex on a affaire a un framework complet de generation d'interfaces riches basees sur l'emploi de composants decrits et parametres en XML et de la derniere mouture du langage  ActionScript  en version 3. Quelques  exemples d'applications realisees avec Flex  sont disponibles, et pour certaines, ca en jette carrement. 
+
+
+ Le langage MXML 
+
+
+ La description des interfaces s'opere au moyen du langage MXML [ 1 ] , base sur XML un peu comme ce que proposent  XUL  ou  XAML  ou meme  XHTML  (qui reste une implementation particuliere et standardisee d'XML). Deux types principaux de composants sont disponibles: les  conteneurs  (boites, panneaux, fenetres, etc.) et les  elements de controle  (champs texte, listes, datagrids, tree, etc.) 
+
+
+ Le nombre de conteneurs et de controles est impressionnant, on se prend a rever de la meme richesse en HTML  [ 2 ] . La plupart des composants sont visibles sur  l'explorateur de composants Flex , sur le site d'Adobe. Et le meilleur reste sans doute a venir quand on voit le catalogue de composants supplementaires open source comme ceux du projet  FlexLib ... 
+
+
+ Le format genere apres compilation d'un ensemble de fichiers MXML constituant une application Flex est le  SWF , le format natif d'Adobe Flash, lisible par tout bon  Flash Player 9  qui se respecte, implante sur plus de 80% du parc machines desktop mondial  d'apres les dernieres statistiques disponibles sur le site d'Adobe . 
+
+
+ Voila un exemple de code MXML decrivant l'interface d'une application simpliste: 
+
+  xml
+?xml version="1.0" encoding="utf-8"?
+mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+   mx:Panel title="Dire bonjour" x="10" y="10" layout="absolute" width="303"
+      mx:TextInput id="firstname" x="10" y="10"/
+      mx:Button label="Dire bonjour" click="result.text='Bonjour, '+firstname.text" x="178" y="10"/
+      mx:Label id="result" x="10" y="40" width="265"/
+   /mx:Panel
+/mx:Application
+ 
+
+
+ Le code est assez parlant, mais voici quelques elements significatifs: 
+
+ 
+ Le conteneur principal de l'application declare l'espace de noms  mx , ce qui nous permettra d'utiliser les composants natifs de Flex 
+ L'application declare un conteneur sous la forme d'un  Panel  contenant trois controles:
+ 
+ un  InputText , champs de saisie textuelle 
+ un  Button , un bouton d'action 
+ un  Label , un champs de texte potentiellement dynamique 
+ 
+ Chaque element peut se voir nanti d'un attribut  id  qui doit etre unique si renseigne; il permet de referencer facilement un element de l'arbre  DOM 
+ La gestion des evenements peut se faire directement en MXML: ici, quand on clique sur le bouton, le contenu texte du label est modifie en fonction de la valeur textuelle du champs de saisie. 
+ 
+
+ Style et mise en forme 
+
+
+ Dans l'exemple precedent, on voit que les styles sont appliques sous forme d'attributs XML. C'est une solution pratique a court terme mais qui peut rapidement s'averer problematique a maintenir des que votre application grossit. Aussi, pour separer la couche de presentation de la description des contenus, tout comme en HTML, Flex permet l'utilisation de feuilles de styles CSS embarquees ou externalisees. Beaucoup de proprietes CSS ont du etre creees ou adaptees aux specificites du balisage MXML et des composants proposes, mais le resultat est une grande souplesse d'utilisation et une large palette de mise en forme disponible. Pour preuve, un petit tour du cote de l' explorateur de styles Flex  s'impose. 
+
+
+ Le langage ActionScript 3 
+
+
+ ActionScript 3 est l'evolution logique des precedentes versions, etendant le perimetre fonctionnel et accentuant son caractere professionnel, notamment dans l'implementation objet, les types natifs et l'organisation en packages des differents objets de programmation. 
+
+
+ Composants personnalises 
+
+
+ Une des grandes forces de Flex a mes yeux est la simplicite avec laquelle on peut creer ses propres composants en heritant de composants basiques preexistants et de les manipuler via son propre espace de noms. Par exemple, la creation d'un composant derive d'un formulaire presentant un champs de login/mot de passe donne a peu pres ceci: 
+
+  xml
+?xml version="1.0" encoding="utf-8"?
+mx:Form xmlns:mx="http://www.adobe.com/2006/mxml" width="280" height="105"
+   mx:FormItem label="Login"
+      mx:TextInput id="username"/
+   /mx:FormItem
+   mx:FormItem label="Mot de passe"
+      mx:TextInput id="password" displayAsPassword="true"/
+   /mx:FormItem
+   mx:FormItem
+      mx:Button label="Connexion"/
+   /mx:FormItem
+/mx:Form
+ 
+
+
+ Si on nomme notre fichier de composant  LoginForm.mxml  et qu'on le stocke dans le repertoire  ./components  de notre projet Flex, on va pouvoir l'utiliser de la facon suivante dans une application: 
+
+  xml
+?xml version="1.0" encoding="utf-8"?
+mx:Application 
+   xmlns:mx="http://www.adobe.com/2006/mxml" 
+   xmlns:niko="components.*"
+   layout="absolute"
+   mx:Panel title="Connexion"
+      niko:LoginForm id="loginform"/
+   /mx:Panel
+/mx:Application
+ 
+
+
+ On a declare un nouvel espace de noms, ici  niko  (mais on aurait pu mettre ce qu'on veut) pointant vers les fichiers sous le repertoire  components  du projet. Simple, non? En tout cas, cela devient un jeu d'enfant de produire des composants reutilisables. 
+
+
+ Le nerf de la guerre, l'acces aux donnees distantes 
+
+
+ Flex propose trois modes d'acces aux donnees distantes, par le biais de trois composants: 
+
+ 
+ L'objet  HTTPService , comme son nom l'indique, permet d'effectuer des requetes  HTTP  sur une url et d'en recuperer la reponse. Un objet bien pratique quand on veut s'interfacer avec une  architecture REST , par exemple. 
+ L'objet  WebService  permet de s'interfacer avec un webservice au format  WSDL  via  SOAP . Quand on dispose de tels service, c'est un plaisir de se baser dessus depuis Flex puisqu'on a qu'a referencer les methodes a utiliser et les declencher depuis leur reference. 
+ Mais l'objet de loin le plus interessant a mes yeux est  RemoteObject , implementation du protocole  RPC  dans Flex, pendant Flash/ActionScript du  RMI  en Java. Comme je fais peu de Java, j'ai tendance a plutot utiliser  AMFPHP [ 3 ]  pour publier mes services en utilisant  PHP . Un tres bon  tuto de mise en oeuvre du couple AMFPHP/Flex  se chargera d'illustrer le concept plus efficacement que je ne le fais ici. 
+ 
+
+ FlexBuilder 
+
+
+ Adobe propose un IDE dedie a la realisation d'applications Flex,  FlexBuilder . Cet outil, base sur le celebrissime  Eclipse , permet de disposer d'un environnement complet de developpement comprenant entre autres un editeur de code (MXML en mode source/wysiwyg, ActionScript, CSS, etc.), un debogueur avance  a la Java , un gestionnaire de projets, la compilation automatique et surtout un acces a l'immense  catalogue des plugins Eclipse . D'ailleurs, FlexBuilder est egalement disponible sous la forme d'un plugin a installer sur une instance d'Eclipse existante: de quoi travailler sur vos projets Flex/PHP de facon centralisee, par exemple. 
+
+
+ Inconvenient majeur de cet outil, il est payant. Et coute relativement cher, puisque propose aux alentours de 500. Neanmoins, le SDK de Flex etant gratuit, vous pouvez tout a fait vous passer de FlexBuilder et compiler vos applications a la main. Une bonne nouvelle ne venant jamais seule,  Adobe a decide de publier la prochaine mouture du framework sous licence libre   [ 4 ] , aussi nous devrions voir fleurir des alternatives a FlexBuilder et assister a un taux d'adoption plus consequent de la technologie. 
+
+
+ Organisation du code, frameworks 
+
+
+ Au vu de l'etendue fonctionnelle de Flex et des differents formats de fichiers mis en oeuvre ainsi que de leurs interactions potentielles, il est clair que maintenir la moindre petite application peut vite relever du cauchemar les developpements avancant. Pour faire face a cette problematique, Adobe propose un  surframework  du nom de  Cairngorm  mettant en oeuvre les bonnes pratiques d'architecture logicielle en implementant le motif de conception  MVC  bien connu des utilisateurs de frameworks de developpement rapide orientes web. 
+
+
+ Meme si le projet semble extremement interessant, je n'ai pas encore pour l'heure pu jouer avec. 
+
+
+ Conclusion 
+
+
+ Pour l'heure et apres avoir pas mal  galere  tatonne avec l'outil au debut, je dois reconnaitre maintenant et avec un peu de recul que c'est assez efficace. C'est relativement destabilisant pour quelqu'un qui comme moi avait l'habitude de l'IDE Flash Authoring classique, mais au final FlexBuilder semble beaucoup plus serieux pour tout ce qui concerne la programmation et l'organisation des fichiers (Eclipse oblige.) Meme le templating y gagne a mon sens, mais par contre impossible de faire de la creation graphique avancee directement dans FlexBuilder, l'outil n'est clairement pas l'ami des infographistes de vocation. 
+
+
+ Pour enfoncer le clou, j'ai pu comparer l'utilisation de Flex et de XUL, ayant enchaine deux projets coup sur coup les mettant en oeuvre. L'excellente documentation de Flex et la richesse des outils gravitant autour de la techno font que pour l'heure Flex me semble l'un des meilleurs choix pour developper une RIA, si l'on ecarte le couple HTML/Ajax qui garde une toujours une place de choix dans mon arsenal webdeuzeroesque  
+ Notes 
+ [ 1 ] Je ne sais pas a quoi correspond la lettre M de l'acronyme,  Macromedia  sans doute. 
+ [ 2 ] En attendant  HTML5 , les antiflash pourront aller zieuter du cote d' extjs  ou de  YUI . 
+ [ 3 ] Attention a bien utiliser la  derniere version 1.9 beta  compatible avec Flex2 
+ [ 4 ] Sous licence  MPL  plus precisement. 
+        </text>
+</document>

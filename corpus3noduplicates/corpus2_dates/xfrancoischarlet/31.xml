@@ -1,0 +1,44 @@
+<document>
+	<date>2014-05-12</date>
+        <title>SnapChat, ou l'&#233;norme violation de la vie priv&#233;e</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Conditions g&#233;n&#233;rales</tag>
+                <tag>Protection des donn&#233;es</tag>
+                <tag>Sph&#232;re priv&#233;e</tag>
+        </tags_set>
+        <categories_set>
+                <category>Technologies</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Le service am&#233;ricain SnapChat a  conclu  cette semaine un accord avec la Federal Trade Commission (FTC) qui concerne ses conditions g&#233;n&#233;rales d'utilisation (CGU). Cet accord lui permet d'&#233;viter un proc&#232;s. Au vu des failles de s&#233;curit&#233; et des manquements &#224; la protection de la vie priv&#233;e,  SnapChat a accept&#233; d'&#234;tre plac&#233; sous audit concernant la vie priv&#233;e pendant 20 ans  ! 
+ La FTC est une instance gouvernementale am&#233;ricaine qui est charg&#233;e de la protection des consommateurs. Suite &#224; une enqu&#234;te, elle a  accus&#233;  SnapChat de tromper les utilisateurs sur de nombreuses fonctions de l'application. 
+ En premier lieu, les promesses de SnapChat concernant la disparition des messages n'auraient pas &#233;t&#233; tenues&#160;; ensuite, SnapChat aurait collect&#233; plus de donn&#233;es personnelles qu'il ne l'indiquait&#160;; enfin les donn&#233;es collect&#233;es n'auraient pas &#233;t&#233; suffisamment s&#233;curis&#233;es et prot&#233;g&#233;es contre des acc&#232;s indus notamment. 
+ Messages qui s'autod&#233;truisent. Ou pas. 
+ L'application se vantait de d&#233;truire le message, la photo ou la vid&#233;o envoy&#233;e quelques secondes apr&#232;s que le destinataire l'a consult&#233;e (au maximum dix secondes). Snapchat assurait donc l'utilisateur que ces contenus seraient totalement indisponibles pour quiconque une fois le d&#233;lai &#233;coul&#233;. 
+ Pourtant, la FTC a d&#233;montr&#233; que  plusieurs moyens externes &#224; l'application existent pour contourner cette limitation . Il est possible d'utiliser des outils permettant de sauvegarder les photos et vid&#233;os, rendant donc possible un acc&#232;s ult&#233;rieur &#224; ces donn&#233;es et pour une dur&#233;e ind&#233;termin&#233;e. D&#232;s d&#233;cembre 2012 et jusqu'en octobre 2013, il &#233;tait par exemple possible de parcourir les fichiers du smartphone avec un ordinateur et d'aller r&#233;cup&#233;rer les images et vid&#233;os qui n'&#233;taient m&#234;me pas chiffr&#233;es. 
+ D'ailleurs, des applications d&#233;velopp&#233;es par des tiers permettent de se connecter au syst&#232;me de SnapChat via une API (Application Programming Interface) sans passer par l'application officielle du service. Cependant,  si l'utilisation d'application tierce &#233;tait permise, celles-ci n'&#233;taient pas soumises &#224; l'obligation d'effacer les contenus apr&#232;s l'expiration du d&#233;lai  ! Seule l'utilisation de l'application officielle avait cet effet. Par cons&#233;quent, utiliser une application tierce permet de sauvegarder les contenus alors que la personne qui les envoie croit qu'ils seront effac&#233;s. Selon la FTC, ces applications auraient &#233;t&#233; t&#233;l&#233;charg&#233;es 1.7 million de fois rien que sur Google Play. 
+ Enfin, il existe toujours la possibilit&#233; d'effectuer une capture d'&#233;cran avant que le message ne s'autod&#233;truise. SnapChat affirmait que l'envoyeur serait notifi&#233; si le destinataire prenait une capture d'&#233;cran. Cependant, sous les versions pr&#233;c&#233;dant iOS 7, le fait d'appuyer deux fois rapidement sur le bouton d'accueil permettait d'emp&#234;cher cette notification et de prendre la capture d'&#233;cran souhait&#233;e. 
+ Donn&#233;es de g&#233;olocalisation collect&#233;es 
+ Entre juin 2011 et f&#233;vrier 2013, SnapChat affirmait dans ses CGU ne pas demander, suivre ou acc&#233;der aux informations de g&#233;olocalisation des utilisateurs. En octobre 2012 cependant, SnapChat a ajout&#233; &#224; la version Android de l'application un syst&#232;me de tra&#231;age&#160;; les utilisateurs &#233;taient notifi&#233;s que l'app &#233;tait susceptible d'acc&#233;der aux donn&#233;es de g&#233;olocalisation, mais  SnapChat n'avait pas pr&#233;cis&#233; qu'il utiliserait effectivement ces donn&#233;es, contrairement &#224; ce qu'il avait annonc&#233; . Il y a donc tromperie. 
+ Utilisation du carnet d'adresses 
+ SnapChat, &#224; l'instar d'autres services comme Whatsapp ou Telegram ou Viber, n&#233;cessite que l'utilisateur rentre son num&#233;ro de portable. De plus, SnapChat offre une fonctionnalit&#233; pour retrouver des contacts ("Find friends") utilisant aussi le service. Pour cela, l'utilisateur doit saisir leur num&#233;ro de portable. Selon les CGU du service, seule cette donn&#233;e est collect&#233;e obligatoirement. D'autres donn&#233;es comme l'adresse email ou d'autres num&#233;ros de t&#233;l&#233;phone voire l'identifiant Facebook pouvaient &#234;tre collect&#233;es aussi, mais ce choix revenait &#224; l'utilisateur. 
+ Le probl&#232;me est que  SnapChat pompe l'int&#233;gralit&#233; du carnet d'adresses , contrairement &#224; ce que ses CGU stipulent, et malgr&#233; que l'option pour partager plus de donn&#233;es ne soit pas activ&#233;e par l'utilisateur. 
+ Spam et contenus inappropri&#233;s 
+ Entre septembre 2011 et d&#233;cembre 2012, SnapChat ne v&#233;rifiait pas que le num&#233;ro du compte de l'utilisateur &#233;tait bien celui effectivement utilis&#233; (de nombreux services envoient un SMS au num&#233;ro saisi pour faire cette v&#233;rification). D&#232;s lors, il suffisait &#224; des personnes &#8211; mal intentionn&#233;es &#8211; de  saisir un num&#233;ro au hasard comme num&#233;ro de compte et d'envoyer des contenus ind&#233;sirables aux d&#233;tenteurs de ces num&#233;ros ,  sans parler de l'acc&#232;s &#224; des informations personnelles  envoy&#233;es par des personnes croyant &#224; tort communiquer avec un ami. En d&#233;cembre 2012, SnapChat a activ&#233; la fonction de v&#233;rification par SMS. 
+ La FTC va plus loin encore et d&#233;clare que le service n'avait pas de syst&#232;me emp&#234;chant la cr&#233;ation automatis&#233;e de comptes et restreignant le nombre de requ&#234;tes faites avec le  Friend finder  au moyen de son API,  ce qui a permis &#224; des hackers de  d&#233;rober 4.6 millions d'identifiants  en janvier 2014 . Tout cela alors que les CGU mentionnaient express&#233;ment que SnapChat prenait des mesures pour prot&#233;ger les donn&#233;es. Ce qui n'&#233;tait pas le cas, selon la FTC. 
+ R&#233;action de SnapChat concernant l'accord avec la FTC 
+ Selon l'accord avec la FTC, SnapChat s'engage &#224; s&#233;curiser son syst&#232;me en utilisant les standards actuels. 
+ Dans son  communiqu&#233; , la soci&#233;t&#233; reconnait que certains aspects n'ont pas b&#233;n&#233;fici&#233; de l'attention requise, notamment la communication et la pr&#233;cision de celle-ci avec les utilisateurs. Et d'expliquer que la principale raison &#224; ces manquements &#233;tait qu'ils &#233;taient concentr&#233;s sur le d&#233;veloppement d'un moyen unique, rapide et amusant pour communiquer avec des images. 
+ SnapChat affirme maintenant se consacrer &#224; la promotion de la vie priv&#233;e. Je doute qu'ils aient vraiment le choix... Surtout qu'un professionnel des questions de confidentialit&#233; et de vie priv&#233;e suivra les engagements de SnapChat pendant les 20 prochaines ann&#233;es. 
+ Commentaire 
+ Je ne peux que saluer la FTC et la f&#233;liciter pour son action. Je crois qu'il est sain, de nos jours, de rappeler qu'on ne plaisante pas avec la s&#233;curit&#233; et la protection des donn&#233;es, m&#234;me si cette derni&#232;re s'&#233;tiole de plus en plus. 
+ J'en profite aussi pour rappeler que m&#234;me si la lecture des CGU d'un service s'av&#232;re p&#233;nible et fastidieux, cela n'en reste pas moins un contrat et il est important de savoir &#224; quoi l'on s'engage, ainsi que de savoir quelles garanties sont offertes par le cocontractant. 
+ N.B. Pour une approche plus "technique" et pour comprendre que l'&#233;ph&#233;m&#232;re n'existe pas sur Internet, allez jeter un oeil &#224; cet  article sur EthACK.org . 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

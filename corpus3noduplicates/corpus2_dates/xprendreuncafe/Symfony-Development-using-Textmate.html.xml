@@ -1,0 +1,134 @@
+<document>
+	<date>2009-12-16</date>
+        <title>Symfony Development using Textmate</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>osx</tag>
+                <tag>symfony</tag>
+                <tag>textmate</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>When I do consulting, a lot of people are really surprised that I use  Texmate , a popular text editor for OS X, to develop on  Symfony  projects. Indeed, Textmate is a bit rough around the edge compared to  bloated  full featured  IDE  like  Eclipse PDT  or  Netbeans , which are both Java based by the way. 
+
+
+ So why using Textmate? No intelligent autocompletion, very basic project management, poor  VCS  native support, limited index search capabilities First and while its mainly a matter of taste, I mainly use Texmate because its  fast . Compared to PDT with which you often have to wait a bunch of seconds for the UI to respond on some action you make,  mate  will react quite instantaneously, and  that  is making big difference to me. Because when Im concentrated, focused on some complex problem to solve, I demand my text editor to  not make me wait   [ 1 ] . 
+
+
+ Oppositely, not having full code introspection and autocompletion makes mate  making me think  about the code I write, instead of just consuming some API passively. Ive been using  phpeclipse  and PDT for some years with Symfony, but I think I really began to understand the framework architecture when I switched to mate as my primary editor. Because every time you need to do something with the Symfony API, you  have  to open the file and read the code: then you learn a lot. And by the time, you end by knowing the core very well, and its incredibly efficient. One more time, this is just matter of taste. 
+
+
+ Textmate quick tips 
+
+
+ So whereas mate can be somewhat limited at first glance, a second look shows it provides some really effective commands to enhance your productivity. Lets examine some of them. 
+
+
+ Searching for a file within the project codebase 
+
+
+ Just by pressing   + t , a snappy filename search window will pop up and allow you to search a file interactively by its name pattern. If youre using the incredible  Quicksilver app  for osx, you got the picture. 
+
+
+ 
+
+
+ As Symfony names php files against the class name they contain, finding a class file is just easy as typing the class name in the search field! 
+
+
+ Browsing the available functions, classes and methods within a php file 
+
+
+ When a php file is opened, the   + shift + t  command will show up the available sections of the document, with a search box you can use to filter their names, still interactively. 
+
+
+ 
+
+
+ Note that this will also work for other file types (like CSS for instance). 
+
+
+ Obtening help on native php functions 
+
+
+ Move the carret onto some php native function and press  ctrl + h  and youll get the  php.net  related page in a pop up. 
+
+
+ Want the function signature definition in a tooltip, like in PDT or Netbeans? Hit   + F1  and youre done. 
+
+
+ 
+
+
+ Using the  mate  command line utility 
+
+
+ Textmate ships with a native command line interface executable called  mate  you can use from your term: 
+
+ 
+$ cd /path/to/project
+$ mate .
+ 
+
+
+ You can also  pipe  some command to  mate  to open the output in it: 
+
+ 
+$ svn diff|mate
+ 
+
+
+ 
+
+
+ Taking part of Mates url-scheme capabilities with Symfony 
+
+
+ I already blogged about this  awesome feature  available since Symfony 1.3, one more I wont ever be able to live without. 
+
+
+ Improve your productivity using bundles 
+
+
+ The  Ack in project  bundle 
+
+
+ One of the most annoying lack of mate is its internal search engine. Its really damn slow. The best way to get something decent is to install the  Ack in project  bundle. Youll then be able to access a fast and convenient fulltext search engine by pressing the   + shift + a  command. 
+
+
+ 
+
+
+ The  ProjectPlus  bundle 
+
+
+ If youre looking after a better project browser and some VCS support in mate, youll love the  ProjectPlus bundle . It will replace the default project drawer by a new one with finder label colors support, file sorting options and VCS icons integration. Give it a try, you wont be able to live without it. 
+
+
+ 
+
+
+ The  Symfony  bundle 
+
+
+ How could I write a blog post on Textmate and Symfony without mentioning the  Symfony bundle ?  Denderello  and contributors did a really good job taking over the original tool, which provides very convenient and effective shortcuts to write Symfony snippets of code quickly. 
+
+
+ The  GetBundle  bundle 
+
+
+ Last, if you didnt find anything new or useful reading this blog entry, you might then be interested by installing the  GetBundle  bundle which will allow you to browse all available bundles and install any of them in one click! 
+
+
+ 
+
+
+ Conclusion 
+
+
+ So these are some of the reasons why Im using Textmate when developing with Symfony (and other languages too).  What are yours? 
+ Notes 
+ [ 1 ] You know the  dont make me think  mantra? Well, now you got another one  
+        </text>
+</document>

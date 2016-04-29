@@ -1,0 +1,14 @@
+<document>
+	<date>2013-07-18</date>
+        <title>Zipabox : Mise  jour 0.9.982</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          Deux semaines apres la derniere mise a jour Zipato domotique  Le contenu de la mise a jour est le suivant :  Alarm  resolution du probleme de changement de mot de passe pour les utilisateurs secondaires  Scheduler  Resolution du probleme de synchronisation lors de la suppression dun programmateur (dans le createur de regle)  Virtual switch  Crash lors du changement detat resolu  IP  demarrage plus rapide   Z-Wave   Z-Wave  Rules  date et heure converti en date et heure =  les deux modules permettant de fixer des condition date et heure on ete revus  Rules  evenement dalarme desormais accessible depuis le createur de regle  Thermostat  Letat reste le meme apres un reboot  Alarm  Letat reste le meme apres un reboot  Alarm  Les zones suiveuses sont pretes lorsquelle sont desarmees  Alarm  Les zones croisees declenche lalarme une fois le temps ecoulee   La  Zipabox Zipato vous pouvez dailleurs deja le reserver sur notre boutique  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

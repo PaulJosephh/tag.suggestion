@@ -1,0 +1,187 @@
+<document>
+	<date>2010-02-17</date>
+        <title>User Dependent Forms with Symfony</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>best practices</tag>
+                <tag>credentials</tag>
+                <tag>forms</tag>
+                <tag>php</tag>
+                <tag>security</tag>
+                <tag>session</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>While sadly not being at  Symfony Live 2010  with pals, Im drowning my sorrow into tech tutorials writing. 
+
+
+ Sometimes you want to design forms and contextualize them regarding the current user session. For example: 
+
+ 
+ Manage the display of some fields regarding the user authentication status and credentials; 
+ Filter some queries used to get the values available in a  select/  tag; 
+ Allow multiple steps form validation with step state persistence (wizzard); 
+ etc. 
+ 
+
+ So how can we achieve this without using an evilish  sfContext::getInstance()-getUser()  call in the  configure()  method of the form? 
+
+
+ Symfony  1.2   1.3 and 1.4  introduced the generation of a project-wide  BaseForm  class we can use here to setup some convenient methods to allow user setters and getters: 
+
+  php
+?php
+class BaseForm extends sfFormSymfony
+{
+  static protected $user = null;
+
+  static public function getUser()
+  { 
+    return self::$user;
+  }
+
+  static public function getValidUser()
+  {
+    if (!self::$user instanceof sfBasicSecurityUser)
+    {
+      throw new RuntimeException('No valid user instance available');
+    }
+    
+    return self::$user;
+  }
+
+  static public function setUser(sfBasicSecurityUser $user)
+  {
+    self::$user = $user;
+  }
+}
+ 
+
+
+ Okay, we now can set a user instance as a static property of all available forms within the project, nice. Wait, how the hell will we set the instance, and when? 
+
+
+ Symfony dispatch a very useful  context.load_factories  event when all the factories - including the  user  one - are instanciated and available in the context. So we can listen to this event and set the user instance to the forms when its ready. Well do this in the  ProjectConfiguration.class.php : 
+
+  php
+?php
+class ProjectConfiguration extends sfProjectConfiguration
+{
+  public function setup()
+  {
+    // ...
+    
+    $this-dispatcher-connect('context.load_factories', array($this, 'listenToLoadFactoriesEvent'));
+  }
+
+  public function listenToLoadFactoriesEvent(sfEvent $event)
+  {
+    BaseForm::setUser($event-getSubject()-getUser());
+  }
+}
+ 
+
+
+ So now weve set a static user instance in every form at project configuration time, we can use it in any form. 
+
+
+ For example, imagine a form where only authenticated users having an  admin  credential can see, fill and submit an hypothetic  is_published  field: 
+
+  php
+class myForm extends BaseForm
+{
+  public function configure()
+  {
+    // will throw an exception if no user is available
+    $user = self::getValidUser();
+    
+    $this-setWidgets(array(
+      'title' = new sfWidgetFormInputText(),
+      'body' = new sfWidgetFormTextarea(),
+    ));
+    
+    $this-setValidators(array(
+      'title' = new sfValidatorString(array('min_length' = 5)),
+      'body' = new sfValidatorString(array('min_length' = 20)),
+    ));
+    
+    if ($user-isAuthenticated()  $user-hasCredential('admin'))
+    {
+      $this-widgetSchema['is_published'] = new sfWidgetFormInputCheckbox();
+      $this-validatorSchema['is_published'] = new sfValidatorBoolean(array(
+        'required' = false,
+      ));
+    }
+    
+    // ...
+  }
+}
+ 
+
+
+ Here a basic user wont see and wont be able to submit any value for the  is_published  field. Note that all those changes wont ever affect the controllers or the model, and the forms will still be easily testable because the forms and the user instance are not tightly coupled. 
+
+
+ As a side note, you can also use the form options to eventually pass a user instance and fallback on the static instance in case its not available: 
+
+  php
+class myForm extends BaseForm
+{
+  public function configure()
+  {
+    // will throw an exception if no user is available
+    $user = $this-getOption('user', self::getValidUser());
+    
+    // ...
+  }
+}
+ 
+
+
+ In a controller, you would use it this way: 
+
+  php
+?php 
+class fooActions extends sfActions
+{
+  public function executeBar(sfWebRequest $request)
+  {
+    $this-form = new myForm(array('user' = $this-getUser()));
+    
+    // ...
+  }
+}
+ 
+
+
+ A typical unit test suite of the form would be: 
+
+  php
+$t = new lime_test(2, new lime_output_color());
+
+$user = new sfBasicSecurityUser(new sfEventDispatcher(), new sfSessionTestStorage(array(
+  'session_path' = sys_get_temp_dir(),
+)));
+
+$form = new myForm(array('user' = $user));
+$t-is(count($form-getWidgetSchema(), 2, '-configure() displays 2 fields when user is not authenticated'));
+$user-setAuthenticated(true);
+$user-addCredential('admin');
+$t-is(count($form-getWidgetSchema(), 3, '-configure() displays 3 fields when user is authenticated and is an admin'));
+// ... I'll let you complete the suite by yourself
+ 
+
+
+ Now imagine we want to filter the choices offered by a one to many relationship field of a Doctrine form regarding user credentials: 
+
+ 
+
+
+ There are many more cool things you can achieve by offering user session access to a form, while keeping all the stuff easy to test. 
+
+
+ As usual, if you have a better way, feel free to tell us about it in the comments. 
+        </text>
+</document>

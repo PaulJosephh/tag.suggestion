@@ -1,0 +1,14 @@
+<document>
+	<date>2010-11-17</date>
+        <title>Commander un matriel depuis un port RS232 avec Homeseer. Partie 3</title>
+        <author> David </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels Homeseer</category>
+        </categories_set>
+        <text>
+                                                          Partie 3. Integration et lecture des valeurs recues sur le port RS232. Il est possible douvrir le port RS232 au demarrage de  HomeSeer HomeSeer Il faut alors deplacer la commande douverture du port RS232 dans le script  startup.txt shutdown.txt Script de commande RS232 : COMPORT_SendAll.txt option explicit Le port RS232 reste ouvert en utilisation exclusive par  HomeSeer Il est possible de lire les informations renvoyees sur le port RS232 par votre materiel. PIONEER Il faut indiquer dans la commande douverture de port le Port Data Handling Script (script qui doit etre execute quand le port RS232 recoit des donnees), et le nom de la fonction a executer. Nous allons creer un script COMPORT_Reponse.txt avec une fonction  Reponse COMPORT_Reponse.txt sub Reponse(data) La fonction  Reponse Le script COMPORT_Reponse.txt est appele dans la commande douverture du port RS232. Il faut donc modifier la commande douverture du port RS232 en specifiant le nom du script a executer et le nom de la fonction: STARTUP.txt  Nous allons maintenant envoyer une commande de requete de niveau de volume a lamplificateur ( ?V ). Pour cela nous creons un nouvel event qui execute le script COMPORT_SendAll.txt avec les parametres suivants: (main,?V) Cette commande va demander a lamplificateur de retourner le niveau de volume actuel.  Il est alors envisageable dexploiter ces informations de nombreuses facons: confirmation de commandes, stocker la valeur dans un device, executer des actions sur reception de certains messages.   Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

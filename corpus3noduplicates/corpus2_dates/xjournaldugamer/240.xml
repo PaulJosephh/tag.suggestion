@@ -1,0 +1,40 @@
+<document>
+	<date>2015-03-25</date>
+        <title>Un nez virtuel dans les jeux Oculus Rift pourrait nous &#233;viter d&#8217;&#234;tre malades</title>
+        <author>Kocobe</author>
+        <tags_set>
+                <tag>Etude</tag>
+                <tag>Oculus Rift</tag>
+                <tag>R&#233;alit&#233; Virtuelle</tag>
+        </tags_set>
+        <categories_set>
+                <category>Oculus Rift</category>
+        </categories_set>
+        <text>
+                                                                                                 
+         
+                 Une des solutions pour ne plus &#234;tre malade avec l&#8217;Oculus Rift pourrait &#234;tre au bout de notre nez. 
+ 
+ more 
+ Nous ne sommes pas &#233;gaux face &#224; la  cin&#233;tose , ce malaise que l&#8217;on ressent lorsque la perception visuelle et le syst&#232;me vestibulaire (situ&#233; dans l&#8217;oreille interne, principal organe de l&#8217;&#233;quilibre) ne renvoient pas des signaux concordants au cerveau.  Pour ce qui est de ma propre exp&#233;rience , j&#8217;y suis tr&#232;s sensible, mais je suis loin d&#8217;&#234;tre le seul. En effet, ce &#171;&#160;mal du simulateur&#160;&#187; est tr&#232;s r&#233;pandu et pourrait poser probl&#232;me sur le long terme pour l&#8217;adoption des jeux en r&#233;alit&#233; virtuelle. 
+ Le site  Phys.org  r&#233;v&#232;le les travaux d&#8217;un groupe de chercheurs au d&#233;partement Computer Graphics Technology de l&#8217;universit&#233; Purdue. Ils ont essay&#233; de comprendre ce qui pouvait r&#233;duire ou aggraver ce sympt&#244;me et ont pr&#233;sent&#233; leurs r&#233;sultats &#224; la derni&#232;re GDC de San Fransisco. Ces derniers ont tout d&#8217;abord constat&#233; que les joueurs &#233;taient moins malades quand ces derniers avaient des rep&#232;res visuels fixes, comme le tableau de bord d&#8217;une voiture de course, ou le cockpit d&#8217;un a&#233;ronef, se situant dans le champ de vision direct du joueur. 
+ Malheureusement, il n&#8217;est pas possible de rajouter ce genre d&#8217;&#233;l&#233;ments dans tous les jeux. C&#8217;&#233;tait sans compter sur un &#233;tudiant,  Bradley Ziegler , qui a eu un &#171;&#160;&#233;clair de g&#233;nie&#160;&#187;, comme le d&#233;crit  David Whittinghill , un professeur assistant du d&#233;partement.  Il suffit tout simplement de rajouter un nez virtuel au centre du champ de vision du joueur . Pour  Whittinghill , il s&#8217;agit d&#8217;un &#233;l&#233;ment que l&#8217;on oublie souvent, mais qui aide peut-&#234;tre &#224; garder notre &#233;quilibre. 
+ Vous voyez votre nez en permanence. Vous l&#8217;ignorez, mais il est toujours l&#224;, peut-&#234;tre que cela vous donne un cadre de r&#233;f&#233;rence pour vous situer. 
+ 
+ 
+ Les r&#233;sultats sont probants. Sur la simulation de villa en Toscane, bien connue des utilisateurs d&#8217;Oculus Rift, ainsi que la simulation de montagnes russes, les sujets &#224; qui ont avait rajout&#233; un  nasum virtualis  r&#233;sistaient plus longtemps &#224; la cin&#233;tose. 
+ La d&#233;mo des montagnes russes est courte, mais elle est vraiment intense par moment, vous mettant &#224; l&#8217;envers, traversant des foss&#233;s ou bien plongeant d&#8217;un seul coup &#224; la verticale. Ainsi, les gens ne peuvent pas tenir tr&#232;s longtemps, m&#234;me dans les meilleures dispositions. Nous avons eu une solide augmentation [du temps support&#233; dans la simulation] de 2 secondes, et c&#8217;&#233;tait une dynamique assez nette. Pour la simulation en Toscane, le malaise arrive plus tard, 94 secondes [en moyenne], c&#8217;est une &#233;norme am&#233;lioration. 
+ 
+ Les raisons pour lesquelles ce nez virtuel r&#233;duit le mal du simulateur ne sont pas encore bien cern&#233;es, mais il y a fort &#224; parier que le nez, bien qu&#8217;ignor&#233; la plupart du temps par le cerveau soit un rep&#232;re important malgr&#233; tout. 
+ Notre objectif sur le long terme est de cr&#233;er un mod&#232;le de pr&#233;diction du mal du simulateur qui nous permettra de pr&#233;dire, en fonction d&#8217;un certain nombre de caract&#233;ristiques de perceptions individuelles pour chaque jeu, quel niveau de malaise une personne peut attendre. 
+ 
+ &#201;tant donn&#233; tous les enjeux qui tournent autour de la r&#233;alit&#233; virtuelle, ce genre d&#8217;&#233;tudes risque de se r&#233;v&#233;ler importante. Car dans la grande majorit&#233; des cas, les jeux vid&#233;o ne sont pas adapt&#233;s &#224; la r&#233;alit&#233; virtuelle. De plus, les jeux qui font  a priori  le plus r&#234;ver, je pense en particulier aux FPS, sont particuli&#232;rement g&#233;n&#233;rateurs de cin&#233;tose. Je vous mets au d&#233;fi de jouer &#224;  Half Life 2  avec l&#8217;Oculus Rift et ne pas ressentir un minimum de naus&#233;e. En l&#8217;occurrence, cela est notamment d&#251; au caract&#232;re saccad&#233; des d&#233;placements du joueur. La gestion des mouvements dans ces jeux devra donc &#234;tre particuli&#232;rement &#233;tudi&#233;e pour nous &#233;viter de syst&#233;matiquement rendre le petit d&#232;j&#8217; &#224; chaque partie. 
+ Pour que les jeux ou les applications puissent avoir de l&#8217;avenir avec ces nouveaux p&#233;riph&#233;riques, il faudra &#233;galement que l&#8217;industrie se penche sur la fa&#231;on de r&#233;duire au mieux ce malaise. La technologie progressant va &#233;galement aider. En effet, chaque nouvelle version du Rift cause moins de cin&#233;tose que la pr&#233;c&#233;dente et d&#8217;apr&#232;s les retours sur le  Vive d&#8217;HTC , il semblerait que ce casque soit particuli&#232;rement r&#233;actif (et donc cr&#233;e moins de naus&#233;es). 
+ En tout cas, en ce qui me concerne, je vais quand m&#234;me garder un sac en papier pas loin quand je mettrai un de ces masques. Juste au cas o&#249;. 
+ 
+         
+ 
+                                                                                                         
+                                                                                                                                                                                                 
+        </text>
+</document>

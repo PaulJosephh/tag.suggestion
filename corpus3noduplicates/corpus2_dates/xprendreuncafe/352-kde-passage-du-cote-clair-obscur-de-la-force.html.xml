@@ -1,0 +1,44 @@
+<document>
+	<date>2005-12-10</date>
+        <title>[KDE] Passage du ct clair-obscur de la force</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>gnome</tag>
+                <tag>kde</tag>
+                <tag>linux</tag>
+                <tag>myself</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Ca fait quelques jours que j'utilise la version 3.5 de  KDE   [ 1 ]  sur mon  Ubuntu , qui devient donc une  Kubuntu  de fait. Le systeme est  beaucoup  plus rapide et reactif que sous  Gnome , c'est tres impressionnant. Les interfaces sont belles, claires, les options sont nombreuses mais les equipes de developpement  [ 2 ]  ont fait de reels progres en ergonomie au niveau des interfaces. 
+
+
+ Kontact  est epoustouflant de puissance, et  Korganizer  est le calendrier  [ 3 ]  le plus abouti qu'il m'ait ete mis entre les mains. Meme  KMail  ne plante pas la ou mon  Thunderbird  adore crashait lamentablement et systematiquement lors de l'ouverture d'un dossier  IMAP  contenant un peu trop de messages a son gout - au meme titre qu' Evolution , d'ailleurs. 
+
+
+ Kopete , le logiciel de messagerie instantannee integre a KDE rayonne de simplicite et de fonctionnalites sympathiques. 
+
+
+ AmaroK  est sans doute le lecteur audio le plus abouti du monde libre, du moins a mes yeux. 
+
+
+ Konqueror , est excellent tant qu'on le cantonne au role de navigateur de fichiers. Cote navigateur web, il ne suplante pas a mes yeux mon chouchou,  Firefox . Il faut dire que les habitudes, en la matiere, sont difficiles a perdre  
+
+
+ Kate , l'editeur de texte/code entere Gedit a tout point de vue: rapidite (encore), coloration syntaxique,  gestion de projets integree   [ 4 ] , macros... 
+
+
+ KDE, j'y suis, j'y reste... du moins pour l'instant; en effet, j'attends de voir les evolutions des futures version de Gnome, notamment en terme de performances. Et puis je decomplexe completement depuis que je sais que  Mark Shuttleworth utilise lui-meme Kubuntu   
+
+
+ Precision :  Ceci n'est pas un troll, mais simplement un retour d'experience utilisateur. KDE marche plus fort chez moi que Gnome. C'est tout. Si demain Gnome, que je prefere ergonomiquement, retrouve des performances decentes chez moi, je reswitche sans plus me poser de questions. Point. Barre. 
+ Notes 
+ [ 1 ] Procedure d'installation detaillee  sur le blog de Play  ou  chez JJL 
+ [ 2 ] Dont  David , mon cousin. Coucou, cousin ! Et felicitations  
+ [ 3 ] J'en cherchais justement un  il y a peu 
+ [ 4 ] Seulement en version 3.4.x  
+ 
+        </text>
+</document>

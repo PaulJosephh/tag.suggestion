@@ -1,0 +1,43 @@
+<document>
+	<date>2013-11-18</date>
+        <title>IPX800 v3 : Procdure de mise  jour</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>IPX800</tag>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+LIPX800 est un systeme domotique filaire centralise integre au tableau electrique. La mise a jours du micrologiciel de l IPX800 
+Dans tous les cas,  la premiere chose a faire est une sauvegarde du parametrage de lIPX800 Lan settings Download settings 
+Ce billet decrit principalement la procedure de mise a jour manuelle.
+Il existe aussi une procedure automatique bien plus simple a mettre en uvre abordee a la fin du billet section  Mise a jour automatisee avec GCEScanDevices.jar Telechargement du micrologiciel 
+Rien que lobtention du micrologiciel est une epreuve. En effet,  CGE Electronics rar sic AccueilEthernetWebserver IPX800 V3.00Telecharger rar IPX800 AccueilTelechargementIP-X800 V3 Doc et logiciels 
+Pour connaitre la version de votre micrologiciel (afin de savoir sil doit etre mis-a-jour), il faut se rendre dans le panneau  LAN SETTINGS IPX800 
+La mise a jour necessite 2 fichiers (bien verifier que les numeros de version soient les meme) qui se trouvent dans le repertoire  Flash Firmware 
+ Le micrologiciel est contenu dans le fichier  XXXXXX.hex Le site Web est contenu dans le fichier  XXXXXX.bin 
+Remarque: tout comme le nom du repertoire contenant les 2 fichiers du micrologiciel, lentete de ces fichiers change regulierement ( gceip site Site_ IPX800_ Installation/parametrage de TFTP 
+Sous Linux, il suffit dinstaller un client TFTP. Sous  Microsoft Windows Panneau de configuration 
+Panneau de configuration  Programmes  Programmes et fonctionnalites  Activer ou desactiver des fonctionnalites Windows  Client TFTP Chargement du micrologiciel sur lIPX800 
+La il faut connaitre lastuce: l IPX800 tftp IPX800 Delai d'attente depasse. Echec lors de la demande de connexion mode d'emploi IPX800 V3.pdf CGE Electronics 
+ Debrancher puis rebrancher l IPX800 Lancer immediatement la commande  tftp 
+ Sous  Windows tftp 192.168.1.159 put c:\IPX800_3.05.42.hex Sous  Linux tftp 192.168.1.159 -c put IPX800_3.05.42.hex tftp 192.168.1.159 -m binary -c put IPX800_3.05.42.hex Il faut obtenir le message  Transfert reussi 
+ Option  -c Linux tftp -c Ubuntu 14.04 tftp-hpa tftp -c man tftp 
+ Message de reussite   Transfert reussi tftp tftp-hpa Ubuntu 14.04 
+ Message  Error code 0: Invalid .hex file tftp tftp 192.168.1.159 -m binary -c put IPX800_3.05.42.hex tftp-hpa Ubuntu 14.04 Flashage de lIPX800 
+ Appuyer, sans le relacher jusqua letape 3, sur le bouton reset de l IPX800 Debrancher et rebrancher lalimentation, tout en maintenant appuye le bouton reset jusquau clignotement des 2 voyants de la RJ45 en simultane (a une frequence de environ 1Hz) Attendre larret du clignotement et lextinction des 2 leds pour relacher le bouton reset Debrancher et rebrancher lalimentation secteur de la carte Mise a jour du site WEB 
+Il faut maintenant rechercher ladresse de l IPX800 
+Avant de mettre a jour le site WEB, le mieux est de verifier que la mise a jour du firmware a reussi: se rendre dans le panneau  LAN SETTINGS IPX800 Firmware version: Site version: 
+Pour metre a jour le site WEB, saisir ladresse  http://ip IPX800/mpfsupload IPX800_30535.bin IPX800 
+Il ne reste plus qua restaurer le parametrage:  Lan settings Upload settings Mise a jour automatisee avec GCEScanDevices.jar 
+ 
+ Sauvegarder le parametrage de lIPX800:  Lan settings Download settings Telecharger le micro logiciel ( AccueilTelechargementIP-X800 V3 Doc et logiciels Decompresser larchive telechargee. Sous Linux, il faut que le repertoire  ~/Firmware XXXXXX.hex XXXXXX.bin Desactiver le mot de passe de linterface Web: dans  Lan settings Enable password Save Executer le fichier  GCEScanDevices.jar Selectionner la ligne correspondant a lIPX800 et cliquer sur  Flash Device Contrairement a ce qui est ecrit dans la documentation,  GCEScanDevices.jar Lan settings Upload settings Verifier que lIPX800 est bien reparametrees (la procedure de sauvegarde nest pas exhaustive). Informations et sources 
+ 
+ Sommaire Domotique 
+        </text>
+</document>

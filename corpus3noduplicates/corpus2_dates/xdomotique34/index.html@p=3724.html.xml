@@ -1,0 +1,89 @@
+<document>
+	<date>2013-03-20</date>
+        <title>goLoc lapplication iPhone quil vous faut</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Evenements</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ 
+ geoLoc  est lapplication a posseder pour lancer vos scenarios de votre box domotique en fonction de vos coordonnees GPS. 
+ 
+ 
+ 
+ Entrez les coordonnees, les differente URLs ainsi que la distance (en metres) dans les reglages. 
+Ensuite il ne vous reste plus qua lancer lapplication et selectionner lordre qui sera lance  
+ 
+ 
+exemple : jai entre (dans les reglages) les coordonnees de chez moi (latitude et longitude), jai entre lurl (dans depart) qui declenchera un scenario sur ma box domotique lorsque je serais a une distance superieure de celle choisie (distance depart dans reglages). 
+ Des que la distance me separant de la maison est superieur (a celle choisie donc !), lapplication lance lordre (commande url depart). 
+ 
+ Lorsque je rentre chez moi, cest linverse  (lurl arrivee sera declenche lorsque lorsque votre distance vous separant de votre maison sera inferieure a celle choisie, distance arrivee) 
+ 
+ 
+  
+ 
+ 
+ 
+  
+ Dune utilisation tres simple, intuitive   geoLoc  sera le compagnon de votre installation domotique !Le Veritable plus de geoLoc est le fait quil calcul directement (dans lapplication) et de ce fait quil ordonnera votre box (tout les calculs se font dans lapplication et des que les conditions sont reunis : les ordres sont envoyes a votre box ! ), geoLoc vous offre la possibilite de lancer 2 ordres (le premier (depart) lorsque vous partez de chez vous et le second (arrivee) lorsque vous rentrez chez vous. 
+  
+ Nous sommes persuades que vous trouverez bon nombre dutilisation a geoLoc comme activer votre alarme,eteindre toutes vos lumieres, fermer la porte de votre garage lorsque vous quittez votre maison ou encore allumer vos desactiver votre alarme, ouvrir la porte de votre garage ..etc mais ce nest pas tout vous pouvez lancer nimporte quelle commande url lorsque vous aurez atteint la position choisie. 
+  
+ Lorsque quun ordre est envoye (lorsque les conditions sont reunies et donc quun scenario est lance sur votre box), lapplication se fermera automatiquement apres 15 secondes ceci afin deviter dutiliser inutilement de votre batterie. 
+ Vous pouvez inhiber lecran (lorsque vous avez demande quun scenario soit ordonne) de facon a reduire la decharge de la batterie (en tapotant 2 fois sur lecran, pour revenir au mode normal: tapotez 3 fois sur lecran)* lutilisation de geoLoc diminue lautonomie de votre appareil (puisque il utilise la geolocalisation) 
+  
+  
+ 
+ 
+ 
+ 
+ https://zibase.net/m/set_ iphone.php?device= DEVIC E token= TOKEN action=comfort actionComfort=moduleidModule= NMODULEactionModule= 1OU0 
+ 
+ a remplacer par le device ,  token  le n du module et 1 ou 0 pour ON et OFF 
+ 
+ 
+ lapplication est utilisable par toutes les box, du moment quelles peuvent recevoir des commandes (vos ordres) via une url (http) 
+ 
+ 
+ Pour le 1er concours du blog, Cedric lauteur de cette application, propose de vous faire gagner 3 licences. 
+  
+ Pour cela cest tres simple il suffira de laisser un commentaire a la fin de larticle en mentionnant votre pseudo Twitter et nhesitez pas a retweeter @domotique34. 
+ 
+ Un tirage au sort sera realise Samedi soir. 
+ Bon Concours 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

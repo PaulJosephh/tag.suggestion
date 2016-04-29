@@ -1,0 +1,55 @@
+<document>
+	<date>2011-11-04</date>
+        <title>D&#233;mystifier les aspects juridiques du Cloud computing</title>
+        <author>Mich&#232;le Battisti</author>
+        <tags_set>
+                <tag>cloud computing</tag>
+                <tag>Contrat</tag>
+                <tag>Donn&#233;es personnelles</tag>
+                <tag>Responsabilit&#233;</tag>
+        </tags_set>
+        <categories_set>
+                <category>Contrat</category>
+                <category>Donn&#233;es personnelles</category>
+                <category>Responsabilit&#233;</category>
+        </categories_set>
+        <text>
+                                                                                   
+ Tel &#233;tait l&#8217;objectif de plusieurs r&#233;unions d&#8217;un&#160;  atelier  de l&#8217;Association pour le d&#233;veloppement le d&#233;veloppement de l&#8217;informatique juridique ( ADIJ )  qui entendait f ournir des &#171;&#160;solutions aux risques juridiques et un catalogue des meilleures pratiques contractuelles&#160;&#187;, en s&#8217;appuyant sur les t&#233;moignages d&#8217;acteurs tr&#232;s divers. 
+ Tout au long d&#8217;une ann&#233;e, cet atelier aura pos&#233; l&#8217;&#233;ventail des questions juridiques, sans n&#233;gliger les aspects  business  et techniques, intimement li&#233;s &#224; ces probl&#233;matiques. &#160;Apr&#232;s avoir ainsi cern&#233;   le concept de cloud computing , &#233;valu&#233;  l&#8217;impact contractuel   de cette pratique, mis l&#8217;accent sur  les donn&#233;es personnelles ,   la s&#233;curit&#233; , la  r&#233;versibilit&#233; et l&#8217;interop&#233;rabilit&#233;  ainsi que sur  les assurances , ce 3 novembre 2011, plusieurs t&#233;moignages ont permis de pr&#233;senter l&#8217;&#233;volution, depuis la premi&#232;re&#160;r&#233;union, en septembre 2010, du  business , des questions li&#233;es aux donn&#233;es personnelles et &#224; la s&#233;curit&#233;, ou encore celui de l&#8217;encadrement contractuel. 
+ La question des donn&#233;es personnelles, une question pr&#233;gnante   
+ La CNIL  &#233;tait intervenue &#224; deux reprises&#160;dans l&#8217;ann&#233;e pour faire part de l&#8217;&#233;tat de ses r&#233;flexions &#224; un moment o&#249; la C ommission europ&#233;enne r&#233;vise une directive sur la protection des donn&#233;es personnelles,  d&#233;sormais totalement d&#233;pass&#233;e. 
+ Mais,&#160;pour rassurer leurs clients, les prestataires tendent &#224; leur proposer d&#8217;h&#233;berger leur donn&#233;es en Europe, voire m&#234;me en France lorsqu&#8217;il s&#8217;agit de  Cloud priv&#233; . &#160;Plus qu&#8217;une obligation r&#232;glementaire, il s&#8217;agit plut&#244;t de rassurer les clients, d&#8217;anticiper m&#234;me leur demande. 
+ Toutefois le Cloud n&#8217;est que le r&#233;v&#233;lateur des questions de  privacy [1]   puisque celles-ci se posaient d&#233;j&#224; dans l&#8217; outsourcing  classique. Faire de la p&#233;dagogie face au client, engager le dialogue, expliquer, voil&#224; ce qui s&#8217;impose. Mais la  privacy, a -t-on rappel&#233; aussi,   est une source de  business.  Compliance [2] , gestion des risques, s&#233;curit&#233; informatique&#160;: il y a souvent malheureusement aussi confusion entre plusieurs notions. 
+ Il convient &#233;galement de trier les donn&#233;es puisque les donn&#233;es les moins sensibles peuvent parfaitement &#234;tre h&#233;berg&#233;es  dehors  (notion de  Cloud hybride ),  &#224; &#233;valuer les risques aussi, le prestataire le plus proche g&#233;ographiquement n&#8217;&#233;tant pas forc&#233;ment le plus s&#251;r.    
+ Le Cloud, encore un  buzzword  &#8230; 
+ Apr&#232;s une phase de r&#233;flexion, plusieurs soci&#233;t&#233;s, qui ne s&#8217;&#233;taient pas encore lanc&#233;es en septembre 2010, font aujourd&#8217;hui des offres Cloud. Mais s&#8217;il y&#160; a un an, le Cloud public avait le vent en poupe, aujourd&#8217;hui le Cloud priv&#233;, qui r&#233;pond davantage aux attentes des&#160; entreprises, gagne du terrain. 
+ En raison, sans doute, de la m&#233;diatisation de certaines failles (Amazon, Sony, &#8230;), plusieurs entreprises, clientes potentielles, pr&#233;f&#232;rent attendre avant de se lancer. Mais il s&#8217;agirait d&#8217;une temporisation et non d&#8217;un retour en arri&#232;re. On s&#8217;interroge sur la nature du probl&#232;me&#160;: &#171;&#160;probl&#232;mes de jeunesse&#160;&#187; ou plus profonds&#160;? 
+ Le Cloud est, note-t-on aussi, un mot  ambivalent . Il fait peur, mais il serait hasardeux d&#8217;utiliser un autre nom car ce mot fait vendre (il y aurait m&#234;me du faux Cloud). Mais si le &#160;Cloud est le b uzz word  du moment, ce ne sera plus le cas d&#8217;ici quelques mois. Aujourd&#8217;hui d&#233;j&#224;, c&#8217;est &#160;le mot  social  qui prend le pas, les r&#233;seaux sociaux &#160;figurant dans la strat&#233;gie de toutes les entreprises (&#171;&#160;on met du collaboratif partout&#160;&#187;). Et si le  social  est fond&#233; sur le Cloud, ce dernier perdra sa magie. 
+   
+ Des d&#233;s&#233;quilibres sur la cha&#238;ne contractuelle 
+   
+ Des contrats  ad hoc  s&#8217;imposent pour encadrer les solutions pour des acc&#232;s communautaire, le partage de donn&#233;es, le travail en  workflow,  &#8230;. Pour les juristes, cela se traduit par un travail important en amont pour construire les contrats-types, aider les op&#233;rationnels &#224; r&#233;pondre aux questions pos&#233;es par les clients, les aider aussi &#224; se poser les  bonnes  questions. Il s&#8217;agit ici de n&#233;gociations pour les contrats de Cloud priv&#233;, car en mati&#232;re de Cloud public, la signature se fait naturellement en ligne, sans n&#233;gociation. 
+ Mais on note aussi des situations encore floues sur la cha&#238;ne contractuelle, entre le client final et le prestataire d&#8217;h&#233;bergement. Trop souvent encore, les juristes des clients finaux (de grosses soci&#233;t&#233;s g&#233;n&#233;ralement) imposent des responsabilit&#233;s trop importantes et demandent des garanties trop lourdes, pour couvrir ces risques nouveaux, &#224; de jeunes&#160; start-up, cr&#233;ant ainsi un d&#233;s&#233;quilibre dans les contrats, au risque, en outre, de voir ainsi des clauses, voire le contrat, annul&#233;es. 
+ Le couple contrat / assurance  
+ L&#8217;entreprise cliente finale qui dispose de peu d&#8217;outils pour se prot&#233;ger tend effectivement &#224; faire reposer la responsabilit&#233; sur le prestataire. Les prestataires devraient informer leurs clients qu&#8217;ils peuvent, eux aussi, s&#8217;assurer, ce qui permet de construire une cha&#238;ne de l&#8217; assurabiblit&#233;  personnelle, et donc un syst&#232;me plus &#233;quilibr&#233;, et  d&#233;crisper  ainsi&#160; la situation. 
+ Les courtiers en assurance, sp&#233;cialis&#233;s dans le domaine des technologies de l&#8217;information, peuvent&#160;  absorber  ces nouveaux risques m&#233;diatis&#233;s par les affaires&#160; r&#233;centes, m&#233;diatisation, qui avec l&#8217;obligation de  notifier les failles de s&#233;curit&#233;, impos&#233;e &#233;galement aux entreprises fran&#231;aises depuis une ordonnance du 24 ao&#251;t 2011,  va prendre in&#233;vitablement de l&#8217;ampleur. 
+ On note ainsi deux tendances majeures chez les clients prestataires (&#224; dissocier des clients finaux)&#160;: le&#160; souci d&#8217;&#234;tre correctement assur&#233;, et des offres des assureurs en IT qui, inspir&#233;es des pratiques des assureurs anglo-saxons ayant une longue exp&#233;rience sur ces questions, ont m&#251;ri en un an. 
+ Qu&#8217;ajouter, si ce n&#8217;est 
+ 
+ que la s&#233;curit&#233; et la protection des donn&#233;es personnelles sont des questions centrales pour le client mais qu&#8217;entre frilosit&#233; et risques r&#233;els, le probl&#232;me est souvent mal pos&#233;. 
+  que le Cloud, sujet o&#249; technique et juridique sont intriqu&#233;s, monte en puissance, et que ma&#238;triser les aspects juridiques du Cloud, est une comp&#233;tence recherch&#233;e aujourd&#8217;hui, 
+ que l&#8217;insistance d&#8217;un client sur les aspects li&#233;s &#224; la s&#233;curit&#233; cache souvent un probl&#232;me op&#233;rationnel, fond&#233; davantage sur la difficult&#233; d&#8217;exprimer un besoin qu&#8217;&#224; des aspects juridiques et contractuels, 
+ qu&#8217;il importe de bien comprendre les enjeux, en sachant d&#233;finir les formes de cloud adapt&#233;s &#224; des types de donn&#233;es et ne pas oublier que la ma&#238;trise des donn&#233;es est un atout concurrentiel, 
+ que l&#8217;externalisation ne permet pas de se passer de contr&#244;ler et que la gouvernance est n&#233;cessaire d&#232;s que l&#8217;on perd la visibilit&#233; sur la qualit&#233; des donn&#233;es. 
+ 
+ L&#8217;atelier Cloud computing est termin&#233;. Pour donner suite&#160;:  un atelier sur le&#160; th&#232;me du  Green IT  (encore une expression anglo-saxonne) dont la premi&#232;re r&#233;union aura lieu le 10 janvier 2012, et un mardi de l&#8217;ADIJ sur les donn&#233;es personnelles et le Cloud computing, le 14 f&#233;vrier 2012. 
+ Illustr. Water from Clouds.  Kevin Krejci.  Flickr   CC by   
+ Notes 
+ [1]  La Privacy qui prot&#232;ge aux Etats-Unis plusieurs libert&#233;s individuelles et publiques est une notion plus large que le concept&#160; de protection des donn&#233;es personnelles. Il conviendrait de ne pas utiliser indiff&#233;remment l&#8217;un ou l&#8217;autre de ces concepts.
+ [2]  D&#8217;o&#249; ces offres de poste de  Compliance officer , sans doute ou, plus classique, de risk manager. 
+                                         
+                                                                                                        
+                                 
+        </text>
+</document>

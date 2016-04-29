@@ -1,0 +1,14 @@
+<document>
+	<date>2012-08-20</date>
+        <title>Guide de mise  jour de linterface RFXtrx</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique RFXCOM</category>
+        </categories_set>
+        <text>
+                                                          Le Firmware du RFXtrx433 peut etre mis jour par lutilisateur afin de beneficier dameliorations et nouvelles fonctionnalites. Voici comment proceder. Telechargez la derniere version du firmware sur le  site RFXCOM Connectez le RFXtrx sur un PC Windows. Arretez toute application utilisant le RFXtrx. Demarrez le programme de mise a jour ( RFXflash version 4.0.0.0 minimum Selectionnez le port COM correspondant a votre RFXtrx dans le logiciel RFXflash et cliquer sur le bouton Connect to Device (La LED rouge doit sallumer).   Cliquer le bouton Open HEX file et charger le fichier .hex correspondant au firmware.   Cliquer sur le bouton Write Device pour programmer le RFXtrx.   Cliquer sur le bouton Normal Execution Mode pour que le RFXtrx repasse en mode dexecution classique.   Votre interface RFXtrx est desormais a jour et dispose des dernieres fonctionnalites disponibles !  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

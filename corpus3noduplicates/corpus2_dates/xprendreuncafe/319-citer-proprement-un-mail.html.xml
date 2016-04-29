@@ -1,0 +1,132 @@
+<document>
+	<date>2005-10-30</date>
+        <title>Citer proprement un mail</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>mail</tag>
+                <tag>tips</tag>
+                <tag>tutoriel</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Prenons un exemple, imaginons que je recoive cet email  [ 1 ] : 
+
+ 
+Salut, c'est Robert.
+
+C'est pour te dire que j'ai gare la camionnette devant le bateau du
+garage a Georgette, faudra que tu penses a la deplacer avant qu'elle
+ne rentre du Prisu.
+
+Pendant que j'y suis, y'a plus de bibines dans le frigo, essaye de
+passer au Prisu (avant Georgette) pour faire le plein.
+
+Gros poutoux.
+
+--
+Robert 
+
+
+ Lorsque je commence la redaction de ma reponse, j'ai devant moi ce type de presentation: 
+
+
+ Le 28/10/05, Robert a ecrit :
+
+ Salut, c'est Robert.
+ 
+ C'est pour te dire que j'ai gare la camionnette devant le bateau du
+ garage a Georgette, faudra que tu penses a la deplacer avant qu'elle
+ ne rentre du Prisu.
+ 
+ Pendant que j'y suis, y'a plus de bibines dans le frigo, essaye de
+ passer au Prisu (avant Georgette) pour faire le plein.
+ 
+ Gros poutoux.
+ 
+ --
+ Robert 
+
+
+ Vous noterez la presence du caractere  devant chacune des lignes du message original de Robert: on parle alors de citation, ou de  quotage . Cela permet de distinguer le message original de ce que nous allons ecrire, d'autant plus que la plupart des  clients de messagerie  proposent la colorisation des citations. 
+
+
+ Lors de la redaction de ma reponse, l'idee sera d' inserer  ma reaction entre les assertions - fort pertinentes - de Robert. Ainsi je peux lui repondre point par point: 
+
+
+ Le 28/10/05, Robert a ecrit :
+
+ Salut, c'est Robert.
+
+ Salut, gros. 
+
+ C'est pour te dire que j'ai gare la camionnette devant le bateau du
+ garage a Georgette, faudra que tu penses a la deplacer avant qu'elle
+ ne rentre du Prisu.
+
+ J'ai pas vu la camionnette. Je passerai la recuperer a la fourriere. 
+
+ Pendant que j'y suis, y'a plus de bibines dans le frigo, essaye de
+ passer au Prisu (avant Georgette) pour faire le plein.
+
+ Tu m'insultes, la. La cave est pleine. 
+
+ Gros poutoux.
+
+ De meme. 
+
+--
+Nicolas 
+
+
+ On peut aussi epurer les citations originales afin d'economiser de la bande passante: 
+
+
+  C'est pour te dire que j'ai gare la camionnette devant le bateau du
+ garage a Georgette
+
+ J'ai pas vu la camionnette. Je passerai la recuperer a la fourriere. 
+
+ y'a plus de bibines dans le frigo
+
+ La cave est pleine. A plus. 
+
+--
+Nicolas 
+
+
+ Dans le cas d'une conversation a plusieurs intervenants, la demarche reste la meme, les signes    s'aditionnant en fonction du niveau d'anteriorite de la citation. Il peut egalement etre interessant de reattribuer leurs propos respectifs aux auteurs: 
+
+
+ Le 28/10/05, Robert a ecrit :
+
+  C'est pour te dire que j'ai gare la camionnette devant le bateau du
+  garage a Georgette
+
+Le 28/10/05, Nicolas a ecrit :
+
+ J'ai pas vu la camionnette. Je passerai la recuperer a la fourriere.
+
+ Ne vous inquietez pas les gars, c'est moi qui ai emprunte la 
+ camionnette pour ramener la biere du Prisu. 
+
+--
+Georgette 
+
+
+ Remarque: les deux tirets precedant la signature ( -- ) sont egalement issus d'une convention: au-dela de cette limite, le client interpretera le texte comme une signature et suivant le cas l'attenuera ou appliquera une mise en forme specifique. Il est donc imperatif d' eviter de citer une signature , car tout le texte suivant pourrait s'averer moins lisible. 
+
+
+ Voila, c'est vraiment pas complique et ca peut rendre le suivi de conversations bien plus agreable. Enfin, moi je trouve  
+
+
+ Edit du 4 novembre de la meme annee 
+
+
+ Yannick  nous file le tuyau:  Quote Colors , une extension pour  Thunderbird , permet de colorer encore plus finement les differents niveaux de citation d'un mail. 
+ Notes 
+ [ 1 ] Toute ressemblance avec un personnage existant ou ayant existe serait vraiment pas de bol. 
+ 
+        </text>
+</document>

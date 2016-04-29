@@ -1,0 +1,145 @@
+<document>
+	<date>2013-03-08</date>
+        <title>Comparaison entre un CubieBoard et un Raspberry Pi</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>android</tag>
+                <tag>board</tag>
+                <tag>Cubieboard</tag>
+                <tag>Linux</tag>
+                <tag>Raspberry Pi</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ Quest-ce quun Cubieboard ? 
+ Cest une petite carte ARM a bas prix. 
+ Sur le site officiel: 
+ 
+ 1G ARM cortex-A8 processor, NEON, VFPv3, 256KB L2 cache 
+ Mali400, OpenGL ES GPU 
+ 512M/1GB DDR3 @480MHz 
+ HDMI 1080p Output 
+ 10/100M Ethernet 
+ 4Gb Nand Flash 
+ 2 USB Host, 1 micro SD slot, 1 SATA, 1 ir 
+ 96 extend pin including I2C, SPI, RGB/LVDS, CSI/TS, FM-IN, ADC, CVBS, VGA, SPDIF-OUT, R-TP.. 
+ Running Android, Ubuntu and other Linux distributions 
+ 
+ Premiere impression: 
+ bon emballage et accessoires assez sympas. Semble robuste sauf peut-etre pour la prise dalimentation qui est assez difficile a brancher et parait fragile. 
+ Quelquun a fait une video (unboxing sur Youtube) (voir ci-dessous). Les feuilles de protection ont lair assez difficile a enlever  Mais on fait ca quune seule fois : 
+ 
+ Comparaison avec le Raspberry PI : 
+ Dimensions : 
+ Les deux cartes sont tres petites (rappelez-vous, ils sont entierement fonctionnels ; il vous suffit de brancher un clavier, souris et ecran), mais le Cubieboard est un peu plus grand. 
+ Ci-dessous une photo avec les deux cartes, RPI nu sur le dessus et Cubie dans son cas sur le fond. Vous pouvez voir lechelle en regardant les connecteurs du RPI. 
+  
+ 
+  
+  
+ Memoire 
+ CubieBoard est livre avec 1 Go de RAM, alors que la derniere RPi est livre avec deux fois moins de memoire (512 MB). 
+ En outre, CubieBoard est livre avec 4 Go de NAND flash (sorte de disque interne SSD). RPi vient sans flash interne. Malheureusement, il semble que pour le moment le Flash CubieBoard interne ne peut etre utilise. 
+ Les deux peuvent utiliser une carte memoire externe, SD standard pour RPi et micro SD pour Cubie. Assez semblable ici. 
+ Connectivite 
+ Reseau: Pas de wifi, mais vous pouvez brancher un mini dongle USB. 
+ Video: 
+ port HDMI sur les deux, en plus dune sur RCA sur le RPI. Jamais utilise, ne sera probablement jamais utilise sauf si vous voulez le brancher a un televiseur tres ancien. 
+  
+ Son: 
+ Bien sur le son peut etre restitue a partir du HDMI, mais vous avez aussi une sortie Jack sur chaque carte. Il y a aussi une ligne dans le Cubieboard. 
+ USB: 
+ 2 ports sur les deux cartes. Cubie a egalement un slot micro USB femelle, mais je ne sais pas a quoi il sert. 
+ GPIO: 
+ avec les deux cartes, vous pouvez vous connecter au monde reel (par exemple avec des capteurs) avec GPIO connectivite. 
+ Cubie extra: 
+ En ce qui concerne la connectivite, Cubie est bien equipe. Un capteur IR (sympa pour les telecommandes, en particulier lorsquil est utilise comme un centre multimedia) et surtout un port SATA. Je pense que cela est tres agreable, car il vous permet de brancher facilement et efficacement un gros disque dur. 
+  
+ CPU 
+ Quelques mots sur le CPU: Le RPI est propulse par un processeur 700Mhz ARM1176JZFS. Quand au Cubie il est pourvu dun ARM 1 GHz Cortex-A8. Vraisemblablement, le Cubie devrait etre plus rapide. 
+  
+ 
+ 
+ 
+ Raspberry Pi Model-B 
+ Developer: Raspberry Pi Foundation 
+ Operating system: Linux 
+ Power: 3.5 W (model B) via Micro-USB 
+ CPU: ARM1176JZF-S (armv6k) @ 700 MHz 
+ SoC: Broadcom BCM2835 
+ GPU: VideoCore IV 
+ RAM: 512 MByte (Model B rev 2) 
+ Storage: SD card slot (SD or MicroSDHC card), USB 
+ Graphics: Broadcom VideoCore IV 
+ Video: Composite, HDMI 
+ Audio: 3.5mm jack, HDMI 
+ Network: 10/100 RJ45 
+ Other: 2x USB 
+ Dimensions: 85,60 x 53,98 x 17 mm 
+ My benchmarks: 273 Whetstones / 1108 Dhrystones (tested with BOINC) 
+ Cubieboard 
+ Manufacturer: CubieTech 
+ Operating system: Android preinstalled, Linux via MicroSDHC or SATA 
+ Power: via Mini-USB or DC 
+ CPU: ARM Cortex-A8 @ 1Ghz 
+ SoC: Allwinner A10 
+ GPU: ARM Mali-400 
+ RAM: DRAM 1GB DDR3 @ 480MHz 
+ Integrated storage: NAND 4GB 
+ Video: HDMI 
+ Audio: 3.5mm jack, HDMI 
+ Network: 10/100 RJ45 
+ Storage: MicroSDHC, SATA (+5v power), USB 
+ Other: Infrared,2x USB 
+ Dimensions: 10cm x 6cm x 2cm 
+ My benchmarks: 199 Whetstones / 2000 Dhrystones (tested with BOINC) 
+ 
+ 
+ 
+ Lavantage de la Pi, cest quil est largement utilise, donc il y a beaucoup de logiciels plus specialises, plus dinformations sur le net, etc 
+Lavantage de la Cubieboard est clairement son meilleur materiel; Jaime particulierement le fait quAndroid est preinstalle, et vous pouvez facilement installer Linux sur une carte SDHC ou sur un disque dur connecte SATA  SATA est un autre avantage, bien sur. 
+Si vous avez besoin de vous decider : 
+ vous recherchez un ordinateur mini-linux rapide, achetez le Cubieboard. Si vous etes plus sur de la programmation, acheter le Pi. 
+ 
+ Raspberry Pi:  http://www.raspberrypi.org/ 
+ Cubieboard:  http://cubieboard.org/ 
+ BeagleBoard:  http://beagleboard.org/ 
+ APC:  http://apc.io/ 
+ Pandaboard:  http://pandaboard.org/ 
+ ODROID-X2:  http://tinyurl.com/odroidx2 
+ OLinuXino: https://www.olimex.com/Products/OLinuXino 
+ 
+ Il y a dautres mini-ordinateurs en dehors de la Pi et Cubieboard, voir  ici  le lien. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

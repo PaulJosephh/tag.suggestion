@@ -1,0 +1,25 @@
+<document>
+	<date>2014-08-20</date>
+        <title>Guide dutilisation de linterface RFXtrx433E (RFXCOM 14103) avec la box domotique VeraLite</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>chacon</tag>
+                <tag>domotique</tag>
+                <tag>guide</tag>
+                <tag>oregon scientific</tag>
+                <tag>RFXCOM</tag>
+                <tag>rfxtrx433e</tag>
+                <tag>rts</tag>
+                <tag>somfy</tag>
+                <tag>tuto</tag>
+                <tag>veralite</tag>
+                <tag>X10</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Z-Wave</category>
+        </categories_set>
+        <text>
+                                                         Vous qui reviez davoir une installation  domotique domotique domotique Z-Wave RFXCOM X10 Chacon Oregon Scientific Somfy 1- Configurationdu RFXtrx433E avec la Vera Branchez votre RFXtrx433E sur le port  USB domotique USB Rendez-vous sur http://code.mios.com/trac/mios_rfxtrx/browser/trunk?order=name Dezippez cette archive pour obtenir les fichiers au format . xml Accedez a linterface de votre Vera et cliquez sur longletApplications. Cliquez ensuite sur Developper les applications. Cliquez sur Fichiers Luup. Dans Fichiers Luup, vous allez importer tous les fichiers que vous avez precedemment telecharge(vous devez envoyer ces fichiers 10 par 10). Lors du dernier envoi, cochez la case Redemarrer le moteur de code Luup apres le telechargementet cliquez surValider. Apres avoir importe tous les fichiers, rendez-vous sur Creer un module. Vous devezcreer le module RFX en indiquant le nom du fichier du peripherique  UPnP xml Une nouvelle fenetre apparait indiquant que ce module a bien ete cree. Cliquez sur Fermer. Rendez-vous cette fois-ci dans la rubrique Configuration du port serie. Selectionnez la valeur 38400 dans Debit puis choisissez le module cree RFXtrx controller device dans Utilise par le module. Apres avoir choisi votre module, une nouvelle fenetre apparait. Cliquez sur Sauver en haut a droite pour sauvegarder vos reglages. Votre peripherique  RFXCOM 2- Fonctionnement duRFXtrx433E avec la Vera Suite a la bonne configuration, les elements compatibles avec le RFXtrx433Eapparaissent automatiquement surlinterface de votre box  domotique Z-Wave X10 RFXCOM Somfy Une nouvelle fenetre apparait. Vous pourrez activer ou desactiver lutilisation des protocoles du RFXtrx433E dans RFXtrx settings. Pour creer un peripherique  Somfy Dans New device, vous pouvez ajouter votre nouveau peripherique en choisissant le protocole, le type de dispositif, son nom et dautres parametres necessaires. Pour ajouter ce peripherique  Somfy guide dappairage dun volet roulant Somfy avec le RFXcom RFXtrx4333E Somfy Dans la rubrique New device, choisissez la categorie RFY, loption par defaut Window covering, le nom de votre choix et indiquez le numero ID et unite de code que vous utilisez avec votre RFXtrx433E pour gerer votre peripherique  Somfy 65536 256 1 Somfy Votre peripherique  Somfy domotique  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,22 @@
+<document>
+	<date>2014-03-07</date>
+        <title>Guide dinstallation du Home Center Lite de Fibaro</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>fibaro</tag>
+                <tag>guide</tag>
+                <tag>hc lite</tag>
+                <tag>hcl</tag>
+                <tag>home center lite</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Z-Wave</category>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         Pratique, esthetique et economique, la box  Fibaro domotique 1- Presentation Home Center Lite est livre avec une antenne, un cable  Ethernet La face avant de cette box comprend 5 voyants : Mise a jour, connexion Z-Wave La face arriere comprend le connecteur dantenne ainsi que deux boutons : Mise en marche de la box et Recovery mode (restaurationpour revenir a la configuration constructeur). Sur un cote, il sera possible de connecter un module dextension, comme par exemple une batterie de secours. De lautre cote, vous pourrez egalement mettre un module dextension, par exemple un module de communication GSM Sur le dessous, cette box comprend un scratch pour eviter les encombrements avec les cables, des trous pour eventuellement fixer cette box au mur et des accroches au format rail DIN 2- Mise en route Vous devez tout dabord connecter lantenne en tournant la vis de fixation dans le sens horaire. Connectez ensuite le cable reseau dans le portLANdu Home Center Lite et a un routeur pour que la box se connecte a votre reseau domestique. Alimentez le controleur grace a ladaptateur que vous branchez sur le port dalimentation de votre box et sur le secteur. Enfin, allumez votre Home Center Lite en appuyant brievement sur le bouton dalimentation. Apres un court instant, les Leds alimentation,connexionLAN et connexion Internet sallument. 3- Configuration initiale Apres la mise en route de votre Home Center Lite, vous devez configurer celle-ci pour acceder a linterface.Par defaut, cette box est en mode client DHCP Fibaro  Windows : www.fibaro.com/finder-win  Mac : www.fibaro.com/finder-os Apres avoir accede a lun des liens, un telechargement automatique du fichier  Fibaro Une fois que le telechargement est complete, ouvrez ce fichier. Une fenetre apparait, cliquez sur Executer. Selectionnez ensuite la langue (polonais ou anglais) puis cliquez sur OK. Cliquez sur Next. Selectionnez la destination de linstallation de lapplication  Fibaro Selectionnez lemplacement du dossier du menu de demarrage et cliquez sur Next. Selectionnez les cases de votre choix (creation dicone sur le bureau et lancement rapide) en les cochant puis cliquez sur Next. Cliquez sur Install pour demarrer linstallation de lapplication. Attendez un court instant pendant que linstallation seffectue. Lorsque linstallation est terminee, cliquez sur Finish. Apres linstallation et louverture de lapplication Fibaro Suite a la connexion de votre Home Center Lite, choisissez la langue de votre choix . Enfin, connectez-vous a votre interface en indiquant votre identifiant et mot de passe par defaut :  admin admin Vous pouvez desormais profiter des nombreuses fonctionnalites du Home Center Lite en y ajoutant vos dispositifs puis en creant vos scenes selon votre imagination.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

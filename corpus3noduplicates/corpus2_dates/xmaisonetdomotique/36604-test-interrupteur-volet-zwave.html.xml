@@ -1,0 +1,20 @@
+<document>
+	<date>2014-05-19</date>
+        <title>
+Test: Interrupteur pour volet Zwave.Me</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Duwi</tag>
+                <tag>volet</tag>
+                <tag>Z-Wave.me</tag>
+        </tags_set>
+        <categories_set>
+                <category>Peripheriques Z-Wave</category>
+        </categories_set>
+        <text>Depuis plusieurs annees tous mes volets (battants) sont automatises  grace a des automatismes Voltec et des interrupteurs Z-Wave de marque Duwi . Il y a 5 ans, les modules Z-Wave etaient encore limites, et les interrupteurs Duwi etaient la solution la plus simple pour domotiser un interrupteur, que ce soit pour un volet ou une lampe. Malheureusement, le module le plus vieux vient de rendre lame (5 ans), sans vraie raison. Malgre son fusible integre, le module Duwi a grille :( Il ma donc fallu le remplacer. Tous mes interrupteurs etant des Duwi, je suis donc reste dans la meme gamme pour conserver une esthetique uniforme. Mais je savais quil existait une version amelioree de ce module: meme produit, mais avec un firmware customise par  ZWave.Me . Un point interessant notamment: alors quil faut interroger a intervalle regulier les modules Duwi classiques pour connaitre leur etat, les modules customises remontent eux meme leur etat des quils sont actionnes. On gagne donc encore en reactivite du cote de la box, qui na pas a interroger le module. Jai donc opte pour ce modele, que je vous propose de decouvrir, meme sil nest pas tres recent. Sommaire I. Deballage II. Installation III. Conclusion Commentaires (4) Powered by SEO TOC 1.7.3  
+ I. Deballage  Ce module ressemble bien sur trait pour trait au module Duwi habituel, livre avec tout son habillage et sa petite notice:  
+  On peut voir ici son bornier: neutre, phase, deux fils pour le controle du volet, et le commun. Tout a droite, le compartiment pour le porte fusible:  
+  La seule distinction: un petit autocollant Zwave a larriere pour indiquer quil sagit dun module customise par Z-Wave.Me:  
+  Passons donc sans plus attendre a son installation.     1   2 Duwi   volet   Z-Wave.me 
+        </text>
+</document>

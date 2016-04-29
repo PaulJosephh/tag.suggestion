@@ -1,0 +1,26 @@
+<document>
+	<date>2015-03-26</date>
+        <title>Guide dutilisation du dtecteur douverture Aeotec avec la camra Z-Wave Piper</title>
+        <author> Kragg </author>
+        <tags_set>
+                <tag>aeon labs</tag>
+                <tag>aeotec</tag>
+                <tag>detecteur d'ouverture</tag>
+                <tag>guide</tag>
+                <tag>piper</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Z-Wave</category>
+        </categories_set>
+        <text>
+                                                         La camera Piper integre differents capteurs (mouvement,temperature, humidite, luminosite et bruit) mais egalement un controleur  Z-Wave Z-Wave 1. Presentation Le  detecteur douverture Z-WavedAeotec Z-Wave Z-Wave Voici ses fonctions et caracteristiques techniques : FONCTIONS : Detecteur douverture porte/fenetre Emission du signal jusqua 5 modules  Z-Wave Petit, discret et esthetique Batterie longue duree Portee de lantenne optimise Facilite dutilisation et dinstallation Bouton pour inclure/exclure le detecteur Detection pile faible CARACTERISTIQUES TECHNIQUES : Type de module : Emetteur  Z-Wave Alimentation : 2x pile AAA 1,5V Frequence: 868.42 MHz Distance de transmission : 90m en champ libre, 30m en interieur Temperature de fonctionnement : -10C a 60C Dimensions : 7cm x 2,6cm x 1,8cm (L x l x h) Poids : 50g Certifications : CE et  RoHS 2. Deballage Lemballage est plus ordinaire que la  prise Z-Wave de chez Aeotec Le detecteur est en effet assez petit le tout est bien emballe, avec la notice, les vis et le double face. Onretrouve dedans les 2 piles, sur la gauche il y a egalement le capteur anti-arrachement et le bouton dinclusion  Z-Wave Voici lautre partie du detecteur. On voit mieux ici  3. Installation Passons maintenant a linclusion avec la box PIPER. Pour cela jai utilise mon iPhone avec lapplication PIPER. Il faut se rendre sur longlet Controls, puis cliquer sur Add. On appuie ensuite sur Start pour lancer linclusion. On peut maintenant appuyer sur le bouton dinclusion situe a linterieur du module (3 fois rapidement). On donne alors un nom a notre detecteur, puis on le retrouve sur le dasboard et les informations remontent rapidement a la box. On voit ici que la porte est ouverte Et ici que la porte est fermee. 4. Utilisation Dans les regles, il est possible de specifier le detecteur douverture comme declencheur, ici dans lexemple si la porte est ouverte quand je suis absent (Mode Away) : Alors je recois une notification et jallume la prise. Ici on remarque que cela fonctionne rapidement. Encore une fois tout cela est tres simple. Grace au controleur  Z-Wave   Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Guide dutilisation de la prise commandee Aeotec ZW075 avec la camera Z-Wave Piper 
+ Homelive  Guide dutilisation du repeteur Z-Wave DSD37 dAeon Labs 
+ Jeedom  Guide dutilisation du multisensor 4en1 dAeon Labs 
+ Guide dutilisation du detecteur douverture Aeon Labs DSB29 avec la base domotique Homelive dOrange END .entry-content  
+        </text>
+</document>

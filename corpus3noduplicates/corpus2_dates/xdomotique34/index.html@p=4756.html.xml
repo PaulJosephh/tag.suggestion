@@ -1,0 +1,71 @@
+<document>
+	<date>2013-07-04</date>
+        <title>La Zipabox passe en version 0.9.98</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>mise a jour</tag>
+                <tag>Zipabox</tag>
+                <tag>zipato</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ Ca faisait longtemps que la  Zipabox  navait pas eu de mise a jour et depuis le 02/07 cest chose faite. 
+ 
+ 
+ 
+  
+ Cette mise a jour apporte son lot de nouveau et de correction. 
+  
+ Nouveautes : 
+  Streaming RTSP des cameras 
+  connexion en local des applications 
+  Le Bonjour discovery : cest un mystere pour moi 
+  Association Z-Wave 
+  
+ Corrections : 
+  Lajout et La suppression de module Z-Wave a ete revu 
+  intensite de la LED de la Box a ete diminuee 
+  Correction dun bug a propos du thermostat qui continuait a fonctionner malgre quil soit sur OFF 
+  niveau KNX : le module nest pas relance apres son inclusion 
+  utilisation de la fonction avertisseur lors de lutilisation dune sirene 
+  stoppe la sirene et la bascule en mode desactive, si celle ci sest declenchee 
+  Dans les regles : la fonction Temps entre.. nutilisait pas le bon fuseau horaire 
+  
+ cest tout pour cette mise a jour. Si vous avez vu dautres nouveautes sur la box (ou fonction non encore disponible) nhesitez pas a nous le faire savoir. 
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

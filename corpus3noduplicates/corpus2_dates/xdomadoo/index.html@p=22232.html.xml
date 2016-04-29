@@ -1,0 +1,14 @@
+<document>
+	<date>2012-03-06</date>
+        <title>Guide dinstallation de linterface RFXCOM RFXtrx433 avec HomeSeer</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique RFXCOM</category>
+        </categories_set>
+        <text>
+                                                          Apres avoir valide la connexion avec linterface RFXtrx433 et la communication RF domotique HomeSeer Pour utiliser le RFXtrx433 avec  HomeSeer plugin RFXCOM KIKA Le plugin  RFXCOM HomeSeer   A partir de longlet Setup, puis Interfaces, activez le plugin (un bouton Enabled vert doit apparaitre) et sauvegardez. Cliquez ensuite sur le bouton  orange   Allez dans longlet Interfaces pour configurer le port COM et les protocoles utilises par le RFXtrx433.   Selectionnez Transceiver1 et cliquez sur Modify.   Indiquez alors lemplacement, le port COM a utiliser, et les protocoles que vous souhaitez emettre/recevoir. Cliquez sur Save   Votre interface RFXtrx433 est maintenant operationnelle pour fonctionner avec  HomeSeer  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

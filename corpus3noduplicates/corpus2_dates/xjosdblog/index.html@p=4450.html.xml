@@ -1,0 +1,33 @@
+<document>
+	<date>2013-11-23</date>
+        <title>Que vaut la camra IP IPS-1024V dIPS Technology ?</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Camera IP</tag>
+        </tags_set>
+        <categories_set>
+                <category>Surveillance</category>
+        </categories_set>
+        <text>
+                                                 
+ Presentation 
+Je trouve le prix de la  camera IP D-Link DCS-6511 lowcost IPS Technology camera IP D-Link DCS-6511 Deballage 
+De lexterieur, la premiere impression est bonne, moins que la DCS-6511, mais bonne toute de meme. Louverture se fait par de simples vis  Torx Security Torx i.e. 
+Contrairement a ce que je pensais, la focale variable nest pas motorisee (mince). Il faut donc regler la focale et la nettete a la main et cest tres galere! En effet, lacces se fait par le dessous de lobjectif, il faut donc approcher laxe de visee de la verticale pour y avoir acces. De plus, les mecanismes de reglage de lazimut et de la hauteur semblent tres fragiles et ne sont pas du tout facile a manipuler. Enfin, lors de ces manipulations, la gestion des cables est inquietante: ils se coincent, se tordent et certains se retrouvent vite en extension complete.
+ 
+Lors du deballage, jai observe que la connectique exterieure ne comporte visiblement pas dentree/sortie numerique. Je ne les ai pas identifiees non plus sur les connecteurs a linterieur. Elle y sont peut etre, mais rien ne permet de les identifier et aucune mention ny est faite dans la documentation (au format  .doc sic Essais 
+On peut acceder a linterface de gestion de la camera sous Linux, mais il est tres difficile dobtenir une image. Jai reussi sous Chrome, limage semble tres bonne, la gestion de la balance est assez erratique quand la luminosite change mais se stabilise assez vite, par contre, jai ete decu par la vision de nuit.
+ 
+Linterface de gestion ne permet pas une mise a jour automatique du micrologiciel et je nai rien trouve comme documentation ou micrologiciel a telecharger sur le site du constructeur. De plus, linterface de gestion ne permet pas de parametrer la resolution des flux et nindique pas les url pour y acceder directement (la documentation ne mentionne pas non plus cette information).
+ 
+Visiblement, linterface de gestion a besoin dun logiciel externe (Player) pour pouvoir afficher le flux video. Cest un gros inconvenient car cela rend la camera moins autonome et oblige a passer sous  Microsoft Windows Microsoft Windows Internet Explorer Firefox Google Chrome 
+Cette camera IP etant compatible ONVIF, jai essaye  ONVIF Device Manager Microsoft Windows D-Link Conclusion 
+La qualite materiel nest pas au rendez-vous. La qualite logiciel non plus. Le support (documentation, FAQ, micrologiciel) du site du constructeur est inexistant. La compatibilite ONVIF me semble embryonnaire et inutilisable. 
+ 
+ 
+ En resume, cette camera IP me parait totalement inexploitable. Liens et informations 
+ 
+Shopping:  D-Link DCS-6511 JACO IPS-1024V IPS-1024V Instruction Manual 
+ Sommaire Domotique 
+        </text>
+</document>

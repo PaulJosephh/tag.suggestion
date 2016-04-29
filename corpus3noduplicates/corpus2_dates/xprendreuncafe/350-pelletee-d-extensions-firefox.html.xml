@@ -1,0 +1,77 @@
+<document>
+	<date>2005-12-03</date>
+        <title>Pellete d'extensions Firefox</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>browsers</tag>
+                <tag>extensions</tag>
+                <tag>firefox</tag>
+                <tag>google</tag>
+                <tag>tips</tag>
+                <tag>video</tag>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>Astuces 
+
+ 
+ Google Web Accelerator , le proxy embarque de Google destine a accelerer le prechargement des pages (fonctionnalite native de Firefox 1.5), permet malgre lui d'acceder aux contenus de  Google Video  - contenus dont le visionnage est interdit pour la France (?). Note :  Au vu du comportement parfois aberrant de cette extension, a n'activer que dans ce but et a desactiver ensuite. Note 2 :  Windows uniquement. Note 3 :   Yazerty  me signale que Google Video est accessible pour la France via  ce site . 
+ Edit du 07/12 :   Chrome Cleaner  ( XPI ) nettoie les entrees doublonnees du fichier  installed_chrome.txt  afin d'optimiser le temps de lancement de l'application. Epatant! 
+ 
+
+ Navigation 
+
+ 
+ Viamatic foxPose  ( XPI ), dont j'ai deja parle dans un  billet precedent , propose un  eclate  de previsualisation des onglets ouverts, un peu a la maniere d 'Expose  de Mac OS X. 
+ Tabnail  ( XPI ), de la decidemment tres prolixe societe  Viewmatic , affiche une previsualisation du document dans l'onglet lui meme. 
+ Tab Preview  ( XPI ) propose une previsualisation des onglets lors d'un rollover sur ces derniers. 
+ Tab Sidebar  ( XPI ) affiche la liste des miniatures des onglets ouverts dans la barre laterale de Firefox. 
+ Session Saver .2  ( XPI ) permet de sauvegarder la disposition des onglets afin de les reouvrir en l'etat, y compris apres un crash, ce qui peut s'averer utile. 
+ Edit du 06/12  Joie!  Tab Mix Plus  ( XPI ) est dispo pour la version 1.5 de Firefox. Accros du tuning d'onglets, voila votre Graal. 
+ Edit du 12/12   Content Holder  ( XPI ) est un systeme de navigation par panneaux: cela permet de separer la navigation d'une page longue en deux. Ca peut toujours servir! 
+ 
+
+ Personnalisation 
+
+ 
+ CustomizeGoogle  ( XPI ) permet de personnaliser l'affichage et les fonctionnalites de la plupart des services Google. 
+ 
+
+ Utilitaires 
+
+ 
+ PDF Download  ( XPI ), lors d'un clic pointant vers un fichier  PDF , vous propose de le telecharger, de le visualiser dans le navigateur ou de le convertir au format  HTML . 
+ IE Tab  ( XPI ) permet d'afficher une page sous  MSIE  directement dans Firefox. Note :  Windows uniquement. 
+ 
+
+ Webmastering  developpement 
+
+ 
+ User Agent Switcher Extension  ( XPI ) vous propose de changer la chaine d'identification de version de votre navigateur, afin d'emuler par exemple  MSIE  ou  Opera . 
+ WebDeveloper 0.9.9 beta  ( XPI ) ameliore considerablement les fonctionnalites deja consequentes de l'extension  WebDeveloper . Au programme, entre autres:
+ 
+ Display Element Informations , qui n'est autre que l'adaptation du bookmarklet  Visual DOM Inspector , 
+ Validate local  HTML  and  CSS , qui permet de valider directement la conformite des documents locaux aupres des services du  W3C , 
+ View Response Headers  affiche une synthese des differentes entetes  HTTP  recues lors de la reception du document, 
+ Display  CSS  by Media Type , tres utile pour par exemple travailler sur la mise en forme d'une feuille de style d'impression, 
+ Display Ruler  affiche un pointeur affichant des informations de position et de tailles sur la page, 
+ etc... 
+ 
+ Trois plugins de recherche sur le wiki de Media-Box :  CSS ,  HTML  et Flash. Bravo  Mathieu ! 
+ Edit du 07/12 :   View Rendered Source  ( XPI ) met en forme sympathiquement le code source d'une page  HTML . 
+ LinkChecker  ( XPI ) permet de verifier la validite des liens sur une page. 
+ UrlParams  ( XPI ) affiche la liste des differentes variables passees en  GET  ou en  POST  lors de la requete aboutissant a la page en cours de consultation. Tres utile pour debugguer. 
+ MeasureIt  ( XPI ) met a disposition du webmaster une regle permettant de musrer des valeurs en pixels sur la page. 
+ 
+
+ Enfin, et dans un autre registre,  Looklater  est un service de bookmarking en ligne utilisant le principe des  bookmarkets . Mais  une demo  vaut sans doute mieux qu'un long discours (plugin Flash requis). 
+
+
+ Remerciements 
+
+ 
+ NiCoS'  pour sa petite liste 
+ 
+        </text>
+</document>

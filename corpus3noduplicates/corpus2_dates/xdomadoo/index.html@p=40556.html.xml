@@ -1,0 +1,22 @@
+<document>
+	<date>2014-08-28</date>
+        <title>Raspberry Pi modle B+ : plus de GPIO, plus de ports USB, moins consommateur</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>developpement</tag>
+                <tag>domotique</tag>
+                <tag>gpio</tag>
+                <tag>informatique</tag>
+                <tag>logiciel</tag>
+                <tag>modele b+</tag>
+                <tag>ordinateur</tag>
+                <tag>Raspberry Pi</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Avec plus de 3millions dunites vendues, le Raspberry Pi arencontre un enorme succes aupres des passionnes dinformatique. Les industriels lutilisent aussi de plus en plus pour developper des systemes embarques. Au niveau  domotique JEEDOM Domoticz ZiBASE Comme vous laurez compris, ce nest pas un Raspberry Pi 2, mais une evolution du modele B, qui devient donc au passage B+. Il utilise le memeprocesseur(BroadcomBCM2835) que le modele B, et dispose toujoursde 512 Mo de RAM.Il estdonc capable dexecuter les memes logiciels que la version precedente. A gauche le Raspberry Pi Modele B+, a droite le Modele B. Alors, quelles sont lesnouveautes ? Plus de GPIO EnOcean Plus de port  USB USB Carte Micro SD Moinsconsommateur Une meilleure qualite audio Un format revu USB Le Raspberry Pi subit donc de belles evolutions qui vont sans doute donner de nouvelles idees de developpement a tous les passionnees ! A noter que le Raspberry Pi Modele B+ ne remplace pas lancienne version puisque pour assurer la continuite de lapprovisionnement des industriels, celui-ci est toujours fabrique. Vous pouvez retrouver des a present le Raspberry Pi Modele B+ sur notre boutique !  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,26 @@
+<document>
+	<date>2015-04-09</date>
+        <title>Test du capteur de temprature sans fil et sans pile EnOcean NodOn</title>
+        <author> Kragg </author>
+        <tags_set>
+                <tag>capteur</tag>
+                <tag>domotique</tag>
+                <tag>eedomus</tag>
+                <tag>enocean</tag>
+                <tag>nodon</tag>
+                <tag>test</tag>
+                <tag>zibase</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         NodOn domotique EnOcean EnOcean NodOn 1. Presentation Jai ete agreablement surpris par le packaging plutot  green  de  NodOn Le capteur est assez compact et design et je pense quil en seduira plus dun. Il ressemble a un capteur douverture de porte. Ce capteur existe en plusieurs couleurs (blanc, noir, marron, ). Dapres les specifications, il mesure la temperature toutes les 100 secondes. Il a une precision de 0,2, mais nemet un nouveau signal que si la temperature change de 0,5 depuis le dernier envoi. Si la temperature reste constante, il renvoie un signal au bout de 15mn. Si le capteur reste dans une piece souvent obscure,  NodOn A savoir en plus que  NodOn NodOn - Fixation par vis ou scotch Pour ouvrir le module, il suffit de faire coulisser le capot arriere et de tirer dessus afin davoir acces a lemplacement de la pile et au bouton dappairage.  Caracteristique Techniques  : Alimentation Plage de mesure Temperature de fonctionnement Protocole radio  enocean eep Portee Dimensions  2. Installation sur la eedomus Pour utiliser ce capteur sur la  eedomus USB300 EnOcean Une fois la cle branchee, normalement la  eedomus Si la box ne le detecte pas vous pouvez appuyer sur le bouton dappairage. En cliquant sur la notification, on entre directement dans le parametrage du module ou il suffit de remplir les champs obligatoires, comme la piece ou le module se trouve, lunite de mesure,  Une fois les parametres sauvegardes la premiere mesure est deja disponible. Lhistorique des donnees permet davoir un graph sur levolution de la temperature dans votre piece.  3. Installation sur la ZiBASE Pour utiliser ce capteur sur la  ZiBASE EnOcean Ou alors vous devez disposer dune  ZiBASE EnOcean Pour inclure le module, il suffit dappuyer sur le bouton dappairage afin que celui-ci apparaisse dans le  suivi dactivite  de la  ZiBASE Une fois lID recupere, il suffit de creer un nouveau materiel, et de renseigner cet ID dans la config de notre peripherique. Une fois cela fait la temperature est enfin remontee ! Cela est egalement aussi rapide que sur la  Eedomus 4. Conclusion NodOn environ 50 dans nos boutiques de domotique francaises Le fait quil fonctionne sans pile, contrairement a nos modules  Z-Wave NodOn Une garantie constructeur de 3 ans, ce qui est gage de qualite. Une precision a 0,2C. Sa discretion et son design epure. Jai ete seduit par ce module et je pense que je ne serais pas le seul. Un module que je recommande !  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ eedomus : support des produits Nest et NodOn 
+ Les prises intelligentes EnOcean NODON sont disponibles! 
+ Jeedom  Guide dutilisation de la telecommande Soft Remote NodOn EnOcean 
+ EnOcean montrera ses produits sans fil et sans pile au #CES2015 END .entry-content  
+        </text>
+</document>

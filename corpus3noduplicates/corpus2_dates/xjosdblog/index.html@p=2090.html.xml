@@ -1,0 +1,23 @@
+<document>
+	<date>2012-11-19</date>
+        <title>Projet GL : Cohrence des tags ID3 de fichiers musicaux</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Projet</tag>
+        </tags_set>
+        <categories_set>
+                <category>Cours</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+ID3 est le nom des metadonnees pouvant etre inserees dans un fichier audio (comme les fichiers mp3, ogg,). Ces metadonnees permettent davoir des informations sur le contenu du fichier comme le titre, le nom de linterprete, ou encore le genre.
+ 
+Lobjectif du projet consiste a developper une application dassistance a la restauration de la coherence de lensemble des tags ID3 des fichiers musicaux se trouvant dans un dossier donne.
+ 
+Ce projet a ete donne aux etudiants de 2eme annee (semestre 4) du DUT informatique dans le cours de projet GL en octobre 2008 et 2009.
+ 
+ 
+ Pour plus dinformations sur les tags ID3 Sujet du projet  Coherence des tag ID3 de fichiers musicaux 
+        </text>
+</document>

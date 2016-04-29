@@ -1,0 +1,22 @@
+<document>
+	<date>2014-03-19</date>
+        <title>Utilisation de la cl 3G Zipato</title>
+        <author> Cdric L. </author>
+        <tags_set>
+                <tag>3G</tag>
+                <tag>backup</tag>
+                <tag>guide</tag>
+                <tag>secours</tag>
+                <tag>tuto</tag>
+                <tag>zipabox</tag>
+                <tag>zipato</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Zipabox</category>
+                <category>Zipabox Produits</category>
+        </categories_set>
+        <text>
+                                                         Comme nous avons deja pu le voir, la  Zipabox Zipato Zipato un module de securite Zipabox une cle 3G Mesurant un peu moins de 10cm, cette cle  3G USB A  cec La premiere operation sera donc dinserer une carte SIM au format classique, assortie dun abonnement Data souscrit chez un fournisseur couvrant correctement votre secteur:  Orange Du cote de la box, il faudra tout dabord y adjoindre le module dextension Backup si ce nest deja fait: Comme nous le disions plus haut, ce module ajoute une batterie a la box  domotique USB Cest ce port  USB 3G Il ny a plus qua brancher la box a une prise electrique et au reseau  Ethernet Une fois la box rebranchee, la cle clignotera en rouge: cest normal. On se connecte ensuite a linterface dadministration de la box, puis on se rend dans Parametres Generaux, puis dernier onglet Parametres: Il faudra ici renseigner lAPN de son fournisseur dacces, ainsi que le code Pin de la carte Sim si celle ci est protegee. Ici nous utilisons une carte Bouygues Telecom dont lAPN est mmsbouygtel.com.  Pour  Orange orange indiquer en nom dutilisateur et en mot de passe  orange Pour SFR, il faudra renseigner lAPN websfr Une fois ces informations renseignees, on enregistre, et on pense bien a cliquer sur Synchroniser sur le tableau de bord, qui devrait dailleurs clignoter: Zipabox 3G Meme en cas de coupure Internet, votre  Zipabox Vous pouvez retrouver la  cle 3G Zipato sur la boutique Domadoo au prix de 39  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

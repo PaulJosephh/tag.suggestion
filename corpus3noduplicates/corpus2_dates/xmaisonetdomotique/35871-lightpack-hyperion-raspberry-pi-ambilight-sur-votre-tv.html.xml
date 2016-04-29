@@ -1,0 +1,19 @@
+<document>
+	<date>2014-03-27</date>
+        <title>
+LightPack + Hyperion + Raspberry Pi: Ambilight sur votre TV !</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Ambilight</tag>
+                <tag>Hyperion</tag>
+                <tag>LightPack</tag>
+                <tag>Openelec</tag>
+                <tag>XBMC</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Eclairage</category>
+                <category>Guides Informatiques</category>
+        </categories_set>
+        <text>La semaine derniere vous avez pu  voir ce que donnait le LightPack une fois installe derriere la TV , pour imiter le systeme Ambilight de Philips. Pour le test, le kit etait relie a mon Mac mini. Mais le but est de le faire fonctionner sur mon  Raspberry Pi, ou tourne OpenElec (donc XBMC ), qui me permet de lire dans le salon les videos stockees sur mon Synology ( mon Proliant avec Xpenology , en fait). Bien que le Rapsberry Pi ait une excellente puce de decodage video capable de lire des films en HD, son processeur a 700Mhz, lui, est nettement moins puissant, et le calcul de leclairage est vite gourmand en ressources. Certains utilisent leur kit Ambilight avec le plugin Boblight pour faire fonctionner tout cela. La distribution Raspbian dispose dailleurs de tout le necessaire des le depart. Mais avec  OpenElec  sur le Raspberry, jai rencontre deux problemes: une consommation en ressources relativement importante et la difficulte de le mettre en place, car pour alleger la distribution, certaines librairies necessaires a Boblight nexistent pas sous OpenElec.  A force de me renseigner sur internet, jai fini par trouver LA reponse avec  Hyperion , un package gratuit developpe pour gerer les systemes Ambilight, compatible avec de nombreux systemes, dont le  LightPack que nous avons .   Je vous propose donc aujourdhui de voir comment mettre cela en place sur le Raspberry Pi. Sommaire I. Installation II. Utilisation III. Conclusion Commentaires (53) Powered by SEO TOC 1.7.3     1   2   3 Ambilight   Hyperion   LightPack   Openelec   XBMC 
+        </text>
+</document>

@@ -1,0 +1,18 @@
+<document>
+	<date>2012-12-20</date>
+        <title>
+Test de la Zipabox: une box qui a tout compris ?</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Une</tag>
+                <tag>Z-wave</tag>
+                <tag>Zipabox</tag>
+                <tag>Zipato</tag>
+        </tags_set>
+        <categories_set>
+                <category>Tests Box Domotique</category>
+        </categories_set>
+        <text>Comme  annonce il y a quelques jours , une nouvelle box Z-Wave arrive sur le marche de la domotique. Apres un an de projet chez la societe croate  Zipato , la voici qui debarque dans nos contrees. Cest aujourdhui le moment de la decouvrir enfin en detail !   Sommaire I. Presentation II. Tableau de Bord 2.1 General 2.2 Lampes et Appareils 2.3 Capteurs 2.4 Mesures 2.5 Consommation de courant 2.6 Energie 2.7 Cameras 2.8 Securite 2.9 Thermostat 2.10 Scenes 2.11 Suivi d'activite III. Scenarios IV. Utilisation V. Pour les utilisateurs avances VI. Conclusion Commentaires (3) Powered by SEO TOC 1.7.3  
+ I. Presentation  Ce qui etonne en premier lieu, cest sa taille. Je lai recue dans un gros carton avec dautres produits a tester, et apres avoir tout sorti du carton il ne restait plus quelle cachee dans un coin    On connaissait deja la  Vera Light de Micasaverde  pour sa taille reduire, et bien la  Zipabox  fait encore plus fort:  A gauche la Zipabox, a droite la Vera Light  Elle ne mesure en fait que86 x 86mm x 48mm:   En plus de pouvoir etre posee sur un meuble ou fixee a un mur, elle a en effet ete concue de facon a pouvoir sinserer dans un tableau electrique grace a ses clips pour rail din:   Exemple en situation:   Passe cette surprise, revenons en au deballage:   Nous trouvons dans cette toute petite boite la box elle meme, bien sur, accompagnee dune alimentation, dun cable ethernet, dune antenne pour le Z-Wave, et dun petit livret de demarrage.   Sur le dessus, on distingue deuxboutons (programmables), ainsi que trois leds (deux vertes et une RGB programmables egalement, qui seront utilisables dans les scenarios). Sur lun des cotes, nous trouvons le connecteur dalimentation, un port ethernet, un bouton de reset (pour redemarrer la box en cas de besoin), et le connecteur dantenne:   Vient ensuite la deuxieme bonne surprise: sur les deux autres cotes, la box dispose de slots dextension pour venir y brancher des modules additionnels:   De base, la  Zipabox  integre le Zwave. Mais des modules additionnels viendront ajouter de nouvelles possibilites. Sont deja evoques des modules pour ajouter lesupport du ZigBee, KNX, 433MHz, batterie de secours, acces GSM Les modules pouvant sinterfacer les uns les autres, les possibilites sont sans limite:   Bref, nous avons donc une box evolutive materiellement ! Voyons voir maintenant les entrailles de la bete      1   2   3   4   5   6 Une   Z-wave   Zipabox   Zipato 
+        </text>
+</document>

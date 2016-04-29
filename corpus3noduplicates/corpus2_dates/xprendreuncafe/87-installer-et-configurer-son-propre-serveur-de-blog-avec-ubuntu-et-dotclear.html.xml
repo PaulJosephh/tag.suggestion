@@ -1,0 +1,150 @@
+<document>
+	<date>2005-04-29</date>
+        <title>Installer et configurer son propre serveur de blog avec Ubuntu et Dotclear</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>apache</tag>
+                <tag>dotclear</tag>
+                <tag>libre</tag>
+                <tag>linux</tag>
+                <tag>serveur</tag>
+                <tag>tutoriel</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Dotclear , gestionnaire de blog - ou  BlogMS  - tres simple d'utilisation et performant sera utilise dans cet exemple. 
+
+
+ Pour installer Dotclear sur Ubuntu Hoary, il nous faut: 
+
+ 
+ Activer les depots universe 
+ Un serveur web (Apache 2), 
+ Un serveur de base de donnees (MySQL) et son frontend web, phpMyAdmin, 
+ PHP, le langage web dynamique par excellence 
+ 
+
+ Installation des paquets necessaires 
+
+
+ Installons les paquets necessaires directement par le biais de la ligne de commande: 
+
+
+ $ sudo -s
+Password:
+# apt-get update
+# apt-get install apache2 apache2-common apache2-mpm-prefork \
+     libapache2-mod-php4  libapache2-mod-auth-mysql php4-gd \
+     php4-mysql php4 php4-dowxml php4-common php4-cli php4-cgi \
+     mysql-server-4.1 mysql-client-4.1 mysql-common-4.1 \
+     libmysqlclient14 phpmyadmin 
+
+
+ Si le systeme vous pose des questions, repondez par oui (apache2, mysql, phpmyadmin). 
+
+
+ Configuration de MySQL 4.1 
+
+
+ Maintenant, on va affecter un mot de passe a l'utilisateur  root  de MySQL, qui n'a bien evidemment rien a voir avec l'utilisateur  root  du systeme: 
+
+
+ # mysqladmin -u root password ici_votre_mot_de_passe 
+
+
+ Vous pouvez d'ores et deja acceder a phpMyAdmin, en tappant dans firefox l'adresse  http://localhost/phpmyadmin/  et en entrant le login  root  et le mot de passe defini a l'etape precedente   Profitez-en pour creer la base de donnees que nous utiliserons pour notre blog Dotclear: nommez-la...suspense...  dotclear   
+
+
+ Si toutefois vous etes allergiques a phpMyAdmin, vous avez la possibilite d'utiliser des frontends graphiques a MySQL: 
+
+
+ # apt-get install mysql-navigator et mysql-query-browser 
+
+
+ Configuration du serveur web Apache et installation de Dotclear 
+
+
+ On va maintenant creer un repertoire  www  dans notre repertoire  /home , en ayant pris soin de quitter le mode superutilisateur: 
+
+
+ # exit
+exit
+$ mkdir ~/www 
+
+
+ On en profite pour installer Dotclear directement en ligne de commande (vous pourrez par la suite epater vos amis)  
+
+
+ $ wget http://www.dotclear.net/download/dotclear-1.2.1.tar.gz
+$ tar -zxvf dotclear-1.2.1.tar.gz -C ~/www/ 
+
+
+ On va rendre accessibles en ecriture certains dossiers et fichiers de dotclear: 
+
+
+ $ sudo -s
+Password:
+# chmod 755 ~/www/dotclear/conf/
+# chown www-data:www-data ~/www/dotclear/conf/
+# chmod 644 ~/www/dotclear/conf/dotclear.ini
+# chown www-data:www-data
+# chmod 644 ~/www/dotclear/conf/UPDATE
+# chown www-data:www-data ~/www/dotclear/conf/UPDATE
+# chmod 755 ~/www/dotclear/images/
+# chown www-data:www-data ~/www/dotclear/images/
+# chmod 755 ~/www/dotclear/themes/
+# chown www-data:www-data ~/www/dotclear/themes/
+# chmod 755 ~/www/dotclear/ecrire/tools
+# chown www-data:www-data ~/www/dotclear/ecrire/tools
+# chmod 755 ~/www/dotclear/share/
+# chown www-data:www-data ~/www/dotclear/share/ 
+
+
+ Il nous reste a parametrer un  vhost  apache afin que vous puissiez stocker et installer votre repertoire dotclear dans votre repertoire  home , ce qui facilitera la maintenance des fichiers (droits necessaires). 
+
+
+ # gedit /etc/apache2/sites-available/default 
+
+
+ Juste avant la ligne  /VirtualHost  (la derniere du fichier), ajoutez le bloc suivant: 
+
+
+ Alias /blog/ "/home/votre-login/www/dotclear/"
+Directory "/home/votre-login/www/dotclear/"
+    Options Indexes MultiViews FollowSymLinks
+/Directory 
+
+
+ Voila, on va redemarrer apache: 
+
+
+ # /etc/init.d/apache2 restart 
+
+
+ Si tout s'est bien passe, on peut lancer l'installation de Dotclear dans notre navigateur prefere en pointant vers l' URL   http://localhost/blog/install/ 
+
+
+ Repondez aux questions de dotclear; pour le parametrage de la base de donnees MySQL, indiquez  localhost  comme serveur et  dotclear  comme nom de base de donnees. 
+
+
+ Voila, Dotclear est installe: il ne reste plus qu'a rediger votre premier billet  
+
+
+ Rendre votre blog accessible au monde 
+
+
+ Blogguer en local, c'est rigolo 2 minutes, mais ca lasse vite   Nous allons voir quelles sont les solutions qui s'offrent a nous pour rendre notre blog accessible  au monde entier  (tous en choeur: Waaaaaaah): 
+
+ 
+ Si vous disposez d'une adresse IP fixe, il suffit de vous tourner vers un registrar comme  Gandi  ou  OVH,  afin d'y enregistrer un domaine et de le faire pointer vers votre adresse IP. Il faudra declarer ce dernier dans votre fichier  /etc/hosts  afin que le pont se fasse correctement. 
+ Si vous ne disposez pas d'une IP fixe, il faudra alors vous tourner vers un systeme de redirection dynamique comme  DynDNS . 
+ 
+
+ Enfin, n'oubliez pas, si vous utilisez un routeur et/ou un firewall, de le(s) configurer pour accepter les connexions entrantes sur le port 80. 
+
+
+ ENJOY  
+        </text>
+</document>

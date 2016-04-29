@@ -1,0 +1,27 @@
+<document>
+	<date>2006-08-31</date>
+        <title>Feature rigolote de Firefox</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>browsers</tag>
+                <tag>firefox</tag>
+                <tag>tips</tag>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>Decidemment, ce navigateur me surprendra toujours: je viens de constater qu'un clic gauche suivi d'un clic droit sur une page web sans relacher le bouton gauche de la souris avancait d'une page dans l'historique, et l'action inverse (clic droit d'abord puis clic gauche tout en maintenant le bouton droit appuye) provoquait un retour arriere  [ 1 ] . 
+
+
+ Apres, je ne suis pas sur que ce ne soit pas une de mes nombreuses extensions qui gere ca, comme  Mouse Gestures  par exemple. 
+
+
+ Edit :  Effectivement, c'est une fonctionnalite de Mouse Gestures,  documentee ici   
+
+
+ Edit :  M'en fous, ca marche aussi avec  Alt + fleche gauche  et  Alt + fleche droite   
+ Notes 
+ [ 1 ] Mon dieu qu'il est complique de decrire des actions aussi simples avec des mots... 
+ 
+        </text>
+</document>

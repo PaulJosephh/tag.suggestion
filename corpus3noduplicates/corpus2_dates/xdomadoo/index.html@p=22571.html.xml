@@ -1,0 +1,14 @@
+<document>
+	<date>2012-06-08</date>
+        <title>Mise  jour 1.030 pour le Fibaro Home Center 2</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          Une mise a jour importante vient detre deployee pour le controleur  domotique Z-Wave Fibaro Home Center 2   Voici la liste non exhaustive du contenu de cette mise a jour 1.030 :  Possibilite de zoomerlaffichage des cameras IP Ajout dun bouton douverture a distance sur le panneau VideoGate Mise a jour du panneau Historique, mise en page des journaux et  delaffichageameliore et possibilite de choisir la date et heure Nouvel facon de choisir les peripheriques dans le menu deroulant  Ils sont maintenant organise en sections etpieces Rafraichissement automatique de la liste des peripheriques apres modification de parametre Rafraichissement automatique de la liste des peripheriques apres suppression ou ajout de peripherique Certaines valeurs deparametre  Z-Wave Ajout de nouvelles options de notifications sur letat du dispositif Nouvelle possibilite de visualiser et dediter les variables utilisees dans les scenes Ameliorations graphiques de linterface :  boutons elastiques , presentation amelioree dans differents navigateurs Web ,     fenetres pop-up  centrees,  Amelioration de la disposition pour la presentation de   des groupes  dassociation     Ajout de la possibilite de parametrer l intervalle de lecture des donnees de localisation des utilisateurs , dans un calendrier hebdomadaire     Amelioration de la sauvegarde des donnees   dans les panneaux de climatisation et dhumidite       Amelioration de la suppression des zones dalarme  apres la suppression de la zone dalarme , tous les peripheriques de la zone reviennent a lecran principal du panneau de configuration Amelioration de la sauvegarde de la configuration de camera et de la presentation des image sous Internet Explorer Amelioration du   filtrage des peripheriques sur le menu  principal Ajout du support la langue Roumaine Amelioration de lajout de nouvelles valeurs pour les variables predefinies Changements dans les associations  si le  HC2 est  controleur  principal, il est maintenant presente dans la liste des dispositifs et peut etre retire  du groupe d association Correction de lerreur    Fibaro  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,22 @@
+<document>
+	<date>2013-09-09</date>
+        <title>Zipabox : Mise  jour 0.9.986 et 0.9.987</title>
+        <author> Mallory </author>
+        <tags_set>
+                <tag>box</tag>
+                <tag>domotique</tag>
+                <tag>firmware</tag>
+                <tag>z-wave</tag>
+                <tag>zipabox</tag>
+                <tag>zipato</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Moins dun mois apres la derniere mise a jour de la Zipabox Ces deux nouvelles versions apportent principalement des correctifs. Contenu de la version 0.9.987:  Alarme  Correction dun bogue dinitialisation de zone dans une partition. Contenu de la version 0.9.986:  Thermostat  Nenvoie plus plusieurs fois le meme etat aux modules de commande virtuels.      Thermostat  Nouvelles actions Augmenter / Diminuer.  Alarme  Informe des zones invalides.  Alarme  La synchronisation etait desactivee lorsque quune partition etait armee.  RF433  Meilleure compatibilite avec le module  Chacon  RF433  Meilleure compatibilite avec la sonde Oregon WGR800.  RF433  Ajout du support des temperatures negatives.  RF433  Meilleure compatibilite avec le module  Chacon   Z-Wave  Global  Resynchronisation de la date et heure pour les programmations en cas de mise a jour de la date et heure par NTP.   3G On se rapproche doucement de la V1, mais si vous lu  linterview dudirecteur general de Zipato,Sebastian Popovic, realisee par notre partenaire Maison de Geek 
+
+  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

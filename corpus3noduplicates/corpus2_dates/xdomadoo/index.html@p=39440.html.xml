@@ -1,0 +1,25 @@
+<document>
+	<date>2014-07-09</date>
+        <title>Comment restaurer ma box domotique Home Center Lite  ?</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>box domotique</tag>
+                <tag>domotique</tag>
+                <tag>fibaro</tag>
+                <tag>guide</tag>
+                <tag>hc lite</tag>
+                <tag>home center lite</tag>
+                <tag>recovery</tag>
+                <tag>restauration</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Z-Wave</category>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         Si vous possedez une box  domotique Pour realiser une restauration de votre Home Center Lite, maintenez appuye le bouton + situe a larriere de votre box puis appuyez sur le bouton ON/OFF (attention, en cas de restauration, vous perdreztous les modules integres et scenarios crees). Les Leds sallumeront de lexterieur vers linterieur et vice versa indiquant quil sagit du mode restauration, contrairement a un demarrage classique seffectuant de gauche a droite. Apres le demarrage, trois Leds resteront fixes. Rendez-vous sur lapplication  Fibaro Vous etes desormais sur linterface du mode restauration. Celle-ci vous propose 4 options : 1-System Info : Quitter le mode restauration. 2- Repair system : Remet automatiquement votre systeme a la derniere version de son logiciel. 3- Repair from file : Lancement dune reparation depuis un fichier. 4- Recover system :Remet votre systeme a la derniere version de son logiciel. Toutes les donnees dutilisateur seront effacees. Choisissez loption 4 en cliquant sur Recover. Une fenetre de confirmation apparait. Cliquez sur Yes pour confirmer ce mode restauration. La procedure de restauration de votre Home Center Lite debute. Une barre de progression apparait. Lorsque la procedure est completee, patientez un instant pour que le redemarrage de votre box seffectue. Apres le bon redemarrage de votre Home Center Lite, la page affichera desormais Erreur 503 : Server unavailable. Cliquez sur Refresh. Felicitations, vous avez desormais acces a linterface de votre box  domotique  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

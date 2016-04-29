@@ -1,0 +1,121 @@
+<document>
+	<date>2008-07-25</date>
+        <title>Partager la session utilisateur entre Flash/Flex et symfony avec AmfPHP</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>amfphp</tag>
+                <tag>flash</tag>
+                <tag>flex</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Pour les besoins d'un projet recent, j'ai eu besoin de valider la possibilite de gerer l'authentification et l'acces a la session  symfony  (cote serveur) depuis une interface generee par  Adobe Flex  (en Flash, donc cote client). 
+
+
+ Pour cela, j'ai utilise la librairie  AmfPHP  en version  1.9beta2 , certes pas tres recente mais suffisament fonctionnelle pour satisfaire a ce besoin precis. Voyons comment ca se passe concretement. L'avantage de la demonstration ci-dessous est qu'elle ne necessite pas d'installer Flex puisque AmfPHP fournit un navigateur de services (browser) qui nous suffira pour valider notre concept. 
+
+
+ Installation du plugin sfGuard 
+
+
+ Je pars du principe que tout le monde a une installation de symfony 1.1 nanti d'une application  main , ainsi qu'un projet et un virtual host apache fonctionnels pointant sur  local.mademo.org . Si ce n'est pas le cas,  voila de quoi vous mettre a jour . 
+
+
+ On commence par installer le plugin  sfGuard , qui se chargera de la persistance des droits et permissions utilisateurs en base de donnees, et fournira les utilitaires d'authentification et de manipulation de la session cote serveur: 
+
+ 
+$ ./symfony plugin:install sfGuardPlugin
+$ ./symfony propel-build-all
+$ ./symfony cc
+ 
+
+
+ On charge quelques donnees de test dans notre base de donnees nouvellement mise a jour: 
+
+ 
+$ mkdir data/fixtures 
+$ cp plugins/sfGuardPlugin/data/fixtures.yml.sample data/fixtures/fixtures.yml
+$ ./symfony propel:data-load main
+ 
+
+
+ Ce jeu de donnees de test nous fournit par defaut un compte  admin  (mot de passe  admin ) qui nous servira a tester notre service d'authentification. 
+
+
+ Ensuite, il nous faut modifier notre classe  apps/main/lib/myUser.php  gerant la session utilisateur afin qu'elle etende desormais la classe  sfGuardSecurityUser , fournie par le plugin sfGuard: 
+
+  php
+?php
+// Fichier apps/main/lib/myUser.php
+class myUser extends sfGuardSecurityUser
+{
+}
+ 
+
+
+ Installation et configuration d'AmfPHP 
+
+
+ Nous allons installer la librairie AmfPHP dans le sous-repertoire  web/  de notre projet [ 1 ] , et amenager quelque peu notre arborescence pour accueillir les services AmfPHP: 
+
+ 
+$ cd /path/to/project
+$ svn export https://amfphp.svn.sourceforge.net/svnroot/amfphp/tags/1.9beta2 web/amfphp
+$ mkdir lib/amfphp-services
+$ mv web/amfphp/services/amfphp lib/amfphp-services/
+ 
+
+
+ Ceci fait, nous allons editer plusieurs fichiers d'amfphp afin de l'adapter a notre environnement symfony. Tout d'abord, commencons par editer la valeur de la variable  $servicesPath  dans le fichier  web/amfphp/globals.php : 
+
+  php
+?php
+// ...
+$servicesPath = dirname(__FILE__).'/../../lib/amfphp-services/';
+ 
+
+
+ Enfin, il nous faut "patcher" [ 2 ]  le fichier  web/amfphp/core/amf/app/Filters.php , qui initialise la session PHP sans definir le nom de la session. Ici, nous utiliserons le nom de la session symfony par defaut, " symfony " (ligne 105 du fichier): 
+
+  php
+102     //Fix for godaddy not allowing ini_get
+103     $sessionName = "PHPSESSID";
+104   }
+105   session_name('symfony');
+106   session_start();
+107   $session_id = session_id();
+ 
+
+
+ Creation d'un service permettant le partage de la session utilisateur 
+
+
+ Voila, nous pouvons maintenant creer un service de gestion de l'authentification, que nous nommerons pompeusement  UserSessionService  et que nous enregistrerons dans le fichier  lib/amfphp-services/UserSessionService.php : 
+
+ 
+
+
+ Pour tester notre service, utilisons le navigateur de service propose par AmfPHP. Pour cela, il faut lancer un navigateur sur  http://local.mademo.org/amfphp/browser/index.html : 
+
+
+ 
+
+
+ Via cette interface, elle meme realisee en Flex, on peut tester les methodes publiques definies dans notre service, manipuler les arguments, et constater que nous arrivons a nous authentifier et que nous accedons bien a la meme session utilisateur que dans symfony: login, logout et test du statut d'authentification. 
+
+
+ En conclusion 
+
+
+ On pourrait aller beaucoup plus loin dans cet exemple, en proposant par exemple une classe proxy en ActionScript 3 representant un utilisateur du systeme (dans notre cas, une instance de la classe  sfGuardUser ), cette derniere reproduisant tout ou partie de ses methodes et proprietes, et donc d'utiliser l'ORM Propel directement depuis Flash... Je vous laisse faire vos tests si le coeur vous en dit. 
+
+
+ D'autre part, meme si la librairie AmfPHP semble un peu passee au niveau architecture, elle reste neanmoins tres efficace pour publier des services PHP dans Flash au travers du protocole AMF. J'ai eu vent d'autres librairies comme  WebORB  ou  SabreAMF , mais je ne sais pas vraiment ce qu'elles valent... Des avis dans l'assistance? 
+ Notes 
+ [ 1 ] Du coup, on expose certains scripts AmfPHP, mais la librairie n'est malheureusement que prevue pour fonctionner en ce sens... 
+ [ 2 ] Oui, c'est terriblement crade, je ne comprend d'ailleurs pas qu'AmfPHP n'aie pas prevu ce cas de figure... 
+        </text>
+</document>

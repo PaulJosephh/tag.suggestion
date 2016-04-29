@@ -1,0 +1,15 @@
+<document>
+	<date>2008-08-29</date>
+        <title>Wifi ou Wap pour accder  Internet sous Windows Mobile ?</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Galeres</category>
+                <category>Windows Mobile</category>
+        </categories_set>
+        <text>
+                                                 
+Pour configurer une connexion GPRS WAP permettant dacceder a Internet (apres avoir active cette fonctionnalite chez votre operateur prefere, bien entendu), il suffit de faire :  Demarrer  Parametres   Connexions  Configuration reseau Selectionner votre operateur pour configurer les services WAP, MMS, et Internet automatiquement Demarrer  Parametres   Connexions  Connexions    Avances   Selectionner des reseaux Nouveau Les progr. se connectant a Internet automatiquement doivent utiliser ces param.: ConWifi Parametres du proxy Ce reseau se connecte a Internet ok Demarrer  Parametres   Connexions  Connexions    Avances   Selectionner des reseaux Bouygues WAP Settings Les progr. se connectant a Internet automatiquement doivent utiliser ces param.: ConWifi 
+        </text>
+</document>

@@ -1,0 +1,14 @@
+<document>
+	<date>2007-12-15</date>
+        <title>Connatre la liste des dpendances dun excutable : commande ldd</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+        </categories_set>
+        <text>
+                                                Pour connaitre la liste des dependances dun executable, il suffit de taper :
+  ldd 
+        </text>
+</document>

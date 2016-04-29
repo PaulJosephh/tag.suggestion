@@ -1,0 +1,14 @@
+<document>
+	<date>2012-03-06</date>
+        <title>Nouvelle mise  jour eedomus</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          On commence a y etre habitue tous les mois, une nouvelle mise a jour pour la  box domotique eedomus  Cette mise a jour (version 1179) apporte le support de nouveaux peripheriques  Z-Wave   Everspring   Aeon Labs   Aeon Labs   Everspring Z-Wave   Everspring   La  box eedomus Cartelectronic USB Une  application pour le Karotz Planete domotique Karotz eedomus eedomus Karotz RFID   Lequipe  eedomus Z-Wave   Cette nouvelle fonction permet de gerer les parametres dassociation, de configuration, ou meme doptimisation. Meme si son utilisation est plutot reservee aux experts  Z-Wave Les performances  Z-Wave Z-Wave   Sur la page de configuration du module, deux nouveaux champs ont egalement fait leur apparition: laffichage de la date  dajout dun peripherique dans ses parametres, et la possibilite  dajouter des notes a un peripherique. Dautres ameliorations et corrections de bugs ont ete effectues : Ajout dun bouton Editer la programmation pour une utilisation sur tablette Peripherique  HTTP Exploitation possible du canal Mouvement des cameras dans les regles Suppression du canal Lecture de son pour les cameras non Axis Correction de problemes daccents et despaces dans les requetes  HTTP Les icones personnalisees netaient pas sauvegardees pour les affichages par utilisation (ex. eclairage) Correction dun bug: dans certains cas le lever du soleil ne tenait pas compte de la ville selectionnee Possibilite dajouter plusieurs peripheriques de type Traceur GPS (Experimental)  Correction dun bug sur la remontee de lintensite souscrite de la teleinformation  Felicitation a lequipe  eedomus  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

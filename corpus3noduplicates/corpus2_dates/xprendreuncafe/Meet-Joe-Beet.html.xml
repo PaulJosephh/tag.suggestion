@@ -1,0 +1,24 @@
+<document>
+	<date>2008-12-01</date>
+        <title>Meet Joe Beet</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>jobeet</tag>
+                <tag>symfony</tag>
+                <tag>tutorials</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Sorry for the lame title of this blog post, but Im happy enough to announce the immediate availability of both  symfony 1.2   and   Jobeet , the new  symfony advent calendar ! 
+
+
+ Jobeet  It is a set of 24 tutorials, published day-by-day between December 1st and Christmas. Each tutorial is meant to last one hour, and will be the occasion to see the ongoing development of a web application with symfony, from A to Z. 
+
+
+ So dont hesitate to  start reading day one of this great tutorial   
+
+
+ Edit:  I forgot to mention the simultaneous release of the  symfony and Doctrine book   
+        </text>
+</document>

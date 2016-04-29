@@ -1,0 +1,103 @@
+<document>
+	<date>2013-09-24</date>
+        <title>Raspberry Pi se transforme en EnOcean Pi</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>EnOcean</category>
+                <category>Evenements</category>
+                <category>Raspberry PI</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ Presentation : 
+  
+ EnOcean Pi  est un module sans fil qui se connecte aux modules sans pile (ceux-ci sont alimentes par des convertisseurs denergie utilisant un mouvement mecanique, de la lumiere ou des differences de temperature en tant que source denergie.) 
+  
+ 
+  
+ EnOcean Pi possede un module emetteur radio SMD permettant la realisation de passerelle pour des modules EnOcean en 868MHz, 315 MHz, et 902 MHz. Il fournit une interface radio bidirectionnelle et une interface serie bidirectionnelle. Les messages radio sont transmis de maniere transparente a travers linterface serie dans les deux directions a partir de et vers un processeur hote connecte de maniere externe ou un ordinateur hote. 
+  
+ Le nouveau EnOcean Pi est livre avec une connexion pour telecharger  EnOcean Link  qui permettra aux utilisateurs de developper et dintegrer rapidement des applications. 
+Il est disponible en trois versions : EnOcean Pi 868 MHz (Europe, Chine), 315 MHz (Japon, Inde Amerique du Nord) et 902 MHz (Amerique du Nord). Il faudra debourser environ 25 $ soit environ 20-21 . Il est disponible chez  Farnell element14 en Europe . 
+ voici la marche a suivre pour linstaller ( ici). 
+  
+ En conclusion 
+ Claire Doyle chef du Raspberry PI a Element14 a declare que cetait vraiment un moyen innovant pour relier facilement la Framboise aux peripheriques sans pile ni fils les plus avances. Il ouvre la porte a toutes sortes de solutions sans pile qui peuvent contribuer a sauver, surveiller et gerer lenergie et a augmenter le confort ainsi que la securite dans la maison et au travail. 
+  
+ 
+ 
+     
+     
+    
+     
+         
+     
+    
+ 
+ 
+    
+    
+         
+    
+    
+    
+     
+         
+     
+    
+ 
+ 
+    
+    
+         
+    
+    
+    
+     
+         
+     
+    
+ 
+ 
+
+     
+     
+     
+     
+
+    
+         
+    
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

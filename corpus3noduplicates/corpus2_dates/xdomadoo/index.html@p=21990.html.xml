@@ -1,0 +1,16 @@
+<document>
+	<date>2012-03-06</date>
+        <title>Guide dinstallation de linterrupteur sans fil Dwi</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         
+  Linterrupteur sans fil  Z-Wave Il   dispose des boutons permettant de linclure/exclure dans le reseau  Z-Wave Z-Wave 
+    Linterrupteur mural Duwi est fourni avec des piles, son manuel utilisateur, ses accessoires de fixation (carre de scotch double face, vis et chevilles) et ses accessoires de finitions dans le cadre dun kit (reference 05460 ou 05443).   Inserez les piles dans linterrupteur.   Il est necessaire certaines fois de reinitialiser linterrupteur sans fil avant de linclure dans le reseau  Z-Wave Appuyez 5 secondes sur le boutons exclude. La LED clignote Rouge / Vert / Jaune Appuyez 3 fois sur le bouton du haut. La LED clignote plus rapidement. Appuyez 3 fois sur le bouton bas. La LED devient fixe puis seteint.  1. Utilisation sans controleur Linterrupteur sans fil Duwi na pas besoin detre inclus dans un reseau  Z-Wave Z-Wave  Appuyez 3 fois sur le bouton haut de linterrupteur sans fil.   La LED clignote vert.   Mettez le peripherique a associer en mode inclusion. La LED  de linterrupteur reste vert fixe puis seteint. Le peripherique  associe peut maintenant etre commande avec linterrupteur sans fil. Pour  finir, vous pouvez installer linterrupteur ou vous le souhaitez, soit  par lintermediaire des vis ou de la bande de scotch double face  fournis. Fixez le cadre de finition et le bouton.   2. Utilisation avec un controleur (Vera,  HomeSeer eedomus Si le peripherique que vous souhaitez piloter avec linterrupteur sans fil fait deja parti dun reseau  Z-Wave Z-Wave  Mettez votre controleur en mode inclusion, puis appuyez 2 secondes sur le bouton include de linterrupteur sans fil.   La LED sallume verte pour confirmer linclusion.  Linterrupteur faisant desormais parti du reseau  Z-Wave Z-Wave Appuyez 3 fois sur le bouton haut de linterrupteur sans fil.   La LED clignote vert.   Mettez le peripherique a associer en mode inclusion. La LED de linterrupteur reste vert fixe puis seteint. Le peripherique associe peut maintenant etre commande avec linterrupteur sans fil. Pour finir, vous pouvez installer linterrupteur ou vous le souhaitez, soit par lintermediaire des vis ou de la bande de scotch double face fournis. Fixez le cadre de finition et le bouton.   Votre interrupteur sans fil est desormais operationnel pour controler un ou plusieurs autres peripheriques !  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

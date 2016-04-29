@@ -1,0 +1,16 @@
+<document>
+	<date>2014-10-01</date>
+        <title>Login gnome impossible pour un utilisateur</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Galeres</category>
+                <category>Linux</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Si un utilisateur particulier ne peut se connecter a son bureau gnome mais quil peut se connecter en ligne de commande (Ctrl+Alt+F1 par exemple), il est possible quil rencontre des problemes de propriete avec des fichiers de son repertoire  home sudo chown -R     / /  
+        </text>
+</document>

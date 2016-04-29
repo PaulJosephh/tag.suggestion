@@ -1,0 +1,16 @@
+<document>
+	<date>2014-05-14</date>
+        <title>
+XBMC Gotham arrive avec OpenElec 4.0</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Openelec</tag>
+                <tag>Raspberry</tag>
+                <tag>XBMC</tag>
+        </tags_set>
+        <categories_set>
+                <category>Informatique</category>
+        </categories_set>
+        <text>XBMC  est devenu un incontournable dans le domaine des media centers. Je vous avais dailleurs propose plusieurs guides a son sujet, lun deux permettant de se monter  un media center pour 40 a base de Raspberry Pi . XBMC vient detre mis a jour dans une version majeure, puisque nous passons en version 13.0, de son petit nom Gotham. Bonne nouvelle, de nombreuses ameliorations ont ete faites pour fluidifier la navigation, et optimiser le chargement des images et videos sur le micro-PC Raspberry Pi et les smartphones/tablettes fonctionnant sous Android ! Cetait en effet ce qui pechait un peu, linterface pouvait selon certains etre trop lente, meme si la lecture des videos ensuite ne posait aucun probleme. Pour arriver a cela, les decodeurs video et audio ont ete revus. Dautres changements importants font egalement leur apparition, notamment sur la 3D avec la prise en charge des films encodes en 3D SBS, TAB, anaglyphe et entrelace. Toujours pas de lecture Blu-ray 3D et aucun support de lacceleration materielle pour les films en Full SBS/TAB pour le moment, par contre. Autre nouveaute sympa: tous les XBMC sur un meme reseau sont maintenant capables de communiquer. Il est possible par exemple de naviguer dans sa videotheque sur un pc avec XBMC pour lancer la lecture sur un autre pc. Ca tombe bien, jai justement 3 Raspberry avec XBMC :D   Jai du coup proceder a la mise a jour des trois RPI apres avoir fait un test sur lun, car si vous avez suivi mes guides, linstallation est un peu speciale: nous avons un XBMC installe sur Raspberry Pi grace a  OpenElec , avec stockage des couvertures sur cle Usb pour ameliorer la fluidite dans linterface, et une  synchronisation de la collection de films via une base MySQL . Mais la mise a jour, bien que manuelle, sest realisee tres facilement. Si vous utilisez la  synchronisation avec base MySql , il faudra juste veiller a ce que lutilisateur utilise par XBMC ait bien les droits de creation de base, car de nouvelles bases seront creees pour correspondre a la nouvelle version XBMC. Une fois l archive telechargee sur OpenElec , il suffit de la decompresser puis de se rendre dans le dossier target:   Il faudra alors copier les 4 fichiers dans le repertoire Update de votre Raspberry (dossier disponible sur le reseau, donc meme pas besoin de demonter la carte SD):   Une fois cela accompli, il ne reste plus qua redemarrer le Raspberry: la mise a jour se fera automatiquement au demarrage suivant, ou vous verrez apparaitre le nouveau logo:   A lutilisation, linterface semble en effet un peu plus fluide. Vous me direz ce que vous en pensez ! En tout cas lenvoi de la lecture vers differents XBMC est pratique, je peux selectionner le dessin anime dans le salon pour lenvoyer sur la TV des enfants sans avoir a bouger ;-) Pour consulter  la liste complete des nouveautes, cest ici .   Openelec   Raspberry   XBMC 
+        </text>
+</document>

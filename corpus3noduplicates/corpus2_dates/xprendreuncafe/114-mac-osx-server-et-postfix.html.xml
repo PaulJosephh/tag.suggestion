@@ -1,0 +1,58 @@
+<document>
+	<date>2005-05-19</date>
+        <title>Mac OSX Server et Postfix</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>apple</tag>
+                <tag>bug</tag>
+                <tag>mail</tag>
+                <tag>osx</tag>
+                <tag>serveur</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Ca donne ca: 
+
+
+ # postqueue -f  killall smtpd  postfix stop  postfix start
+postix/postfix-script: stopping the Postfix mail system
+postfix/postfix-script: starting the Postfix mail system
+# postqueue -p
+Mail queue is empty
+# ps aux | grep smtpd
+postfix 17218   0.0 -0.0    27600    868  ??  S     2:18PM   0:00.05 smtpd -n sm
+postfix 17220   0.0 -0.0    27600    868  ??  S     2:18PM   0:00.05 smtpd -n sm
+postfix 17222   0.0 -0.0    27600    868  ??  S     2:18PM   0:00.03 smtpd -n sm
+postfix 17225   0.0 -0.0    27600    868  ??  S     2:18PM   0:00.03 smtpd -n sm
+postfix 17226   0.0 -0.0    27600    864  ??  S     2:18PM   0:00.02 smtpd -n sm
+postfix 17229   0.0 -0.0    27600    876  ??  S     2:18PM   0:00.08 smtpd -n sm
+postfix 17236   0.0 -0.0    27600    876  ??  S     2:18PM   0:00.03 smtpd -n sm
+postfix 17242   0.0 -0.0    27600    864  ??  S     2:18PM   0:00.03 smtpd -n sm
+postfix 17243   0.0 -0.0    27600    868  ??  S     2:18PM   0:00.03 smtpd -n sm
+postfix 17244   0.0 -0.0    27600    860  ??  S     2:18PM   0:00.02 smtpd -n sm
+postfix 17245   0.0 -0.0    27600    864  ??  S     2:18PM   0:00.02 smtpd -n sm
+postfix 17246   0.0 -0.0    27600    860  ??  S     2:18PM   0:00.03 smtpd -n sm
+postfix 17247   0.0 -0.0    27600    832  ??  S     2:18PM   0:00.02 smtpd -n sm
+postfix 17248   0.0 -0.0    27600    868  ??  S     2:18PM   0:00.05 smtpd -n sm
+postfix 17251   0.0 -0.0    27600    860  ??  S     2:18PM   0:00.05 smtpd -n sm
+postfix 17252   0.0 -0.0    27600    868  ??  S     2:18PM   0:00.02 smtpd -n sm
+postfix 17253   0.0 -0.0    27600    864  ??  S     2:18PM   0:00.02 smtpd -n sm
+postfix 17254   0.0 -0.0    27600    868  ??  S     2:19PM   0:00.05 smtpd -n sm
+postfix 17255   0.0 -0.0    27600    868  ??  S     2:19PM   0:00.05 smtpd -n sm
+postfix 17257   0.0 -0.0    27600    864  ??  S     2:19PM   0:00.01 smtpd -n sm
+postfix 17286   0.0 -0.0    27600    868  ??  S     2:19PM   0:00.03 smtpd -n sm
+postfix 17288   0.0 -0.0    27600    864  ??  S     2:19PM   0:00.02 smtpd -n sm
+root    17290   0.0 -0.0    18172    336 std  S+    2:19PM   0:00.00 grep smtpd
+# 
+
+
+ Si je refais un  ps aux | grep smtpd  une minute apres, j'ai le double d'instances ouvertes... Et ainsi de suite, jusqu'a plantage. Mon boulot n'est pas l'administration reseau, je fais ca pour  depanner : quelqu'un aurait-il une idee du probleme? Je ne trouve rien sur les forums consacres a Mac OS X...  
+
+
+ HELP 
+
+
+ Edit :  J'ai appelle Apple, car j'ai decouvert que nous avions un contrat  AppleCare Premium (r)(tm) chez eux. Apres avoir perdu  20 minutes  a montrer patte blanche (Numero de serie, numero de licence, date d'achat, numero de contrat AppleCare, Fax de confirmation). Bilan, le mec ne sait pas. Il me rappelle demain matin (???). 
+        </text>
+</document>

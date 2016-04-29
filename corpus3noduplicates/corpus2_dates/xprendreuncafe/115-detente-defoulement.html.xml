@@ -1,0 +1,24 @@
+<document>
+	<date>2005-05-19</date>
+        <title>Dtente &amp; Dfoulement</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>jeu</tag>
+                <tag>linux</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Que faire apres une bonne journee de chiotte au boulot, stressante a souhait? Un  shoot'em up  qui pulse, bien sur. J'ai trouve  XSoldier , et je peux vous le dire: c'est brut, mais  efficace . 
+
+
+ $ sudo apt-get install xsoldier 
+
+
+ 
+
+
+ Note: le boss du level 3, il est chaud! 
+        </text>
+</document>

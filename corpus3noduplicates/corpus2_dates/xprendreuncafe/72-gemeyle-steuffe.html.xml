@@ -1,0 +1,28 @@
+<document>
+	<date>2005-04-15</date>
+        <title>Gmeyle steuffe</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>extensions</tag>
+                <tag>firefox</tag>
+                <tag>gmail</tag>
+                <tag>google</tag>
+                <tag>tips</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text> Voici une petite selection d'outils tiers, trucs et astuces pour  GMail : 
+
+ 
+ Une  astuce pour Firefox  permettant la recherche directe dans ses emails GMail depuis la barre de recherche 
+ GMailIt!  est un bookmarklet permettant d'envoyer un lien vers la page web consultee directement via GMail. 
+ GMailfs , comme son nom l'indique, permet de monter son compte GMail comme point de montage et s'en servir comme unite de stockage distante (linux) 
+ Skinner  son GMail avec sa propre feuille de style? C'est  possible 
+ Virer les pubs texte  dans son GMail 
+ GMail comme  filtre antispam 
+ 
+
+ Et plein d'autres astuces  dans ce billet . 
+        </text>
+</document>

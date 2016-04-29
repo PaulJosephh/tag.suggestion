@@ -1,0 +1,30 @@
+<document>
+	<date>2005-04-24</date>
+        <title>Mais o s'arrtera Google ?</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>google</tag>
+                <tag>securite</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Un nouveau service Google apparu recemment illustre cette  dichotomie [ 1 ] :  Google History , qui n'est ni plus ni moins qu'un service de sauvegarde de son historique des recherches effectuees sur Google - le tout stocke sur les serveurs Google afin de pouvoir recuperer son historique sur n'importe quel ordinateur relie au net. Tout y est: date, heure, referants, sites consultes, durees de consultation... Brrrrr. On imagine aisement quelques chefs d'etat aux velleites totalitaires baver d'envie a l'idee de mettre la main sur la base de donnees dudit service. Et la question est: comment etre surs que cela n'est pas/ne sera jamais le cas? Impossible! Les sources des applications proposees par Google ne sont pas consultables/compilables, impossible donc de s'assurer de ce qui se trame sur les serveurs une fois les requetes envoyees. 
+
+
+ Google serait-il donc en train de prendre le meme chemin que - au hasard total - Microsoft,  obfuscant  toutes leurs technologies (essayez de mater le code source javaScript de GMail, vous comprendrez mieux), et en ne proposant que des frontends aux utilisateurs lesquels seront gentils de ne pas trop poser de questions? 
+
+
+ La reponse est peut-etre dans la page de la  Politique de Confidentialite Google : 
+
+
+ Google peut dans certains cas partager les informations qui vous sont propres avec des annonceurs, des partenaires, des sponsors  et certaines autres tierces parties . Toutefois, cette diffusion porte exclusivement sur des informations globales et generiques: nous nous engageons a ne pas publier d'informations permettant l'identification des personnes sans avoir obtenu au prealable l'accord explicite de celles-ci. Par exemple, nous pourrions indiquer le nombre de visites effectuees par l'utilisateur moyen sur le site de Google, les termes de recherche qui accompagnent le plus souvent le mot Linux  ou le mot cabriolet , etc. Enfin, vous devez etre conscient du fait que nous sommes tenus de reveler vos informations personnelles dans le cadre de procedures legales telles que mandat de perquisition, assignation a comparaitre, decision judiciaire,  etc. 
+
+
+ Ce sont les  certaines tierces parties  et le dernier etcaetera qui me laissent particulierement perplexe. 
+ Notes 
+ [ 1 ] Merci  Mitternacht , en effet : ca rox ^^ 
+ 
+        </text>
+</document>

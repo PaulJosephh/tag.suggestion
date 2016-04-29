@@ -1,0 +1,22 @@
+<document>
+	<date>2013-11-13</date>
+        <title>eedomus : mise  jour de Novembre</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>benext</tag>
+                <tag>eedomus</tag>
+                <tag>enocean</tag>
+                <tag>fibaro</tag>
+                <tag>mise a jour</tag>
+                <tag>trio2sys</tag>
+                <tag>version</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Un peu plus dun mois apres la derniere mise a jour de la eedomus Connected Object La box  domotique eedomus Support de la cle  3G Ethernet Support des onduleurs APC en  USB Support du  module volet roulant Z-Wave FGRM221 Fibaro Support du  Panic watch Z-WaveBeNext Support du  Panic button Z-WaveBeNext Support de la  prise gigogne 1 canal EnOcean Trio2Sys De nombreuses ameliorations ont ete apportees au niveau des notifications, de la gestion de la box et du protocole  Z-Wave HTTP Ameliorations des notifications : Les alertes de perte de communication de peripheriques, de box, de batteries faibles peuvent desormais etre envoyees au choix par Mail/ SMS Lenvoi de notifications sur les smartphones peut etre gere independamment pour les comptes secondaires Un menu permet de Marquer toute les notifications comme lues dans le bandeau des notifications sur le portail Un nouveau bouton permet de supprimer toutes les notifications dans longlet Notifications Dans lhistorique des notifications, les notifications de differents supports sont regroupees en une meme ligne (ex. Mail/ SMS Les notifications doublonnees sont desormais correctement eliminees Un onglet Notifications fait son apparition dans les regles, il permet dafficher les notifications generees par cette regle. Une colonne cachee dans les notifications permet egalement douvrir directement la regle a lorigine de la notification Les sauts de ligne ainsi que certains accents sont maintenant correctement geres dans les notifications push et les Twits La longueur du contenu de la notification est indique en bas a droite dans les regles Notifications Twitter : Il est desormais possible dassocier plusieurs comptes Twitter (En creant des comptes secondaires) Les Twits sont desormais automatiquement tronques a 140 caracteres afin deviter les echecs de publications Gestion du compte : Il est maintenant possible de changer lemail associe a son compte (Configuration du systeme / Mon compte) Il est maintenant possible de lier un autre compte  eedomus Gestion de la box  eedomus Le controleur  Z-Wave La memoire de votre controleur  Z-Wave Il est maintenant possible de supprimer une box de son compte (pour une reinstallation complete, un pret a un ami, ) Securite : La procedure de changement de mot de passe a ete amelioree : un email et un  SMS LAPI serveur peut etre utilise en mode  HTTP HTTP Ameliorations des capteurs  HTTP Les capteurs  HTTP cec Il est possible dignorer les erreurs des capteurs  HTTP HTTP Les capteurs  HTTP Meilleure gestion des POST vides avec les capteurs  HTTP Le testeur dexpression XPATH a ete ameliore Sur le portail, un clic sur la derniere image de camera permet de passer au direct instantanement Ajout de categories dans la liste de vos peripherique pour une lecture facilitee (categories :  EnOcean HTTP Amelioration des performances du ping (notamment quand les equipements reseaux vises ne sont pas joignables) Nouvel usage pour les actionneurs On/Off  Z-Wave Fil pilote Ajout du critere Nest pas en cours de macro dans les regles. Les surveillances intrusion et presence ont ete simplifiees : un seul mode dactivation desormais, le choix des medias de notifications se fait directement dans la programmation. Nouvelle gestion des accents dans les  SMS Ajout dune action sur Desactivation dans la programmation Surveillance presence Utilisation de Google API V3 pour les cartes (Il est maintenant possible de passer du mode plan ou mode satellite) Les icones personnalisees de valeurs de peripheriques pouvaient etre ecrasees quand ces dernieres etaient definies comme Masquees Lequipe de  Connected Object domotique Nhesitez pas a nous faire des retours dutilisation de ces nouvelles fonctionnalites dans les commentaires !  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

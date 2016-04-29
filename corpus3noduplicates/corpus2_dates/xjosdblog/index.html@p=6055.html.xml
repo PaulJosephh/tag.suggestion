@@ -1,0 +1,65 @@
+<document>
+	<date>2014-10-21</date>
+        <title>Quelle architecture pour sa Domotique ?</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+                <category>Eloise</category>
+                <category>Reflexions</category>
+        </categories_set>
+        <text>
+                                                 Problematique 
+ 
+Voila maintenant bientot un an et demi que je me suis lance dans la domotique. Jai debute avec  SynoZwave Vera Lite IPX800 
+ 
+Selon moi, la domotique comporte principalement deux facettes. 
+ 
+ La premiere facette est lIHM ( Interface Homme Machine 
+La seconde facette, que je qualifierais d Intelligence Criteres de choix 
+ 
+Le domaine dapplication de la domotique est vaste. Au sens large du terme, la domotique concerne pratiquement tout ce quil y a delectrique ou delectrifiable dans la maison: les luminaires, les volets roulants, le portail, la porte de garage, larrosage, lalarme, la surveillance, la television, le serveur multimedia, la climatisation, les mesures de consommation electrique, de consommation deau, etc.
+La domotique est un investissement consequent, autant financierement quen terme de temps passe pour tout faire fonctionner. 
+Il est donc important pour perenniser cet investissement de ne pas faire trop derreurs dans ses choix techniques et technologiques. Voici quelques criteres pour obtenir une architecture robuste, flexible, polyvalente et durable. 
+ 
+ 
+ Privilegier des solutions ouvertes de maniere a permettre linteroperabilite Somfy RTS RFXCOM Velux Privilegier des solutions non proprietaires et locales pour la perennite Z-Wave Fibaro Vera Domoticz 
+ Privilegier des modules autonomes  et specialises 
+ Chacun des modules est plus simple a maintenir On peut intervenir sur un module pendant que les autres fonctionnent On peut faire evoluer progressivement ses modules Le plantage dun module nentraine pas le plantage de tout le systeme Quel materiel pour instancier ces criteres? 
+ 
+Voici les choix concrets que jai faits concernant le materiel. Il sagit de choix personnels adaptes autant que possible aux criteres enumeres dans la section precedente. Il ne sagit aucunement des meilleurs choix dans labsolu. Ces choix ne sont pas du tout pertinents si vos criteres sont differents comme, par exemple, si votre objectif est davoir une solution simple, integree, ou clef en main.
+ Domotique sans fil: Z-Wave et Vera Lite 
+Pour le protocole sans fil, jai fait le choix du  Z-Wave Vera Lite ce billet Fibaro Vera Lite Z-Wave Domotique cablee: IPX800 
+La partie filaire est geree par une  IPX800 sur la galere du Z-Wave Z-Wave Z-Wave Systeme dalarme: centrale MyFox Pour lalarme, jai hesite entre une solution  Z-Wave plantage severe plus sure MyFox MyFox 
+
+ Multimedia, stockage, serveur web: NAS Synology 
+ Synology Surveillance: Camera IP 
+Le choix est vaste, il faut eviter les solutions proprietaires (comme  MyFox Mon choix D-Link fiasco Liberez lintelligence de votre domotique! 
+ 
+Comme je lai deja dit au debut de ce billet, lintelligence de la domotique est generalement implementee parce que lon appelle des scenarios. Cest probablement le meilleur moyen pour un utilisateur lambda. Mais si ecrire quelques lignes de code ne vous effraie pas, fuyez les scenarios pour plusieurs raisons:
+ 
+ Ils ne sont pas du tout adaptes a des automatismes complexes Ils sont tres difficiles a maintenir et ne permettent pas une vue globale de lensemble des automatismes Lexclusion puis la re-inclusion dun module contraint a revoir tous les scenarios le concernant, ce qui peut vite devenir un vrai cauchemar Ils ne sont pas portables (dune box a une autre par exemple) 
+Jirai meme plus loin: je pense quil faut completement sortir lintelligence de la box domotique. Cela veut dire quelle doit fonctionner sur un autre support (Privilegier des modules autonomes et specialises). Les benefices et la liberte apportes par une telle strategie sont importants:
+ 
+ Le code developpe devient ainsi beaucoup moins dependant de la box (solutions non proprietaires et locales pour la perennite). Cette strategie rend le changement de box bien plus aise. Il devient plus facile de developper proprement (en utilisant des librairies ou des modules). Il devient possible de developper dans le langage de son choix et en installant les librairies de son choix. Proposition darchitecture 
+ 
+Le schema ci-dessus illustre larchitecture vers laquelle je moriente actuellement. Ce schema montre bien les trois ecosystemes de modules domotique qui cohabitent: les modules  Z-Wave MyFox 
+Ce schema distingue bien les principaux niveaux qui composent cette architecture:
+ 
+ LIHM, personnellement, jutilise actuellement  Imperihome Les controleurs (qui ne doivent servir que de passerelle vers leur technologie associee) Les autres dispositifs IP qui composent le systeme (NAS, Cameras IP, Box Internet) Lintelligence qui permet de programmer tous les automatismes et de coordonner tout ce beau petit monde 
+Les elements constitutifs de ces niveaux communiquent grace a leur connexion reseau (WiFi ou Ethernet). Sur le schema, je nai fait apparaitre que les connexions materialisant les principaux flux entre les niveaux.
+ 
+Je pense que cette architecture permet de concevoir un ensemble modulaire, flexible, robuste et constitue un gage de perennite. Ces choix permettent enfin de concentrer son effort de developpement sur la partie qui me parait la plus importante et la plus interessante: l intelligence de sa domotique 
+ Remarque: GuiguiAbloc []lIHM est mal positionnee. Elle doit discuter avec le cerveau, pas avec une box[] Imperihome Externaliser lintelligence de sa domotique 
+ 
+Comment externaliser lintelligence de sa domotique?
+ 
+ Il faut un environnement capable de recevoir des requetes HTTP. En fait, il faut retrouver lequivalent du  handler luup.register_handler Luup Vera Lite Il faut un environnement qui permette la mise en place de  timers call_delay call_timer Luup Vera Lite 
+Je mattelle actuellement a la tache de liberer mes 4000 lignes de code Luup de la  Vera Lite 
+ Lintelligence de la domotique sera implementee sur un  Raspberry pi Je vais rester sur le langage  Lua Pour recevoir des requetes HTTP jai choisi de mettre en uvre le serveur web  WSAPI-Xavante Pour les  timers cron.lua Micasaverde guide tres complet Polling Vera Informations et sources 
+ 
+ Sommaire Domotique 
+        </text>
+</document>

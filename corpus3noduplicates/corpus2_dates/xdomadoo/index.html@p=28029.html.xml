@@ -1,0 +1,16 @@
+<document>
+	<date>2013-09-26</date>
+        <title>Homeseer + Raspberry Pi = Hometroller-Zee !</title>
+        <author> Cdric L. </author>
+        <tags_set>
+                <tag>Homeseer</tag>
+                <tag>Raspberry Pi</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Homeseer domotique A lorigine, le logiciel devait etre installe sur un ordinateur tournant sous Windows. En 2011,  Homeseer domotique Homeseer Homeseer Pour les connaisseurs, les caracteristiques techniques et les photos ne trompent personne: CPU: 700 MHz RAM: 512 MB Stockage: 4 GB SD 2  USB LAN Port HDMI Composite Video Port Audio Out Port: 3.5mm jack Z-Wave USB AC Power Adapter: c(UL)us approved, 100-240v, 50/60Hz in, 5v 1a out Dimensions: 113mm x 97mm x 27mm Power usage: 3 watts Homeseer meme boitier pour Raspberry Pi ici Ce mini PC tournant sous  Linux Z-Wave Aeon Labs Homeseer Linux  Cette version disposera de toutes les possibilites connues de  Homeseer Z-Wave Par rapport a la version 2 de  Homeseer nouveaux menus et nouvelle navigation nouveau systeme de creation de regles possibilite de creer des groupes de scenarios possibilite de grouper des peripheriques personnalisation des images des peripheriques support de plusieurs reseaux  Z-Wave nouveaux compteurs: pour compter automatiquement le nombre douvertures, le nombre de depassements de puissance electrique, etc nouveau module de mise a jour nouvelle gestion des logs, avec possibilite de faire des recherches et une nouveaute que beaucoup apprecieront: une nouvelle vue temps reel des peripheriques, sous forme de plan interactif totalement personnalisable  Ce Hometroller-Zee sannonce particulierement interessant pour plusieurs raisons: le fait dutiliser un dongle  Z-Wave son prix en adequation avec les box  domotique si on deduit le prix du Raspberry Pi (40$) et le prix du dongle  Z-Wave Homeseer les possibilites de  Homeseer Le seul point negatif actuellement:  Homeseer tableau comparatif quon peut voir ici Une solution a surveiller de pres, qui pourrait bien venir bousculer encore un peu le monde des box  domotique  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

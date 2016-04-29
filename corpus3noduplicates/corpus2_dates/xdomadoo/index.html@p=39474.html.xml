@@ -1,0 +1,23 @@
+<document>
+	<date>2014-07-03</date>
+        <title>JEEDOM, la solution domotique open source idale ?</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>box domotique</tag>
+                <tag>domotique</tag>
+                <tag>jeedom</tag>
+                <tag>linux</tag>
+                <tag>logiciel</tag>
+                <tag>open source</tag>
+                <tag>Raspberry Pi</tag>
+                <tag>RFXCOM</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Jeedom</category>
+        </categories_set>
+        <text>
+                                                         JEEDOM domotique JEEDOM JEEDOM domotique Presentation Ce projet est ne de la collaboration de deux passionnes de  domotique blog domotique En plus detre Open Source et gratuit, le logiciel  JEEDOM JEEDOM Nous suivons ce projet depuis plusieurs mois deja et sommes fiers detre devenus partenaires et sponsors de  JEEDOM Le logiciel JEEDOM Le logiciel etant OpenSource, il est possible de linstaller sur nimporte quelle plateforme  Linux cec Differents protocoles  domotique JEEDOM JEEDOM Z-Wave RFXcom EnOcean domotique Certains plugins sont tres utilescomme par exemple la meteo qui permet de prendre en compte les donnees exterieures et de pouvoir les inclure dans les scenarios. Dautres permettent dameliorer la securite, comme le plugin camera, ou le plugin code pin interface. Facile dutilisation, meme les debutants peuvent configurer facilement le logiciel  JEEDOM Outre son visuel plutot sympathique et design, linterface est tout aussi ludique et facile dutilisation. Plusieurs widgetssont accessibles depuis le dashboard. Entierement personnalisables, ces widgets sont des representations graphiques demodules. Lutilisateur peut donc visualiser ou controler ses modules directement depuis son dashboard. Ilpeut aussi hierarchiser les pieces de sa maisonetainsi voir facilement les informations percues par ses modules, piece par piece. Lajout de logo personnalisable facilite aussi la comprehension. Toute bonne solution  domotique JEEDOM Les box JEEDOM Apres avoir vu la partie logicielle, penchons nous sur la partie materielle. Autant si vous etes un peu bricoleur, vous pouvez vous meme monter votre propre box  domotique La box  domotique module Z-Wave RaZberry domotique Z-Wave Plus tard viendra la JEEDOM Center qui quand a elle a ete developpee pour etre la box  domotique De base, JEEDOM Center sera compatible  Z-Wave USB 3G RFXCOM ENOCEAN cec Si jamais 4 ports  USB USB De base la box sera equipee de quelques fonctions (en plus du  Z-Wave 2 Borniers pour sortie contact sec (pour une sirene filaire par exemple). Une alimentation secourue sur batterie, avec indication de perte secteur et de niveau de batterie. Un emplacement pour un disque dur SATA 2.5, pour une utilisation future comme  NAS Differentes connectiques  RJ45 Bref comme vous pouvez le voir, beaucoup de fonctionnalites interessantes qui nexistent pas sur les box  domotique Pour conclure JEEDOM est un projet  domotique domotique Ils ont compris que lOpen Source etait important puisque cela permet de federer une communaute dutilisateurs.Les amateurs de  domotique Cec Sur le papier, JEEDOM fait rever, alors pourquoi ne pas lessayer gratuitement ? Si vous etes equipe dun Raspberry Pi, vous trouverez la procedure dinstallation ici Nous vous invitons egalement a suivre le  forum JEEDOM  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

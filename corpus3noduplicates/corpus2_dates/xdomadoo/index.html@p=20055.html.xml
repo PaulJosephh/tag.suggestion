@@ -1,0 +1,14 @@
+<document>
+	<date>2009-09-02</date>
+        <title>Guide dactivation de la licence mControl</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels mControl</category>
+        </categories_set>
+        <text>
+                                                         Le logiciel mControl necessite une licence pour fonctionner. Celle-ci doit egalement etre activee pour permettre dutiliser mControl. Ce guide va ainsi vous expliquer comment activer cette licence. 1. Copiez le fichier  mServer.exe.lic 2. Redemarrez lordinateur et lancez mControl Editor. 3. La licence peut ensuite etre activee de plusieurs manieres, mais la plus simple est de passer par  mControl Editor. Cl iquez alors sur longlet About.  4. Si vous etes connecte a Internet, cliquez sur Auto Activate. Sinon, cliquez sur Manual Activate et faites une demande dactivation par mail aupres du fabricant. Une cle dactivation vous sera envoyee en retour. Lactivation de mControl est maintenant terminee. Le logiciel peut etre desormais utilise pleinement. Vous pouvez consulter notre  guide dutilisation de mControl   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

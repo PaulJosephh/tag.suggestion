@@ -1,0 +1,14 @@
+<document>
+	<date>2013-03-29</date>
+        <title>Le Fibaro Home Center 2 reoit une mise  jour importante</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          Apres plusieurs mois dattente, et plusieurs versions Beta, la grosse mise a jour annoncee par  Fibaro   Voici donc la liste des ameliorations et correctifs qui ont ete apportes:  Nouvelle architecture, plus rapide, le moteur a ete totalement revu Interface de configuration repensee, et beaucoup plus rapide Communication plus rapide avec le reseau  Z-Wave Envoi des ordres plus rapide depuis lapplication iOS Execution des scenes plus rapides Ajout du support et du debug des scripts Lua Conversion automatique des scenes sous forme de blocs en scripts Lua Envoi de notifications par  SMS Integration des alarmes  Satel Ajout du support de nouveaux types de peripheriques Nouveau panneau energie et support des peripheriques supportant le monitoring Nouvelles interfaces mobile Possibilite dutiliser la consommation denergie comme condition dans les scenes Nouvelles options dans les cameras video Nouvel onglet de configuration Z-Wave Nouvelle fenetre dinclusion, avec plus de detail sur les etapes de configuration Support des intercoms Helios Panneau  VoIP Barre dinformation tout en haut de lecran, et nouveau tableau de bord configurable Nouveau panneau concernant larrosage Affichage des cameras sur le tableau de bord (plus besoin dentrer dans la configuration pour voir limage) Possibilite dajouter manuellement la consommation denergie pour les peripheriques ne supportant pas le monitoring, et possibilite de les utiliser dans le suivi energetique Support de nouveaux peripheriques  Z-Wave Ecran de creation de scenes modifie Nouvelle version des peripheriques virtuels: un bouton ou un slider peut maintenant executer du script Lua Modification de lecran de configuration Plus de 3000 bugs corriges et ameliorations Avec la sortie de son  module Wall Plug Fibaro  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,56 @@
+<document>
+	<date>2005-08-24</date>
+        <title>Nouvelles du front</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>haha</tag>
+                <tag>matos</tag>
+                <tag>myself</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text> Rapidement, car mon nouveau boulot m'accapare beaucoup, voici les derniere nouvelles du front: 
+
+ 
+ Google sort un  client de messagerie instantanee  (Windows) base sur  Jabber  et le protocole libre  XMPP . C'est une excellente nouvelle pour les utilisateurs, et un nouvel element d'inquietude pour Microsoft et ses copains aux technos/standards fermes. Il suffit d' ouvrir  ou de disposer d'un compte  GMail  pour beneficier automatiquement du service, egalement accessible depuis d'autres clients jabber (gaim, psi, adium, etc.) moyennant un  parametrage specifique . 
+ 
+ 
+ A l' instar de Mauriz , j'ai fait l'acquisition d'un nouveau laptop, en l'occurence un  Asus V6VA20 .  Ubuntu Breezy Colony 3  s'y installe tres bien et gere parfaitement toutes les fonctionnalites offertes par ce tres bon (et beau) portable, notamment l'indispensable  acpi . 
+ 
+ 
+ D'ailleurs, Breezy (et Gnome 2.12 beta) avancent fort, les fonctionnalites offertes sont vraiment impressionnantes! J'espere avoir le temps de faire un billet la-dessus tres prochainement. N'oubliez pas cependant que c'est une version en developpement tres instable, a ne pas installer si on est pas sur de ce que l'on fait... 
+ 
+ 
+ L'avenir de l'informatique passera t-il par  Keya ? Seul l'avenir, le FBI et la NASA nous le diront (via  JHLP ). Enorme. 
+ 
+
+ Edition du matin 
+
+
+ Si tu: 
+
+ 
+ cherches du boulot, 
+ es developpeur PHP, a l'aise avec la conception objet, 
+ que tu connais mysql, 
+ sais (et aime) travailler en equipe (CVS, bugzilla, etc.), 
+ sais ce qu'est un moteur de templates, 
+ sais ce qu'est l'abstraction des donnees, 
+ 
+
+ et qu'eventuellement tu: 
+
+ 
+ connais un peu java, 
+ connais Oracle, 
+ es a l'aise avec les standards web notamment  XHTML    CSS  2, 
+ connais  AJAX   [ 1 ] , 
+ 
+
+ ... alors contacte-moi  par mail , j'ai peut-etre quelque chose a te proposer (sur Paris)  
+ Notes 
+ [ 1 ] non, ce n'est pas un poste de technicien de surface  
+ 
+        </text>
+</document>

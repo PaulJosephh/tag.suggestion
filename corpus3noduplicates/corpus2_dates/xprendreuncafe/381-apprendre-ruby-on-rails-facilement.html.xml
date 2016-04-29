@@ -1,0 +1,30 @@
+<document>
+	<date>2006-01-20</date>
+        <title>Apprendre Ruby on Rails facilement</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>framework</tag>
+                <tag>livre</tag>
+                <tag>rails</tag>
+                <tag>ruby</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ruby</category>
+        </categories_set>
+        <text>[ Via  Typhon weblog  ] 
+
+
+ J'ai entre les mains l'un des petits derniers des editions  Eyrolles  - decidemment tres productifs ces temps-ci -  Ruby on Rails . C'est la traduction francaise du fort repute  Agile Web Development with Rails  initialement ecrit par Dave Thomas et David Heinemeier Hansson (ni plus ni moins que l'auteur du framework). 
+
+
+ Le livre est une mine d'informations illustree d'exemples pratiques notamment par le biais de la realisation d'une boutique en ligne en tres peu de temps et d'operations. L'ouvrage est clair, accessible, exhaustif et bourre d'humour. On y trouve une des meilleures introduction au design pattern  MVC  que j'ai pu lire, une reflexion pertinente sur les methodologies de developpement ainsi qu'un referentiel complet des fonctions usuelles Ruby/Rails. 
+
+
+ Cerise sur le gateau, un partenariat avec l'hebergeur  Typhon  a ete etabli afin de proposer une reduction de 50% sur leur offre d'hegergement  Decouverte Rails  pour tout acheteur du livre. 
+
+
+ Si vous vous interessez de pres ou de loin a  Ruby  et plus particulierement a  Rails , vous pouvez acheter l'ouvrage les yeux fermes  
+        </text>
+</document>

@@ -1,0 +1,35 @@
+<document>
+	<date>2006-09-28</date>
+        <title>iThunes</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>apple</tag>
+                <tag>formats</tag>
+                <tag>grumph</tag>
+                <tag>ipod</tag>
+                <tag>itunes</tag>
+                <tag>linux</tag>
+                <tag>musique</tag>
+                <tag>myself</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Il y a quelques temps de ca, j'ai gagne un  iPod nano  a l'occasion d'un concours lance sur  Scoopeo . Je ne m'en etais pas servi de facon feroce jusqu'a present puisque je disposais d'un autre lecteur mp3 qui me satisfaisait. Ce dernier ayant ete accapare par ma dulcinee, j'ai donc tout naturellement commence a utiliser en remplacement le joujou blanc et son copain, iTunes. Ca c'est pas bien passe. 
+
+
+ Je vous raconte. Etant la plupart du temps sous  Ubuntu Linux , j'ai pris l'habitude de gerer ma bibliotheque musicale et la synchronisation de cette derniere avec mes appareils par le biais du logiciel  Banshee   [ 1 ]  - que je vous recommande chaudement soit dit en passant. Mais voila, la vie n'est pas toujours rigolote et parfois il faut, pour le travail, travailler sous Windows. C'est mon cas actuellement et possedant un produit Apple, je me suis naivement dit qu'il n'etait pas saugrenu d'utiliser un logiciel Apple pour en gerer la bibliotheque musicale. Je telecharge donc la derniere version d' iTunes , j'installe la bete et je branche mon iPod afin d'en recuperer le contenu sous Windows. 
+
+
+ Et la, c'est le drame. 
+
+
+ Synchronisation de l'iPod, ne pas deconnecter... , me raconte la barre informative du logiciel... qui tente d'emblee de synchroniser un PC vide avec un iPod plein. Dois-je vous faire un dessin?  Cet abruti d'iTunes a juge bon de supprimer tous les fichiers presents sur le baladeur !   [ 2 ] 
+
+
+ Par contre, il n'a pas oublie de creer un joli repertoire vide  Achats , peut-etre afin de m'inciter a passer par l' iThunes  iTunes Music Store pour acheter de quoi gaver le glouton bestiau...  Ca m'exaspere ! 
+ Notes 
+ [ 1 ] Marche nickel avec l'iPod, d'ailleurs 
+ [ 2 ] Bon, en meme temps mes fichiers originaux ne sont pas perdus, puisqu'ils sont chez moi. Mais tout de meme ! 
+        </text>
+</document>

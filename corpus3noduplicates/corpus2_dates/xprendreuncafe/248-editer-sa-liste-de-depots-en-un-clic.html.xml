@@ -1,0 +1,54 @@
+<document>
+	<date>2005-08-16</date>
+        <title>diter sa liste de dpts en un clic</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>tips</tag>
+                <tag>tutoriel</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>C'est bien connu, les astuces les plus simples sont parfois les plus pratiques au quotidien, et si comme moi il vous arrive frequemment d'avoir a jongler entre les  differents depots disponibles pour Ubuntu  et que vous n'etes pas un fan absolu de l' interface de gestion de ces derniers via Synaptic , voici une astuce toute simple qui vous permettra en un clic d'editer votre fichier  /etc/apt/sources.list  (le fichier contenant la liste des depots de paquets Ubuntu). 
+
+
+ Tout d'abord, il vous faut disposer de  SMEG , un editeur de menus Gnome fort pratique, dont l'installation a ete decrite  dans ce billet . Vous pouvez egalement ajouter les  backports Hoary  dans lesquels est disponible SMEG depuis peu. 
+
+
+ Une fois SMEG installe, lancez-le via  Applications  Outils Systeme  Smeg Menu Editor  et placez-vous dans la categorie  Outils Systeme  et ajoutez une nouvelle entree de menu en cliquant sur  New Entry , comme dans la capture ci-dessous: 
+
+
+ 
+
+
+ Saisissez les informations suivantes dans la fenetre de saisie du nouveau racourci: 
+
+
+ Name:          Editer le fichier sources.list
+Comment:        Permet d'editer votre fichier de depots en tant que superutilisateur
+Command:         gksudo "gedit /etc/apt/sources.list" 
+Icon:           Choisissez une icone parlante, par exemple  usr/share/pixmaps/gedit-icon.png 
+
+
+ Cela devrait donner a peu pres ceci: 
+
+
+ 
+
+
+ Cliquer sur  Valider , puis fermez SMEG. Vous devriez obtenir une nouvelle entree de menu sous  Applications  Outils Systeme  Editer le fichier sources.list , et un clic dessus vous demandera votre mot de passe superutilisateur (le meme que votre compte principal) et ouvrira le fichier de depots en lecture/ecriture avec gedit, fichier que vous pourrez desormais modifier a loisir. 
+
+
+ Notez enfin que vous pouvez tout a fait utiliser un autre editeur de texte que gedit, comme jEdit, SciTE ou gVim: pour cela, il vous suffit de remplacer  gedit  par le nom du programme a utiliser dans la commande d'ouverture. Par exemple,  gksudo "jedit /etc/apt/sources.list"   
+
+
+ Attention:   la modification de la liste des depots doit se faire en  parfaite connaissance de cause , elle peut entrainer une instabilite du systeme en cas d'utilisation inapropriee. 
+
+
+ Edit:   Vous pouvez bien entendu utiliser cette astuce pour editer en un clic d'autres fichiers de configuration du systeme, comme  /etc/X11/xorg.conf ,  /etc/hosts ,  /etc/apache2/sites-available/default , etc... 
+
+
+ 
+        </text>
+</document>

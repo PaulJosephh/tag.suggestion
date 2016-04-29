@@ -1,0 +1,28 @@
+<document>
+	<date>2015-03-13</date>
+        <title>Guide dutilisation des camras IP Ebode avec la base domotique Homelive dOrange</title>
+        <author> Pedro </author>
+        <tags_set>
+                <tag>camera IP</tag>
+                <tag>domotique</tag>
+                <tag>ebode</tag>
+                <tag>guide</tag>
+                <tag>homelive</tag>
+                <tag>ipv38</tag>
+                <tag>orange</tag>
+                <tag>tuto</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Homelive</category>
+        </categories_set>
+        <text>
+                                                         La base  domotique Orange 1. Installation A partir du portail Homelive ( http://homelive.orange.fr/accueil/ Orange Une fois sur le portail, rendez-vous dans cameras puis + ajouter une camera. Une liste de peripheriques soffre a vous. Choisissez  Camera IP generic .  Brancher le cable  Ethernet Brancher ensuite la camera sur une prise secteur. La camera doit etre automatiquement reconnu en moins de 5 min.Si cest le cas, la cameraapparait dans votre interface. Il faudra lui donner un nom, selectionner une piece puis cliquer sur  Terminer . Si au bout de 5 minutes votre camera nest toujours pas reconnue, veuillez debrancher puis rebrancher le cable dalimentation secteur puis attendre de nouveau jusqua 5 minutes.Sinon vous pouvez linstaller manuellement en cliquant sur  Installation manuelle de la camera (Utilisateur avance)  puis saisir la configuration de celle-ci et enfin cliquer sur  suivant . Remplissez les differents champs. Il faut nommer la camera, selectionner son type (Vistacam SD/PT) puis saisir son adresse IP. Pour retrouver son adresse IP sur votre reseau, il va falloir utiliser un soft de detection dadresse IP. Pour cela vous pouvez: Cliquez sur Voir la liste des appareils reseau tout en bas de la page. Tout vos appareils IP sont alors detectes. Pour savoir lequel est votre camera, il suffit de regarder ladresse MAC situee sous celle-ci (MAC ID). Vous retrouverez cette adresse dans la liste ainsi que ladresse IP associe. Cliquez sur ajouter. Le champ adresse IP est automatiquement remplis. Sinon utiliser le soft fourni par Ebode et disponible sur le CD dinstallation fourni avec la camera, IP camera Tool. Ce logiciel permet didentifier uniquement les camera Ebode sur votre reseau. Sinon en sniffeur dIP plus generalistes:
+ Sur windows, je vous recommande advanced IP scanner: http Sur Mac, IP scanner: http apple Renseignez ensuitele nom dutilisateur et mot de passe. Si vous navez jamais configure votre camera Ebode auparavant, il faudra mettre en nom dutilisateur admin, et laisser le champs mot de passe vide. Pour finir choisir la piece dans laquelle sera place votre camera et cliquer sur suivant. Une image du champ de vision de la camera doit alors apparaitre. Cliquez sur suivant. Une fois inclue, vous pouvez retrouver votre camera dans  Objets connectes .En cliquant dessus, on va pouvoir modifier son nom, la piece dans laquelle elle se trouve, voir dans quel(s) scenario(s) elle est utilisee et la supprimer. Il est egalement possible davoirla video en direct, realiser des photos ou un enregistrement video dans  Camera . 2.Scenario On va maintenant pouvoir creer des scenarios. Pour cela on se rend dans longlet  scenarios  puis  + creer un scenario  en haut a droite. On imagine un scenario ou la camera effectue un enregistrement video lorsquune intrusion a lieu. Jutilisedonc un detecteur douverture (prealablement inclus). Je le selectionne en tant que declencheur. On selectionne un evenement declencheur, par exemple,  la porte/fenetre est ouverte  puis on enregistre letape. On peut alors choisir un autre declencheur ou passer a letape 2.La on ajoute une action immediate si on veut que laction se declenche des que le capteur est active, ou differee si on veut attendre un certain temps. Jintegre donc la camera IP Ebode. On choisit laction queffectuera la camera. Ici jai choisi quelle realise un enregistrement video de 20 secondes. Puis on enregistre cette etape et on passe a letape 3. A letape 3,  on finalise le scenario en choisissant dans quel(s) mode(s) le scenario va devoir senclencher ainsi que les personnes a avertir. Enfin on peut choisir de notifier des personnes par mail lorsque le scenario senclenche. Pour ce faire, cliquez sur: Puis rentrer ladresse mail desiree. On nomme ensuite le scenario, et on enregistre. Il possible de tester celui-ci en cliquant sur  tester  une fois la configuration terminee. Ce nest bien sur quun exemple de scenario. Vous avez pu voir que la creation de celui-ci a ete tres simple. Plus vous possederez de peripheriques, plus les possibilites de creation de scenarios seront variees. Vous pourrez retrouver  la gamme de cameras IP Ebode sur la boutique Domadoo  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Guide dutilisation du detecteur de fumee Fibaro FGSS-001 avec la base domotique Homelive dOrange 
+ Guide dutilisation de la prise murale Fibaro FGWPE-101 avec la base domotique Homelive dOrange 
+ Guide dutilisation du detecteur douverture Fibaro FGK-101 avec la base domotique Homelive dOrange 
+ Homelive  Guide dutilisation du repeteur Z-Wave DSD37 dAeon Labs END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,50 @@
+<document>
+	<date>2013-06-26</date>
+        <title>Synology : Scurisation de lalimentation et notification du passage sur onduleur (Server is on battery)</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>FreeBox</category>
+                <category>Synology</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Ce billet decrit comment securiser lalimentation dun  NAS Synology NAS Synology Branchements sur londuleur 
+ 
+ 
+ 
+Bien entendu, pour que le courriel puisse etre envoye avant que le courant ne revienne, il faut que le  NAS Synology Freebox serveur Freebox serveur Freebox TV Freeplug Freeplug i.e. Freebox serveur comme celle-ci par exemple Freebox serveur NAS Synology 
+La connexion USB entre londuleur et le  NAS Synology Panneau de configuration  Materiel  UPS Activer la prise en charge UPS 
+Il est egalement important que le NAS redemarre automatiquement lorsque le courant revient. Pour cela, se rendre dans  Panneau de configuration  Materiel  General Redemarrer automatiquement apres une panne de courant Mise en place de la notification 
+ 
+ 
+ Installer  Syslog Server Centre de paquets Parametrer le Syslog Server: 
+ Syslog Server  Parametres serveur  Activer le serveur Syslog Selectionner lemplacement pour stocker la base de donnees Syslog Server Exporter le certificat Poursuivre le parametrage comme sur limage ci-dessous Cliquer sur  Appliquer 
+ 
+ 
+ 
+ Dans  Syslog Server  Notification Le mot-cle comprend Saisir le mot  battery Server is on battery Saisir le mot  online Server back online Cliquer sur  Appliquer 
+ 
+ 
+ 
+ Dans  Panneau de configuration  Syslog  Parametres 
+ Cocher  Activer le client Syslog Saisir lip du Synology dans  Serveur puis  514 Port puis  TCP Protocole de transfert Puis cocher  Activer la connexion securisee (SSL Importer le certificat (qui a ete exporte plus haut) Envoyer un journal de test Cliquer sur  Appliquer 
+ 
+ 
+Il ne reste plus qua debrancher votre onduleur pour tester:
+ 
+ 
+ 
+ En esperant que ce type de notification soit integree nativement au Synology par la suite! Remarques 
+ 
+ Remarque1: Activer les notifications des appareils mobiles Panneau de configuration  Notification  Service Push DS finder 
+ Remarque2: 
+ 
+Shopping:  Alimentation Transformateur Chargeur 12V 5A 60W adaptee Alimentation Transformateur Chargeur 12V 5A 60W utilisable Notification Par Mail Lors Du Passage Ups Sur Batterie Email notification about UPS power supply 
+ Sommaire Domotique 
+        </text>
+</document>

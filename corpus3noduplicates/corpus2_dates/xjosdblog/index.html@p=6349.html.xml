@@ -1,0 +1,34 @@
+<document>
+	<date>2015-02-21</date>
+        <title>Vera Lite : de UI5  UI7</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Vera</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                 Pourquoi ? 
+ 
+Jai decide de franchir le pas et d upgrader Vera Lite 
+ Pour beneficier des mises a jours des derniers firmwares Pour repartir sur des bases saines (un probleme fait redemarrer ma Vera Lite 1 a 4 fois toutes les nuits entre 2 et 3h du matin) Pour pouvoir utiliser des modules Z-Wave recents ( Detecteur Fibaro FGSD-002 
+Le programme est donc de passer sous UI7 en faisant un retour aux valeurs dusine, puis de reassocier/configurer tous les modules. Heureusement, pas de scenario ni de trigger a refaire puisque jai  externalise les automatismes Vera Lite Mise en uvre 
+Je nai pas vraiment trouve la page explicitant la procedure, peut-etre  celle ci 
+ Lets find your Vera Vera Lite Next  Se connecter en local sur sa Vera et verifier si le firmware est bien a jour ( SETTINGS Firmware Dans mon cas, il y a bien eu mise a jours en UI7, mais pas vers la derniere version.
+Jai donc demande une nouvelle mise a jour vers la derniere version (1.7.513). Encore 15 minutes. Il est maintenant temps de  creer un nouveau compte Le  factory reset Settings Backup Reset to Default Settings Z-Wave Settings Advanced Reset Z-Wave network Plus qua reassocier les modules Processus de reassociation 
+ 
+Pour reassocier proprement, le mieux est de proceder au petit rituel suivant pour chacun des modules Z-Wave:
+ 
+ Procedure dexclusion Reinitialisation complete ( factory reset Procedure dinclusion Verification que le module fonctionne bien dans les deux sens (UI7 Module et Module UI7) 
+Voici les devices qui ont ete reconnus sans poser de probleme par UI7 (firmware 1.7.513):
+ 
+ Detecteur dinondation Z-Wave Fibaro FGFS-101 Detecteur de mouvement multifonctions Z-Wave Fibaro FGMS-001 MultiSensor DSB05 by Aeon Labs Detecteur Universel Z-Wave Fibaro FGBS321 Prises Everspring AN158  actionneur On/Off avec mesure de la consommation Prises Everspring AN157  simple actionneur On/Off Prises Everspring AD142  gradateur Prises Fibaro Wall Plug Plugin  Plugin Virtual ON/OFF Switches MiOS Apps 
+Voici ceux qui ont ete un peu recalcitrants et ont necessites de multiples inclusions,exclusions et reinitialisations:
+ 
+ Detecteur douverture Z-Wave Fibaro FGK-101 Detecteur de fumee Z-Wave Fibaro Smoke Sensor FGSS-001 
+ Thermostat Z-Wave Secure SCS317 et SSR303: La communication UI7 SCS317 ne fonctionne pas bien. Detecteur de fumee Z-Wave Fibaro Smoke Detector FGSD-002, une fois declenche, il reste  tripped Multisensor Gen5 by Aeon Labs: pas de detection de mouvement 
+        </text>
+</document>

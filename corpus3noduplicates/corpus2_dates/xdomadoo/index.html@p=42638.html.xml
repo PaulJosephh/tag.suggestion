@@ -1,0 +1,23 @@
+<document>
+	<date>2014-11-28</date>
+        <title>Jeedom  Guide dutilisation du dtecteur douverture EnOcean Nodon</title>
+        <author> Algeroth </author>
+        <tags_set>
+                <tag>detecteur ouverture</tag>
+                <tag>enocean</tag>
+                <tag>jeedom</tag>
+                <tag>nodon</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Jeedom</category>
+        </categories_set>
+        <text>
+                                                         Jeedom EnOcean USB EnOcean Jeedom EnOcean Jeedom EnOcean Nodon Ce detecteur permet de signaler louverture dune porte ou dune fenetre et ainsi connaitre son etat. 1  Presentation du detecteur douverture Nodon Le detecteur douverture NodOn EnOcean domotique Jeedom Description: Alimentation : Panneau solaire Distance de detection : 5mm Montage mural par adhesif double face (inclus) ou vis (non incluses) Pile CR1216 en option (non incluse) pour utilisation en zone sombre (Autonomie 5 ans noir complet) Temperature de fonctionnement : 0C to 40C  Altitude : 2000m Protocole Radio  EnOcean Portee: 30m indoor Dimension : 80*26*18mm 2  Association Apres avoir prealablement telecharge le plugin  EnOcean Jeedom EnOcean EnOcean Cochez la case Creer automatiquement les nouveaux equipements Sauvegardez et redemarrez le demon.Cette etape a besoin detre faite quune seule fois pour tous les modules  EnOcean Rendez-vous maintenant dans le plugin  EnOcean Domotique Enocean  Activez votre detecteur douverture  Nodon Nodon Rafraichissez la page. Votre detecteur douverture  Nodon 3  Configuration Selectionnez votre detecteur  Nodon Vous arrivez alors dans sa page de configuration. Il suffit de lui donner un nom, un emplacement dans votre logement (Objet) et selectionner le type de module, a savoir Securite. Pour terminer, cliquez sur Sauvegarder en bas de la page. Votre detecteur douverture est desormais fonctionnel dans  Jeedom 4  Exemples dutilisation Votre detecteur douverture  Nodon Vous pouvez changer son apparence via les widgets. Il renvoie instantanement letat de votre ouverture. Vous pouvez utiliser votre detecteur douverture  Nodon Pour cela rendez vous dans les scenarios de  Jeedom Sur longlet de gauche cliquez sur Ajouter scenario. Donnez un nom a votre scenario. Une fois selectionne, vous pouvez le configurer avec plusieurs options Pour faire un scenario simple il va falloir configurer le declencheur. Cliquez sur le bouton ajouter un declencheur, ensuite selectionnez le detecteur douverture  Nodon Cliquez sur le bouton Ajouter un element au scenario. Dans notre cas on va ajouter une condition au scenario. Une nouvelle brique est ajoutee. Dans le SI selectionnez le detecteur douverture  Nodon Dans le ALORS selectionnez votre lampe. Sauvegardez et votre scenario est pret a lemploi. Lorsque le detecteur  Nodon Il est egalement possible dutiliser le detecteur douverture Nodon pour gerer son alarme. Dans ce cas il sera possible dassocier le detecteur au plugin Alarme disponible sur le market  Jeedom Dans le plugin Alarme, une fois votre alarme creee, vous pourrez ajouter le detecteur douverture Nodon, a une zone de lalarme. Pour cela ajoutez un declencheur a une des zones de lalarme que vous aurez creee. Vous pouvez lui ajouter des delais de sortie et dentree Ainsi votre detecteur douverture EnOcean NodOn  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Jeedom  Guide dutilisation de la telecommande Soft Remote NodOn EnOcean 
+ Jeedom  Guide dutilisation du capteur de temperature NodOn EnOcean 
+ Les prises intelligentes EnOcean NODON sont disponibles! 
+ #CES2015 : NodOn presente ses nouveaux produits EnOcean et Z-Wave END .entry-content  
+        </text>
+</document>

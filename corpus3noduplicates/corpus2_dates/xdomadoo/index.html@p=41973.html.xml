@@ -1,0 +1,20 @@
+<document>
+	<date>2014-10-16</date>
+        <title>Test de la Sirne Z-Wave Plus dAeon Labs</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>aeon labs</tag>
+                <tag>aeotec</tag>
+                <tag>gen5</tag>
+                <tag>test</tag>
+                <tag>z-wave</tag>
+                <tag>z-wave plus</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Nouveau produit de lecosysteme  Z-Wave Aeon Labs Z-Wave 1. PRESENTATION Integrant une sirene de 105 dB, 3 lumieres LED puissantes et une batterie de secours qui va maintenir la sirene alimentee en cas de coupure de courant, deliberee ou non, la sirene Aeotec est ideale pour etre utilisee dans un systeme dalarme. Differentes commandes de configuration integrees permettent de regler les decibels de la sirene, ainsi que de personnaliser le son pour sadapter parfaitement a la maison et ses besoins. 2. DEBALLAGE Habitue avoir des emballages de produits  Aeon Labs La sirene est livree avec sa notice (en Anglais). Le design de la sirene a ete particulierement soigne et est plutot moderne. Ses dimensions sont tres reduites. Elle est certainement la sirene la plus petite du marche. 3. INSTALLATION Rien de plus simple, il suffit de brancher la sirene dans une prise electrique. Pour linclusion dans le reseau  Z-Wave domotique Une des 3 Leds (celle la plus haute) de la sirene va clignoter pendant 3 secondes, durant le mode inclusion. Si linclusion a reussi, vous verrez apparaitre la sirene sur linterface de votre box  domotique La sirene  Z-Wave Plus Aeon Labs domotique Z-Wave EEDOMUS Suite a la derniere mise a jour eedomus ZiBASE Bien que le visuel de la sirene napparaisse pas, celle-ci est parfaitement fonctionnelle. Elle est vue comme un actionneur. Zipabox Impossible dinclure la sirene. Fibaro La sirene est vue comme un actionneur. Elle est parfaitement fonctionnelle. Vera (UI5) Linclusion est possible, mais un message derreur dacquisition de la version apparait et la sirene ne peut etre actionnee. 4. UTILISATION Une fois integree avec une box  domotique Z-Wave  Parametre 37 (0x25) : La valeur2(octet de poids fort)est utilisee pour ajuster levolume. Ce parametre est regle de base a 13, soit sonnerie 1 et volume a 105 dB.  Parametre 80 (0x50) : Active lenvoi de notifications aux peripheriques associes (Groupe1) quand letat de la sirene change(0=rien, 1=HAIL Command Class, 2=Basic Command Class report). De base lenvoi de notifications nest pas active (Parametre 80=0). Une fois la configuration effectuee selon vos besoins, vous pouvez desormais creer vos scenarios. 5. CONCLUSION Une sirene savere toujours utile dans un systeme  domotique Aeon Labs On apprecie la personnalisation de la sonnerie et du volume, mais on aurait aime pouvoir choisir dactiver les Leds seules sans sonnerie, ou la sonnerie seule, comme peut le proposer le  modele SSA02 de chez Fortrezz La sirene Z-Wave Plus dAeon Labs Z-Wave  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

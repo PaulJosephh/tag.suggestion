@@ -1,0 +1,46 @@
+<document>
+	<date>2012-03-14</date>
+        <title>TrueCrypt, un outil de chiffrement (cryptage)</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>TrueCrypt</tag>
+        </tags_set>
+        <categories_set>
+                <category>Applications</category>
+        </categories_set>
+        <text>
+                                                 TrueCrypt ? 
+TrueCrypt est un logiciel gratuit, open source mais non libre de chiffrement a la volee, fonctionnant sur Windows, Mac OS X et Linux.
+ Installation 
+Il suffit de se rendre sur le site de  TrueCrypt Downloads File container vs partition 
+Vaut-il mieux creer un conteneur de fichier ou une partition entierement chiffree ? Ces deux alternatives possedent des avantages et des inconvenients.
+ Create a volume within a partition/drive 
+ 
+Permet de ne monter quun disque (la partition chiffree).
+ 
+Permet une authentification au moment du boot ( pre-boot authentication 
+Permet un formatage rapide.
+ 
+Le lien utilise par TrueCrypt nest pas lie au disque (ex :  /dev/sdd /media Create an encrypted file container 
+ 
+Le fichier est plus facile a manipuler (copie, deplacement).
+ 
+Le lien utilise par TrueCrypt pour acceder au fichier reste constant ce qui facilite le montage de la partition correspondant au fichier dans un repertoires predetermines dans  /media 
+Oblige a monter deux disques (le disque support puis le fichier chiffre).
+ 
+La taille du fichier genere est constante et correspond a la taille de la partition quil contient.
+ 
+Oblige a un formatage complet tres lent (plusieurs heures pour un gros fichier). 
+ Monter un fichier ou une partition dans un repertoire predetermine 
+Deux solutions permettent de monter un fichier ou une partition dans un repertoire predetermine.
+ 
+ 
+Avec linterface graphique il faut tout dabord selectionner le fichier (bouton  Select File Select Device mount Options  
+En ligne de commande, il suffit de saisir:
+ truecrypt -t /source /destination /source /dev/sdd /media/monDisque/monVolumeTruecrypt.tc /destination /media/monVolumeChiffre Add to Favorites Monter automatiquement ses favoris au demarrage de la session gnome-session-properties /usr/bin/truecrypt --auto-mount=favorites Se passer du mot de passe administrateur 
+Pour monter et demonter un fichier ou un volume chiffre, TrueCrypt a besoin du mot de passe administrateur. Cest embetant a lusage, surtout si on veut lutiliser en ligne de commande ou dans des scripts. Pour eviter cela, il faut editer le fichier  /etc/sudoers 
+# Pour Truecrypt TrueCrypt is already running 
+Si le message  TrueCrypt is already running home .TrueCrypt-lock-username username login 
+ TrueCrypt TrueCrypt  Wikipedia TrueCrypt  ArchWiki 
+        </text>
+</document>

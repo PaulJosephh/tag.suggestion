@@ -1,0 +1,16 @@
+<document>
+	<date>2014-05-30</date>
+        <title>
+Test: Capteur de luminosit Z-Wave ST815</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Everspring</tag>
+                <tag>Z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Peripheriques Z-Wave</category>
+        </categories_set>
+        <text>Voila un moment que je navais pas parle de la marque Everspring ! La voila de retour sur le blog, avec cette fois un detecteur de luminosite Z-Wave, denomme ST815. Pour changer de Fibaro, pas de detecteur complique avec dinnombrables fonctions: le ST815 est specialise dans la mesure de lumiere, et se cantonne a cela. Parce quapres tout, nous navons pas toujours besoin de multiples fonctions Je vous propose donc de le decouvrir dans ce petit test  Sommaire I. Deballage II. Installation 2.1. Box eedomus 2.2 HC2 de Fibaro 2.3 Zipabox 2.4 Vera III. Conclusion Commentaires (3) Powered by SEO TOC 1.7.3 
+ I. Deballage  Le ST815 ressemble enormement  a son grand frere le ST814, teste ici , qui lui se charge de mesurer la temperature et lhumidite:   Nous avons donc un module de forme un peu carree, assez epais ( 85 x 85 x 40 mm):   Sans surprise, on retrouve donc le meme packaging, livre avec trois piles AA, des vis de fixation, et un adhesif double face, pour le fixer a un mur. On pourra aussi choisir de le poser simplement sur un meuble, un petit support a clipser a larriere etant fourni:    Les piles viennent sinserer a larriere, apres avoir retire la premiere facade qui sert a le tenir par exemple au mur, puis ensuite le couvercle des piles:   Vous noterez au passage la mention IP44 et le petit joint qui entoure le compartiment des piles: ce capteur pourra en effet etre place a lexterieur. Je sais que certains dentre vous ne gerent pas leurs volets par rapport au lever / coucher du soleil, ni via des heures fixes, mais plutot par rapport a lensoleillement exterieur. Ce module sera donc tout indique pour ce type dutilisation !   Sur le devant, nous retrouvons un ecran LCD retroeclaire (legerement en bleu ici), capable dafficher en direct les mesures de luminosite, 4 boutons de controle et de reglage, et en dessous le capteur de luminosite proprement dit, capable de mesurer entre 0 et3000 Lux:      1   2 Everspring   Z-wave 
+        </text>
+</document>

@@ -1,0 +1,33 @@
+<document>
+	<date>2014-12-02</date>
+        <title>
+Domotiser son radiateur lectrique  fil pilote grce  la solution MyFOx</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>chauffage</tag>
+                <tag>fil pilote</tag>
+                <tag>MyFox</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Chauffage</category>
+                <category>Peripheriques Chacon / MyFox</category>
+        </categories_set>
+        <text>
+ Recepteur universel pour chauffage MyFox 
+ 49,99 9.125 
+ Qualite 
+ 95/10 
+ Fonctions 
+ 95/10 
+ Utilisation 
+ 95/10 
+ Prix 
+ 80/10 Pour - Bonne qualite - Discret - Facile a installer - S'adapte a la plupart des types de chauffage   Contre - Pas de sonde de temperature 
+ 
+ Trouver le module au meilleur prix   Etant donne la saison, le chauffage dans la maison est un probleme dactualite :D Aujourdhui je vous propose donc de decouvrir le recepteur universel pour chauffage propose par MyFox. Universel, car de module a la particularite de pouvoir commander une chaudiere individuelle ou un radiateur a fil pilote. Une fois relie a votre chaudiere ou a vos radiateurs electriques, il permettra dintegrer la gestion de votre chauffage dans le systeme domotique MyFox: ainsi il sera possible de creer des programmes, utiliser les radiateurs dans un scenario, et gagner en confort, tout en faisant des economies denergies !  
+ I. Deballage  Le module pour chauffage de MyFox est une sorte de sucre tout blanc: Comme a laccoutumee, MyFox fourni tout le necessaire: le module de controle, bien sur une notice de montage un kit de fixation (vis et chevilles) Le dessus du module presente une led, qui fait egalement office de bouton pour appairer le module avec la centrale domotique. Le fil pour le montage au radiateur est deja monte: on retrouve la phase et le neutre pour alimenter le module, et le fil pilote (noir) qui sera a brancher sur le fil pilote du radiateur, bien sur. Le boitier possede un support qui pourra etre fixe a laide des vis fournies, ou simplement a laide dun adhesif double face. Il faudra le placer proche du radiateur, mais pas trop pres tout de meme de la zone de chauffe. Le boitier mesure100 mm x 50 mm x 25 mm, ce qui en fait un boitier qui sait rester discret. Passons maintenant a son installation.  
+ II. Installation  Comme annonce en introduction, ce module est universel, cest a dire quil saura aussi bien piloter une chaudiere quun radiateur electrique. Pour une chaudiere, le montage nest pas tres difficile: Je ne pourrai pas vous le montrer en situation, je nai pas de chaudiere. Sachez simplement que ce module peut le faire, donc. Ici, je vais donc vous montrer comment le raccorder a un radiateur electrique possedant un fil pilote. Le schema de montage est le suivant: Pour la mise en place, jai utilise un radiateur electrique classique, possedant un fil pilote. Pour lexemple le radiateur nest pas monte au mur, mais la mise en place est exactement la meme. Vous pouvez voir la mise en place pas a pas dans le guide que jai realise:   A noter que si vous possedez plusieurs radiateurs dans une meme zone (par exemple trois radiateurs dans le sejour), que vous voulez piloter simultanement, vous pourrez nutiliser quun seul module pour tous les piloter si leurs fils pilotes arrivent dans votre tableau electrique: Ce sera plus pratique, et surtout beaucoup moins couteux !  
+ III. Utilisation  Une fois en place, le radiateur devient utilisable depuis linterface MyFox. Le module permettant de piloter quatre ordres (Confort, Eco, Hors Gel, Arret), on les retrouvera sur linterface: Petit detail pratique: chaque bouton possede une couleur differente pour indiquer son etat: Couleur quon retrouve sur la led du module. Ainsi, un simple coup doeil sur le module a cote du radiateur permet de connaitre son etat. Cette integration sur la box domotique permet bien sur de piloter son chauffage a distance. Pratique, mais le vrai interet est dintegrer son radiateur dans un scenario pour lautomatiser. Ainsi, dans un scenario, il sera possible de definir des plages horaires pour son passage en mode confort ou en mode eco par exemple:  Ici, passage en mode Eco a partir de 8h, puisque tout le monde est parti travailler:  Et a 17h, remise en mode confort pour rechauffer la maison avant larrivee des occupants:   Un autre scenario pratique est la possibilite de passer automatiquement son chauffage en mode Eco quand on part, cest a dire quand on met lalarme totale: Si lalarme passe en mode total, cest quil ny a plus personne a la maison, on passe donc le chauffage en mode Eco: Ainsi, plus aucun oubli, les economies electriques seront assurees automatiquement, sans aucune perte de confort, puisque le chauffage pourra se remettre en route automatiquement avant votre arrivee.  
+ IV. Conclusion  Le fil pilote de nos radiateurs electriques est specifique a la France, si bien que jusquici peu de solutions existaient pour piloter correctement ces radiateurs. Je vous avez propose un guide pour  piloter un tel radiateur a laide dun module Z-Wave , mais il faut bien avouer que cetait un peu du bricolage, meme si le travail etait fait de la meme facon. Ici nous avons un module propre, bien concu, facile a installer, et a un prix relativement abordable, puisquil est vendu 49,90. Si les fils pilotes de tous vos radiateurs arrivent dans votre tableau electrique, un seul module sera necessaire pour piloter une zone, ce qui est tres economique. Si ce nest pas le cas, il faudra en revanche equiper chaque radiateur. A noter enfin que ce module ne reconnait que les ordres Confort, Eco, Hors Gel, et Arret. Il nest fait mention nulle part de la temperature a respecter. Pour cela il faudra posseder une sonde de temperature individuelle, ou meme utiliser le releve de temperature des  nouveaux capteurs Intellitags vus ici .    chauffage   fil pilote   MyFox 
+        </text>
+</document>

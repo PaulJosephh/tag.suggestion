@@ -1,0 +1,83 @@
+<document>
+	<date>2006-01-29</date>
+        <title>Gnrez les fils RSS de vos sites prfrs mme s'ils n'en proposent pas</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>formats</tag>
+                <tag>rss</tag>
+                <tag>tips</tag>
+                <tag>tutoriel</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Je suis en train de tester le service de  Feed43.com  permettant de creer un flux de syndication  RSS  vers un site quand bien meme ce dernier n'en proposerait pas. C'est par exemple le cas des  news insolites de Yahoo , et c'est l'occasion pour moi de cesser mes lamentations a ce sujet  
+
+
+ Prerequis 
+
+ 
+ Il faut  obtenir une invitation  pour utiliser ce service  [ 1 ] , 
+ L'utilisation du service necessite de connaitre un minimum le langage  HTML . 
+ 
+
+ Mise en oeuvre 
+
+
+ D'abord, entrez l'URL de la page dont vous voulez generer un fil RSS depuis les contenus. Dans notre cas, nous entrons  http://fr.news.yahoo.com/125/ . Vous pouvez specifier l'encodage de la page. Pour le connaitre, sous Firefox recuperez la valeur selectionnee dans le menu  Affichage  Encodage des caracteres  ou en faisant un bete  Ctrl + i . 
+
+
+ Une zone contenant le code HTML de la page apparait - au passage, vous noterez la magnificience du code HTML genere chez Yahoo. Nous allons devoir trouver les  delimiteurs  de la zone interessante dans ce code  [ 2 ] . Pour la page de news Yahoo, on constate que ce qui nous interesse est compris au sein des morceaux de code suivants ( Global Search Pattern ): 
+
+
+ table border=0 width=100% cellpadding=0 cellspacing=0trtd valign=top
+{%}
+table border=0 cellpadding=2 cellspacing=0trtdnbsp;/tdtdnbsp;/td/tr 
+
+
+ ... ou la chaine  {%}  indique a Feed43 que notre section ce trouve a cet endroit, et la chaine  {*}  est un champs  passe-partout  (wildcard). 
+
+
+ Au sein du bloc emanant de cette delimitation, les iterations de depeches ( Item search pattern ) sont de cette forme: 
+
+
+ a href="{%}" style="text-decoration:none"{%}/a{*}/small{*}br{%}/font 
+
+
+ Un clic sur le bouton  Extract  nous trouve les 5 items principaux. Ca tombe bien, c'est ca qu'on voulait. 
+
+
+ Item 1
+
+{%1} = http://fr.news.yahoo.com/28012006/202/un-iguane-d-appartement-provoque-une-inondation-en-allemagne.html
+{%2} = Un iguane d'appartement provoque une inondation en Allemagne
+{%3} = Alors que son maitre s'etait absente pour quelques heures, un iguane a provoque une inondation dans un appartement (...)
+
+Item 2
+
+(etc.) 
+
+
+ Il ne reste plus qu'a remplir les champs descriptifs du fil a creer, et notamment quelles exctractions correspondent a quels champs. Dans notre cas, cela donne: 
+
+
+ Item Title Template*:  {%1} 
+
+
+ Item Link Template*:  {%2} 
+
+
+ Item Content Template*:  {%3} 
+
+
+ La previsualisation permet de s'assurer que tout est a sa place. 
+
+
+ Ceci fait, il ne reste plus qu'a ajouter l' URL du fil RSS genere  a notre agregateur favori. C'est tout  
+ Notes 
+ [ 1 ] Personnellement, j'ai recu mon invitation une heure apres en avoir fait la demande via le formulaire. 
+ [ 2 ] Si comme moi vous trouvez que le textarea n'est pas propice a la recherche de ces motifs, un bon vieux  CTRL + U  des familles fera amplement l'affaire. 
+ 
+        </text>
+</document>

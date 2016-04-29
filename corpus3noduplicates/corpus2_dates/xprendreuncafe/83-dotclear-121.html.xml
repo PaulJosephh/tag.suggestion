@@ -1,0 +1,43 @@
+<document>
+	<date>2005-04-27</date>
+        <title>Dotclear 1.2.1</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dotclear</tag>
+                <tag>php</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dotclear</category>
+        </categories_set>
+        <text>La version  1.2.1 de Dotclear   est sortie  ( CHANGELOG ) ( Telechargement ). 
+
+
+ On peut noter ceci de remarquable: 
+
+ 
+ Gestion des macros wiki2xhtml, c'est a dire la possibilite d'appliquer des traitement entre la saisie wiki et le rendu xhtml, chose indispensable pour gerer correctement la colorisation syntaxique, par exemple. Des que ces macros seront  pluginisables , je promet de fournir un plugin pour la colorisation syntaxique base sur le code de  Lalex . 
+ Utilisation du drag 'n' drop pour l'organisation des categories 
+ Optimisation MySQL et suppression du cache SQL (c'etait a mon sens absolument indispensable) 
+ Nouveau theme par defaut  designe  par le fort prolixe mais neanmoins extremement talentueux  Maurice Svay 
+ Nouveau plugin des operations MySQL integrant la sauvegarde/restauration complete de la base de donnees (par  Pep ) 
+ 
+
+ Bref, que du bon  
+
+
+ Bon, certains diront qu'un systeme de tagging aurait ete le bienvenue, mais aurait inmanquablement genere un surcout en terme de ressources depensees cote serveur (sql). Dotclear reste donc a mes yeux le  BlogMS  presentant le meilleur rapport performance/simplicite/modularite des outils actuels existants  
+
+ 
+ Dotclear.net 
+ Telechargement  de la version 1.2.1 
+ L'annonce officielle  sur le blog d'Olivier Meunier 
+ L'indispensable  guide pour une upgrade reussie 
+ 
+
+ Edit 14h45: 
+
+
+ Upgrade effectuee sur Prendreuncafe.com sans aucun souci. Je n'ai pas reimplemente mes hacks de DC pour la colorisation syntaxique, il n'y aura plus de colorisation du code sur ce blog avant la creation d'un plugin ad-hoc, ou d'une fonction du fichier prepend.php du theme courant gerant cette fonctionnalite ( UruKhai , are you readyyyyy ?)  
+        </text>
+</document>

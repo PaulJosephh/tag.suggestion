@@ -1,0 +1,23 @@
+<document>
+	<date>2011-11-29</date>
+        <title>Descripteur XML de composant (Component Descriptors)</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Annotator</tag>
+                <tag>CAS</tag>
+                <tag>Component descriptor</tag>
+        </tags_set>
+        <categories_set>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+Les composants UIMA sont composes de deux parties distinctes : 
+ une partie declarative (le descripteur de composant) un code (en Java par exemple) 
+La partie declarative est representee dans un fichier XML et est appelee  descripteur de composant ( Component Descriptor 
+Le descripteur de composant permet de renseigner, entre autres, les informations suivantes :
+ 
+ nom, version, auteur, description et surtout le nom de la classe implementant le composant (onglet  Overview Systeme de types utilise (onglet  Type System Types utilises ( i.e. CAS Capabilities Types renseignes dans le  CAS Capabilities 
+Sous Eclipse, un tel descripteur peut etre edite avec le  Component Descriptor Editor Sommaire UIMA sur ce blog 
+        </text>
+</document>

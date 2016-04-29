@@ -1,0 +1,14 @@
+<document>
+	<date>2012-09-25</date>
+        <title>HC-SKIPPER 7.0 est disponible</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          Il y a 3 ans nous faisions la connaissance du logiciel HC-SKIPPER domotique   Cette mise a jour majeure apporte plusieurs nouveautes, notamment au niveau graphique puisque desormais  HC-SKIPPER   Configuration de la skin  Ecran Gestion A/V Ecran Gestion  Domotique  Les autres nouvelles fonctionnalites apportees par cette mise a jour sont les suivantes :  Reglage personnalise de la vitesse de repetition des touches pour lesquelles loption est activee.  Reglage personnalise du delai avant le demarrage de la repetition des touches.  Affichage unifie des groupes de modules de la section  domotique  Reprise dans HCSa et HCSi de loption Afficher Date/Heure de la version PC.  Reprise dans HCSa et HCSi de loption Retour accueil automatique de la version PC.  Possibilite de saisir un Hostname en lieu et place dune adresse IP dans les options de configurations (Modules  IRTrans Global Cache  Gestion des activites (possibilite dexecuter une macro sur le lancement ou larret dune activite. Ex: basculer automatiquement la source de lampli sur DVD lorsque lactivite Lecture DVD est selectionnee).  Nombreuses optimisations du code. HCSi et HCSa sont plus veloces quauparavant.  Pour supporter pleinement  HC-SKIPPER HCSi (iPhone/iPad) HCSa (Android) La nouvelle skin proposee redonne un coup de jeune a  HC-SKIPPER  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

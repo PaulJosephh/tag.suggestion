@@ -1,0 +1,14 @@
+<document>
+	<date>2009-08-22</date>
+        <title>Regarder la TNT avec XBMC Media Center (Windows)</title>
+        <author> David </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Multimedia Media Center</category>
+        </categories_set>
+        <text>
+                                                         Le nouveau  Tuner  TNT SiliconDust XBMC Linux Apple Nous allons presenter comment utiliser les chaines  TNT XBMC Installer la derniere version des drivers du HDHOMERUN ( derniere version 20090806 en telechargement ici Le firmeware est mis a jour et linterface de configuration sexecute. Dans longlet Applications choisissez comme Main Application,  XBMC Media Center Cliquer sur Apply puis OK. Un dossier est automatiquement cree contenant les raccourcis vers les flux de chaque chaine dans le dossier: C:Documents and Settingsnom_utilisateurHDHomeRun  XBMC C:Utilisateursnom_utilisateursHDHomeRun  XBMC  Lancer ensuite  XBMC et ajoutez une source. Choisissez le dossier ou a ete installe les raccourcis vers les flux video: C:Documents and Settingsnom_utilisateurHDHomeRun  XBMC C:Utilisateursnom_utilisateursHDHomeRun  XBMC  Vous disposez maintenant dune nouvelle source permettant de regarder les chaines  TNT Media Center XBMC   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

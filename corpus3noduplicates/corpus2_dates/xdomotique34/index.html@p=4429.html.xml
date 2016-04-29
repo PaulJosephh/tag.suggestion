@@ -1,0 +1,59 @@
+<document>
+	<date>2013-05-25</date>
+        <title>Test du module double Z-Wave TZ66-D de chez TKBHOME</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+  
+ 
+  
+ La derniere fois je vous ai presente linterrupteur  simple le TZ66-S de chez TKBHOME . Aujourdhui nous allons voir linterrupteur double, le TZ66-D. 
+ 
+ Comme vous pouvez le voir, cet interrupteur est double (2 boutons) ; mais helas celui ci nest pas un deuxieme interrupteur permettant de commander un autre eclairage. 
+ Celui de gauche permet de controler la charge connectee, et dinclure/exclure linterrupteur du reseau Z-Wave. Le bouton de droite permet de controler dautres peripheriques Z-Wave en utilisant les commandes dassociation (Groupes 2 a 4). Chaque groupe permet dassocier jusqua 5 autres peripheriques afin des les controler manuellement a partir de linterrupteur. 
+ 
+ Comme linterrupteur simple, le TZ66-D est equipee de petites LED qui dorigine seclaireront lorsque celui ci sera eteint et inversement seteindront lorsque votre inter sera allume. 
+ Lorsque vous laurez inclu dans votre box, il ressemblera comme deux gouttes deau a votre interrupteur simple (sous la Home Center 2) 
+ 
+ Je ne reviendrai pas sur linclusion sur les autres box, cest exactement identique que pour le TZ66-S. Quand aux raccordements, le neutre sera aussi necessaire. 
+ Javais lu sur larticle de  Pascal du blog Domotique.info  que cet interrupteur fonctionnait avec un commutateur esclave, le TZ66-A. Mais je nen ai pas trouve dans nos boutiques specialisees. 
+ Si vous avez deja cet interrupteur et que vous utilisez le bouton de droite pour commander dautres modules. Faites nous partager votre experience. 
+ Vous trouverez cet interrupteur dans notre  boutique specialisee Domadoo au prix de 52.00 . 
+ Dans le prochain article nous verrons les interrupteurs TZ65-S et TZ65-D qui vous permettront de faire varier votre eclairage. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

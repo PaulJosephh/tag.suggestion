@@ -1,0 +1,24 @@
+<document>
+	<date>2014-07-16</date>
+        <title>Que faire si je narrive pas ou plus  me connecter  ma box domotique Home Center 2 ou Home Center Lite ?</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>box domotique</tag>
+                <tag>connexion</tag>
+                <tag>domotique</tag>
+                <tag>fibaro</tag>
+                <tag>guide</tag>
+                <tag>Home Center 2</tag>
+                <tag>home center lite</tag>
+                <tag>reseau</tag>
+                <tag>tuto</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Z-Wave</category>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         Grace au Home Center 2 ouHome Center Lite, vousvisualisez les informations et commandez les elements dans votre maison. Sivous narrivez plus a vous connecter a votre box  domotique Branchez uncable  Ethernet Dans Panneau de configuration, cliquez sur Reseau et Internet. Cliquez ensuite sur Centre Reseau et Partage. Puis sur Connexion au reseau local. Cliquez sur Proprietes. Cliquez sur Protocole Internet version 4 (TCP/IPv4). Une nouvelle fenetre saffiche.Cochezloption : Utiliser ladresse IP suivante. Indiquez dans Adresse IP, ladresse 192.168.81.2 etdans Masque de sous-reseau, ladresse 255.255.255.0. Laissez vides les champs Passerelle par defaut, Serveur DNS prefere et Serveur DNS auxiliaire. Rendez-vous sur votre navigateur Web puis tapez ladresse par defaut du Home Center 2 ou Home Center Lite : 192.168.81.1. La page daccueil de linterface du Home Center 2 ou Home Center Lite apparait(si celle-ci ne saffiche pas, maintenez appuye 5 secondes sur le bouton Secours situe a larriere de votre box puis attendez 60 secondes. Enfin, retentez de charger la page. Si elle nesaffiche toujours pas, consultez notre  guide derestaurationdu Home Center 2 ou Home Center Lite Indiquez votre identifiant et mot de passe par defaut : admin/admin. Vous etes desormais dans linterface de votre box  domotique Cliquez ensuite sur longletLAN Settings situe dans le menu a gauche de votre interface. Dans Connection Type, choisissez loption  DHCP Cliquez sur licone en forme de disquette situee a droite de votre interface pour sauvegarder votre modification. Apres avoir sauvegarde, vous perdez la connexion a linterface du Home Center 2. Retournez dans le menu Demarrer puis accedez a Panneau deconfiguration, Reseau et Internet, Centre reseau et Partage, Connexion au reseau local, Proprietes, Protocole Internet version 4 (TCP/IPv4). Reconfigurez la carte reseau de votre ordinateur en choisissant loption Obtenir une adresse IP automatiquement ou  DHCP Accedez a lapplication  Fibaro Votre Home Center devrait etre detecte. Selectionnez celui-ci et cliquez sur Connect. Felicitations, vous pouvez desormais vous connecter sur votre box  domotique  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

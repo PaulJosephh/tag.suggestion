@@ -1,0 +1,37 @@
+<document>
+	<date>2008-11-22</date>
+        <title>Synology DS107e et montage NFS dans la fstab sous Linux</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Questions Reseau</category>
+                <category>Synology</category>
+        </categories_set>
+        <text>
+                                                 
+Ce billet decrit comment acceder a son  NAS Synology NFS Premiere etape : activer le serveur NFS cote NAS 
+ 
+Se connecter sur linterface  Management Synology 
+Aller dans  Services reseaux  NFS Activer NFS Deuxieme etape : configurer le serveur NFS cote NAS 
+ 
+Se connecter sur linterface  Management Synology 
+Aller dans  Privileges  Dossiers partages 
+Cliquer sur  Privileges NFS  Creer Lecture seule Lecture/ecriture NAS 
+Si vous avez configure le serveur NFS de cette facon, sautez letape suivante qui nest quune alternative en ligne de commande.
+ Deuxieme etape alternative : configuration en ligne de commande 
+ 
+Se connecter au  NAS telnet ssh 
+Si le fichier  /var/lib/nfs/rmtab  touch /var/lib/nfs/rmtab 
+Taper  vi /etc/exports exports 
+Pour pouvoir partager le repertoire  /volume1/data  192.168.0.20 uid 1027 gid 100 /volume1/data 192.168.0.20(rw,all_squash,anonuid=1027,anongid=100) uid gid id nom_utilisateur 
+Valider les modifications du fichier  exports  /usr/sbin/exportfs -a Derniere etape : monter les repertoires cote client 
+ 
+Installer le paquet  nfs-common NFS 
+Pour acceder avec le protocole  NFS /volume1/data /media/Synology-Data /etc/fstab 
+192.168.0.23:/volume1/data     /media/Synology-Data      nfs    user,auto,exec    0    0
+ 
+Monter le repertoire :
+  mount /media/Synology-Data 
+        </text>
+</document>

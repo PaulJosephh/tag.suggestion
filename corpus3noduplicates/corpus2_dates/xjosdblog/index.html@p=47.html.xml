@@ -1,0 +1,26 @@
+<document>
+	<date>2008-08-17</date>
+        <title>Rencodage vido pour la FreeBoxHD : transcode</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+                <category>FreeBox</category>
+                <category>Photo &amp; Video</category>
+        </categories_set>
+        <text>
+                                                 
+Un decalage entre le son et limage survient parfois lors de la lecture de certains fichiers  avi transcode  transcode -i FichierSource.avi  -o FichierCible.avi -y xvid 
+Ce reencodage peut egalement solutionner dautres cas ou la FreeBoxHD ne parvient tout simplement pas a lire la video.
+  transcode -i RepertoireSource -y xvid --dir_mode Cible 
+ Transcode 
+ 
+Cible-000.avi
+ 
+Cible-001.avi
+ 
+
+ 
+        </text>
+</document>

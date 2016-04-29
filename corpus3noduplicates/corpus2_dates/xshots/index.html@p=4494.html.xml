@@ -1,0 +1,41 @@
+<document>
+	<date>2015-02-17</date>
+        <title>Time machine, hubiC. Photographes, faites des sauvegardes !</title>
+        <author>SHOTS</author>
+        <tags_set>
+                <tag>cinquieme nuit</tag>
+                <tag>cloud</tag>
+                <tag>hubic</tag>
+                <tag>Macway</tag>
+                <tag>photo</tag>
+                <tag>sauvegarde</tag>
+                <tag>stockage</tag>
+                <tag>video</tag>
+        </tags_set>
+        <categories_set>
+                <category>actu</category>
+                <category>materiels</category>
+                <category>news</category>
+                <category>photo</category>
+                <category>technique</category>
+        </categories_set>
+        <text>
+ Sauvegardes. Lindispensable protection 
+ La semaine derniere, jai vecu un drame par procuration. Un photographe menvoie ce message : Jai efface par erreur mon catalogue Lightroom. Je perds tout le catalogage realise et toutes mes post-prods si je ne le recupere pas. Evidemment, dans ce cas, la premiere question qui vient a lesprit cest de savoir si le gars fait des  sauvegardes  ou pas. Dans le cas present cest  ou pas  et la on est mal. Seule solution, arreter au plus vite dutiliser la machine, donc le disque dur, demarrer dun disque externe et lancer un logiciel de recuperation de donnees (comme  Diskwarrior ). Aucune garantie, galeres et angoisses assurees. Si les donnees sont vitales, demontage du disque dur et envoi a un service specialise. Il existe des societes dont cest lexpertise, mais autant vous prevenir tout de suite, ca peut vous couter cher. Lautre solution, cest de mettre en place une strategie de sauvegardes qui vous assure, autant que faire ce peut, detre a labri en cas de pepin. Voila la mienne, de strategie, je crois quelle tient la route. Elle ma sauve la mise a plusieurs reprises. 
+   La structure physique 
+Je ne cherche pas midi a quatorze heures et je ne veux pas que ca me coute une  blinde , jai donc entoure mon Mac de deux  docks achetes chez MacWay . Ces docks permettent de monter des disques durs Sata en USB 3 et aussi eSata, Firewire 400/800. Notez quil existe aussi des  docks thunderbolt , Macway commercialisant aussi le  G-dock , lexcellent produit haut de gamme de  G-Technology  que je nai pas encore teste.Le dock a ma gauche est equipe dun emplacement pour un disque dur, il offre en plus deux ports USB supplementaires, un lecteur de carte SD et un lecteur de compact flash. Sur lun des ports USB jai branche un lecteur de cartes  Sandisk . Je crois que ce type de dock nest plus commercialise par Macway, cest dommage, cetait hyper pratique. Le dock a ma droite est un modele classique de chez Macway, avec un emplacement pour un disque dur 2,5 ou 3,5 pouces. Je peux donc monter simultanement deux disques durs sur mon Mac. Jutilise des disques durs Sata 2To, jamais plus, a lexception dun gros  disque WD 6To en RAID  (3To exploitables, donc) qui est mon catalogue general. Precision, chaque disque dur utilise dans le dock est protege par un  etui en silicone qui le met a labri de la poussiere et des chocs et qui en plus permet dempiler les disques durs. 
+   Sauvegarde journaliere des donnees 
+Je sauvegarde les donnees de mon Mac  tous les jours , a la fin de ma journee de travail et pour ca jutilise  Time machine , le soft livre en standard avec MacOSX. Rien a dire, cest dune facilite remarquable. Jenclenche mon disque, il monte, il est detecte et  en avant Guingamp !  La sauvegarde se lance toute seule, les donnees modifiees depuis la derniere sauvegarde (cest ce quon appelle une sauvegarde  incrementale ) sont ecrites sur le disque. En cas de pepin, il suffit de monter le disque et dentrer dans linterface un peu  kitch  de Time machine pour visualiser le Mac tel quil etait a une date donnee. Dans mon cas, je peux remonter trois ans en arriere et recuperer tout ce que je veux tres facilement. Autant dire que Time machine est indispensable et  cest mon dernier mot Jean-Pierre . 
+   Sauvegarde du fond photographique 
+La, on ne rigole plus. Mes cliches, la photo, cest une partie de ma vie professionnelle, alors les sauvegardes sont a la hauteur de lengagement que jy mets. Je me suis astreint a un schema strict pour eviter les mauvaises surprises. Au depart, je sauvegardais sur CD, puis DVD, mais cest un support qui se degrade avec le temps, jai opte desormais pour le disque dur, plus precisement pour  les  disques durs. Jutilise des disques durs dont la capacite nexcede pas 2To, generalement du  Seagate Barracuda toujours chez Macway. Jai un disque dur de travail, utilise pour le catalogue et le travail de  derawtisation , que je sauvegarde sur un disque dur de capacite egale, ainsi que sur mon disque dur WD en RAID. Jai donc constamment trois copies de  sauvegardes  de mes cliches. Lorsque je mabsente du bureau, mon disque de travail, son clone et le disque RAID sont heberges en dehors de mon bureau. Et puis en complement de toute cette armada, naturellement, il y a  hubiC . 
+   hubiC, une piscine olympique pour mon poisson rouge. 
+Que dire de  hubiC  si ce nest que cette solution proposee par OVH massure de dormir sur mes deux oreilles et complete merveilleusement ma strategie de sauvegardes. Alors je sais. Des que je parle de  hubiC , il y a toujours quelquun pour me dire que ca ne fait pas  ceci  ou pas  cela . Cest pas grave, hubiC fait parfaitement ce que  moi  je lui demande : mettre mes donnees a labri sur un  cloud  francais, les securiser, les mettre a ma disposition quand jen ai besoin, 24/24, 7/7, de nimporte ou dans le monde, a partir dun ordinateur, de ma tablette, de mon smartphone. Point. Ah ! Et aussi de pouvoir partager mes donnees en un clic. Le reste, la  synchro  par exemple, ca ne minteresse pas. Je demande a hubiC detre la touche finale de ma strategie de sauvegardes et il sen tire a merveille. OVH me loue pour  10 par mois  un espace de  10To . Autant dire quavec hubiC je suis passe dun aquarium de 100 litres pour mon poisson rouge a une piscine olympique pour lui tout seul. Seul bemol de hubiC, la relative lenteur en  upload , mais ca, cest pas de sa faute, cest du a mon ADSL Free qui plafonne a 1Mbs en up. Si vous avez la fibre, avec hubiC vous etes le roi sur le toit du monde. 
+   Les benefices de la sauvegarde au quotidien 
+Chaque jour qui passe me permet de recolter les fruits de mes sauvegardes. Dabord savoir que les cliches sont sauvegardes a labri, sur des sources multiples, y compris sur le  cloud  via  hubiC , ca permet de dormir sur ses deux oreilles. Ensuite, il est possible dacceder a une information tres rapidement et de nimporte ou (grace a hubiC).  Mon book en ligne  recense la quasi integralite des concerts que jai couverts depuis pres dune quinzaine dannees. Je peux donc retrouver une date precise sur  Cinquieme nuit  puis, en etant connecte a  hubiC , visualiser les cliches sauvegardes, en temps reel et eventuellement les transmettre a mes clients. Quant a la situation qui servait dintroduction a ce billet, si elle devait arriver, perdre un catalogue  Lightroom , je sais que suis capable de restaurer ce catalogue a la date dhier en un clin dil et de limiter les degats autant que possible. La sauvegarde, ca sert a ca. Limiter les degats. Dormir tranquille. 
+   Testez hubiC avec SHOTS et beneficiez de 30Go (ou plus) pour stocker vos photos, documents, videos,  
+   Merci a  MacWay , pour leur soutien technique depuis toujours. 
+ 
+ 
+ 
+        </text>
+</document>

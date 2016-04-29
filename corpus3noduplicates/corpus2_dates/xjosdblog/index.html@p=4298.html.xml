@@ -1,0 +1,28 @@
+<document>
+	<date>2013-11-15</date>
+        <title>Aeon Labs Z-Stick Series 2</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Aeon Labs</tag>
+                <tag>SynoZwave</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+ Controleur Z-Wave USB 
+La particularite de ce controleur Z-Wave est davoir une batterie integree lui permettant detre mobile pour inclure ou exclure des peripheriques Z-Wave, ce qui savere extremement pratique. Il peut fonctionner en controleur principal ou secondaire (je nai pas teste). Cest sur ce controleur que se base lapplication  SynoZwave 
+Le  Z-Stick Inclusion Exclusion SerialAPI SerialAPI Z-Stick Mode Inclusion 
+ 
+ Pour passer le  Z-Stick Pour inclure un module Z-Wave il suffit de sen approcher avec le  Z-Stick Z-Stick La led bleue du  Z-Stick Un appui court sur le bouton du  Z-Stick Mode Exclusion 
+ 
+ Pour passer le  Z-Stick Pour exclure un module Z-Wave il suffit de sen approcher avec le  Z-Stick Z-Stick La led bleue du  Z-Stick Un appui court sur le bouton du  Z-Stick Informations et sources 
+ 
+ Z-Stick 2E manual Test du Stick Zwave dAeon Labs Homeseer ou Vera ? Les 2, mon capitaine ! Aeon-Labs Stick S2 en controleur secondaire Z-Stick series 2 Aeon Labs  Vera 
+ Sommaire Domotique 
+        </text>
+</document>

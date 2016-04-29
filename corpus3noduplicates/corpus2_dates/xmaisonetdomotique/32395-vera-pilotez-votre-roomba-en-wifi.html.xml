@@ -1,0 +1,20 @@
+<document>
+	<date>2013-06-21</date>
+        <title>
+Vera: Pilotez votre Roomba en Wifi</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Roomba</tag>
+                <tag>Roowifi</tag>
+                <tag>vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Box Domotique</category>
+        </categories_set>
+        <text>Comme nous lavons vu dans la  presentation de la carte  RooWifi , qui permet de piloter son aspirateur  Roomba  en  Wifi , il existe une API complete permettant a nimporte quel appareil / logiciel de piloter le Roomba. Les applications nont pas tarde a arriver, avec par exemple un premier plugin pour la box  Vera  de  Micasaverde , que je vous presente aujourdhui.  
+ I. Installation  Pour commencer, il faudra telecharger les fichiers du plugin RooWifi, en attendant quil soit disponible sur le store  Micasaverde .  
+[box_download] Telecharger le plugin RooWifi [/box_download]  Decompressez larchive Zip. Sur la  Vera , il faut se rendre ensuite dans le menu Applications, puis Developper des Applications, et enfin Fichiers Luup. La, il ny a plus qua charger les 4 fichiers telecharges precedemment:   Ensuite, toujours dans le meme menu, faites Creer un module. Configurez le de cette facon:   Dans type de module, renseignez: urn:schemas-upnp-org:device:Roomba:1 Dans nom du fichier du peripherique UPnP: D_Roomba.xml Dans nom di fichier dimplementation UPnP: I_Roomba.xml Puis indiquez ladresse IP de votre Roomba. Faites Creer un module: cest termine.  Un nouveau device est apparu sur le tableau de bord:   En cliquant sur la molette a droite du device, on voit apparaitre une boite de dialogue avec trois commandes pour piloter le Roomba:   A partir de la, vous pouvez piloter votre Roomba depuis votre  Vera  :D Les ordres sont encore peu nombreux, mais ils permettront deja de lancer un nettoyage, un nettoyage concentre sur une zone, ou encore arreter le Roomba. Il faut savoir que ce plugin utilise la connexion TCP de la carte Roowifi, et nest donc pas limite aux 3 commandes HTTP que nous avons pu voir dans sa presentation ou encore son  utilisation avec leedomus . Il sera tres facile de faire evoluer ce plugin avec dautres commandes.  
+ II. Utilisation dans les scenes  Bien sur, sil est possible de piloter manuellement le Roomba depuis linterface de la  Vera , il est egalement possible de le piloter depuis une scene. Il faudra pour cela creer une nouvelle scene, puis se rendre dans longlet Avance de la scene. En selectionnant le peripherique Roomba et en lajoutant, il sera possible dindiquer la commande a executer:    On pourra ainsi par exemple lancer le nettoyage du Roomba lorsquon active lalarme pour partir, de cette facon la maison sera propre a notre retour :D  
+ III. Conclusion  Le plugin tel quil est ici est relativement simple et evoluera sans doute rapidement. En fait, meme les developpeurs debutants pourront facilement ladapter a leurs besoins et y ajouter des commandes. Ce plugin est la avant tout pour ouvrir la voie. En attendant, il permet deja de piloter tres facilement son Roomba en Wifi et de lintegrer dans des scenarios, ce qui est deja tres pratique !   Roomba   Roowifi   vera 
+        </text>
+</document>

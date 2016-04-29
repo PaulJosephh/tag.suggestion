@@ -1,0 +1,22 @@
+<document>
+	<date>2007-12-15</date>
+        <title>Restaurer le menu de dmarrage de Windows cras par grub</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Galeres</category>
+                <category>Generalitees</category>
+        </categories_set>
+        <text>
+                                                Souvent, lors de linstallation de  Linux grub Windows 
+ 
+Deplacer grub sous linux (sur la partition  hd0,4 
+ sudo grub
+ 
+Restaurer le MRB de  Windows DOS Windows  fdisk /mbr 
+ BOOTPART WINNT BOOT:C: 
+Ajouter  Linux Windows Dual boot Windows NT/2k/XP et Linux 
+ BOOTPART xx c:bootsect.lin Linux 
+        </text>
+</document>

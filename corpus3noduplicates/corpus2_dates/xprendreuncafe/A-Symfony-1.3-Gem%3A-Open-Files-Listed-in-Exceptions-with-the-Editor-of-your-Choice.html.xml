@@ -1,0 +1,28 @@
+<document>
+	<date>2009-10-12</date>
+        <title>A Symfony 1.3 Gem: Open Files Listed in Exceptions with the Editor of your Choice</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>editor</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+                <tag>textmate</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Ive just stumbled upon a nice new feature of  Symfony  1.3, the ability to  open any linked file within standard exception page with the text editor of your choice , at least if it provides an url scheme/protocol to open them.  Texmate provides natively this feature , so lets see how to configure a symfony project to allow its files to be opened directly in textmate when encountering a stack trace. 
+
+
+ In the  config/  folder of the project, create a  settings.yml  file with this content: 
+
+  yml
+dev: #yeah, we never know
+  .settings:
+    file_link_format: "txmt://open?url=file://%fline=%l"
+ 
+
+
+ Thats it. Now any standard exception page (in  dev  environment only, right?) will provide a  txmt://  link to every PHP file listed in the stack trace. And at the correct line number. Neat. 
+        </text>
+</document>

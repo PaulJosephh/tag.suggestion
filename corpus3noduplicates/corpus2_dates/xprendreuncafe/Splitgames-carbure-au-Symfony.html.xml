@@ -1,0 +1,26 @@
+<document>
+	<date>2007-03-06</date>
+        <title>Splitgames carbure au Symfony</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>clever-age</tag>
+                <tag>framework</tag>
+                <tag>myself</tag>
+                <tag>php</tag>
+                <tag>splitgames</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>La nouvelle version du site internet  Splitgames , dont j'ai activement participe au developpement et a la mise en place de la plateforme technique dans le cadre d'une mission  Clever Age ,  est en ligne  (avec un peu de retard, mais quand on aime, on ne compte pas.) 
+
+
+ Splitgames  est une plateforme d'echange en ligne de jeux videos. Cette nouvelle version, entierement refactoree par rapport a la precedente, repose sur la version 1.0 du  framework Symfony , dont je vous parle regulierement  ici meme . Preuve s'il en est que de sympathiques choses peuvent etre accomplies avec cet outil. 
+
+
+ Felicitations a tout ceux qui ont travaille sur le projet! 
+
+ PS: Les  popups javascript  en rollover,  c'est pas moi   
+        </text>
+</document>

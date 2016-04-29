@@ -1,0 +1,15 @@
+<document>
+	<date>2012-11-12</date>
+        <title>Guide dinstallation de la tlcommande porte-cls 4 boutons Aeon labs</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                          
+ La telecommande porte-cles  Aeon Labs Z-Wave Chaque bouton permet de controler deux dispositifs ou scenes grace a la   gestion des appuis courts et longs. Cette telecommande peut etre aussi   bien utilisee comme controleur principal ou secondaire.  La telecommande porte cles 4 boutons  Aeon Labs   Inserez la pile dans la telecommande et refermez le couvercle.   Utilisation en controleur principal La telecommande peut etre utilisee comme controleur principal. Dans ce cas elle pourra gerer votre reseau  Z-Wave Appuyez sur le bouton Include (en haut a gauche de la LED). La LED va clignoter en vert.   Appuyez sur le bouton dinclusion de votre peripherique. La LED va rester fixe pendant 2 secondes. Si vous avez dautres peripheriques a inclure vous pouvez appuyer sur leur bouton dinclusion les uns apres les autres. Une fois vos peripheriques inclus, vous devez sortir du mode configuration et passer en mode utilisation pour piloter vos peripheriques. A laide dun trombone, appuyez sur le bouton Mode situe a larriere de la telecommande.   La LED sallume pendant 2 secondes pour confirmer le changement de mode. Apres linclusion des peripheriques dans le reseau  Z-Wave Appuyez sur le bouton dinclusion de votre peripherique. La LED va rester fixe pendant 2 secondes. Si vous avez dautres peripheriques a associer au bouton, vous pouvez appuyer sur leur bouton dinclusion les uns apres les autres.  Utilisation en controleur secondaire La telecommande peut etre utilisee en tant que controleur secondaire si vous disposez deja dun reseau  Z-Wave domotique Vera ZiBASE eedomus Mettez tout dabord votre controleur principal ( Vera ZiBASE eedomus A laide dun trombone, appuyez sur le bouton Learn situe a larriere de la telecommande.   Si loperation a reussi, la LED de la telecommande va rester allumee quelques instants en vert, sinon elle sera rouge. Une fois la telecommande incluse,  vous devez sortir du mode configuration et passer en mode utilisation. A laide dun trombone, appuyez sur le  bouton Mode situe a larriere de la telecommande.   Votre telecommande peut maintenant etre utilisee dans votre reseau  Z-Wave Pour utiliser la telecommande en mode Scene, cest-a-dire que lappui sur un bouton execute une scene programmee dans le controleur principal ( Vera ZiBASE eedomus  Utilisation de la telecommande porte-cles 4 boutons Aeon Labs avec leedomus Utilisation de la telecommande porte-cles 4 boutons Aeon Labs avec la Vera Utilisation de la telecommande porte-cles 4 boutons Aeon Labs avec la ZiBASE    Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

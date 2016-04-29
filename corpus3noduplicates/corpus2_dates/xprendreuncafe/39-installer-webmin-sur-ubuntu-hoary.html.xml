@@ -1,0 +1,123 @@
+<document>
+	<date>2005-03-29</date>
+        <title>Installer Webmin sur Ubuntu Hoary</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>linux</tag>
+                <tag>serveur</tag>
+                <tag>tutoriel</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Installation 
+
+
+ Tout d'abord, il faut installer les paquets correspondants a vos besoins depuis Synaptic, ou directement en ligne de commande. Puisque nous allons effectuer pas mal d'operations sous root, on va creer une session root, ce qui nous evitera de tapper trop souvent la commande  sudo  et le mot de passe: 
+
+
+ $ sudo -s
+$ Password:
+# 
+
+
+ Nous voici superadmins   Si ce n'est pas deja fait, il faut installer apache2: 
+
+
+ # apt-get install apache2 
+
+
+ On installe webmin. Si vous ne connaissez pas precisemment les modules dont vous avez besoins, vous pouvez commencer par l'installation des paquets de base: 
+
+
+ # apt-get update
+# apt-get install webmin webmin-core 
+
+
+ Une fois le telechargement et l'installation des paquets effectues, vous etes censes pointer votre navigateur a l'adresse  https://localhost:10000  et vous logguer en root au moyen du pass... du compte root, qui n'existe pas par defaut sous Ubuntu  puisque sudo est utilise . La commencent donc les ennuis, puisque nous ne disposons pas du mot de passe correspondant au seul compte webmin active par defaut  
+
+
+ De plus, il vaut mieux eviter d'essayer de se logguer en essayant des mots de passe pifometriques puisqu'au bout de trois essais,  l'acces a webmin depuis l'IP locale sera impossible ! 
+
+
+ Grace au  commentaire de Kagou , je decouvre que la methode la plus rapide pour affecter un nouveau mot de passe a l'utilisateur webmin  root , methode fournie par Webmin himself, est la suivante: 
+
+
+ # /usr/share/webmin/changepass.pl /etc/webmin root Mot_De_Passe 
+
+
+ Pour la gloire et accessoirement ceux que ca interesse, je laisse la methode que j'ai employe et qui abouti au meme resultat ;): 
+
+
+ Il va donc falloir ruser , et affecter un mot de passe a l'utilisateur webmin  root . Pour commencer, il faut savoir que le fichier des users/password de webmin se trouve ici:  /etc/webmin/miniserv.users , et que les mots de passe sont cryptes. Nous allons donc utiliser htpasswd afin de definir notre mot de passe root: 
+
+
+ # root@niko:~# htpasswd -nb root MonMotDePasse123
+root:Hl2PQPgFQ8yLQ 
+
+
+ Bien entendu, il faut remplacer  MonMotDePasse123  par le mot de passe desire  
+
+
+ Maintenant, et apres avoir mis la ligne recuperee ci-dessus dans le presse-papier, on ouvre le fichier de definition des users/password de webmin: 
+
+
+ # gedit /etc/webmin/miniserv.users 
+
+
+ On remplace l'entree existante  root:*  par le couple obtenu avec htpasswd (dans notre cas,  root:Hl2PQPgFQ8yLQ ), on sauve et ferme le fichier, puis on relance webmin via la commande: 
+
+
+ # /etc/webmin/restart 
+
+
+ Et voila, vous pouvez vous logguer depuis  https://localhost:10000  (attention a bien autoriser l'acces au port 10000 dans votre firewall) et creer un nouvel utilisateur webmin, et lui attribuer les modules utiles  
+ 
+ 
+ 
+ 
+ 
+
+
+ Acces distant via IP/domaine public 
+
+
+ Si comme moi vous souhaitez pouvoir utiliser webmin depuis ailleurs que chez vous (ce qui est le but de webmin a la base), voici une petite astuce pour le faire tres simplement: 
+
+ 
+ Editez le fichier /etc/hosts 
+ Ajoutez-y a la suite de la chaine contenant localhost votre IP (ou votre domaine) 
+ 
+
+ Par exemple, pour une machine derriere une freebox configuree en mode routeur, possedant le sous-domaine toto.hd.free.fr, la premiere ligne du fichier peut etre: 
+
+
+ 127.0.0.1 localhost.localdomain localhost nomdemamachine toto.hd.free.fr 
+
+
+ ( nomdemamachine  represente le nom local de la machine) 
+
+
+ Modules interessants 
+
+
+ Une fois webmin installe et accessible, vous pouvez bien evidemment lui ajouter de nouveaux modules via apt (et donc Synaptic), en fonction des outils deja installes sur votre machine que vous aimeriez pouvoir controler a distance. Voici quelques-uns des modules webmin que je trouve interessants et/ou que j'utilise: 
+
+ 
+ webmin-apache - apache control module for webmin 
+ webmin-bind - bind 8+ control module for webmin 
+ webmin-firewall - iptables control module for webmin 
+ webmin-grub - grub control module for webmin 
+ webmin-mailboxes - user mail reading module for webmin 
+ webmin-mon - mon control module for webmin 
+ webmin-mysql - mysql-server control module for webmin 
+ webmin-postfix - postfix control module for webmin 
+ webmin-proftpd - Proftpd module for webmin 
+ webmin-status - server and system status control module for webmin 
+ webmin-usermin - usermin control module for webmin 
+ 
+
+ Webminez bien  
+        </text>
+</document>

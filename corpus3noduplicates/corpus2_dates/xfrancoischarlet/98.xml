@@ -1,0 +1,49 @@
+<document>
+	<date>2013-06-03</date>
+        <title>Droit d'auteur, interm&#233;diaires techniques, surveillance et censure : dangereux cocktail</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Droit d'auteur</tag>
+                <tag>Sph&#232;re priv&#233;e</tag>
+                <tag>Surveillance</tag>
+                <tag>T&#233;l&#233;chargement</tag>
+                <tag>T&#233;l&#233;communications</tag>
+        </tags_set>
+        <categories_set>
+                <category>Droit</category>
+        </categories_set>
+        <text>
+                                                
+                                                         En Europe 
+ Il y a quelques semaines, la  Sabam  (l'&#233;quivalent belge de la  SUISA  en Suisse) a d&#233;pos&#233; une plainte contre Voo, Telnet et Belgacom, trois op&#233;rateurs belges offrant un acc&#232;s &#224; Internet &#224; leurs clients. La plainte repose sur le constat que ces fournisseurs d'acc&#232;s &#224; Internet (FAI), par ailleurs simples interm&#233;diaires techniques n'exer&#231;ant aucun contr&#244;le &#233;ditorial a priori sur les donn&#233;es transitant par leur infrastructure, reconnaissent implicitement qu'Internet est un lieu o&#249; on trouve des contenus prot&#233;g&#233;s par le droit d'auteur. En effet, ces op&#233;rateurs ont affich&#233; des  publicit&#233;s vantant les performances de leur r&#233;seau pour le t&#233;l&#233;chargement de films et morceaux de musique . 
+ Cette plainte (re)met sur la table la question de la  responsabilit&#233; des fournisseurs d'acc&#232;s &#224; Internet , ainsi que (indirectement) des h&#233;bergeurs et autres interm&#233;diaires techniques. En Europe et aux &#201;tats-Unis, ces interm&#233;diaires sont exempt&#233;s de toute responsabilit&#233; quant aux contenus qui transitent sur leur r&#233;seau ou qui sont stock&#233;s sur leur infrastructure. Toutefois,  on ne prot&#232;ge que leur ignorance  : le secret des t&#233;l&#233;communications notamment emp&#234;che une surveillance par le FAI. Une fois que ces interm&#233;diaires ont &#233;t&#233; avertis de la pr&#233;sence d'un fichier violant les droits d'un tiers (que ce soit un droit d'auteur, de la personnalit&#233;, contractuel, etc.), ils doivent prendre des mesures pour le retirer ou le rendre inaccessible. C'est ce qui ressort de la  directive europ&#233;enne sur le commerce &#233;lectronique &#160;et du  Digital Millenium Copyright Act am&#233;ricain . 
+ Dans les faits, les h&#233;bergeurs sont d&#233;j&#224; tr&#232;s sollicit&#233;s par les ayants droit depuis plusieurs ann&#233;es&#160;: ces derniers leur signalent tous les jours une multitude de fichiers mis &#224; disposition ill&#233;galement afin d'&#234;tre retir&#233;s. Les h&#233;bergeurs sont &#233;galement tenus, dans certains pays, de prendre des mesures pour que les fichiers incrimin&#233;s ne puissent pas &#234;tre stock&#233;s puis mis &#224; disposition &#224; nouveau  1 . 
+ Mais si l'on admet qu'un FAI peut &#234;tre contraint &#8211; par exemple par juge &#8211; de v&#233;rifier qu'un fichier d'un ayant droit est rendu inaccessible &#224; ses clients, ce sera la porte ouverte (suivie d'un boulevard) &#224; la surveillance du trafic Internet par ce FAI. Puis arriveraient des mesures proactives pour d'autres fichiers. Alors que le filtrage et la surveillance g&#233;n&#233;ralis&#233;s des communications sont interdits en Europe  2 , la probl&#233;matique d'un filtrage et d'une surveillance cibl&#233;s ne serait pas encore r&#233;solue.&#160;Cela pose un probl&#232;me de taille car  si un FAI est cens&#233; filtrer certains contenus, doit-il aussi le faire dans les conversations priv&#233;es de ses clients, par exemple&#160;?  Doit-il filtrer un lien Rapidshare ou Mega dans un e-mail&#160;? 
+ Le filtrage pr&#233;ventif est la voie que semblent suivre certains FAI aux &#201;tats-Unis, en particulier concernant le peer-to-peer. Au lieu d'une loi, un code de conduite a &#233;t&#233; sign&#233; entre les FAI et les ayants droit afin que les premiers envoient des avertissements dans un but p&#233;dagogique avant de limiter le d&#233;bit de la connexion Internet si le comportement illicite persiste. M&#234;me la neutralit&#233; du net est mise &#224; mal... 
+ Une surveillance proactive par les FAI aurait une cons&#233;quence potentiellement dramatique si elle est automatis&#233;e. En effet, elle impliquera n&#233;cessairement une certaine  quantit&#233; de faux positifs (des contenus l&#233;gaux consid&#233;r&#233;s comme ill&#233;gaux), mettant &#224; mal les libert&#233;s d'expression et d'information . En outre, on peut raisonnablement pr&#233;voir que si des FAI commencent &#224; mettre en place un filtrage, nombreux seront les clients qui r&#233;silieront leur contrat pour aller voir &#224; la concurrence, ce qui rendra probablement n&#233;cessaire la mise en place d'une loi sur ce sujet. 
+ En Suisse 
+ Lors de la derni&#232;re r&#233;union du&#160;groupe de travail charg&#233; d&#8217;am&#233;liorer la gestion collective des droits d&#8217;auteur et des droits voisins ( AGUR12 ,&#160;Arbeitsgruppe zur Optimierung der kollektiven Verwertung von Urheberrechten und verwandten Schutzrechten), le 8 mai 2013, un consensus s'est d&#233;gag&#233; : 
+ 
+ [Il] convient de combattre activement et efficacement les mod&#232;les d'affaires reposant sur une violation des droits d'auteur, qu'elle soit le fait de tiers ou des cr&#233;ateurs de ces mod&#232;les d'activit&#233;. De plus, il faudrait que les exploitants d'infrastructures qui utilisent ce type de mod&#232;le d'entreprise soutiennent cette lutte dans la mesure du raisonnable et des possibilit&#233;s techniques et l&#233;gales. 
+ 
+ L'AGUR12 propose les solutions suivantes&#160;: 
+ 
+ 
+ envoi de messages d'avertissement aux utilisateurs de r&#233;seaux pair-&#224;-pair qui portent gravement atteinte aux droits d'auteur et, en cas de r&#233;cidive, recours au droit civil et/ou poursuites p&#233;nales&#160;; 
+ obligation pour les h&#233;bergeurs Internet situ&#233;s en Suisse de supprimer, sur d&#233;nonciation, les contenus enfreignant le droit d'auteur  3  ; 
+ dans les cas graves, obligation pour les fournisseurs d'acc&#232;s &#224; Internet situ&#233;s en Suisse de bloquer l'acc&#232;s &#224; des sources manifestement ill&#233;gales sur d&#233;nonciation ou sur demande du  SCOCI  (ou d'une nouvelle autorit&#233; publique institu&#233;e sur son mod&#232;le) ; 
+ r&#232;glementation des obligations des fournisseurs, mais aussi de leur protection, par exemple contre les revendications directes des titulaires de droit ou contre les actions en responsabilit&#233;. 
+ 
+ 
+ Les mesures n&#176; 1 et 2 ne sont qu'une reprise de ce qui se fait d&#233;j&#224; dans d'autres pays sans que cela ne porte trop de pr&#233;judices aux droits des internautes ( loi Hadopi  en France, bien que ce que propose l'AGUR12 ici en est une att&#233;nuation&#160;; proc&#233;dure de Notice and Takedown, comme aux &#201;tats-Unis, bien qu'elle soit loin d'&#234;tre parfaite et sujette &#224; de nombreux abus). 
+ Il en va clairement autrement de la mesure n&#176; 3 dont les probl&#232;mes ont &#233;t&#233; &#233;voqu&#233;s ci-dessus. 
+ Commentaire 
+ Andreas von Gunten &#160;va jusqu'&#224; dire que ce que propose l'AGUR12 est une combinaison des syst&#232;mes fran&#231;ais, allemands et am&#233;ricains. En pire. Sans &#234;tre aussi alarmiste, et quand bien m&#234;me une soigneuse pes&#233;e des int&#233;r&#234;ts doit &#234;tre faite entre la protection du droit d'auteur et celle de la protection de la vie priv&#233;e et du secret des t&#233;l&#233;communications, une surveillance du trafic Internet, m&#234;me cibl&#233;, n'est pas envisageable. 
+ Am&#233;liorons l'efficacit&#233; des proc&#233;dures permettant aux ayants droit d'agir et de demander la suppression des contenus prot&#233;g&#233;s, en emp&#234;chant aussi qu'ils puissent abuser de ce syst&#232;me en les obligeant &#224; fournir aux h&#233;bergeurs des documents prouvant qu'ils sont l&#233;gitim&#233;s &#224; requ&#233;rir le retrait des contenus, en prot&#233;geant les h&#233;bergeurs contre les demandes apparemment abusives ou ne r&#233;pondant pas aux crit&#232;res pr&#233;c&#233;dents, etc. 
+ Aucune solution parfaite ne peut &#234;tre trouv&#233;e, apparemment, mais celle-ci aurait le m&#233;rite de mieux prot&#233;ger les ayants droit sans mettre en danger la sph&#232;re priv&#233;e des citoyens. 
+
+         Notes &#160;&#160;&#160;[  +  ]                                                 1.      &#8629;         Pour plus d'informations sur le th&#232;me de la responsabilit&#233; des h&#233;bergeurs, mon m&#233;moire de Master intitul&#233;&#160; Responsabilit&#233; en droit d&#8217;auteur des interm&#233;diaires&#160;: de l'h&#233;bergeur aux plateformes interactives &#160;est disponible&#160; ici .   2.      &#8629;         Voir la  d&#233;cision  de la Cour de justice de l'Union europ&#233;enne rendue en 2011 dans une affaire impliquant la Sabam    3.      &#8629;         Le groupe de travail AGUR12 n'est pas parvenu &#224; un consensus concernant les mesures permettant d'emp&#234;cher que ces contenus soient &#224; nouveau t&#233;l&#233;charg&#233;s et le contr&#244;le de listes de liens pertinents                                                                                
+                                                                                                        
+                                                 
+        </text>
+</document>

@@ -1,0 +1,92 @@
+<document>
+	<date>2008-01-12</date>
+        <title>Symfony, une redirection 302 et une exception sont dans un bateau</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>exceptions</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Ah la la. C'est assez rare pour etre souligne, mais je viens de me battre avec  Symfony  pendant pres de deux heures avec un probleme assez deroutant de prime abord: lorsque dans une action vous faites quelque chose d'aussi anodin que ceci: 
+
+  php
+  public function executeBar()
+  {
+    try
+    {
+      // Some stuff here, if successful redirect user to somewhere else
+      $this-setFlash('notice', 'Action was successful');
+      $this-redirect('@whatever_route');
+    }
+    catch (Exception $e)
+    {
+       $this-getRequest()-setError('errors', 'Something has failed somewhere, sorry dude');
+       $this-logMessage('Big boo boo occured: '.$e-getMessage(), 'err');
+       return sfView::SUCCESS;
+    }
+  }
+ 
+
+
+ Et bien dans ce cas la, la redirection s'opere MAIS l'ensemble du rendu sera tout de meme produit et envoye au navigateur  [ 1 ]  - ce qui peut s'averer tres couteux sur un site internet au final  [ 2 ] . La raison en est tres simple, la methode  redirect()  de la classe  sfActions  met fin a l'execution par ce moyen  que l'on peut qualifier de hardi : 
+
+  php
+  public function redirect($url, $statusCode = 302)
+  {
+    $url = $this-getController()-genUrl($url, true);
+    if (sfConfig::get('sf_logging_enabled'))
+    {
+      $this-getContext()-getLogger()-info('{sfAction} redirect to "'.$url.'"');
+    }
+    $this-getController()-redirect($url, 0, $statusCode);
+    throw new sfStopException();
+  }
+ 
+
+
+ Oui, vous avez bien lu, on interrompt le script en levant une exception, ici de type  sfStopException . Le probleme, c'est que dans mon exemple precedent, la methode redirect() est appellee dans un bloc  try { } catch { } , et donc l'exception levee est interceptee et l'action n'est au final pas stoppee. Vicieux, hein? 
+
+
+ Pour regler le probleme, on peut par exemple toujours effectuer ses appels a la methode  redirect()  en dehors d'un block  try { } catch { }   [ 3 ] , ou encore tester le type de l'exception levee. Dans notre exemple, cette derniere solution ressemblerait a ca: 
+
+  php
+  public function executeFoo()
+  {
+    try
+    {
+      // Some stuff here, if successful redirect user to somewhere else
+      /// ...
+      $this-setFlash('notice', 'Action was successful');
+      $this-redirect('@whatever_route');
+    }
+    catch (sfStopException $e)
+    {
+      return sfView::HEADER_ONLY;
+    }
+    catch (Exception $e)
+    {
+      $this-getRequest()-setError('errors', 'Something has failed somewhere, sorry dude');
+      $this-logMessage('Big boo boo occured: '.$e-getMessage(), 'err');
+      return sfView::SUCCESS;
+    }
+  }  
+ 
+
+
+ C'est pas super sexy, mais ca fonctionne, et ca a le merite de m'inspirer deux morales a cette histoire: 
+ 
+ tester le type des exceptions que l'on catche, c'est bien 
+ lever une exception pour arreter un script, c'est super cracra et meriterait eventuellement d'etre patche  
+ 
+
+ Edit:   Je m'exprime mal, c'est pas  super cracra , c'est juste que ca introduit une petite complexite supplementaire. Mais l'utilite de la chose est bien entendu totalement averee si on a besoin d'effectuer des operations particulieres avant la fin du script ( ce qui est rarement le cas, enfin chez moi). 
+ Notes 
+ [ 1 ] Avec tout ce que ca comporte de requete SQL et de templates calcules  pour rien 
+ [ 2 ] Et oui bien sur, faire un  redirect()  dans un bloc  try catch  c'est pas forcement le meilleur endroit, mais c'est teeeellement pratique  
+ [ 3 ] Qui sera donc execute de toute facon si aucune exception n'est levee. 
+        </text>
+</document>

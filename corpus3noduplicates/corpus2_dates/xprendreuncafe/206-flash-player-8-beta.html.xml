@@ -1,0 +1,79 @@
+<document>
+	<date>2005-07-14</date>
+        <title>Flash Player 8 beta</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>flash</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>[Via  5 1/2 ,  Darron Schall    gotoAndPlay ] 
+
+
+ 
+
+
+ Macromedia vient de sortir la  version beta  du  prochain Flash Player 8 . De quoi commencer a voir ce que le bebe a (aura) dans le ventre  
+
+ 
+ Chargement externalise des fichiers JPEG progressifs et PNG transparents ( demo ) 
+ Processeur graphique temps-reel (blending modes) ( demo 1 ,  demo2 ), 
+ Moteur de rendu de texte ameliore, 
+ Un  poids revu a la hausse , 
+ etc... 
+ 
+
+ Il commence d'ailleurs a fleurir sur le web des astuces et outils permettant de modifier les headers des fichiers SWF pour les rendre compatibles avec ce nouveau player: 
+
+ 
+ Faites le vous meme  avec un editeur hexadecimal... 
+ ... ou en ligne avec le  SWF Version Converter 
+ 
+
+ Un probleme? Un bug? Faites avancer le schmilblick en remplissant ce  formulaire de retour utilisateur . 
+
+
+ Mise a jour 
+
+
+ D'autres exemples: 
+
+ 
+ Un test de performance sur  Protozoo , et un  fla pour tester soit-meme . 
+ Exemples d'utilisation des filtres en pagaille sur  the flash blog 
+ 
+
+ Nouvelle mise a jour 
+
+
+ MTASC  vient de sortir en  version 1.09  avec le support du  Flash Player 8 . Quelle reactivite! 
+
+ 
+ Deux   exemples  de compilation chez Protozoo. 
+ 
+
+ Mise a jour (oui, encore) 
+
+ 
+ Patrick Minault  analyse le resultat de la  decompilation des fonctions natives du Flash Player 8 . 
+ On y decouvre notamment l'implementation des fonctions d'upload de fichiers, et deux/trois autres  bricoles . Miam. 
+ Je vous rappelle que tout ceci est compilable via  MTASC 1.09 . 
+ 
+
+ Tiens ?! Une nouvelle mise a jour 
+
+ 
+ Toujours sur l'excellent  Protozoo , une demonstration de l'utilisation de la  detection de mouvement video , 
+ Comment exporter en Flash 8 ? , 
+ Flash player 8:  tests de performances , 
+ On parle deja d 'actionScript 3 ... 
+ 
+
+ Mais ou s'arreteront donc les mises a jours? 
+
+ 
+ Preuves par l'exemple que  FP8  est une tuerie . 
+ 
+        </text>
+</document>

@@ -1,0 +1,29 @@
+<document>
+	<date>2007-12-06</date>
+        <title>Yet Another En Vrac</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>html5</tag>
+                <tag>javascript</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Tiens, ca faisait longtemps... 
+
+ 
+ Un  petit tour d'horizon des possibilites de HTML 5 . Evolution tres prometteuse du vieux et abscons HTML 4, la date de sortie supposee (dans 10 ou 15 ans dixit l'auteur) refroidit cependant, et c'est dommage... 
+ Javascript 2 pointe le bout de son nez , base sur la version 4 de la  specification ECMAScript . Au programme, entre autres rejouissances, classes, interfaces, namespaces et packages: MIAM (et surtout, ENFIN.) 
+ Quelques unes des nouvelles fonctionnalites retenues pour implementation dans la  version 5.3 de PHP :  namespace  support (megayeah),  OpenID  support in ext/openssl (megayeah),  late static binding  (yeah),  SQLite  3 support in ext/sqlite (cool),  mysqlnd library  in the core (cool)... Mais que restera t-il a  PHP 6 ?  
+ CouchDB , un serveur de base de document accessible via une API REST JSON tres prometteuse avec un  exemple de mise en oeuvre  simple et efficace. 
+ Cote  Symfony :
+ 
+ Une chouette exploration des fonctionnalites de  gestion de formulaires et de leur validation  dans la prochaine version 1.1 du framework. 
+ Un  chouette projet de forum  base sur le framework et quelques plugins a vu le jour:  Motilee . Contributions bienvenues. 
+ Fabien Potencier , createur et mainteneur de Symfony a ouvert  son blog , et on y trouve deja quelques  petites astuces interessantes . 
+ 
+ 
+        </text>
+</document>

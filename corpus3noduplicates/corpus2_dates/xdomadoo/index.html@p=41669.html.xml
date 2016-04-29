@@ -1,0 +1,23 @@
+<document>
+	<date>2014-12-01</date>
+        <title>Test du module rail DIN 2 relais WP-PANEL-REL2 de WIFIPOWER</title>
+        <author> Kragg </author>
+        <tags_set>
+                <tag>domotique</tag>
+                <tag>rail din</tag>
+                <tag>test</tag>
+                <tag>Wi-Fi</tag>
+                <tag>wifipower</tag>
+                <tag>WP-PANEL-REL2</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>News</category>
+        </categories_set>
+        <text>
+                                                         Apres vous avoir presente la gamme de produits WIFIPOWER la semaine derniere rail DIN relais Wi-Fi Une chose importante pour commencer, ce produit ne necessite ni abonnement ni cout a lutilisation,  vous lachetez au prix de 169 Il permet de controler 2 circuits electriques independammentde differentes facons : par tous navigateurs WEB nimporte ou dans le monde ou simplement votre Tablette de salon par ordinateur avec bus  USB par des commandes  http domotique ZiBASE eedomus Voila le modele que jai recu : Je nai pas trop cherche a comprendre une fois recu, hop directement dans le tableau electrique ! Il est assez imposant du coup je lai place en haut de mon tableau electrique, il va me servir pour alimenter ma prise electrique qui se trouve egalement sur la meme rangee que le module. Voila il est sous tension je peux me connecter dessus, avec le cable  USB Pour se connecter il faut utiliser lapplication WP Configurator V2.5 telechargeable sur le site de WIFIPOWER. Bon je vous laccorde cest mieux en francais, je choisi le modele REL2, Voila le module est bien detecte par lapplication, cela est simple et fonctionne rapidement, on peut tester tout de suite le  relais Dans la partie  WLAN DHCP Le bouton Reset WP Device rebootera directement la carte. Longlet Command Line permet de specifier vos parametres en lignes de commande. Longlet UDP Discover permet de voir vos autres produits WIFIPOWER de votre reseau. Une fois les parametres IP renseignes, vous pouvez vous connecter sur votre navigateur favori et saisir ladresseIP que vous avez specifie, ce qui vous fera arriver directement sur la page detat de vos 2  relais Apres avoir fait pas mal de test, je trouve que ce module WIFIPOWERrepond vraiment tres rapidement aux ordres ! Cela est simple a configurer. Dans un prochain test je vais vous montrer comment integrer cemoduledans unenvironnement box  domotique  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Test du systeme de securite et domotique Z-Wave Piper END .entry-content  
+        </text>
+</document>

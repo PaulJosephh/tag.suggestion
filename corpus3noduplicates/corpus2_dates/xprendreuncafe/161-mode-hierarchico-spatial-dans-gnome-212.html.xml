@@ -1,0 +1,20 @@
+<document>
+	<date>2005-06-21</date>
+        <title>Mode Hierarchico-Spatial dans Gnome 2.12 ?</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>gnome</tag>
+                <tag>linux</tag>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>[Via  Murray Cumming ,  Planet Gnome ] 
+
+
+ C'est pour moi  LA  fonctionnalite qui manque a Nautilus 2.10.1, un  mode hierarchique mono-fenetre , c'est a dire pouvant afficher l'arborescence des sous-dossiers du dossier courant (la sidebar obtenue par F9 represente une vue hierarchique de TOUT le filesystem, appreciez la nuance). Et bien c'est visiblement bien parti pour que cette fonctionnalite soit integree dans la prochaine mouture de Gnome,  la version 2.12 . 
+
+
+ Pour patienter d'ici-la, voici une  petite capture d'ecran , et pour les plus furieux, la fonctionnalite est dispo dans le dernier CVS. 
+        </text>
+</document>

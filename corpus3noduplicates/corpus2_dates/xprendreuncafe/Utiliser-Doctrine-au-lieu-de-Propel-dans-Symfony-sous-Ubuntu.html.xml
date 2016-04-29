@@ -1,0 +1,149 @@
+<document>
+	<date>2007-01-07</date>
+        <title>Utiliser Doctrine au lieu de Propel dans Symfony sous Ubuntu</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>doctrine</tag>
+                <tag>orm</tag>
+                <tag>php</tag>
+                <tag>plugins</tag>
+                <tag>symfony</tag>
+                <tag>tutoriel</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Doctrine  est une couche  ORM  rapide et performante, basee sur le  pattern ActiveRecord  bien connu des adeptes de  Ruby on Rails , pouvant etre utilisee en lieu et place de  Propel , l'ORM natif embarque avec  Symfony  par defaut. 
+
+
+ Installation 
+
+
+ La mise en place de Doctrine se presente sous la forme d'un plugin,  sfDoctrine , qui s'installe via un checkout Subversion dans le repertoire  plugins  de votre projet Symfony, comme suit: 
+
+
+ $ cd /path/to/project/plugins
+$ sudo apt-get install subversion
+$ svn co http://svn.symfony-project.com/plugins/sfDoctrinePlugin sfDoctrinePlugin 
+
+
+ Note: Si votre projet est deja versionne dans un depot Subversion, vous pouvez faire un  svn:externals  vers le plugin: 
+
+
+ $ propset svn:externals "symfony http://svn.symfony-project.com/plugins/sfDoctrinePlugin" /path/to/project/plugins 
+
+
+ L'avantage est que desormais vos  svn up  mettront a jour les fichiers du plugin d'un meme coup. 
+
+
+ Ceci fait, il faut installer  PDO  et son driver MySQL via  PECL  sur votre systeme si ce n'est pas deja le cas: 
+
+
+ $ sudo apt-get install build-essential php5-dev php-pear libmysqlclient12-dev
+$ sudo pecl install PDO PDO_MySQL 
+
+
+ C'est un peu long, puisque compile a la volee. Il ne faut pas oublier d'activer notre nouvelle extension et son driver dans nos fichiers differents  php.ini : 
+
+
+ $ sudo vi /etc/php5/apache2/php.ini /etc/php5/cli/php.ini 
+
+
+ Et ajoutez en toute fin de fichiers les deux lignes suivantes: 
+
+
+ extension=pdo.so
+extension=pdo_mysql.so 
+
+
+ Configuration 
+
+
+ Maintenant, definissons nos parametres de connexion pour le projet  monprojet  dans le fichier  ./config/databases.yml  du projet: 
+
+
+ all:
+  monprojet:
+    class: sfDoctrineDatabase
+    param:
+      dsn: mysql://user:pass@localhost/mydb 
+
+
+ Ensuite, on va tester une structure de donnees assez simpliste (au pif et pour faire original, un blog), pour verifier que ca marche. On edite le fichier  ./config/doctrine/monprojet.yml : 
+
+
+ User:
+  tableName:     users
+  columns:
+    name:        string(20)
+    created_at:  timestamp
+Article:
+  tableName:     articles
+  columns:
+    title:       string(255)
+    exerpt:      text
+    description: text
+    created_at:  timestamp
+    user_id:
+      foreignClass: User
+      foreignName:  author
+      localName:    article_author
+      onDelete:     cascade
+Comment:
+  tableName:     comments
+  columns:
+    content:     text
+    created_at:  timestamp
+    user_id:
+      foreignClass: User
+      foreignName:  commenter
+      localName:    comment_user
+      onDelete:     cascade
+    article_id :
+      foreignClass: Article
+      localName:    comment_article
+      onDelete:     cascade 
+
+
+ On peut maintenant generer les classes du modele objet precedemment defini: 
+
+
+ $ symfony doctrine-build-model 
+
+
+ Ce qui nous donne: 
+
+
+  loading   Class descriptions from "/home/...m/config/doctrine/monprojet.yml"
+ writing   BaseUser.class.php
+ writing   BaseArticle.class.php
+ writing   BaseComment.class.php 
+
+
+ Ces fichiers ont ete crees sous  ./lib/model/doctrine  automatiquement. Vous pourrez modifier les classes objets pour les adapter a vos besoin, mais attention, les classes de base situees dans le sous-repertoire  generated  seront systematiquement ecrasees a chaque regeneration. 
+
+
+ Utilisation 
+
+
+ Les commandes de scaffolding propres a Symfony et Propel ont ete adaptees partiellement a Doctrine; vous trouverez ainsi quelques taches utiles: 
+
+
+ doctrine-export             exports doctrine schemas to propel schema.xml
+doctrine-generate-crud      Creates Doctrine CRUD Module
+doctrine-import             converts propel schema.*ml into doctrine schema
+doctrine-init-admin         initialize a new doctrine admin module 
+
+
+ Pour aller plus loin 
+
+
+ La syntaxe de requetage et les autres aspects de Doctrine sont detailles dans les ressources suivantes: 
+
+ 
+ Sur le wiki de Symfony 
+ Sur le wiki de Doctrine 
+ La documentation officielle de Doctrine 
+ 
+        </text>
+</document>

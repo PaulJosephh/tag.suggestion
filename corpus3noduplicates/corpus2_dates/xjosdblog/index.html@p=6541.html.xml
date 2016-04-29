@@ -1,0 +1,30 @@
+<document>
+	<date>2015-03-11</date>
+        <title>Xavante : Handler de type fonction Lua simple</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Lua</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Eloise</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 Objectif 
+ 
+Jai presente dans un  precedant billet WSAPI-Xavante WSAPI 
+
+ Site web du tutoriel ---------------------------------------------------------------- -- Exemple de mise en oeuvre de WSAPI et Xavante (tuto02.lua) -- ---------------------------------------------------------------- local = require ( "xavante" ) -- Formatage sous forme de chaine de caracteres du contenu d'une variable local function ( , ) local = "" = or "" local = "    " if ( type ( ) ~= "table" ) then if ( type ( ) == "string" ) then = string.format ( "%q" , ) else = tostring ( ) end else local = "" for , in pairs ( ) do = .. = ",  \n if ( type ( ) == "number" ) then = .. .. .. ( , .. ) else = .. .. .. ( , .. ) .. " = " .. ( , .. ) end end = "{ \n .. .. " \n .. .. "}" end return end -- La fonction permettant de repondre a des requetes GET ou POST function ( , ) local = nil . [ "Content-type" ] = "text" if ( [ "headers" ] [ "content-length" ] ) then = . : ( tonumber ( [ "headers" ] [ "content-length" ] ) ) end . = string.format ( ' \n \n \n \n \n \n \n \n , tostring ( ( ) ) , tostring ( [ "cmd_mth" ] ) , tostring ( [ "parsed_url" ] [ "path" ] ) , tostring ( [ "parsed_url" ] [ "query" ] ) , tostring ( ) ) return end local = { { -- Gestionnaire de fonction (http://localhost:8080/fsimple) = { "/fsimple$" , "/fsimple/" } , = } , } -- Message de depart . ( function ( ) local date = os.date ( "[%Y-%m-%d %H:%M:%S]" ) print ( string.format ( "%s Xavante started on port(s) %s" , date , table.concat ( , ", " ) ) ) end ) -- Configuration . { = { = "*" , = 8080 } , = { = } , } -- Demarrage (Dans un terminal : wsapi -c tuto02.lua -p 8080) . ( ) -- Test de requete GET : curl "http://localhost:8080/fsimple/sec1/sec2?name1=value1name2=value2" -- Test de requete POST : ccurl --data "Donnees en POST" "http://localhost:8080/fsimple/sec1/sec2?name1=value1name2=value2" Le resultat 
+ 
+Bien entendu, la premiere etape consiste a lancer le serveur web:  wsapi -c tuto02.lua -p 8080 
+Dans le code ci-dessus, la fonction  fonctionSimple(req, res) 
+On peut tester une requete GET sur cette fonction en saisissant dans un terminal la commande suivante:
+ curl  "http://localhost:8080/fsimple/sec1/sec2?name1=value1name2=value2" 
+On peut tester une requete POST sur cette fonction en saisissant dans un terminal la commande suivante:
+ ccurl  --data "Donnees en POST" "http://localhost:8080/fsimple/sec1/sec2?name1=value1name2=value2" References 
+ 
+GitHub:  keplerproject/xavante WSAPI et Xavante : serveur Web Lua 
+ Sommaire Domotique 
+        </text>
+</document>

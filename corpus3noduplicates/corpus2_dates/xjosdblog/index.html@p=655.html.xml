@@ -1,0 +1,18 @@
+<document>
+	<date>2012-01-01</date>
+        <title>WordPress :  Impossible de crer le dossier. </title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Galeres</category>
+                <category>Synology</category>
+                <category>WordPress</category>
+        </categories_set>
+        <text>
+                                                 
+Lors dune tentative de mise a jour de  WordPress chown -R nobody:nobody mon-blog 
+Une fois la mise a jour effectuee, je restaure le proprietaire dorigine.
+ 
+        </text>
+</document>

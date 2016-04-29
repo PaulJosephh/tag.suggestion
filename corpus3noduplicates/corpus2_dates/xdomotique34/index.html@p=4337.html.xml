@@ -1,0 +1,112 @@
+<document>
+	<date>2013-05-07</date>
+        <title>Rcuprer les infos du Koubachi sur la Zibase</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>Koubachi</tag>
+                <tag>Scenario</tag>
+                <tag>Sonde virtuelle</tag>
+                <tag>zibase</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Evenements</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ + 
+ 
+  
+ Jusqua present nous pouvions recuperer les informations sur notre eedomus ou sur la Vera, mais on peut aussi les recuperer sur notre  Zibase . 
+ 
+ Pour cela que nous faut il ? 
+  une Zibase bien sur !! 
+  lAPI de Koubachi 
+  Un scenario 
+  une sonde virtuelle 
+  
+ On saute la 1ere etape puisque nous avons deja la Zibase, nous allons donc passer a  lAPI de Koubachi . Pour y acceder, il faudra sinscrire et obtenir lautorisation de Labs Koubachi pour pouvoir obtenir votreuser_credentials, app_key, et id des plantes que vous avez enregistre. 
+  
+ API Koubachi 
+  
+ 
+ vous trouverez toutes les informations sur vos plantes ainsi que le user_credentials et lapp_key dans le tableau ci-dessous 
+ 
+ selon ce que vous souhaitez recuperer, vous trouverez ci dessous les differentes requetes disponibles : 
+ 
+ 
+ Revenons a notre requete HTTP API 
+ http://api.koubachi.com/v2/plants? user_credentials =xxxxxxxxxxxxxxxxx app_key =xxxxxxxxxxxxxxxxxxxxxx 
+ si vous lancez cette requette HTTP vous obtiendrez ce genre dinformation 
+ 
+ 
+ Ce qui nous interesse cest de recuperer le taux dhumidite dans la Zibase : /vdm-water-level 
+ Le scenario 
+ Rendez vous dans le Mode Expert, Creation de scenario 
+ il y a ici 3 etapes : 
+  affecter unechainede caractere a une variable : 
+ Mettre dans une variable (ici V8) , le pattern a rechercher 
+ Ici:plant/plant/vdm-water-level type=?float?/.2 
+ plant/plant : pour rechercher dans le 2eme descripteur (2 ieme koubachi) (oui jai deux plantes denregistrees sur le koubachi). 
+ vdm-water-level type=?float? : on cherche cette chaine, les ? signifie quil faut passer sans comparer les caracteres en dessous. (les quotes  ne peuvent exister dans les variables, tout comme les  et ). 
+ /.2 : il faut multipler par 10**2 = 100 la valeur lue. 
+  
+ Donc avec vdm-water-level type=float0.055506427433099886 /vdm-water-level  , on aura 5. (5% deau pour la plante?) 
+  
+ Avec : 
+ /.3 : il faut multipler par 10**3 = 1000 la valeur lue. 
+ Donc avec vdm-water-level type=float0.055506427433099886 /vdm-water-level  , on aura 055 dans la variable V8. 
+ ce qui donne 
+ 
+  commander par HTTP 
+ on recupere lurl de lAPI 
+ http://api.koubachi.com/v2/plants?user_credentials=xxxxxxxxxxxxxxxxxapp_key=xxxxxxxxxxxxxxxxxxxxxx 
+ 
+  Alimenter une sonde 
+ Nous allons alimenter une sonde virtuelle (type sonde oregon), une thermo-hygro THGT328 en selectionnant lentree V8 pour recuperer la valeur precedemment acquise. 
+ 
+ ce qui nous donne donc 3 actions dans le scenario: 
+ 
+ Notre scenario est pret, il nous faut creer maintenant la sonde puisque nous avons tout pour lalimenter. Mais avant tout, testons le scenario afin de recuperer lID radio de la sonde virtuelle 
+ 
+ le scenario a ete lance, tout est ok, la valeur de mon koubachi est recuperee et jai maintenant mon ID radio de ma sonde virtuelle caracterisee par OSXXXXXXXXXX (copiez la) 
+ Une sonde virtuelle 
+ 
+ Votre sonde est maintenantcreee, allons voir leresultat sur notre pcPAD 
+ 
+ Bien sur, nous avons que le taux dhumidite, vous pourrez afficher la temperature ambiante de votre piece ou se trouve la plante si vous avez une sonde de temperature. 
+ En Conclusion 
+ Cette API nous permet donc dintegrer notre Koubachi dans notre box domotique Zibase, plus besoin de nous connecter a plusieurs applications pour connaitre letat de nos plantes. Dun seul coupdil, nous savons si nos plantes ont besoin deau, dangrais, ou de plus de soleil. 
+ Si vous aussi vous avez dautres idees pour integrer dautres informations,nhesitezpas a nous le faire savoir. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

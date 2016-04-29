@@ -1,0 +1,19 @@
+<document>
+	<date>2012-01-26</date>
+        <title>
+Eedomus: activer lalarme avec le Nabaztag ou le Karotz</title>
+        <author>KHAZAI</author>
+        <tags_set>
+                <tag>eedomus</tag>
+                <tag>Nabaztag</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Box Domotique</category>
+                <category>Guides Securite</category>
+        </categories_set>
+        <text>Lactivation ou la desactivation de lalarme est souvent un probleme avec les differentes box, notamment en Zwave, car il nexiste pas encore de telecommande porte cle. On peut donc le faire a partir de son Smartphone, mais tout le monde nest pas equipe. Nous allons voir aujourdhui une autre methode: comment activer ou desactiver son alarme  Eedomus  en passant simplement un tag RFID devant le Nabaztag (ou le Karotz) !  
+ I. Configuration sur leedomus  Il faut tout dabord creer un  etat virtuel  qui va nous servir a envoyer une commande impulsionnelle pour pouvoir activer ou desactiver la surveillance intrusion avec un seul et unique TAG (Nanoztag ou Ztamps). Pour que ce soit plus clair, jai cree une piece qui sappelle  variable intrusion  mais vous pouvez le mettre dans nimporte quelle piece.   Ensuite, dans longlet Valeurs, faire comme suit :   Dans longlet macro, il faut faire en sorte que lorsque lon recevra lordre venant du Nabaztag, que cet etat virtuel repasse automatiquement a zero apres un laps de temps dune seconde. En effet, le Nabaztag enverra toujours une valeur 1 (nous verrons ca un peu plus tard). Dans notre cas, cette valeur 1 devra donc repasser a 0 pour pouvoir recevoir le prochain ordre de la meme facon. Cest une commande impulsionnelle.   Ensuite, dans longlet suivant, nous allons creer 2 regles. Attention, au prealable vous devez avoir cree la programmation  Surveillance intrusion .   Regle de larmement : Donc, si le systeme est desactive (ou desarme dans ce cas), et que lon recoit lordre venant du Nabaztag ( Impulsion On  vu plus haut) alors, on lance lactivation dans 2min et surtout on noublie pas de lancer la macro de letat virtuel pour forcer la valeur a revenir a zero.   Regle de desarmement : La, la regle est un peu plus compliquee mais reste sur le meme principe que celle de larmement. Il y a plus de criteres car en passant le TAG devant le Nabaztag, on doit pouvoir desarmer le systeme intrusion quel que soit letat dans lequel il se trouve.   Cest fini pour la partie  Eedomus . Il ne reste plus qua parametrer le Nabaztag.  
+ II. Configuration du Nabaztag / Karotz  Installer lapplication CallURL. Saisir le nom de votre choix.   LURL a saisir est la suivante : http://api. eedomus .com/set?action=periph.valueperiph_id=XXXXvalue=1api_user=XXXXXapi_secret=XXXXXXX Periph_id correspond au numero ID du peripherique que lon trouve dans linterface de l Eedomus . Pour recuperer lID, il suffit de cliquer sur lun des entetes du tableau listant vos peripheriques, et choisir la colonne a afficher.   Lapi_user et lapi_secret sont donne dans  Configuration  Mon Compte  Parametres . Cest explique dans laide de l Eedomus . Ensuite selectionne le ou les TAG qui vont vous servir a armer/desarmer lintrusion et faire Save. Voila, a chaque passage de votre TAG devant le Nabaztag, vous pourrez armer ou desarmer la surveillance intrusion.  
+[box_light]Note de Cedric: cette methode est tout a fait utilisable avec le Karotz. Il suffit pour cela dinstaller lapplication Kron sur le Karotz, qui permet dappeler une adresse HTTP,  comme nous lavions deja vu pour la Vera .[/box_light]  eedomus   Nabaztag 
+        </text>
+</document>

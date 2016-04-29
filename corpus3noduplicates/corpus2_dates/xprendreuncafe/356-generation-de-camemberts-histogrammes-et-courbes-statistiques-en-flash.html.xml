@@ -1,0 +1,35 @@
+<document>
+	<date>2005-12-20</date>
+        <title>Gnration de camemberts, histogrammes et courbes statistiques en Flash</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>flash</tag>
+                <tag>graphes</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text> Mes amis, dans le cadre d'une mission de developpement je cherche actuellement des outils de generation de graphiques statistiques en Flash: histogrammes, camemberts, courbes et consorts. 
+
+
+ Evidemment, l'interet est de pouvoir generer les graphiques a la volee, que ce soit directement cote serveur ou via  XML . 
+
+
+ Je precise que la solution ne doit pas forcemment etre libre et/ou gratuite, mais que le prix doit etre raisonnable en regard des prestations proposees. 
+
+
+ Ma petite veille m'a pour l'instant ramene ces quelques outils: 
+
+ 
+ PHP/SWF Charts , gratuit mais que je trouve un peu gadgetoide, 
+ FusionCharts , tres propre graphiquement, apparemment relativement customizable mais un peu cher ($499), 
+ Globz Swiff Chart Generator  qui a l'air tres complet en plus de generer les  SWF  cote serveur  [ 1 ] , 
+ XPComponents XPCharting  pas trop cher mais relativement limite... 
+ 
+
+ ... et c'est tout. Donc si vous avez eu a utiliser ces outils ou meme d'autres, un petit retour d'experience serait le bienvenu  
+ Notes 
+ [ 1 ] Helas, impossible d'installer la trial sous Ubuntu  
+ 
+        </text>
+</document>

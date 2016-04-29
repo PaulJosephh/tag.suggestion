@@ -1,0 +1,16 @@
+<document>
+	<date>2010-08-24</date>
+        <title>Guide dinstallation du dtecteur de gaz GD18</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>X10 Produits</category>
+        </categories_set>
+        <text>
+                                                         
+ Le GD18  detecte rapidement une concentration anormale de gaz domestique (gaz naturel, propane, butane). Vous ne sentirez pas lodeur si vous etes dans une autre partie de   lhabitation, seul le GD18 vous protegera en cas de fuite de gaz   puisquil detectera la presence de gaz avant que sa concentration   natteigne la limite inferieure dexplosion. Ce detecteur est autonome et peut fonctionner seul ou associe a un systeme dalarme  X10 
+        Pour linstallation, il est recommande de monter le detecteur sur le mur ou dans un boitier mural au-dessus de 30 cm du sol pour le GPL/butagaz, ou a environ 30 cm en-dessous du plafond pour le monoxyde de carbone et du gaz naturel. Le trou de ventilation doit etre installe face vers le bas.   Branchez le cable dalimentation du detecteur 230V/50Hz dans une prise murale. Le GD18 necessite 3 a 5 minutes pour que le capteur commence a fonctionner. La diode verte sallumera des que le detecteur aura atteint son mode normal de fonctionnement.     Le detecteur peut etre verifie en utilisant le bouton test sur le cote du detecteur. Il suffit de maintenir ce bouton enfonce quelques secondes jusqua entendre lalarme. Il est recommande de tester chaque mois le detecteur de gaz.       Fonctionnement  autonome du detecteur Lorsque le detecteur de gaz detecte un gaz inflammable, trois courts bips dalarme se feront entendre a des intervalles reguliers jusqua ce que le gaz inflammable ait disparu. Si le detecteur ne fonctionne pas correctement, un bip alarme sonore sera emis de facon continu. La LED rouge clignote en liaison avec le signal sonore dalarme. Cest-a-dire, la LED rouge clignote pendant une alarme de presence de gaz et une alarme de batterie faible.      Fonctionnement du detecteur associe a une console SC9100    Acceder au menu de la console  domotique  Selectionnez ensuite le mode INSTALL. pour enregistrer le detecteur.  Pour enregistrer le detecteur, il suffit de mettre le detecteur sur le mode R (grace a linterrupteur R/S present sur votre detecteur), et dappuyer 5 secondes sur la touche RF TEST lors de la 1ere utilisation, puis de faire une simple pression sur cette meme touche RF TEST. A cet instant la centrale doit emettre un BIP pour confirmer et afficher TCDE 1 PROG.  Desormais, en cas de detection de gaz, un signal radio en plus de lalarme du detecteur, sera envoye a la centrale.        Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,50 @@
+<document>
+	<date>2013-07-10</date>
+        <title>Redmarrage automatique de la Freebox en cas de plantage</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>SynoZwave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>FreeBox</category>
+                <category>Synology</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 La problematique 
+ 
+Le boitier  Freebox Serveur 
+ Impossible de savoir si cest la Freebox qui est plantee ou sil ny a plus de courant dans la maison Le reseau de la maison nest plus accessible, donc plus dacces a ses donnees personnelles stockees sur le NAS
+ Plus de domotique non plus (remise en route du chauffage avant le retour par exemple) Plus non plus de josdblog  bref, pas top du tout! 
+La solution decrite dans ce billet consiste a repartir de la solution presentee dans le billet  Synology : Notification du passage sur onduleur (Server is on battery) Freebox Serveur SynoZwave Freebox Serveur 
+Jenumere ci-dessous une liste des difficultes a considerer.
+ 
+ Le boitier  Freebox serveur Le boitier  Freebox serveur Une prise commutateur Zwave peut ne pas memoriser son etat apres une coupure de courant de plus de quelques secondes (cest le cas de la prise commutateur Everspring AN157-6 par exemple). Quand le NAS redemarre apres une coupure de courant, il faut quil redemarre aussi la prise commutateur Zwave pilotant lalimentation du boitier  Freebox serveur SynoZwave nest pas tres stable, mieux vaut verifier periodiquement quil est encore actif. Les requetes http utilisees pour piloter la prise commutateur Zwave peuvent faire planter SynoZwave. Raccordements 
+ 
+ 
+ 
+Le schema ci-dessus propose un exemple dinterconnexions du boitier  Freebox serveur Le script de redemarrage du boitier Freebox Serveur 
+ 
+ 
+#!/opt/bin/bash # _____ Fonction pour demarrer SynoZwave # _____ Fonction pour redemarrer SynoZwave # _____ Verification que SynoZwave est toujours actif # _____ Verification de la connexion Internet 
+Adapter (adresse electronique,  deviceNum /volume1/scripts/DomoInternetTest.sh 
+Ce script devra etre appele a intervalles reguliers grace a la commande cron (cf. plus bas). Voici son deroulement:
+ 
+ Tester si  SynoZwave Tenter ensuite de faire un ping sur  www.google.com ping.funet.fi Freebox serveur SynoZwave 
+ Redemmarrage de SynoZwave Extinction de la prise commutateur Zwave (lutilisation de  localhost Redemmarrage de SynoZwave Rallumage de la prise commutateur Zwave Redemmarrage de SynoZwave Notification par courriel (cf.  Synology : email en ligne de commande Freebox serveur 
+Ce script est a appeler dans la crontab (cf.  Synology : installation et utilisation de ipkg 0 6-22/2 * * * /volume1/scripts/DomoInternetTest.sh  /volume1/scripts/DomoInternetTest_Log.txt 21 Le script appele au demarrage du Synology 
+ 
+En cas de redemarrage de tout le systeme informatique (NAS, Boitiers Freebox, Switch) suite a une coupure de courant (dont vous devriez etre informe grace a  Synology : Notification du passage sur onduleur (Server is on battery) /opt/etc/init.d/ S99_PriseFreeBoxOn.sh Sxx 
+ 
+#!/opt/bin/bash Tester la solution 
+ 
+ Test 1 Freebox Serveur 
+ Debrancher la prise telephone du boitier  Freebox Serveur Executer dans un terminal ssh sur le Synology le  script de redemarrage du boitier Freebox Serveur Verifier que le boitier  Freebox Serveur Test 2 
+ Debrancher londuleur (qui reste actif) Attendre que le NAS seteigne Mettre sur off manuellement (en utilisant le bouton dedie) la prise Zwave Eteindre londuleur Rebrancher londuleur Allumer londuleur Verifier que tout revient bien a la situation normale Avant de partir en vacances /volume1/scripts/DomoInternetTest_Log.txt 
+ 
+ 
+ Synology : Securisation de lalimentation et notification du passage sur onduleur (Server is on battery) 
+Shopping:  EVERSPRING  Module Prise ON/OFF Z-Wave AN1576 Alimentation Transformateur Chargeur 12V 5A 60W adaptee Alimentation Transformateur Chargeur 12V 5A 60W utilisable NAS Synology DS213+ 
+        </text>
+</document>

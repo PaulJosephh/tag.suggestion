@@ -1,0 +1,17 @@
+<document>
+	<date>2012-03-06</date>
+        <title>Guide dinstallation de linterface RFXCOM RFXtrx433</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique RFXCOM</category>
+        </categories_set>
+        <text>
+                                                         
+  Linterface RFXtrx433 permet daugmenter les   capacites de reception et demission  RF domotique USB domotique Disponible dans un boitier au design agreable   et compacte, ce produit   permet de communiquer avec de tres   nombreux peripheriques du   commerce, comme la gamme  Chacon OWL X10 
+    Linterface  RFXCOM USB   Pour commencer, telechargez et installez le  driver USB Vissez lantenne sur linterface RFXtrx433.   Connectez le cable  USB   Connectez lautre extremite du cable  USB Votre systeme dexploitation Windows devrait reconnaitre le peripherique  USB   Utilisez le programme de test  RFXmngr   Cliquez sur File, puis Connect. Selectionnez  USB   Vous trouverez ce numero de port COM en allant dans le gestionnaire de peripheriques de Windows, dans la categorie Ports (COM et LPT).   Une fois le RFXtrx433 connecte au programme, on recoit differentes informations, notamment le numero de firmware de linterface.   Apres avoir etablit la connexion avec linterface, vous pouvez essayer de recevoir ou emettre des signaux pour verifier la communication radio frequence. Exemple de lenvoi dune commande  X10   Lorsque la connexion et la communication sont validee, vous pouvez utiliser linterface avec un des divers logiciels compatibles tels que : 
+ DomotiGa Domogik Ed-win EventGhost FHEM HomeSeer HomiDom HouseAgent Indigo MeteoHub Webx xPL RFX  Vous pouvez egalement developper votre propre logiciel grace au  SDK  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

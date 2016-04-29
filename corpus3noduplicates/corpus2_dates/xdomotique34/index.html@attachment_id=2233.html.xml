@@ -1,0 +1,103 @@
+<document>
+	<date>2012-12-17</date>
+        <title>Nouvelle mise  jour de leedomus VERSION 1571 du 17/12/2012</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Evenements</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+  
+ Une version majeure de  leedomus  vient de passer avec plusieurs nouveautes dont des prises en charge de nouveaux materiels ainsi que diverses ameliorations et corrections de bugs : 
+ Bien sur la grande nouveaute est laction rapides sur les smartphones, soit la possibilite de creer un dossier sur son telephone et dy creer des raccourcis direct de vos peripheriques via lapi deedomus en utilisant laction  SET  et en rajoutant  mode=mobile  
+ http://api.eedomus.com/set?action=periph.valueperiph_id=[XXXX]value=[XXXX]api_user=[XXXX]api_secret=[XXXX]mode=mobile 
+ les nouveautes : 
+ Actions rapidespour Smartphones et tablettes via lAPI et syntaxeTOGGLEpour basculer dune valeur a lautre. 
+ Peripheriques Z-Wave: 
+ 
+ Support des scenes sur laMiniMote(Necessite lamise a jour 1.17 du firmwareet 2 inclusions successives (sans exclusions) pour que les scenes soient operationelles) 
+ 
+ 
+ Support duSmart Meter Reader de NorthQ 
+ 
+ 
+ Support duTag Reader de BeNext 
+ 
+ 
+ Support de linterrupteur mural Zwave.me 
+ 
+ 
+ Support desmodules pour stores et volets roulants Zwave.me 
+ 
+ Notion daffichages personnalises: tout comme avec les pieces vous pouvez maintenant gerer vous-meme lorganisation par fonction de vos peripheriques (ex. Eclairage, Environnement, ) 
+ Lordre des widgets de la page daccueil peut maintenant etre defini ainsi que le nombre de colonnes a afficher (Configuration / Personnaliser la page daccueil) 
+ Le compte principal dune box peut basculer rapidement sur les comptes secondaires sans sauthentifier (permet de tester les comptes) 
+ Nouveau type de compte secondaire Affichage limite (Vous pouvez selectionner les affichages auxquels le compte aura acces) 
+ Possibilite dacceder directement a la documentation produit des peripheriques Z-Wave references ( Configuration du peripherique / Parametres experts ) 
+ les ameliorations : 
+ Possibilite de desactiver les notifications du drivers xPL ( option disponible dans la configuration de la box si le drivers est utilise ) 
+ Les images des peripheriques crees par programmation sont desormais personnalisables tout comme le texte (ex. statut de lalarme, phases de la journee) 
+ La programmation chauffagepeut etre reglee par demi degres (en modifiant les valeurs dans longlet correspondant) 
+ Les changements de consigne de chauffage sont maintenant appliques immediatement (delai maxi de 10min. auparavant) 
+ Apres exclusion dun nud Z-Wave, les regles y faisant reference sont desactivees et non supprimees (avec un message dinformation) 
+ Meilleur gestion des parametres multi-bytes dans la configuration Z-Wave 
+ Possibilite de questionner le nombre de groupes dassociations dans la configuration Z-Wave (ASSOCIATION_GROUPINGS_GET) 
+ Meilleur gestion des valeurs a 0 dans les capteurs HTTP 
+ Chaque canal dun peripherique peut desormais etre affecte a une piece differente 
+ Creation dune piece [Invisible] qui remplace la notion de peripherique masque 
+ Simplification des durees affichees dans les widgets (depuis ) 
+ Laffichage Pilotage devient Programmation 
+ Parametrage radio: possibilite de modifier ces notes utilisateurs apres lenvoi dune ligne et de supprimer des lignes 
+ Le graphes et lhistorique des valeurs sont maintenant accessibles en meme temps que la configuration du peripherique (onglets a droite) 
+ Le polling est maintenant possible pour les peripheriques FLiRS (ex.sirene SE812) 
+ Les consometres integres aux actionneurs Z-Wave (ex.AN158) peuvent maintenant etre utilises dans le moduleConsommation en  
+ La mise en page de laffichage Accueil a ete epure pour plus de lisibilite 
+ Possibilite de rejeter les valeurs depassant certaines bornes pour les peripheriques Z-Wave multi-valeurs (ex. consometre, thermometre, ) 
+ Amelioration du fonctionnement de la box en cas de coupure internet 
+ Acces au direct des cameras depuis lesite de secours(LAN) 
+ Amelioration des performances et support de liPhone 5 sur lawebapp eedomuset lesite de secours(LAN) (en attendant la veritable app 
+ les corrections de bugs : 
+ Correction dun bug mineur lors de linclusion/exclusion Z-Wave 
+ Correction dun bug sur la valeur remontee pour les parametres de configuration Z-Wave de 2 bytes 
+ Interdiction denclencher la surveillance intrusion si aucun mail ou SMS nest configure. 
+ Le dernier affichage netait pas toujours restaure a la reouverture du site. 
+ Les image personnalisees sont automatiquement appliquees aux valeurs intermediaires des dimmers (ex. limage pour un allumage a 20% sera celle correspondant a 30%) 
+ Correction dun bug lors du tri de lhistorique des valeurs dun peripherique 
+ Correction dun bug lorsque la box est changee de reseau 
+ Correction dun bug daffichage sur le widget de leve du soleil 
+  
+ Si vous avez aime cet article, vous pouvez toujours laisser une note et laisser un commentaire sur le blog ou bien sur le forum. Nhesitez pas a partager cette news sur les reseaux sociaux. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

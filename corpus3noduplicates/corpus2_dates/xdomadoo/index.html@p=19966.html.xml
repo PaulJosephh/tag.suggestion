@@ -1,0 +1,14 @@
+<document>
+	<date>2009-08-23</date>
+        <title>Regarder la TNT avec XBMC (Optimisation)</title>
+        <author> David </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Multimedia Media Center</category>
+        </categories_set>
+        <text>
+                                                         Afin doptimiser lutilisation du tuner  TNT XBMC Presentation double des tuner de chaque canal  TNT Pas daffichage du logo des chaines.  Simplification de la navigation En effet, vous constatez que la navigation dans les chaines necessite de cliquer une premiere fois sur le nom de la chaine, puis de choisir entre le Tuner 0 ou 1. Choix du canal Choix du Tuner Nous allons considerer que seul le TUNER0 sera utilise par  XBMC XBMC Editez les fichiers avec un editeur de texte  Le fichier doit contenir 2 lignes (1 ligne par Tuner) hdhomerun://12108B15-0/tuner0?channel=t8qam64:682000000program=1538 Il faut alors supprimer le deuxieme ligne pour ne garder que le lien du flux video du premier tuner et enregistrer le fichier. hdhomerun://12108B15-0/tuner0?channel=t8qam64:682000000program=1538  Renouveler la modification pour toutes les chaines. De retour sous  XBMC  Affichage du logo des chaines Par defaut, il ny a pas de vignettes associees aux fichiers de flux video qui ont ete ajoutes.  Il faut creer un fichier image au format JPG pour chaque fichier *.strm Avec un logiciel de retouche dimages et en telechargeant sur Internet le logo des chaines, il faut creer une image que vous enregistrerez au format JPG avec exactement le meme nom que le fichier STRM dans le meme dossier. Lextension du fichier image doit etre .TBN pour qu XBMC Votre dossier doit maintenant contenir les fichiers suivants: M6.strm XBMC  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

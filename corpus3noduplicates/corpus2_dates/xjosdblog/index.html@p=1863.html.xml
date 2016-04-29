@@ -1,0 +1,36 @@
+<document>
+	<date>2012-08-26</date>
+        <title>Synology Photo Station et commentaires</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Synology</category>
+        </categories_set>
+        <text>
+                                                 
+ Activer/desactiver les commentaires 
+ 
+Pour activer la possibilite de commenter les photos dun album, se rendre sur lalbum, puis cliquer en haut sur  Plus Confidentialite et infos sur lalbum Permettre aux utilisateurs de faire des commentaires Sauver/restaurer Photo Station 
+ 
+La meilleure facon de sauver correctement et completement Photo Station avec ses commentaires est certainement de passer par le systeme de sauvegarde de Synology ( Menu principal  Sauvegarder et restaurer  Creer Selectionnez les donnees dapplication, configurations et dossiers partages a sauvegarder Ou sont stockes les commentaires ? 
+ 
+Les commentaires de Photo Station sont enregistres dans une base de donnees PostgreSQL qui se trouve dans 
+ /volume1/@database/pgsql 
+ /usr/syno/etc/rc.d/S20pgsql.sh stop
+ 
+ /usr/syno/etc/rc.d/S20pgsql.sh start
+ 
+ /usr/syno/etc/rc.d/S20pgsql.sh restart
+ 
+Pour sauver ou restaurer la base de donnee de photo station, il faut utiliser la commande  synophoto_backup /volume1/@appstore/PhotoStation/bin 
+Usage: synophoto_backup [-r|-b] p [-o] Connexion a la base de donnees 
+ 
+Il est possible de se connecter a la base de donnees PostgreSQL de Photo Station dans un terminal de la maniere suivante :
+ 
+ su admin 
+ su admin 
+ Remarque : 
+ su admin 
+        </text>
+</document>

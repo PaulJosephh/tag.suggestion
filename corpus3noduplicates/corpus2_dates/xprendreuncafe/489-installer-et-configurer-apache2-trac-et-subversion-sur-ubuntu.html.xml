@@ -1,0 +1,281 @@
+<document>
+	<date>2006-09-05</date>
+        <title>Installer et configurer Apache2, Trac et Subversion sur Ubuntu</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>apache</tag>
+                <tag>subversion</tag>
+                <tag>trac</tag>
+                <tag>tutoriel</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>J'avais besoin d'un outil simple et complet pour gerer mes projets de developpement heberges sur ma nouvelle  Dedibouate  flambant neuve et fraichement equipee d'une distribution linux  Ubuntu Dapper Drake LTS . Naturellement,  Trac  et son copain  Subversion  se sont imposes comme une evidence, d'autant que je les utilisent deja au quotidien dans  mon travail . 
+
+
+ Je me mis alors en quete d'informations sur la procedure d'installation de ces outils sur Ubuntu avec mon copain  Google . Je suis tombe sur moult liens interessants mais pas toujours tout a fait complets ni exhaustifs; aussi je decidai humblement de rediger le present billet faisant la synthese de la procedure que j'ai utilisee et qui marche chez moi  [ 1 ]   
+
+
+ Prerequis 
+
+
+ Avant toute chose, il est bien entendu imperatif de disposer d'une distribution  Ubuntu 6.06 LTS Dapper Drake  et d'un acces root sur la machine. 
+
+
+ Installation 
+
+
+ Tout d'abord,  activez les depots universe d'Ubuntu . Ceci fait, voici la liste des paquets a installer: 
+
+
+ $ sudo apt-get update
+$ sudo apt-get install subversion libapache2-svn libapache2-mod-python2.4 trac 
+
+
+ La version de Trac fournie par les depots Ubuntu est la 0.9.3  [ 2 ] . On cree le repertoire systeme pour les instances de Trac, par exemple dans  /var/trac   [ 3 ]  sans oublier le de rendre accessible en ecriture par apache: 
+
+
+ $ sudo mkdir /var/trac
+$ sudo chown www-data:www-data /var/trac 
+
+
+ Creation d'une instance Trac pour votre projet 
+
+
+ Il nous faut maintenant importer un projet dans Subversion. Pour l'exemple, nous creerons un projet nomme  monzouliprojet . Pour cela, rien de plus simple... sauf pour les feignants. En etant moi-meme un des plus feroces, j'ai pense a mes compatriotes et leur ai cree un script qui leur permettra d'importer automatiquement leurs projets dans Subversion et de les rendre ainsi facilement accessibles a l'instance de Trac que nous creerons par la suite. Vous  trouverez le code ici  (certainement tres perfectible, contributions bienvenues.) 
+
+
+ Vous pouvez sauvegarder ce script dans un fichier  create_svn_repo.sh  par exemple, sans oublier de le rendre executable: 
+
+
+ $ chmod +x create_svn_repo.sh 
+
+
+ Il faudra bien sur le lancer au moyen de  sudo  afin d'avoir les droits d'ecritures dans les repertoires systeme concernes. Pour importer un nouveau projet Subversion a partir de vos sources existantes, il suffit de lancer le script et de repondre aux questions posees: 
+
+
+ niko@nikobox:~$ sudo create_svn_repo.sh  
+#######################################
+Creation d'un nouveau projet Subversion
+#######################################
+
+Tapez le nom du nouveau projet :
+monzouliprojet
+Tapez maintenant le chemin du repertoire source :
+(Note: les repertoires trunk, branches et tags seront crees automatiquement)
+/home/niko/monzouliprojet/
+Creation du projet monzouliprojet depuis /home/niko/monzouliprojet/...
+Adding         /tmp/svn/monzouliprojet/trunk
+Adding         /tmp/svn/monzouliprojet/trunk/test
+Adding         /tmp/svn/monzouliprojet/trunk/test/main
+...
+
+Committed revision 1.
+
+Projet subversion monzouliprojet cree avec succes ! 
+
+
+ Note :  Vous pouvez editer le fichier du script pour y specifier notament le chemin de la racine subversion  [ 4 ] : 
+
+
+ SVN_ROOT="/var/svn" 
+
+
+ Ensuite, il faut initialiser l'environnement trac pour notre projet recemment importe dans Subversion, ce que l'on fait au moyen de la serie de commande suivante  [ 5 ] : 
+
+
+ sudo mkdir /var/trac
+sudo trac-admin /var/trac/monzouliprojet initenv
+sudo chown -R www-data /var/trac/monzouliprojet 
+
+
+ Notez encore une fois que je cree la racine trac dans  /var/trac  mais vous pouvez tout a fait utiliser un autre emplacement. 
+
+
+ Creer un ou plusieurs utilisateurs Trac et Subversion, gerer les autorisations 
+
+
+ Par defaut, une instance Trac permet a tous les visiteurs anonymes d'en modifier les contenus; bien evidemment, c'est un comportement de l'application particulierement risque, ne serait-ce qu'en regard du spam potentiel que vous pourriez recolter. Nous allons donc successivement creer un utilisateur subversion, puis desactiver les contributions anonymes pour Trac et ajouter un utilisateur possedant les droits d'administration Trac. Notez que nous utiliserons le meme fichier de stockage des noms d'utilisateurs et de mots de passe pour Trac et Subversion; ce fichier sera appele au niveau de notre fichier de configuration Apache - defini un peu plus bas dans ce tutoriel. 
+
+
+ Creons tout d'abord le fichier de stockage des mots de passe Trac/Subversion  [ 6 ]  et ajoutons un utilisateur  maintener : 
+
+
+ $ sudo htpasswd2 -c /etc/apache2/dav_svn.passwd maintener 
+
+
+ Attribuez-lui un mot de passe. Bien, cet utilisateur aura par la suite officiellement acces a notre depot Subversion. Donnons-lui maintenant les droits d'administration totale de Trac: 
+
+
+ $ sudo trac-admin /var/trac/monzouliprojet permission add maintener TRAC_ADMIN 
+
+
+ On peut egalement imaginer la creation d'un compte utilisateur developpeur, qui peut creer des tickets, en fermer et maintenir le wiki: 
+
+
+ $ sudo htpasswd2 -c /etc/apache2/dav_svn.passwd dev
+$ sudo trac-admin /var/trac/monzouliprojet permission add dev WIKI_CREATE WIKI_MODIFY TICKET_CREATE TICKET_MODIFY 
+
+
+ Il nous reste a desactiver les contributions anonymes: 
+
+
+ $ sudo trac-admin /var/trac/monzouliprojet permission remove anonymous WIKI_CREATE WIKI_MODIFY TICKET_CREATE TICKET_MODIFY 
+
+
+ Par la suite, vous pourrez effectuer la plupart de ces operations par le biais du plugin WebAdmin dont nous detaillerons l'installation dans la partie suivante. 
+
+
+ Vous trouverez plus d'informations sur les privileges de Trac sur  la page qui lui est consacree . 
+
+
+ Cote Subversion, il nous faut autoriser les checkouts anonymes mais s'assurer que'un utilisateur est authentifie avant d'accepter ses commits. Cela se configure tres facilement dans le fichier  /var/svn/monzouliprojet/conf/svnserve.conf , dans lequel vous pouvez saisir: 
+
+
+ [general]
+anon-access = read
+auth-access = write
+password-db = passwd 
+# authz-db = authz
+realm = MonZouliProjet Subversion Repository 
+
+
+ Installer Trac WebAdmin 
+
+
+ Trac WebAdmin  est une interface web d'administration de votre ou vos instance(s) Trac offrant un confort appreciable pour administrer vos projets et en gerer les parametres. Meme si nous n'avons pas encore defini de vhost apache, rien ne nous empeche d'installer le plugin, qui passe d'abord par l'installation des  setuptools : 
+
+
+ $ wget http://peak.telecommunity.com/dist/ez_setup.py
+$ sudo python ez_setup.py 
+
+
+ Ceci fait, telechargez le fichier de plugin  TracWebAdmin  sur le site de Trac, supprimez son extension  .zip  et installez-le au moyen du programme  easy_install  precedemment installe, comme suit: 
+
+
+ $ wget http://trac.edgewall.org/attachment/wiki/WebAdmin/TracWebAdmin-0.1.1dev_r2765-py2.4.egg.zip?format=raw
+$ mv TracWebAdmin-0.1.1dev_r2765-py2.4.egg.zip\?format\=raw TracWebAdmin.egg
+$ sudo easy_install TracWebAdmin.egg 
+
+
+ Editez votre fichier de configuration d'instance Trac: 
+
+
+ $ sudo vi /var/trac/monzouliprojet/conf/trac.ini 
+
+
+ Et ajoutez-y la section suivante (si elle n'existe pas): 
+
+
+ [components]
+webadmin.* = enabled 
+
+
+ Enregistrez le fichier et quittez. 
+
+
+ Creer un hote virtuel Apache 
+
+
+ Nous devons rendre accessible par le web notre instance de Trac ainsi que le depot Subversion associe, par le biais d'un hote virtuel apache dedie: 
+
+
+ $ sudo vi /etc/apache2/sites-available/trac.mondomaine.org 
+
+
+ On y ecrit les parametres de notre hote dedie, en admettant que nous disposons du domaine  mondomaine.org  nanti d'un sous-domaine  trac : 
+
+
+ VirtualHost *
+    ServerAdmin webmaster@mondomaine.org
+    ServerName trac.mondomaine.org
+    
+    DocumentRoot /var/trac/monzouliprojet
+    Location /
+        SetHandler mod_python
+        PythonHandler trac.web.modpython_frontend
+        PythonOption TracEnv /var/trac/monzouliprojet
+        PythonOption TracUriRoot /
+        PythonPath "sys.path + ['/var/trac/monzouliprojet']"
+    /Location
+
+    ErrorLog  /var/log/apache2/error.trac.domaine.org.log
+    CustomLog /var/log/apache2/access.trac.domaine.org.log combined
+    
+    Location /svn
+        DAV svn
+        SVNPath /var/svn/monzouliprojet
+        AuthType Basic
+        AuthName "Monzouliprojet Subversion repository"
+        AuthUserFile /etc/apache2/dav_svn.passwd
+        LimitExcept GET PROPFIND OPTIONS REPORT 
+            Require valid-user
+        /LimitExcept
+    /Location
+    
+    Location "/login"
+        AuthType Basic
+        AuthName "Trac login"
+        AuthUserFile /etc/apache2/dav_svn.passwd
+        Require valid-user
+    /Location
+
+/VirtualHost 
+
+
+ Vous devrez bien entendu enregistrer le domaine et le sous domaine dans votre fichier de configuration DNS, voire simplement dans votre fichier  /etc/hosts  si vous disposez d'un service de gestion DNS decentralise comme celui que propose la societe  Gandi . Par exemple: 
+
+
+ ## Fichier /etc/hosts
+127.0.0.1         localhost localhost.localdomain mamachine
+123.124.125.126   trac.mondomaine.org 
+
+
+ Nous utilisons  mod_python  (precedemment installe), n'oublions pas de l'activer: 
+
+
+ $ sudo a2enmod mod_python 
+
+
+ Ceci fait, il nous reste a activer le nouvel hote apache et a relancer ce dernier: 
+
+
+ $ sudo a2ensite trac.mondomaine.org
+$ sudo /etc/init.d/apache2 restart 
+
+
+ Pour verifier que tout s'est deroule correctement, faites pointer votre navigateur prefere vers l'adresse  trac.mondomaine.org , vous devriez acceder sans encombres a votre instance nouvellement creee. Vous pouvez vous logguer en cliquant sur le lien  Login   [ 7 ]  et en fournissant les parametres d'acces utilisateur que vous avez definis precedemment. Si vous vous logguez en administrateur Trac, vous devriez disposer du menu  Admin  donnant acces a l'extension WebAdmin ou vous pourrez ajuster les parametres de votre instance aux petits oignons. 
+
+
+ Cote subversion, vous pouvez effectuer un checkout de votre projet de cette facon: 
+
+
+ $ svn co http://trac.mondomaine.org/svn/trunk/ . 
+
+
+ Un commit necessitera cependant l'authentification; vous pourrez forcer le nom d'utilisateur a utiliser: 
+
+
+ $ svn commit -m "test de commit" main/test/toto.txt --username mainteneur 
+
+
+ Sources et references 
+
+ 
+ Installer Subversion et Trac 
+ Trac: definition des politiques dacces et de contribution 
+ Installer un depot Subversion sous Ubuntu 
+ TracOnUbuntu 
+ 
+ Notes 
+ [ 1 ] Y'a sans doute mieux, plus simple, plus rapide, plus puissant, blah blah blah... le formulaire d'ajout de commentaire vous attend avec febrilite. 
+ [ 2 ] Ceux qui lorgnent sur la version 0.10 devront l'installer a la main. That's life. 
+ [ 3 ] Pensez a remplacer ce chemin par celui que vous preferez dans le reste des exemples de ce tutoriel  
+ [ 4 ] Notez que si ce repertoire n'existe pas, le script tentera de le creer pour vous. 
+ [ 5 ] Notez egalement que mon script vous proposera de lancer le script adequat une fois le projet subversion correctement cree. 
+ [ 6 ] Vous pouvez stocker ce fichier sensible ou bon vous semble mais par pitie,  pas derriere votre racine web  et de preference le rendre accessible en ecriture par le seul utilisateur  root . 
+ [ 7 ] Wow ! 
+        </text>
+</document>

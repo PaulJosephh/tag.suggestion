@@ -1,0 +1,207 @@
+<document>
+	<date>2006-10-20</date>
+        <title>Installer Ubuntu Edgy RC1 sur un Compaq Presario C300ea</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>compaq</tag>
+                <tag>installation</tag>
+                <tag>linux</tag>
+                <tag>tutoriel</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text> Ma dulicinee s'etant offert cet apres-midi un nouvel ordinateur portable, un  Compaq Presario C300ea , je me suis empresse de lui installer  Ubuntu Edgy RC1  dessus en multiboot, comme ca, pour rire. 
+
+
+ Bon, ca n'a pas ete facile, ce matos est truffe de peripheriques un poil tatillons a installer (la sortie de  lspci  est en annexe de ce billet.) 
+
+
+ Mapping du Clavier et absence cruelle d'AltGr 
+
+
+ A l'heure ou ces lignes sont ecrites la gestion du clavier semble problematique sous Edgy (qui rappellons-le n'est  pas encore en version finale ) aussi on perd la gestion de la touche Alt-Gr, ma foi pourtant fort utile pour taper certains caracteres comme l'arrobase, les crochets, le pipe (gasp) ou les backslashes... Sous Windows la touche fonctionne, donc je subodore un probleme au niveau de Xorg et/ou de XBM. 
+
+
+ La seule solution que j'ai trouvee temporairement est de mapper la touche AltGr deficiente vers la touche Menu, au moyen de l'utilitaire de configuration du clavier sis dans  Systeme  Preferences  Clavier  et dans l'onglet  Options de l'agencement , section  Selecteur de 3eme niveau  ou il faudra cocher l'option  Menu est selecteur de 3eme niveau  (Ouf !) 
+
+
+ Edit:  Finalement, le probleme peut etre resolu comme ceci: 
+
+
+ $ xprop -root -f _XKB_RULES_NAMES 8s -set _XKB_RULES_NAMES xorg
+$ setxkbmap -model pc105 -layout fr -variant latin9 
+
+
+ Installation du driver WIFI pour le chipset bdc4311 
+
+
+ Tout d'abord, mauvaise surprise et sur le liveCD et apres installation, seule l'interface Ethernet est reconnue nativement. Pour le wifi, l'ignoble chipset  bcm4311  va nous obliger a utiliser une version recente de  ndiswrapper  afin d'utiliser les drivers proprios disponibles pour Windows.  Il faudra donc utiliser l'interface ethernet pour proceder a cette partie de l'installation. 
+
+
+ On installe tout d'abord ndiswrapper et quelques utilitaires: 
+
+
+ $ sudo apt-get install build-essential
+$ wget -c http://ovh.dl.sourceforge.net/sourceforge/ndiswrapper/ndiswrapper-1.26.tar.gz
+$ tar xvzf ndiswrapper-1.26.tar.gz
+$ cd ndiswrapper-1.26  make distclean  make
+$ sudo make install 
+
+
+ On telecharge ensuite le driver Windows (vous pouvez placer une pince a linge sur votre nez): 
+
+
+ $ wget -c http://ftp.us.dell.com/network/R115321.EXE 
+
+
+ On dezippe la chose avec unzip: 
+
+
+ $ mkdir R115321  mv R115321.EXE R115321/  cd R115321  unzip R115321.EXE 
+
+
+ Et on installe le driver: 
+
+
+ $ sudo ndiswrapper -i DRIVER/bcmwl5.inf 
+
+
+ On verifie que l'installation s'est bien deroulee: 
+
+
+ $ ndiswrapper -l 
+
+
+ Vous devriez voir cette ligne: 
+
+
+ bcmwl5          driver installed, hardware (14E4:4324) present (alternate driver: bcm43xx) 
+
+
+ On blackliste les autres versions potentiellement en conflit en ajoutant cette ligne dans le fichier  /etc/modprobe.d/blacklist : 
+
+
+ blacklist bcm43xx 
+
+
+ Maintenant, on verifie que tout est pret pour le chargement du module: 
+
+
+ $ sudo depmod -a 
+
+
+ Si aucune erreur n'apparait, c'est bon et vous devriez pourvoir sans probleme charger le driver: 
+
+
+ $ sudo modprobe ndiswrapper 
+
+
+ Si tout s'est bien passe, un  dmesg | grep ndiswrapper  devrait vous retourner ces deux lignes: 
+
+
+ [17188030.468000] ndiswrapper version 1.26 loaded (preempt=no,smp=yes)
+[17188030.472000] usbcore: registered new driver ndiswrapper 
+
+
+ Vous pourrez classiquement utiliser network-admin pour achever la configuration du reseau WIFI (WEP, ESSID, etc. - attention petite subtilite, ndiswrapper va mapper l'interface  wlan0  sur laquelle nous travaillions vers  eth1 .) 
+
+
+ Par la suite et si tout fonctionne tres bien comme ca, vous pouvez demander le chargement automatique du module au boot: 
+
+
+ $ sudo ndiswrapper -m 
+
+
+ Enfin, vous pouvez jouer avec le petit bouton/voyant bleu pour activer ou desactiver l'interface  
+
+
+ Installation de la carte graphique Intel a memoire partagee 
+
+
+ On va utiliser  915resolution , un outil qui vous permettra de modifier les donnees du BIOS du chipset de facon volatile et dynamique (donc sans danger pour votre materiel): 
+
+
+ $ sudo apt-get install 915resolution 
+
+
+ On liste d'abord les modes disponibles: 
+
+
+ $ sudo ./915resolution -l 
+
+
+ Le mode 1280x800 correspondant a l'ecran LCD n'est pas liste... Pas de panique, il suffit d'en demander la creation en utilisant une ID disponible (genre 3b, 3c, 3d, ou 4d, 5e, etc.) 
+
+
+ $ sudo ./915resolution 3d 1280 800 32 
+
+
+ On configure  Xorg  afin de prendre en charge la resolution native de 1280x800 de l'ecran, en editant le fichier  /etc/X11/xorg.conf  et en specifiant le driver  i810 : 
+
+
+ Section "Device"
+        Identifier      "Carte video generique"
+         Driver          "i810" 
+        BusID           "PCI:0:2:0"
+EndSection 
+
+
+ On ajoute le mode  "1280x800"  aux modes disponibles: 
+
+
+ Section "Screen"
+        Identifier      "Default Screen" 
+        Device          "Carte video generique"
+        Monitor         "Generic Monitor"
+        DefaultDepth    24
+        SubSection "Display"
+                Depth           24
+                Modes            "1280x800"  "1024x768" "800x600" "640x480"
+        EndSubSection
+EndSection 
+
+
+ Et on reboote X avec un majestueux  Ctrl + Alt + Backspace . C'est mieux comme ca, non? 
+
+
+ ACPI 
+
+
+ L' ACPI  fonctionne nativement sans aucune configuration supplementaire. 
+
+
+ Conclusion 
+
+
+ A part la falacieuse manip concernant le mapping du clavier et quelques  petits problemes vraiment anodins , on a une machine tout a fait operationnelle et ma foi tres agreable a utiliser - et pas chere en plus! Enjoy  
+
+
+ Annexe 
+
+
+ Le resultat de la commande  lspci : 
+
+
+ 00:00.0 Host bridge: Intel Corporation Mobile 945GM/PM/GMS/940GML and 945GT Express Memory Controller Hub (rev 03)
+00:02.0 VGA compatible controller: Intel Corporation Mobile 945GM/GMS/940GML Express Integrated Graphics Controller (rev 03)
+00:02.1 Display controller: Intel Corporation Mobile 945GM/GMS/940GML Express Integrated Graphics Controller (rev 03)
+00:1b.0 Audio device: Intel Corporation 82801G (ICH7 Family) High Definition Audio Controller (rev 01)
+00:1c.0 PCI bridge: Intel Corporation 82801G (ICH7 Family) PCI Express Port 1 (rev 01)
+00:1c.1 PCI bridge: Intel Corporation 82801G (ICH7 Family) PCI Express Port 2 (rev 01)
+00:1c.2 PCI bridge: Intel Corporation 82801G (ICH7 Family) PCI Express Port 3 (rev 01)
+00:1d.0 USB Controller: Intel Corporation 82801G (ICH7 Family) USB UHCI #1 (rev 01)
+00:1d.1 USB Controller: Intel Corporation 82801G (ICH7 Family) USB UHCI #2 (rev 01)
+00:1d.2 USB Controller: Intel Corporation 82801G (ICH7 Family) USB UHCI #3 (rev 01)
+00:1d.3 USB Controller: Intel Corporation 82801G (ICH7 Family) USB UHCI #4 (rev 01)
+00:1d.7 USB Controller: Intel Corporation 82801G (ICH7 Family) USB2 EHCI Controller (rev 01)
+00:1e.0 PCI bridge: Intel Corporation 82801 Mobile PCI Bridge (rev e1)
+00:1f.0 ISA bridge: Intel Corporation 82801GBM (ICH7-M) LPC Interface Bridge (rev 01)
+00:1f.1 IDE interface: Intel Corporation 82801G (ICH7 Family) IDE Controller (rev 01)
+00:1f.2 SATA controller: Intel Corporation 82801GBM/GHM (ICH7 Family) Serial ATA Storage Controller AHCI (rev 01)
+00:1f.3 SMBus: Intel Corporation 82801G (ICH7 Family) SMBus Controller (rev 01)
+06:00.0 Network controller: Broadcom Corporation Unknown device 4311 (rev 01)
+08:08.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL-8139/8139C/8139C+ (rev 10) 
+        </text>
+</document>

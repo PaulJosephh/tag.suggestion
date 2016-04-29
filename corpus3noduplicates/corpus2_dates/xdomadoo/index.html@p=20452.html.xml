@@ -1,0 +1,14 @@
+<document>
+	<date>2010-04-07</date>
+        <title>Configuration de la messagerie pour HomeSeer</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels Homeseer</category>
+        </categories_set>
+        <text>
+                                                         Le logiciel  HomeSeer HomeSeer Il vous faut au prealable un compte de messagerie dedie pour  HomeSeer Nous utiliserons pour notre exemple le compte suivant: Mail:  homeseer@monmail.com Serveur SMTP: smtp.monmail.com Serveur POP: pop.monmail.com Login:  homeseer Password: motdepasse Dans le menu Setup puis dans longlet E-Mail, configurer ainsi: Vous pouvez specifier: La frequence de consultation de la boite mail:  Check every _ _ minutes Ladresse de destination par defaut des mails envoyes par  Homeseer Default TO E-Mail address: Si votre serveur SMTP necessite une authentification, remplir les champs  SMTP Username SMTP Password  Vous trouverez la methode pour envoyer un mail a partir d HomeSeer guide   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

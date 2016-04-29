@@ -1,0 +1,29 @@
+<document>
+	<date>2006-10-24</date>
+        <title>Tester FileZilla3 beta sous Ubuntu</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ftp</tag>
+                <tag>libre</tag>
+                <tag>linux</tag>
+                <tag>softs</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Filezilla  est un client  FTP  tres connu des utilisateurs de Windows, puisqu'il fonctionne tres bien, est gratuit et est un logiciel libre. Les utilisateurs de Linux seront ravis d'apprendre que la future version 3 sera disponible sur leur plateforme preferee (surtout quand on connait les performances de choses comme  gFTP , ahem.) 
+
+
+ Pour installer et tester le logiciel dans sa version 3 beta 2,  recuperez l'archive du programme , decompressez-la et executez le fichier  bin/filezilla . 
+
+
+ 
+
+
+ J'ai ete agreablement surpris de la bonne stabilite du logiciel. 
+
+
+ PSHS :   Banane du soir , espoir  
+        </text>
+</document>

@@ -1,0 +1,28 @@
+<document>
+	<date>2015-02-03</date>
+        <title>Guide dutilisation du dtecteur douverture Fibaro FGK-101 avec la base domotique Homelive dOrange</title>
+        <author> Maximin </author>
+        <tags_set>
+                <tag>box domotique</tag>
+                <tag>detecteur d'ouverture</tag>
+                <tag>domotique</tag>
+                <tag>fgk-101</tag>
+                <tag>fibaro</tag>
+                <tag>guide</tag>
+                <tag>homelive</tag>
+                <tag>orange</tag>
+                <tag>tuto</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Homelive</category>
+        </categories_set>
+        <text>
+                                                         La base  domotique Orange Z-Wave Fibaro 1. INCLUSION A partir du portail Homelive ( http://homelive.orange.fr/accueil/ test de la solution Homelive dOrange Une fois sur le portail, rendez-vous dans  objets connectes  puis  + ajouter un appareil . Une liste de peripheriques soffre a vous. Choisissez  Detecteur douverture . Inserez ensuite la pile dans le module et pensez bien a enlever la languette de protection si vous utilisez le module pour la premiere fois. Appuyez ensuite 3 fois sur le bouton dinclusion du module, situe a linterieur de celui ci, tout en maintenant le bouton anti sabotage situe en dessous. Le module doit etre automatiquement reconnu. Si cest le cas, lappareil sera detecte. Il suffira de lui donner un nom, de selectionner une piece puis de cliquer sur  Terminer . Si ce nest pas le cas, vous pouvez le dissocier ou le restaurer avant de tenter de linclure a nouveau. En cliquant sur le module, on va pouvoir modifier: son nom, la piece dans laquelle il se trouve, voir dans quel(s) scenario(s) il est utilise et le supprimer. 2. SCENARIOS On va maintenant pouvoir creer des scenarios. Pour cela on se rend dans longlet  scenarios  puis  + creer un scenario  en haut a droite. On selectionne notre module en tant que declencheur. Ensuite on selectionne un evenement, par exemple  la porte/fenetre est ouverte. On peut alors choisir un autre declencheur ou passer a letape 2. La on ajoute une action immediate si on veut que laction se declenche des que le capteur est active, ou differee si on veut attendre un certain temps. On peut imaginer un scenario ou une sirene se declenche lorsque que la porte ou la fenetre souvre par exemple. Jintegre donc une sirene dans mon scenario (la sirene a ete prealablement incluse). On choisit laction queffectuera la sirene. Ici jai choisi quelle senclenche. Puis on enregistre et on passe a letape 3. A letape 3, on peut choisir dans quel(s) mode(s) le scenario va devoir senclencher. Les modes correspondent a letat dans lequel on a mis le systeme Homelive:  a la maison  quand on est present,  a lexterieur  quand on est absent,  la nuit  ou  en vacances . Ici jai selectionne le mode  vacances  car il est important detre prevenu en cas dintrusion lorsque nous ne somme pas a proximite de notre habitat. Enfin on peut choisir de notifier des personnes par mail lorsque le scenario senclenche. Pour ce faire, cliquez sur: Puis rentrer ladresse mail desiree. On nomme ensuite le scenario, et on enregistre. Il est possible de tester celui ci en cliquant sur  tester  une fois la configuration terminee. Ce nest bien sur quun exemple de scenario. Vous avez pu voir que la creation de celui ci a ete tres simple. Plus vous possederez de peripheriques, plus les possibilites de creation de scenarios seront variees, comme par exemple allumer la camera si la porte ou la fenetre souvre. Merci a Pedro pour la redaction de cet article! Vous pourrez retrouver  les detecteurs douvertureFGK de Fibaro sur la boutique Domadoo  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Guide dutilisation du detecteur de mouvement Fibaro FGMS-001 avec la base domotique Homelive dOrange 
+ Guide dutilisation du detecteur de fumee Fibaro FGSS-001 avec la base domotique Homelive dOrange 
+ Guide dutilisation de la prise murale Fibaro FGWPE-101 avec la base domotique Homelive dOrange 
+ Homelive  Guide dutilisation du repeteur Z-Wave DSD37 dAeon Labs END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,92 @@
+<document>
+	<date>2006-01-08</date>
+        <title>Interlude - Installer un blog Typo</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>framework</tag>
+                <tag>linux</tag>
+                <tag>rails</tag>
+                <tag>ruby</tag>
+                <tag>tutoriel</tag>
+                <tag>ubuntu</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ruby</category>
+        </categories_set>
+        <text>En attendant le tutorial complet de la creation d'une application avec Ruby on Rails et RadRails, voila de quoi patienter et decouvrir un peu plus les possibilites du framework. 
+
+
+ Les applications  RoR  fleurissent un peu partout ces temps-ci, et certaines sont assez bluffantes. Je viens de tomber sur  Typo , un gestionnaire de Weblog tres sympa ecrit en Ruby et dote de fonctionnalites tout a fait interessantes: 
+
+ 
+ Interface tout  AJAX , 
+ Notification de commentaires et trackback par mail et messagerie  jabber , 
+ Pings automatiques vers des sites comme  Technorati , 
+ Gestion de tags (multicategories, ou  folksonomies ), 
+ Gestionnaire de pages statiques, 
+ Controle du  SPAM  avance (blacklistes locales et distantes, nombre d'URL dans un commentaire, etc.), 
+ Gestion intelligente du cache des pages, 
+ Nombreux plugins vers des sites disposant d' API   (FlickR ,  Del.icio.us ,  Upcomming ,  LastFM , etc.) 
+ Etc. 
+ 
+
+ Bon, le plus simple pour se rendre compte de l'interet de cet outil, c'est de l'installer et de le tester soi-meme. 
+
+
+ Tout d'abord, et apres avoir  installe  RoR  sur Ubuntu , il faut recuperer les sources Subversion  [ 1 ]  de Typo: 
+
+
+ $ cd /path/to/docroot
+$ svn checkout svn://leetsoft.com/typo/trunk typo 
+
+
+ Ceci fait, il faut creer une base de donnees MySQL dediee a Typo: 
+
+
+ $ cd typo
+$ mysql -u root -p
+Enter password:
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 12 to server version: 4.1.12-Debian_1ubuntu3.1-log
+
+Type 'help;' or '\h' for help. Type '\c' to clear the buffer.
+
+mysql CREATE DATABASE typo_dev;
+Query OK, 1 row affected (0.00 sec)
+
+mysql \q; 
+
+
+ On va y inserer le schema SQL fourni: 
+
+
+ $ mysql -u root -p typo_dev  db/schema.mysql.sql 
+
+
+ Il nous reste a configurer le fameux fichier  ./config/database.yml : 
+
+
+ login: login
+  adapter: mysql
+  host: localhost
+  username: nom_utilisateur_mysql
+  password: votre_mot_de_passe 
+
+
+ On lance Webrick, le petit serveur web fourni avec  RoR : 
+
+
+ $ script/server 
+
+
+ Et on teste on faisant pointer son navigateur a l'adresse  0.0.0.0:3000 . 
+
+
+ Bon amusement  
+ Notes 
+ [ 1 ] Si vous ne disposez pas de Subversion,  sudo apt-get install subversion 
+ 
+        </text>
+</document>

@@ -1,0 +1,29 @@
+<document>
+	<date>2006-07-21</date>
+        <title>Le ridicule ne tue pas</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>firefox</tag>
+                <tag>haha</tag>
+                <tag>tips</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Rigolo</category>
+        </categories_set>
+        <text>[Via  Totalement Cretin ] 
+
+
+ Certains ne se font toujours pas a l'idee que des qu'on publie un fichier destine a la consultation (image, video, texte, etc.) sur internet, on le rend physiquement accessible a l'internaute (il est stocke sur le disque dur de la machine); il est donc totalement  cretin  inutile d'employer des techniques  parfois ridicules  empechant captures d'ecran ou autres clics-droit de la souris. 
+
+
+ Pour achever de convaincre les plus sceptiques, ouvrez n'importe quel site internet depuis Firefox et faites  Outils  Informations sur la page  et parcourez les entrees du menu  Medias ... Ou encore, tappez  about:cache  toujours dans Firefox... Et  IE  n'est pas epargne, l'integralite des fichiers telecharges sont stockes dans le repertoire  Temporary Internet Files  du dossier de profil courant de l'utilisateur du systeme. 
+
+
+ Moralite? Si vous ne voulez pas que les internautes puissent disposer d'un fichier que vous publiez sur internet,  NE LE PUBLIEZ PAS . 
+
+
+ Merci de votre attention. 
+        </text>
+</document>

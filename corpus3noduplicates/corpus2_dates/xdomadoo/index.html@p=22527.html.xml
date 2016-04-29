@@ -1,0 +1,14 @@
+<document>
+	<date>2012-07-24</date>
+        <title>Guide dinstallation dun actionneur Z-Wave avec la ZiBASE</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>ZiBASE Produits</category>
+        </categories_set>
+        <text>
+                                                          Ce guide va vous expliquer comment installer un actionneur Z-Wave   ZiBASE Z-Wave    Connectez-vous tout dabord sur  linterface de configuration de votre ZiBASE A partir du mode  Expert  Domotique Detecteurs Sondes Actionneurs Ajouter   Donnez un nom a votre peripherique.     Choisissez   Actionneurs Z-Wave   Choisissez alors un logo qui sera associe sur les interfaces utilisateur (PCPAD et applications iPhone et Android) pour ce peripherique.   Choisissez un identifiant radio, puis cliquez sur  ASSOC  Note : DISSOC   La  ZiBASE   Les 5 LEDS numerotees de 1 a 5 sallument. Votre  ZiBASE Z-Wave   Appuyez alors sur le bouton dinclusion de ce peripherique  Z-Wave Peu apres, les LEDS seteignent, votre peripherique est bien inclus dans votre reseau  Z-Wave   Cliquez sur Enregistrer.  Vous pouvez verifier le bon fonctionnement de lactionneur en appuyant sur les boutons ON et OFF.  Remarque : ZiBASE  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

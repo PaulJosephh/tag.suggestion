@@ -1,0 +1,46 @@
+<document>
+	<date>2005-05-16</date>
+        <title>Formatage des commentaires dans Dotclear</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>dotclear</tag>
+                <tag>php</tag>
+                <tag>tips</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dotclear</category>
+        </categories_set>
+        <text>A rajouter dans le fichier  prepend.php  du theme courant: 
+
+ 
+
+ function  dcPrintWasSaying ( )   { 
+         $strs  =  array   ( 
+                 'Le %1$s agrave; %2$s, strong%3$s/strong nous narrait' ,
+                 'Inspireacute;, strong%3$s/strong nous expliquait le %1$s agrave; %2$s' ,
+                 'Le %1$s agrave; %2$s, strong%3$s/strong nous lanccedil;ait ces quelques mots' ,
+                 'Le %1$s, strong%3$s/strong deacute;clamait (vers %2$s)' 
+         ) ;
+         $date  =  utf8_decode ( $GLOBALS [ 'comments' ] - getLDate ( ) ) ;
+         $time  =  utf8_decode ( $GLOBALS [ 'comments' ] - getLTime ( ) ) ;
+         if   ( ( $link  =  $GLOBALS [ 'comments' ] - auteurSite ( ) )  !==  false )   { 
+                 $auth  =  sprintf ( 'a href="%1$s"%2$s/a' ,  $link , $GLOBALS [ 'comments' ] - f ( 'comment_auteur' ) ) ;
+         }   else   { 
+                 $auth  =  $GLOBALS [ 'comments' ] - f ( 'comment_auteur' ) ;
+         } 
+         $out  =  sprintf ( $strs [ rand ( 0 ,  count ( $strs )  -  1 ) ] ,  $date ,  $time ,  $auth ) ;
+         echo  dc_encoding ==  'UTF-8'  ?  utf8_encode ( $out )  :  $out ;
+ } 
+
+
+ Note :  Vous etes bien evidemment invite a enrichir les quatres phrases d'exemple avec vos propres tournures  
+
+
+ Edit: 
+
+
+ Suite a la survenue du mois d'aout (comme quoi, tout arrive), on m'a fait remarque un probleme d'encodage des caracteres dans les dates. C'est desormais resolu et le code ci-dessus a ete modifie en consequence  
+        </text>
+</document>

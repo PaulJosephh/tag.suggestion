@@ -1,0 +1,31 @@
+<document>
+	<date>2014-05-02</date>
+        <title>Yahoo d&#233;cide de ne plus tenir compte de "Do Not Track"</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Protection des donn&#233;es</tag>
+                <tag>Sph&#232;re priv&#233;e</tag>
+        </tags_set>
+        <categories_set>
+                <category>Technologies</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Dans un  communiqu&#233; , Yahoo a d&#233;clar&#233; qu'elle ne prendrait plus en consid&#233;ration les souhaits des utilisateurs qui veulent surfer sur le web sans &#234;tre pist&#233;s. Estimant qu'elle ne peut pas proposer des services personnalis&#233;s &#224; ses utilisateurs si elle prend en compte ce param&#232;tre de confidentialit&#233;, elle a donc simplement d&#233;cid&#233; de faire l'impasse, apr&#232;s l'avoir respect&#233; pendant deux ans. 
+ La technologie "Do Not Track" ( Ne pas me pister , en francais)  provient  de la Fondation Mozilla qui est derri&#232;re le navigateur Firefox. Elle explique&#160;: 
+ 
+ La plupart des sites web importants suivent les habitudes de leurs visiteurs, puis vendent ou fournissent ces informations &#224; d'autres soci&#233;t&#233;s (comme des annonceurs). [...] Le pistage est un terme couvrant maintes techniques et m&#233;thodes de suivi que les &#233;diteurs de sites, annonceurs et autres acteurs du web mettent en &#339;uvre pour conna&#238;tre vos habitudes de navigation sur le Web. Il s'agit par exemple d'informations concernant les sites que vous visitez, les choses que vous aimez, ou que vous n'aimez pas, les achats que vous avez faits en ligne&#8230; Ils utilisent ces donn&#233;es pour afficher des pubs, des produits ou services sp&#233;cialement cibl&#233;s pour vous. 
+ 
+ Google Chrome et Safari, ainsi qu'Internet Explorer et Opera notamment, prennent en charge cette technologie qui s' active  en fouillant dans les pr&#233;f&#233;rences et options des navigateurs. 
+ Les sites web ne sont pas tenus l&#233;galement ou contractuellement de respecter le souhait des utilisateurs . Google et Facebook ne respectent pas et n'ont jamais respect&#233; ce souhait, contrairement &#224;  Twitter  et  Pinterest  par exemple. 
+ Yahoo est d'ailleurs de tr&#232;s mauvaise foi quand elle invoque encore le manque de standardisation, l'absence de facilit&#233; d'usage et d'adoption massive par les autres acteurs du web. En effet, le W3C, organisme de normalisation du web, a justement fait une ultime  avanc&#233;e  il y a une dizaine de jours. La standardisation est &#224; bout touchant et c'est notamment par ce motif que Yahoo justifie l'abandon du support de cette technologie. 
+ Cet abandon est malheureux. La technologie est prometteuse et plusieurs grosses agences publicitaires s'&#233;taient engag&#233;es aupr&#232;s de la Maison Blanche notamment de supporter cette technologie. Rien n'a &#233;t&#233; fait. A se demander donc si cette ultime d&#233;fection de Yahoo ne va pas mettre &#224; mort cette technologie. 
+ Comment se pr&#233;munir&#160;? 
+ Il existe des logiciels gratuits permettant de bloquer tout ou partie des traqueurs et autres cookies de pistage qu'installent les sites qu'on visite (et m&#234;me ceux qu'on ne visitent pas&#160;!). 
+ Ghostery  et  Disconnect  (j'utilise ce dernier) sont deux bons plugins qui, conjugu&#233;s &#224;  Adblock Plus , feront leur possible pour vous permettre de ne pas &#234;tre pist&#233;s par les r&#233;gies publicitaires (la NSA n'est pas une r&#233;gie publicitaire, ndr). Ils vous permettront en plus de vous rendre compte  &#224; quel point vous &#234;tes suivis &#224; la trace  sur le web. C'est effrayant. 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

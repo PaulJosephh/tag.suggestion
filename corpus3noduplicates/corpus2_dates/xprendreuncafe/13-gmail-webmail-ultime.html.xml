@@ -1,0 +1,18 @@
+<document>
+	<date>2005-02-15</date>
+        <title>GMail - Le webmail ultime ?</title>
+        <author>NiKo</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>On m'a gentiment invite a ouvrir un compte  GMail , le webmail gratuit de  Google  accessible  uniquement sur invitation  (sic - vive le marketing). Il offre 1Go (!) d'espace de stockage, et des fonctions de classement et d'organisation du courrier evoluees. 
+
+ Moi qui recoit des quantites importantes de mail, je trouve leur systeme de filtres tres interessant : il est possible de determiner des regles de filtrage par expediteur, sujet, message, pieces jointes, le tout en beneficiant de la puissance de la syntaxe du moteur de recherche de Google. 
+
+ Je continue a tester la bete qui, pour l'instant et malgre une l'interface entierement en anglais, correspond tout a fait a l'idee que je me fais du webmail ideal (d'ailleurs, ils abusent abondamment de la classe javascript XMLHttpRequest que j'utilise pour mon furur plugin pour dotclear,  LiveSearch )  
+
+ Ah, j'oubliais : je dispose d'une  quarantaine d'invitations , donc si cela vous tente d'essayer la chose, laissez-moi un petit commentaire avec votre adresse email au format  nom AT domaine DOT com  (pour eviter le spam). 
+        </text>
+</document>

@@ -1,0 +1,16 @@
+<document>
+	<date>2010-12-24</date>
+        <title>Pilotez votre Roomba avec la ZiBASE</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>ZiBASE Applications</category>
+        </categories_set>
+        <text>
+                                                          Vous etes parti de chez vous et avez oublie de programmer ou de mettre en marche votre Roomba pour quil effectue son nettoyage quotidien. Cest desormais possible de le mettre en marche a distance grace a la  ZiBASE Le Roomba peut etre pilote par radio frequence via sa  telecommande ZiBASE Heureusement, le Roomba peut etre aussi pilote par infrarouge. Il existe dailleurs une  telecommande IR Par contre, la  ZiBASE IR X10 IR S3011 La preuve en video : 
+ Pour mieux comprendre comment cela fonctionne, voici un petit schema :  
+ En ce qui concerne la mise en oeuvre, cest tres simple. Il faut seulement configurer le controleur  S3011 X10 IR X10 ZiBASE Pour plus de details, vous pouvez consulter nos guides suivants : Guide  dinstallation du controleur X10/IR S3011 Guide dinstallation dun module X10 avec la ZiBASE  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

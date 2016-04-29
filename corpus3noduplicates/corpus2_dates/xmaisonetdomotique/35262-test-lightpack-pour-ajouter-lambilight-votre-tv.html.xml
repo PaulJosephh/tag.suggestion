@@ -1,0 +1,17 @@
+<document>
+	<date>2014-03-20</date>
+        <title>
+Test: Lightpack, pour ajouter lAmbilight  votre TV</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Ambilight</tag>
+                <tag>LightPack</tag>
+                <tag>Une</tag>
+        </tags_set>
+        <categories_set>
+                <category>Test Materiel Informatique</category>
+                <category>Tests Audio / Video</category>
+        </categories_set>
+        <text>Vous avez sans doute deja vu le systeme  Ambilight sur les TV Philips , cet eclairage a larriere de lecran qui sadapte en fonction de limage diffusee ?   Hormis pour les geeks, cette technologie pourrait paraitre gadget au premier abord; pourtant elle a plusieurs avantages: une meilleure immersion dans le film affiche. Dans le noir en particulier, il cree une atmosphere qui vous plonge encore davantage dans le film dhorreur, daction ou le drame que vous etes en train de visionner. limage sort du cadre de lecran, donnant limpression dune image liberee de ses contraintes et de ses bords. On a limpression davoir une image plus grande enfin, le halo lumineux adoucit limage, en reduisant lagressivite, et partant de la, la fatigue oculaire. Il reduit le contraste entre limage du televiseur et le mur qui supporte lecran.   Disponible depuis 2004, cette technologie nest malheureusement disponible que sur les TV de la marque. Ce qui a donne lieu a de nombreux projets tentant de reproduire cet effet, a base dArduino, Raspberry Pi, et quelques rubans leds. Lannee derniere lun de ces projets a ete mis sur le site de financement participatif  Kickstarter: LightPack . Un projet Open Source qui ma seduit et que jai decide daider a realiser en participant au financement. Un projet qui a dailleurs tres bien fonctionne, puisquil a recu un demi million de dollars de financement, le double de ce dont il avait besoin ! Jai recu mon  LightPack  il y a maintenant un petit mois. Maintenant quil a ete bien rode, il est temps de vous en livrer mes impressions Sommaire I. Deballage II. Installation III. Configuration IV. Utilisation V. Pour aller plus loin VI. Conclusion Commentaires (66) Powered by SEO TOC 1.7.3     1   2   3   4   5   6   7 Ambilight   LightPack   Une 
+        </text>
+</document>

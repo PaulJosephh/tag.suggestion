@@ -1,0 +1,15 @@
+<document>
+	<date>2013-10-02</date>
+        <title>Eedomus: Mise  jour du 1er octobre</title>
+        <author> Cdric L. </author>
+        <tags_set>
+                <tag>eedomus</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Comme quasiment chaque mois, voici la mise a jour de la box  domotique eedomus Cette mise a jour est moins impressionnante que  celle de septembre Commencons tout dabord par le support de nouveaux peripheriques  Z-Wave Support du  module Flood sensor de Fibaro Support du  module RGBW de Fibaro Support du variateur encastrable de  BeNext Dautres peripheriques sont aussi ajoutes, comme leprotocole Atlantic (BETA) avec le RFXUSB, ou encorela teleinformation avec le dongle  USB Notons egalement le support des onduleurs EATON (BETA) via une connexion  USB eedomus ADSL eedomus Letat de londuleur permettra en meme temps detre prevenu en cas de coupure de courant. Dautres ameliorations / corrections sont egalement de la partie: Masquer/Afficher rapidement les canaux de vos peripheriques (Rendez-vous dans Configuration du peripherique) Choix de la consommation et du thermometre utilise dans le graphe defficacite thermique. Ajout dactions sur desactivation dans la programmation Surveillance intrusion Les valeurs masquees des actionneurs peuvent etre editees (Mode Expert) (Onglet Valeurs, Afficher les actions masquees, pour les dimmers) Il est possible davoir plusieurs programmations avec le meme nom si elle ne sont pas dans la meme piece Certains modules volets roulants peuvent etre stoppes pendant leur mouvement (Activer la valeur 240 apres avoir clique sur Afficher les actions masquees dans longlet Valeurs) Meilleure gestion des actions repetees sur les interrupteurs monostables  Chacon Ajout dun commande WOL alternative (wol2) pour les peripheriques qui ne se laisseraient pas reveiller par la methode principale. Les modules  x10 xPL Ajout dun controle de coherence lors de la sauvegarde des regles de type na pas Lordre alphabetique netait pas toujours respecte avec les caracteres accentues Les actions  HTTP Et quelques bugs corriges: Correction dun bug sur le calcul de la consommation en  pour les prises avec consommetre Correction dun bug lorsque lexpression XPATH dun capteur  HTTP Correction dun bug lors dune exclusion  Z-Wave Bravo a lequipe de  Connected Object Z-Wave  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

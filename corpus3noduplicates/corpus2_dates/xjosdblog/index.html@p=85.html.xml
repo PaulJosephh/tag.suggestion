@@ -1,0 +1,21 @@
+<document>
+	<date>2007-11-14</date>
+        <title>Terratec Noxon 2 audio</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Synology</category>
+                <category>UPNP-DNLA</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Le  Noxon 2 Terratec Synology DS107e Freebox Synology DS107e Terratec Noxon 2 
+Le serveur UPNP du Synology DS107e est un peu frustre.  TwonkyMedia installe version adaptee TwonkyMedia Noxon 2 
+Pour linstallation, il faut  activer le serveur Telnet public Synology NASSetup.exe /volume1/public/twonkyvision/ public 
+Un fois installe, vous accedez a linterface web de  TwonkyMedia http://192.168.0.23:9000/configpage/index.htm 
+ Important : TwonkyMedia /etc/rc.local TwonkyMedia ipkg 
+ Remarque : NASSetup.exe TwonkyMedia 
+        </text>
+</document>

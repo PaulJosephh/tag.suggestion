@@ -1,0 +1,39 @@
+<document>
+	<date>2008-03-10</date>
+        <title>Tutoriel UIMA I : cration dun composant dannotation (Analysis Engine) en utilisant le JCas</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Analysis engine</tag>
+                <tag>CAS</tag>
+                <tag>Component descriptor</tag>
+                <tag>Document analyzer</tag>
+                <tag>JCAS</tag>
+        </tags_set>
+        <categories_set>
+                <category>Eclipse</category>
+                <category>TALN</category>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+Ce billet decrit comment creer un  composant dannotation Analysis Engine 
+ 
+ Preparation du projet dans Eclipse
+ Eclipse File  New  Other  Java  Java Project  Next Project name: Finish Project  Properties  Java Build Path  Libraries    Add External JARs uima-core.jar apache-uima/lib 
+ Definir un type dans le schema dannotation Common Analysis Structure CAS Token File  New  Others  UIMA  Type System Descriptor File File name: Finish .xml Open With  Component Descriptor Editor Type System Add Type Type Name: uima.tacs.Annotation Supertype: 
+ Developper le code de lannotateur JTextAnnotator_ImplBase File  New  Class Name: TokenAnnotator org.apache.uima.analysis_component.JCasAnnotator_ImplBase Superclass: Finish 
+import org.apache.uima.analysis_component.JCasAnnotator_ImplBase; Le recours a cette interface nest pas indispensable 
+ Descripteur du composant dannotation ( Analysis Engine Descriptor ) Analysis Engine Descriptor File  New  Others  UIMA  Analysis Engine Descriptor File File name: Finish .xml Open With  Component Descriptor Editor Name of the java class file Overview Type System Set DataPath Imported Type Systems Type System Descriptor Add Capabilities Type System Add Type Out Ok 
+ Executer le  Document Analyzer CLASSPATH bin 
+ export CLASSPATH=$CLASSPATH:chemin/vers/votre/bin
+ documentAnalyzer.sh 
+ Executer sous Eclipse le  Document Analyzer File  Import  General  Existing Project into Workspace  Next  Select root directory Finish ClassPath Document Analyzer Run  Run Configurations  UIMA Document Analyzer  ClassPath CPE GUI Run  Run Configurations  UIMA Document Analyzer  Run 
+ Tester le composant dannotation avec le  Document Analyzer 
+ 
+ Document Analyzer 
+ Imput Directory:  UIMA_HOME/examples/data Output Directory:  UIMA_HOME/examples/data/processed Location of Analysis Engine XML Descriptor:  chemin/du/descripteur/de/composant Run 
+ 
+ 
+ Tutoriel et guide du developpeur UIMA Tutorials and Users Guides Sommaire UIMA sur ce blog 
+        </text>
+</document>

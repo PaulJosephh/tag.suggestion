@@ -1,0 +1,27 @@
+<document>
+	<date>2013-11-16</date>
+        <title>Prise Fibaro Wall Plug</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Fibaro</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Modules</category>
+        </categories_set>
+        <text>
+                                                 
+ Description 
+Il sagit dun module  Z-Wave Z-Wave Commandes manuelles 
+Il est possible dallumer et eteindre manuellement la charge alimentee par le module prise via un appui court sur son bouton.
+ Inclusion / exclusion 
+Par defaut, le  Wall Plug 
+Pour exclure le  Wall Plug Wall Plug Remise aux valeurs dusine (Reset) 
+ Appuyer pendant 15 a 20 seconde sur le bouton du  Wall Plug Relacher le bouton puis faire un appui court. Une fois la remise a zero achevee, la couronne doit devenir rouge puis seteindre. LUUP -- Allumer et Eteindre . ( "urn:upnp-org:serviceId:SwitchPower1" , "SetTarget" , { = "1" } ,  ) . ( "urn:upnp-org:serviceId:SwitchPower1" , "SetTarget" , { = "0" } ,  ) -- Etat courant (Statut) et cible (Target)  local = . ( "urn:upnp-org:serviceId:SwitchPower1" , "Status" ,  ) local = . ( "urn:upnp-org:serviceId:SwitchPower1" , "Target" ,  ) -- Consommation instantanee (Watts) et cumulee (KWH) local = . ( "urn:micasaverde-com:serviceId:EnergyMetering1" , "Watts" ,  ) local = . ( "urn:micasaverde-com:serviceId:EnergyMetering1" , "KWH" ,  ) Mon avis 
+Le plus onereux mais egalement le meilleur (fonctionnalites, esthetique, encombrement, utilisation) des modules  Z-Wave Informations et sources 
+ 
+Shopping:  Prise Fibaro Wall Plug Notice prise Fibaro Wall Plug 
+ Sommaire Domotique 
+        </text>
+</document>

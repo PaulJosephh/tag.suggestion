@@ -1,0 +1,32 @@
+<document>
+	<date>2014-05-17</date>
+        <title>Vera UI5 : Crer son propre Plugin</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Luup</tag>
+                <tag>Vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+
+ Problematique 
+La creation dun plugin pour la box domotique  Vera UI5 Virtual ON/OFF Switches 
+ Ce billet nest pas acheve. Il est cependant en standby pour une question de temps, mais aussi parce que la sortie de  UI7 Structure dun Plugin 
+Un plugin Luup est compose de plusieurs fichiers dont certain sont optionnels.
+ 
+4 fichiers permettent dimplementer le fonctionnement du plugin.
+ 
+
+ D_GenericPlugin1.xml,  Device description file UPnP device description file Luup Plugins Luup Plugins By Hand S_GenericPlugin1.xml,  Service File Service File Service File Implementation file Service File Luup UPNP Files Luup Devices Luup UPnP Variables and Actions I_GenericPlugin1.xml,  device Implementation file Service File Luup Plugins By Hand Luup Declarations Luup Lua extensions L_GenericPlugin1.xml,  Lua file device Implementation file Lua file device Implementation file 
+2 autres fichiers permettent dimplementer la partie visuelle du plugin et son interaction dans linterface UI5. Ces 2 fichiers sont optionnels, ils ne servent que si le plugin doit posseder une interface graphique.
+ 
+ D_GenericPlugin1.json,  Device interface file Luup plugins: Static JSON file Luup plugin tabs J_GenericPlugin1.xml,  JavaScript files Device interface file Informations et sources 
+ 
+ Plugin Creation Tutorial Luup UPNP Files Luup Devices Luup UPnP Variables and Actions Luup Plugins By Hand Luup Declarations Luup Lua extensions Luup plugins: Static JSON file Luup plugin tabs Luup Plugins Creer son Propre Device Virtuel 
+ Sommaire Domotique 
+        </text>
+</document>

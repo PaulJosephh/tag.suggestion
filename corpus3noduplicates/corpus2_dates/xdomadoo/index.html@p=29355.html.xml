@@ -1,0 +1,22 @@
+<document>
+	<date>2013-12-20</date>
+        <title>Guide dinstallation du module prise variateur AEON LABS DSC08 avec la Zipabox</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>aeon labs</tag>
+                <tag>aeotec</tag>
+                <tag>dsc08</tag>
+                <tag>guide</tag>
+                <tag>smart energy illuminator</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+                <tag>zipabox</tag>
+        </tags_set>
+        <categories_set>
+                <category>Zipabox Produits</category>
+        </categories_set>
+        <text>
+                                                         La  Zipabox Z-Wave Aeon Labs 1- Installation : Zipabox https://my.zipato.com/ Si votre module a deja ete inclus dans un autre reseau  Z-Wave Lorsque vous avez clique sur le bouton Ajouter des modules, une fenetre souvre et celle-ci vous permet de selectionner le protocole correspondant a votre module (dans notre cas, il sagit du protocole  Z-Wave Z-Wave Une nouvelle fenetre nommee Assistant dajout de peripherique apparait avec un compte a rebours durant lequel vous devez appuyer brievement sur le bouton dapprentissage (le bouton dinclusion de votre module  Z-Wave Ce bouton dapprentissage est situe a larriere de votre module. Une fois que votre module est detecte par votre  Zipabox Apres avoir correctement associe votre module, celui-ci apparait dans la categorie Lampes et Appareils et mesures de votre interface avec le nom par defaut : Dimmer With Meter. 2- Configuration Pour configurer vos parametres generaux (nom de la piece, type de module, nom du module) cliquez sur le bouton  AEON LABS Vous pouvez egalement configurer vos parametres generaux dans la categorie General en cliquant sur Modules Totaux. Puis en cliquant sur Dimmer with meter disponible dans le dossier Aeon Smart Energy Illuminator. Apres avoir realise vos modifications, cliquez sur le bouton Sauvegarder. Vous pouvez egalement regler son intensite de 0 a 100% en deplacant simplement la fleche bleue de droite a gauche (100 a 0) ou vice-versa. Dans la categorie Mesures de votre interface, vous allez pouvoir visualiser la consommation actuelle et consommation cumulee (avec les boutons I, II) grace a votre module. Si vous desirez modifier les parametres avances de ce module, cliquez sur  Modules totaux  dans la categorie  General . La fenetre Gerer vos modules apparait. Selectionnez le dossier de votre module : Aeon Smart Energy Illuminator. Cliquez ensuite sur longlet Configuration :  G1/G2/G3 REPORT : Permet de choisir laffichage de consommation (actuelle ou cumulee). Exemple : dans G1 REPORT selectionnez CURRENT et dans G1 INTERVAL : 500s, ainsi la valeur de la consommation sera reactualisee toute les 500s. 3- Exemple de  scenario Vous devez en premier lieu vous rendre dans le centre de controle de votre  Zipabox Vous etes desormais dans linterface Createur de regles dans laquelle vous pouvez creer les scenarios que vous souhaitez grace a : http Nous allons donc realiser le scenario suivant :  3 pieces de Puzzle (1 controle, 1 action et 1 capteur) Il suffit simplement dassembler ces elements pour creer notre scenario. Pour cela, selectionner chaque partie et deplacez-les dans les cases attribuees (sans oublier dindiquer le statut du capteur douverture de porte Open et letat de votre module  Increase  et  100 ). Cliquez sur le bouton Sauvegarder pour valider votre scenario. Voici notre scenario : Comme vous pouvez constater, pas besoin detre un professionnel de la programmation informatique pour realiser un scenario. Ce module Smart Energy Illuminator peut bien evidemment servir pour dautres fonctions comme commander lallumage dune lampe lorsquil y a une intrusion a votre domicile.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

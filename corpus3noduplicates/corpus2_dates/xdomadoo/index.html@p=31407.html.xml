@@ -1,0 +1,21 @@
+<document>
+	<date>2014-02-24</date>
+        <title>Accder  distance au Fibaro Home Center 2</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>android</tag>
+                <tag>controle distant</tag>
+                <tag>fibaro</tag>
+                <tag>hc2</tag>
+                <tag>Home Center 2</tag>
+                <tag>ios</tag>
+                <tag>remote access</tag>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         Lun des grands interets de la  Domotique Rendez-vous sur la  page daccueil Vous pouvez, a partir de cette page daccueil, acceder directement a votre interface en indiquant votre nom dutilisateur et mot de passe. Dans notre cas, nous navons pas encore cree de compte, nous devons donc cliquer sur le bouton Register. Creez votre nouveau compte en indiquant votre nom dutilisateur, mot de passe, nom, prenom et adresse e-mail. Cliquez sur le bouton Register pour valider. Un message apparait en vert pour vous indiquer que votre compte a ete cree avec succes. Cliquez sur le bouton Login. Vous voici de nouveau sur la page daccueil mais cette fois-ci, indiquez votre nom dutilisateur que vous avez cree ainsi que votre mot de passe puis cliquez sur le bouton Log in. Une nouvelle page saffiche (nomme MAIN PAGE) dans laquelle vous allez pouvoir ajouter votre (ou vos) controleur(s) en cliquant sur le bouton Add HC. Pour retrouver ce numero de serie et ladresse MAC, vous avez deux options : 1- Sur letiquette situee en dessous de votre controleur 2- Sur votre interface du controleur connecte en local sur votre ordinateur, dans la rubrique Configuration Une fois avoir indique le numero de serie et adresse MAC de votre controleur, un message de couleur verte saffiche vous indiquant quil a bien ete ajoute dans votre compte. Pour revenir au menu principal, cliquez sur Home Center  FIBARO Votre controleur est desormais disponible dans votre compte dacces a distance. Vous pouvez vous connecter nimporte ou dans le monde en cliquant sur licone des engrenages (les deux roues situees a gauche de la croix rouge).  Pour acceder a linterface de votre controleur a distance sur :  Votre Smartphone avec Android, telechargez lapplication en  cliquant ici  Votre Smartphone avec iOS, telechargez lapplication en  cliquant ici  Votre tablette (iPad), telechargez lapplication en  cliquant ici Les applications (pour Android, iOS, iPad) sont egalement accessibles depuis la page daccueil du site internet de  Fibaro cliquez ici Nous allons dans notre exemple, telecharger lapplication sur notre Smartphone (Android). Les etapes de mise en route de lapplication seront identiques pour un Smartphone iOS ou tablette (iPad). Voici ces etapes : 1- Allez sur Play Store, recherchez lapplication nommee  FIBARO 3- Vous etes sur linterface de lapplication pour la premiere fois, une option First Start apparait, cliquez sur OK. page dacces a distance de votre interface du Home Center 2 page dacces a distance de votre interface du Home Center 2 Fibaro Pour resumer : page daccueil Felicitations, vous pouvez desormais gerer lensemble des elements connectes de votre maison, nimporte ou dans le monde.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

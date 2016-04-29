@@ -1,0 +1,20 @@
+<document>
+	<date>2014-03-04</date>
+        <title>Kile : plus de 1024 caractres</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>kile</tag>
+        </tags_set>
+        <categories_set>
+                <category>Applications</category>
+                <category>LaTeX</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+ Kile LaTeX Le fichier [] a ete ouvert et contenait des lignes trop longues (plus de 1024 caracteres). Les lignes trop longues ont ete tronquees et le document est regle en mode lecture seule, car lenregistrement modifie son contenu.
+ 
+Pour pouvoir modifier cette limite de 1024 caracteres, il faut se rendre dans  Configuration Configurer Kile Ouvrir / Enregistrer Limite de longueur de ligne 
+Pour pouvoir editer et sauver le fichier sans modifier cette limite, il faut se rendre dans  Outils Mode lecture seule 
+        </text>
+</document>

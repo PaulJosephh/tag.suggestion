@@ -1,0 +1,53 @@
+<document>
+	<date>2011-10-14</date>
+        <title>Cookies et failles de s&#233;curit&#233; : La loi &#171; Informatique et libert&#233;s &#187; est modifi&#233;e</title>
+        <author>Mich&#232;le Battisti</author>
+        <tags_set>
+                <tag>Donn&#233;es personnelles</tag>
+                <tag>Gouvernance</tag>
+        </tags_set>
+        <categories_set>
+                <category>Donn&#233;es personnelles</category>
+        </categories_set>
+        <text>
+                                                                                 Dans la sph&#232;re de la protection des donn&#233;es personnelles  
+ Obtenir un accord pr&#233;alable des internautes pour l&#8217;usage de cookies et les   informer  sans d&#233;lai  des violations de leurs donn&#233;es personnelles r&#233;sultant des failles de s&#233;curit&#233;, telles sont les obligations impos&#233;es d&#233;sormais par  la loi relative &#224; l&#8217;informatique, aux fichiers et aux libert&#233;s . 
+ Ces nouvelles contraintes d&#233;coulent d&#8217;une  directive europ&#233;enne du 25 novembre 2009 [1]  transpos&#233;e dans le droit fran&#231;ais par une  ordonnance du 24 ao&#251;t 2011 [2] . 
+ 
+ Opt-in   pour les cookies  
+ 
+ Avant l&#8217;ordonnance de 2011, les op&#233;rateurs n&#8217;&#233;taient pas sanctionn&#233;s s&#8217;ils se bornaient &#224; donner la possibilit&#233; de d&#233;sactiver les  cookies   a posteriori (opt-out) . C&#8217;est un accord pr&#233;alable qu&#8217;impose &#224; pr&#233;sent l&#8217;article 32 modifi&#233; de la loi Informatique et libert&#233;s. 
+ Il incombe donc &#224; l&#8217;op&#233;rateur de modifier les conditions d&#8217;utilisation de son service pour donner des informations &#171;&#160;claires et compl&#232;tes&#160;&#187; sur la finalit&#233; des cookies et de fournir &#224; l&#8217;internaute les moyens de donner son accord avant d&#8217;utiliser ses services. 
+ Mais l&#8217;accord, dit la loi, &#171;&#160;peut r&#233;sulter de param&#232;tres appropri&#233;s de son dispositif de connexion ou de tout autre dispositif plac&#233; sous son contr&#244;le&#160;&#187;. On aurait pu imaginer un accord soit donn&#233; de mani&#232;re plus explicite, mais &#171;&#160;difficile &#224; mettre en &#339;uvre &#160;(&#8230;) il &#171;&#160;serait (..) devenu une contrainte pour l&#8217;utilisateur comme pour les services&#160;&#187; [3] . 
+ On note aussi que ne sont pas concern&#233;s les cookies de navigation qui ont &#171;&#160;pour finalit&#233; exclusive de permettre ou faciliter la communication par voie &#233;lectronique&#160;&#187; ni ceux qui sont &#171;&#160;strictement n&#233;cessaires &#224; la fourniture d&#8217;un service de communication en ligne &#224; la demande expresse de l&#8217;utilisateur&#160;&#187;. 
+ La CNIL devrait fournir prochainement des recommandations techniques, des conseils et des mentions d&#8217;informations types. 
+ 
+ Une obligation de notification 
+ 
+ Comme je l&#8217;avais soulign&#233;, dans un  autre billet  [4] ,  notifier  les probl&#232;mes rencontr&#233;s dans la gestion des donn&#233;es personnelles de ses clients est, depuis une dizaine d&#8217;ann&#233;es, une obligation l&#233;gale aux &#201;tats-Unis, et la notification sera impos&#233;e en Europe apr&#232;s la transposition des directives du Paquet T&#233;l&#233;com. 
+ C&#8217;est chose faite avec ce nouvel article 34 bis de la loi Informatique et libert&#233;s. 
+ Des dispositions qui ne concerneraient que les fournisseurs d&#8217;acc&#232;s &#224; internet (FAI) et certains fournisseurs de t&#233;l&#233;phonie  
+ On pouvait s&#8217;interroger sur la notion &#171;&#160;floue&#160;&#187; de fournisseur de &#171; services de communications &#233;lectroniques accessibles au public&#187;, mentionn&#233;e dans l&#8217;ordonnance.  Etienne Papin  nous apprend que l&#8217;ARCEP l&#8217;a circonscrite, gr&#226;ce &#224;  une &#233;tude r&#233;cente  (pdf), aux fournisseurs de services de t&#233;l&#233;phonie mobile et fixe et aux fournisseurs d&#8217;acc&#232;s &#224; l&#8217;internet. Les h&#233;bergeurs, les services de t&#233;l&#233;phonie IP par utilisation de logiciels et les services de fournitures de contenus (comme les &#233;diteurs de sites web) ne seraient donc pas vis&#233;s. 
+ La notification doit &#234;tre faite &#171;&#160;sans d&#233;lai&#160;&#187;  [5]  &#224; la CNIL, d&#232;s lors que la violation de la s&#233;curit&#233; du syst&#232;me d&#8217;information &#171;&#160;entra&#238;ne, de fa&#231;on accidentelle ou illicite la destruction, perte, alt&#233;ration, divulgation&#160;&#187;, voire le simple &#171;&#160;acc&#232;s non autoris&#233;&#160;&#187; et, ce qui est effectivement un peu curieux, uniquement aux int&#233;ress&#233;s lorsque que la violation &#171;&#160;porte atteinte aux donn&#233;es &#224; caract&#232;re personnel ou &#224; leur vie priv&#233;e&#160;&#187;. Pourquoi, en effet, la CNIL devrait &#234;tre-elle avis&#233;e s&#8217;il n&#8217;y pas atteinte &#224; des donn&#233;es personnelles ? 
+ La notification n&#8217;est toutefois pas n&#233;cessaire lorsque donn&#233;es ont &#233;t&#233; crypt&#233;es  [6]  par le fournisseur, car rendues ainsi inutilisables (est-ce si s&#251;r&#160;?). 
+ Puisque le texte ne donne pas de pr&#233;cision sur les modalit&#233;s de la notification,&#160; l e cabinet Lebel,  s&#8217;appuyant sur la  directive du 12 juillet 2002 , ajoute que &#171;&#160;la notification faite &#224; l&#8217;abonn&#233; ou &#224; la personne physique doit indiquer (&#8230;) &#160;la nature de la violation de donn&#233;es personnelles&#160;, les points de contact aupr&#232;s desquels des informations suppl&#233;mentaires peuvent &#234;tre obtenues et une recommandation des mesures &#224; adopter afin d&#8217;att&#233;nuer les cons&#233;quences n&#233;gatives &#233;ventuelles de la violation de donn&#233;es personnelles&#160;&#187;. 
+ A la CNIL, le fournisseur &#171;&#160;doit d&#233;crire les cons&#233;quences de la violation de donn&#233;es personnelles, et les mesures propos&#233;es ou prises pour y rem&#233;dier&#160;&#187;. Il doit aussi tenir &#224; la disposition de la CNIL un inventaire des violations constat&#233;es qui d&#233;taille &#171;&#160;les modalit&#233;s des violations constat&#233;es, les effets provoqu&#233;s par cette violation, les mesures entreprises pour y rem&#233;dier&#160;&#187;. 
+ Pour donner du poids &#224; cette obligation, l&#8217;absence de notification sera sanctionn&#233;e par une peine pouvant aller jusqu&#8217;&#224; 5 ans de prison et 300.000 euros d&#8217;amende, &#224; laquelle pourraient s&#8217;ajouter des dommages et int&#233;r&#234;ts, soit de quoi  &#171;&#160;susciter un boom des audits de s&#233;curit&#233;  &#187;. 
+ Illustr. Matrix_2. Marcus Papapopolus.  Flickr . CC by-nc-nd   
+ R&#233;f&#233;rences  
+ &#8211;&#160;&#160;&#160;&#160;&#160; L&#8217;Europe durcit la loi Informatique et libert&#233;s,&#160;Antoine Robin,  Indexel , 28 septembre 2011 
+ &#8211;&#160;&#160;&#160;&#160;&#160;  La nouvelle obligation de divulguer les atteintes &#224; la s&#233;curit&#233; des donn&#233;es , Etienne Papin (cabinet F&#233;ral-Schuhl/Sainte-Marie),  CIO online , 26 septembre 2011 
+ &#8211;&#160;&#160;&#160;&#160;&#160; La loi Informatique et libert&#233;s apr&#232;s l&#8217;ordonnance du 24 ao&#251;t 2011, Herv&#233; Gadabou (Cabinet Courtois Lebel),  Espace Data presse , 21 septembre 2011 
+ &#8211;&#160;&#160;&#160;&#160;&#160;  Modification de la loi informatique et libert&#233;s ,  Prot&#233;gez vos donn&#233;es , 21 septembre 2011 
+ Notes 
+ [1]   Directive 2009/136/CE  du 25 novembre 2009 modifiant la directive 2002/22/CE concernant le service universel et les droits des utilisateurs au regard des r&#233;seaux et services de communications &#233;lectroniques, la directive 2002/58/CE concernant le traitement des donn&#233;es &#224; caract&#232;re personnel et la protection de la vie priv&#233;e dans le secteur des communications &#233;lectroniques et le r&#232;glement (CE) no 2006/2004 relatif &#224; la coop&#233;ration entre les autorit&#233;s nationales charg&#233;es de veiller &#224; l&#8217;application de la l&#233;gislation en mati&#232;re de protection des consommateurs.
+ [2]   Ordonnance n&#176; 2011-1012 du 24 ao&#251;t 2011 relative aux communications &#233;lectroniques . Ce texte contient d&#8217;autres dispositions, non pr&#233;sent&#233;es dans ce billet. 
+ [3]   Modification de la loi informatique et libert&#233;s ,  Prot&#233;gez vos donn&#233;es , 21 septembre 2011. 
+ [4]   S&#8217;assurer pour couvrir les risques du Cloud , Mich&#232;le Battisti,&#160;  Paralipom&#232;nes , 5 mai 2011 
+ [5]  Dans la loi sur la confiance dans l&#8217;&#233;conomie num&#233;rique, on imposait un retrait des informations illicite dans les &#171;&#160; meilleurs d&#233;lais&#160;&#187;. L&#8217;expression &#171;&#160;sans d&#233;lai&#160;&#187; a le m&#233;rite d&#8217;&#234;tre plus claire. 
+ [6]  La loi utilise une formule plus &#171;&#160; alambiqu&#233;e  &#187;. 
+                                         
+                                                                                                        
+                                 
+        </text>
+</document>

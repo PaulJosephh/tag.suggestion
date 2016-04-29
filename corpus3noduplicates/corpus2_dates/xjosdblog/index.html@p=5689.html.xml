@@ -1,0 +1,45 @@
+<document>
+	<date>2014-05-29</date>
+        <title>Dtecteur douverture Z-Wave Fibaro FGK-101</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Fibaro</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Modules</category>
+        </categories_set>
+        <text>
+                                                 Description 
+ 
+Ce detecteur Z-Wave dispose dun capteur reed, un interrupteur de proximite a fonctionnement magnetique, qui permet de detecter louverture dune porte ou dune fenetre. Il est constitue dune partie mobile, un aimant fixe sur la porte ou la fenetre, ainsi que dune unite principale fixe positionnee sur le cadre de la porte ou de la fenetre. Ces deux parties sont a fixer avec des vis ou un adhesif.
+ 
+En outre, ce detecteur dispose dune entree analogique permettant dy connecter une sonde de temperature 1-Wire DS18B20 ainsi que dune entree filaire. Cette derniere permet de lutiliser comme un transmetteur universel pour transformer nimporte quel contact sec (sonnette, detecteur de fumee, de gaz ou de monoxyde de carbone, ) en dispositif Z-Wave.
+ 
+Le detecteur FGK-101 est alimente par une pile ER14250 (1/2AA) de 3,6V annoncee pour durer 2 ans.
+ Sonde 1-wire Dallas DS18B20 
+ 
+Cette sonde nest pas fournie avec le detecteur.  Elle coute moins de 3 Inclusion / exclusion 
+ 
+Attention, le detecteur douverture FGK-101 possede deux boutons TMP. Le premier est situe au dos du boitier et le second a linterieur pres de la pile. La procedure dinclusion ou dexclusion se fait indifferemment avec lun ou lautre, mais le bouton qui nest pas utilise doit imperativement etre enfonce. Autrement dit, il y a deux facons deffectuer le triple appui sur le bouton TMP: 
+ 
+ En utilisant le bouton TMP situe au dos du boitier avec le boitier imperativement ferme pour que le bouton interne soit appuye En utilisant le bouton TMP situe a linterieur avec le boitier imperativement plaque sur une surface plane afin que le bouton TMP du dos soit appuye 
+Pour inclure le detecteur douverture FGK-101, approcher le controleur, le mettre en mode inclusion, appuyer 3 fois tres rapidement sur le bouton TMP. 
+ 
+Pour exclure le detecteur douverture FGK-101, approcher le controleur, le mettre en mode exclusion, appuyer 3 fois tres rapidement sur le bouton TMP. 
+ Reinitialisation complete du FGK-101 
+ Exclure le detecteur douverture FGK-101 du reseau Z-Wave Ouvrir le detecteur et enlever la pile Approcher laimant (petite partie du detecteur) Inserer la pile Eloigner laimant Enlever la pile Remettre la pile La procedure de reinitialisation est confirmee par un double scintillement de la LED Association avec la Vera Lite (UI5, firmware beta 1.5.672) 
+ 
+Le detecteur douverture FGK-101 na pas besoin du  firmware beta 1.5.67 Vera Lite 
+ Inclure le detecteur douverture FGK-101. Une fois le detecteur douverture FGK-101 inclus, il doit apparaitre dans la liste des modules sous la forme dun detecteur de mouvements. Effectuer un triple appui sur le bouton TMP pour reveiller le module et lui permettre de parachever sa configuration.
+ Si vous avez connecte la sonde DS18B20, le module de temperature doit etre apparu, effectuer un triple appui sur le bouton TMP pour reveiller le module et lui permettre de parachever sa configuration. Le detecteur douverture apparait comme un capteur de mouvements. Ce nest pas genant en soit. Cependant, pour quil soit vraiment reconnu comme un detecteur douverture il faut remplacer le fichier de configuration  D_MotionSensor1.xml D_DoorSensor1.xml Clef Advanced device_file 
+ Remarque: Association avec la Vera Lite (UI7 firmware 1.7.513) 
+ 
+ Inclure le detecteur douverture FGK-101. Une fois le detecteur douverture FGK-101 inclus, effectuer un triple appui sur le bouton TMP pour reveiller le module et lui permettre de parachever sa configuration.
+ Informations et sources 
+ 
+Shopping:  Detecteur douverture Z-Wave Fibaro FGK-101 Sonde Dallas DS18B20 Notice detecteur douverture Z-Wave Fibaro FGK-101 Guide dinstallation du detecteur douverture Fibaro FGK-101 avec la Vera Lite Test: detecteur douverture Fibaro FGK-101 
+ Sommaire Domotique 
+        </text>
+</document>

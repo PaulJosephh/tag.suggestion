@@ -1,0 +1,115 @@
+<document>
+	<date>2013-04-02</date>
+        <title>TEST Home Control 2 de MyFOX : Modules et Scnarios</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>Capteur TAG</tag>
+                <tag>Modules</tag>
+                <tag>MyFOX</tag>
+                <tag>Scenarios</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Alarme</category>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ Nous avons vu dans  larticle precedent  le tableau de bord de la Centrale Home Control 2 de  MyFox  ainsi que lenregistrement de peripheriques. 
+ Aujourdhui je vais vous presenter les modules qui etaient presents dans le  Pack de securite 
+ Comprend : 
+ 
+ 1 centrale MyFOX HC2 
+ 1 capteur anti-effraction TAG brevete 
+ 
+ 
+  
+ Vous pouvez remarquer que ce capteur nest fait que dune seule partie (a contrario les autres detecteurs douverture comme ceux de Fibaro sont en deux parties).Le  capteur TAG  nest ni plus ni moins quun detecteur deffraction. Positionne sur une porte, une fenetre ou un objet, il detectera grace a son accelerometre le moindre mouvement et declenchera une alarme. MyFOX permet de gerer 30 capteurs. Ils fonctionnent avec des piles type LR6 et possedent une autonomie de 12 mois. Ils communiquent avec la centrale par ondes radio numeriques cryptees en modulation de frequence 433,92 MHz. 
+ Dans le menu MON SYSTEME, SECURITE, CAPTEUR TAG, il est possible de lui attribuer un nom, de regler sa sensibilite et de choisir le type dalerte (mail, SMS, aucune). 
+ 
+  
+ 
+ 1 detecteur de mouvement 
+ 
+ 
+  
+ il est possible de lui attribuer un nom, de temporiser lalarme, cest-a-dire, de retarder son declenchement et de parametrer le type de sonnerie. Enfin, la aussi on peut choisir si lon veut etre averti par SMS, mail les deux ou rien du tout. 
+ 
+ 
+ 1 sirene interieurerelais radio110 dB 
+ 
+ 
+ La centrale  MyFOX  est dotee dune sirene mais il est possible den ajouter une deuxieme que lon positionnera ou lon veut dans la maison. Le relais sirene est une deuxieme alarme reliee au boitier enWi-Fi. 
+ 
+ 1 telecommande 4 boutons 
+ 
+ 
+ Cest une telecommande a 4 boutons avec confirmation dutilisation par LED (Desarmement, Armement total / partiel ainsi qualarme agression) 
+ 
+ Elle dispose dune touche personnalisable pour une application domotique, declenchement de scenario permettant de piloter un groupe dequipement, ou pour une application securite, activation de lalerte silencieuse detresse. Elle a une portee de 200 m en champ libre (antenne de communication integree),Transmission radio numerique a code aleatoire crypte, en modulation de frequence a 433,92Mhz. Numero didentification individuel, non reproductible. 
+ LA CREATION DE SCENARIOS 
+ Lorsque lon se rend sur longlet SCENARIO, on voit Mes groupes et Mes Scenarios. 
+ 
+ Mes Groupes 
+ Vous pouvez regrouper tous vos modules declairages exterieurs a lentree par exemple, dun simple clic ceux ci sallumeront ou seteindront, il en sera de meme si vous souhaitez regrouper tous vos volets roulants de la maison, dun simple clic ceux ci souvriront ou se fermeront. 
+ Mes Scenarios 
+ Pour commencer, quand on regarde limage en dessous on voit que cest tres simple on part de la gauche vers la droite, et on suit les indications tres claires donnees par MyFox pour vous aider a la creation du scenario. 
+ 
+  
+ on commence par lui donner un nom, pour arriver sur le mode de declenchement, et ici on en voit 4 : 
+ 
+  
+ A la demande :        Declencher un scenario sur demande. 
+ Periodique :           Declencher regulierement un scenario. 
+ Sur evenement :       Declencher un scenario apres un evenement defini. 
+ Simulation de presence : Programmer ma domotique pour simuler ma presence sur les lieux. 
+  
+ Comme jai une prise electrique commandee DIO sur laquelle est branchee une lampe, jai choisi un declenchement periodique. Ma lampe va sallumer tous les jours a 20h00. 
+ 
+  
+  
+ 
+  
+ On choisit les actions a effectuer en cliquant sur Equipements electriques 
+ 
+ Clic sur la prise commandee et on choisit Allumer 
+ 
+  
+ Votre scenario dallumage est pret, il suffit de le sauvegarder 
+  
+ exemple de SCENARIO en video pour simuler une presence 
+ 
+Les possibilites de creation de scenarios sont enormes, on entre vraiment dans le sens de la domotique, on touche a tout, les automatismes, les equipements electriques, la securite.En outre, MyFOX permet dassocier a lallumage de la lampe, la mise en fonction du systeme de protection et de declencher un enregistrement video de 10 minutes.Pour les prises commandees, il est possible de programmer leur allumage et leur extinction. Selon un horaire bien precis. 
+ MyFOX est dans la cours des grands ; par exemple si vous avez un capteur de luminosite /temperature, vous pourrez alors gerer vos ouvrants sans passer par des plages horaires fixes. 
+ Dans le prochain et dernier article nous verrons les applications mobiles permettant de controler dune autre facon votre systeme et la conclusion sur ce systeme Home Control 2 de MyFOX 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

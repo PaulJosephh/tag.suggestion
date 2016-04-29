@@ -1,0 +1,19 @@
+<document>
+	<date>2011-12-13</date>
+        <title>Ouvrir un fichier .tex avec Kile</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>kile</tag>
+        </tags_set>
+        <categories_set>
+                <category>Applications</category>
+                <category>Galeres</category>
+                <category>LaTeX</category>
+        </categories_set>
+        <text>
+                                                 
+Curieusement,  Linux Mint 12 Lisa Ubuntu 11.10 Editeur de texte Kile Ouvrir avec Proprietes Kile 
+La solution est dediter le fichier  ~/.local/share/applications/mimeapps.list 
+[Default Applications] 
+        </text>
+</document>

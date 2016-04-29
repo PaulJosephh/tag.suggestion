@@ -1,0 +1,17 @@
+<document>
+	<date>2014-04-15</date>
+        <title>
+Test: box domotique Homewizard, ou la domotique facile</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Chacon</tag>
+                <tag>Homewizard</tag>
+                <tag>Hue</tag>
+                <tag>Une</tag>
+        </tags_set>
+        <categories_set>
+                <category>Tests Box Domotique</category>
+        </categories_set>
+        <text>En ce moment de nouvelles box font leur apparition. Cest un marche porteur, et chacun veut y aller de sa solution. Mais la box dont je vais vous parler aujourdhui nest pas totalement nouvelle: elle existe en effet depuis un an aux Pays Bas, ou elle a deja ete bien rodee avant darriver dans nos contrees. Ne dun programme dincubation de lAgense Spatiale Europeenne (ESA) a Noordwijk aux Pays-Bas,  HomeWizard  est un petit boitier permettant la communication par radiofrequence (433MHz ou 868 MHz) dappareils divers, pilotables via une simple application mobile. De nombreux produits sont compatibles : Interrupteur et recepteur:Coco (serie AB600 et Home fonfort),  Chacon, DI-O , Elro,  Myfox , Inter techno Stations Meteo: TFA, Cresta, IROX, Ventus Compteurs denergie: Wattcher, HomeWizard EnergyLink Volets  Portails: Moteurs et modules  Somfy RTS , tout moteur electrique via ASUN-650 ou ITL-1000 Camera IP: HomeWizard,  Foscam Detecteurs de fumee    Il ne sagit donc pas cette fois dune enieme box Z-Wave: la Homewizard a prefere se reposer sur des peripheriques beaucoup plus abordables, comme le Chacon que nous connaissons maintenant tres bien. La plupart des  cameras Foscam et Foscam like (copies)  seront parfaitement supportees, ce qui peut permettre davoir un systeme de video surveillance tres abordable. Enfin, on retiendra la compatibilite Somfy, qui en fait seulement la deuxieme box compatible apres la  Zibase  (si on ne tient pas compte bien sur de la box officielle Somfy). Etant donne le nombre de questions que nous recevons pour piloter les volets Somfy, cet argument est deja en faveur de cette petite box ! Passons donc sans attendre a sa decouverte Sommaire I. Deballage II. Configuration 2.1 Sur ordinateur 2.2 Sur iPad III. Installation 3.1 Ajout des peripheriques 3.1.1 Ajout d'un peripherique Chacon / DIO 3.1.2 Ajout d'une sonde de temperature 3.1.3. Ajout d'une camera 3.1.4. Ajout des ampoules Hue 3.1.5. Autres peripheriques 3.2 Station meteo 3.3 Gestion des scenarios IV. Utilisation V. Conclusion Commentaires (6) Powered by SEO TOC 1.7.3     1   2   3   4   5   6   7 Chacon   Homewizard   Hue   Une 
+        </text>
+</document>

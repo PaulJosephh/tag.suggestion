@@ -1,0 +1,66 @@
+<document>
+	<date>2005-08-17</date>
+        <title>Redfinir de force le mot de passe root de MySQL</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>linux</tag>
+                <tag>mysql</tag>
+                <tag>securite</tag>
+                <tag>tips</tag>
+                <tag>tutoriel</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Il peut arriver d'oublier son mot de passe root MySQL  [ 1 ] ,  n'est-ce pas blowup ?  
+
+
+ C'est tres embetant car pour redefinir un nouveau mot de passe root, il faut entrer le mot de passe... root, et reinventer ainsi le mouvement perpetuel... 
+
+
+ Voici une methode pour lancer MySQL sans requerir d'authentification, et ainsi pouvoir assigner un mot de passe a l'utilisateur root.  Attention, cette methode ne doit pas etre utilisee sur des serveurs de production et/ou sensibles, car a ce moment toutes vos bases sont accessibles a tous les utilisateurs MySQL. 
+
+
+ Dans un shell, entrez la sequence de commandes suivante: 
+
+
+ $ sudo -s
+# /etc/init.d/mysql stop
+# mysqld -u mysql --skip-grant 
+
+
+ Attention, maintenant MySQL est lance sans authentification, c'est a dire qu'il est ouvert a tous les utilisateurs. Vous pouvez egalement arreter Apache2 afin de limiter les possibilite d'execution de scripts accedant a des bases non autorisees: 
+
+
+ # apache2ctl stop 
+
+
+ Note :  Si vous utilisez d'autres services permettant l'acces a MySQL, je vous recommande fortement de les arreter de meme. Vous pourrez les relancer a la fin de l'operation. 
+
+
+ La, ouvrir un nouveau shell pour definir un nouveau mot de passe root/MySQL (CTRL + Shift + T dans gnome-terminal) 
+
+
+ # mysqladmin -u root flush-privileges password "nouveau_mot_de_passe" 
+
+
+ Fermer le premier shell, et tuez le daemon mysql ignorant l'authentification, puis relancez mysql au moyen de la commande: 
+
+
+ # /etc/init.d/mysql restart 
+
+
+ Si vous aviez stoppe Apache, voire d'autres services, il est tant de les relancer: 
+
+
+ # apache2ctl start
+# ... 
+
+
+ Normalement, ca devrait rouler... 
+ Notes 
+ [ 1 ] qui, rappelons-le, n'est pas le meme que l'utilisateur root du systeme 
+ 
+        </text>
+</document>

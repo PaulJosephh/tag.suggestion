@@ -1,0 +1,44 @@
+<document>
+	<date>2013-01-21</date>
+        <title>Mega, vraiment une "Privacy Company" ?</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Conditions g&#233;n&#233;rales</tag>
+                <tag>Protection des donn&#233;es</tag>
+        </tags_set>
+        <categories_set>
+                <category>Opinion</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Mega a &#233;t&#233; lanc&#233; samedi pass&#233; et compte d&#233;j&#224; plus d'un million d'utilisateurs inscrits. Une v&#233;ritable ru&#233;e. Apr&#232;s ce succ&#232;s qui ne va probablement pas ravir les artistes, soci&#233;t&#233;s de gestion et autres majors, je vous propose une visite acc&#233;l&#233;r&#233;e dans les conditions g&#233;n&#233;rales (CGU) de Mega ainsi que dans sa politique de confidentialit&#233;. 
+ Megaupload est mort, voici Mega. Et les deux n'ont rien &#224; voir. 
+ Le point sur la s&#233;curit&#233; 
+ Mega est d&#233;crit comme un  service de stockage chiffr&#233;  de donn&#233;es permettant notamment le partage de ces donn&#233;es. Tous les fichiers stock&#233;s sont chiffr&#233;s par d&#233;faut au moyen d'un chiffrement utilisant un syst&#232;me de cl&#233;s publique/priv&#233;e chiffr&#233;es en  RSA  2048 bits, ce qui signifie que "personne" &#224; part l'utilisateur ne peut voir ce que contient le fichier &#224; moins de partager la cl&#233; publique permettant le d&#233;chiffrement. 
+ Les donn&#233;es de connexion et celles fournies pour la cr&#233;ation du compte ne sont pas chiffr&#233;es par Mega car le service a besoin de les utiliser pour que Mega remplisse sa part du contrat. 
+ Concernant la s&#233;curit&#233;, il semblerait que des experts dans le domaine aient mis le doigt sur  au moins un probl&#232;me  : Mega peut apparemment d&#233;sactiver le chiffrement pour certains utilisateurs et sans qu'ils soient au courant. De plus, il semblerait que de grosses failles de s&#233;curit&#233; existent, permettant notamment d'acc&#233;der &#224; l'espace priv&#233; d'un utilisateur. 
+ Certes, le service vient d'ouvrir ses portes, il est jeune, en b&#234;ta et n&#233;cessite une p&#233;riode de rodage et de d&#233;bogage. Mais pour le moment, je doute qu'il soit judicieux de stocker des donn&#233;es sur Mega, surtout si ces donn&#233;es ont un caract&#232;re personnel, voire sensible. 
+ Conditions g&#233;n&#233;rales d'utilisation 
+ Le chiffre 5 des  CGU  dispose que chaque utilisateur autorisant l'acc&#232;s (via un lien et la cl&#233; publique de d&#233;chiffrement) aux donn&#233;es qu'il stocke chez Mega est  responsable des actions et omissions des tiers  utilisant Mega pour t&#233;l&#233;charger ces donn&#233;es. L'utilisateur s'engage &#224; indemniser Mega pour toute r&#233;clamation, tout dommage ou autre chef de responsabilit&#233; au cas o&#249; les CGU seraient viol&#233;es. 
+ Mega n'assure pas qu'il n'y aura pas de  perte de donn&#233;es  ou de bug, c'est pourquoi il convient de toujours en garder des copies (chiffre 7 des CGU). 
+ Mega peut  supprimer automatiquement vos donn&#233;es  s'il trouve une copie exacte de ces donn&#233;es chez un autre utilisateur&#160;; dans ce cas, vous aurez acc&#232;s aux donn&#233;es correspondantes chez l'autre utilisateur. Et vice versa (8). 
+ Les CGU disposent aussi que lorsque votre compte est ferm&#233;, Mega peut supprimer vos donn&#233;es. Pour autant qu'ils en aient envie (9). 
+ En stockant, t&#233;l&#233;chargeant ou en transmettant de toute autre mani&#232;re des donn&#233;es chez Mega,  l'utilisateur garantit &#234;tre au b&#233;n&#233;fice d'un droit de propri&#233;t&#233; intellectuelle  (titularit&#233; ou licence). &#192; ce sujet, l'utilisateur accepte de donner &#224; Mega une licence mondiale et gratuite pour utiliser, stocker, sauvegarder, copier, transmettre, distribuer, communiquer ou rendre accessible ses donn&#233;es dans le but de permettre &#224; l'utilisateur &#8211; et aux personnes qu'il autorise &#8211; d'utiliser Mega (16). 
+ Mega vous  interdit notamment de violer la propri&#233;t&#233; intellectuelle d'autrui  (17.3) et d'utiliser Mega pour stocker ou transmettre de toute autre mani&#232;re des donn&#233;es en violation du droit (17.5.1). 
+ Mega affirme  respecter le droit d'auteur  et requiert de ses utilisateurs d'en faire de m&#234;me, en leur interdisant notamment d'enfreindre le droit d'auteur. Mega s'engage &#224; r&#233;pondre aux demandes de suppression de contenu des ayants droit et se r&#233;serve aussi le droit de supprimer sans pr&#233;avis les donn&#233;es violant le droit d'auteur, voire de supprimer le compte de l'utilisateur en question (19). 
+ En cas de litige, l'utilisateur s'engage &#224; le r&#233;gler par une  proc&#233;dure d'arbitrage  conforme au droit n&#233;oz&#233;landais (41 et suivants). 
+ Politique de confidentialit&#233; 
+ Mega  d&#233;clare  conserver les informations suivantes&#160;: les donn&#233;es relatives &#224; la cr&#233;ation du compte, des journaux (communication, trafic, utilisation du service, etc.), des informations personnelles incluses dans les donn&#233;es stock&#233;es par le service.  Les adresses IP sont &#233;galement enregistr&#233;es . Des donn&#233;es non personnelles (notamment &#224; des fins statistiques et publicitaires) sont aussi r&#233;colt&#233;es et conserv&#233;es, peuvent &#234;tre incorpor&#233;es &#224; d'autres informations et donn&#233;es &#224; des publicitaires, mais de fa&#231;on &#224; ce que l'utilisateur ne puisse pas &#234;tre identifi&#233;. 
+ Les donn&#233;es sont conserv&#233;es aussi longtemps que l'utilisateur est inscrit &#224; Mega, sous r&#233;serve des conditions g&#233;n&#233;rales relatives &#224; la suspension et &#224; la fermeture d'un compte par Mega. 
+ Les donn&#233;es &#233;tant chiffr&#233;es avant leur envoi sur les serveurs, Mega d&#233;clare ne pas pouvoir y acc&#233;der sans la cl&#233; publique qui vous est remise.  Mega s'engage &#224; fournir les donn&#233;es d'utilisateurs aux autorit&#233;s  de n'importe quel pays et de leur pr&#234;ter assistance. 
+ L'utilisateur dispose d'un  droit d'acc&#232;s  aux donn&#233;es personnelles stock&#233;es par Mega, selon le droit n&#233;oz&#233;landais. Ce droit d'acc&#232;s peut &#234;tre factur&#233;. La question qui se pose, d&#232;s lors qu'une collecte d'information a lieu en Suisse (pour les utilisateurs suisses) ce qui implique que la loi f&#233;d&#233;rale sur la protection des donn&#233;es est applicable, est celle du conflit entre ces deux droits. Le droit suisse pr&#233;voit un droit d'acc&#232;s en principe gratuit ( art. 8 LPD ,  art. 1 et 2 OLPD ) sauf exception, ce qui n'est pas le cas du droit n&#233;oz&#233;landais qui pr&#233;voit qu'une contribution financi&#232;re raisonnable peut &#234;tre exig&#233;e ( Privacy Act 1993, Section 35, Clauses 2 et suivantes ). 
+ Mega, vraiment une "Privacy Company" ? 
+ Une entreprise qui se  pr&#233;tend  &#234;tre une "soci&#233;t&#233; de confidentialit&#233;" et qui collecte n&#233;anmoins des donn&#233;es personnelles sur ses utilisateurs, en particulier les adresses IP, avouez que c'est cocasse. De fait, les &#233;ventuels whistleblowers, les personnes en infraction au droit d'auteur et autres "r&#233;fractaires" au droit de leur pays seront livr&#233;s aux autorit&#233;s si leur pays vient toquer &#224; la porte de Mega. Les informations personnelles ne seront donc pas divulgu&#233;es &#224; d'autres personnes &#224; part les autorit&#233;s. Du moins selon les CGU applicables pour le moment. 
+ Certains sites avaient remarqu&#233; que les CGU ou la politique de confidentialit&#233; contenaient des  dispositions relatives &#224; la solvabilit&#233; des utilisateurs , et que ces donn&#233;es pouvaient &#234;tre partag&#233;es avec n'importe qui. Ces dispositions semblent avoir disparu &#224; l'heure o&#249; j'&#233;cris cet article, et c'est tant mieux. 
+ Mega est donc un service offrant de la s&#233;curit&#233; (relative pour le moment) pour vos donn&#233;es. Mais n'esp&#233;rez pas qu'il garantira votre anonymat. Bien au contraire.  Mega n'a rien &#224; voir avec Megaupload et est pr&#234;t &#224; collaborer avec les autorit&#233;s. M&#234;me si le chiffrement des fichiers est un s&#233;rieux b&#226;ton dans leurs roues. 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

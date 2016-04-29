@@ -1,0 +1,30 @@
+<document>
+	<date>2007-10-25</date>
+        <title>LaTeX : Installer UNICODE pour utiliser UTF8 (et les caractres accentus)</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>LaTeX</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+ Telecharger  Unicode support for LaTeX 
+Faire un repertoire pour lunicode :
+ 
+/usr/share/texmf/tex/latex/unicode
+ 
+~/texmf/tex/latex/unicode
+ 
+Copier les fichiers  ucs.sty utf8x.def ucsencs.def data/ 
+Mettre a jour LaTeX :
+ 
+texhash
+ 
+texhash ~/texmf
+ 
+Pour ecrire un fichier en UTF8 (avec les accents tapes directement, entre autres), inclure dans le fichier du document LaTeX :
+ \usepackage{ucs} 
+        </text>
+</document>

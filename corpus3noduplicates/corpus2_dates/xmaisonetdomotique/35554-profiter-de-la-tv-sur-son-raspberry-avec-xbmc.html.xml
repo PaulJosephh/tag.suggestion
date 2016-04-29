@@ -1,0 +1,15 @@
+<document>
+	<date>2014-03-28</date>
+        <title>
+Profiter de la TV sur son Raspberry avec XBMC et un tuner HDHomerun</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>HDHomerun</tag>
+                <tag>XBMC</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Audio / Video</category>
+        </categories_set>
+        <text>Maintenant que je peux  profiter de lAmbilight sur ma TV grace a mon LightPack et mon Raspberry , cest bien, mais je trouvais cela dommage de ne pas pouvoir en profiter ailleurs, comme par exemple quand on regarde la TV. Cest en effet une limitation de ce genre dequipement: ca ne fonctionne que pour les contenus lus depuis un PC. Jai donc cherche un moyen pour lire la TV sur mon Raspberry avec  OpenElec , notamment en utilisant  mon tuner TNT reseau HDHomerun : il serait dommage de devoir racheter alors quil y a tout ce quil faut a la maison. Apres pas mal de recherches sur internet, il savere quil existe une methode ultra simple pour avoir la TV sur XBMC avec le  HDHomerun .  Pour commencer, il faut installer le  programme HDHomerun pour Windows  sur un ordinateur. Au lancement, on indique son pays et son code postal:   Puis on indique pour quelle utilisation on souhaite configurer le tuner. Il faut ici selectionner XBMC Media Center en premier choix, puis HDHomerun Quick TV en second:   Lapplication va ensuite rechercher les chaines. On obtient cela quand le scan est fini:   Une fois fini, on peut fermer lapplication, et aller dans le repertoire Utilisateurs / votre utilisateur / HDHomerun XBMC TV:    Vous trouverez dans ce repertoire une liste de fichiers strm, chaque fichier correspondant a une chaine. Il suffit de prendre tous ces fichiers et les copier vers le repertoire Video de XBMC, par exemple:   Vous retrouverez cette liste dans XBMC:   Il suffit den selectionner un, comme vous le feriez avec nimporte quel fichier video habituel, et le flux video de la chaine se lancera au bout de quelques secondes:   Lintegration de la TV nest pas parfaite: XBMC possede normalement une fonctionnalite PVR avec guide des programmes, enregistrement possible, etc mais je nai pas trouve comment utiliser mon HDHomerun avec cette fonctionnalite. Il y avait bien une piste avec  TVHeadend , mais le driver du HDHomerun ne semble pas fonctionner sur le  Proliant avec Xpenology  :/ Pour mon utilisation cette astuce sera toutefois suffisante, puisque cest uniquement pour profiter de mon  LightPack  ponctuellement quand un bon film passe a la TV. Pour lenregistrement TV,  mon Synology fait cela tres bien, comme je vous lai explique il y a peu    HDHomerun   XBMC 
+        </text>
+</document>

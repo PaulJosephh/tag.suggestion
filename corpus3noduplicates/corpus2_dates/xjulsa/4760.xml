@@ -1,0 +1,15 @@
+<document>
+	<date>2015-07-05</date>
+        <title> </title>
+        <author>JulSa_</author>
+        <tags_set>
+                <tag>2048</tag>
+                <tag>Test</tag>
+        </tags_set>
+        <categories_set>
+                <category>Jeux Vid&#233;o</category>
+                <category>Preview - Test</category>
+        </categories_set>
+        <text>  Voici 2048, un jeu qui satisfera tous les amateurs de  number puzzle game . Rien de tel comme stimulant que de r&#233;soudre des d&#233;fis pour notre esprit. Ce  jeu 2048  n&#233;cessite une grille de 4&#215;4 cases, des &#171; tuiles &#187; de couleurs et de valeurs vari&#233;es (toujours des puissances de 2) qu&#8217;on doit d&#233;placer en faisant glisser vers les cases voisines. Les tuiles qui se rencontrent fusionnent, celles de valeur &#233;lev&#233;e brillent un peu plus lors de la fusion des cases. Le gameplay repose sur le glissement des tuiles vers&#160;la gauche, la droite, le haut ou le bas.  Lorsque des tuiles de valeur identiques se croisent, la tuile r&#233;sultante prend la valeur Double, par exemple, 2 tuiles de de valeur 4 donnent une tuile de valeur 8. Pour chaque d&#233;placement de tuile, &#160;une nouvelle tuile portant un 2 ou un 4 appara&#238;t dans une des cases vides al&#233;atoirement. Ce jeu, au demeurant simple de prime abord se&#160;complexifie rapidement . Le fait de disposer de moins de cases vides pour autoriser les d&#233;placements de tuiles, les erreurs de manip&#8230; vont rapidement et dans la plus part des cas, entra&#238;ner le blocage du jeu &#224; plus ou moins long terme, c&#8217;est l&#8217;exp&#233;rience, l&#8217;habilet&#233; du joueur qui permet d&#8217;aller de plus en plus loin. Recommencer le jeu pour tenter d&#8217;aller plus loin par une nouvelle strat&#233;gie est en grande partie ce qui rend addictif ce jeu. Ce jeux est disponible sur  www.jeux.com  mais &#233;galement sur smartphone. Pour gagner une partie il faut obtenir une tuile partant le nombre 2048 (2 puissance 11), d&#8217;o&#249; le nom du jeu.&#160;Le fait d&#8217;arriver &#224; obtenir le 2048 n&#8217;est pas signe de fin de jeu, on peut continuer et aller au del&#224;, tenter d&#8217;am&#233;liorer son score. 
+        </text>
+</document>

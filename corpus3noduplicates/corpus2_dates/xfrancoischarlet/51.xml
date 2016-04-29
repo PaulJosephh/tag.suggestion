@@ -1,0 +1,42 @@
+<document>
+	<date>2014-05-26</date>
+        <title>Le "Screen Scraping" ne constitue pas un comportement d&#233;loyal</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Concurrence d&#233;loyale</tag>
+        </tags_set>
+        <categories_set>
+                <category>Droit</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Dans un  jugement  I ZR 224/12 du 30 avril 2014, le Bundesgerichtshof (BGH, Cour Supr&#234;me d'Allemagne) a tranch&#233; un litige opposant la compagnie d'aviation Ryanair &#224; CheapTickets.de, un service similaire &#224; ebookers.ch qui permet de facilement comparer diff&#233;rentes offres de voyages pour en choisir la plus avantageuse et proc&#233;der imm&#233;diatement aux r&#233;servations 1 . 
+ Screen scraping en Allemagne 
+ Ryanair se plaignait que CheapTickets.de se servait de  Screen Scraping  pour obtenir les donn&#233;s des vols propos&#233;s par Ryanair. Dans ses conditions g&#233;n&#233;rales (CGU), que l'internaute doit accepter en cochant une case pr&#233;vue &#224; cet effet sur le site de la compagnie, Ryanair interdit que les donn&#233;es se trouvant sur son site soit extraites pour &#234;tre utilis&#233;es sur un autre site ("screen scraping", ou "web scraping"). 
+ C'est pr&#233;cis&#233;ment ce que fait CheapTickets.de lorsqu'un internaute utilise son moteur de recherche pour comparer des offres puis proc&#233;der &#224; la r&#233;servation des vols. De plus, CheapTickets.de ajoute au prix des billets des frais pour sa propre activit&#233;. Ryanair voit dans ce comportement une utilisation abusive de son syst&#232;me de r&#233;servation et une insinuation illicite dans son syst&#232;me de distribution. 
+ En derni&#232;re instance, le BGH n'a pas &#233;t&#233; de cet avis. Il a d&#233;ni&#233; l'applicabilit&#233; de l' art. 4 ch. 10 UWG  (loi contre la concurrence d&#233;loyale, l'&#233;quivalent allemand de la  LCD suisse ) qui interdit qu'un concurrent en g&#234;ne un autre en particulier. 
+ Il estime que le mod&#232;le &#233;conomique de CheapTickets.de va dans le sens d'une meilleure transparence des prix sur le march&#233; des billets d'avion et permet aux voyageurs de trouver plus facilement les meilleurs prix. Les int&#233;r&#234;ts de Ryanair - &#224; savoir que les internautes puissent se rentre sur son site directement pour y prendre connaissance des derni&#232;res offres et des possibilit&#233;s de prestations annexes - ne p&#232;sent pas plus lourds dans la balance des int&#233;r&#234;ts. 
+ Selon le BGH, malgr&#233; l'interdiction de r&#233;cup&#233;ration des donn&#233;es mentionn&#233;e dans les CGU de Ryanair, le comportement de CheapTickets.de n'est pas d&#233;loyal. Il pourrait cependant l'&#234;tre si l'on devait contourner des mesures de s&#233;curit&#233; visant &#224; emp&#234;cher les moteurs de recherche ou autre logiciels &#224; utiliser les donn&#233;es disponibles sur le site. 
+ En Suisse 
+ Le droit de la concurrence d&#233;loyale n'interdit pas la copie des prestations ou r&#233;sultats d'un travail effectu&#233;s par autrui. Le principe est que l'on peut librement copier, sous r&#233;serve &#233;videmment d'autres dispositions l&#233;gales comme le droit d'auteur et sauf circonstances particuli&#232;res d&#233;finissant un comportement d&#233;loyal. 
+ Justement, la loi sur la concurrence d&#233;loyale (LCD) dispose &#224; son  art. 5  que la reprise des prestations d'autrui constitue un comportement illicite dans certains cas. La LCD prot&#232;ge donc quand m&#234;me le r&#233;sultat d'un travail, ce dernier pouvant &#234;tre d&#233;fini comme le produit d'efforts intellectuels de d&#233;penses mat&#233;rielles 2 . 
+ Dans le cas pr&#233;sent, on s'int&#233;ressera en particulier &#224; la lettre c de l'art. 5. 
+ 
+ Agit de fa&#231;on d&#233;loyale celui qui [...]  reprend gr&#226;ce &#224; des proc&#233;d&#233;s techniques de reproduction et sans sacrifice correspondant  le r&#233;sultat de travail d'un tiers pr&#234;t &#224; &#234;tre mis sur le march&#233; et l'exploite comme tel. 
+ 
+ L'exploitation illicite du r&#233;sultat du travail d'autrui consiste en la privation pour un concurrent du fruit de ses efforts parce qu'un concurrent les reprend directement et, ce faisant, &#233;conomise les investissements qui auraient &#233;t&#233; n&#233;cessaires pour arriver &#224; ce r&#233;sultat. 
+ Le Tribunal f&#233;d&#233;ral n'a pas eu &#224; trancher un cas de "screen scraping" mais a rendu des arr&#234;ts (voir notamment  ATF 131 III 384 ) concernant la libert&#233; de copier des annonces sur un site Internet pour les afficher sur un autre site, pour autant qu'un investissement soit r&#233;alis&#233; pour exploiter les annonces copi&#233;es. 
+ Il a &#233;galement estim&#233; que la condition du "sacrifice correspondant" (art. 5 lit. c LCD) n'est plus remplie si le concurrent a d&#233;j&#224; amorti ses frais. Autrement dit, le premier arriv&#233; sur le march&#233; n'est plus prot&#233;g&#233; par l'art. 5 lit. c LCD si les d&#233;penses qu'il a consenties ont d&#233;j&#224; &#233;t&#233; amorties lorsqu'un concurrent reprend les donn&#233;es ( ATF 134 III 166 ). Il est donc primordial, pour pouvoir appliquer l'art. 5 lit. c LCD, qu'aucun sacrifice correspondant n'ait &#233;t&#233; consenti par le concurrent reprenant le travail. 
+ Si l'art. 5 lit. lc LCD n'est pas applicable, l' art. 2 LCD  reste subsidiairement applicable. 
+ 
+ Est d&#233;loyal et illicite tout comportement ou pratique commercial qui est trompeur ou qui contrevient de toute autre mani&#232;re aux r&#232;gles de la bonne foi et qui influe sur les rapports entre concurrents ou entre fournisseurs et clients. 
+ 
+ Autrement dit, le comportement d&#233;loyal doit &#234;tre  objectivement  de nature &#224; avantager ou d&#233;savantager un concurrent dans sa lutte pour acqu&#233;rir de la client&#232;le, ou pour accro&#238;tre ses parts de march&#233;. 
+ Selon le Tribunal f&#233;d&#233;ral ( ATF 131 III 384 ), la concurrence entre les exploitants de plates-formes doit se d&#233;rouler selon des crit&#232;res orient&#233;s vers les besoins particuliers du public tels que l'int&#233;gralit&#233;, la fiabilit&#233; et la mise en valeur des donn&#233;es. 
+ Selon ces diff&#233;rents &#233;l&#233;ments, on ne verrait donc pas en quoi (en Suisse) un ebookers.ch aurait une activit&#233; concurrentielle d&#233;loyale envers les compagnies a&#233;riennes dont il exploiterait les services de r&#233;servations pour comparer les prix et proposer les meilleures offres aux internautes. 
+
+         Notes &#160;&#160;&#160;[  +  ]                                                 1.      &#8629;         Dieser Artikel ist  hier  alles in allem auf Deutsch ver&#246;ffentlicht worden. Die franz&#246;sische Fassung ist die kompletteste.    2.      &#8629;         Martenet/Heinemann, Droit de la concurrence, 2012, p. 232-233.                                                                                 
+                                                                                                        
+                                                 
+        </text>
+</document>

@@ -1,0 +1,14 @@
+<document>
+	<date>2011-03-02</date>
+        <title>Cration dun Slider pour HSTouch</title>
+        <author> Loc </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels Homeseer</category>
+        </categories_set>
+        <text>
+                                                          Dans un precedent article nous avions deja vu comment creer graphiquement un bouton :  Dessiner votre propre bouton pour HSTouch   Pour la realisation dun slider, nous avons besoin de 2 elements graphiques : 1 image de fond: representant en general la graduation   1 image pour le bouton    Si vous ne voulez pas creer vos propres boutons, vous pouvez telecharger ces 2 elements  ici ATTENTION: Il est important de bien nomme vos images lors de lenregistrement. background.png button.png HomeSeer Pour commencer, nous allons creer un nouveau bouton ON/OFF (voir notre article  Creation dun bouton actif pour HSTouch   Ajouter votre Slider en le glissant dans votre projet. Veillez a bien ranger vos elements graphiques. sliders   Associer le slider a un device en selectionnant longlet  ActionsWhenSelectionChanged:   Puis selectionner votre device :   Il existe 2 types de slider: Vertical et Horizontal. Ici nous avons choisi un slider  Vertical   Associer le slider a sa valeur (de 0 a 100%).    Voila vous venez de creer un slider !   Mais pour rendre les choses un peu plus claires,  nous allons ajouter un texte nous indiquant la valeur de lobjet Ajouter un texte sur votre projet :     Associer ce texte a la valeur de votre DEVICE en allant dans longlet  StatusTrackingNomal      Et voila. Le texte affiche a present la valeur sur laquelle se trouve le slider.     Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

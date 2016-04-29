@@ -1,0 +1,14 @@
+<document>
+	<date>2010-11-17</date>
+        <title>Cration dun bouton de base dans HSTouch</title>
+        <author> Loc </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels Homeseer</category>
+        </categories_set>
+        <text>
+                                                          Pour creer un bouton ON / OFF de base, vous devrez demarrer  HSTouch . Premiere utilisation du logiciel HomeSeer Touch Designer Commencons par selectionner un bouton parmi la bibliotheque delements. Si aucun des boutons proposes par defaut ne vous convient, vous pouvez suivre ce  tutorial   Nous allons maintenant attribuer une Action a ce bouton. Selectionner ActionsWhenPressed, pour appliquer laction sur le bouton au moment ou on le pressera.  Un tableau vide souvre. Cliquer sur   Ajouter   Selectionner un TYPE daction.  Control a  HomeSeer HomeSeer  Selectionner un DEVICE.   Enfin selectionner la commande a executer.  ON / OFF  Voila vous venez de creer votre premier bouton.  Allez dans la bibliotheque  Others  Selectionnez loption  Status Tracking Norma  Nous allons associer ce texte a notre DEVICE. Ici toujours notre Plafonnier de RDC.  Selectionner  Use Status Text  A present, vous pouvez demarrer le client HSTouch et voir le resultat    Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

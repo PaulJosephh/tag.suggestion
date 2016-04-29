@@ -1,0 +1,19 @@
+<document>
+	<date>2010-03-10</date>
+        <title>Gestion du fil pilote dun chauffage lectrique en X10</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>chauffage</tag>
+                <tag>fil pilote</tag>
+                <tag>X10</tag>
+        </tags_set>
+        <categories_set>
+                <category>X10 Applications</category>
+        </categories_set>
+        <text>
+                                                         fil pilote courants porteurs X10 Les 2 ordres de base  CONFORT ECO 
+ Phase fil pilote  (abaissement de la temperature, seuil fixe ou reglable selon les appareils). Absence de  phase fil pilote Branchements : 
+ Connecter normalement votre appareil de chauffage au secteur. Connecter un module appareil  X10  type AM12W (ou AD10) au secteur a proximite de lappareil a controler. Affecter une adresse a votre module C1 par exemple. Mettre votre module en marche (envoyer C1 ON avec un emetteur  X10 ). Rechercher la  phase Couper le courant puis relier la sortie  phase fil pilote Fonctionnement : Pour passer en mode ECO envoyer un ordre C1 ON au module  X10 . Pour passer en mode CONFORT envoyer un ordre  C1 OFF au module  X10 . (*) Si lappareil ne revient pas en mode CONFORT mettre une resistance +/- 230 K en serie en sortie du module  X10  pour eliminer une tension residuelle possible  Les autres ordres du  fil pilote X10 . Dans tous les cas faites appel a un electricien si vous netes pas competent en electricite et en electronique avant dintervenir sur le reseau electrique 230V.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

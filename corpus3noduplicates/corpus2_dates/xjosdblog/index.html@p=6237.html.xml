@@ -1,0 +1,82 @@
+<document>
+	<date>2015-03-10</date>
+        <title>WSAPI et Xavante : serveur Web Lua</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Lua</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Eloise</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 Introduction Contexte 
+ 
+Lobjet de ce tutoriel est de detailler linstallation et le fonctionnement dun serveur web permettant dheberger un programme Lua:  WSAPI-Xavante 
+Dans mon cas dutilisation, je compte heberger  lintelligence de ma domotique Xavante WSAPI WSAPI 
+ 
+ WSAPI WSAPI CGI FastCGI Xavante 
+ WSAPI Xavante 
+ 
+ Xavante handlers URI mapped handlers Xavante WSAPI WSAPI expressions regulieres au sens Lua du terme Mise en uvre Installation 
+ 
+Si ce nest deja fait, la premiere etape est dinstaller  Lua LuaRocks $  sudo apt-get install sudo apt-get install 
+Il est ensuite temps dinstaller  Xavante WSAPI sudo install sudo install Exemple 
+ 
+Voici un exemple de mise en uvre (le fichier se nomme  tuto01.lua ---------------------------------------------------------------- -- Exemple de mise en oeuvre de WSAPI et Xavante (tuto01.lua) -- ---------------------------------------------------------------- local = require ( "xavante" ) local = require ( "xavante.filehandler" ) local = require ( "wsapi.xavante" ) local = require ( "xavante.redirecthandler" ) -- Chemin des documents html et des scripts lua local = "/tmp/www" function ( , ) . [ "Content-type" ] = "text/html" . = string.format ( "Fonction toute simple (%s)brbrreq.serversoftware = %s" , tostring ( os.date ( ) ) , tostring ( [ "serversoftware" ] ) ) return end function ( ) local = { [ "Content-type" ] = "text/html" } local function ( ) coroutine.yield ( "htmlbody" ) coroutine.yield ( "pMa fonction WSAPI !/p" ) coroutine.yield ( "pPATH_INFO: " .. . .. "/p" ) coroutine.yield ( "/body/html" ) end return 200 , , coroutine.wrap ( ) end local = { { -- Gestionnaire de fichiers html (http://localhost:8080/index.html) = "%.html" , = , = { = } } , { -- Gestionnaire de fonction (http://localhost:8080/fsimple) = "/fsimple$" , = } , { -- Gestionnaire de redirection (http://localhost:8080/redirection) = "/redirection$" , = , = { "/fsimple" } } , { -- Gestionnaire de fonction WSAPI (http://localhost:8080/fwsapi) = "/fwsapi$" , = . ( ) } , { -- Gestionnaire de scripts WSAPI (http://localhost:8080/hello.lua) = { "%.lua$" , "%.lua/" } , = . ( ) } , } -- Message de depart . ( function ( ) local date = os.date ( "[%Y-%m-%d %H:%M:%S]" ) print ( string.format ( "%s Xavante started on port(s) %s" , date , table.concat ( , ", " ) ) ) end ) -- Configuration . { = { = "*" , = 8080 } , = { = } , } -- Fonction callback function ( ) print ( os.date ( ) ) return false end -- Demarrage (Dans un terminal : wsapi -c tuto01.lua -p 8080) . ( , 1 ) 
+Pour lancer le programme, il faut saisir dans un terminal:  wsapi -c tuto01.lua -p 8080 Configuration 
+ 
+Apres que le module  Xavante xavante.HTTP handlers xavante . { = { = "*" , = 8080 } , = { = } , } 
+ Xavante xavante . { = { = "*" , = 8080 } , = { } , = { [ "www.sitename1.com" ] = , [ "www.sitename2.com" ] = } } Demarrage et fonction  callback() 
+ 
+Pour demarrer  Xavante xavante.start() callback Xavante ie. callback Xavante callback 
+Dans le cadre dune application de domotique, cest lendroit ideal pour gerer les timers (cron). Personnellement, jai choisi comme delai  0.05 Raspberry callback timeout Les gestionnaires (Handlers) 
+ 
+Lordre dans lequel les gestionnaires sont enregistres est important car cest dans cet ordre que les tentatives de correspondance durl vont se faire.
+ Gestionnaire de fichier 
+
+
+      { -- Gestionnaire de fichiers html (http://localhost:8080/index.html) = "%.html" , = , = { = } } , 
+Cest le gestionnaire le plus simple qui permet dafficher des fichiers html situes dans  /tmp/www /tmp/www index.html html  head  meta http-equiv "content-type" content "text/html; charset=utf-8" / title  /title  /head  body  em  /em  /body  /html  
+Dans ce cas, une fois le serveur web lance, en saisissant dans un navigateur web ladresse  http://localhost:8080/index.html index.html index.html Gestionnaire de fonction 
+
+
+      { -- Gestionnaire de fonction (http://localhost:8080/fsimple) = "/fsimple$" , = } , 
+Ce gestionnaire permet de faire correspondre une url au resultat dune simples fonction Lua. Cette fonction doit comporter deux parametres:  req res req res Xavante : Handler de type fonction Lua simple 
+Dans cet exemple, en saisissant dans un navigateur web ladresse  http://localhost:8080/fsimple 
+Fonction toute simple (Tue Mar 10 17:33:31 2015)
+
+req.serversoftware = Xavante 2.2.0
+ Gestionnaire de redirection 
+
+
+      { -- Gestionnaire de redirection (http://localhost:8080/redirection) = "/redirection$" , = , = { "/fsimple" } } , 
+Le gestionnaire de redirection permet de faire un alias durl.
+Dans lexemple de ce tutoriel, lurl  http://localhost:8080/redirection http://localhost:8080/fsimple Gestionnaire de fonction WSAPI 
+
+
+      { -- Gestionnaire de fonction WSAPI (http://localhost:8080/fwsapi) = "/fwsapi$" , = . ( ) } , 
+Le gestionnaire de fonction  WSAPI WSAPI WSAPI WSAPI status code response headers output iterator function ( ) local = { [ "Content-type" ] = "text/html" } local function ( ) coroutine.yield ( "htmlbody" ) coroutine.yield ( "pMa fonction WSAPI !/p" ) coroutine.yield ( "pPATH_INFO: " .. . .. "/p" ) coroutine.yield ( "/body/html" ) end return 200 , , coroutine.wrap ( ) end 
+Dans lexemple de ce tutoriel, lurl  http://localhost:8080/fwsapi 
+Ma fonction WSAPI !
+
+PATH_INFO: /fwsapi
+ Gestionnaire de scripts WSAPI 
+
+
+      { -- Gestionnaire de scripts WSAPI (http://localhost:8080/hello.lua) = { "%.lua$" , "%.lua/" } , = . ( ) } , 
+Les applications  WSAPI hello.lua /tmp/www # / / / . local = { } function . ( ) local = { [ "Content-type" ] = "text/html" } local function ( ) coroutine.yield ( "htmlbody" ) coroutine.yield ( "pHello Wsapi!/p" ) coroutine.yield ( "pPATH_INFO: " .. . .. "/p" ) coroutine.yield ( "pSCRIPT_NAME: " .. . .. "/p" ) coroutine.yield ( "/body/html" ) end return 200 , , coroutine.wrap ( ) end return 
+La ligne  #!/usr/bin/env wsapi.cgi Apache 
+Dans lexemple de ce tutoriel, lurl  http://localhost:8080/hello.lua 
+Hello Wsapi!
+
+PATH_INFO: /
+
+SCRIPT_NAME: /hello.lua
+ References 
+ 
+GitHub:  keplerproject/xavante keplerproject/wsapi 6.4.1  Patterns Xavante : Handler de type fonction Lua simple Xavante : Handler de type fonction WSAPI 
+ Sommaire Domotique 
+        </text>
+</document>

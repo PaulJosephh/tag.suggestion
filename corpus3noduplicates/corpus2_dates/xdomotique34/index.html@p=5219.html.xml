@@ -1,0 +1,54 @@
+<document>
+	<date>2013-08-13</date>
+        <title>Benot de LBCConcept adopte S.A.R.A.H.</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ Apres avoir tant entendu parler de S.A.R.A.H , je me suis dit il faut que je teste 
+ 
+ Premiere etape linstallation: 
+ Aller faire un tour ici:  http://encausse.wordpress.com/s-a-r-a-h/ 
+ Vous pourrez telecharger les fichier dinstallations et la documentations de S.A.R.A.H 
+ 
+ Deuxieme etape: 
+ Dezipper le tout et commencer linstallation en suivant le tuto sur le premier lien. Nayant pas de kinect jutilise le micro du pc portable en attendant davoir le materiel. Apres avoir installer le programme sur votre pc aller sur le store:  http://127.0.0.1:8080/home  . Ce lien se trouve dans le repertoire principal de votre programme. Personnellement jai installe les modules/plugins allocine, Zibase bien entendu et la karotz. De tres nombreux plugin sont disponibles. 
+ Ensuite vient la configuration: Soit par la page de store soit directement dans votre programme en ouvrant les fichiers xml avec notepad. 
+ Commencer par regler les proprietes de vos module. Pour la Zibase jai du entrer son adresse ip local, vous pouvez passez par le serveur ZIBASE.NET mais chez moi ca ne fonctionnait pas. 
+ Des exemples sont present dans les fichiers xml il est facile de sen inspirer pour programmer a sa guise. Je ne vais pas rentrer dans les details la documentation de SARAH est tres bien fait. Si vous avez besoin dinformation ou daide pour la programmation vous pouvez me contacter par le site  LBCconcept.fr 
+ Petite video 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

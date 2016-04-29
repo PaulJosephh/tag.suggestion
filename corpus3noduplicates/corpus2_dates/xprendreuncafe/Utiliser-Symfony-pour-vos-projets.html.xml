@@ -1,0 +1,72 @@
+<document>
+	<date>2007-11-01</date>
+        <title>Utiliser Symfony pour vos projets</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>frameworks</tag>
+                <tag>methodologie</tag>
+                <tag>organisation</tag>
+                <tag>php</tag>
+                <tag>projet</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Suite a l'emergence des  frameworks web , beaucoup d'equipes de developpement ont decide de leur utilisation sans toujours bien realiser les tenants et aboutissants lies la demarche, croyant souvent avoir enfin trouve une methode miracle pour produire vite et bien. Il peut en resulter de severes deconvenues, quel que soit le framework, le langage ou la plateforme retenus. 
+
+
+ Concernant  Symfony , il en va de meme; et si on peut bien entendu trouver enormement d'avantages a son utilisation sur un projet, il faut egalement bien avoir conscience des contraintes qu'un developpement sur sa base implique, sous peine de se retrouver dans le mur assez rapidement. 
+
+
+ Symfony n'est pas un CMS 
+
+
+ Il est immediatement tentant de retenir Symfony pour tout type de projet tellement il est agreable de developper sur sa base. Cependant, pourquoi systematiquement reinventer une roue qui tourne peut-etre deja fort bien ailleurs? L'idee ici est de s'interroger sur la reelle necessite de recourir a un  developpement specifique ; en effet, meme si coder en Symfony est tres encadre, il n'empeche que la logique metier est entierement a definir par l'equipe de developpement  [ 1 ] . Plus particulierement concernant les problematique de gestion de contenus, le besoin metier sur le projet est-il suffisamment consequent, ou un  CMS  comme  Drupal ,  SPIP ,  ezPublish  ou  Joomla  couvre t-il nativement l'ensemble du perimetre fonctionnel cible?  [ 2 ] 
+
+
+ Un developpement specifique introduira le plus souvent  beaucoup plus d'exigences, de competences et de complexite  qu'une integration basee sur un outil de gestion de contenus autonome existant (et digne de ce nom). L'idee est bel et bien de renoncer a  se faire plaisir a tout prix  pour se situer au plus pres de la realite du besoin. 
+
+
+ Bien entendu, je me fais aussi ici l'avocat du diable. Pour avoir joue avec les principaux CMS PHP open source du marche et connaissant la propension naturelle d'un client a enrichir au gre de l'avancement projet le perimetre fonctionnel souhaite  [ 3 ] , je prefere allegrement a titre personnel me baser sur un framework comme Symfony afin de rester agile et parer a toute eventualite. Mais je sais aussi quelles sont mes competences reelles sur le sujet, et des qu'une equipe dont je ne cerne pas le niveau entre en ligne de compte, generalement les problemes commencent. Ca tombe bien, c'est justement l'objet du prochain chapitre  
+
+
+ Symfony est exigeant 
+
+
+ Non, Symfony ne transformera pas magiquement un mauvais developpeur en bon developpeur... meme s'il peut y contribuer a terme  
+
+
+ Plus serieusement, le but reel de l'utilisation d'un framework est bel est bien de  vous rendre plus efficace et productif , certainement pas de vous compliquer la vie ou de vous faire perdre du temps. 
+
+
+ Il faut bien prendre conscience que le temps de montee en competence sur l'utilisation du framework - deja naturellement exigeante - requiere egalement pour certains une  montee en competence en programmation tout court . Et cette derniere, si elle peut se faire sur un projet, peut egalement  allegrement le plomber . Un  developpeur debutant   bidouilleur  PHP mettra fatalement plus de temps qu'un codeur experimente a apprehender l'ensemble des possibilites introduites par PHP5, la programmation orientee objet, les motifs de conception, mais aussi le respect des bonnes pratiques notamment liees au travail collaboratif ou que sais-je encore. 
+
+
+ Le risque a court terme est de voir  le code du projet greve dans sa qualite et sa maintenabilite . A moins bien entendu de prendre en compte en amont cette charge inherente a la formation, mais on connait tous la realite professionnelle et commerciale du milieu qui est le notre  
+
+
+ Symfony ne vous dispense pas d'organiser votre projet 
+
+
+ Oui, Symfony fait la part belle aux conventions et premache enormement le travail redondant a tout projet de type web. La vie des (bons) developpeurs est grandement facilitee, et on peut vraiment gagner rapidement beaucoup de temps. Mais une grave erreur serait de sous-estimer la charge liee a l'organisation et la gestion de la vie du projet. 
+
+
+ Par exemple, ce n'est pas en mettant plus de developpeurs sur un projet Symfony (ou autre d'ailleurs) que celui-ci sera developpe plus vite. Au contraire, meme; tout codeur avec un tant soit peu d'experience professionnelle a deja rencontre ce type de cas de figure: on vend un projet de 100 jours de developpement, on se fixe un retroplanning ambitieux avec une mise en ligne a 20 jours ouvres, et on staffe donc arithmetiquement cinq developpeurs a plein temps en pensant que le resultat sera totalement equivalent au travail qu'aurait fourni un unique developpeur en 100 jours de developpement pour concevoir l'integralite du code de l'application resultante. 
+
+
+ Bien entendu, c'est illusoire et generalement, le projet se termine sur des depassements consequents et le mecontentement du client  [ 4 ] . Et pour cause, la deperdition d'energie utilisee a la communication sur le projet est fonction du nombre d'acteurs presents sur ce dernier. Et on peut staffer trois chefs de projet a plein temps pour canaliser tout ca, c'est d'une part economiquement peu viable et d'autre part totalement inefficace, ces derniers devant perdre egalement beaucoup de temps a se synchroniser entre eux, puis avec les membres de l'equipe. 
+
+
+ Moralite 
+
+
+ Non, Symfony n'est pas le remede miracle aux lacunes organisationnelles des structures en charge de la realisation d'un projet, mais bien un outil  exigeant  qu'il faut savoir apprehender de la bonne facon en prenant en compte le plus en amont possible ces problematiques. Le gain reel et indiscutable d'efficacite apporte par l'utilisation d'un framework comme Symfony est a ce prix  
+ Notes 
+ [ 1 ] Je n'ose pas evoquer ici la notion  d'architecte logiciel  connaissant la realite moyenne du monde PHP. 
+ [ 2 ] Pour nuancer ce propos, de plus en plus de  plugins Symfony  tendent a apparaitre pour couvrir ce type de besoins fonctionnels. 
+ [ 3 ] Le premier qui me parle du sacrosaint cahier des charges contractuel, je le mords. 
+ [ 4 ] Sans parler de la charge de stress portee sur l'equipe, qui du coup va saloper le boulot pour livrer au plus vite. 
+        </text>
+</document>

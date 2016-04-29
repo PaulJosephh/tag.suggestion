@@ -1,0 +1,22 @@
+<document>
+	<date>2007-12-15</date>
+        <title>Formatage et nom de volume</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+                <category>Systeme</category>
+        </categories_set>
+        <text>
+                                                 
+Pour formater un disque, il faut utiliser la commande  mke2fs -j ext3 -L /dev/sda1 MON_DISQUE 
+ mke2fs -j -L MON_DISQUE /dev/sda1
+ 
+On peut toujours donner un nom de volume ulterieurement en utilisant la commande  tune2fs MON_DISQUE DISQUE /dev/sda1 
+ tune2fs -L DISQUE /dev/sda1
+ 
+Pour un disque au format  FAT mlabel 
+Il est important de donner un nom a chacun de ses disques amovible. En effet, merci  udev /media/MON_DISQUE /media/usb_disk1 
+        </text>
+</document>

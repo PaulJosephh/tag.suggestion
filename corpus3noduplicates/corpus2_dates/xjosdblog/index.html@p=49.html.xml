@@ -1,0 +1,25 @@
+<document>
+	<date>2008-04-04</date>
+        <title>Tutoriel UIMA III : enchaner des composants dannotation</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Analysis engine</tag>
+                <tag>Component descriptor</tag>
+        </tags_set>
+        <categories_set>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+Apache UIMA utilise le meme type de fichier de description ( Component Descriptor 
+ 
+soit configure comme primitif dans le cas ou il decrit un traitement elementaire (comme dans le  Tutoriel UIMAI 
+soit configure comme agrege ( aggregate 
+ 
+Creer un  Aggregate Analysis Engine Descriptor  File  New  Others  UIMA  Analysis Engine Descriptor File File name: Finish .xml Open With  Component Descriptor Editor Overview Aggrerate Engine Type. 
+Dans longlet  Aggregate Add 
+Enfin, dans longlet  Capabilities Add Type 
+Il ne reste plus qua tester l Aggregate Analysis Engine Descriptor Document Analyzer Tutoriel UIMAI 
+ Tutoriel et guide du developpeur UIMA Tutorials and Users Guides Construire une chaine de traitement UIMA a partir de composants existants Executer un traitement ou une chaine de traitement sous UIMA Sommaire UIMA sur ce blog 
+        </text>
+</document>

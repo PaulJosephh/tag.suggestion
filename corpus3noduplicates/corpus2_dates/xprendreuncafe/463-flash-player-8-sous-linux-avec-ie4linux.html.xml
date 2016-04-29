@@ -1,0 +1,21 @@
+<document>
+	<date>2006-06-05</date>
+        <title>Flash Player 8 sous Linux avec ie4linux</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>flash</tag>
+                <tag>ie</tag>
+                <tag>microsoft</tag>
+                <tag>ubuntu</tag>
+                <tag>web</tag>
+                <tag>wine</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>IEs4linux  vous permet d'installer  IE  5,  IE  5.5 et  IE  6 sur un systeme FreeBSD, Solaris ou Linux (comme  Ubuntu ), mais pas seulement; depuis peu, le logiciel vous propose d'installer ni plus ni moins que le  Flash Player 8 , jusqu'ici non porte sur GNU/Linux par Adobe... 
+
+
+ De quoi patienter en attendant  la version 9 , meme si le surf avec  IE  sous Linux n'est pas une sinecure. 
+        </text>
+</document>

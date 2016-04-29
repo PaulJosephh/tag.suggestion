@@ -1,0 +1,18 @@
+<document>
+	<date>2005-04-04</date>
+        <title>Apache laggue ? Essayez ceci !</title>
+        <author>NiKo</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Astuce expresse, le serveur sur lequel est - entre autres - heberge ce blog subissait depuis quelques temps des  lags  assez genants lors de pics d'affluences, generalement vers 18h. J'ai trouve un moyen tres simple pour reduire ces temps de latence d'Apache en desactivant la resolution DNS inverse dans le fichier httpd.conf: 
+
+
+ HostnameLookups  off 
+
+
+ Les logs seront moins exhaustifs, mais c'est le prix a payer dans mon cas pour que les temps d'acces redeviennent decents  
+        </text>
+</document>

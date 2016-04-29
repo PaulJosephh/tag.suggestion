@@ -1,0 +1,92 @@
+<document>
+	<date>2006-01-22</date>
+        <title>Programmer ses backups Dotclear grce  un script bash et CRON</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>backup</tag>
+                <tag>bash</tag>
+                <tag>dotclear</tag>
+                <tag>linux</tag>
+                <tag>tips</tag>
+                <tag>tutoriel</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dotclear</category>
+        </categories_set>
+        <text>Prerequis :  Pour utiliser la fonction d'envoi par mail de la sauvegarde SQL compressee,  Mutt , le client de messagerie en ligne de commande doit etre installe sur le serveur  [ 1 ] . 
+
+
+ Voici le script (que vous pourrez adapter a votre convenance et a vos besoins): 
+
+
+ #!/bin/bash
+
+HOME="repertoire_personnel" # exemple : /home/users/toto
+DIR_BLOG="$HOMEchemin_vers_le blog" # exemple : /public_html/dotclear
+DIR_BACKUP="$HOMEchemin_vers_le_repertoire_de_sauvegardes" # exemple : /backup
+
+SQL_HOST="votre_hote_mysql"
+SQL_USER="votre_nom_d_utilisateur_mysql"
+SQL_PASS="votre_mot_de_passe_mysql"
+SQL_BASE="votre_base_mysql"
+
+CURRENTDATE=$(date +%Y%m%d)
+
+MAIL_TO="votre_adresse_email"
+MAIL_SUBJECT="[$CURRENTDATE] Sauvegarde SQL"
+MAIL_MESSAGE="En piece jointe la base de donnees en date du $CURRENTDATE"
+
+DBDUMP_FILENAME="sql$CURRENTDATE.sql"
+
+echo "Export de la base de donnees..."
+touch $DIR_BACKUP/$DBDUMP_FILENAME
+mysqldump -h $SQL_HOST -u $SQL_USER --password=$SQL_PASS $SQL_BASE  $DIR_BACKUP/$DBDUMP_FILENAME
+
+echo "Compression de l'export..."
+tar czf $DIR_BACKUP/$DBDUMP_FILENAME.tar.gz $DIR_BACKUP/$DBDUMP_FILENAME
+
+echo "Creation de l'achive globale..."
+tar czf $DIR_BACKUP/puc$CURRENTDATE.tar.gz $DIR_BLOG $DIR_BACKUP/$DBDUMP_FILENAME.tar.gz
+
+echo "Envoi de la sauvegarde MySQL par email a $MAIL_BACKUP..."
+echo $MAIL_MESSAGE | mutt -s $MAIL_SUBJECT -a $DIR_BACKUP/$DBDUMP_FILENAME.tar.gz $MAIL_TO
+
+echo "Suppression des fichiers tempporaires..."
+rm -f $DIR_BACKUP/$DBDUMP_FILENAME
+rm -f $DIR_BACKUP/$DBDUMP_FILENAME.tar.gz
+
+echo "Sauvegarde effectuee dans $DIR_BACKUP/puc$CURRENTDATE.tar.gz" 
+
+
+ Personnellement, j'ai stocke ce script dans un dossier  bin  a la racine de mon repertoire personnel et l'ai nomme  backup.sh  et lui ai attribue les droits d'utilisation pour l'utilisateur courant (moi): 
+
+
+ $ chmod u+x ~/bin/backup.sh 
+
+
+ On peut tester le script en l'executant: 
+
+
+ $ ~/bin/backup.sh 
+
+
+ Il est egalement possible de plannifier l'execution de ce script a intervalle reguliere; par exemple  tous les dimanches a 23h00 . Pour cela, il faut editer notre fichier  crontab : 
+
+
+ $ crontab -e 
+
+
+ Dans l'editeur (generalement,  Vi ), ajoutez cette ligne  [ 2 ] : 
+
+
+ 0 23 * * 0       ~/bin/backup_puc.sh 
+
+
+ Vous noterez que le script est assez brut de decoffrage, notamment en ce qui concerne la gestion d'erreurs (absente). N'hesitez pas a proposer vos suggestions en commentaire  
+ Notes 
+ [ 1 ] Si vous connaissez un moyen d'envoyer une piece jointe encodee en  base64  via  uuencode  et la commande  mail , vos lumieres sont les bienvenues  
+ [ 2 ] Pour plus d'info, la syntaxe cron est detaillee sur  ce site . 
+ 
+        </text>
+</document>

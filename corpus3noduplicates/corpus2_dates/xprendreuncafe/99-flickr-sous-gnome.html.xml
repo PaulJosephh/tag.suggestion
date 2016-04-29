@@ -1,0 +1,59 @@
+<document>
+	<date>2005-05-08</date>
+        <title>Flickr sous Gnome</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>gnome</tag>
+                <tag>linux</tag>
+                <tag>photo</tag>
+                <tag>tips</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Edit du 11 mai: 
+
+
+ Il ne m'aura pas fallu bien longtemps pour craquer et prendre un compte pro   Voila l'adresse de mon compte flickr:  www.flickr.com/photos/n1k0 . Vos commentaires sont les bienvenus  
+
+
+ Si j'ai le temps et surtout le courage, je ferai peut-etre un plugin pour Dotclear. 
+
+
+ D'autre part j'ai abandonne FlickrUploadr au profit de  jUploadr , sous Java, car ce dernier, plus complet, permet notament la memorisation des parametres du compte. Par contre je le trouve moins stable, j'ai subi quelques crashes lors d'uploads massifs  
+
+
+ Billet original: 
+
+
+ Suite au  billet de Mike , j'ai eu envie d'essayer - comme beaucoup d'autres l'on apparemment deja fait - le fameux service de publication de photo en ligne,  Flickr . Et comme chez moi je suis sous Ubuntu, la premiere chose a verifier etait de bien pouvoir uploader mes photos depuis Gnome. C'est donc tout a fait possible, grace a une petite application en Python,  FlickrUploadr . 
+
+
+ Il faut d'abord installer le paquet  python2.4-4suite : 
+
+
+ $ sudo apt-get install python2.4-4suite 
+
+
+ Ensuite il faut recuperer le programme:  FlickrUploadr-0.5.2.tar.gz 
+
+
+ Decompressez et dans le repertoire obtenu, lancez la commande: 
+
+
+ $ sudo python setup.py install 
+
+
+ Pour lancer FlickrUploadr, il faut utiliser la commande  Uploadr . 
+
+
+ 
+
+
+ Il suffit de glisser/deposer vos photos directement sur l'application et l'upload s'effectue. A la fin, une fenetre web s'ouvre sur le site flickr vous permettant de renseigner les informations relatives a votre photo  
+
+
+ Sinon flickr est bien foutu, vraiment, je sens que je vais aimer. Je vous donnerai l'adresse de mon compte des que j'aurai quelques photos montrables dessus  
+        </text>
+</document>

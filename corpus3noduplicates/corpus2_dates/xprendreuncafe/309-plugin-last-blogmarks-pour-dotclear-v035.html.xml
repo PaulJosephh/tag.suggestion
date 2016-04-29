@@ -1,0 +1,24 @@
+<document>
+	<date>2005-10-24</date>
+        <title>Plugin Last Blogmarks pour Dotclear v0.3.5</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>blogmarks</tag>
+                <tag>dev</tag>
+                <tag>dotclear</tag>
+                <tag>php</tag>
+                <tag>plugins</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dotclear</category>
+        </categories_set>
+        <text>Une petite mise a jour du  plugin Last Blogmarks pour Dotclear  vient de voir le jour, comportant une gestion du cache en HTML plutot qu'en XML, ce qui devrait ameliorer les performances (pas de parsing systematique. Oui, je sais, mais relisez l' introduction du billet original ). 
+
+
+ Note :  Une fois l'installation effectuee dans le cas d'une mise a jour, il est imperatif de purger le cache existant au moyen du bouton  Purger le fichier de cache local . 
+
+
+ 
+        </text>
+</document>

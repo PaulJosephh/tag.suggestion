@@ -1,0 +1,16 @@
+<document>
+	<date>2014-06-12</date>
+        <title>
+Test: Micro module Everspring HAN01</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Everspring</tag>
+                <tag>Z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Peripheriques Z-Wave</category>
+        </categories_set>
+        <text>Suite de mes tests chez  Everspring . Apres le  detecteur de luminosite , place a un nouveau micro module ! Apres  Aeon Labs  et  Fibaro , cest en effet au tour dEverspring de nous proposer sa solution destinee a prendre place derriere un interrupteur ou une prise electrique. Nous allons donc tester aujourdhui le HAN01.  Ses caracteristiques techniques: Fonction ON/OFF Faible consommation denergie Technologie Zero Crossing pour proteger et prolonger la duree de vie du relais Antenne longue portee:70m en champ libre, 30m en interieur Supporte le SDK Z-Wave 4.5 Supporte lauto-inclusion Z-Wave Bouton pour inclure/exclure/associer le module Type de module : Recepteur Z-Wave Alimentation : 100 ~240VAC Consommation en veille : 0.35W Dimensions : 40.6 x 36.8 x 22 mm Poids : 35g Temperature de fonctionnement : 0C  +40C Humidite de fonctionnement : 85%RH max Charge maximum: Ampoule Incandescence : 1000W Ampoule Fluocompacte : 320W  Sommaire Deballage II. Installation 2.1 Box eedomus 2.2. HC2 de Fibaro 2.3 Zipabox 2.4 Vera Lite III. Conclusion Commentaires (1) Powered by SEO TOC 1.7.3 
+ Deballage  Ce module Z-Wave est livre dans une petite boite en carton accompagne de sa notice dutilisation:   Comme on peut le voir tout de suite, ce module est tres petit: il ne mesure en effet que40.6 x 36.8 x 22 mm:   Compare ici a un micro module Fibaro, repute pour etre les plus petits:   Cote taille, les deux sont dont tres proches. En revanche, celui dEverspring sera un peu plus epais:   Pour ne pas avoir de probleme au cablage, il faudra donc prevoir une boite dencastrement de profondeur 50. Dans le cas dune prise electrique, par exemple, lensemble ne passe pas dans une boite de 40mm:   Ce micro module est livre pre cable, mais il est possible de retirer les fils fournis en desserrant simplement les borniers. A chaque extremite, nous avons les entrees de courant, phase et neutre. Au centre, nous avons les sorties. Du coup, ce HAN01 conviendra parfaitement par exemple derriere une prise electrique, ou directement derriere une lampe. Au centre, un petit bouton servira egalement de bouton dinclusion / exclusion:    Cest un module relativement simple, qui proposera une installation tres facile     1   2 Everspring   Z-wave 
+        </text>
+</document>

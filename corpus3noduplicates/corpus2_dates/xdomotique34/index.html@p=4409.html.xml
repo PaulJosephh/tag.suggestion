@@ -1,0 +1,101 @@
+<document>
+	<date>2013-05-23</date>
+        <title>Test interrupteur simple Z-Wave TZ66S de chez TKBHOME</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>fibaro</tag>
+                <tag>HC2</tag>
+                <tag>Home Center2</tag>
+                <tag>TKBHZOME</tag>
+                <tag>TZ66-S</tag>
+                <tag>z-wave</tag>
+                <tag>zibase</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ 
+  
+  
+ Aujourdhui je vais vous presenter linterrupteur simple de chez  TKBHOME . Comme on peut le voir, cet interrupteur est muni de petites LED bleues. 
+ Presentation 
+ 
+  
+ 
+  
+ Il nest nul besoin de modifier le boitier dencastrement, un 40mm de profondeur suffira amplement. 
+  
+  
+ Celles-ci sont eclairees lorsque linterrupteur est sur OFF et eteintes lorsque linterrupteur est sur ON. Ce que je trouve bien pratique pour le reperer dans la nuit. 
+ 
+ Ce reglage est doffice mais vous pourrez le modifier au niveau du parametre 3 et en passant la valeur a 1 (vous inverserez leclairage des LED) : 
+  
+ exemple sous eedomus 
+ 
+  
+ sous Home Center 2 de Fibaro 
+ 
+ Caracteristiques 
+ Cest un interrupteur mural qui remplacera votre ancien interrupteur.Dans le cadre dun reseau Z-Wave, le TZ66-S agira egalement comme un repeteur sans fil pour sassurer que les commandes destinees a un autre appareil du reseau soient recus. 
+ Tension: 230 V, 50 Hz 
+Signal (frequence): 868.42 MHz 
+Charge maximale  resistive: 6 amperes (1380 watts) maximum, 230 V 
+Portee: jusqua 30 metres de ligne de vue entre la telecommande sans fil et / ou le module recepteur Z-Wave le plus proche. 
+  
+ nb: celui ci necessite le neutre pour fonctionner. 
+  
+ Branchements 
+ au dos de linterrupteur vous trouverez 4 borniers 
+ 
+  
+ sur le L vous brancherez votre phase 
+ sur le L vous brancherez la phase qui ira a votre eclairage 
+ sur le N vous brancherez le neutre (qui ira aussi a votre eclairage) 
+ le 3 est un bornier de branchement auxiliaire permettant de commande dautres Z-wave TKBHOME avec dautres interrupteur TKBHOME specifiques. Ainsi il vous permettra de creer un Va et vient. 
+  
+ inclusion dans vos box 
+ Pour leedomus 
+ 
+ Pour le Home Center 2 de Fibaro 
+ 
+ Dans votre Zibase 
+ 
+ En conclusion 
+ Jai bien aime le test de cet interrupteur qui ma ete prete par notre partenaire  Domadoo . Celui ci est reconnu dans les box, une simple pression sur le haut de linter et le tour est joue. Je recommande comme a chaque fois, dexclure en 1er lieu le module et en suite de linclure ; ca facilite grandement la tache. 
+ Il rentrera dans tous vosboitiers Le seul point ou jinsiste ; cest la necessite de posseder le neutre dans vos installations. Le petit plus que je vous presentais au tout debut de larticle est le fait de pouvoir changer leclairage des LED. Celui que jai teste est de couleur  SILVER au prix de 47   mais il existe aussi en blanc. 
+ Vous avez aime cet article alors nhesitez pas a le partager sur les reseaux sociaux. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

@@ -1,0 +1,45 @@
+<document>
+	<date>2014-05-26</date>
+        <title>Dtecteur Z-Wave Fibaro Smoke Sensor FGSS-001</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Fibaro</tag>
+                <tag>Vera</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Modules</category>
+        </categories_set>
+        <text>
+                                                 Description 
+ 
+Le  Fibaro Smoke Sensor FGSS-001 capteur Fibaro 
+Attention, a partir de 2015, un detecteur de fumee sera obligatoire dans chaque logement. Cependant, le  Fibaro Smoke Detector FGSS-001 EMC 2004/108/EC EN 14 604 Fibaro capteur de fumee detecteur de fumee 
+ Note du 14/02/2015 : presentee ici Inclusion / exclusion 
+ 
+Par defaut, le  Smoke Sensor Smoke Sensor 
+Pour inclure manuellement le  Smoke Sensor Smoke Sensor 
+Pour exclure le  Smoke Sensor Smoke Sensor Reinitialisation complete du Smoke Sensor 
+ Exclure le  Smoke Sensor Appuyer et maintenir pendant 3 secondes le bouton rond situe sur le dessus du  Smoke Sensor Un signal court doit retentir Relacher le B-button Attendre que la LED sallume en jaune Appuyer et relacher le B-button Lindication lumineuse devient rouge puis seteint pour confirmer le succes de loperation ; un bref signal sonore est egalement emit Association avec la Vera Lite (UI5, firmware beta 1.5.672) 
+  Ce module nest pas compatible avec la  Vera Lite firmware beta 1.5.672 
+ Installer le  firmware beta 1.5.672 Vera Lite SETUP Firmware URL for OpenWRT custom firmware: http://download.mios.com/rt3662_betafirmware/rt3662_Luup_ui5-1.5.672-en-mios.squashfs 
+ En cas de besoin, pour revenir a la version normale du  firmware SETUP Firmware URL for OpenWRT custom firmware: http://download.mios.com/rt3662_betafirmware/rt3662_Luup_ui5-1.5.622-en-mios.squashfs downgrad firmware firmware Inclure le  Smoke Sensor Une fois le  Smoke Sensor _Motion Sensor Modifier le module  _Motion Sensor D_SmokeSensor1.xml Clef Advanced device_file D_SmokeSensor1.xml Il est possible dafficher aussi la temperature de la sonde du  Smoke Sensor D_FibaroSmokeSensor1.xml, D_FibaroSmokeSensor1.json D_SmokeSensor1.xml Effectuer un triple appui sur le B-button pour reveiller le module et lui permettre de parachever sa configuration.
+ Association avec la Vera Lite (UI7 firmware 1.7.513) 
+ 
+ Inclure le  Smoke Sensor Une fois le  Smoke Sensor Test du bon fonctionnement de lalerte du Smoke Sensor 
+ 
+Appuyer et maintenir le B-button pendant plusieurs secondes jusqua ce que lalarme retentisse. Verifier que la boxe domotique Z-Wave est bien notifiee de lalarme.
+ Problemes 
+ 
+Jai rencontre plusieurs problemes avec ce module.
+ 
+Le premier est un bip intempestif qui survient en moyenne une fois par jours, et donc parfois la nuit Cest extremement agacant et de nombreux utilisateur sen plaignent. Heureusement, en supposant quil sagissait dun signal de perte de connexion avec la box, il me semble avoir trouve la parade en desactivant le test de portee Z-Wave. Il sagit de la variable 80 ( Z-Wave range test interval Device Options Add configuration settings 80 1 byte dec Data Size 0 144 1 
+Le deuxieme probleme est que jai observe une mesure de temperature pas tres fiable. En regardant de plus pres la configuration avancee, on decouvre la variable  12 Temperature report hysteresis Device Options Add configuration settings 12 1 byte dec Data Size 5 20 
+Le troisieme est que le module a remonte un niveau de batterie constant de 100% pendant pratiquement 8 mois. Je supposais que la remonte de niveau de batterie ne fonctionne pas dans mon installation. En fait il nest en rien, mais la decroissance nest pas du tout lineaire: apres 8 mois passes a 100%, le niveau perd maintenant plus de 10% par mois
+ Informations et sources 
+ 
+Shopping:  Fibaro Smoke Detector FGSS-001 Notice du Fibaro Smoke Detector FGSS-001 Test du module Z-Wave FIBARO SMOKE SENSOR FGSS-001 : Le detecteur de fumee Inclusion/Exclusion du detecteur de fumee Fibaro Smoke Sensor FGSS Parametres du detecteur de fumee domotique Z-Wave Fibaro Smoke Sensor FGSS Ou installer les detecteurs de fumee ? Topic: Fibaro Smoke Detector (FIB_FGSS-001) MiCasaVerde Vera and Fibaro Smoke Sensor compatibility issue 
+ Sommaire Domotique 
+        </text>
+</document>

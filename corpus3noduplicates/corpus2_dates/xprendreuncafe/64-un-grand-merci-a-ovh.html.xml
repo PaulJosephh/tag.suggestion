@@ -1,0 +1,25 @@
+<document>
+	<date>2005-04-14</date>
+        <title>Un grand merci  OVH</title>
+        <author>NiKo</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Depuis quelque temps, mon serveur dedie sur lequel est - entre autres - heberge ce blog commencait a saturer completement, du fait qu'il ne possedait que 128Mo de  RAM  et que le swap de 512Mo etait completement engorge. 
+
+
+ OVH , mon hebergeur, a pris voila de cela quelques semaines la decision de quadrupler gratuitement la RAM de tous les serveurs dedies en location chez eux. Deja, le geste est exceptionnellement sympathique. 
+
+
+ Mais quand je les appelle pour leur demander de presser le pas (oui, le culot est  aussi  un talent) car mon serveur est inaccessible une a deux heures par jour a cause de la RAM, qu'ils ne bronchent pas et acceptent gentiment de chambouler leur programme d'interventions pour moi, la je dis:  CHAPEAU   
+
+
+ [root@ns30530 root]# free
+             total       used       free     shared    buffers     cached
+Mem:        513140     477888      35252          0      38264     323336
+-/+ buffers/cache:     116288     396852
+Swap:       522104          0     522104 
+        </text>
+</document>

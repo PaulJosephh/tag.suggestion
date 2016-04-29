@@ -1,0 +1,14 @@
+<document>
+	<date>2012-07-24</date>
+        <title>Mesure dnergie en Z-Wave avec la ZiBASE</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>ZiBASE Applications</category>
+        </categories_set>
+        <text>
+                                                          Certains peripheriques  Z-Wave ZiBASE lactionneur AN158-6 dEverspring  Pour commencer, connectez-vous sur  le configurateur de votre ZiBASE Le module AN158-6 est avant tout un actionneur, il faudra donc lajouter au reseau  Z-Wave Domotique   Donnez un nom au peripherique, puis selectionnez Actionneurs, et enfin ZWAVE.   Choisissez ensuite le logo que vous souhaitez utiliser.   Cliquez sur ASSOC puis appuyez 3 fois rapidement sur le bouton situe sur le module pour linclure dans votre reseau. Vous pouvez tester votre actionneur en cliquant sur ON ou OFF.   Cliquez sur Enregistrer. Vous devez voir passer dans votre suivi dactivite un message de ce type :   LID de lactionneur AN158-6 est ici  ZC1 PZC1  Il faut donc creer une sonde de mesure. Pour cela, ajoutez un peripherique  Z-Wave   Ensuite, dans les parametres, vous pourrez rentrer lID de votre module en le tapant au clavier, sinon cliquez sur Capture didentifiant et appuyez sur le bouton daffectation de votre module.   Vous recevez desormais un message different dans le suivi dactivite:   Vous pouvez desormais suivre la consommation de lappareil connecte au module et consulter lhistorique des mesures a partir votre smartphone.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

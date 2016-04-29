@@ -1,0 +1,25 @@
+<document>
+	<date>2005-05-25</date>
+        <title>Nouveau thme</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>css</tag>
+                <tag>dotclear</tag>
+                <tag>prendreuncafe</tag>
+                <tag>theme</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dotclear</category>
+        </categories_set>
+        <text>Prendreuncafe.com  se pare d'un tout nouveau theme, realise en huit heures montre en main. J'avoues que je n'ai meme pas essaye d'ouvrir le site sous IE, la perspective des moults corrections, adaptations et hacks pour ce navigateur me file deja la migraine   Par contre, ca tourne sous Firefox et Opera 8  
+
+
+ De toute facon, IE pour Gnome n'est pas encore sorti, et le portable de ma copine est actuellement surutilise pour cause de memoire en retard (en gros si je touche, je suis mordu instantanement)  
+
+
+ La demarche est partie du constat qu'il etait finalement un peu idiot de ne pas utiliser tout l'espace disponible a l'affichage... Ce blog devenait tellement une usine a gaz qu'il etait difficile de s'y retrouver, surtout au niveau de la  sidebar  (barre laterale de navigation). Maintenant, il y en a deux, de quoi voir venir  
+
+
+ J'ai repris quelques elements graphiques du  theme daClear  de  Maurice Svay , j'espere qu'il ne m'en voudra pas trop. 
+        </text>
+</document>

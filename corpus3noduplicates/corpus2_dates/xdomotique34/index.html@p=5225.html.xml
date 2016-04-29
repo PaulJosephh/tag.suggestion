@@ -1,0 +1,56 @@
+<document>
+	<date>2013-08-14</date>
+        <title>La Zipabox passe en version 0.9.984</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Non classe</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ La Zipabox  passe en version 0.9.984. Cette nouvelle version va corriger quelques bugs apparues depuis la version 0.9.982. 
+ 
+ voici les quelques correctifs : 
+ 
+ Thermostat  corrige quelques erreurs dinitialisation 
+  Thermostat -lorsque la liste du jour etait vide cela causait un dysfonctionnement 
+ Alarme  etat desarme na pas ete enregistre correctement 
+ Alarme  sortie ne fonctionne pas si la meme zone etait une sortie et une entree 
+ Alarme  etat de la zone maintenant nettoyee apres que celle ci est desarmee 
+ IP  DHCP libere + renouvellement lorsque le nuage (cloud) inaccessible 
+ Backup 3G  support des cles 3G 
+ RF433  support / correctifs pour divers appareils 
+  
+ Lequipe Zipato  continue a travailler et a corriger les quelques bugs, une nouvelle mise a jour meme pas un mois apres la 0.9.982 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

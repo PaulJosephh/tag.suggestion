@@ -1,0 +1,207 @@
+<document>
+	<date>2013-10-04</date>
+        <title>Test EnOcean PI de Element14</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Eedomus</category>
+                <category>EnOcean</category>
+                <category>Raspberry PI</category>
+                <category>Tutoriel</category>
+                <category>Zibase</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ Je vous parlais la semaine derniere de la  carte EnOcean Pi  (carte dextension qui se connecte directement sur le connecteur GPIO dune carte Raspberry-Pi et qui permet de realiser une passerelle EnOcean).  Univers-Domotique  ma prete cette extension afin de pouvoir la tester. 
+ 
+  
+ Presentation de lEnOcean PI 868 
+ 
+ Il sagit donc dune toute petite carte qui se connecte sur votre Raspberry Pi par lintermediaire du port GPIO. 
+ Elle est alimentee directement par la carte Raspberry Pi et ne necessite donc daucune alimentation externe. Le systeme est base sur les tranceivers TCM 310, TCM 310C, et TCM 310U qui supportent les frequences 868 MHz, 315 MHz, et 902 MHz. 
+ CARACTERISTIQUES TECHNIQUES : 
+  
+ 
+ Frequence 868MHz 
+ Type de modulation:ASK 
+ Taux de transfert de donnees max 125Kbps 
+ Moduledinterface:UART 
+ Tension, alimentation min.:2.85V 
+ Tension, alimentation max..:3.5V 
+ Puissance transmise:3dBm 
+ Sensibilite dBm:-96dBm 
+ Applications: Reseau de capteurs sans fil 
+ Courant, alimentation:24mA 
+ 
+ Passons au deballage 
+ La carte est vraiment petite environ 3.53 cm. Vous naurez aucun soucis pour linserer dans le boitier de votre RPI. 
+ De lautre cote 
+ 
+  
+ Installation 
+ Comment   configurer un serveur   domotique   avec   EnOcean   Pi ? 
+ 
+ 
+ Raspberry Pi   avec le serveur   FHEM   agit en tant que   serveur   domotique .   Il peut   etre utilise pour automatiser   des taches courantes   comme les interrupteurs   ou  de mesurer   et de visualiser   la consommation denergie , la temperature   et lhumidite. 
+ Le serveur   recoit et envoie des   telegrammes   radio   EnOcean   via  l USB   300 ou   EnOcean   Pi .  ( Capteurs radio   a energie solaire   (par exemple   STM   330   capteur de temperature ou   capteur   STM   contact reed   320)   envoient regulierement des   valeurs   qui   seront interpretees   et affichees   via linterface   web   FHEM) . 
+  
+ Etape   par   etape de   linstallation du   Raspberry Pi 
+ Installation   de   Raspian 
+ Si   limage   Raspian   nest pas deja installe   sur la carte SD , les deux   etapes suivantes sont necessaires : 
+ 1. Telecharger limage Raspian wheezy (Debian Linux for Raspberry Pi) 
+ http://www.raspberrypi.org/downloads 
+ 2. Copier Raspian wheezy sur la SD card en utilisant Win32Diskimager 
+ http://sourceforge.net/projects/win32diskimager/ 
+  
+ Configuration de base   via la commande    Raspi -config  
+ 1 .   Branchez   carte SD dans   Raspberry Pi   et se connecter avec   clavier et ecran 
+ 
+ 2 .   Connectez-vous a   Internet   via   Ethernet   (juste   connecteur )   ou   WiFi   (doit etre   configure).   Sil existe deja   un pilote de peripherique   installe   (par exemple,   Wi -Pi   ou   Edimax ) . 
+   Demarrer   linterface graphique   avec   startx   et cliquez sur   config   WiFi.   
+ 3 .   Connectez-vous   avec lidentifiant   pi   utilisateur   et mot de passe   raspberry 
+ 
+ 4 .  Le  Menu de   configuration demarre   automatiquement   apres le demarrage , 
+  
+ sudo raspi-config 
+ Voila les modifications a apporter 
+  expand_rootfs to use the full SD card size 
+  configure_keyboard to have the right keyboard settings 
+  change_timezone for correct time  date 
+  change_location for country specific characters etc. 
+  
+ Logiciels et Firmware   update 
+ Plusieurs   commandes shell   doivent etre executees en   root ( super- utilisateur )   ;   donc   sudo   est utilise comme   prefixe.   Raspian   (systeme dexploitation   Linux ) peut etre   mis a jour via   APT   (Advanced   Package Tool ) . 
+ RPI- jour   ( https://github.com/Hexxeh/rpi-update ) est utilise pour   mettre a jour   le   firmware   ( pilote materiel )   de   Raspberry Pi .   Afin davoir   une mise a   jour   systeme   (par exemple,   a reconnaitre   USB   300 ), les deux   mises a jour sont   necessaires . 
+ 1 .   Recevez les dernieres   mises a jour   de   Raspian   et   Raspberry Pi   firmware : 
+ sudo apt-get update 
+ sudo apt-get upgrade 
+ sudo apt-get install rpi-update 
+ 2. Reboot 
+ sudo reboot 
+  
+ Connexion   Raspberry   Pi   avec   EnOcean 
+  
+ 1 .   Connectez   EnOcean   Pi   sur le port GPIO 
+ 2 .   Desactiver   Linux en utilisant le   port serie 
+ Par defaut, le   port serie   de linterface   GPIO   est   utilise pour les sorties   de debogage   de la console.   Pour utiliser   ce port pour   EnOcean   Pi,   cette fonction   doit etre   desactivee.   
+ En savoir plus sur   cette   adresse:   http://elinux.org/RPi_Serial_Connection   
+ Un script   peut etre telecharge depuis   Github ,   il sadaptera   automatiquement   les   parametres lors du demarrage : 
+   https://github.com/lurch/rpi-serial-console 
+ 3. Telechargement du script : 
+ sudo wget https://raw.github.com/lurch/rpi-serial-console/master/rpi-serial-console -O /usr/bin/rpi-serial-console  sudo chmod +x /usr/bin/rpi-serial-console 
+  
+ 4. Execution du script: 
+ sudo rpi-serial-console disable 
+  
+ Alors bien sur je ne vous lai pas precise mais vous pouvez acceder a votre PI grace a PUTTY 
+ 1 .   Telecharger   et installer   PuTTY   sur   PC 
+ http://www.chiark.greenend.org.uk/~sgtatham/putty/ 
+ 2 .   Executer   PuTTY   avec ladresse IP   de votre   Raspberry Pi   et a lidentification 
+ 
+ ifconfig 
+  
+ 
+ 
+ Installation   du serveur 
+ Cet   exemple de projet   utilise le serveur   FHEM   disponible sous licence   GPL.   Plus de details   peuvent etre trouves   sur le site   FHEM :   
+ http://fhem.de/fhem.html 
+ 1 .   Installation   de lenvironnement   Perl   y compris les bibliotheques   pour   FHEM   
+ FHEM   fonctionne comme  un  serveur   sur un interpreteur   Perl,   qui   doit etre installe . 
+ sudo apt-get install perl libdevice-serialport-perl libio-socket-ssl-perl libwww-perl 
+ sudo apt-get install f 
+ 2 .   FHEM   dinstallation 
+ wget http://fhem.de/fhem-5.4.deb 
+ sudo dpkg I fhem-5.4.deb 
+ -   FHEM   a ete installe   dans le dossier   / opt /   FHEM .   Il demarre automatiquement   lors du processus   de demarrage. 
+  
+ Affichage   FHEM   Interface   Web 
+ Vous obtiendrez   linterface   utilisateur suivant   a lecran en inscrivant dans la barre dadresse de votre navigateur 
+ 
+ http://Raspberry_Pi_IP:8083/fhem 
+ 
+ FHEM   reconnait automatiquement  et  recoit des   telegrammes   radio   a partir des divers modules   EnOcean . Ici le module de contact douverture de fenetre est immediatement reconnu, en actualisant la page, on peut voir si le contact est ouvert ou ferme. 
+ 
+ 
+  
+ 
+ Le deuxieme module est un interrupteur simple  Vimar de chez Vitec.  Un simple actionnement de linterrupteur et celui ci est immediatement reconnu. 
+ 
+ 
+ un petit guide pour parametrer FHEM se trouve ici : http://fhem.de/HOWTO.html (attention cest en anglais). 
+  
+ FHEM   serveur   est configure   via   le fichier   fhem.cfg   configuration. 
+ Lancer   lediteur de   fichier de configuration   via   le menu   Edit files 
+ 
+ Une reference   de commandes   FHEM   pour   EnOcean   peut etre trouve   a ladresse: 
+ http://fhem.de/commandref.html#EnOcean 
+  
+ FHEM   pourrait   ne pas reconnaitre   EnOcean   Pi   comme   controleur de passerelle   EnOcean .   Vous pouvez entrer   manuellement  les  definitions suivante: 
+ define TCM310_0 TCM 310 /dev/ttyAMA0@57600 par exemple 
+ il faudra alors configurer 
+ PTM switch: 
+  
+ define EnO_switch_001396B9 EnOcean 001396B9 
+ attr EnO_switch_001396B9 room EnOcean 
+ attr EnO_switch_001396B9 subType switch define FileLog_EnO_switch_001396B9 FileLog ./log/EnO_switch_001396B9-%Y.log EnO_switch_001396B9 
+ attr FileLog_EnO_switch_001396B9 logtype text attr FileLog_EnO_switch_001396B9 room EnOcean 
+  
+ Pour Configurer STM sensor: 
+ Appuyez sur le bouton apprendre du   STM   capteur   330   et   vous obtiendrez   (ID   sera different ) : 
+ define EnO_contact_0181FA67 EnOcean 0181FA67 
+ attr EnO_contact_0181FA67 room EnOcean 
+ attr EnO_contact_0181FA67 subType contact 
+ define FileLog_EnO_contact_0181FA67 FileLog ./log/EnO_contact_0181FA67-%Y.log 
+ EnO_contact_0181FA67 
+ attr FileLog_EnO_contact_0181FA67 logtype text 
+ attr FileLog_EnO_contact_0181FA67 room EnOcean 
+  
+ visualisation: 
+ 
+ LExemple de   visualisation   suivante a   ete generee par   un STM   330 ( capteur de temperature )   avec  un  HSM   100 ( capteur   dhumidite ) : 
+ #ID:0088F03E STM_330 temperatur  humidty sensor 
+ define Sensor_0088F03E EnOcean 0088F03E 
+ attr Sensor_0088F03E manufID 00B 
+ attr Sensor_0088F03E room EnOcean 
+ attr Sensor_0088F03E subType roomSensorControl.01 
+ define FileLog_EnO_sensor_0088F03E FileLog ./log/EnO_sensor_0088F03E-%Y.log Sensor_0088F03E 
+ attr FileLog_Sensor_0088F03E logtype text 
+ attr FileLog_Sensor_0088F03E room EnOcean 
+ 
+  
+ En conclusion 
+ Nous parlons de plus en plus de ce protocole quest  EnOcean  et nous voyons donc que tout sadapte autour de celui ci. Les Box domotique ( Zibase ,  eedomus ,  MyFox , et maintenant le  Raspberry) . 
+ Ce dernier ne nous surprend pas. Enfin si vous voulez vraiment vous amuser cette petite carte nest pas excessive en terme de cout,  39.00  chez Univers Domotique .Je dois avouer que je me suis bien amuse a parametrer tout ca et je dois vous dire que cest pas du tout de ma partie. Cest tres interessant et je vous invite a le tester car cest vraiment plein de possibilite et je sais que vous etes nombreux a posseder un Raspberry Pi. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

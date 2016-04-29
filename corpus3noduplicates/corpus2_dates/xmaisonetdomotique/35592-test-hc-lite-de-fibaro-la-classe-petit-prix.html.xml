@@ -1,0 +1,19 @@
+<document>
+	<date>2014-03-06</date>
+        <title>
+Test: HC Lite de Fibaro, la classe  petit prix</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Fibaro</tag>
+                <tag>HC Lite</tag>
+                <tag>hc2</tag>
+                <tag>HCL</tag>
+                <tag>Une</tag>
+        </tags_set>
+        <categories_set>
+                <category>Tests Box Domotique</category>
+        </categories_set>
+        <text>Alors que nous attendions tous depuis le CES le nouveau detecteur de mouvements de  Fibaro , prenomme par beaucoup loeil de Sauron :p, la societe polonaise cree la surprise en nous sortant une nouvelle box domotique, prenommee HC Lite, Lite etant bien sur pour signifier une version allegee du HC2. Jai pu en obtenir une rapidement pour la tester, je vous livre donc mes premiers retours.  Sommaire I. Deballage II. Utilisation III. Conclusion Commentaires (15) Powered by SEO TOC 1.7.3  
+ I. Deballage  Premiere surprise: la taille de la boite, qui est minuscule quand on se souvient de celle du HC2 ! On a limpression de recevoir un micro module en a peine plus gros: taille reduite, meme design   Elle parait encore plus petite dans sa boite:   Une fois deballee, on retrouve: la box Home Center Lite une antenne un cable ethernet une alimentation et une petite notice de demarrage   La box mesure en effet90 x 90 x 33 mm. Petite comparaison par rapport a sa grande soeur:   A lavant, on peut apercevoir 5 voyants : Mise a jour, connexion Z-Wave, connexion Internet, connexion LAN et alimentation.   A larriere nous avons le connecteur dantenne et deux boutons, pour la mise en marche de la box et pour la reinitialisation (retour aux parametres dusine).   Nous trouvons egalement le passage pour le cable reseau et lalimentation:   Enfin, grosse nouveaute: lexistence de deux ports de chaque cote de la box, permettant lajout dextensions:    En fait cela fait beaucoup penser a la  Zipabox , puisque de la meme facon, la HCL peut donc evoluer a laide de modules additionnels, mais egalement etre fixee dans le tableau electrique grace a la presence de griffes rail din a larriere:   On notera egalement la presence de deux encoches pour fixer la box sur un mur. On pourra donc au choix lintegrer dans son tableau electrique, la fixer au mur, ou simplement la poser sur un meuble. Pour le moment nous avons connaissance dun module backup et dun module GSM, qui permettront a la HCL detre totalement autonome en cas de coupure internet ou delectricite. Un excellent point ! Cela permet dentrevoir toutes les evolutions possibles de cette box: pourquoi pas un module EnOcean prochainement ? En revanche pas didee de prix ni de disponibilite de ces modules: juste bientot    Pour bien appuyer sur sa taille minuscule, petite comparaison avec le detecteur de fumee de la meme marque:     Passons maintenant a son utilisation     1   2   3 Fibaro   HC Lite   hc2   HCL   Une 
+        </text>
+</document>

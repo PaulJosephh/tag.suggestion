@@ -1,0 +1,102 @@
+<document>
+	<date>2013-12-21</date>
+        <title>Piloter votre freebox Tv  laide de votre box eedomus</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Eedomus</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ Apres la parution de larticle de Pascal sur le  Blog Domotique-info.fr  concernant la telecommande virtuelle de Free sur la Home Center 2, certains dentre vous mont demande sil etait possible de faire la meme chose sur la box eedomus. 
+  
+ Comme la dit Pascal, la freebox offre la possibilite de pas mal de chose, comme creer un peripherique virtuel sur votre box domotique et utiliser les commandes IP a partir de l API de la freebox . 
+ 
+ La premiere chose a faire est de trouver le code de la telecommande de sa Freebox. 
+ Pour cela, Appuyer sur la touche Free de votre vraie telecommande, choisissez le menu Reglages et descendre jusqua Telecommande 
+ 
+ le code est inscrit a cote du libelle  Code Telecommande reseau : 
+ 
+ Grace a lAPI en JSON, la Freebox pourra etre commandee a laide dappels HTTP. Nous pourrons desormais simuler des appuis sur la telecommande de la freebox en appelant lurl suivante: 
+ http://hd1.freebox.fr/pub/remote_control?code= CODE TELECOMMANDE key= power 
+  
+ il vous faudra remplacer le   CODE TELECOMMANDE   par celui trouve sur votre Freebox precedemment. Ici en exemple jai mis   power  il y a dautres commandes pour vous aider a piloter votre freebox (cest le key que vous avez dans lURL). 
+ 
+  
+ red : le bouton rouge (B) 
+ green : le bouton vert (A) 
+ yellow : le bouton jaune (Y) 
+ blue : le bouton bleu (X) 
+ power : la touche rouge on/off 
+ list : la touche daffichage de la liste des chaines entre power et tv 
+ tv : la touche verte TV de commutation peritel. 
+ 0 a 9 : les touches 0 a 9 
+ back : la touche jaune en dessous du 7 
+ swap : la touche en dessous du 9 
+ info, mail, help, pip : les touches bleues a droite des numeros de chaine 
+ epg, media, options : les fonctionnalites secondaires de ces memes touches 
+ vol_inc, vol_dec : volume+ et volume- 
+ prgm_inc, prgm_dec : program+ et program- 
+ ok : touche OK 
+ up, right, down, left : les touches directionnelles entourant le OK 
+ mute : la touche de mise en sourdine 
+ home : la touche free 
+ rec : la touche denregistrement 
+ bwd : la touche de retour en arriere () 
+ prev : la touche precedent (|) 
+ play : la touche lecture/pause 
+ fwd : la touche davance rapide () 
+ next : la touche suivant (|) 
+ Les touches restantes (start, select, L, R et le pave directionnel des jeux) ne sont pas accessibles via cette interface 
+ Vous pouvez simuler un appui long sur la telecommande en ajoutant long=true a lURL. 
+ Ainsi, pour acceder au guide des programmes, vous avez le choix entre  http://hd1.freebox.fr/pub/remote_control?key=epg  ou  http://hd1.freebox.fr/pub/remote_control?key=infolong=true 
+ Pour appuyer n fois de suite sur une touche, vous pouvez ajoutez repeat=n a lURL. Par exemple,  http://hd1.freebox.fr/pub/remote_control?key=homerepeat=5 
+  
+ Passons sur leedomus et creons notre actionneur HTTP 
+ 
+  
+ 
+ Dans Valeur, nous allons renseigner les commandes que lon souhaite pouvoir effectuer sur notre freebox TV 
+ Dans la cellule URL vous devrez renseigner : 
+ http://hd1.freebox.fr/pub/remote_control 
+  
+ Dans parametre vous indiquerez la key choisie pour laction que vous souhaitez faire (ici cest allume ou eteindre) power. 
+ ?code= 2351986 key= power 
+  
+ Je vous ai indique plus haut les differentes keys ; a vous de jouer pour composer votre telecommande virtuelle. 
+ 
+ Vous vous retrouvez ici avec plus quune telecommande basique, mais plutot avec une telecommande intelligente qui couplee avec des regles vous permettra de generer des scenaris. Allumer votre freebox TV quand vous rentrez, sur la chaine que vous souhaitez avec la lumiere qui convient Encore un autre exemple des capacites de leedomus. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

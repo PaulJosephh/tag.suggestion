@@ -1,0 +1,43 @@
+<document>
+	<date>2005-05-01</date>
+        <title>Plugin Last Blogmarks pour Dotclear</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>blogmarks</tag>
+                <tag>dev</tag>
+                <tag>dotclear</tag>
+                <tag>php</tag>
+                <tag>plugins</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dotclear</category>
+        </categories_set>
+        <text> Qu'est-ce qu'on peut bien faire un lendemain de cuite? Un plugin pour Dotclear, bien sur! Voici donc la version  0.3.5  du plugin  Last Blogmarks , dont le but est d'afficher vos derniers... blogmarks. Si vous ne connaissez pas  Blogmarks.net , je vous enjoins a lire  le billet que j'avais consacre a cet excellent service   
+
+
+ Dans la liste des cools features: 
+
+ 
+ La possibilite d'afficher ou non les vignettes, les titres, la provenance et les tags, 
+ Un systeme de cache  XML  HTML pour eviter d'effectuer une connexion au serveur de blogmarks.net trop souvent, 
+ Une seule ligne de code a copier-coller dans votre fichier template.php 
+ La mise en forme et le style sont dissocies 
+ 
+
+ Dans la liste des pas cools features: 
+
+ 
+ Utilisation de  DOMIT!  - ca rame un chouille mais rien de crucial, et ca evite de necessiter domxml ou autre librairie tierce embarquee pour php  
+ 
+
+ Version 0.3.7 du 25/05/2006: 
+
+ Voir le  changelog . 
+
+ 
+ Plugin Last Blogmarks v0.3.7 -  Le package d'installation 
+ Plugin Last Blogmarks v0.3.7 -  L'archive au format tar.gz 
+ Plugin Last Blogmarks v0.3.7 -  L'archive au format zip 
+ 
+        </text>
+</document>

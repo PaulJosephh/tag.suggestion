@@ -1,0 +1,19 @@
+<document>
+	<date>2008-03-20</date>
+        <title>Tutoriel UIMA II : paramtrage dun composant dannotation</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Analysis engine</tag>
+                <tag>Component descriptor</tag>
+        </tags_set>
+        <categories_set>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+ Declarer des parametres Parameters  .xml Open With  Component Descriptor Editor Parameter Settings Acceder aux parametres maChaine String String monParametre = (String) this.getContext().getConfigParameterValue("maChaine"); getContext()  UimaContext logging Acceder aux parametres depuis  la methode  initialize() initialize( UimaContext ) UimaContext 
+private String monParametre; 
+ Tutoriel et guide du developpeur UIMA Tutorials and Users Guides 
+ 
+        </text>
+</document>

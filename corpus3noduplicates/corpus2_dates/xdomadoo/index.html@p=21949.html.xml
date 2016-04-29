@@ -1,0 +1,14 @@
+<document>
+	<date>2011-12-20</date>
+        <title>Guide dinstallation dun actionneur avec la box eedomus</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                          Le controleur  domotique eedomus AN157-6 Everspring Pour pouvoir communiquer entre eux et avec la centrale  eedomus Z-Wave https://secure.eedomus.com/   Cliquez sur Configuration.   Puis sur Ajouter ou supprimer un peripherique.   Cliquez ensuite sur Inclure un peripherique sans fil.   La centrale  eedomus   Approchez votre peripherique de la centrale (a moins dun metre) et mettez le egalement en mode inclusion (un appui sur son bouton dinclusion).   Une fois le peripherique detecte, la centrale  eedomus   Renseignez tout dabord le nom du peripherique (exemple : Lampe Labo), puis indiquez la piece dans laquelle il est installe. Cliquez sur le crayon pour creer une nouvelle piece et son image associee.   Cliquez sur Ajouter pour creer une nouvelle piece, donnez lui un nom, choisissez son image, puis cliquez sur Sauver.   Indiquez lusage du peripherique (Lampe, chauffage ou appareil electrique).    Parametres Expert Le mode avance ou Expert permet de configurer dautres parametres. Cliquez sur la fleche situee a gauche de Parametres Expert.   Vous pouvez desactiver le peripherique, si besoin, sans le supprimer en decochant simplement la cas situee en face de Active. Vous pouvez choisir detre informe par email si le peripherique ne communique plus avec la centrale.   Si vous souhaitez suivre votre consommation electrique, indiquez la puissance maximum consommee par la charge connectee sur le peripherique. La centrale  eedomus La centrale vous donne le numero de noeud  Z-Wave Cliquez ensuite sur Sauver.   Votre actionneur a ete ajoute dans la piece que vous avez defini. Vous pouvez desormais le commander a distance !    Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,33 @@
+<document>
+	<date>2008-03-24</date>
+        <title>Le code de Symfonians en open source</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>php</tag>
+                <tag>symfonians</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Tout est dans le titre, je  viens  de mettre en place une instance  Trac/SVN dediee au projet , le code est libere et publie sous licence CC-BY-SA 3.0. 
+
+
+ Je pense que la publication du code source de l'application est essentiellement utile dans le cadre d'un apprentissage de Symfony, le  code  etant tout de meme tres oriente metier. 
+
+
+ Edit :  Rapido, un petit screencast d'installation de Symfonians a partir des sources depuis subversion: 
+
+
+
+
+ 
+   
+   
+   
+ 
+
+
+ Telecharger le screencast  (QuickTime MOV, ~88 Mo) 
+        </text>
+</document>

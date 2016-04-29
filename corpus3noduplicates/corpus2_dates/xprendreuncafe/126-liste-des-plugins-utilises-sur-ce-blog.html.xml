@@ -1,0 +1,34 @@
+<document>
+	<date>2005-06-08</date>
+        <title>Liste des plugins utiliss sur ce blog</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>blogmarks</tag>
+                <tag>dotclear</tag>
+                <tag>gravatar</tag>
+                <tag>plugins</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dotclear</category>
+        </categories_set>
+        <text>Je recois pas mal de mails me demandant quel est tel ou tel plugin utilise sur ce blog, et ou le trouver; voici donc la petite liste des  greffons   Dotclear  utilises ici  
+
+ 
+ BBClone  - Statistiques completes. 
+ Billets voisins categoriques  -  Affiche les liens vers les billets suivant et precedent dans la meme categorie. 
+ Citations  - Comme son nom l'indique, affiche une citation de facon aleatoire. 
+ Gravatars  - Afficher les  gravatars  des auteurs de commentaires et de billets. 
+ Informations etendues  - Affiche le nombre de billets, de commentaires et de trackbacks de/sur votre blog. 
+ Last Comments  - Les derniers commentaires postes. 
+ Last Blogmarks  - Affiche les derniers  blogmarks  (d'ailleurs ca devrait plutot etre  Latest  blogmarks, mais j'ai la flemme de tout changer) 
+ Nombre de lectures d'un billet  - Affiche le nombre de lectures d'un billet. Etonnant, non? ( Desproges) 
+ Pagination  - Permet de presenter les listes de billets sur plusieurs pages. 
+ PDF Export  - J'y travaille mais je manque de temps. Promis je me grouille. 
+ Referers  - Affiche une liste des affluents a votre blog. 
+ SchedulePosts  - Permet de programmet la date et l'heure de publication d'un billet. 
+ Smilies Manager  - Permet de gerer vos smilies par themes. 
+ 
+
+ Vous trouverez d'autre part la plupart des plugins existant pour Dotclear sur le  Wiki des Plugins  (quel joli nom). 
+        </text>
+</document>

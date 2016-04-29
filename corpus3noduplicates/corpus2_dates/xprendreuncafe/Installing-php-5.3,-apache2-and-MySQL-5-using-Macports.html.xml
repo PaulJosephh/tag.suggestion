@@ -1,0 +1,83 @@
+<document>
+	<date>2009-07-17</date>
+        <title>Installing php 5.3, apache2 and MySQL 5 on OS X using Macports</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>apache</tag>
+                <tag>apple</tag>
+                <tag>howto</tag>
+                <tag>mac</tag>
+                <tag>macports</tag>
+                <tag>mysql</tag>
+                <tag>osx</tag>
+                <tag>php</tag>
+                <tag>server</tag>
+                <tag>setup</tag>
+                <tag>tutoriel</tag>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>I wanted to test latest php 5.3 on my OSX box. So heres a quick reminder on how to proceed to a full setup of apache2, mysql5 and php 5.3 using  Macports . 
+
+
+ First, get a  fresh copy of the Macports installer for OSX . Install macports, then in a shell prompt, type: 
+
+ 
+$ sudo port install mysql5 +server
+$ sudo port install php5 +apache2 +debug +pear +sqlite +mysql5 
+ 
+
+
+ You have now the time to have lunch, dinner, sex or to watch an episode of  Derrick [ 1 ] . 
+
+
+ To enable the php module for apache: 
+
+ 
+$ cd /opt/local/apache2/modules
+$ sudo /opt/local/apache2/bin/apxs -a -e -n "php5" libphp5.so
+ 
+
+
+ Then, add this line in the  /opt/local/apache2/conf/httpd.conf  file: 
+
+ 
+
+
+ Copy one of the standard  php.ini  files proposed by the default installation: 
+
+ 
+$ sudo cp /opt/local/etc/php5/php.ini-development /opt/local/etc/php5/php.ini
+ 
+
+
+ To start apache automatically at system startup: 
+
+ 
+$ sudo launchctl load -w /Library/LaunchDaemons/org.macports.apache2.plist
+ 
+
+
+ Or manually: 
+
+ 
+$ sudo /opt/local/apache2/bin/apachectl start
+ 
+
+
+ To initialize, configure and start MySQL automatically: 
+
+ 
+$ sudo -u mysql mysql_install_db5
+$ sudo /opt/local/bin/mysql_secure_installation5
+$ sudo /opt/local/etc/LaunchDaemons/org.macports.mysql5/mysql5.wrapper start
+$ sudo launchctl load -w /Library/LaunchDaemons/org.macports.mysql5.plist
+ 
+
+
+ Now launch your browser at  http://localhost/ : youre done. Have some rest. 
+ Notes 
+ [ 1 ] Dont try to do all that stuff at the same time, result cannot be guaranteed 
+        </text>
+</document>

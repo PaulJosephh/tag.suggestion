@@ -1,0 +1,27 @@
+<document>
+	<date>2006-10-19</date>
+        <title>Flash Player 9 beta pour Linux</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>flash</tag>
+                <tag>linux</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Flash Player 9 beta  pour Linux  est sorti ! Pour installer le plugin pour Firefox sur Ubuntu, c'est relativement simple (meme si par la suite un veritable installeur devrait etre disponible): 
+
+
+ $ wget -c http://www.adobe.com/go/fp9_update_b1_installer_linuxplugin
+$ tar xvzf FP9_plugin_beta_101806.tar.gz
+$ mkdir ~/.mozilla/plugins # creera le repertoire s'il n'existe pas
+$ sudo mv flash-player-plugin-9.0.21.55/libflashplayer.so ~/.mozilla/plugins/ 
+
+
+ Et ca devrait rouler. 
+
+
+ Edit:  Menage. 
+        </text>
+</document>

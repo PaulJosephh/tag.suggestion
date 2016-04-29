@@ -1,0 +1,42 @@
+<document>
+	<date>2005-04-26</date>
+        <title>PlayTime</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>jeu</tag>
+                <tag>linux</tag>
+                <tag>myself</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Rigolo</category>
+        </categories_set>
+        <text>[Via  Mitternachts ] 
+
+
+ Bastet  - aka Bastard Tetris - est un Tetris particulierement vicieux, puisqu'il ne vous proposera que les pieces qui vous arrangent le MOINS. Personnellement, le portable a failli passer par la fenetre  
+
+
+ 
+
+
+ Pour les masochistes Ubuntistes/Debianiens que ca interesse, ca s'installe tout simplement par la commande: 
+
+
+ $ sudo apt-get update
+$ sudo apt-get install bastet
+$ bastet 
+
+
+ [Via  PauseKawa ] 
+
+
+ Sinon, je viens de mettre la main sur une version en Flash de  Nebulus , un petit jeu mettant en scene un  cochon  extra-terrestre dont le but est de gravir une tour. 
+
+
+ 
+
+
+ C'est un jeu qui m'a tenu en haleine des heures, voire des nuits entieres, sur mon  Atari 520 ST  upgrade a 1024 ko de RAM. Une rolls en comparaison de mon premier ordinateur, un  Thomson MO5 , dont la puissance effrayante du processeur flirtait allegrement avec le megahertz  
+        </text>
+</document>

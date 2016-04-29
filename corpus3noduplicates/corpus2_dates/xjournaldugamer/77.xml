@@ -1,0 +1,30 @@
+<document>
+	<date>2015-01-19</date>
+        <title>[On ne touche &#224; rien !] Un bug de Steam sous Linux peut effacer toutes vos donn&#233;es</title>
+        <author>Fabio</author>
+        <tags_set>
+                <tag>Bug</tag>
+                <tag>Linux</tag>
+                <tag>Steam</tag>
+        </tags_set>
+        <categories_set>
+                <category>G&#233;n&#233;ral</category>
+        </categories_set>
+        <text>
+                                                                                                 
+         
+                 Plusieurs utilisateurs dont la machine tourne sous Linux  ont rapport&#233; &#224; Valve  un vilain bug qui va jusqu&#8217;&#224; supprimer toutes les donn&#233;es du compte utilisateur. 
+ 
+ more 
+ Valve est au courant du sou&#231;i, et a m&#234;me averti certains confr&#232;res am&#233;ricains dont  PCWorld .  
+ Une poign&#233;e d&#8217;utilisateurs ont signal&#233; le probl&#232;me, apr&#232;s qu&#8217;ils aient d&#233;plac&#233; manuellement le r&#233;pertoire d&#8217;installation de Steam. Nous n&#8217;avons pas pu reproduire le probl&#232;me en question mais nous sommes en train d&#8217;ajouter des v&#233;rifications suppl&#233;mentaires pour s&#8217;assurer que cela ne se reproduise pas pendant que nous cherchons d&#8217;o&#249; vient exactement le probl&#232;me.  
+ 
+ Si vous &#234;tes victime dudit probl&#232;me, vous pouvez contacter Valve  &#224; cette adresse . En attendant, ne changez pas le r&#233;pertoire d&#8217;installation de Steam puisqu&#8217;il semble que c&#8217;est de cette action que d&#233;coule le reste.  
+ Valve travaille sur la question, on vous tient au courant. 
+ 
+         
+ Source 
+                                                                                                         
+                                                                                                                                                                                                 
+        </text>
+</document>

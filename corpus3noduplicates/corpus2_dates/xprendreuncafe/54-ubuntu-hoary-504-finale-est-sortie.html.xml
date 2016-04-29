@@ -1,0 +1,113 @@
+<document>
+	<date>2005-04-08</date>
+        <title>Ubuntu Hoary 5.04 Finale est sortie</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Preambule 
+
+
+ Pour ceux qui veulent (re)installer Hoary depuis un CD d'install, vous pouvez  telecharger l'image  ISO  correspondant a votre architecture processeur, et la graver en ayant pris soin de verifier l'integrite des donnees au moyen de l'empreinte MD5 du fichier. Vous pouvez egalement utiliser rsync pour synchroniser une ancienne ISO de preversion telechargee, afin de gagner un temps considerable. Pour ce faire,  suivez ce howto  (Merci  Kagou )  
+
+
+ La procedure d'install devrait theoriquement ressembler fortement a celle que j'ai decrite  dans ce billet   
+
+
+ Pour les autres sous Warty: avant toute chose et si ce n'est deja fait, sauvegardez vos donnees personnelles et installez  links  un navigateur en mode texte  qui pourrait etre utile en cas de probleme , notamment pour recuperer des informations sur internet. 
+
+
+ sudo apt-get install links 
+
+
+ Modifier la liste des depots 
+
+
+ Tout d'abord je vous conseille une fois devant l'ecran GDM de passer en mode console (tty): CTRL + ALT + F1 (pour revenir sous GDM/session X, faites CTRL + ALT + F7) 
+
+
+ On ouvre une session root depuis sudo: 
+
+
+ $ sudo -s
+$ Password:
+# 
+
+
+ Editez votre fichier /etc/apt/sources.list: 
+
+
+ # vi /etc/apt/sources.list 
+
+
+ (vi est un editeur tres simple:  i  pour inserer du texte,  ESC  pour sortir du mode edition,  :wq  pour enregistrer le fichier,  :q!  pour fermer le fichier sans l'enregistrer) 
+
+
+ Et ajoutez/remplacer les depots warty par ceux d'hoary: 
+
+
+ deb http://archive.ubuntu.com/ubuntu hoary main restricted multiverse universe
+deb-src http://archive.ubuntu.com/ubuntu hoary main restricted multiverse universe
+
+## Uncomment the following two lines to fetch major bug fix updates produced
+## after the final release of the distribution.
+deb http://archive.ubuntu.com/ubuntu hoary-updates main restricted
+deb-src http://archive.ubuntu.com/ubuntu hoary-updates main restricted
+
+deb http://security.ubuntu.com/ubuntu hoary-security main restricted universe
+deb-src http://security.ubuntu.com/ubuntu hoary-security main restricted universe 
+
+
+ Sauvez  
+
+
+ C'est parti! 
+
+
+ Executer la commande de mise a jour intelligente de la distribution: 
+
+
+ # apt-get update
+# apt-get dist-upgrade 
+
+
+ Attention, c'est long! (~700 Mo) 
+
+
+ On fignole 
+
+
+ Une fois ceci effectue, il vous reste a installer xorg, puis a le configurer: 
+
+
+ # apt-get install xserver-xorg
+# dpkg-reconfigure xserver-xorg 
+
+
+ Si vous utilisiez des drivers d'acceleration graphique specifiques, il faudra les reinstaller/configurer. Par exemple pour les chips nVidia: 
+
+
+ # apt-get install nvidia-glx nvidia-settings
+# nvidia-glx-config enable 
+
+
+ Si vous avez un peu trop  customize  votre Warty, voici quelques paquets interessants a installer contenant des metas-packages de l'installation de base et des locales d'Ubuntu: 
+
+
+ # apt-get install ubuntu-base ubuntu-artwork 
+        ubuntu-desktop ubuntu-sounds language-pack 
+        language-pack-fr 
+
+
+ Vous atteignez maintenant un des rares cas ou je recommande de rebooter un ordinateur sous linux... et  comme le suggere Titus , de prier  
+
+
+ Enjoy  
+
+
+ Edit: Plein d'autres infos sur Hoary 5.04 sur la page temporaire dediee a cette version d' ubuntuguide.org   
+        </text>
+</document>

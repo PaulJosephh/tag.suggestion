@@ -1,0 +1,22 @@
+<document>
+	<date>2014-01-07</date>
+        <title>Eedomus: Mise  jour du 6 Janvier</title>
+        <author> Maximin </author>
+        <tags_set>
+                <tag>eedomus</tag>
+                <tag>mise a jour</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Legerement en retard a cause des fetes (on les excuses!), une nouvelle mise a jour pour la  eedomus mise a jour de novembre En ce qui concerne les nouveautes:  Un tout nouvel editeur dagenda: Definissez graphiquement vos  phase Les  phase Integrez vos journees speciales (ex. Conges) via un import ICS Definissez directement des actions pour vos  phase Phase  Nouveaux modules  Z-Wave Repeteur Z-Wave Aeotec Capteur de CO2 SENSOAIR Double Paddle Wall (WCD1) Zwave.me Door/Window 3 in 1 sensor (PSM01) de Philio Relai 2 * 1.5 KW (PHI_PAN04) de Philio Vous pouvez desormais gagner du temps en dupliquant vos peripheriques, notamment  HTTP Z-Wave  Pour ce qui est des ameliorations :  Decouverte UPnP format= xml XML Enfin quelques corrections:  RFXLAN, lorsquun peripherique batterie etait cree le niveau remonte pouvait etre incorrect HTTP HTTP UPnP HTTP XML  Felicitation a toute lequipe  Connected Object eedomus Nhesitez pas a nous faire des retours dutilisation de ces nouvelles fonctionnalites dans les commentaires!  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ eedomus : Mise a jour du 6 octobre 2014 
+ Mise a jour 0.9.999.1 de la Zipabox : support de Somfy RTS et de nombreuses ameliorations 
+ Les francais Eedomus et Swiid presentent leurs produits Z-Wave au #BBWF 
+ eedomus : support des produits Nest et NodOn END .entry-content  
+        </text>
+</document>

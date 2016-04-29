@@ -1,0 +1,14 @@
+<document>
+	<date>2012-10-29</date>
+        <title>Guide de configuration du Tellstick Duo</title>
+        <author> Maximin </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Telldus</category>
+        </categories_set>
+        <text>
+                                                          Apres avoir installe le  TellStick Duo Oregon Scientific Nous utilisons ici un module prise et une telecommande  Chacon Oregon Scientific   Connectez votre  TellStick Duo USB Cliquez sur  New en bas de la fenetre.   Dans la fenetre qui souvre, allez sur Remote switches, puis   Chacon   Donnez un nom a votre Recepteur (obligatoire). Choisissez le code que vous desirez (Randomize selectionne un Remote code au hasard). Cliquez sur Save.   Vous avez cree votre premier recepteur, ce sera la meme demarche pour dautres du meme type. Pour que TelldusCenter, via le  TellStick Duo Activez la fonction  Association  de votre recepteur en appuyant sur son bouton daffectation : votre recepteur va se mettre a clignoter.   Cliquez ensuite sur Learn ou sur lampoule allumee dans  Action .   Le recepteur emet alors deux signaux sonores, et la lampe clignote 2 fois. Le recepteur est desormais associe a linterface  TellStick Duo  Pour piloter votre module prise avec une telecommande  Chacon TellStick Duo   Passons maintenant a la sonde  Oregon Scientific Pour cela il vous suffit dalimenter votre sonde, de cliquer sur licone avec le thermometre a cote de lampoule en haut de la fenetre et cest tout! En effet, la sonde communique toutes les 40 secondes, et le  TellStick Duo   Donnez-lui alors un nom, cochez la case Visible in list puis cliquez sur view.   Vous avez alors le releve de temperature ainsi que la derniere remonte dinformation de la sonde.  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

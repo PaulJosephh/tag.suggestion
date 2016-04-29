@@ -1,0 +1,17 @@
+<document>
+	<date>2012-04-05</date>
+        <title>Manipuler une application dveloppe sous Eclipse sans Eclipse</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Ant</tag>
+        </tags_set>
+        <categories_set>
+                <category>Eclipse</category>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+
+ Eclipse et Ant Eclipse Ant Ant Another Neat Tool open source make C C++ Generer un fichier Ant avec Eclipse File  Export  GeneralAnt Buildfiles  Next Finish build.xml ant $ ant build Generer un fichier executable JAR avec Eclipse, ou Ant File  Export  JavaRunnable JAR file  Next Runnable JAR File Export Finish 
+        </text>
+</document>

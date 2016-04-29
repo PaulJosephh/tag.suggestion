@@ -1,0 +1,18 @@
+<document>
+	<date>2009-10-29</date>
+        <title>Guide dinstallation du module LD11</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>X10 Produits</category>
+        </categories_set>
+        <text>
+                                                         
+ Le module LD11 permet dallumer ou deteindre un eclairage ayant une charge minimum de 40W et maximum de 700W, en etant pilote par des ordres  X10 Il sinstalle facilement dans un tableau electrique. Il est equipe dun fusible 3,15A temporise.  
+ Mettez votre circuit electrique hors tension. Installez le module LD11 sur un  Rail DIN Branchez en bas du module, la  phase  L neutre N 
+ Connectez en haut du module, la charge sur  L 2 Reglez ensuite ladresse du module a laide dun tournevis plat en tournant les selecteurs rotatifs. 
+ Remettez alors le circuit electrique sous tension. Votre module LD11 est maintenant pret a etre pilote par nimporte quel controleur  X10  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

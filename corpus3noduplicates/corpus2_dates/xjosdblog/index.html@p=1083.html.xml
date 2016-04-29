@@ -1,0 +1,68 @@
+<document>
+	<date>2012-02-08</date>
+        <title>Importer ses POI dans diffrents systmes de cartographie ou navigation</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Android</category>
+                <category>Carto &amp; GPS</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+En topographie, un point dinteret ou  POI Point Of Interest 
+Pour utiliser differents systemes de navigation ou de cartographie, il est interessant davoir sa propre base de POI et de les importer dans ces differents systemes. Dans cette optique, vous aurez besoin de logiciel de convertion de POI comme  le tres bon shareware PoiEdit VirtualBox TomTom 
+ 
+ POI Favoris Favoris TomTom POI mapsettings.cfg \Western_Europe-Map\mapsettings.cfg mapsettings.cfg PoiEdit ov2 
+Les POI de TomTom doivent etre au format  ov2 MesPOI.ov2 BMP couleurRVB MesPOI.bmp \Western_Europe-Map 
+On peut ainsi facilement retrouver tous ses POI sur tous ses TomTom quand on en a plusieurs.
+ TomTom pour Android 
+ 
+La nouvelle avait ete annoncee lors de lIFA, et cest maintenant officiel : TomTom est disponible sur Android. Notez que vous devez disposer dun smartphone avec une definition de 800 x 480 pixels (Galaxy S2) ou de 854 x 480 pixels, mais la societe precise que dautres plus eleves arriveront prochainement. 
+ 
+Je trouve que TomTom possede de loin le meilleur algorithme de calcul ditineraire (nottament grace a IQ route) et le meilleur systeme de navigation. La version  Android 
+Pour importer ses POI dans  TomTom pour Android ov2 MesPOI.ov2 bmp MesPOI.bmp /sdcard/tomtom/com.tomtom.weurope/files/Western_Europe bmp exemple :  Google Maps 
+ 
+ Google Maps 
+ 
+Aller dans  Google Maps Google 
+Cliquer sur le bouton  Mes adresses Creer une carte Mes adresses Cartes MODIFIER 
+Vous aurez ainsi un lien  Importer kml ov2 kml Outils  Conversions 
+Cette solution vous permet de visualiser et dutiliser vos POI dans  Google Maps Android waze 
+ 
+Waze est une application gratuite et communautaire de navigation sur mobile avec plus de 30 millions dutilisateurs dans le monde. 
+Waze propose :
+ 
+ Systeme de navigation vocale Infos trafic en temps reel generees, en grande partie automatiquement, par la communaute Itineraire recalcule si les conditions changent sur la route Waze memorise vos destinations les plus frequentes, les heures passees au volant et vos chemins favoris Signalements de la communaute : accidents, dangers, conditions climatiques, etc. 
+Je trouve le systeme de navigation tres efficace, probablement le plus agreable des systemes de navigation presentes dans ce billet. Linfo trafic en temps reel est tres efficace aussi, bien quil depende de la presence dautres utilisateurs waze sur le trajet. Helas, mais cest obligatoire avec une telle application, il faut necessairement etre connecte pour lutiliser.
+ 
+Waze ne permet pas dediter ses propres POI. Il dispose neanmoins dun systeme de favoris stockes dans un fichier texte  waze/history Sygic GPS Navigation for Android 
+ 
+ Sygic GPS Navigation Android TomTom 
+Pour importer ses POI dans  Sygic GPS Navigation for Android la procedure telecharger lapplication Windows  Sygic Rupi Convertor 
+Voici la marche a suivre :
+ 
+ 
+Avec PoiEdit, convertir (menu  Outils  Conversions MesPOI.ov2 Generic Ascii(*.asc) MesPOI.ascii 
+Editer ce fichier pour le ramener (en faisant des Rechercher/Remplacer) a un fichier de la forme :
+ 
+delimiter=|
+ 
+longitude|latitude|name|address|phone|fax|web|email|short description|long description
+ UTF8 txt MesPOI.txt 
+Ouvrir lapplication  RUPI Convertor.exe txt MesPOI.txt rupi MesPOI.rupi 
+Copier ensuite le couple de fichiers  rupi MesPOI.rupi bmp MesPOI.bmp /sdcard/Aura/Maps/import 
+Il faut enfin executer  Sygic 
+Pour vraiment finaliser le travail, il faut aller dans  Menu  Reglages  PI personnalises MesPOI Categorie principale CoPilot Live pour Android 
+ 
+ CoPilot Live Sygic GPS Navigation 
+Pour importer ses POI dans  CoPilot Live ov2 MesPOI.ov2 bmp MesPOI.bmp /sdcard/copilot/save Navigon for Android 
+ 
+Avant lapparition de TomTom pour android,  Navigon for Android Android 
+Personnellement, je le trouve tres peu parametrable. De plus, la fonctionnalite dimport de POI nest visiblement pas encore implementee.
+ 
+Bref, passez votre chemin.
+ 
+        </text>
+</document>

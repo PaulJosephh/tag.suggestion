@@ -1,0 +1,37 @@
+<document>
+	<date>2008-06-24</date>
+        <title>ESC_RAWquerie</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>escaping</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+                <tag>tips</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Le saviez-vous? Dans  symfony , il est possible de desactiver l' echappement des contenus  en passant la constante  ESC_RAW  en dernier parametre d'une fonction ou methode de classe depuis une template: 
+
+  php
+?php echo $article-getTitle(ESC_RAW) ?
+ 
+
+
+ Plutot donc que: 
+
+  php
+?php echo $article-getRawValue()-getTitle() ?
+ 
+
+
+ Ou l'infame: 
+
+  php
+?php echo $sf_data-getRaw('article')-getTitle() ?
+ 
+
+
+ Voila, c'est tout, c'etait surtout l'occasion de faire en titre le pire jeu de mot de ce blog, et de pousser le billet d'humeur sur la RATP un peu plus bas sur la home. 
+        </text>
+</document>

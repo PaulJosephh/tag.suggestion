@@ -1,0 +1,19 @@
+<document>
+	<date>2012-07-25</date>
+        <title>Augmentez la sensibilit de rception en Z-Wave de la ZiBASE</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>box domotique</tag>
+                <tag>optimisation reseau</tag>
+                <tag>z-wave</tag>
+                <tag>zibase</tag>
+                <tag>zodianet</tag>
+        </tags_set>
+        <categories_set>
+                <category>ZiBASE Applications</category>
+        </categories_set>
+        <text>
+                                                         Lenvironnement de la ZiBASE2 est tres important pour le bon fonctionnement avec une installation  domotique Z-Wave Z-Wave Tout dabord, pour eviter au maximum les interferences radio qui pourraient venir perturber la qualite de votre signal, essayez deloigner votre ZiBASE2 (1.5m) de tout ordinateur, routeur, box, blocs dalimentation ainsi que de tout emetteur ou recepteur 433ou 868 MHz. Si vous utilisez une ZiBASE1 avec un controleur  Z-Wave ZiBASE Il faut aussi savoir que lorientation de la  ZiBASE Cependant, plus vous disposez de peripheriques  Z-Wave Z-Wave Si vous nutilisez pas certains protocoles de communication, il est possible de les desactiver afin dameliorer la qualite de reception du signal  Z-Wave Il faut pour cela creer un nouveau scenario qui se lance au demarrage de votre  ZiBASE Ensuite, dans ACTION, cliquez sur FONCTIONS SPECIALES, puis sur DEFINIR LES PROTOCOLES DE RECEPTION ET EMISSION PAR DEFAUT. Decochez les protocoles que vous nutilisez pas, et cochez la case ZWAVE. Vous avez maintenant quelques outils pour vous aider a ameliorer la qualite de reception  Z-Wave  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,109 @@
+<document>
+	<date>2010-03-04</date>
+        <title>Lib&#233;rons les donn&#233;es ! De quelques aspects juridiques</title>
+        <author>Mich&#232;le Battisti</author>
+        <tags_set>
+                <tag>base de donn&#233;es</tag>
+                <tag>Contrat</tag>
+                <tag>Creative Commons</tag>
+                <tag>Droit d'auteur</tag>
+                <tag>libre acc&#232;s</tag>
+                <tag>web de donn&#233;es</tag>
+        </tags_set>
+        <categories_set>
+                <category>Contrat</category>
+                <category>Mod&#232;le &#233;conomique</category>
+        </categories_set>
+        <text>
+                                                                                     
+ A l&#8217;heure o&#249; l&#8217;on &#233;voque la lib&#233;ration des donn&#233;es publiques [1] et le Web des donn&#233;es [2], ou encore le  data journalisme , il semblait utile d&#8217;approfondir c ette question que l&#8217;on avait abord&#233;e en 2006 pour les donn&#233;es de la recherche . 
+ Les enjeux  
+ Dans le domaine scientifique, il est essentiel de partager les informations. Pouvoir reconna&#238;tre la qualit&#233; de&#160; biens collectifs aux r&#233;sultats de la recherche devient donc un imp&#233;ratif. Quant au Web de donn&#233;es, autre exemple retenu, il implique que l&#8217;on puisse relier et interroger de mani&#232;re simple les donn&#233;es dispers&#233;es sur le web [3], mais aussi d&#8217;en disposer sans se heurter &#224; des obstacles juridiques. 
+   
+ Or, &#160;pour acc&#233;der &#224; des &#160;donn&#233;es et avoir le droit de les utiliser, on s&#8217;aper&#231;oit qu&#8217;il faut bien&#160; souvent contacter les ayants droit et n&#233;gocier des licences, ce qui s&#8217;av&#232;re g&#233;n&#233;ralement lent et co&#251;teux. 
+ Pour pallier les risques croissants de r&#233;appropriation des donn&#233;es, li&#233;s &#224;&#160; l&#8217;expansion actuelle de la propri&#233;t&#233; intellectuelle, ont &#233;t&#233; d&#233;velopp&#233;es parall&#232;lement, depuis plusieurs ann&#233;es, des approches techniques et juridiques&#160;dites &#171;&#160;ouvertes&#160;&#187;. 
+ Les donn&#233;es libres et ouvertes permettent ainsi de disposer d&#8217;un fonds commun de donn&#233;es dans lequel n&#8217;importe qui peut puiser et ce, malgr&#233; les diff&#233;rences importantes des contextes juridiques et institutionnels de leur cr&#233;ation. 
+   
+ 
+ Quelques rappels  
+ 
+ DEFINITIONS   
+ donn&#233;e  : un fait, notion ou instruction repr&#233;sent&#233;e sous forme conventionnelle convenant &#224; la communication, l&#8217;interpr&#233;tation ou au traitement par des moyens humains ou automatiques (afnor) 
+ donn&#233;e publique  : donn&#233;e collect&#233;e ou produite dans le cadre de sa mission, par un service public, sur des fonds publics. 
+ donn&#233;e libre  : une donn&#233;e que l&#8217;on est libre d&#8217;utiliser, de modifier et de rediffuser 
+   
+ donn&#233;e ouverte  : l&#8217;ouverture s&#8217;applique la notion d&#8217;interop&#233;rabilit&#233;, assur&#233;e par des standards. 
+ licence libre  : contrat par lequel un titulaire d&#8217;un droit de propri&#233;t&#233; intellectuelle conc&#232;de &#224; un tiers tout ou une partie de la jouissance d&#8217;un droit, en accordant au moins la possibilit&#233; de modifier, de rediffuser et de r&#233;utiliser l&#8217;&#339;uvre dans des  &#339;uvres d&#233;riv&#233;es . Ces libert&#233;s peuvent &#234;tres soumises &#224; conditions  [4]  ( Wikip&#233;dia ).   
+   
+ domaine public  : des &#339;uvres prot&#233;g&#233;es par le droit d&#8217;auteur dont la dur&#233;e des droits patrimoniaux a expir&#233; (droit d&#8217;auteur) ou   des choses communes qui n&#8217;appartiennent &#224; personne mais dont l&#8217;usage est commun &#224; tous &#160;(art. 714 Code civil).    
+ LE CADRE JURIDIQUE  
+   
+ Le droit d&#8217;auteur.  Les donn&#233;es &#171;&#160;brutes&#160;&#187; ne sont&#160; pas prot&#233;g&#233;es par le droit d&#8217;auteur, mais leur mise en forme &#8216;sous forme de graphiques, diagrammes,&#160; etc.) pourrait l&#8217;&#234;tre, d&#232;s lors que celle-ci s&#8217;av&#232;re originale et que la pr&#233;sentation des donn&#233;es ne d&#233;coule pas automatiquement de l&#8217;utilisation d&#8217;un proc&#233;d&#233; technique ou d&#8217;un logiciel.   Si, par ailleurs, la structure et choix des donn&#233;es sont originaux, la base de donn&#233;es sera prot&#233;g&#233;e par le droit d&#8217;auteur.   
+ Le droit  sui generis  des bases de donn&#233;es.  Si le producteur de la base de&#160; donn&#233;es peut en outre prouver avoir investi de mani&#232;re substantielle pour constituer et g&#233;rer sa base, il peut s&#8217;opposer &#224; toute extraction ou r&#233;utilisation substantielle de celle-ci.   
+   
+ Le droit de r&#233;utilisation des donn&#233;es publiques.  Dans ce cadre, l&#8217;administration met &#224; la disposition du public les donn&#233;es qu&#8217;elle a produites ou qu&#8217;elle d&#233;tient   [5].    
+ D&#8217;autres m&#233;canismes .&#160;   L&#8217;acc&#232;s aux donn&#233;es peut &#234;tre prot&#233;g&#233;  a priori  par un contrat et  a posteriori  par une action en concurrence d&#233;loyale, pour parasitisme ou pour  enrichissement sans cause . 
+ 
+ Lib&#233;rer les donn&#233;es 
+ 
+   
+ Pourquoi adopter une licence&#160;?  
+   
+ M&#234;me dans le cas o&#249; les donn&#233;es ne sont pas prot&#233;g&#233;es par un droit (droit d&#8217;auteur, droit  sui generis  du producteur de base de donn&#233;es), il est recommand&#233; de les diffuser accompagn&#233;es d&#8217;un contrat de&#160; licence. 
+ Les utilisateurs ont, en effet, besoin de savoir d&#8217;o&#249; viennent les donn&#233;es (notion d&#8217;attribution), si celles-ci elles ont &#233;t&#233; modifi&#233;es (souci d&#8217;int&#233;grit&#233; et de validation) et de conna&#238;tre toutes les modalit&#233;s de r&#233;utilisation autoris&#233;es. 
+ Les recours &#224; des contrats de licences reconnus dans le monde entier, m&#234;me si celles-ci n&#233;cessitent une adaptation au droit national, permet d&#8217;organiser le partage des donn&#233;es en &#233;vitant,&#160;   puisque les contrats sont la loi des parties, de se pencher sur le probl&#232;me de la loi applicable et de se heurter &#224; des concepts juridiques diff&#233;rents. 
+ L&#8217;extr&#234;me diversit&#233; des licences 
+ Dans son  rapport , le Conseil sup&#233;rieur de la propri&#233;t&#233; litt&#233;raire et artistique (CSPLA) note qu&#8217;il existe des &#339;uvres sous licences mixtes (contenant des &#233;l&#233;ments sous licences libres et d&#8217;autres sous contrats propri&#233;taires) ou encore des licences doubles (permettant d&#8217;opter soit pour une licence libre qui impose certaines contraintes, soit pour une licence propri&#233;taire). 
+ A c&#244;t&#233; des &#171;&#160;domaines historiques d&#8217;expansion&#160;&#187; que sont les logiciels libres, des mod&#232;les &#171;&#160;g&#233;n&#233;ralistes&#160;&#187; ( licences  Creative Commons    ou  Art Libre , par exemple), diverses communaut&#233;s (informaticiens, chercheurs [6], musiciens, &#8230;) ont d&#233;velopp&#233; des licences qui r&#233;pondent &#224; leurs priorit&#233;s. En outre, afin de les am&#233;liorer, pour s&#8217;adapter &#224; de nouvelles pratiques ou de nouvelles l&#233;gislations, ces licences ont&#160; pu &#233;voluer dans le temps&#160; et se pr&#233;senter sous de nouvelles versions num&#233;rot&#233;es  [7] . &#160;Le mouvement ne s&#8217;est &#233;tendu qu&#8217;ensuite et&#160; plus r&#233;cemment aux donn&#233;es  [8] . 
+ Quelle licence choisir ?  
+ Pour s&#8217;assurer que les donn&#233;es restent libres et b&#226;tir un fonds commun de donn&#233;es, &#160;il est important de &#160;pouvoir contr&#244;ler leurs usages. Abandonner tous ses droits de mani&#232;re anticip&#233;e, en choisissant une licence qui fait &#160;entrer son &#339;uvre dans le domaine public (comme l&#8217; Open Data Commons &#8211; Public Domain Dedication &amp; Licence (PPDL)   ou la licence   CC  Z&#233;ro ),  permet certes de les utiliser pour cr&#233;er des &#339;uvres d&#233;riv&#233;es, mais &#160;ne r&#233;pond pas obligatoirement &#224; un tel objectif, puisqu&#8217;il n&#8217;oblige pas &#224; partager les r&#233;sultats obtenus &#224; partir des donn&#233;es utilis&#233;es. N&#8217;importe qui, une entreprise par exemple, pourrait se r&#233;approprier ces donn&#233;es, d&#8217;o&#249; le paradoxe qui consiste &#224; cr&#233;er un droit de propri&#233;t&#233;, qui ne devrait pas exister, pour emp&#234;cher cette action. 
+ Si l&#8217;on entend b&#226;tir un fonds commun de collaboration, il s&#8217;av&#232;re de ce fait&#160;&#160; prudent d&#8217;adopter une logique de &#160; Copyleft   qui &#171;&#160;force&#160;&#187; le partage .   Class&#233;es dans  le rapport du  CSPLA  parmi &#160;les licences offrant une libert&#233; p&#233;renne, les licences  Copyleft [9]  ne &#171;&#160;se limitent pas &#224; l&#8217;octroi du droit d&#8217;utiliser, de modifier et de diffuser l&#8217;oeuvre : elles veillent &#224; ce que l&#8217;usage de l&#8217;&#339;uvre copi&#233;e ou modifi&#233;e demeure libre. D&#232;s lors que sont combin&#233;s les &#233;l&#233;ments de l&#8217;oeuvre mise &#224; disposition, l&#8217;oeuvre seconde devra ob&#233;ir au m&#234;me r&#233;gime&#160;&#187;, ce qui permet de s&#8217;assurer de l&#8217;existence d&#8217;un fonds commun d&#8217;oeuvres que l&#8217;on peut utiliser librement. 
+ La licence  Creative Commons  BY-SA [10]  qui oblige &#224; citer la source et &#224; partager les donn&#233;es obtenues &#224; partir des donn&#233;es utilis&#233;es sous la m&#234;me licence CC BY-SA, a &#233;t&#233; adopt&#233;e notamment par les concepteurs du projet   OpenStreetMap , projet qui conna&#238;t un grand succ&#232;s, qui vise &#224; cartographier des villes &#224; partir de donn&#233;es g&#233;ographiques libres. Consid&#233;rant toutefois qu&#8217;une licence CC vise &#224; prot&#233;ger des &#339;uvres prot&#233;g&#233;es par le droit d&#8217;auteur,  les concepteurs d&#8217;OpenStreetMap songent &#224; adopter la licence ODbL,  adapt&#233;e au droit sui generis des bases de donn&#233;es 
+ Le choix d&#8217;une licence n&#8217;est pas neutre 
+ S&#8217;il convient, en pr&#233;alable, de s&#8217;assurer que l&#8217;on est en mesure de c&#233;der tous les droits que la licence va conf&#233;rer (coauteurs &#233;ventuels, droits d&#8217;auteur sur les &#339;uvres incorpor&#233;es, &#8230;), il convient aussi&#160; d&#8217;en appr&#233;cier l&#8217;impact avant d&#8217;opter pour l&#8217;une d&#8217;entre elles. 
+ Kob&#233; 
+ Mes plus vifs remerciements &#224;  Benjamin Jean ,  Linagora 
+ Ce texte sera &#233;galement publi&#233;  sur le site de l&#8217;ADBS 
+ Notes 
+ [1]  Les portails gouvernementaux  en Australie ,  aux Etats-Unis , ou encore  au Royaume-Uni  proposent tous des donn&#233;es en libre acc&#232;s. Mais ces portails seraient moins riches en donn&#233;es que le portail fran&#231;ais, tel que pr&#233;figur&#233; aujourd&#8217;hui. Le niveau &#171;&#160;d&#8217;ouverture&#160;&#187; des donn&#233;es publiques accessibles  via   le portail&#160; fran&#231;ais d&#8217;acc&#232;s aux donn&#233;es publiques annonc&#233; par l&#8217;Agence du patrimoine immat&#233;riel de l&#8217;Etat (APIE), variera selon les administrations. Le  Chapitre fran&#231;ais  Creative Commons  a interrog&#233; les candidats aux &#233;lections&#160; r&#233;gionales pour les sensibiliser &#224; l&#8217;utilit&#233; de lib&#233;rer les donn&#233;es publiques r&#233;gionales. 
+ [2]  Voir aussi&#160;:  L&#8217;avenir de l&#8217;information&#160;: le web de donn&#233;es , Hubert Guillaud,  InternetActu.net , 4 d&#233;cembre 2008 
+ [3]  D&#233;montrant ainsi la n&#233;cessit&#233; de l&#8217;int&#233;rop&#233;rabilit&#233;, &#160;une condition facilit&#233;e par le mouvement Libre. 
+ [4]  La licence libre&#160; GPL ( General Public License ), par exemple, impose que l&#8217;on redistribue le logiciel  &#171;&#160;enrichi&#160;&#187;  apr&#232;s l&#8217;avoir r&#233;cup&#233;r&#233;, &#233;tudi&#233; et am&#233;lior&#233;. 
+ [5]  Le principe d&#8217;une r&#233;utilisation des informations publiques ne s&#8217;applique pas&#160; aux informations &#233;labor&#233;es dans le cadre d&#8217;une mission de service public &#224; caract&#232;re industriel et commercial,&#160; ni &#224;&#160; celles dont les tiers d&#233;tiennent des droits de propri&#233;t&#233; intellectuelle, ni &#224;&#160; celles qui contiennent des donn&#233;es personnelles non anonymis&#233;es lorsque l&#8217;accord des personnes concern&#233;es n&#8217;a pas pu &#234;tre obtenu.   
+ [6]  Des licences sp&#233;cifiques ont &#233;t&#233; d&#233;velopp&#233;es pour certaines disciplines,  BiOS Open source  dans le domaine des biotechnologies, par exemple. 
+ [7]  La version 3.0 des licences  Creative Commons , par exemple, tient &#160;compte du droit  sui generis  qui peut &#234;tre conf&#233;r&#233; &#224; certains producteurs de bases de donn&#233;es. 
+ [8]  Les r&#233;flexions autour des  Science Commons   [12]  et le succ&#232;s d&#8217;OpenStreetMap  [17]  ont jou&#233; &#224; cet &#233;gard un r&#244;le majeur 
+ [9]  La licence CC BY SA ou la licence Art Libre, par exemple 
+ [10]  Licence CC qui oblige &#224; mentionner la source (BY) &#160;qui autorise les modifications, mais qui impose que les oeuvres d&#233;riv&#233;es soient propos&#233;es au public avec les m&#234;mes options  Creative Commons  que l&#8217;&#339;uvre originale. 
+ R&#233;f&#233;rences 
+ 1.&#160;&#160;&#160;&#160;&#160;&#160;  Rennes et Keolis: ils ont os&#233;&#160;!   LiberTic , 1 er  mars 2010 
+ 2.&#160;&#160;&#160;&#160;&#160;&#160;  Vers des donn&#233;es r&#233;gionales en libre acc&#232;s , Micha&#235;l Szadkowski,  blog du Monde , 10 f&#233;vrier 2010 
+ 3.&#160;&#160;&#160;&#160;&#160;&#160;  Rennes passe &#224; l&#8217;open source pour diffuser ses infos pratiques , Christophe Guillemin,  01Ne t, 24 f&#233;vrier 2010 
+4.&#160;&#160;&#160;&#160;&#160;&#160;  Atelier Communia &#171;&#160;Les institutions de m&#233;moire et le domaine public&#160;&#187; &#8211; Barcelone 1 &amp; 2 oct. 2009 (Compte-rendu et&#160;impressions) , Calimaq,&#160;  S.I.Lex , 13 octobre 2009 
+ 5.&#160;&#160;&#160;&#160;&#160;&#160;  The legal status of raw data&#160;: a guide for research practice , Madeleine de Cock Buning, Allard Ringnalda,  CIER  and Tina van der Linden (Centre for Intellectual Property Law, &#160;Surf&#160; Foundation, July 2009 
+ 6.&#160;&#160;&#160;&#160;&#160;&#160;  La mise &#224; disposition ouverte des &#339;uvres de l&#8217;esprit , Val&#233;rie-Laure B&#233;nabou et Jo&#235;lle Farchy, Conseil sup&#233;rieur de la propri&#233;t&#233; litt&#233;raire et artistique juin 2007 
+ 7.&#160;&#160;&#160;&#160;&#160;&#160;  CC0 : une nouvelle licence  Creative Commons  pour &#171;&#160;marquer&#160;&#187; le domaine public en&#160;ligne  , Calimaq,  S.I.Lex , 17 mars 2009 
+ 8.&#160;&#160;&#160;&#160;&#160;&#160;  Mon &#339;uvre est dans le domaine public , Mich&#232;le Battisti,  Actualit&#233;s du droit de l&#8217;information ,&#160;&#160; 16 mars 2009 
+ 9.&#160;&#160;&#160;&#160;&#160;&#160;  (Petit) Guide &#224; l&#8217;usage des licences libres , Benjamin Jean, Intervention lors de la matin&#233;e juridique, Syntec informatique du 14 mars 2008. 
+ 10.&#160;&#160;&#160;  Comment puis-je mettre mes documents sous licence Creative Commons ?  Mich&#232;le Battisti,  Actualit&#233;s du droit de l&#8217;information , janvier 2008 
+ 11.&#160;&#160;&#160;  Principes pour des donn&#233;es publiques ouvertes ,  Hubert Guillaud  Internet Actu,  20 d&#233;cembre 2007 
+ 12.&#160;&#160;&#160;  Science Commons  : une solution pour le partage des r&#233;sultats scientifiques , Mich&#232;le Battisti avec la collaboration d&#8217;Arabelle Baudette,  Actualit&#233;s du droit de l&#8217;information , n&#176; 67, mars 2006 
+ 13.&#160;&#160;&#160;  Les contrats  Creative Commons , Mich&#232;le Battisti,  Actualit&#233;s du droit de l&#8217;information , n&#176; 52, novembre 2004 
+ D&#233;finitions. Guide 
+ 14.  Open Definition . Un tableau des licences.&#160;S ur le site Open Definition 
+ 15.  Guide to Open Data Licensing . Sur le site  Open Knowledge Foundation Wiki 
+ 16. Openstreetmap.  Sur le site Wikip&#233;dia 
+ Pr&#233;sentations ppt 
+ 17.  Le statut juridique de la donn&#233;e libre , Benjamin Jean,  Linagora , 17 septembre 2008 
+ 18.  Data sharing&#160;: social and normative , Kaitlin Thaney,&#160; 25 octobre 2009 
+ 19.  Rights Statements on the Web of Data , Leigh Dodds, 25th October 2009 
+ Pr&#233;sentation audiovisuelle 
+ 20. Le web des donn&#233;es. Emmanuelle Berm&#232;s, 5 &#224; 7, ADBS (en ligne prochainement) 
+ Voir aussi 
+ 
+ Quand les &#233;diteurs et les bases de donn&#233;es parlent d&#8217;Open  Access Le GFII sur le libre acc&#232;s/archives ouvertes.Sacr&#233; d&#233;bat&#160;! , Emmanuel Barthe,  U n blog pour l&#8217;information juridique,   4 mars 2010    
+                                         
+                                                                                                        
+                                 
+        </text>
+</document>

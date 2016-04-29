@@ -1,0 +1,18 @@
+<document>
+	<date>2013-10-24</date>
+        <title>Nouveau firmware 0.9.988 pour la Zipabox</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>firmware</tag>
+                <tag>mise a jour</tag>
+                <tag>zipabox</tag>
+                <tag>zipato</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Lequipe  Zipato domotique Zipabox La  Zipabox Oregon Scientific Chacon De plus, tous les capteurs du module backup sont maintenant remonte a la  Zipabox Les nouvelles fonctions :  RF433  Ajout du support pour les sondes  Oregon Scientific Chacon  General  Ajout du support des capteurs du module backup : temperature, choc, niveau de la batterie et mode dalimentation (module de sauvegarde v6 et plus recent).  General  Changement indications LED. Les corrections :  RF433  Support ameliore pour les appareils LightWave.  RF433  Inclusion corrige  Chacon   Z-Wave   Z-Wave  Alarme  Correction alarme declenche sur la zone dentree si compte a rebours dentree.  Thermostat  Thermostats ont ete passe en mode Programme, Auto a synchroniser.  Camera  Perte de memoire corrigee sur proxy RTSP Un peu plus dun mois apres la derniere mise a jour Zipato domotique  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,44 @@
+<document>
+	<date>2013-08-31</date>
+        <title>Test de la camra IP D-Link DCS-2230  Partie 1/3</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Camera IP</tag>
+        </tags_set>
+        <categories_set>
+                <category>DLink</category>
+                <category>Domotique</category>
+                <category>Surveillance</category>
+                <category>Synology</category>
+        </categories_set>
+        <text>
+                                                 
+Voici un test assez complet de la camera IP D-Link DCS-2230 reparti sur 4 billets:
+ 
+ Test de la camera IP D-Link DCS-2230  Partie 1/3 
+         Specifications Configuration: premiere prise en main Configuration: affinage Test de la camera IP D-Link DCS-2230  Partie 2/3 
+         Visualisation en direct sous Linux et sous Windows Visualisation en direct sous Android Test de la camera IP D-Link DCS-2230  Partie 3/3 
+         Programmation et detection de mouvements Securisation de la connexion Conclusions et considerations finales Camera IP : Utilisation du capteur PIR avec Surveillance Station Surveillance Station Synology Specifications 
+ 
+ Capteur megapixel Full HD (1080p)
+ 
+ 16:9 4:3 Ouverture F2 Angles de vision (H) 67.4, (V) 40.8, (D) 75 Wi-Fi Normes IEEE 802.11n/g/b Compression H.264, MJPEG et MPEG-4 Prise en charge simultanee de flux multiples (maximum 3) Illuminateur infrarouge (portee 5m) et filtre de coupure IR pour la vision de nuit Prise en charge integree de laudio bidirectionnel (microphone + haut-parleur) Capteur PIR (Passive Infrared) integre pour la detection de mouvement par infrarouge (portee 5m) Microphone et haut parleur integres Configuration: premiere prise en main 
+ 
+Les logiciels  D-Link 
+ Brancher la camera sur son switch en utilisant le port Ethernet Trouver ladresse IP de la camera attribuee par le serveur DHCP (en se connectant a linterface de configuration de son routeur ou en utilisant le paquet  Surveillance Station Synology Acceder a linterface de configuration D-Link de la camera DCS-2230 (Identifiant: admin ; Mot de passe:  laisser vide Configurer la camera en IP Statique ( CONFIGURATION  Configuration du reseau  PARAMETRES DU RESEAU LOCAL Configurer le Wi-Fi ( CONFIGURATION  Heure et date Configurer la date et lheure ( CONFIGURATION  Configuration sans fil Les flux (maximum 3) sont parametrables dans  CONFIGURATION  Audio et video PARAMETRES VIDEO Enregistrer les parametres 
+Il faut bien penser a cliquer sur le bouton  Enregistrer les parametres Enregistrer les parametres 
+La camera est maintenant prete a fonctionner en Wi-Fi comme en filaire et sans changer dadresse apres une coupure dalimentation.
+ Configuration: affinage 
+
+ 
+ Internet Explorer Internet Explorer Internet Explorer CONFIGURATION Detection de mouvement Internet Explorer CONFIGURATION  Assistant de configuration  Configuration manuelle de detection de mouvement 
+ Parametrage de la detection de mouvement: Cet aspect est traite dans ce billet 
+ Astuce pour minimiser le temps de redemarrage 
+ Configuration  Audio et video CONFIGURATION  Audio et video 
+ ICR et IR AVANCE  ICR et IR hysteresis Mode calendrier 
+ Activer la presentation UPnP Activer la presentation UPnP CONFIGURATION  Configuration du reseau  PARAMETRES DU RESEAU LOCAL 
+ 
+ Test de la camera IP D-Link DCS-2230  Partie 2/3 Test de la camera IP D-Link DCS-2230  Partie 3/3 Camera IP : Utilisation du capteur PIR avec Surveillance Station 
+Shopping:  Camera IP Full HD WiFi D-Link DCS-2230 Camera IP Full HD POE D-Link DCS-2210 Synology Camera Pack License NAS Synology DS213+ 
+        </text>
+</document>

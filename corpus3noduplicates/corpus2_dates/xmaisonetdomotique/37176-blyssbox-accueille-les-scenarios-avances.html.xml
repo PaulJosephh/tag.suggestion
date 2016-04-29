@@ -1,0 +1,18 @@
+<document>
+	<date>2014-07-17</date>
+        <title>
+La BlyssBox accueille les scnarios avancs</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Blyssbox</tag>
+                <tag>volets</tag>
+        </tags_set>
+        <categories_set>
+                <category>BlyssBox</category>
+                <category>Domotique</category>
+                <category>News</category>
+        </categories_set>
+        <text>Je ne vous ai pas parle de la  Blyssbox  depuis un petit moment. Il faut dire que lactualite etait relativement calme du cote de cette box domotique vendue par Castorama. Mais une mise a jour vient davoir lieu, loccasion de vous en reparler un peu :D Tout dabord, deuxnouveaux accessoires sont maintenant supportes: une motorisation pour volets battants (deja  disponible en magasin pour 249 ) une nouvelle camera dome exterieure (disponible a la rentree)  Lergonomie ainsi que certaines fonctionnalites ont egalement ete ameliorees: nouvelle interface web plus reactive sur technologie HTML5 duplication dune journee sur lautre des plages de programmation periodique declenchement dun favori ou dun scenario a partir de plusieurs declencheurs activation de plusieurs scenarios dune meme categorie dans un favori declenchement dun scenario sans telecommande en appuyant sur la touche  play  dans les interfaces suppression daccessoire sans supprimer les scenarios sauvegarde sur serveur de toute votre configuration (accessoires, favoris, scenarios) en cas de changement de box. Pratique en cas de SAV, la nouvelle box pourra prendre la releve avec toute votre configuration tres rapidement. Et surtout, arrivee dun tout nouveau menu Scenario Avance permettant doffrir encore davantage de possibilites !  Lors de notre test de cette box , cest en effet la partie qui faisait defaut, avec des scenarios assez vite limites. Par defaut, voici ce que proposait la partie scenario:   Maintenant, un nouveau menu scenario avance a fait son apparition. Avec cette nouvelle version, il est maintenant possible de: imbriquer plusieurs conditions pour declencher un scenario (par exemple, un detecteur, une plage horaire et letat de lalarme) creer des scenarios programmes plus fins (par pas dune seconde) jouer des scenarios en cas dalerte (par exemple, allumer toutes les lumieres en cas dalerte intrusion) creer des scenarios programmes avec une seule action (par exemple, un scenario qui ne fait quouvrir les volets mais qui ne les ferme pas)  
+    Comme on le voit, cest en effet beaucoup plus complet ! Avec ces quelques options ajoutees, les possibilites des scenarios vont tout de suite etre demultipliees :D Bon, par contre toujours pas possibilite de faire des requetes http pour piloter dautres equipements ;-)    Blyssbox   volets 
+        </text>
+</document>

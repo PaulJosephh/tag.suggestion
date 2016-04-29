@@ -1,0 +1,19 @@
+<document>
+	<date>2010-02-04</date>
+        <title>TEST : XANURA, des micromodules X10 bidirectionnels</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         
+ XANURA domotique Eaton-Holec X10 Nous avons realise un test avec un de ces produits, le micromodule  DAIX10 HomeSeer mControl 
+ Ce test a ete realise avec les elements suivants : CM11 XANURA DAIX10 mControl HomeSeer Le micromodule  DAIX10 
+ 1. Test avec mControl Pour utiliser la fonction de retour detat dans  mControl X10 Ce parametrage permet dobtenir le status du module meme si celui-ci est actionne par linterrupteur a impulsion. mControl 
+ Cec  2. Test avec  HomeSeer Pour utiliser la fonction de retour detat dans  HomeSeer Lamp Module w Status Ce parametrage permet dobtenir le status du module meme si celui-ci est actionne par linterrupteur a impulsion. HomeSeer  
+  HomeSeer Polling Devices Poll Devices Ainsi, notre module Lampe est bien detecte comme allume (ON). Les modules  XANURA  Tous les modules  XANURA Domadoo    Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

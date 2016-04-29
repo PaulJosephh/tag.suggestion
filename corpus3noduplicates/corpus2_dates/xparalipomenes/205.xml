@@ -1,0 +1,62 @@
+<document>
+	<date>2012-02-24</date>
+        <title>L&#8217;Europe et les donn&#233;es personnelles au prisme du Cloud</title>
+        <author>Mich&#232;le Battisti</author>
+        <tags_set>
+                <tag>cloud computing</tag>
+                <tag>Donn&#233;es personnelles</tag>
+                <tag>Europe</tag>
+        </tags_set>
+        <categories_set>
+                <category>Donn&#233;es personnelles</category>
+        </categories_set>
+        <text>
+                                                                                 Ce ne sont que quelques &#233;l&#233;ments (et non une analyse d&#233;taill&#233;e) du projet de  R&#232;glement europ&#233;en sur les donn&#233;es personnelles diffus&#233; le 25 janvier 2012 (pdf) par la Commission europ&#233;enne, tels qu&#8217;ils ont &#233;t&#233; pr&#233;sent&#233;s [1]   le 14 f&#233;vrier 2012, dans les ateliers &#171;&#160;donn&#233;es personnelles et &#171;&#160;Cloud Computing&#160;&#187; de l&#8217;ADIJ  dont la  premi&#232;re partie  de la r&#233;union avait mis l&#8217;accent sur plusieurs aspects de l&#8217;intersection Cloud /donn&#233;es personnelles. 
+ Un enjeu important 
+ La protection des donn&#233;es personnelle est un facteur de ralentissement majeur pour l&#8217;adoption de solutions Cloud en Europe. Le Cloud est, par ailleurs, un domaine o&#249; l&#8217;Europe entend imposer sa vision du traitement des donn&#233;es personnelles comme norme au niveau international. Et comme les grands acteurs du march&#233; du Cloud sont am&#233;ricains, s&#8217;y ajoute un enjeu &#233;conomique et politique. 
+ Ce n&#8217;est d&#8217;ailleurs  pas par une directive, mais par un R&#232;glement , bien plus contraignant, que l&#8217;Europe entend l&#233;gif&#233;rer sur cette question qui lui tient tr&#232;s &#224; c&#339;ur. Ce texte qui serait adopt&#233; en 2014 est aussi un enjeu pour plusieurs commissaires europ&#233;ens, tout comme la nomination du rapporteur du projet. Puisque le rapport serait confi&#233; &#224; l&#8217;un des repr&#233;sentants du Parti des verts, ceci ne manquera pas d&#8217;avoir des cons&#233;quences pour les obligations impos&#233;es aux entreprises, les   class actions  relatives aux donn&#233;es personnelles, la  portabilit&#233;  des objets,&#160; ou encore le droit &#224; l&#8217;oubli, &#8230; pour ne citer que quelques sujets qui seront impact&#233;s par le R&#232;glement. 
+ Les d&#233;fis &#224; relever 
+ 
+ La qualification juridique du prestataire de Cloud 
+ 
+ La r&#233;vision, en 2004, de la loi  Informatique et libert&#233;s  &#233;tait impos&#233;e par une directive europ&#233;enne datant de 1995, dont le d&#233;but des travaux remontait &#224; 1985. A cette &#233;poque, l&#8217;externalisation n&#8217;&#233;tait envisag&#233;e que pour g&#233;rer des relations contractuelles, simples, d&#8217;une entreprise avec une autre. Il &#233;tait naturellement impossible d&#8217;imaginer alors les potentialit&#233;s du Cloud, &#171;&#160;version tr&#232;s sophistiqu&#233;e de l&#8217;externalisation&#160;&#187;. 
+ La loi  Informatique et libert&#233;s  ne distingue donc aujourd&#8217;hui encore que le responsable du traitement, qui d&#233;termine les finalit&#233;s et la nature du traitement, et le sous-traitant qui agit sous sa direction. Le prestataire de Cloud, qui garde un certain contr&#244;le sur les traitements des donn&#233;es, et qui se situe ainsi entre le responsable de traitement et le&#160; sous-traitant passif, joue une un r&#244;le qui n&#8217;&#233;tait pas pr&#233;vu dans les textes. 
+ Pour r&#233;gler la question, la CNILavait sugg&#233;r&#233; lors d&#8217; un autre atelier de l&#8217;ADIJ &#160; [2] , que chaque acteur assume, dans le texte europ&#233;en, une responsabilit&#233; &#224; hauteur du contr&#244;le qu&#8217;il a sur les donn&#233;es personnelles. 
+ Un prestataire de Cloud pr&#233;sum&#233; &#234;tre sous-traitant, telle est, en revanche, la solution propos&#233;e dans le R&#232;glement europ&#233;en. Toute preuve contraire pourra &#234;tre apport&#233;e &#224; partir d&#8217;une s&#233;rie de crit&#232;res : le niveau d&#8217;instruction donn&#233; par le client, le degr&#233; de contr&#244;le de la prestation par le client, le niveau d&#8217;expertise du prestataire par rapport &#224; celle du client, le degr&#233; de transparence donn&#233; par le prestataire au responsable de traitement. Mais si la soci&#233;t&#233; pr&#233;sum&#233;e s/traitante se r&#233;v&#232;le  a posteriori  responsable du traitement ,  elle sera   sanctionn&#233;e pour n&#8217;avoir pas rempli les formalit&#233;s pr&#233;alables. Les op&#233;rateurs, tels que Microsoft, &#233;tant parfois responsable, parfois prestataire, ce cadre juridique ne serait pas adapt&#233; &#224; ce &#171;&#160;changement de casquette&#160;&#187;. 
+ 
+ L&#8217;encadrement des transferts de donn&#233;es personnelles hors de l&#8217;Union europ&#233;enne 
+ 
+ Des dispositions sp&#233;cifiques &#233;taient pr&#233;vues dans  la directive europ&#233;enne de 1995  pour tout transfert hors de l&#8217;Union europ&#233;enne, ses r&#232;gles, tout comme celles  mises en &#339;uvre par la loi Informatique et libert&#233;s  qui les transposent, doivent &#234;tre adapt&#233;es &#224; un environnement technique et organisationnel nouveau, en particulier &#224; celui du Cloud. 
+ Ce sont  cinq instruments juridiques  qui ont donc aujourd&#8217;hui encore l&#8217;aval de la CNIL. Ils pr&#233;sentent tous des difficult&#233;s, pr&#233;sent&#233;es pour la plupart d&#8217;entre elles dans un  atelier de l&#8217;ADIJ, en d&#233;cembre 2010 [3] . On se bornera donc aujourd&#8217;hui &#224; relever aujourd&#8217;hui qu&#8217;opter pour l&#8217;une des exceptions autoris&#233;es par la loi, implique tout de m&#234;me une autorisation dela CNIL, ce qui repr&#233;sente deux &#224; trois mois, voire un an d&#8217;attente pour obtenir une r&#233;ponse. Un tel d&#233;lai est incompatible avec la flexibilit&#233; du Cloud, comme nous l&#8217;avions soulign&#233; dans la premi&#232;re partie du compte rendu de&#160; la r&#233;union. 
+ 
+ Des r&#232;gles complexes et insatisfaisantes 
+ 
+ Parmi celles-ci&#160;: 
+ Avoir mis au m&#234;me niveau&#160; la responsabilit&#233; intentionnelle, et la responsabilit&#233; pour n&#233;gligence, sanctionn&#233;es toutes deux par des amendes administratives auxquelles il est impossible de d&#233;roger. 
+ Notifier sans d&#233;lai les failles de s&#233;curit&#233; &#224; sa CNIL et aux personnes concern&#233;es. Cette &#160;obligation g&#233;n&#233;ralis&#233;e &#224; toutes les entreprises oblige &#224; organiser, lorsqu&#8217;il y a externalisation des donn&#233;es, une remont&#233;e des informations qui risque de s&#8217;av&#233;rer complexe avec le Cloud, o&#249; le nombre d&#8217;intervenants se multiplie &#224; l&#8217;envi. 
+ Un guichet unique en Europe pour les entreprises. L&#8217;autorit&#233; administrative pour effectuer les d&#233;marches sera, en effet, celle du pays o&#249; se trouve l&#8217;&#233;tablissement principal. Les entreprises y sont favorables, si ce n&#8217;est qu&#8217;avec le Coud, la notion d&#8217;&#233;tablissement principal reste ambigu&#235;, et &#160; la Cnil, bien s&#251;r, s&#8217;y oppose . Comme les plaintes se feront aussi dans le pays de localisation principal, la CNIL souligne fort justement aussi que le droit de la consommation, qui privil&#233;gie le pays de r&#233;sidence du consommateur, est plus protecteur que le droit des donn&#233;es personnelles. 
+ Le R&#232;glement reprend le concept anglo-saxon d&#8217; accountability , soit une s&#233;rie d&#8217;obligations d&#233;taill&#233;es dans l&#8217;article 22 &#160;(nomination d&#8217;un correspondant informatique et libert&#233;s, programmes de protection des donn&#233;es, actions de sensibilisation, analyses d&#8217;impact, &#8230;) et celui de&#160; documentation &#160;des proc&#233;dures des allemands. Mais toutes ses dispositions repr&#233;senteraient un fardeau suppl&#233;mentaire pour les entreprises, sans incitation particuli&#232;re puisqu&#8217;en cas de d&#233;faillance, l&#8217;entreprise sera sanctionn&#233;e de la m&#234;me mani&#232;re, qu&#8217;elle ait fait preuve de diligence ou pas.&#160; Il aurait mieux fallu s&#8217;inspirer du droit de la concurrence, a-t-il &#233;t&#233; ajout&#233;. 
+ Un enjeu pour l&#8217;image des entreprises 
+ Le devoir de transparence, mis en exergue dans le R&#232;glement, joue pourtant d&#233;j&#224; pour les entreprises un r&#244;le fondamental, &#224; l&#8217;image du  Trust Center  de Microsoft (seule entreprise &#233;tant intervenue lors de cet atelier) permettant de conna&#238;tre &#224; tout moment la localisation des donn&#233;es (encore faut-il savoir l&#8217;interpr&#233;ter&#160;!), tout comme la notion de protection des donn&#233;es d&#232;s la conception des produits et services. 
+ Le fait que la protection des donn&#233;es personnelles devienne une arme commerciale&#160; et que cet aspect prenne, dans les offres de Cloud, une dimension strat&#233;gique, tel le point positif que nous retiendrons pour conclure ce bref compte rendu. 
+ Retrouver la premi&#232;re partie du compte rendu 
+ Illustr. Prism reflection 1877.  sburke2478 . &#160;Flickr. CC by 
+ 
+ Notes 
+ 
+ 
+ [1]  J&#8217;avoue n&#8217;avoir pas (encore) analys&#233; ce texte de 134 pages qui comporte &#160;91 articles. 
+ 
+ 
+ [2] &#160; Des propositions qui&#160; auraient d&#251; figurer dans un rapport dela CNIL non publi&#233; &#224; ce jour.La CNIL etla Commission europ&#233;enne ont organis&#233; chacune&#160; des consultations sur le Cloud. 
+ 
+ 
+ [3] &#160; L&#8217;Europe souhaite notamment renforcer le dispositif de  Safe Harbour  qui ne donne pas les garanties n&#233;cessaires, l&#8217;entreprise am&#233;ricaine adh&#233;rent &#224; ce dispositif pouvant contracter avec un sous-traitant localis&#233; dans un pays qui ne r&#233;pond pas aux crit&#232;res de l&#8217;Union europ&#233;enne. C&#8217;est ce qui a &#233;t&#233; rappel&#233;. 
+ &#160; 
+ 
+ 
+                                         
+                                                                                                        
+                                 
+        </text>
+</document>

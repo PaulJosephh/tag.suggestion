@@ -1,0 +1,85 @@
+<document>
+	<date>2013-08-31</date>
+        <title>Test du Smart Energy Switch de Aeon Labs (AEOTEC)</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>Aeon Labs</tag>
+                <tag>AEOTEC</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ Smart Energy Switch de Aeon labs 
+  
+ Aujourdhui notre partenaire  DeltaDomotique nous propose de tester le Smart Energy Switch de Aeon labs. 
+ 
+ Ca fait deja quelques temps que ce module Z-wave est sorti, mais nous sommes dans une ere, ou lon souhaite faire des economies et ce genre de module nous permettra justement de pouvoir en faire. 
+ Presentation 
+ Le Smart Energy Switch est un commutateur et mesureur de courant electrique dAEON LABS. Il permet la commande de tout appareil electrique ou eclairage a travers le protocole Z-Wave. Le Smart Energy Switch fonctionne avec des charges de puissance inferieur a 2300W. 
+ 
+ 
+ 
+ 
+ FONCTIONS : 
+ 
+ Commande eclairage et mesure de consommation electrique 
+ Fonction en commutateur ON / OFF 
+ Peut sinstaller derriere un meuble ou un espace etroit. 
+ Commutation locale a travers un bouton 
+ Affiche le statut a travers Une LED integree 
+ 
+  
+ CARACTERISTIQUES TECHNIQUES : 
+ 
+ Type de module : Recepteur Z-Wave 
+ Frequence : 868,42 Mhz 
+ Type de prise : Europeenne 
+ Alimentation : 230 V, 50 Hz 
+ Puissance maximum supportee :2300W / 10A 
+ Portee : 30 m 
+ Affichage: LED bleue sur le bouton 
+ Certifications : UL, FCC, CE, C-TICK, ROHS 
+ 
+ Il existe un autre module de ce type qui est variateur, celui que nous testons actuellement et un module on /off. Son plus grand atout est de pouvoir mesurer la consommation denergie . 
+ Voyons son inclusion sur le Home Center 2 de Fibaro et sur lEedomus a titre dexemple 
+ sur le Home Center 2 de Fibaro 
+ 
+ 
+ sur leedomus 
+ 
+ 
+ En conclusion 
+ Cest un module simple (on /off), mais efficace, vous pourrez le positionner derriere vos appareils (TV, electromenagers, ). Il ameliorera vos consommations denergie, ce qui est un bon atout par les temps qui courent. Ce module est disponible chez  DeltaDomotique  au prix de 59 . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

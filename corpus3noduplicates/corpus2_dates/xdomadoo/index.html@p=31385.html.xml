@@ -1,0 +1,47 @@
+<document>
+	<date>2014-06-23</date>
+        <title>Guide dinstallation du module Prise Commutateur/Mesure dnergie AN158-6 EVERSPRING avec le Home Center 2 et Home Center Lite</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>AN158-6</tag>
+                <tag>everspring</tag>
+                <tag>fibaro</tag>
+                <tag>guide</tag>
+                <tag>hc lite</tag>
+                <tag>hc2</tag>
+                <tag>mesure energie</tag>
+                <tag>prise commandee</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Z-Wave</category>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                         Le Home Center 2 et le Home Center Lite communiquent nativement en utilisant la technologie Z-Wave . Z-Wave Everspring ce guide 1- Inclusion Rendez-vous sur linterface de votre controleur  Fibaro Cliquez ensuite sur Add or remove device situe a gauche de votre interface. Cliquez sur le bouton Ajouter dans la rubrique Ajouter un module pour inclure ce module. Si votre module a deja ete inclus dans un autre reseau  Z-Wave Apres avoir clique sur Ajouter (dans la rubrique Ajouter un module), une nouvelle fenetre nommee Ajout des modules apparait avec un compte a rebours durant lequel vous devez appuyer brievement (1.5 seconde) 3 fois sur le bouton dapprentissage (le bouton dinclusion de votre module  Z-Wave Ce bouton dapprentissage est situe a lavant de votre module. Une fois que votre module est detecte par votre Home Center 2, celui-ci va etre configure automatiquement. Il apparait desormais dans linterface de votre controleur dans la rubrique Modules. 2- Configuration Apres avoir correctement installe votre module, vous pouvez modifiersa configuration en cliquant sur licone cle a molette ou sur lidentifiant de votre module dans le menu Modules situe a gauche de votre interface. Dans la categorie General de votre module, vous pouvez indiquer son nom, la piece dans laquelle il se situe. Vous pouvez egalement visualiser les informations de ce module : genre, type de module, fabricant, version, configuration et ID. Dans la categorie Avance, vous pouvez visualiser et configurer des parametres supplementaires. Voici les parametres que vous pouvez configurer : Avance : Delai entre chaque interrogation : Vous pouvez definir un temps pour demander a ce dispositif si il est vivant plus frequemment que dans le reglage dun delai dinterrogation du Zwave dans un reseau Zwave. Appareil commande : Permet de selectionner le type dappareil que vous commandez avec votre module pour placer dans la bonne categorie de fonction (eclairage, capteurs). Afficher les modules enfants : Par exemple, pour le cas dun  2 x 1,5 kW, pour montrer 2eme canal cache Ne pas marquer comme mort : Votre  dispositif ne doit pas etre marque comme mort le desactivez Show energy consumption measurements : Visualiser les mesures de consommation electrique. Clear historical energy data : En cliquant sur Clear, vous effacez lhistorique des donnees denergie. Save logs to Event Panel :  Utiliser ce dispositif dans le panneau devenements ou non Minformer : Par  SMS SMS Par email : Vous etes informe par email pour toute action du module (allumage, extinction ou changement de statut). Par notification Push : Vous recevez une alerte dinformation sur lecran de votre tablette ou smartphone pour toute action du module (allumage, extinction ou changement de statut). Lili commande allumer : Vous pouvez mettre en place un mot qui sera utilise pour la commande vocale (lors de la commande vocale, en disant ce mot, votre module sactivera). Les mots turn ON/OFF, Dimm, Open/Close sont deja integres. Lili commande eteindre : Vous pouvez mettre en place un mot qui sera utilise pour la commande vocale (lors de la commande vocale, en disant ce mot, votre module se desactivera). Les mots turn ON/OFF, Dimm, Open/Close sont deja integres. Description du module : Associations : Configuration : Configurer les valeurs par defaut : Permet de configurer les valeurs par defaut. Reload parameters : permet de recharger les parametres. 3- Visualisation de la consommation Le module AN158-6affiche la puissance instantanee de la charge (a gauche) ainsi que la puissance totale consommee (a droite). Dans la rubrique Energie votre interface, vous pouvez visualiser les details de la consommation de votre module AN158-6. Pour cela, cochez ce module dans le menu a gauche de votre interface. Vous visualisez la puissance actuelle mesuree ainsi que la consommation cumulee. Vous pouvez ensuite visualiser sous forme dun graphique, lenergie utilisee en temps reel ou durant une periode definie (heure, jour, mois, annee). Vous visualisez egalement la repartition de la consommation denergie dans les pieces. Vous pourrez constaterle top 5 des appareils consommateurs. 4-Exemple de scene Votre imagination est la seule limite pour creer une scene. Nous vous presentons dans cet article un premier exemple de scene en utilisant la methode blocs graphiques (option disponible sur le Home Center 2 et Home Center Lite) et un second exemple de scene en utilisant la programmation en LUA (option uniquement disponible sur le Home Center 2. Cette option permet de realiser des scenes plus elaborees). Vous devez en premier lieu vous rendre dans la rubrique Scenes situe en haut, dans le menu de votre interface puis cliquezsur Ajouter dans la rubrique Ajouter une scene. Dans General, vous pouvez configurer le nom de la scene et la piece dans laquelle elle se situe, loption dafficher ou non la scene dans linterface, la commande vocale pour mettre en marche ou arret la scene, une option dactivation de la scene, que celle-ci se lance lors du demarrage du Home Center 2, la proteger avec mot de passe et permettre ou non a une alarme qui senclenche darreter la scene. Rendez-vous ensuite dans la rubrique Avance. 3.1- Blocs graphiques(Home Center 2 et Home Center Lite) Pour creer une scene en utilisant la methode des blocs graphiques, cliquez sur Ajouter dans Ajouter une scene en utilisant les blocs graphiques. Cliquez ensuite sur le bouton +. Un menu apparait pour choisir vos elements. Lorsque vous selectionnez un element (exemple : module), un bouton condition est disponible et vous devez choisir parmi les options suivantes : Et, Ou, Alors. Voici un exemple de scene : Si mon detecteur de mouvement FGMS-001 est arme et detecte un mouvement, alors mon module AN158-6 se met sur ON et active une sirene. Veuillez noter que loption  Detecteur mouvement  dans Triggering device est cochee. Cela signifie que votre scenario senclenche automatiquement des la detection de mouvement. 3.2- Programmation LUA (Home Center 2 uniquement) Pour creer une scene en utilisant la methode LUA, cliquez sur Ajouter dans Ajouter une scene en LUA. Vous pouvez desormais ecrire votre scene en langage LUA. Voici un exemple de scene : Si mon detecteur de mouvement FGMS-001 detecte un mouvement, alors mon module AN158-6 active ma lampe durant 5minutes puis seteint. Etape 1 : Identifier les numeros ID de vos modules Nous devons connaitre les numeros identifiants des modules (ID) :  Detecteur de mouvement : 831  Module AN158-6 :  918 Pour retrouver vos numeros identifiants des modules, accedez a la rubrique Modules dans votre interface puis cliquez sur loutil en forme de cle a molette sur votre module. Vous etes ensuite sur la rubrique General de votre module et pouvez visualiser son numero ID. Etape 2: Rediger votre scene (fonctions, numeros ID, type daction) Etant donne que nous voulons un declenchement automatique, nous devons utiliser la fonction Trigger (nous devrons alors declarer cette fonction dans lentete avec le numero ID du module suivi du mot value). Nous allons egalement ajouter les fonctions IF et THEN (SI et ALORS), Call (pour realiser laction) Sleep (pour la temporisation) et les ID des modules.  Pour letat du detecteur de mouvement, la valeur  1 detection 0 aucune detection  Une action secrit :  fibaro 918 turnOn  Pour la temporisation, la valeur indiquee est en ms. Pour lactivation du module AN158-6durant 5 minutes, cela correspond a 300secondes soit 300 000 ms. Pour finir, il faut indiquer le mot  end Voici notre scene complete : 
+--[[
+%% properties
+
+831 value
+
+%% globals
+--]]
+
+local DetecteurMouvement
+
+DetecteurMouvement = fibaro:getValue(831, 'value' )
+
+if (DetecteurMouvement == '1') then
+
+fibaro:call(918, 'turnOn')
+
+fibaro:sleep(300000)
+
+fibaro:call(918, 'turnOff')
+
+end
+ Attention : pour la programmation en LUA, vous devez bien respecter la syntaxe car votre scenario ne pourra fonctionner si il y a une faute de signe, chiffre ou lettre. Ce module AN158-6 peut bien evidemment servir pour dautres applications (activer un convecteur, une lampe etc). Pour plus dinformations,decouvrez notre guide de creation de scenarios (blocs graphiques et LUA) avec le Home Center 2 .   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

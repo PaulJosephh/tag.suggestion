@@ -1,0 +1,16 @@
+<document>
+	<date>2011-03-04</date>
+        <title>Guide dinstallation du contrleur domotique VERA 2</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         
+  Le controleur VERA de  Micasaverde domotique Z-Wave Z-Wave Il est possible de  definir des scenarios et les executer sur declenchement de   plusieurs evenements. Le controle de VERA se realise via un PC, mais aussi   avec  tout autre appareil qui est connecte a Internet, comme un   telephone  cellulaire,  Apple 
+      Le controleur VERA est livre avec un guide de demarrage rapide, un adaptateur secteur, une batterie, un cable dalimentation Jack, un cable  RJ45  Afin dassocier le controleur VERA avec des modules  Z-Wave Dans un premier temps, chargez cette batterie en la connectant a ladaptateur secteur et a une prise de courant. La LED sallume rouge.  Apres a peu pres 8H, la batterie est completement chargee. Vous pouvez la debrancher et commuter linterrupteur sur la position OFF. Connectez le cable dalimentation et le cable  Ethernet  Connectez ladaptateur secteur sur une prise electrique et attendez 2 minutes environ que VERA demarre. Quand le voyant ZWave sallume, VERA est prete.  Verifiez que la LED ETH1 est allumee. Elle indique que VERA a une connexion Internet. A partir dun ordinateur equipe dun navigateur Internet, tapez ladresse  http://micasaverde.com/vera2  Lapplication scanne le reseau pour trouver VERA. Son numero de serie et son adresse IP saffiche. Cliquez sur SETUP.  Vous etes maintenant invite a ouvrir un compte sur le portail myMIOS afin de pouvoir acceder a votre VERA a distance. Vous pouvez accepter en cliquant sur Go to  mios MIOS  Selectionnez votre fuseau horaire ainsi que lunite de temperature. En dessous, indiquez votre pays, votre region, votre ville et le cout du KWh delectricite. Cliquez ensuite sur Next.  Vous devez maintenant ajouter les modules, detecteurs ou cameras que vous souhaitez controler avec VERA.  Lajout des peripheriques peut etre realise a partir de linterface simple ci-dessus en seulement 3 etapes. Cest egalement possible a partir de linterface de commande. Cliquez sur licone DASHBOARD   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

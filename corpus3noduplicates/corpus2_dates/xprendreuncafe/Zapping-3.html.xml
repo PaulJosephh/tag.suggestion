@@ -1,0 +1,29 @@
+<document>
+	<date>2006-10-10</date>
+        <title>CMS, bonhomme en mousse, Rollex et tout ce qui s'en suit</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>cms</tag>
+                <tag>flash</tag>
+                <tag>framework</tag>
+                <tag>google</tag>
+                <tag>haha</tag>
+                <tag>javascript</tag>
+                <tag>linux</tag>
+                <tag>video</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>
+ Yooggle, Gootube, bref, je ne vais pas revenir sur  l'acquisition de l'annee . La question qu'on peut raisonnablement se poser reste  POURQUOI FAIRE BORDEL ? 
+ Pep nous signale  un excellent article sur  Vitamin  concernant le  mythe du CMS ; cet article resume tres bien ce que je pense depuis pas mal de temps, a savoir qu'aucun  systeme de gestion de contenu  ( CMS ) ne saura jamais gerer entierement la complexite de vos contenus (ou ceux de vos clients), et que l'y pousser est AMHA totalement contre-productif en regard de l'utilisation d'outils plus bas niveau comme les frameworks, associes aux methodes de developpement agiles. 
+ Cette  image sans fin  est de toute beaute (Flash.) 
+ Le  petit hardos en mousse , deja dans les bacs (Via  ScoopekNo' ) 
+ Une recherche d'images sur Google pour les mots-cle  Rollex watches  renvoie des resultats surprenants. 
+ Heureusement pendant ce temps-la, la science progresse et  assene des evidences  qui n'avaient echappe a personne  
+ Sinon sans transition, entrez cette petite ligne de javascript dans la barre d'adresse de votre navigateur sur n'importe quel site, pour voir  ( via ): 
+ 
+ javascript:R=0; x1=.1; y1=.05; x2=.25; y2=.24; x3=1.6; y3=.24; x4=300; y4=200; x5=300; y5=200; DI=document.images; DIL=DI.length; function A(){for(i=0; iDIL; i++){DIS=DI[ i ].style; DIS.position='absolute'; DIS.left=Math.sin(R*x1+i*x2+x3)*x4+x5; DIS.top=Math.cos(R*y1+i*y2+y3)*y4+y5}R++}setInterval('A()',5); void(0); 
+        </text>
+</document>

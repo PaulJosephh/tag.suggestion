@@ -1,0 +1,21 @@
+<document>
+	<date>2013-09-18</date>
+        <title>Installation du module Fortrezz MIMOlite avec la VeraLite</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>guide</tag>
+                <tag>i/o</tag>
+                <tag>installation</tag>
+                <tag>mimolite</tag>
+                <tag>tuto</tag>
+                <tag>veralite</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                         La  VeraLite domotique Fortrezz VeraLite Tout dabord, verifiez que vous disposez au minimum de la version 1.5.622 du firmware de la  VeraLite Le MIMOlite est livre avec son manuel dutilisation (en Anglais). Pour acceder aux differents borniers du MIMOlite, commencez par retirer les deux vis situes sur le dessus du boitier. On decouvre alors linterieur de ce petit module. De gauche a droite, nous avons :  Bouton dinclusion/exclusion  Z-Wave relais Et enfin, le jumper P5 pour choisir le mode de la sortie  relais Commencons par alimenter le MIMOlite avec une alimentation 9-24 VDC ou 9-18VAC. Le voyant rouge se met a clignoter pour indiquer que le MIMOlite ne fait pas parti dun reseau  Z-Wave A partir de linterface utilisateur de votre  VeraLite Cliquez sur le bouton Ajouter de la premiere ligne. Puis selectionnez loption que vous souhaitez. Dans notre cas, nous choisissons de laisser notre  VeraLite Le MIMOlite sera reconnu automatiquement. Si ce nest pas le cas, appuyer une fois brievement sur le bouton du MIMOlite.Le module a ete trouve, cliquez alors sur Suivant. Vous pouvez donner un nom au module et lassigner dans une piece, puis cliquez sur Fermer. Cliquez maintenant sur Sauver en haut a droite, puis sur Continuer. Vous pouvez retrouver votre module dans la liste des modules : Pour linstant seule la partie  relais Allez donc dans longlet Applications, puis dans Installer des applications. Vous devez disposer dun compte  MIOS Faites une recherche avec le mot mimolite. Installez ensuite le plugin. Une fois le plugin installe, un nouveau peripherique generique fait son apparition : Allez dans la configuration de ce peripherique en cliquant sur la cle a molette, puis allez dans longlet Avance. Reperez le champ des variables MIMO_DEVICES, puis entrer le numero ID de votre MIMOlite physique (dans notre cas cest lID n 11). Fermez la fenetre, puis sauvegardez. 3 nouveaux peripheriques font ainsi leur apparition. Ils representent les differentes possibilites de lentree analogique/numerique du MIMOlite. Vous pourrez utiliser ces nouveaux peripheriques dans des scenes ou des programmations.   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

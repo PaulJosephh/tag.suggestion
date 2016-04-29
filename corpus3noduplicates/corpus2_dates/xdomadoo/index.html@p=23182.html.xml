@@ -1,0 +1,14 @@
+<document>
+	<date>2012-11-13</date>
+        <title>Utilisation de la tlcommande porte-cls 4 boutons Aeon Labs avec la Vera</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                          Apres avoir inclus votre telecommande avec votre Vera   Cliquez sur la cle a molette pour acceder a la configuration du module, puis allez dans longlet Options du module.   Cliquez sur le bouton Ajouter des parametres de configuration, et entrez la variable (250), la taille des donnees (1 byte hex) et la valeur desiree (1).   Allez ensuite dans longlet Parametres, puis cliquez sur Configurer le nud maintenant.   A laide dun trombone, appuyez 3 secondes sur le bouton Learn de la telecommande pour la reveiller le temps de la configuration. Il peut etre necessaire de le faire 2 fois de suite.   Appuyez a laide dun trombone sur le bouton Mode de la telecommande, afin de sortir du mode Configuration. Lappui sur une touche doit maintenant generer un clignotement de la LED en vert.   Vous pouvez maintenant creer des scenes pour les associer a chaque bouton.   Il faudra indiquer quel est le declencheur, choisissez donc votre telecommande, selectionnez Une scene est activee, donnez un nom a ce declencheur, et indiquez le numero de la scene. Sauvegardez vos modifications.  Scene 1 correspond au bouton en haut a gauche (bouton 1)  Scene 2 correspond au bouton en haut a droite (bouton 2)  Scene 3 correspond au bouton en bas a gauche (bouton 3)  Scene 4 correspond au bouton en bas a droite (bouton 4)  Pour linstant le  Vera   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

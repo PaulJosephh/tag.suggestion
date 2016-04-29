@@ -1,0 +1,17 @@
+<document>
+	<date>2014-02-13</date>
+        <title>
+Utiliser AirPrint et Google Cloud Print sur son Synology</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Airprint</tag>
+                <tag>Google Cloud Print</tag>
+                <tag>Synology</tag>
+                <tag>Xpenology</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Informatiques</category>
+        </categories_set>
+        <text>Depuis que ma femme a son iPad, elle nutilise plus le PC. LiPad repond parfaitement a son besoin et est plus agreable a utiliser, chose que je ne pourrai pas refuter :p Son seul reproche: quand elle veut imprimer quelque chose, cest complique. Il ny a pas de moyen direct, en general elle menvoit le document ou le lien pour que je le lui imprime Il existe bien sur  Airprint , qui permet dimprimer depuis un iPhone ou un iPad vers une imprimante compatible Airprint ! Chose que je nai pas :/ Enfin, que je ne  pensais  pas avoir: en effet, depuis que jai installe  Xpenology sur mon Proliant (pour avoir lequivalent dun Nas Synology , donc), sans le savoir javais la possibilite dutiliser ce moyen dimpression, puisque  Synology la ajoute a ses NAS depuis 2011 . Il suffit pour cela de brancher limprimante en Usb sur le Synology (jusqua deux imprimantes supportees), ou de connecter son imprimante au reseau si elle dispose de cette fonction.Mon imprimante date un peu, une multifonction HP 6100, mais elle a au moins le merite davoir une connexion reseau, ce qui ne me pose donc pas de probleme pour la brancher au Proliant qui est dans le garage Dans le panneau de configuration, il faut se rendre dans la partie Peripheriques et imprimantes:   On demande a ajouter une imprimante, et la, on renseigne ladresse IP de celle ci sil sait dune imprimante reseau comme la mienne. Sinon elle est reconnue automatiquement:   A letape suivante, on voit que le modele de limprimante a ete reconnu automatiquement par le Synology, il ny a plus qua lui donner un nom:   Ensuite, on arrive a la selection des services. On active bien sur Airprint, mais on sapercoit que le service  Google Cloud Print  est egalement supporte: ce service, tout comme Airprint dApple, permet dimprimer depuis un appareil Android. Cela tombe bien, puisque je viens d echanger mon iPhone contre un Nexus 5  :D Je renseigne donc les identifiants de mon compte Google (adresse gmail et mot de passe) et jactive aussi ce service:   Le Synology debloque automatiquement les ports necessaires au fonctionnement de ces services:   Voila, la configuration est terminee. Enfantin !   Maintenant, sur liPad, par exemple, si je veux imprimer, dans les options denvoi / partage de lapplication, il suffit de selectionner Imprimer:   La on a le choix des imprimantes decouvertes via Airprint:    Voila, il ny a plus qua lancer limpression:   Les parametres dimpression sont certes limites au minimum (dependant de lapplication), mais nous pouvons au moins imprimer directement, sans passer par un pc, et cela se fait tres rapidement. La meme chose est realisable avec Google Cloud Print. Sur mon Nexus 5, mon imprimante a ete automatiquement trouvee:   Mais le service Google va un peu plus loin, car il est possible denvoyer limpression a Google Cloud Print directement, qui le stockera en attendant de pouvoir etre imprime:   Voila donc une fonctionnalite bien pratique ! Decidement, jen decouvre tous les jours sur le Synology ;-)   Airprint   Google Cloud Print   Synology   Xpenology 
+        </text>
+</document>

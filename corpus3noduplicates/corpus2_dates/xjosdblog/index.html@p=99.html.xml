@@ -1,0 +1,18 @@
+<document>
+	<date>2007-10-30</date>
+        <title>Synology DS107e : rdiff-galres</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Galeres</category>
+                <category>Synology</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Je souhaitais faire des sauvegardes de mon disque externe sur mon DS107e en utilisant la commande  rdiff-backup monte certains repertoires en CIFS rencontre mes premieres difficultes rdiff-backup Using rdiff-backup to backup files to a server mounted via smbfs or CIFS has been a troublesome configuration for some users. Mounting via smbfs tends to be more reliable than CIFS, although it is deprecated on Linux and does not support files greater than 2 GB. See the FAQ for more on this setup.
+ rdiff-backup 
+Tant  pis, ou plutot tant mieux, car jai eu une meilleur idee : installer  rdiff-backup cron rdiff-backup cron ipkg rdiff-backup Exception ''module' object has no attribute 'gettempdir'' raised of class 'exceptions.AttributeError': rdiff-backup rsync installe et configure 
+        </text>
+</document>

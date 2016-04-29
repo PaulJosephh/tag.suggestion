@@ -1,0 +1,18 @@
+<document>
+	<date>2014-09-10</date>
+        <title>Yetu, la box domotique allemande qui veut tout interconnecter</title>
+        <author> Cdric L. </author>
+        <tags_set>
+                <tag>fibaro</tag>
+                <tag>ifa</tag>
+                <tag>Yetu</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>News</category>
+        </categories_set>
+        <text>
+                                                         Apres avoir visite les stands que nous avions reperes sur la liste des exposants, la chose que nous aimons par dessus tout est deambuler sans but dans les allees des salons a la recherche de pepites. Il existe en effet de nombreuses solutions dont personne ne parle, peu connues, mais pourtant tres interessantes. Cest le cas de  Yetu domotique Au detour dune allee, nous avons donc apercu ce petit stand qui ne payait pas de mine: Quand tout a coup nous avons apercu des peripheriques  Fibaro Netatmo Nous nous sommes donc rapproches pour decouvrir cette petite box Yetu: Cette solution existe en fait depuis un an: elle etait avant tout basee sur le suivi de la consommation denergie,qui nutilisait pas decapteurs particuliers a installer, grace a la technologie de desagregation de signal (NIALM):un tel systeme utilise des algorithmes de traitement du signal avances pour desagreger les courbes de charge en consommations individuelles des appareils reconnus.On obtient ainsi une courbe de charge pour chaque appareil ou groupe dappareils reconnus,  comme si  un compteur avait ete utilise. Cette methode est vraiment tres pratique pour mesurer la consommation des differents appareils sans lourde installation. Mais Yetu veut aller plus loin, en proposant une passerelle entre les differents equipements  domotique La box Yetu sappuie donc sur ces differentes technologies: Niveau hardware, elle se veut relativement complete, puisquelle propose: processeur ARM Cortex -A9 dual core processor 1 GB SDRAM 1 GB FLASH WLAN Z-Wave ZigBee Bluetooth Ethernet HDMI Full HD 1  USB en interne:3x  USB Multicolor LED 12V, 2A external power supply systeme dexploitation  Linux Telecommande Tout cela dans un boitier de175mm x 175mm x 42mm. Les ports  USB USB EnOcean De base, elle pourra deja utiliser des peripheriques  Z-Wave ZigBee Bluetooth Cote interface, celle ci se presente sous forme de tuiles, a la mode, chaque tuile representant une application: On peut ainsi avoir une application  domotique Netatmo Philips Hue Withings Fitbit HDMI Une petite demo nous a ete faite, avec une personne qui sonne a la porte dentree pendant quon regarde un clip sur Youtube: la video se met en pause et la TV affiche limage de la camera: On peut ainsi etre averti sur la TV de nimporte quel evenement, mais egalement piloter toute sa maison, ou encore consulter des statistiques sur son poids, son activite physique, sa consommation denergie, etc Toutes les utilisations sont envisageables, la passerelle etant totalement ouverte aux developpeurs. Le but de la societe nest dailleurs pas de developper toutes ces applications, mais de laisser le champs ouvert aux developpeurs qui le souhaitent, et trouver des partenaires pour ajouter des bouquets de services, comme ils viennent de le faire avec Deutsch Telecom par exemple. Pour linstant cette solution est destinee au marche allemand, mais une arrivee en France ne sera pas inenvisageable  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

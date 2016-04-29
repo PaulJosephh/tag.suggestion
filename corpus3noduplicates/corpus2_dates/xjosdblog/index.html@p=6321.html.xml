@@ -1,0 +1,39 @@
+<document>
+	<date>2015-02-14</date>
+        <title>Dtecteur Z-Wave Fibaro Smoke Detector FGSD-002</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Fibaro</tag>
+                <tag>Vera</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Modules</category>
+        </categories_set>
+        <text>
+                                                 Description 
+ 
+Le  Fibaro Smoke Detector FGSS-001 Smoke Sensor FGSS-001 EN 14604 
+Ce billet est volontairement court et se concentre sur ce qui differe avec la version FGSS-001. Ne pas hesiter a lire le billet du  Smoke Sensor FGSS-001 Inclusion / exclusion 
+ 
+Pour inclure manuellement le  Smoke Sensor Smoke Sensor Reinitialisation complete du Smoke Sensor 
+La documentation nest pas conforme avec le fonctionnement de mon exemplaire car la led ne passe jamais ni au blanc, ni au jaune.
+ 
+ Exclure le  Smoke Sensor Appuyer et maintenir pendant 3 secondes le bouton rond situe sur le dessus du  Smoke Sensor Un signal court doit retentir Relacher le B-button Attendre que la LED sallume en rouge Appuyer et relacher le B-button Lindication lumineuse devient rouge puis seteint pour confirmer le succes de loperation ; un bref signal sonore est egalement emit Association avec la Vera Lite (UI5, firmware beta 1.5.672) 
+  Je suppose que ce module recent nest pas compatible avec les firmwares de la  Vera Lite 
+ Inclure le  Smoke Sensor Une fois le  Smoke Sensor _Generic IO _Temperature Sensor Modifier le module  _Generic IO D_SmokeSensor1.xml Clef Advanced device_file D_SmokeSensor1.xml D_GenericIO1.xml 
+ Apres quelques essais, il savere que ce detecteur ne doit pas etre compatible avec la Vera Lite en UI5 firmware beta 1.5.672. La temperature fonctionne, mais lalerte incendie nest pas remontee. En fait, le device  _Generic IO Tripped Association avec la Vera Lite (UI7 firmware 1.7.513) 
+ 
+ Inclure le  Smoke Sensor Une fois le  Smoke Sensor 
+ Apres quelques essais, il savere que ce detecteur ne doit pas etre compatible non plus avec la Vera Lite en UI7 firmware 1.7.513 ou meme 1.7.541. La temperature fonctionne, mais le device detecteur ne comporte toujours pas de champs  Tripped Test du bon fonctionnement de lalerte du Smoke Sensor 
+ 
+Appuyer et maintenir le B-button pendant plusieurs secondes jusqua ce que lalarme retentisse. Verifier que la box domotique Z-Wave est bien notifiee de lalarme.
+ Parametres avances 
+ 
+Ce qui apparait clairement apres une breve exploration, cest que les parametres ne sont pas les memes que ceux du  Fibaro Smoke Sensor FGSS-001 Informations et sources 
+ 
+Shopping:  Detecteur Z-Wave Fibaro Smoke Detector FGSD-002 FGSD-002 Notice en francais FGSD-002 Notice en anglais Detecteur Z-Wave Fibaro Smoke Sensor FGSS-001 Ou installer les detecteurs de fumee ? 
+ Sommaire Domotique 
+        </text>
+</document>

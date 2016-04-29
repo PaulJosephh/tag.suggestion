@@ -1,0 +1,185 @@
+<document>
+	<date>2005-03-17</date>
+        <title>Logiciels ( mes yeux) indispensables sous Ubuntu Hoary</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Note :  En l'absence d'un lien, le paquet est telechargeable via Synaptic  
+
+
+ Administration du systeme 
+ 
+ gcursor  - Permet d'ajouter de nouveaux jeux de  curseurs/pointeurs de souris 
+ webmin  - interface web d'administration de la machine et des services, a laquelle se greffent beaucoup de modules 
+ 
+
+ $ sudo apt-get install gcursor webmin webmin-core 
+        webmin-mon webmin-postfix 
+
+
+ Conception, Mise en page 
+
+ 
+ dia  - outil de creation de diagrammes (domaines divers, export UML possible) 
+ scribus  - Outil de mise en page, a la maniere d'Xpress ou d'inDesign 
+ 
+
+ $ sudo apt-get install dia scribus 
+
+
+ Editeurs de texte 
+
+ 
+ SciTE  - Un editeur de texte simple et performant, grandement configurable, base sur Scintilla 
+ gedit  - L'editeur par defaut de Gnome, sa puissance est bien reelle, notamment grace aux plugins 
+ 
+
+ $ sudo apt-get install scite 
+
+
+ Flash 
+
+ 
+ MTASC  - Compilateur actionScript 2 en ligne de commande  
+ flashplayer-mozilla  - plugin flashplayer pour mozilla  firefox 
+ 
+
+ $ sudo apt-get install flashplayer-mozilla 
+
+
+ Gestion de projet 
+
+ 
+ planner  - Excellent outil de gestion de projet 
+ 
+
+ $ sudo apt-get install planner 
+
+
+ Jeux 
+
+ 
+ chromium  - Un shoot'em up OpenGL fort sympathique. 
+ tuxracer  - Un jeu de glisse en pingouin sous OpenGL... A essayer d'urgence! 
+ scummv  - Machine virtuelle pour jeux videos "point and click" (Script Creation Utility for Maniac Mansion, de LucasArts)
+ 
+ beneath-a-steel-sky  - jeu d'aventure pour scummvm 
+ flight-of-the-amazon-queen  - jeu d'aventure pour scummvm 
+ 
+ 
+
+ $ sudo apt-get install scummvm beneath-a-steel-sky 
+        flight-of-the-amazon-queen chromium tuxracer 
+
+
+ Librairies, addons, environnements tiers 
+
+ 
+ msttcorefonts  - Polices de caracteres Microsoft, pour afficher convenablement les sites et applications les utilisant. 
+ Java Runtime Environnement  - La machine virtuelle Java. 
+ 
+
+ $ sudo apt-get install msttcorefonts 
+
+
+ Mail clients, Newsreader, Agregateurs 
+
+ 
+ mozilla-thunderbird  - LE client de messagerie mail, l'alternative legere a Evolution 
+ liferea  - Agregateur de fils RSS tres sympa 
+ 
+
+
+ $ sudo apt-get install liferea 
+
+
+ Messengers 
+
+ 
+ gaim  - client de messagerie instantannee multiprotocole 
+ 
+
+ Multimedia 
+
+ 
+ w32codecs, libdvdcss2, gstreamer-mad  - Codecs et librairies pour lire tout type de flux videos 
+ xmms  - Le Winamp de Linux   - attention, il faut utiliser la sortie esd
+ 
+ xmms-skins  - Skins supplementaires pour xmms 
+ xmms-cdread  - Pour lire les CD ausios depuis xmms 
+ xmms-crossfade  - pour enchainer impecablement les morceaux 
+ 
+ vlc  - Le lecteur multimedia 4x4 et all-included.  ( Catalogue de skins ). Ne pas oublier d'installer la gestion esd (vlc-esd), necessaire sous Ubuntu. 
+ beep-media-player  - Beep Media Player, un fork de XMMS tres leger et performant 
+ mozilla-mplayer  - plugin d'affichage video embarque pour les navigateurs mozilla  firefox (lit les videos aux codecs  exotiques ) 
+ 
+
+ $ sudo apt-get install w32codecs libdvdcss2 
+        gstreamer-mad xmms vlc wxvlc gvlc vlc-esd 
+        beep-media-player mozilla-mplayer 
+
+
+ Reseau 
+
+ 
+ nmap  - l'indispensable outil d'audit reseau en ligne de commande (ex:  $ nmap * localhost   pour un portscan en local) 
+ ethereal  - Outil graphique d'audit reseau 
+ 
+
+ $ sudo apt-get install nmap ethereal 
+
+
+ Son, edition sonore 
+
+ 
+ audacity  - un editeur sonore 
+ ardour  - station de travail audionumerique 
+ rezound  - editeur audionumerique 
+ 
+
+ $ sudo apt-get install audacity ardour rezound 
+
+
+ Utilitaires, Accessoires 
+
+ 
+ rar unrar  - pour archiver/desarchiver les archives au format RAR 
+ gdesklets  - widgets graphiques configurables qui se placent sur le bureau Gnome 
+ qt3-qtconfig  - pour parametrer l'affichage des applis Qt sous Gnome 
+ mcrypt  - permet de crypter un mot de passe (utile pour webmin, apache, ...) 
+ gnome-clipboard-daemon  - Recuperer la persistance du copier-coller 
+ graveman  - graver ces CDs et ses DVDs le plus simplement du monde 
+ 
+
+ $ sudo apt-get install rar unrar gdesklets gdesklets-data 
+        qt3-qtconfig mcrypt graveman 
+
+
+ Video, montage, compression 
+
+ 
+ kino  - un banc de montage virtuel audio/video simple et performant 
+ 
+
+ $ sudo apt-get install kino 
+
+
+ Web 
+
+ 
+ apache2 php4 mysql  - est-il encore necessaire de presenter ce trio d'enfer?  
+ phpMyAdmin  -  Interface web  d'administration de  MySQL 
+ gFTP  - client FTP gtk simple et performant 
+ proftpd  - Serveur FTP simple et performant (proftpd-mysql pour gerer les users depuis phpMyAdmin) 
+ aMule  - la version Linux du celebre client de P2P eMule 
+ 
+
+ $ sudo apt-get install apache2 php4 php4-common php4-gd 
+        php4-domxml php4-mysql libapache2-mod-php4 
+        phpMyAdmin proftpd gftp amule 
+        </text>
+</document>

@@ -1,0 +1,102 @@
+<document>
+	<date>2007-01-18</date>
+        <title>Synchro distante automatique via un daemon rsync sur Ubuntu</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>cli</tag>
+                <tag>linux</tag>
+                <tag>rsync</tag>
+                <tag>sysadmin</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Et non!  Rsync  n'est pas une voiture des annees 90 mais bien un outil de synchronisation de fichiers a distance tres puissant. Il peut notamment tourner en  daemon  afin d'autoriser les appels distants automatiques,  via  Cron  par exemple. 
+
+
+ Si par un hasard hallucinant vous ne disposiez pas de rsync sur votre  Ubuntu , voici la demarche a suivre pour l'installer en ligne de commande: 
+
+
+ $ sudo apt-get install rsync 
+
+
+ Bien. Nous disposons de deux machines, la machine A - disposant d'un utilisateur  jeanpierre  - et la machine B - habitee par  edmond . Nous devons automatiser la synchro d'un repertoire present sur la machine A vers la machine B. On va donc installer un daemon rsync sur la machine A et le configurer en creant le fichier  /etc/rsyncd.conf : 
+
+
+ uid             = jeanpierre 
+gid             = jeanpierre
+use chroot      = no    
+max connections = 4
+syslog facility = local5
+pid file        = /var/run/rsyncd.pid
+
+[mon_partage]
+  comment = Mon partage
+  path = /home/jeanpierre/monpartage
+  read only = yes
+  list = yes
+  hosts allow = *
+  auth users = edmond, gerard
+  secrets file = /etc/rsyncd.secrets 
+
+
+ Je vous renvoie a cette page sur la  syntaxe du fichier rsync.conf  pour plus de renseignements. 
+
+
+ On cree un fichier process vide: 
+
+
+ jeanpierre@machineA:~$ sudo touch /var/run/rsyncd.pid 
+
+
+ Les comptes utilisateurs se definissent dans le fichier  /etc/rsyncd.secrets  sous la traditionnelle forme  login:motdepasse  comme ci-dessous: 
+
+
+ edmond:3dm0nd
+gerard:g3r4rd 
+
+
+ Par souci de securite et de confidentialite, ces fichiers ne devront pas etre lisibles par un autre utilisateur que le root, donc: 
+
+
+ jeanpierre@machineA:~$ sudo chmod 640 /etc/rsyncd.conf
+jeanpierre@machineA:~$ sudo chmod 640 /etc/rsyncd.secrets 
+
+
+ Lancer rsync en daemon sur la machine A (machinea.domain.tld): 
+
+
+ jeanpierre@machineA:~$ sudo rsync --daemon 
+
+
+ Et depuis la machine B (machineb.domain.tld): 
+
+
+ edmond@machineB:~$ rsync -avz edmond@machinea.domain.tld::mon_partage ~/mon/repertoire/cible 
+
+
+ La saisie du password de l'utilisateur  edmond  defini precedemment lancera la synchronisation effective des fichiers. Pour eviter la saisie manuelle du password, il faut envisager d'utiliser l'option  --password-file=FILE . Pour se faire, il faut creer un fichier contenant juste le mot de passe en clair, par exemple dans  /home/edmond/.rsync_passwd  comme ceci: 
+
+
+ 3dm0nd 
+
+
+ Ce fichier devra n'etre accessible que par l'utilisateur systeme utilisant la commande  rsync . Dans le cas de l'utilisateur connecte a la machine B: 
+
+
+ edmond@machineB:~$ chmod 640 /home/edmond/.rsync_passwd 
+
+
+ On peut alors lancer une synchro de cette facon: 
+
+
+ edmond@machineB:~$ rsync -avz edmond@machinea.domain.tld::mon_partage ~/mon/repertoire/cible --password-file=/home/edmond/.rsync_passwd 
+
+
+ L'avantage de cette ligne de commande est qu'elle peut etre appellee depuis un Cron et donc ne pas necessiter de saisie du mot de passe manuellement. 
+
+
+ Enfin, sachez que les eventuelles erreurs d'authentification seront logguees dans le fichier  /var/log/syslog . 
+        </text>
+</document>

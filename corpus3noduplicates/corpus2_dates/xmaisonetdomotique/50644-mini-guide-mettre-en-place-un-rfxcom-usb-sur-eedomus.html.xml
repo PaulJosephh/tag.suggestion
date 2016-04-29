@@ -1,0 +1,16 @@
+<document>
+	<date>2015-02-13</date>
+        <title>
+Mini Guide  Mettre en place un RFXCom USB sur eedomus</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>eedomus</tag>
+                <tag>rfxcom</tag>
+                <tag>Veille</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>a box  eedomus  gere nativement le protocole Z-Wave ou Z-wave plus pour la box  eedomus  plus mais les deux box peuvent egalement devenir multi protocoles avec lintergation dun module RFXCom sur un des ports USB. Ce module gere plusieurs protocoles bien connues dans le domaine de la domotique comme Chacon, Oregon, Avidsen, ect et meme [] Lire larticle complet sur  Domo-blog.fr   eedomus   rfxcom   Veille 
+        </text>
+</document>

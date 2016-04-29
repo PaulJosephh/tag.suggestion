@@ -1,0 +1,27 @@
+<document>
+	<date>2005-05-23</date>
+        <title>diter son menu Gnome : c'est ENFIN possible !</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>gnome</tag>
+                <tag>linux</tag>
+                <tag>tips</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>SMEG, donc, est une petite application permettant d'editer sons menu Gnome. Et raffinement supreme, elle permet egalement de masquer les entrees que vous jugez superflues   Voici la procedure d'install: 
+
+
+ $ wget http://dev.realistanew.com/smeg/installsmeg
+$ sudo chmod +x installsmeg  sudo ./installsmeg  rm -f installsmeg
+$ smeg 
+
+
+ Simple, hein? Oui, mais efficace  
+
+
+ 
+        </text>
+</document>

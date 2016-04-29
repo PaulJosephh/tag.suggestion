@@ -1,0 +1,48 @@
+<document>
+	<date>2008-01-29</date>
+        <title>Un client de geolocalisation en cinq lignes de PHP avec l'API Google Maps</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>api</tag>
+                <tag>geo</tag>
+                <tag>google</tag>
+                <tag>maps</tag>
+                <tag>php</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Google propose des choses vraiment interessantes au travers de ses  API , comme par exemple son meconnu (car planque dans la doc)  webservice HTTP de geolocalisation . L'idee ici est de recuperer la lattitude et la longitude d'un endroit geographique a partir de sa description, par exemple  Paris, France  ou encore  3 allee des allouettes, 35000 Rennes, France . 
+
+
+ Il vous faut posseder au prealable une cle d'API Google, que vous pouvez obtenir gratuitement  par la . 
+
+  php
+?php
+define('GOOGLE_API_KEY', 'your_google_api_key_here');
+$wsurl = 'http://maps.google.com/maps/geo?q=%soutput=csvkey=%s';
+$location = 'Paris, France';
+$data = explode(',', file_get_contents(sprintf($wsurl, urlencode($location), GOOGLE_API_KEY)));
+$coord = 200 === (int)$data[0] ? array((float)$data[2], (float)$data[3]) : null;
+var_dump($coord);
+ 
+
+
+ Ce qui nous donne: 
+
+  bash
+array(2) {
+  [0]=
+  float(48.856667)
+  [1]=
+  float(2.350987)
+}
+ 
+
+
+ On prendra soin de cacher autant que faire se peut les resultats renvoyes par le webservice, afin de soulager les serveurs de Google et accessoirement de pas fusiller le credit-requete associe a sa cle d'API. 
+
+
+ Disclaimer :  Ce billet n'est pas un appel au troll, je me doute qu'on peut faire la meme chose en 3 lignes de Ruby, 2 lignes de Python et -10 lignes de Fotran77. C'est juste pour dire que les services Google, ca dechire quand meme un petit peu. 
+        </text>
+</document>

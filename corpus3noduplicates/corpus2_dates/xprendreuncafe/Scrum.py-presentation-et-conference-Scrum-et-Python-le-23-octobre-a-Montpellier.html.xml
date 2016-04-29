@@ -1,0 +1,30 @@
+<document>
+	<date>2009-10-12</date>
+        <title>Scrum.py, prsentation et confrence Scrum et Python le 23 octobre  Montpellier</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>django</tag>
+                <tag>montpellier</tag>
+                <tag>python</tag>
+                <tag>scrum</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Si comme moi vous effectuez une veille quotidienne autour des outils et technologies Web, vous navez certainement pas pu passer a cote de lengouement massif pour le langage  Python  ces derniers temps. De plus en plus de developpeurs PHP passent sur ce langage [ 1 ] , souvent par lentremise de lexcellent framework  Django , que presentera mon camarade de jeu  David Larlet  le vendredi 23 octobre prochain a Montpellier a loccasion dune conference donnee dans le cadre de levenement  Scrum.py . 
+
+
+ Lefficacite potentielle du meilleur outil technique etant reduit a neant sil nest pas efficacement encadre par une methodologie de conduite de projet adapte aux contraintes dun metier souvent difficile,  Claude Aubry , un des tous meilleurs experts francais sur le sujet, presentera quand a lui les avantages et interet de  Scrum  durant cette meme journee dinformation  gratuite , a laquelle je vous invite a  vous inscrire en ligne  des a present. 
+
+
+ David proposera egalement un  atelier Django les 18, 19 et 20 novembre prochains , tandis que Claude animera une  formation Scrum les 2, 3 et 4 decembre . 
+
+
+ Levenement est organise par le collectif  Particul.es , et les places, tant pour les conferences que pour les formations, sont limitees; alors nhesitez pas a vous  inscrire rapidement . 
+
+
+ 
+ Notes 
+ [ 1 ] Et javoue me refrener fortement a faire de meme tant les inconsistances de PHP me portent quotidiennement sur les nerfs 
+        </text>
+</document>

@@ -1,0 +1,22 @@
+<document>
+	<date>2012-03-26</date>
+        <title>UIMA : taille des annotations, un problme de taille?</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Annotation (UIMA)</tag>
+        </tags_set>
+        <categories_set>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Prenons une corpus de texte brut occupant 32 468 605 Octets (soit 31 Mo) totalisant 6 468 522 mots (ponctuation comprise). Letiquetage de ce corpus au format tabulaire (comme celui que produit  TreeTagger Cordial Analyseur 
+Passons maintenant a un fichier dannotation xmi produit par UIMA pour representer les memes annotations. Le format est bien plus verbeux quun fichier tabulaire puisquil sagit dXML. Nous obtenons un fichier de 5 919 830 882 Octets (soit 5645 Mo ou encore 5,5 Go).
+ Le rapport est ici de 1 pour 182 entre le corpus de depart et le corpus annote par UIMA! 
+Ne sagit-il pas la dun probleme de taille pour des corpus de grande taille?
+ 
+ 
+ Sommaire UIMA sur ce blog 
+        </text>
+</document>

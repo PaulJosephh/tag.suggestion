@@ -1,0 +1,75 @@
+<document>
+	<date>2005-12-23</date>
+        <title>Petit remde anti-spam de commentaires pour Dotclear</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dotclear</tag>
+                <tag>grumph</tag>
+                <tag>spam</tag>
+                <tag>tips</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dotclear</category>
+        </categories_set>
+        <text>Comme vous l'avez peut-etre lu  un   peu   partout , le  SPAM  de commentaires sur les blogs devient de plus en plus monnaie courrante  [ 1 ] , y compris sur  Dotclear  qui etait jusque la relativement epargne. 
+
+
+ Un plugin a ete developpe pour tenter d'enrayer ce phenomene:  Spamplemousse . S'il est tres efficace, il semble parfois faire un peu trop de zele. 
+
+
+ Il est egalement possible d'utiliser le principe des  CAPTCHA  afin de s'assurer que le commentateur est bien un etre humain et non un  bot  a la solde du grand capital. Un  plugin existe meme deja . Je n'ai pas personnellement essaye ce plugin, mais je n'aime pas trop l'idee d'avoir a saisir des choses inutiles pour valider quelque chose... 
+
+
+ Pour ma part, j'ai decouvert que le fait d'avoir mis en place la necessite de previsualisation des commentaires avant validation  [ 2 ]  enrayait le probleme sur ce blog... alors que j'avais mis en place ce systeme pour m'assurer que les commentateurs verifiaient bien la bonne mise en forme de leur commentaires au format WIKI avant validation  [ 3 ] . 
+
+
+ Pour ceux que ca interesse, voici les operations a effectuer pour mettre en place ce dispositif  [ 4 ] : 
+
+
+ Dans le fichier  template.php  de votre theme courant, remplacez le contenu existant entre les lignes: 
+
+
+ 
+
+
+ et: 
+
+
+ 
+
+
+ par: 
+
+ div id= "preview" 
+        h3Commentaire pour  ?php  dcPostTitle ( ) ; ?/h3
+         ?php   if   ( dc_wiki_comments )  :  ? 
+                pMerci de prendre le temps de veacute;rifier la bonne mise en forme de
+                votre commentairenbsp;:/p
+         ?php   endif ;  ? 
+        div id= "comment-preview" 
+                blockquote?php dcCommentPreview ( ) ; ?/blockquote
+        /div
+        h3Changer le commentaire/h3
+         ?php   include   dirname ( __FILE__ ) . '/form.php' ;  ? 
+/div 
+
+
+ Dans le fichier  form.php  de votre theme courant, apres la ligne  pinput type="submit" class="preview" name="preview" value="Preacute;visualiser" / : 
+
+ ?php   if   ( array_key_exists ( 'preview' ,  $_POST ) )  :  ? 
+        input type= "submit"   class = "submit"  value= "Envoyer"  /
+ ?php   endif ;  ? 
+
+
+ Il ne vous restera plus qu'a styliser l'affichage du bloc de previsualisation au moyen de  CSS   
+
+
+ Edit du 25/12 :  Apparemment, les spams ne sont pas arretes par ce stratageme. Je reflechis a une autre solution. 
+ Notes 
+ [ 1 ] Voir  billet precedent 
+ [ 2 ] Oui, je sais bien que ca en ennerve certains d'entre vous  
+ [ 3 ] Echec total sur ce point la  
+ [ 4 ] N'oubliez pas de faire une sauvegarde au prealable  
+ 
+        </text>
+</document>

@@ -1,0 +1,20 @@
+<document>
+	<date>2009-09-02</date>
+        <title>Guide de configuration de mControl</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels mControl</category>
+        </categories_set>
+        <text>
+                                                         Ce guide va vous expliquer comment parametrer mControl, notamment la position geographique et la configuration dune interface de communication.  1. Parametrage de sa position geographique  Le parametrage de sa position geographique est tres important quand on veut realiser des evenements en fonction du lever ou du coucher du soleil. A partir de mControl Editor, cliquez sur Settings, puis sur  
+ Lorsque vous cliquez sur ce lien hypertexte, cela vous envoie sur la page internet suivante : Cliquez alors sur Astrodienst Atlas, et remplissez les champs demandes : 
+ Vous obtiendrez alors les coordonnees geographiques en latitude et longitude de votre lieu dhabitation. Il suffit ensuite de rentrer ces coordonnees dans mControl :  2. Parametrage dune interface de communication  Pour que mControl puisse communiquer avec un systeme, il est necessaire de configurer linterface, et notamment le port de communication utilise, qui permet de faire la liaison entre mControl et le systeme. Cette configuration se realise a partir de  mControl Service Manager 
+ Prenons lexemple du CM15 pour commander un systeme  domotique X10 
+ Double cliquez sur la ligne du CM15, ou selectionnez  la et cliquez sur Configure. 
+ 
+ Cochez la case Enable pour activer le CM15 et indiquez le port sur lequel il est connecte. Cliquez ensuite sur OK. Vous pouvez cliquer sur Check Conflict afin de verifier quil ny a pas de conflit entre les ports de communication. Fermer  mControl Service Manager Lors de la creation dun device, il vous suffira donc de choisir linterface CM15.  Le parametrage des autres interfaces se deroule de la meme facon.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,26 @@
+<document>
+	<date>2015-03-31</date>
+        <title>Comment migrer mes priphriques et mon rseau Z-Wave de ma Eedomus  ma Eedomus Plus ?</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>eedomus</tag>
+                <tag>eedomus plus</tag>
+                <tag>guide</tag>
+                <tag>migration</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+                <tag>z-wave plus</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Z-Wave</category>
+        </categories_set>
+        <text>
+                                                         Avec la naissance de la technologie Z-Wave Plus Connected Object Eedomus Et voici donc une bonne nouvelle puisque vous evitez de re-inclure un par un chacun de vos peripheriques et vous conservez vos regles precedemment creees. Voici les etapes de migration : 1- Association de votre Eedomus Plus a votre compte Pour debuter cette migration, accedez a votre compte  Eedomus Eedomus Eedomus Saisissez le numero de serie de votre  Eedomus Suite a la bonne association, rendez-vous dans Configuration, cliquez sur chacune de vos box puis renommez-lesafin de distinguer la nouvelle de lancienne. Dans notre exemple, nous renommerons notre  Eedomus Eedomus Eedomus Eedomus Vos deux box sont desormais affichees sur votre compte avec un nom different. 2- Realisation du transfert radio  Z-Wave Si vous avez deja utilise votre box  Eedomus Z-Wave Z-Wave domotique Sur votre premier onglet, choisissez loptionLearn Mode depuis Configuration, Ajouter ou supprimer un peripherique et Fonction  Z-Wave Choisissez votre  Eedomus Plus Sur votre second onglet, lancez rapidement une inclusion de peripherique sur votre  ancienne Eedomus Z-Wave Linclusion se realise automatiquement et il nest pas necessaire dappuyer sur le bouton comme mentionne sur le message. Votre boxestdetectee et linclusion seffectue. Suite a la bonne inclusion, cliquez sur Sauver (un message apparait en indiquant que votre controleur  Z-Wave 3- Transfert des peripheriques  Z-Wave Accedez a longlet Configurer de votre ancienne box Eedomus. Cliquez sur Transferer les X peripheriques. Par mesure de securite, saisissez le numero de serie de votre Eedomus Plus. Apres un instant, un message apparait indiquant que le transfert a bien ete realise. Felicitations, vous pouvez desormais profiter de vos peripheriques, regles, programmations et scripts sur votre Eedomus Plus. Pensez a modifier manuellement votre adresse IP si vousrealisez des appels sur lAPI Eedomus. Vous pouvez bien evidemment utiliser votre ancienne box Eedomus sur votre compte existant ou bien sur un autre compte.  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Guide dutilisation du detecteur de fumee Z-Wave Fibaro FGSD-002 avec la box domotique Eedomus+ 
+ Guide dinstallation de la box domotique VeraEdge de VERA CONTROL 
+ Guide dutilisation de la prise commandee Aeotec ZW075 avec la camera Z-Wave Piper 
+ Guide dutilisation du detecteur douverture Aeotec avec la camera Z-Wave Piper END .entry-content  
+        </text>
+</document>

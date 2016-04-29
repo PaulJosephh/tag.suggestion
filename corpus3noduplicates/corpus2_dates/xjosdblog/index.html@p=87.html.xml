@@ -1,0 +1,30 @@
+<document>
+	<date>2007-11-13</date>
+        <title>Les screens ou les schell immortels</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+        </categories_set>
+        <text>
+                                                Un  screen 
+ 
+Pour lancer un screen :
+ screen 
+Pour lancer un screen en lui donnant un nom :
+ screen -S nom_du_screen 
+Pour detacher un screen [Ctrl-a puis d] ou :
+ screen -d 
+Pour reprendre un screen detache :
+ screen -r nom_du_screen 
+Pour rattacher un screen :
+ screen -x nom_du_screen 
+Pour avoir la liste des screens de lutilisateur en cours :
+ screen -ls 
+Pour quitter un screen :
+ exit 
+Plusieurs fenetres dans un screen
+ [Ctrl-a puis c]  [Ctrl-a puis n]  [Ctrl-a puis p]  
+        </text>
+</document>

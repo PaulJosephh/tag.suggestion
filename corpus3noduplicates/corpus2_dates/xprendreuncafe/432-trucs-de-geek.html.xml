@@ -1,0 +1,29 @@
+<document>
+	<date>2006-04-13</date>
+        <title>Trucs de Geek</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>codeigniter</tag>
+                <tag>dotclear</tag>
+                <tag>framework</tag>
+                <tag>geek</tag>
+                <tag>google</tag>
+                <tag>photo</tag>
+                <tag>php</tag>
+                <tag>serveur</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>
+ Nanoweb  est un serveur web ecrit en...  PHP . Ne ricanez pas, les  perfs  ont pas l'air si nulles que ca. 
+ La version  1.3.1  de  Code Igniter  est sortie. Au  programme , tests unitaires, amelioration du systeme de vues et corrections de bugs. La  doc mise a jour  est toujours de la meme qualite, bref, que du bon. 
+ Dotclear 1.2.4 est sorti . Un plugin de mise a jour est disponible chez la  team blogeoise . 
+ Le  tres attendu   Google Calendar  est finalement sorti, en version beta comme toujours chez Google. Mes premieres impressions: ca roxe. Les fonctionnalites de  partage de calendriers  sont au poil, l'interface est belle et rapide... ca ressemblerai presque en tout point a  ce que j'esperais . Il manque juste des tags (ou des categories) pour organiser les evenements autrement qu'en creant de nouveaux calendriers a chaque fois  [ 1 ]  et ca serait parfait. 
+ Ilovesunset  ouvre ses portes. Et je me rends compte que j'ai pas un seul coucher de soleil dans mes tofs... 
+ 
+ Notes 
+ [ 1 ] Mais j'ai peut-etre loupe un truc ? 
+ 
+        </text>
+</document>

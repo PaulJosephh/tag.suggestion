@@ -1,0 +1,85 @@
+<document>
+	<date>2013-06-08</date>
+        <title>PRISM : questions et r&#233;ponses pour bien comprendre [M&#224;j]</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Cloud</tag>
+                <tag>Protection des donn&#233;es</tag>
+                <tag>Sph&#232;re priv&#233;e</tag>
+                <tag>Surveillance</tag>
+        </tags_set>
+        <categories_set>
+                <category>Droit</category>
+        </categories_set>
+        <text>
+                                                
+                                                         La controverse gronde depuis quelques jours, Barack Obama et son administration sont accus&#233;s d'espionner les relev&#233;s t&#233;l&#233;phoniques et d'avoir acc&#232;s aux serveurs informatiques de grandes soci&#233;t&#233;s actives sur Internet comme Google, Facebook, Apple et Microsoft. Il semblerait qu'on tienne la confirmation de ce qu'on soup&#231;onnait depuis longtemps. Cette affaire fait resurgir le spectre des lois antiterroristes qui ont suivi le 11 septembre et qui ont servi de justificatif pour surveiller les citoyens am&#233;ricains (au moins). Le Patriot Act apparait en t&#234;te de liste. Essayons donc d'y voir plus clair. 
+ Concernant les relev&#233;s t&#233;l&#233;phoniques 
+ De quoi parle-t-on&#160;? 
+ Le quotidien anglais The Guardian a mis la main sur une  d&#233;cision  "secr&#232;te" qui d&#233;montre que la National Security Agency (NSA) a obtenu des relev&#233;s quotidiens tr&#232;s d&#233;taill&#233;s de tous les appels nationaux et internationaux des clients de l'op&#233;rateur am&#233;ricain Verizon depuis le mois d'avril au moins. Cette d&#233;cision ordonnerait &#224; Verizon de continuer &#224; fournir ces informations jusqu'au 19 juillet au moins. 
+ De quelle instance parle-t-on&#160;? 
+ L'instance qui a rendu la d&#233;cision est la Foreign Intelligence Surveillance Court (FISC) &#224; Washington D.C., une entit&#233; sp&#233;cialement cr&#233;&#233;e pour surveiller les demandes d'acc&#232;s du gouvernement &#224; des donn&#233;es, les demandes d'acc&#232;s &#233;tant faites au moyen du  Foreign Intelligence Surveillance Act  (FISA). 
+ FISA, c'est quoi&#160;? 
+ FISA est une loi am&#233;ricaine de 1978 et amend&#233;e en 2008. &#192; l'origine, elle a &#233;t&#233; con&#231;ue pour donner aux agences de renseignements des moyens pour surveiller des individus dans des pays &#233;trangers qui &#233;taient consid&#233;r&#233;s comme des ennemis des &#201;tats-Unis. Depuis sa r&#233;cente modification, elle offre un champ d'application plus grand encore&#160;: les agences de renseignement peuvent surveiller (et notamment mettre sur &#233;coute) &#224; l'int&#233;rieur comme &#224; l'ext&#233;rieur des fronti&#232;res des individus constituant un risque pour le pays. Cependant, la NSA n'est pas autoris&#233;e &#224; surveiller des citoyens am&#233;ricains. 
+ Quelle est la disposition de FISA permettant cette surveillance&#160;? 
+ C'est sur la base de la  section 215 de FISA  que la d&#233;cision a &#233;t&#233; rendue. Cette section permet de demander une d&#233;cision de la FISC afin d'obtenir n'importe quelle information tangible ("any tangible things") sur un individu selon les crit&#232;res ci-dessus. Cependant, il semblerait que l'administration am&#233;ricaine ait d&#233;pass&#233;, &#224; tout le moins &#233;tendu, les limites du champ d'application de FISA&#8230; comme le craignaient les organisations de d&#233;fense de la vie priv&#233;e et des droits civils. En effet, il faut des "motifs raisonnables" de croire que les donn&#233;es vont servir l'antiterrorisme. Et c'est cette libert&#233; d'appr&#233;ciation qui poserait probl&#232;me. 
+ Pourquoi la NSA collecte ces donn&#233;es&#160;? 
+ La rengaine habituelle&#160;: lutter contre le terrorisme en gardant une trace des communications de terroristes suppos&#233;s ou connus. Le gouvernement assure d'ailleurs que des contr&#244;les stricts sont appliqu&#233;s, notamment en regard de la protection de la vie priv&#233;e et concernant les modalit&#233;s d'acc&#232;s aux donn&#233;es et le type de donn&#233;es collect&#233;. Le gouvernement s'&#233;tonne aussi de toute cette ronflante pol&#233;mique, car il n'a fait qu'agir selon la loi et selon les d&#233;cisions de la FISC. De plus, la NSA doit obtenir une autorisation suppl&#233;mentaire si elle veut exploiter toutes ces donn&#233;es. 
+ De quelles donn&#233;es parle-t-on&#160;? 
+ Verizon doit fournir les donn&#233;es concernant les appels t&#233;l&#233;phoniques, &#224; savoir le num&#233;ro de l'appelant et de l'appel&#233;, l'heure et la dur&#233;e de l'appel, les donn&#233;es de localisation, les num&#233;ros de la carte SIM de l'appelant, les  num&#233;ros IMEI  et encore d'autres identifiants uniques du terminal utilis&#233;. Le contenu des conversations et les informations sur le nom et la r&#233;sidence du client Verizon ne sont pas d&#233;voil&#233;s par l'op&#233;rateur. 250 millions de clients seraient concern&#233;s. 
+ 
+ 
+ Pourquoi s'inqui&#233;ter si les noms et adresses des clients et le contenu de leurs conversations ne sont pas collect&#233;s&#160;? 
+ D'abord, ce n'est pas parce que ces donn&#233;es ne sont pas transmises que la NSA ne peut pas les obtenir d'une autre mani&#232;re (l&#233;gale ou pas). Ensuite, ce genre de collecte est assimilable &#224; une p&#234;che au filet &#224; l'&#233;chelle du pays&#160;: &#233;norm&#233;ment d'informations sont collect&#233;es de mani&#232;re g&#233;n&#233;rale sur tous les clients de l'op&#233;rateur, soit des millions de personnes, sans distinction particuli&#232;re. Enfin, les donn&#233;es collect&#233;es par la NSA vont lui permettre de cr&#233;er un profil d&#233;taill&#233; de chaque client Verizon, et d'associer ces donn&#233;es avec d'autres qu'elle aurait d&#233;j&#224; en sa possession. Le data mining potentiel est monstrueux. 
+ Depuis combien de temps&#160;? 
+ Selon les informations, des d&#233;cisions judiciaires similaires auraient &#233;t&#233; rendues depuis 2007 au moins. Ces d&#233;cisions sont renouvel&#233;es tous les trois mois. 
+ Verizon est-il le seul op&#233;rateur concern&#233; ? 
+ C'est tr&#232;s peu probable. La d&#233;cision publi&#233;e par The Guardian ne concerne que Verizon, mais on peut raisonnablement supposer que d'autres grands op&#233;rateurs ont re&#231;u des d&#233;cisions similaires. Selon le Wall Street Journal, il semblerait que Sprint et AT&amp;T soient aussi concern&#233;s. 
+ Ces donn&#233;es ont-elles au moins &#233;t&#233; utiles&#160;? 
+ On n'en sait rien. Le gouvernement insiste sur la n&#233;cessit&#233; strat&#233;gique d'avoir un tel historique. 
+ &#160; 
+ Concernant la surveillance d'Internet 
+ De quoi parle-t-on&#160;? 
+ Le  Washington Post  est entr&#233; en possession d'un document (dont l'authenticit&#233; ne fait pas de doute, selon le quotidien) qui d&#233;montre que le Federal Bureau of Investigation (FBI) et la NSA ont un acc&#232;s direct aux donn&#233;es stock&#233;es sur les serveurs de grandes soci&#233;t&#233;s informatiques comme Apple, Facebook, Google et Microsoft. Les deux agences gardent donc des traces des communications et actions d'individus repr&#233;sentant une menace pour les &#201;tats-Unis, ou pouvant le devenir. Le nom de code de cette op&#233;ration est  PRISM  et elle serait active depuis six ans environ. Tout internaute &#233;tranger utilisant les services de ces soci&#233;t&#233;s (quelle que soit la localisation des serveurs h&#233;bergeant les donn&#233;es) est potentiellement concern&#233;. 
+ 
+ 
+ Est-ce une gigantesque collecte de donn&#233;es&#160;? 
+ Apparemment pas. Il s'agirait plut&#244;t de l'octroi par les soci&#233;t&#233;s concern&#233;es d'un acc&#232;s ouvert aux agences sur requ&#234;te et dans le cadre d'une investigation. Cependant, les documents du Washington Post &#233;voquent un acc&#232;s direct aux serveurs des soci&#233;t&#233;s. Il semble aussi peu probable que des portes d&#233;rob&#233;es (backdoors) aient &#233;t&#233; ouvertes et maintenues &#224; l'insu de ces soci&#233;t&#233;s dont les services &#233;voluent et sont mis &#224; jour r&#233;guli&#232;rement. Au contraire, des sources parlent d'acc&#232;s n&#233;goci&#233;s avec ces soci&#233;t&#233;s, gr&#226;ce &#224; des moyens de pression... 
+ Quelles sont les donn&#233;es concern&#233;es&#160;? 
+ Le FBI et la NSA auraient notamment acc&#233;d&#233; &#224; des donn&#233;es audio et vid&#233;o (VoIP, visioconf&#233;rences, etc.), des e-mails, des discussions instantan&#233;es, des photos, des documents et des journaux de connexions (logs). PRISM permettrait &#224; des analystes du FBI de la section Data Intercept Technology Unit et au groupe Special Source Operations de la NSA de chercher et inspecter des &#233;l&#233;ments particuliers en fonction de leurs int&#233;r&#234;ts directement dans les flux de donn&#233;es des soci&#233;t&#233;s participant &#224; PRISM. Les donn&#233;es seraient donc collect&#233;es directement depuis les serveurs des soci&#233;t&#233;s. 
+ 
+ 
+ La NSA n'&#233;tant pas autoris&#233;e &#224; enqu&#234;ter sur des citoyens am&#233;ricains, des proc&#233;dures sont mises en oeuvre pour emp&#234;cher que les contenus des citoyens am&#233;ricains soient inclus dans la surveillance, mais selon les documents obtenus par le Washington Post, ces proc&#233;dures ne seraient pas strictement appliqu&#233;es. Les agences ne collectent sans doute pas toutes les donn&#233;es transitant sur les serveurs des soci&#233;t&#233;s, mais PRISM permettrait &#224; des agents de chercher un contenu et de le retirer des serveurs. 
+ De quelles soci&#233;t&#233;s parle-t-on&#160;? 
+ Microsoft, Google, Yahoo!, Facebook, PalTalk, Youtube, Skype, AOL et Apple sont les neuf soci&#233;t&#233;s cit&#233;es. Les unes apr&#232;s les autres, elles  d&#233;mentent  participer &#224; cette op&#233;ration dont elles n'auraient jamais entendu parler. Elles jurent se conformer &#224; la loi. 
+ 
+ 
+ Quel est le but de cette collecte de donn&#233;es&#160;? 
+ Encore et toujours la lutte contre le terrorisme. 
+ Quelle est la base l&#233;gale applicable&#160;? 
+ La  section 702 de FISA , con&#231;ue pour aider l'obtention d'informations concernant des individus non am&#233;ricains se trouvant hors du territoire am&#233;ricain. Comme pour les relev&#233;s t&#233;l&#233;phoniques, une d&#233;cision de la FISC est n&#233;cessaire pour proc&#233;der &#224; l'acquisition des donn&#233;es. Que les citoyens am&#233;ricains se rassurent, l'obtention autoris&#233;e d'informations ne peut pas viser intentionnellement une personne am&#233;ricaine ou se trouvant aux &#201;tats-Unis au moment de la collecte. Cela signifie donc que des informations sur des citoyens europ&#233;ens et suisses peuvent &#234;tre collect&#233;es ou l'ont d&#233;j&#224; &#233;t&#233;. 
+ Suis-je concern&#233;(e) ? 
+ En admettant que, pour une raison X ou Y, vous discutez du Djihad ou d'Al-Qa&#239;da (ou d'autres sujets "sensibles") sur Facebook ou dans un e-mail &#233;chang&#233; via Gmail. M&#234;me de mani&#232;re innocente, ou pour rigoler. En fonction de certains mots cl&#233;s, des donn&#233;es vont &#234;tre r&#233;colt&#233;es &#224; votre sujet, trait&#233;es par les agences am&#233;ricaines, puis &#233;ventuellement transmises au gouvernement de votre pays (car les &#201;tats-Unis ne peuvent pas agir directement contre vous si vous n'&#234;tes pas sur leur territoire), au nom de la  coop&#233;ration internationale en mati&#232;re de lutte contre le terrorisme . 
+ L'Union europ&#233;enne &#233;tait-elle au courant&#160;? 
+ Oui. Une  &#233;tude  avait m&#234;me &#233;t&#233; r&#233;alis&#233;e en fin d'ann&#233;e derni&#232;re sur la protection des donn&#233;es dans le cloud. D&#233;j&#224; on estimait que le danger ne viendrait pas du Patriot Act, mais de FISA. FISA ayant &#233;t&#233; reconduite pour cinq ans &#224; fin 2012, l'UE savait que tous les &#233;trangers se trouvant hors du territoire des &#201;tats-Unis seraient susceptibles d'&#234;tre surveill&#233;s, en particulier via les clouds des fournisseurs de services am&#233;ricains comme Google, Apple, Facebook&#8230; 
+ Le plus amusant, c'est que suite aux r&#233;v&#233;lations de ces derniers jours, la vice-pr&#233;sidente de la Commission des affaires juridiques du Parlement europ&#233;en a interpell&#233; la Commission europ&#233;enne au sujet de PRISM. Bien que sa d&#233;marche soit un peu tardive et paraisse politiquement opportuniste, elle est n&#233;anmoins utile et permettra peut-&#234;tre de l&#233;gif&#233;rer en Europe dans le domaine, afin de mieux prot&#233;ger les citoyens. Elle pose  trois questions  &#224; la Commission europ&#233;enne&#160;: 
+ 
+ La Commission confirme-t-elle l'existence de telles pratiques&#160;? En &#233;tait-elle inform&#233;e&#160;? 
+ Qu'a pr&#233;vu de faire la Commission face &#224; la toute-puissance du Foreign Intelligence Surveillance Amendment Act (FISAA), afin de prot&#233;ger la vie priv&#233;e des ressortissants de l'Union europ&#233;enne, en particulier sur le cloud&#160;? 
+ Quels organismes dans l'Union europ&#233;enne disposent de d&#233;rogations similaires &#224; la l&#233;gislation europ&#233;enne sur la protection des donn&#233;es personnelles&#160;? 
+ 
+ Commentaire 
+ Tous les m&#233;dias parlent de ces r&#233;v&#233;lations comme un scandale sans pr&#233;c&#233;dent. Si c'est effectivement pr&#233;occupant, que personne ne vienne me dire qu'on ne s'en doutait pas. Les &#201;tats-Unis sont en guerre et tentent de se prot&#233;ger, quoi de plus normal, nous ferions pareils (avec nos moyens qui sont &#233;videmment moins colossaux). De plus, ils agissent dans le cadre &#8211; certes extensibles &#8211; de lois vot&#233;es par le Congr&#232;s. Ces lois sont publi&#233;es et connues depuis des ann&#233;es. L'ampleur du ph&#233;nom&#232;ne est peut-&#234;tre ahurissante, mais qui cela &#233;tonne-t-il&#160;? 
+ Alors bien s&#251;r, ce n'est pas une raison pour rester les bras crois&#233;s. Plusieurs moyens existent pour limiter la collecte des donn&#233;es, voici les deux principaux&#160;: 
+ 
+ Le plus difficile &#224; faire sera sans doute de ne plus utiliser de services Internet g&#233;r&#233;s par des soci&#233;t&#233;s am&#233;ricaines. Dites au revoir &#224; Google, Facebook, Twitter, iCloud, Android, LinkedIn, Dropbox&#8230; Pour les  entreprises , mais aussi pour les  particuliers , &#233;vitez de stocker vos donn&#233;es sur des clouds am&#233;ricains. 
+ Utiliser des services ou logiciels comme  Tor  qui, utilis&#233;s correctement, permettent de rendre anonyme une grande partie de vos actions sur Internet. 
+ 
+ Au fait, saviez-vous qu'une loi am&#233;ricaine, le  Electronic Communications Privacy Act , permet au gouvernement am&#233;ricain ou &#224; ses agences d'acc&#233;der sans mandat &#224; vos e-mails si ceux-ci sont stock&#233;s depuis plus de 180 jours sous forme &#233;lectronique sur des serveurs d'une soci&#233;t&#233; am&#233;ricaine&#160;? Maintenant, oui. 
+ [Mise &#224; jour du 9 juin 2013]  Le Washington Post a supprim&#233; de la version en ligne de son article l'affirmation selon laquelle les soci&#233;t&#233;s participaient "en toute connaissance de cause" &#224; PRISM. Pour sa part, le New York Times doute que PRISM permette &#224; la NSA d'acc&#233;der directement aux serveurs des soci&#233;t&#233;s. Celles-ci affirment toujours ne participer &#224; aucun programme secret du gouvernement am&#233;ricain et ignorer tout de PRISM. 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

@@ -1,0 +1,26 @@
+<document>
+	<date>2015-03-09</date>
+        <title>Le dtecteur de fume Z-Wave de Fibaro compatible EN14604 est disponible !</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>daaf</tag>
+                <tag>detecteur de fumee</tag>
+                <tag>en14604</tag>
+                <tag>fgsd-002</tag>
+                <tag>fibaro</tag>
+                <tag>smoke sensor 2</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Il y a un peu plus dun an  Fibaro sortait son capteur de fumee Z-Wave FGSS-001 domotique Fibaro Le FGSS-001 est un capteur de fumee et non un detecteur, ce qui explique sa non conformite avec la norme EN14604. En effet, il doit etre integre dans une installation  domotique Z-Wave Le  nouveau modele denomme FGSD-002 Z-Wave A part cette histoire de certification EN14604, ce nouveau detecteur de fumee  Fibaro La sirene integree delivre desormais une sonnerie de 85dB a 3m pour repondre a la norme. Le bornier dalimentation filaire disparait tout comme le bornier pour connecter un systeme dalarme. En effet, la norme demande a ce que le detecteur soit autonome, donc pas dependant dune source dalimentation externe, mais uniquement dune batterie. Ce nouveau detecteur  Fibaro Z-Wave Z-Wave Z-Wave Plus Au niveau compatibilite avec les box  domotique Z-Wave box Homelive dOrange JEEDOM Fibaro eedomus Bien sur, si votre box  domotique Z-Wave Retrouvez le detecteur de fumee Fibaro FGSD-002 sur notre boutique a 64,99 !  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Comment exploiter simplement letat dun detecteur filaire dans son reseau Z-Wave ? 
+ Le Motion Sensor de Fibaro remporte un #CES2015 Innovation Award 
+ Jeedom  Guide dutilisation de la prise commandee Fibaro Wall Plug FGWPE-001 
+ Jeedom  Guide dutilisation du module volet roulant FGRM-222 de Fibaro END .entry-content  
+        </text>
+</document>

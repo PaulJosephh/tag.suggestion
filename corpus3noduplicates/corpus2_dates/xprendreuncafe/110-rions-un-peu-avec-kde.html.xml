@@ -1,0 +1,48 @@
+<document>
+	<date>2005-05-17</date>
+        <title>Rions un peu avec KDE</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>geek</tag>
+                <tag>haha</tag>
+                <tag>kde</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>After the news of safari support passes ACID2, and all theses blog entry on kdedevelopers.org, I've decided to act. Here is the patch against khtml which make Konqueror passes ACID2 test. Well, it was simple. 
+
+
+ Traduction possible: 
+
+
+ Apres l'annonce que Safari passait le test ACID2 avec succes, et la lecture de tous ces billets sur kdedevelopers.org, j'ai decide de prendre les choses en main. Voici donc le patch pour khtml qui permet a Konqueror de passer le test Acid 2. En fait, ce n'etait pas complique. 
+
+
+ Le patch en question: 
+
+ Index: khtml_part. cpp 
+===================================================================
+--- khtml_part. cpp      ( revision  414097 ) 
++++ khtml_part. cpp      ( working copy ) 
+@@ - 557 , 8  + 557 , 14  @@
+  } 
+ 
+ 
+-bool KHTMLPart:: openURL (   const  KURL url  ) 
++bool KHTMLPart:: openURL (   const  KURL url_  ) 
+  { 
++  KURL url=url_;
++   if ( url. url ( ) . contains ( "webstandards.org/act/acid2/" ) ) 
++   { 
++     url=KURL ( url. url ( ) . replace ( "test.html" , "reference.html"   )   ) ;
++   } 
++
+   kdDebug (   6050   )    "KHTMLPart("   this   ")::openURL "   url. url ( )   endl;
+ 
+   d-m_redirectionTimer. stop ( ) ; 
+
+
+ [ En gros, ce patch se contente de remplacer automatiquement l' url du test html  par l' url de l'image de reference    ] 
+        </text>
+</document>

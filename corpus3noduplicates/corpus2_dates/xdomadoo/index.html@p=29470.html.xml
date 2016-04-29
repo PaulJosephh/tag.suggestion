@@ -1,0 +1,23 @@
+<document>
+	<date>2014-01-06</date>
+        <title>Guide dinstallation du capteur douverture AEON LABS avec la Zipabox</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>aeon labs</tag>
+                <tag>aeotec</tag>
+                <tag>detecteur</tag>
+                <tag>detecteur ouverture</tag>
+                <tag>guide</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+                <tag>zipabox</tag>
+                <tag>zipato</tag>
+        </tags_set>
+        <categories_set>
+                <category>Zipabox Produits</category>
+        </categories_set>
+        <text>
+                                                         La  Zipabox Z-Wave Aeon Labs Zipabox Z-Wave 1- Installation : A partir de votre centre de controle de votre  Zipabox https://my.zipato.com/ Si votre module a deja ete inclus dans un autre reseau  Z-Wave Lorsque vous avez clique sur le bouton  Ajouter des modules , une fenetre souvre et celle-ci vous permet de selectionner le protocole correspondant a votre module (dans notre cas, il sagit du protocole  Z-Wave Z-Wave Une nouvelle fenetre nommee  Assistant dajout de peripherique  apparait avec un compte a rebours durant lequel vous devez appuyer une fois sur le bouton dapprentissage (le bouton dinclusion de votre module  Z-Wave Ce bouton dapprentissage est une languette metallique situee au dos de votre module.  Une fois que votre module est detecte par votre  Zipabox Apres avoir correctement associe votre module, celui-ci apparait dans la categorie Capteurs  avec le nom par defaut: Door/window sensor. 2- Configuration Pour configurer vos parametres generaux (nom de la piece, type de module, nom du module) cliquez sur le bouton  Vous pouvez egalement configurer vos parametres generaux dans la categorie  General  en cliquant sur  Modules Totaux . Puis cliquez sur Door/Window Sensor disponible dans le dossier  Aeon Labs Apres avoir realise vos modifications, cliquez sur le bouton Sauvegarder. Dans la categorie Capteurs de votre interface, vous allez pouvoir visualiser si votre porte est ouverte (OPEN et bouton rouge) ou fermee (CLOSED et bouton vert). Si vous desirez modifier les parametres avances de ce module, cliquez sur  Modules totaux  dans la categorie  General . La fenetre Gerer vos modules apparait. Selectionnez le dossier de votre module( Aeon Labs Cliquez ensuite sur longlet  Configuration  : Vous allez pouvoir definir dansWake Up Interval(min), lintervalle de reveil de ce module. Celui-ci se reveillera periodiquement en notifiant le controleur (etat batterie) et permettra ainsi daugmenter la longevite des piles mais en contre partie, les requetes vers ce module seront emises lors de son reveil. Dans Custom Configuration, vous pouvez mettre en place des configurations supplementaires (disponibles dans la notice de ce module). 3- Exemple de  scenario Votre imagination est la seule limite pour creer un scenario. Nous allons prendre un exemple de scenario : Lorsque la porte de ma maison souvre, leclairage de ma porte dentree sallume et seteint lorsque la porte se ferme. Vous devez en premier lieu vous rendre dans le centre de controle de votre  Zipabox Vous etes desormais dans linterface  Createur de regles  dans laquelle vous pouvez creer les scenarios que vous souhaitez grace a : http Nous allons donc realiser le scenario suivant :Si le capteur douverture de porte est OPEN (si la porte est ouverte), alors le module de mon eclairage dentree se met sur ON. Sinon, (si la porte est fermee) le module de mon eclairage dentree se met sur OFF. Nous avons donc besoin de:  6 pieces de Puzzle (2 controles, 2 actions et 2 capteurs)  4 Modules (2 capteurs de la porte, 2 actionneurs du module) Il suffit simplement dassembler ces elements pour creer notre scenario. Pour cela, selectionnez chaque partie et deplacez-les dans les cases attribuees (sans oublier dindiquer le statut de la porte OPEN et les actions du module ON/OFF). Noubliez pas de sauvegarder pour valider votre scenario. Voici notre scenario : Comme vous pouvez constater, pas besoin detre un professionnel de la programmation informatique pour realiser un scenario. Ce capteur douverture ou fermeture de porte peut bien evidemment servir pour dautres applications comme signaler une intrusion lorsque vous netes pas a votre domicile.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

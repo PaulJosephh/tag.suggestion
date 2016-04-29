@@ -1,0 +1,49 @@
+<document>
+	<date>2007-03-23</date>
+        <title>Intgration de Jamendo dans RhythmBox sous Feisty</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>gnome</tag>
+                <tag>jamendo</tag>
+                <tag>libre</tag>
+                <tag>magnatune</tag>
+                <tag>mp3</tag>
+                <tag>musique</tag>
+                <tag>ogg</tag>
+                <tag>plugins</tag>
+                <tag>rhythmbox</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>[Via  Jono Bacon ] 
+
+
+ Le catalogue integral  Jamendo  debarque nativement integre dans la version de  RhythmBox  qui equipera  Feisty Fawn , la version d' Ubuntu  en cours de developpement a sortir courant avril. 
+
+
+ Jamendo  est une plateforme de diffusion et de promotion d'artistes proposant de la musique sous  licences Creative Commons : c'est a dire que non seulement le telechargement y est absolument legal mais qui plus est fortement incite  
+
+
+ Pour acceder au catalogue Jamendo dans RhythmBox, il suffit d'activer le  greffon  Jamendo via le menu  Edition  de RhythmBox. La qualite de restitution des flux est excellente, et des liens contextuels proposent le telechargement direct des albums dans leur integralite, pour stockage en local. 
+
+
+ 
+
+
+ Le plus marquant reste le texte affiche dans la barre de statut du logiciel une fois la liste integrale des titres Jamendo disponibles rapatriee: 
+
+
+ 22972 morceaux, 65 jours, 21 heures et 54 minutes 
+
+
+ De quoi  voir venir , assurement. 
+
+
+ Notez que de la meme maniere, le catalogue  Magnatune , quand a lui payant et par consequent plus proche de ce que peut etre une boutique de musique en ligne, est egalement disponible via un autre greffon. 
+
+
+ iThunes  n'a qu'a bien se tenir. 
+        </text>
+</document>

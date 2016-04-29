@@ -1,0 +1,16 @@
+<document>
+	<date>2013-04-19</date>
+        <title>Mise  jour ZiBASE V717 : Le Turbo Configurateur dploy sur le serveur zibase.net</title>
+        <author> Mallory </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          Depuis mi-fevrier, les utilisateurs de  ZiBASE ZiBASE-Club Dorenavant, le Turbo Configurateur est rode et disponible sur la plateforme  zibase.net Outre sa velocite tres appreciable sur des grosses configurations multipliant par 5 et 10 les performances en sauvegarde de scenario et par 2  en sauvegarde de peripheriques, le Turbo Configurateur apporte dautres ameliorations :  Visuel des peripheriques  Z-Wave   Configuration avancee des cameras hebergees (de nombreuses fonctions seront configurables). Toutes les cameras pilotables par  http  
+ Possibilite de declenchement de scenarios sur des peripheriques multiples. 
+ Apparition de la rubrique critere (en version Beta) dans la creation de scenario. Cette nouvelle rubrique permet daugmenter la precision dun declenchement de scenario avec 1 niveau de parentheses sur des conditions multiples.  Cette nouvelle possibilite offre un nouveau potentiel au createur de scenario de la  ZiBASE   Gestion de lenergie et de la puissance du  Wall Plug de Fibaro  et des modules  Aeon Labs  (Smart Energy Switch, Smart Energy Illuminator, ) avec une precision de P=10W, E=0,1KWh ( ID en PZxx). De plus, la pince amperemetrique  Home Energy Meter Aeon Labs Prise en charge de la passerelle infrarouge vers climatiseur ZXT120, apportant par la meme occasion quelques nouvelles fonctions speciales  Z-Wave  Avec cette nouvelle mise a jour,  Zodianet ZiBASE  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

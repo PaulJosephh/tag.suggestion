@@ -1,0 +1,53 @@
+<document>
+	<date>2011-11-20</date>
+        <title>[High-Tech] Vers un nouveau type d&#8217;ordinateur ?</title>
+        <author>Roxarmy</author>
+        <tags_set>
+                <tag>android</tag>
+                <tag>Cottin Candy</tag>
+                <tag>Linux</tag>
+                <tag>Raspberry Pi</tag>
+        </tags_set>
+        <categories_set>
+                <category>actu</category>
+                <category>Android</category>
+                <category>High-tech</category>
+                <category>PC</category>
+        </categories_set>
+        <text>
+                                                 Depuis un petit moment, certains&#160;constructeurs&#160;ind&#233;pendants commencent &#224; penser d&#8217;une fa&#231;on autre que &#171;&#160;C&#8217;est moi qui est la plu grosse&#160;&#187;, dont le record est actuellement obtenu par Samsung Note (5.3&#160;&#187;) suivi par HTC XL (4.7&#160;&#187;). Oui, je compare smartphone et ordinateur, car &#224; part la taille de l&#8217;&#233;cran, il existe de nos jours tr&#232;s peu de diff&#233;rences. 
+ Je vais donc vous parler de deux produits qui ont une toute autre approche : lib&#233;rer l&#8217;utilisateur de tout &#233;cran en proposant un ordinateur de poche. Et quand  je dis de poche je n&#8217;abuse pas  : l&#8217;un n&#8217;est pas plus gros qu&#8217;une cl&#233; USB ! 
+ Le premier est un ordinateur dont on en a beaucoup entendu parl&#233;, tant par sa taille que par son prix :  le Raspberry Pi.  Ce&#160;minuscule&#160;ordinateur sera vendu &#224; un prix d&#233;fiant toute&#160;concurrence&#160;:  25$ . &#160;Cet ordinateur bas&#233; sur une architecture ARM poss&#232;de une taille &#233;quivalente &#224; une carte bleue avec des performances n&#233;cessaires pour une simple utilisation. 
+ 
+ Au final, le Raspberry Pi sera d&#233;clin&#233; en deux mod&#232;les A et B, vendu 25$ et 35$. Les sp&#233;cifications des deux mod&#232;les sont les suivantes : 
+ 
+ OS : Debian (linux) 
+ Processeur ARM 11 &#8211; 700MHz 
+ 128Mo de SDRAM  (256Mo pour le mod&#232;le B) 
+ port HDMI et un port USB  (deux ports USB pour le mod&#232;le B) 
+ Un port Fast-Ethernet pour le mod&#232;le B 
+ D&#233;code des vid&#233;os en 1080p (Full HD) 
+ Compatible avec OpenGL ES2.0 
+ 
+ Ce type d&#8217;ordinateur permettra aux plus d&#233;munis de s&#8217;&#233;quiper d&#8217;un ordinateur peu ch&#232;re et&#160;fonctionnel pour des simples t&#226;ches bureautiques : traitement de texte, web, vid&#233;o et m&#234;me jeu ! Et oui,  Quake 3 est parfaitement fluide sur le Raspberry Pi. 
+ Pour les int&#233;ress&#233;s,  10 000 exemplaires  seront vendus le mois prochain. Bien s&#251;r, les premiers arriv&#233;s seront les premiers servis. Vue le prix et les possibles utilisations de la b&#234;te, je tenterai ma chance une fois en vente. 
+ 
+ Passons maintenant &#224; un micro-ordinateur encore  plus petit, plus puissant, plus complet et plus ch&#232;re , voici le  &#171;&#160;Cotton Candy&#160;&#187; , un appareil&#160;impressionnant d&#233;velopp&#233; par  FXI-Tec , une soci&#233;t&#233; bas&#233; en Norv&#232;ge.&#160;Leur id&#233;e est simple : cr&#233;er un dispositif connect&#233; de la taille d&#8217;une cl&#233; USB fonctionnant sous Android : 
+ 
+ 
+ ARM Cortex A9 Exynos &#160;(double coeur) cadenc&#233; &#224; 1.2 Ghz 
+ 1 Go de Ram 
+ Wi-Fi / Bluetooth 
+ HDMI / USB 
+ port &#181;SD 
+ Android 2.3 
+ Ubuntu 
+ 21 grammes ! 
+ ~200&#8364; 
+ 
+ Le  Cotton Candy  peut clairement &#234;tre pr&#233;sent&#233; comme un produit Android haut de gamme. Ce dernier va plus loin en proposant Ubuntu comme syst&#232;me d&#8217;exploitation, permettant de l&#8217;utiliser comme un v&#233;ritable ordinateur.  Ses&#160;constructeurs&#160;le pr&#233;sente comme un v&#233;ritable compagnon  lui donnant plusieurs utilisations possibles : Media Center, console de jeu, ordinateur personnel, etc. La soci&#233;t&#233; va m&#234;me plus loin en voulant propos&#233; &#224; terme, toute une suite de logiciels disponible via le Cloud. &#160;Sa commercialisation est pr&#233;vu d&#8217;ici 2012. 
+ 
+ Quoi qu&#8217;il en soit, que ce soit le Raspberry Pi qui veut &#234;tre le moins ch&#232;re possible o&#249; le Cotton Candy qui souhaite &#234;tre le plus complet, la miniaturisation a du bon en laissant l&#8217;utilisateur son choix quant &#224; l&#8217;utilit&#233; des b&#234;tes.  Mais d&#8217;apr&#232;s vous, ces deux ordinateurs sont-ils une v&#233;ritable R&#233;volution ou une simple Evolution ? 
+                                                                                         
+        </text>
+</document>

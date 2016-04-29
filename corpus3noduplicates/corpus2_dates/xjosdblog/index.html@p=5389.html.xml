@@ -1,0 +1,22 @@
+<document>
+	<date>2014-04-15</date>
+        <title>Lua : envoyer un courriel</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Lua</tag>
+                <tag>Vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Voici une fonction en Lua permettant denvoyer un courriel a partir de la Vera Lite.
+Le message et lobjet peuvent contenir des caracteres accentues. Lobjet est facultatif.
+ smtp -- Permet d'envoyer un courriel en passant en parametre le message et l'objet (facultatif) function ( , ) local = require ( "socket.smtp" ) local = "@_courriel_emetteur" local = "@_courriel_destinataire" if ( type ( ) == "string" ) then = "[Vera]" .. " " .. else = "[Vera]" end = "Bonjour, ceci est un courriel envoye par la VeraLite (" .. os.date ( "%A %B %Y, %H:%M:%S" ) .. ") \n \n .. .. " \n \n local = { = { = , = , = , [ "content-type" ] = "text/plain; charset=utf8" } , = } . { = , = , = . ( ) , = "smtp" , = "25" } end 
+ 
+ Sommaire Domotique 
+        </text>
+</document>

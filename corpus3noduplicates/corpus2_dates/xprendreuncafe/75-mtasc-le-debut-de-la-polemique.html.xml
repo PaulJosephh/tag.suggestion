@@ -1,0 +1,30 @@
+<document>
+	<date>2005-04-17</date>
+        <title>MTASC, le dbut de la polmique ?</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>flash</tag>
+                <tag>libre</tag>
+                <tag>troll</tag>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text> Oui, j'aime les titres accrocheurs  
+
+
+ Pendant que  Mike  nous fait un excellent  petit tuto MTASC/Eclipse ,  Peter Joel ,  another flashguru , nous fait part  des raisons qui l'empechent d'utiliser MTASC  plutot que le compilo de Macromedia: 
+
+
+ For some reason the guys at Motion Twin decided that they didn't have to make their compiler compatible with Macromedia's. This is my problem and the reason why I can't use it. 
+
+
+ Las! Je n'ai pour ma part pas encore experimente l'incompatibilite mentionnee ci-dessus, mais je dois admettre que je n'ai pas encore utiliser MTASC en production, la plupart de mes applis en cours de developpement ayant ete initie sous l'IDE Flash, a l'ancienne, c'est a dire avec des MovieClips dans la librairie et des appels de procedure a des endroits epars de la timeline (paaaaas bieeeennnn). 
+
+
+ Si cela s'averait exact - et que MTASC ne permettait pas l'interoperabilite et la transparence quand a la plateforme de compilation, cela pourrait effectivement s'averer etre un handicap serieux. 
+
+
+ Bon en meme temps, Macromedia a annonce une compatibilite a 100% avec le standard ECMAScript4 pour la prochaine version de son compilo, 8ball, il n'est donc pas impensable que MTASC proposera la meme chose (ce qui est meme peut-etre deja le cas, a verifier). 
+        </text>
+</document>

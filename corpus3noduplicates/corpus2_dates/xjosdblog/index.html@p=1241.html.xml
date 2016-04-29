@@ -1,0 +1,22 @@
+<document>
+	<date>2012-03-08</date>
+        <title>Tutoriel UIMA IV : Parcourir des annotations en utilisant le JCas</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Annotation (UIMA)</tag>
+                <tag>JCAS</tag>
+        </tags_set>
+        <categories_set>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+Le  CAS Tutoriel UIMAI Token 
+ 
+Il faut commencer par  creer un nouveau descripteur de composant File  New  Others  UIMA  Analysis Engine Descriptor File Tutoriel UIMAI 
+Il faut ensuite  developper le code de lannotateur JTextAnnotator_ImplBase Tutoriel UIMAI 
+import org.apache.uima.analysis_component.JCasAnnotator_ImplBase; 
+Il faut enfin  creer le composant dannotation agrege Tutoriel UIMAI Tutoriel UIMA III Aggregate Analysis Engine Descriptor Document Analyzer Tutoriel UIMAI 
+ Tutoriel et guide du developpeur UIMA Tutorials and Users Guides Sommaire UIMA sur ce blog 
+        </text>
+</document>

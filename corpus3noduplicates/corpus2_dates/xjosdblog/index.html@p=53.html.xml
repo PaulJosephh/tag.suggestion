@@ -1,0 +1,34 @@
+<document>
+	<date>2008-03-10</date>
+        <title>Les entits nommes : Installer TagEn sous Linux</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>TALN</category>
+        </categories_set>
+        <text>
+                                                 
+Les  entites nommees 
+ TagEN Jean-Francois Berroyer Thierry Poibeau Laboratoire dInformatique de Paris-Nord Unitex Pour installer  TagEN telecharger 
+ 
+Decompresser larchive  TagEN.tar.gz definitif 
+Executer le script  compile TagEN/src 
+Pour utiliser  TagEN tagen.conf 
+ 
+        mucfr   :       entites nommees MUC (francais) ;
+ 
+equer   :       domaine medical (francais) ;
+ 
+bio     :       genes, proteins and species names (english) ;
+ 
+carnivore       :       carnivore plants (english) ;
+ 
+Par exemple, pour executer  TagEN ptprince.txt mucfr ./tagen :mucfr ptprince.txt 
+Voici quelques extraits du fichier  ptprince.tag.txt 
+[...]Quand il est timextimemidi/time/timex aux enamexlocationEtats-Unis/location/enamex, le soleil, tout le monde sait, se couche sur la enamexlocationFrance/location/enamex.[...]
+ 
+ Remarque : -t ./tagen -t :mucfr ptprince.txt entites nommees enamex    31    36 
+ T. Poibeau (2003)  The Multilingual Named Entity Recognition Framework. 
+        </text>
+</document>

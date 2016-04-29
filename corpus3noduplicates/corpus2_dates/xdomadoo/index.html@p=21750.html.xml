@@ -1,0 +1,14 @@
+<document>
+	<date>2011-08-29</date>
+        <title>Configuration dun contrleur Z-Wave dans HomeSeer</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                          Le logiciel  HomeSeer Z-Wave Z-Wave HomeSeer  Pour commencer, inserez votre controleur  Z-Wave USB Ensuite, executez  HomeSeer Juste en dessous des differents onglets, cest la que la configuration de votre controleur  Z-Wave   Selectionnez votre controleur. Dans notre cas, cest le  Aeon Labs USB   Indiquez ensuite le port COM utilise par ce controleur.   Si vous ne le connaissez pas, deconnectez votre controleur, allez dans le gestionnaire de peripherique, cliquez sur le + devant Ports COM et LPT, et rebrancher votre controleur. Un nouveau peripherique correspondant a votre controleur va safficher dans la liste avec son numero de port COM.   Cliquez ensuite le bouton SAVE en bas a gauche.   Le Home ID du controleur saffiche, et deux nouveaux boutons font leur apparition.  Le bouton MANAGE sert a gerer le reseau  Z-Wave , et notamment inclure ou exclure des peripheriques.   Le bouton Node Info permet davoir  des informations sur les peripheriques du reseau  Z-Wave . Pour rappel, dans le jargon  Z-Wave ,  Node = Device = Module/Peripherique.   Votre controleur est maintenant configure avec  HomeSeer  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

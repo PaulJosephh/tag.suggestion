@@ -1,0 +1,89 @@
+<document>
+	<date>2007-04-25</date>
+        <title>Mettre en place un bouncer IRC avec Muh</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bouncer</tag>
+                <tag>debian</tag>
+                <tag>irc</tag>
+                <tag>linux</tag>
+                <tag>muh</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>La, en lisant le titre, tu  [ 1 ]  te dis: 
+
+
+ Ca y est, il a definitivement pete une durite, je le comprend meme plus... 
+
+
+ Rassure-toi, la fievre tombe progressivement, mais je vais quand meme essayer de t'expliquer de quoi il s'agit. Si tu utilises quotidiennement  IRC , tu sais que chaque fois que tu rejoins un canal ou lances une commande  /WHOIS , on voit ta  resolution DNS inverse  (par exemple  jeanpierre@82-76-32-67.Rennes22.monfai.net . 
+
+
+ Et parfois cette situation t'embete, pour x ou y raison. La tu as 3 choix: 
+
+ 
+ Tu renonces et acceptes ton sort sans rechigner. 
+ Tu te loggues sur un serveur en  SSH , tu lance un  screen  et utilises  irssi . Valable, mais un poil  overgeek  pour moi qui me suit bien habitue a  XChat , parfaitement integre dans le bureau  Gnome  (avec les notifications des hilites dans la traybar, miam.) 
+ Tu installes  Muh , et continues a utiliser ton client IRC prefere tout en profitant de la resolution DNS inverse de ton serveur  a toi . 
+ 
+
+ Muh va faire office de  proxy  IRC - ou de  bouncer , comme tu preferes. C'est a dire que tu vas mirrorer l'acces a tes serveurs IRC preferes sur ton serveur personnel  [ 2 ] . Attention, certains hebergeurs n'aiment pas ca du tout et le precisent parfois dans les  CGU  du service: a verifier. 
+
+
+ Si une distro debian-based est installee sur le serveur, l'installation est simplissime: 
+
+
+ $ sudo apt-get install muh
+$ mkdir ~/.muh
+$ cp /usr/share/doc/muh/examples/muhrc.gz ~/.muh
+$ gunzip ~/.muh/muhrc.gz 
+
+
+ Edite le fichier  ~/.muh/muhrc , ca commence par ton identite sur IRC: 
+
+
+ nickname = "NiKo";
+altnickname = "NiKo`";
+realname = "Nicolas Perriault";
+username = "niko"; 
+
+
+ Je pense que c'est assez parlant. La configuration du port: 
+
+
+ listenport = 9999; 
+
+
+ Si tu utilises un firewall, attention:  tu risques de te faire pincer tres fort  prends garde a autoriser l'ecoute sur ce port. 
+
+
+ Maintenant, definis un mot de passe de connexion: 
+
+
+ password = "monbeaupassword"; 
+
+
+ Ce mot de passe est necessaire pour te connecter a ton instance de Muh. Enfin, la liste des serveurs que tu desires  bouncer : 
+
+
+ servers {
+  "irc.freenode.net",
+  "irc.mozilla.org",
+}; 
+
+
+ Enregistre le fichier et lance Muh: 
+
+
+ $ muh 
+
+
+ Voila, il ne te reste plus qu'a te connecter a ton serveur comme a n'importe quel autre via ton client IRC habituel. 
+ Notes 
+ [ 1 ] Oui, je te tutoies, c'est hype. 
+ [ 2 ] Bien sur, il faut disposer d'un serveur dedie ou equivalent. 
+        </text>
+</document>

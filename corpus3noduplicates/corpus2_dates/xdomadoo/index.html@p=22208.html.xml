@@ -1,0 +1,14 @@
+<document>
+	<date>2012-02-24</date>
+        <title>ZiBASE : La dernire mise  jour est disponible</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          Nous vous lannoncions la semaine derniere ZiBASE  La  ZiBASE domotique Le protocole RFY (qui correspond bien au protocole  Somfy X10 Zodianet     Les timings du protocole radio  Delta Dore Des evolutions  Z-Wave Z-Wave Z-Wave  Les inclusions/exclusions comportent des rates (il faut alors  recommencer loperation), il fait meme une fixation sur certains  actionneurs ZDP230 lors de ces operations,  Il ne permet pas de generer de graphes de connexions entre noeuds,  Il ne gere pas le FLiRS.  Il rayonne enormement, eloignez le au maximum de  ZiBASE Note: Sur les techniques de FLiRS et de Wake Up utilises en  Z-Wave Le FLiRS est decrit  ici En pratique, le ZCS201 ne peut piloter une sirene sur piles (genre  SE812 utilisant FLiRS) qui doit naturellement sactionner le plus vite  possible. Le FLiRS est peu utilise mais il est agreable a lutilisation  car le peripherique reagit tout de suite. La technique alternative au FLiRS est le Wake Up (gere par le  ZCS201) ou le peripherique se reveille periodiquement en le notifiant au  controleur  Z-Wave Cette mise a jour est strategique pour  Zodianet ZiBASE domotique Somfy ZiBASE  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

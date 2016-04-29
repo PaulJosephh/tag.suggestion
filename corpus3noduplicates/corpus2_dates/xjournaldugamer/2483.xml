@@ -1,0 +1,35 @@
+<document>
+	<date>2014-11-03</date>
+        <title>Un bug du online de Super Smash Bros. vous bannit 136 ans sans raison</title>
+        <author>Kocobe</author>
+        <tags_set>
+                <tag>Bug</tag>
+                <tag>Facepalm</tag>
+                <tag>Nintendo</tag>
+                <tag>Super Smash Bros. for 3DS</tag>
+        </tags_set>
+        <categories_set>
+                <category>3DS</category>
+        </categories_set>
+        <text>
+                                                                                                 
+         
+                 Nintendo, qu&#8217;est-ce que t&#8217;as encore fait avec ton online ? Tu n&#8217;as pas retenu les le&#231;ons de Brawl&#160;? 
+ 
+ more 
+ Vous le savez, les gens ach&#232;tent rarement une console ou un jeu Nintendo pour la qualit&#233; de son online. Et encore une fois, Nintendo nous le d&#233;montre avec une imposante maestria dans le cadre de  Super Smash Bros. for 3DS . 
+ Certains joueurs ont eu la mauvaise surprise apr&#232;s une d&#233;connexion inopin&#233;e (comme &#231;a arrive trop souvent avec les jeux Nintendo) de  voir leur compte banni pour 71 millions de minutes du service .  
+ Qu&#8217;est-ce que. 
+ 
+ 4&#160;294&#160;967&#160;295 secondes  pour &#234;tre tout &#224; fait pr&#233;cis. Soit  plus de 136 ans . C&#8217;est peut-&#234;tre le temps qu&#8217;il faut &#224; Nintendo pour proposer un service en ligne de qualit&#233;&#160;? Qui sait. 
+ Quoi qu&#8217;il en soit, les plaintes sur les r&#233;seaux se multiplient, notamment  sur Reddit , o&#249; les bidouilleurs se sont pench&#233;s sur la question. Le temps par d&#233;faut d&#8217;un ban est de -1 seconde. Ensuite, le jeu pr&#233;c&#232;de &#224; une &#233;tape de v&#233;rification qui ajoute une valeur qui varie en fonction de plusieurs facteurs (abus, pr&#233;c&#233;dents, etc.). Sinon, cette valeur est remise &#224; z&#233;ro. 
+ Sauf que parfois, lors d&#8217;une d&#233;connexion inopin&#233;e par exemple, cette &#233;tape de v&#233;rification est tout bonnement saut&#233;e. Le ban est alors de -1 seconde, ce que le jeu traduit par la plus grande valeur binaire qu&#8217;il conna&#238;t&#160;: 4&#160;294&#160;967&#160;295. 
+ Si vous voulez &#233;viter que &#231;a vous arrive, ne vous d&#233;connectez pas et ne ciblez pas syst&#233;matiquement le m&#234;me joueur dans une partie &#224; quatre. Et si ce bug vous est arriv&#233; et que vous souhaitez continuer &#224; jouer en ligne, il ne vous reste plus qu&#8217;&#224; patienter que Nintendo mette un patch en ligne. 
+ En esp&#233;rant qu&#8217;ils ne mettent pas 136 ans &#224; le faire. 
+ &amp;gt; Via  CVG 
+         
+ 
+                                                                                                         
+                                                                                                                                                                                                 
+        </text>
+</document>

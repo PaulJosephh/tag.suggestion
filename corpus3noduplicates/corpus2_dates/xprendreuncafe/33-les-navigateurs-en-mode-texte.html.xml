@@ -1,0 +1,76 @@
+<document>
+	<date>2005-03-17</date>
+        <title>Les navigateurs en mode texte</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Installation 
+
+
+ Sous Ubuntu, il suffit d'installer  Links  ou Lynx par le biais d'apt ou de Synaptic; dans mon cas j'ai installe links  
+
+
+ 
+
+
+ Utilisation 
+
+
+ Dans les exemples suivants, nous utiliserons links. 
+
+
+ Pour lancer la consultation d'un site internet, par exemple et tout a fait par hasard, le present site, il faut tapper dans un shell: 
+
+
+ links prendreuncafe.com 
+
+
+ Ce qui a pour consequence... suspense insoutenable... d'ouvrir la page en question  
+
+
+ 
+
+
+ La navigation est tres simple et s'effectue essentiellement au moyen des touches flechees du clavier, bien que sous X l'utilisation de la souris soit possible: 
+
+ 
+ Fleche gauche: retour a la page precedente 
+ Fleche vers le haut: selectionne de lien precedent 
+ Fleche vers le bas: selectionne le lien suivant 
+ Fleche droite ou barre d'espace: ouvre le lien selectionne 
+ 
+
+ 
+
+
+ Pour gagner du temps, on peut aussi utiliser les touches Page Up, Page Down, Origine et Fin pour se deplacer dans la page. 
+
+
+ La touche  q  quitte l'application, la touche  g  permet l'ouverture d'une nouvelle adresse. 
+
+
+ Les formulaires sont materialises par une succession de caracteres underscores (_); la validation se fait classiquement par la touche Entree. 
+
+
+ 
+
+
+ En passant c'est en utilisant ce type de navigateurs textuels qu'on se rend compte de l'importance de structurer son code en respectant au mieux les  standards d'accessibilite   
+
+
+ Voici par exemple le rendu sous links du site du  MEDEF  (site pris absolument au hasard, hein): 
+
+
+ 
+
+
+ Edition du 20 mars 
+
+
+ Suite a  la remarque fort judicieuse de Hyun , je signale qu'il existe une  version Windows  du navigateur textuel  Lynx , et egalement un  outil de visualisation de rendu en ligne via Lynx  d'une adresse internet  
+        </text>
+</document>

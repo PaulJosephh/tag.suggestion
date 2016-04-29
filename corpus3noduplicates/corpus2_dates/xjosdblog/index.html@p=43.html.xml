@@ -1,0 +1,29 @@
+<document>
+	<date>2008-09-19</date>
+        <title>Quelques liens pertinents concernant UIMA</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>TALN</category>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+Lobjet de ce billet est de rassembler une selection de liens que je juge pertinents concernant lenvironnement de developpement UIMA ( Unstructured Information Management Architecture Liens incontournables 
+ 
+ UIMA, a project of the  Apache incubator 
+ Apache UIMA Documentation 
+ UIMA-FR 
+ Nicolas Hernandez : UIMA 
+ Tutoriel (et environnement) dintroduction a UIMA 
+ Towards an Interoperability Standard for Text and Multi-Modal Analytics 
+ OASIS Unstructured Information Management Architecture (UIMA) TC 
+ Objectives of OASIS Unstructured Information Management Architecture (UIMA) TC Selection dArticles 
+ 
+ An Annotation Type System for a Data-Driven NLP Pipeline 
+ UIMA peut-il reconcilier le text-mining et les outils semantiques ? Towards Knowledge Acquisition from Information Extraction 
+ Design and implementation of the UIMA Common Analysis System 
+ Sommaire UIMA sur ce blog 
+        </text>
+</document>

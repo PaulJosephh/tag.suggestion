@@ -1,0 +1,32 @@
+<document>
+	<date>2005-04-14</date>
+        <title>Ne vous fiez pas  son nom : SproutLiner</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ajax</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>
+
+
+ Je viens de tomber sur un site proposant un service tres interessant, simplissime et potentiellement tres utile:  SproutLiner  (ne riez pas, ca n'est pas sale). Il s'agit d'un gestionnaire de projet en ligne, ultrasimple. 
+
+
+ Pour creer un gestionnaire de suivi de projet en ligne, c'est tres simple, il suffit d'entrer le nom du projet et d'appuyer sur  Entree . Apres, on se retrouve dans une interface sobre permettant d'ajouter ligne et colonnes, listes, checkboxes, champs texte... Tout cela est bien evidemment gave de XMLHttpRequest, la techno javaScript permettant le rapatriement de donnees externe dans l'objet DOM de la page en cours de consultation (voir a ce sujet mon billet sur  LiveSearch ). 
+
+
+ Mine de rien, voila un micro-outil permettant de partager une roadmap tres simple, pour un projet collectif par exemple. Voire meme pour organiser une petite soiree entre ami, ca peut donner ca: 
+
+
+ 
+
+
+ Ce qui est interessant avec l'utilisation de XMLHttpRequest que fait ce service, c'est la sauvegarde en temps reel des donnees au moment meme de leur saisie. Impossible de perdre des donnees! 
+
+
+ Bon, pour ceux qui sont interesses pour la soiree chez Rene, il leur suffit de tapper  Soiree Foot chez Rene  dans le champs Registered users  
+        </text>
+</document>

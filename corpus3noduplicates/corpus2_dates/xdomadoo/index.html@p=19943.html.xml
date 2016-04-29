@@ -1,0 +1,30 @@
+<document>
+	<date>2009-09-16</date>
+        <title>TEST : Ampoules DIMMERABLE MEGAMAN avec variateurs X10</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>ampoule</tag>
+                <tag>domotique</tag>
+                <tag>economie d'energie</tag>
+                <tag>fluocompacte</tag>
+                <tag>gradation</tag>
+                <tag>lampe</tag>
+                <tag>MEGAMAN</tag>
+                <tag>variation</tag>
+                <tag>X10</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         
+ Vous vous etes sans doute deja pose la question de  comment remplacer vos ampoules a incandescence quand celles-ci ne  seront plus disponibles a la vente ? Certes, il existe les ampoules  fluocompactes a economie denergie, mais quand on souhaite faire de la  variation dintensite pour creer des ambiances lumineuses, ce nest pas  possible On a donc rechercher des  ampoules pouvant parer a ce probleme, et la gamme DIMMERABLE de  MEGAMAN  Ce quil faut savoir sur ces ampoules : 
+ La lampe  DIMMER ABLE   peut varier en luminosite de 10% a 100 %. (En dessous de 10% lampoule seteint.) Quand la lampe est reglee au minimum de luminosite (environ 10%) un petit clignotement a lemplacement du filament dans le tube de la lampe peut se produire pendant quelques secondes. La lampe  DIMMER ABLE   est compatible avec la plupart des variateurs electroniques, numeriques et le protocole  X10 Il se peut que le variateur ne fonctionne pas ou fonctionne mal si la puissance totale de la lampe DIMMERABLE utilisee depasse la charge maximum en watts de lappareil de variation lui-meme. Ce quil faut verifier avant lutilisation : 
+ Avant dutiliser la lampe DIMMERABLE, lutilisateur doit veiller a la puissance en watt (minimum et maximum) du variateur. Pour de meilleurs resultats, la puissance en watts de la lampe DIMMERABLE ne doit pas tomber au dessous d1/6 de la charge minimale ni depasser 1/5 de la charge maximale de lappareil de variation. Si la charge minimum en watt du variateur est de 60 watts, la puissance minimum de la lampe DIMMERABLE utilisee doit etre de 10 W ou plus (60W * 1/6).  Si la puissance maximum en watt de la charge du meme variateur est de 360 watts, la puissance maximum de la lampe Dimmerable ne pourra exceder 72 watts (360 W*1/5).  1. Test avec une ampoule MM46532 (1x 11W)     La MM46532 est une ampoule  Dimmerable  MEGAMAN RoHS    Le Test a ete realise avec un module variateur  X10 LM12 
+  Conclusion : 
+ La MM46532 recoit les ordres  X10 La MM46532 varie bien de 10% a 100% Lorsque la luminosite est de 10%, la MM46532 clignote car il ny a pas assez dintensite. Lorsquon descend en dessous de 10% elle seteint.  2.  Test avec une ampoule MM46012 (1x 11W)  
+ La MM46012 est une ampoule  Dimmerable  MEGAMAN RoHS    Le Test a ete realise avec un module variateur  X10 LD11    Conclusion : 
+ La MM46012 recoit les ordres  X10 La MM46012 varie bien de 10% a 100% Lorsque la luminosite est de 10%, la MM46012 clignote car il ny a pas assez dintensite. Lorsquon descend en dessous de 10% elle seteint.  Les tests ainsi realises confirme le bon fonctionnement des ampoules MEGAMAN DIMMERABLE avec les variateurs  domotique X10 domotique KNX Z-WAVE Il faut simplement faire attention a la puissance minimum et maximum du variateur et ainsi utiliser le nombre dampoules en adequation.    Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

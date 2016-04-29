@@ -1,0 +1,14 @@
+<document>
+	<date>2011-12-20</date>
+        <title>Guide dinstallation dune camra AXIS avec la box eedomus</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Applications</category>
+        </categories_set>
+        <text>
+                                                          Le controleur  domotique eedomus IP FTP AXIS Pour rediger ce guide, nous avons utilise une camera  AXIS M1031-W   Branchez lalimentation secteur de la camera.   Reliez la camera sur le meme routeur/box  ADSL eedomus   Connectez-vous sur linterface de configuration de la box  eedomus https://secure.eedomus.com/   Allez dans longlet Configuration.   Cliquez sur Ajouter ou supprimer un peripherique.   Cliquez ensuite sur Ajouter une camera  AXIS   La box  eedomus   Puis elle la configure automatiquement.  Cec   Une fois la camera reconnue et configuree, vous pouvez parametrer quelques details comme son nom, la piece dans laquelle elle est installee et lactivation ou non du detecteur de silhouette.   Parametres Expert Le mode avance ou Expert permet de configurer dautres parametres. Cliquez sur la fleche situee a gauche de Parametres Expert.   Vous pouvez desactiver la camera, si besoin, sans la supprimer en decochant simplement la case situee en face de Active. Vous pouvez choisir detre informe par email si la camera ne communique plus avec la centrale. Cliquez sur Sauver.   Votre camera est desormais prete a fonctionner avec votre box  eedomus Les images remontent sur le site web  eedomus   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

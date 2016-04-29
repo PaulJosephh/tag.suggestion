@@ -1,0 +1,29 @@
+<document>
+	<date>2014-05-11</date>
+        <title>Communication entre Vera Lite et IPX800</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Fonction Luup</tag>
+                <tag>IPX800</tag>
+                <tag>Lua</tag>
+                <tag>Vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 Problematique 
+ 
+Ce billet propose differentes fonctions qui permette dutiliser pleinement le controleur IPX800 depuis la box Vera Lite. Dans un premier temps, il expose comment consulter ou modifier letat de lIPX800. Dans un second temps, il propose un moyen de synchroniser letat de lIPX800 avec une structure de donnee dans la Vera Lite afin de beneficier dun cache restant synchrone avec les changements detat de lIPX800.
+ Lire un etat sur lIPX800 local = require ( "socket" ) function ( ) local = "192.168.0.34" -- adresseIP de l'IPX local = 9870 -- par defaut le port de lIPX est 9870 local = assert ( . ( , ) ) : ( "key=motDePasse" ) -- Si l'interface est protegee par un mot de passe : ( ) -- Si l'interface est protegee par un mot de passe return ( ) end 
+Attention, a partir du micrologiciel version 3.05.46, si linterface de lIPX800 est protegee par un mot de passe, ce dernier doit etre envoye juste apres la connexion comme indique ci-dessus (remplacer  motDePasse 
+Fonction interne Lua de lecture dun etat de lIPX800:
+ function ( , ) if ( type ( ) == "string" ) then = tonumber ( ) end assert ( type ( ) == "number" and = 1 and = 8 ) local = ( ) = .. tostring ( ) : ( ) local = : ( ) assert ( : ( ) ) local = assert ( string . ( , '=([0-9]*)$' ) ) return tonumber ( ) end function ( ) return ( , "GetIn" ) end function ( ) return ( , "GetOut" ) end function ( ) return ( , "GetCount" ) end function ( ) return ( , "GetAn" ) end Modifier une sortie de lIPX800 function ( , ) if ( type ( ) == "string" ) then = tonumber ( ) end if ( type ( ) == "string" ) then = tonumber ( ) end assert ( type ( ) == "number" and = 1 and = 8 and type ( ) == "number" and ( == 0 or == 1 ) ) local = ( ) local = "Set0" .. tostring ( ) .. tostring ( ) : ( ) local = : ( ) assert ( : ( ) ) assert ( == "Success" ) end Notification de changement detat de lIPX800 
+ 
+Cette section sappuie sur les billets  IPX800 fonction Push Requetes HTTP sur Vera Lite josdSetSortieIPX800 Lire un etat sur lIPX800 ipx800 Push local = { = { } , -- Etat des entrees de l'IPX800 = { } -- Etat des sorties de l'IPX800 } ipx800 --... function ( ) local = ( ) local = "GetInputs" : ( ) local = : ( ) = "GetOutputs" : ( ) local = : ( ) assert ( : ( ) ) = assert ( string . ( , '=([0-9]*)$' ) ) = assert ( string . ( , '=([0-9]*)$' ) ) local = 1 while = 8 do local = tonumber ( string.sub ( , , ) ) local = tonumber ( string.sub ( , , ) ) if ( . [ ] ~= ) then . [ ] = --... end if ( . [ ] ~= ) then . [ ] = --... end = + 1 end end Push IPX800 fonction Push /data_request?id=lr_PushVeramessage= josdSynchroniseEtatIPX800() luup . ( "josdIPX800PushVera" , "PushVera" ) function ( , , ) ( ) return "head \n \n \n \n \n , "text/html" end josdGetEntreeIPX800(indice) josdGetSortieIPX800(indice) function ( ) return ( . [ ] ) end function ( ) return ( . [ ] ) end Informations et sources 
+ 
+ Sommaire Domotique 
+        </text>
+</document>

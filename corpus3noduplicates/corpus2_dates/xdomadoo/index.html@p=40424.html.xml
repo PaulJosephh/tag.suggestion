@@ -1,0 +1,22 @@
+<document>
+	<date>2014-08-12</date>
+        <title>La station mto Netatmo avec la box eedomus</title>
+        <author> Kragg </author>
+        <tags_set>
+                <tag>domotique</tag>
+                <tag>eedomus</tag>
+                <tag>guide</tag>
+                <tag>netatmo</tag>
+                <tag>pluviometre</tag>
+                <tag>station meteo</tag>
+                <tag>tuto</tag>
+        </tags_set>
+        <categories_set>
+                <category>Confort de l'habitat</category>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Suite a une recente mise a jour de l eedomus Netatmo eedomus Pour cela sur linterface de la  eedomus Choisir  Netatmo En creant ce capteur cela va vous ajouter 7 peripheriques Pour que la station communique avec votre box  eedomus On bascule alors sur le site  Netatmo Une fois que vous etes identifie, il faut autoriser lapplication  Netatmo eedomus Netatmo Un code dauthentification vous sera delivre. Il vous suffit de le coller directement dans le peripherique. Vous avez maintenant les 7 peripheriques sur votre box  Le peripherique pluviometre nest pas pris en compte dans les 7 peripheriques rajoutes automatiquement. Rien de grave il suffit alors de selectionner un peripherique existant et de le dupliquer afin de pouvoir modifier ensuite les donnees. Voici la chaine de caracteres a renseigner. Nous avons maintenant 8 peripheriques. Il vous sera possible de creer des regles, Comme la fermeture automatique de vos Velux si le pluviometre a une augmentation deau, ou encore un petit message pour vous rappeler quil faut ouvrir un peu vos fenetres car le niveau de CO2 est trop eleve .. ? Cela vous offre egalement 2 sondes de temperatures et dhumidite pour votre maison (une interieur et une exterieur !) Quand on voit le prix de 2 sondes  Z-Wave Cela rajoutera aussi un capteur de niveau sonore dans votre piece Cette station meteo est un veritable plus dans mon equipement de  domotique  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

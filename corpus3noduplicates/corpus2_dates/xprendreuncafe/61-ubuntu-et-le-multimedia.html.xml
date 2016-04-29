@@ -1,0 +1,25 @@
+<document>
+	<date>2005-04-13</date>
+        <title>Ubuntu et le multimdia</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text> Mon fidele agregateur en ligne,  Bloglines , m'a remonte  un excellent billet  de Gilles Fabio - aka Play, sur  Ubuntu Linux  et ses fonctionnalites multimedia qui,  par defaut , sont succintes car exemptes de librairies/codecs proprietaires/non libres. 
+
+
+ Il y decrit fort bien les methodes d'ajout/authentification de depots supplementaires dans  Synaptic , le frontend graphique d 'apt , gestionnaire de paquet bien connu de  Debian , ainsi que les paquets necessaires a installer pour pouvoir jouer a peu pres tout ce qui remue sur notre bonne vieille toile, captures d'ecran a l'appui  
+
+
+ J'ajouterai pour ma part deux paquets supplementaires qui peuvent d'averer utiles pour lire certains fichiers multimedia, j'ai nomme  VLC , un lecteur all-included francais (cocorico!) et  XFmedia , base sur  xine  et lecteur par defaut du Window Manager  XFCE : 
+
+
+ $ sudo apt-get install vlc xfmedia 
+
+
+ Je vous encourage donc a lire sans plus attendre et si ce n'est deja fait  cet excelent billet . 
+        </text>
+</document>

@@ -1,0 +1,26 @@
+<document>
+	<date>2008-01-20</date>
+        <title>The Symfonians Project</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>community</tag>
+                <tag>jobs</tag>
+                <tag>php</tag>
+                <tag>symfonians</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>It's been a long time that I and some people I know were looking after a place on the web to publish a  Symfony  developer profile, post a job offer, share contacts and/or project opportunities. There's been some initiatives  here  and  here , but nothing has really convinced me so far. So I've decided to write something on my own. 
+
+
+ The name of the project is  Symfonians . It's available in a beta state and only in english language for now. 
+
+
+ There must exist a lot of bugs, so feel free to report them if you use the service  
+
+
+ Ah, last but not least, I imagine that the site won't display nice on IE6 (maybe on IE7 too), but for now I don't care as I don't have much time to loose on this kind of fascinating CSS hacking challenges  
+        </text>
+</document>

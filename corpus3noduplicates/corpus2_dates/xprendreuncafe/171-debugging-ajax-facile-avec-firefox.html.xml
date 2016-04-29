@@ -1,0 +1,61 @@
+<document>
+	<date>2005-06-26</date>
+        <title>Debugging AJAX facile avec Firefox</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ajax</tag>
+                <tag>dev</tag>
+                <tag>firefox</tag>
+                <tag>tips</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Ce qui nous donne, en affichant normalement la source de la page: 
+
+
+ 
+
+
+ Si on affiche la selection de la zone chargee dynamiquement: 
+
+
+ 
+
+
+ Une astuce pour afficher rapidement le code source post-traitement d'une page, le focus etant fait sur celle-ci, revient a faire CTRL + A, Clic-droit - Code source de la selection. 
+
+
+ PS: Les plus observateurs avides de remontrances signaleront que generer des formulaires en javaScript est tout sauf accessible, et ils auront raison. Mais je tiens de suite a preciser qu'il existe une version du site en cours de dev disposant d'une version en html statique  
+
+
+ Edition du 27/06/2005 
+
+
+ Je note avec amusement que le code source affiche par la fonction  Code source de la selection  modifie le code source original. Je m'explique: admettons que l'on ecrive cette portion de code  XHTML : 
+
+ form   name = "form1"   id = "form1"   action = "./"  
+   label   for = "q"  Rechercher /label  br   / 
+   input   type = "text"   name = "q"   id = "q"   value = ""   style = "background:#eee url(images/bgq.png) no-repeat top left"   / br   / 
+   input   type = "hidden"   name = "a"   id = "a"   value = "search"   / 
+   input   type = "submit"   name = "s"   id = "s"   value = "Rechercher"   / 
+ /form  
+
+
+ L'affichage du code source de la selection du formulaire affichera: 
+
+ form   name = "form1"   id = "form1"   action = "./"  
+   label   for = "q"  Rechercher /label  br  
+   input   name = "q"   id = "q"   value = ""   style = "background: rgb(238, 238, 238) url(images/bgq.png) no-repeat scroll left top; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial;"   type = "text"  br  
+   input   name = "a"   id = "a"   value = "search"   type = "hidden"  
+   input   name = "s"   id = "s"   value = "Rechercher"   type = "submit"  
+ /form  
+
+
+ On notera que Firefox reinterprete le code source en le formattant a sa sauce, notamment au niveau des styles mais surtout en transformant les balises fermees correctement ( balise / ) en balises  HTML-like  ( balise ). Bon, la validation passe quand meme au validateur puisque ce dernier ne verifie pas les sorties javascript. 
+
+
+ Voila, c'etait juste a titre anecdotique en fait  
+        </text>
+</document>

@@ -1,0 +1,28 @@
+<document>
+	<date>2014-12-09</date>
+        <title>Guide dutilisation de la sirne Aeon Labs ZW080 avec la base domotique Homelive dOrange</title>
+        <author> Maximin </author>
+        <tags_set>
+                <tag>aeon labs</tag>
+                <tag>domotique</tag>
+                <tag>guide</tag>
+                <tag>homelive</tag>
+                <tag>orange</tag>
+                <tag>securite</tag>
+                <tag>sirene</tag>
+                <tag>tuto</tag>
+                <tag>zw080</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Homelive</category>
+        </categories_set>
+        <text>
+                                                         La base domotique Orange Z-Wave Aeon Labs Nous ne verrons que lintegration du module avec la base Homelive. Pour plus dinformations sur linstallation, nous vous invitons a consulter notre test de la sirene Z-Wave plus dAeon Labs 1. INCLUSION A partir du portail Homelive ( http://homelive.orange.fr/accueil/ test de la solution Homelive dOrange Une fois sur le portail, rendez-vous dans objets connectes puis + ajouter un appareil. Une liste de peripheriques soffre a vous. Choisissez Sirene. Vous pouvez ensuite brancher votre module a une prise electrique pres de la box Homelive. Appuyez 1 fois sur le bouton dinclusion du module situe sous celui-ci. Le module doit etre automatiquement reconnu. Si ce nest pas le cas, vous pouvez le dissocier ou le restaurer avant de tenter de linclure a nouveau. En cliquant sur le module, on va pouvoir modifier: son nom, la piece dans laquelle il se trouve, voir dans quel(s) scenario(s) il est utilise et le supprimer. 2. SCENARIOS On va maintenant pouvoir creer des scenarios. Pour cela on se rend dans longlet scenarios puis + creer un scenario en haut adroite. On selectionne un module en tant que declencheur. On peut imaginer un scenario ou lalarme se declenche si un detecteur douverture est active par exemple. On selectionne donc un detecteur douverture (prealablement inclus). On selectionne un evenement declencheur, par exemple la porte/fenetre est ouverte, puis on enregistre letape. On peut alors choisir un autre declencheur ou passer a letape 2. On choisit laction queffectuera la sirene. Ici jai choisi quelle senclenche. Puis on enregistre et on passe a letape 3. A letape 3, on peut choisir dans quel(s) mode(s) le scenario va devoir senclencher. Les modes correspondent a letat dans lequel on amis le systeme Homelive: a la maison quand on est present, a lexterieur quand on est absent, la nuit ou en vacances. Ici jai selectionne tous les modes sauf a la maison. Enfin on peut choisir de notifier des personnes par mail lorsquele scenario senclenche. Pour ce faire, cliquez sur: Puis rentrer ladresse mail desiree. On nomme ensuite le scenario, et on enregistre. Il est possible de tester celui-ci en cliquant sur tester une fois la configuration terminee.  Apercus depuis lapplication smartphone. Ce nest bien sur quun exemple de scenario. Vous avez pu voir que la creation de celui-ci aete tres simple. Plus vous possederez de peripheriques, plus les possibilites de creation de scenarios seront variees, comme par exemple declencher lalarme lorsquun capteur detecte de la fumee. Vous pouvez retrouver la sirene  ZW080 dAeon Labs sur la boutique Domadoo  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Guide dutilisation du detecteur de mouvement Fibaro FGMS-001 avec la base domotique Homelive dOrange 
+ Guide dutilisation du detecteur de fumee Fibaro FGSS-001 avec la base domotique Homelive dOrange 
+ Guide dutilisation de la prise murale Fibaro FGWPE-101 avec la base domotique Homelive dOrange 
+ Guide dutilisation du detecteur douverture Fibaro FGK-101 avec la base domotique Homelive dOrange END .entry-content  
+        </text>
+</document>

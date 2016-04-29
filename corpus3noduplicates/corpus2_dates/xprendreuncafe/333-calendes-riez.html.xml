@@ -1,0 +1,89 @@
+<document>
+	<date>2005-11-06</date>
+        <title>Calendes, riez !</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>ajax</tag>
+                <tag>calendar</tag>
+                <tag>formats</tag>
+                <tag>libre</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>Planzo 
+
+
+ 
+
+
+ Peut-etre ce qui se rapproche le plus de ce que je recherche. On peut  peindre  ses rendez-vous, les deplacer graphiquement, les partager avec d'autres utilisateurs, recevoir des alertes par email, flux  RSS ... Malheureusement, je trouve les interfaces un peu moches (meme si elles restent customizables), les semaines commencent le dimanche, le pas minimum d'un rendez-vous est la demi-heure, c'est en anglais uniquement, le clic-droit est desactive  [ 1 ] ... 
+
+
+ Mozilla Calendar 
+
+
+ 
+
+
+ C'est une extension  XUL  pour  Mozilla / Firefox / Thunderbird  permettant de gerer un calendrier complet et de le synchroniser a distance. Malheureusement, je n'aime pas vraiment l'interface et - plus genant - de vilains bugs surviennent parfois, effacant les precieuses donnees prealablement saisies. Enervant! 
+
+
+ Dans mon cas, il faudrait imperativement que la source de donnees soit centralisee sur un serveur, et je ne sais pas si cette extension est capable d'aller ecrire les donnees sur un fichier distant... Quelqu'un a t-il deja reussi? 
+
+
+ Notez egalement qu'il existe une version standalone,  Sunbird . 
+
+
+ Remember the milk 
+
+
+ 
+
+
+ L'idee est interessante, puisqu'il est possible de gerer une liste de taches a effectuer, et d'eventuellement la partager. On peut aussi envoyer des taches par email et un webservice iCalendar est disponible. Helas, pas de calendrier en ligne et je n'arrive pas a publier mes taches via l'extension Mozilla Calendar et sa gestion du protocole webcal (en fait, je ne crois pas que cela soit possible). De plus, l'ergonoimie laisse franchement a desirer, on a un peu de mal a s'y retrouver. 
+
+
+ BackPack 
+
+
+ 
+
+
+ Backpack ne propose pas de calendrier mais un systeme de gestion de taches, a la maniere de  Remember the Milk . C'est, truffe d' AJAX , mais a mon sens ici utilise a mauvais escient. Un bon point cependant, la possibilite de travailler sur un document  XHTML  collaborativement, un peu a la facon d'un WIKI. 
+
+
+ Time-Tracker 
+
+
+ 
+
+
+ Toujours pas de calendrier a proprement parler, mais une liste de taches a affectuer. Encore une fois, c'est bourre d' AJAX , et meme de Flash, sous la forme d'une petite horloge dont on peut manipuler les aiguilles afin de determiner l'heure d'un rendez-vous. 
+
+
+ Pas convaincu du tout. 
+
+
+ WebCalendar 
+
+
+ 
+
+
+ WebCalendar est une application  PHP  a installer sur son propre espace d'hebergement. L'installeur n'a jamais voulu fonctionner, j'ai renonce. Et puis les captures d'ecran - et plus encore, la  demo en ligne  - ne m'ont pas vraiment donne envie d'aller plus loin. 
+
+
+ PHPiCalendar 
+
+
+ PHPiCalendar est une interface de consultation de calendrier au format  iCal , ecrite en  PHP . Helas, il semble impossible de gerer le calendrier, qui reste accessible en lecture seule uniquement. 
+
+
+ Voila ou en sont mes investigations. Si vous connaissez quelque chose approchant mon petit cahier des charges personnel, n'hesitez pas a le signaler dans les commentaires. Sinon, je trouve que ca serait un chouette projet a developper. Avis aux amateurs  
+ Notes 
+ [ 1 ] ... et oui ma pauv'dame. En 2005...  
+ 
+        </text>
+</document>

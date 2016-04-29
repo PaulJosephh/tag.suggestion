@@ -1,0 +1,28 @@
+<document>
+	<date>2015-04-14</date>
+        <title>Test de la solution IR Link Pro et de lextension Powermid Premium de chez Ebode</title>
+        <author> Kragg </author>
+        <tags_set>
+                <tag>deport ir</tag>
+                <tag>ebode</tag>
+                <tag>extension ir</tag>
+                <tag>infrarouge</tag>
+                <tag>ir link</tag>
+                <tag>irlink</tag>
+                <tag>powermid</tag>
+                <tag>test</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Multimedia</category>
+        </categories_set>
+        <text>
+                                                         La gamme de produits ebode se divise en 3 categories,  domotique Bluetooth 1. Presentation du IR Link Pro Le  ebode IR Link Pro Blu-ray Le IR Link Pro est constitue dun petit boitier electronique sur lequel vient se connecter tous les elements, dun recepteur IR vers lequel on pointe sa ou ses telecommandes, et des emetteurs IR qui viennent se coller sur les cellules IR des appareils a piloter. Il est possible de brancher jusqua 6 appareils video / Hi-Fi. 2. Installation du IR Link Pro Ce pack est surtout utile lorsque lon a tout ses equipements dans une armoire ou autre et que les recepteurs infrarouges ne sont pas visibles directement. Comme par exemple sur ce schema. Il est possible de rajouter une LED de statut qui nous indiquera que le signal donne par la telecommande abien etait recu (comme sur la plupart des televisions par exemple). Dans mon cas, nayant pas de multiples elements a commander je lai juste branche sur ma tele pour faire le test. Voici le branchement a realiser en suivant la notice. Cest tres simple il suffit de suivre les couleurs Brancher les emetteurs infrarouges sur vos equipements comme suit. Une fois cela fait, il suffit de placer le recepteur ebode ou vous estimez quil sera le mieux expose. Vous pourrez ensuite commander vos appareils avec leurs propres telecommandes en les pointant vers ce recepteur et non plus vers les appareils en question ! Il est egalement possible detendre ce systeme a dautres pieces de votre maison (par exemple pour changer de musique sur votre chaine Hi-Fi qui se trouve dans votre salon depuis votre cuisine. Comment ? En utilisant le systeme dextension Powermid Premium de ebode. 3. Presentation du Powermid Premium Le  relais Powermid Premium Le kit Mini POWERMID Premium comprend un transmetteur et un recepteur. Le transmetteur recoit des codes infrarouges de la telecommande et les retransmet sous la forme de signaux radio de 433.92 Mhz. Ces signaux sont detectes par le recepteur qui les reconvertit en signaux infrarouges pour les transmettre a lequipement Audio/Video. Aucune attente nest necessaire pour obtenir le decodage ou la conversion des codes infrarouges. A noter que ce pack peut etre utilise en complement du pack IR Link Pro, mais egalement seul. 4. Installation du Powermid Premium Comme je le mentionnais un peu plus haut, deux installations sont possibles. Utilisation du kit seul Il suffit de reperer quel module est le  recepteur  et lequel et le  transmetteur . Pour cela ebode a mis une etiquette sur chaque module. Ensuite placez le module  recepteur  dans la piece depuis laquelle vous voulez piloter votre equipement et le module  transmetteur  juste en face du capteur IR de votre equipement de la maniere suivante. Utilisation du kit en complement du kit IR Link Pro Proceder de la meme maniere pour le module  recepteur  puis placer le module  transmetteur  devant le module  recepteur  du IR Link Pro de la maniere suivante. 5. Conclusion  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Test de lenregistreur video reseau ebode IPV4NVR 
+ Test de la Sirene Z-Wave Plus dAeon Labs 
+ Test du capteur de temperature sans fil et sans pile EnOcean NodOn 
+ Test de la nouvelle box domotique eedomus+ END .entry-content  
+        </text>
+</document>

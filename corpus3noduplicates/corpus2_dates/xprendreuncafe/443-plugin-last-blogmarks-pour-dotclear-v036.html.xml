@@ -1,0 +1,25 @@
+<document>
+	<date>2006-04-27</date>
+        <title>Plugin Last Blogmarks pour Dotclear v0.3.6</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>blogmarks</tag>
+                <tag>dev</tag>
+                <tag>dotclear</tag>
+                <tag>php</tag>
+                <tag>plugins</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dotclear</category>
+        </categories_set>
+        <text>Je viens de mettre a jour mon plugin  Last Blogmarks pour Dotclear  en version  0.3.6 . C'est une version de maintenance: 
+
+ 
+ Correction d'un bug repetant la derniere ligne de mark lorsque le compte  blogmarks  possede moins de marks que le nombre de marks a afficher (un grand merci a  JMF  qui m'a fourni le correctif) 
+ Ajout d'une meta-valeur de template  {blogmark_summary_html_nobr}  comportant la description du mark encodee en entitees html mais sans retours-charriot ni  br /  (utile pour les attributs  title  des liens hypertextes). 
+ 
+
+ Lien vers la  page de telechargement . 
+        </text>
+</document>

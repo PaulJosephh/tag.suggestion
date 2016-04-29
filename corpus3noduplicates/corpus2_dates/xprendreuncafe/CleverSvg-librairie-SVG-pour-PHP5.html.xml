@@ -1,0 +1,67 @@
+<document>
+	<date>2008-02-26</date>
+        <title>CleverSvg, librairie SVG pour PHP5</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>myself</tag>
+                <tag>php</tag>
+                <tag>standards</tag>
+                <tag>svg</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Il y a quelques temps sur un projet professionnel arrete prematurement, j'avais developpe un jeu de classes PHP5 destinees a produire des graphiques au format  SVG . 
+
+
+ Et bien le code source  vient  d'etre mis a disposition sur le nouveau  site dedie open source de Clever Age  sous licence LGPL et a pris le doux nom de  CleverSvg . 
+
+
+ Voici un rapide exemple d'utilisation du joujou: 
+
+  php
+?php
+require_once('cleversvg.php');
+$doc = new csDocument(550, 400, 'SVG test document');
+
+$gradient = new csLinearGradient(0, 0, '100%', '100%');
+$gradient-addStop('0%', 'yellow');
+$gradient-addStop('100%', 'red');
+$doc-addAsDefinition($gradient, 'gradient');
+
+$star = new csPolygon();
+$star-setPointsArray(array(array(350,75),  array(379,161),
+                            array(469,161), array(397,215),
+                            array(423,301), array(350,250),
+                            array(277,301), array(303,215),
+                            array(231,161), array(321,161)));
+$star-setStroke('blue');
+$star-setFill('url(#gradient)');
+$star-setStrokeWidth(4);
+$linkedstar = new csLink();
+$linkedstar-setHref('http://prendreuncafe.com/blog/');
+$linkedstar-addElement($star);
+$doc-addElement($linkedstar);
+
+header("Content-type: image/svg+xml");
+echo $doc-toXML();
+ 
+
+
+ Ce qui donne quelque chose approchant  ceci . Si vous surfez avec un navigateur vieillissant insensible aux avancees technologiques de son temps, ca donne a peu pres ca: 
+
+
+ 
+
+
+ Je suis pour l'instant le developpeur principal et mainteneur du projet, et il y a de fortes chances que ce soit le cas pour un petit bout de temps  [ 1 ] . Une  documentation , une  liste d'information et support utilisateurs  et un  bugtracker  sont disponibles. 
+
+
+ D'autres choses viendront en suivant, dont une librairie destinee a produire des graphes SVG (camemberts, histogrammes, etc.) 
+
+
+ J'en profite aussi pour vous faire part de la  sortie  du projet libre  cleverbox , qui permet de deployer et administrer des instances Trac+Subversion en trois coups de cuiller a pot et sans se faire mal. 
+ Notes 
+ [ 1 ] Je veux dire, y compris apres avoir quitte Clever Age a la mi-mars. 
+        </text>
+</document>

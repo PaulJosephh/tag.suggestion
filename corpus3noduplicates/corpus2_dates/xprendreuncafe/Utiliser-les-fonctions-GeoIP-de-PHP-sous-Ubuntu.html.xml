@@ -1,0 +1,86 @@
+<document>
+	<date>2009-06-02</date>
+        <title>Utiliser les fonctions GeoIP de PHP sous Ubuntu</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>geo</tag>
+                <tag>geoip</tag>
+                <tag>linux</tag>
+                <tag>pecl</tag>
+                <tag>php</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Mon Dieu, les billets techniques refleuriraient-ils au  printemps ? Si vous desirez recuperer des informations geographiques a partir de ladresse IP (ou du hostname) dun utilisateur, vous pouvez utiliser les fonctions fournies par  lextension PECL GeoIP . 
+
+
+ Voici la procedure dinstallation sur une  Ubuntu  8.04: 
+
+
+ $ sudo -s
+# apt-get install build-essential php5-dev php5-cli libgeoip-dev libgeoip1 php-pear
+# pecl install geoip 
+
+
+ Si toiut sest bien passe: 
+
+
+ # echo "extension=geoip.so"  /etc/php5/cli/php.ini 
+
+
+ Si vous utilisez Apache comme serveur: 
+
+
+ # echo "extension=geoip.so"  /etc/php5/apache2/php.ini 
+
+
+ Il faut egalement installer la base GeoIPCity de  Maxmind : 
+
+
+ # wget http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
+# gunzip GeoLiteCity.dat.gz
+# mv GeoLiteCity.dat /usr/share/GeoIP/GeoIPCity.dat 
+
+
+ Vous pouvez maintenant tester lextension avec une ligne du genre [ 1 ] : 
+
+
+ $ echo "?php var_dump(geoip_record_by_name('209.202.168.**'));"|php 
+
+
+ Ca donne ici: 
+
+ 
+array(11) {  ["continent_code"]=
+  string(2) "NA"
+  ["country_code"]=
+  string(2) "US"
+  ["country_code3"]=
+  string(3) "USA"
+  ["country_name"]=
+  string(13) "United States"
+  ["region"]=
+  string(2) "NC"
+  ["city"]=
+  string(4) "Cary"
+  ["postal_code"]=
+  string(5) "27511"
+  ["latitude"]=
+  float(35.7********)
+  ["longitude"]=
+  float(-78.7*******)
+  ["dma_code"]=
+  int(560)
+  ["area_code"]=
+  int(919)
+}
+ 
+
+
+ Enjoy. 
+ Notes 
+ [ 1 ] Jai volontairement masque certaines informations pour devidentes raisons de confidentialite. 
+        </text>
+</document>

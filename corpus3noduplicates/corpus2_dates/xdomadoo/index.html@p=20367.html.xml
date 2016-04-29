@@ -1,0 +1,25 @@
+<document>
+	<date>2010-03-26</date>
+        <title>Gnralits sur le 1-Wire</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>1-wire</tag>
+                <tag>bus</tag>
+                <tag>composant</tag>
+                <tag>dallas</tag>
+                <tag>domotique</tag>
+                <tag>ds18b20</tag>
+                <tag>onewire</tag>
+        </tags_set>
+        <categories_set>
+                <category>Protocole 1-Wire</category>
+        </categories_set>
+        <text>
+                                                         Le bus  1-Wire OneWire Dallas Semiconductor Le niveau de tension utilise sur ce bus est +5V (niveau TTL). Ce bus supporte une  topologie de reseau Lavantage de ce bus est quil peut etre utilise en mode parasite (alimentation a partir du fil de donnees). Cela permet dutiliser seulement 2 fils (et non un seul comme le nom le laisse supposer), un fil de donnees et un fil de masse. Chaque circuit possede une adresse physique unique, gravee dans la puce a la fabrication. Cest une des raisons expliquant la reticence de  Dallas 1-Wire Generalement utilise pour des mesures de temperatures, il existe une gamme complete de composants compatibles. 1. Les composants Il existe de nombreux composants 1-Wire, voici les principaux composants pouvant etre utilise en  domotique DS18S20  Thermometre (sonde de temperature) 2. Les controleurs Il existe plusieurs controleurs pour le bus  1-Wire Dallas Semiconductor 1-Wire  DS9097U  DS9490R  LinkTH  HA7E Le DS9097U et le DS9490R sont des controleurs officiels de  Dallas USB Dallas 
+ Le LinkTH est le controleur  1-Wire iButtonLink 1-Wire Ce controleur  iButtonLink iButtonLink 1-Wire Embedded Data Systems 1-Wire 1-Wire Il est a noter que comme le LinkTH, le module HA7E dispose dune gestion electronique intelligente du bus qui lui permet doptimiser au maximum la gestion de la communication et donc dameliorer le fonctionnement de bus  1-Wire Les controleurs LinkTh et HA7E etant des modules RS232, il est possible de les connecter sur un PC nayant pas de port de ce type avec un adaptateur  USB 3. Les logiciels Le nombre de logiciels permettant de communiquer avec le bus  1-Wire OneWireViewer Ce logiciel est fournit par  Dallas Semiconductor Une colonne affiche la liste des composants, et un clic sur le composant permet dobtenir le detail des informations de ce composant. 
+ Meme si ce logiciel est parfait pour tester une installation, il ne permet pas une utilisation en continue (pour enregistrer des temperatures par exemple).  THMon Ce logiciel sinterface avec le controleur  1-Wire 
+ 
+ OWFS Lexcellent projet  OWFS 1-Wire Ce logiciel est avant tout concu pour  Linux OpenWRT 1-Wire On retrouve sur le web des outils pour communiquer avec  OWFS Aquarium Automation LogTemp Ce logiciel permet lacquisition de donnees et leur sauvegarde dans des fichiers textes. Il est possible de transferer automatiquement ces fichiers sur un serveur  FTP Ultra1Wire (Plug-in pour HomeSeer) Ce plug-in pour le logiciel  HomeSeer HomeSeer HS2 v2.2 plug-in makes tracking temperature in your  home easy HomeSeer device for each sensor.En utilisant un controleur  1-Wire HomeSeer device for each sensor. (HA7E, HA7Net et / ou TEMP08) pour lire les sondes numeriques  1-Wire HomeSeer device for each sensor. (DS18S20 et DS18B20), ce plug-in cree et met a jour automatiquement un device  HomeSeer En outre, les valeurs de temperature pour chacun des capteurs sont inserees dans une base de donnees sous-jacente pour la representation graphique.     Il existe bien evidemment quelques autres logiciels plus ou moins avances que vous retrouverez assez facilement sur Internet.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

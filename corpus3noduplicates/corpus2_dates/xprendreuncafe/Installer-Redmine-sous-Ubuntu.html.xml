@@ -1,0 +1,163 @@
+<document>
+	<date>2009-05-08</date>
+        <title>Installer Redmine sous Ubuntu</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>howto</tag>
+                <tag>rails</tag>
+                <tag>redmine</tag>
+                <tag>ruby</tag>
+                <tag>svn</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Redmine  est un gestionnaire de projet technique exploitant  Ruby on Rails  et tres inspire de  Trac , mais qui le depasse fonctionnellement sur plusieurs points, notamment avec une gestion multiprojets qui fait cruellement defaut a son inspirateur. Voyons comment installer et deployer la derniere version de la branche stable (0.8) sur une  Ubuntu  Hardy Heron LTS [ 1 ] . 
+
+
+ 
+
+
+ Toutes les operations decrites ci-dessous se font en  root , mais libre a vous dutiliser  sudo  a chaque fois, ou une fois pour toutes en lancant la commande  sudo -s . 
+
+
+ En preambule, on installe les quelques paquets qui nous seront necessaires [ 2 ] : 
+
+
+ # apt-get install build-essential ruby ruby1.8-dev rake libopenssl-ruby \
+  libmysql-ruby apache2-threaded-dev subversion git 
+
+
+ Maintenant, on recupere les sources de Redmine [ 3 ] , quon va installer dans  /opt : 
+
+
+ # svn co http://redmine.rubyforge.org/svn/branches/0.8-stable /opt/redmine-0.8
+# ln -s /opt/redmine-0.8 /opt/redmine 
+
+
+ On va ajouter les sources de la version 2.1.2 de rails [ 4 ]  dans le repertoire  vendor  de lapplication, afin de cloisonner autant que possible lenvironnement quelle exploite: 
+
+
+ # cd /opt/redmine
+# wget -O rails.tar.gz http://github.com/rails/rails/tarball/v2.1.2
+# tar xvzf rails.tar.gz  rm rails.tar.gz
+# mv railsXXX vendor/rails 
+
+
+ Creez maintenant une base de donnees (MySQL ou autre) dediee a Redmine. Une bonne pratique est de creer egalement un utilisateur MySQL aux droits restreints a sa seule exploitation. 
+
+
+ Ensuite, editez le fichier  config/database.yml  afin de modifier les parametres de connexion a la base de donnees precedemment creee. 
+
+
+ On installe maintenant une version recente de  rubygems , ce qui nous permettra dinstaller  passenger , une sorte de  mod_rails  permettant de deployer facilement des applications rails sur un serveur  Apache : 
+
+
+ # wget http://rubyforge.org/frs/download.php/56228/rubygems-1.3.3.tar.gz
+# tar xvzf rubygems-1.3.3.tar.gz  rm rubygems-1.3.3.tar.gz
+# ruby setup.rb
+# rm -r rubygems-1.3.3 
+
+
+ Vous pouvez maintenant lancer la tache de creation des tables: 
+
+
+ # rake db:migrate RAILS_ENV="production" 
+
+
+ Et remplir la base avec quelques donnees par defaut: 
+
+
+ # rake redmine:load_default_data RAILS_ENV="production" 
+
+
+ On installe donc  passenger , qui au passage vous posera quelques questions tres simples: 
+
+
+ # gem install passenger 
+
+
+ On installe le module apache pour prendre en charge passenger: 
+
+
+ # passenger-install-apache2-module 
+
+
+ Pour mapper un domaine - par exemple  mon.domaine.tld  - vers votre instance Redmine, il faut dabord creer un  VirtualHost  apache dedie, par exemple dans le fichier  /etc/apache2/sites-available/redmine : 
+
+ 
+VirtualHost *
+  SetEnv RAILS_ENV production
+  ServerName mon.domaine.tld
+  DocumentRoot /opt/redmine/public
+/VirtualHost
+ 
+
+
+ Vous noterez que la racine publique du vhost pointe vers le dossier  public  de linstance Redmine precedemment installee. Noubliez pas non plus de declarer le domaine dans votre fichier  /etc/hosts : 
+
+
+ 127.0.0.1 mon.domaine.tld 
+
+
+ On active maintenant le vhost et on relance Apache: 
+
+
+ # a2ensite redmine
+# /etc/init.d/apache2 restart 
+
+
+ Une derniere petite chose, vous devez autoriser Apache a lire et ecrire dans certains repertoires de linstance Redmine, comme suit: 
+
+
+ # cd /opt/redmine
+# chown -R www-data:www-data files log tmp
+# chmod -R ug+rw files log tmp
+# chmod -R o-rw files log tmp 
+
+
+ Voila, vous devriez avoir une instance totalement fonctionnelle de Redmine, accessible par le domaine que vous avez configure. 
+
+
+ En cadeau Bonux, le support de GMail et TLS pour lenvoi demails 
+
+
+ Si vous desirez configurer lenvoi des emails en utilisant un (ou votre) compte GMail [ 5 ] , voici la procedure: 
+
+
+ Installez tout dabord le support de  TLS  pour ActiveMailer: 
+
+
+ # cd /opt/redmine
+# ruby script/plugin install git://github.com/collectiveidea/action_mailer_optional_tls.git 
+
+
+ Puis editez le fichier  config/email.yml : 
+
+ 
+production:
+  delivery_method: :smtp
+  smtp_settings:
+    tls: true
+    address: "smtp.gmail.com"
+    port: '587'
+    domain: "smtp.gmail.com"
+    authentication: :plain
+    user_name: "votreadresse@gmail.com"
+    password: "votremotdepasse"
+ 
+
+
+ Relancez Apache pour que la modification soit effective. 
+
+
+ Edit:  Prise en compte de certaines remarques faites en commentaires. 
+ Notes 
+ [ 1 ] Cest la version qui propulse mon serveur. 
+ [ 2 ] Ce sont les paquets qui mont ete necessaires, sur ma machine; nhesitez pas a remonter deventuels manques en commentaires. 
+ [ 3 ] On installe ici la derniere branche stable disponible a lheure ou sont ecrites ces lignes, la 0.8. 
+ [ 4 ] Oui, il y a plus recent, mais Redmine 0.8 est concu pour tourner avec cette version: autant limiter les risques dincompatibilites. 
+ [ 5 ] Linteret principal a mes yeux reste larchivage de tous les elements envoyes. 
+        </text>
+</document>

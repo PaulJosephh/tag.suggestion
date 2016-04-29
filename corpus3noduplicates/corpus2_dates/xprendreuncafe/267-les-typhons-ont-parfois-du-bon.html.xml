@@ -1,0 +1,32 @@
+<document>
+	<date>2005-09-03</date>
+        <title>Les typhons ont parfois du bon</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>hosting</tag>
+                <tag>prendreuncafe</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>J'ai un peu hesite a faire ce titre, mais tant pis. Ce jeu de mots lamentable est cependant l'occasion de vous annoncer que ce blog migre sur les serveurs douillets de  Typhon.net , sur les conseils avises de  Laurent . L'offre que j'ai retenu est la  pro1 , basee sur un  VPS  nanti d'1 Go d'espace disque, avec au programme: 
+
+ 
+ un acces SSH 
+ des outils de developpement (Subversion / SVN, Webdav, Trac, RubyOnRails...) 
+ des langages comme Ruby 1.8 (CGI, FastCGI), Python 2.3 (CGI), Perl 5.8 (CGI, FastCGI) et bien entendu PHP5 (module et FastCGI) ainsi que PHP4 
+ MySQL, postgresql sur demande, etc... 
+ 
+
+ Le tout pour un rapport prix/prestations quasiment imbattable  
+
+
+ Je tiens a saluer publiquement la qualite de leur offre et leur professionnalisme. En effet, ils repondent a toutes les questions techniques par mail ou sur le chan IRC #typhon sur Freenode, le tout dans la bonne humeur et la decontraction. 
+
+
+ Edit 
+
+
+ Desole, j'avais oublie de reouvrir commentaires et trackbacks  
+        </text>
+</document>

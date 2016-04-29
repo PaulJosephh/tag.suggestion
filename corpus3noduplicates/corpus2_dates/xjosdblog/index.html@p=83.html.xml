@@ -1,0 +1,17 @@
+<document>
+	<date>2007-11-29</date>
+        <title>Windows Mobile : IP statique en WiFi</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Windows Mobile</category>
+        </categories_set>
+        <text>
+                                                 
+Avec Windows Mobile, par defaut, lallocation de ladresse ip se fait par DHCP. Si lon veut pouvoir specifier une ip statique il faut aller dans :
+ DemarrerParametresConnexionsWi-FiCartes reseauASUS 802.11b+g Wireless Card Adresse IP : 192.168.0.xx
+ (adresse Freebox par defaut) DNS : 212.27.53.252 (DNS Primaire Free)
+ 
+        </text>
+</document>

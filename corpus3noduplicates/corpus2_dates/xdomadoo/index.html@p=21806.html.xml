@@ -1,0 +1,16 @@
+<document>
+	<date>2011-10-27</date>
+        <title>Guide dinstallation du micromodule commutateur Z-Wave Aeon Labs DSC12</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                         
+ Le micromodule commutateur d Aeon Labs Z-Wave De plus, ce micromodule est capable de transmettre les informations sur     consommation electrique instantanee (W) et cumulee (KWh) de   la charge connectee. 
+    Pour installer ce micromodule, on peut utiliser une boite dencastrement standard (diametre 67mm et profondeur 40mm). Mais pour avoir plus daisance pour le cablage, il est est  recommande dutiliser une boite dencastrement de diametre 67mm et  profondeur 50mm (Exemple :  SCHALB71322   Mettez votre circuit electrique hors tension et retirez votre interrupteur existant. Pour que le module tienne au fond de la boite dencastrement, il faut retirer les 4 orifices de passage des cables.   Installez la boite dencastrement dans le mur.   Vissez les 2 vis de blocage.   Denudez les fils sur 6 a 7mm uniquement afin de ne pas apercevoir de partie cuivree une fois connecte au bornier.   Cablez le micromodule en suivant le schema ci-dessous :   Faites passer les cables vers lorifice en bas a droite.   Coudez les fils de facon a ce que le micromodule puisse sintegrer dans la boite dencastrement.   Faites passer lantenne dans lorifice de la boite dencastrement en haut a gauche, puis poussez le micromodule dans la boite.   Remettez alors le circuit electrique sous tension. Vous pouvez tester le bon fonctionnement du micromodule en appuyant sur linterrupteur ou sur le bouton integre au micromodule.   Pour etre controle a distance, le micromodule doit etre inclus dans votre reseau  Z-Wave Pour inclure le micromodule dans votre reseau, mettez votre controleur en mode inclusion et appuyer sur le bouton du micromodule.  Vous pouvez maintenant fixer linterrupteur.   Montez le cadre de finition et le bouton si besoin.   Votre micromodule est maintenant installe et peut etre pilote a distance par votre controleur !  Note : De base, le micromodule est prevu pour fonctionner avec un interrupteur a bascule, mais il est possible de lutiliser avec un interrupteur a impulsion. Pour cela, appuyer 6 fois successivement sur le bouton du micromodule pour le faire changer de mode.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,27 @@
+<document>
+	<date>2015-04-21</date>
+        <title>Jeedom  Dcouverte du mode Inclusion/Exclusion depuis un smartphone</title>
+        <author> Maximin </author>
+        <tags_set>
+                <tag>domotique</tag>
+                <tag>exclusion</tag>
+                <tag>guide</tag>
+                <tag>inclusion</tag>
+                <tag>jeedom</tag>
+                <tag>smartphone</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Jeedom</category>
+        </categories_set>
+        <text>
+                                                         Aujourdhui, nous allons decouvrir une fonctionnalite tres interessante, comment inclure/exclure un module  Z-Wave Jeedom 1. Inclusion Pour commencer, lancer la Webapp en vous connectant a  Jeedom http http jeedom Vous arrivez ensuite sur linterface mobile de  Jeedom Cliquez sur Plugin puis sur  Z-Wave Ici, nous allons retrouver deux boutons, le premier permettra dinclure un module  Z-Wave Cliquez sur Inclusion pour commencer linclusion. Passez votre module en mode inclusion (reportez vous sur la notice de votre module pour connaitre la procedure), par exemple, pour la majorite des modules  Fibaro TMP Une fois votre module en mode inclusion, un message apparait vous confirmant la detection du module et le debut de lintegration. Patientez quelques secondes (60) pendant que  Jeedom Jeedom Si elle est bien disponible, le module sera reconnu. Jeedom Une fois linclusion terminee, vous arrivez sur le premier ecran du menu  Z-Wave Inclusion en video: Rendez vous ensuite sur un ordinateur (ou sur la version PC de la Webapp), allez dans la section Plugin puis Protocoles  Domotique Z-Wave Vous constaterez lajout du nouveau module. Il ne vous restera plus qua le renommer, lui attribuer un objet ainsi quune categorie et eventuellement affiner sa configuration. 2. Exclusion Pour exclure un module, la manipulation reste relativement similaire a linclusion. Z-Wave Passez ensuite votre module en mode Exclusion,  Jeedom Exclusion en video: Voila, vous savez maintenant comment inclure et exclure un module  Z-Wave FAQ : MON MODULE NEST PAS RECONNU, QUE FAIRE ? Il est possible que votre module  Z-WAVE Jeedom Pas de panique, il suffira de se rendre sur le Market a partir dun PC pour telecharger la configuration du module (si disponible) et ensuite de lappliquer sur le module fraichement inclus. Cherchez le nom de votre module et installez le. Il ne vous restera plus qua selectionner son nom dans le menu deroulant puis de sauvegarder pour que la configuration soit appliquee. EST-IL POSSIBLE DE SUIVRE LEVOLUTION DE LINCLUSION VIA MON PC EN EFFECTUANT LA MANIPULATION VIA MON SMARTPHONE ? Oui, bien sur, pour cela il suffit de se rendre a partir dun ordinateur dans la section Plugin puis Protocoles  Domotique Z-Wave Lancez une inclusion ou une exclusion a partir de votre Smartphone et vous verrez les differentes etapes defiler sur votre ordinateur (ici une exclusion). QUE SE PASSE TIL SI JE NAI PLUS DE BATTERIE SUR MON SMARTPHONE ALORS QUE JE VIENS DE LANCER UNE INCLUSION ? Linclusion continue son cours, le Smartphone sert seulement daffichage, le module sera quand meme correctement inclus dans  Jeedom Merci a Rosty, beta testeur Jeedom, pour cet article!  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Jeedom  Guide dutilisation du compteur denergie HEM3 dAeon Labs 
+ Jeedom  Guide dutilisation de la multiprise commandee Greenwave 
+ Plugin Thermostat JEEDOM : pour le controle total de votre chauffage 
+ Jeedom  Guide dutilisation de lampoule connectee ZIPATO RGBW END .entry-content  
+        </text>
+</document>

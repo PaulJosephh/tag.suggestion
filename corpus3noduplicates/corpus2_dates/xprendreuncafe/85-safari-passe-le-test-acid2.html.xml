@@ -1,0 +1,33 @@
+<document>
+	<date>2005-04-28</date>
+        <title>Safari passe le test Acid2</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>apple</tag>
+                <tag>browsers</tag>
+                <tag>osx</tag>
+                <tag>safari</tag>
+                <tag>standards</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Libritudes</category>
+        </categories_set>
+        <text>[Via  jy[B]log ] 
+
+
+ David Hyatt , developpeur en chef de  Safari  - le navigateur web du systeme d'exploitation d'Apple, Mac OS X - vient de finir le developpement de la version qui passe avec succes le test  Acid2 , destine a verifier la capacite d'un browser a gerer  CSS2 . 
+
+
+ C'est le premier navigateur reussir entierement le test,  16 jours seulement apres la publication de ce dernier . 
+
+
+ Je suis  scotche . 
+
+
+ Il va meme fournir des patchs correctifs au moteur de rendu  KHTML/Konqueror , sur lequel il s'est base pour developper Safari. 
+
+
+ Respect et Admiration pour ce type. 
+        </text>
+</document>

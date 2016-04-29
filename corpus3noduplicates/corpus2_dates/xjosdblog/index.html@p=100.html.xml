@@ -1,0 +1,55 @@
+<document>
+	<date>2007-10-29</date>
+        <title>Synology : installation et utilisation de ipkg</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Indispensable</category>
+                <category>Synology</category>
+                <category>Systeme</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+ 
+ 
+ Installer telnet root admin 
+Telecharger dans le dossier  public ds101-bootstrap_1.0-4_powerpc.xsh cd /volume1/public 
+Mise a jour :
+ 
+ipkg update 
+Utilisation d ipkg 
+ 
+ ipkg update 
+ ipkg upgrade 
+ ipkg list 
+ ipkg install pkg pkg 
+ ipkg status 
+ ipkg remove pkg pkg 
+ ipkg files pkg pkg 
+ ipkg search file file 
+ Mes indispensables dipkg : 
+ 
+ ipkg install bash 
+ ipkg install screen 
+ ipkg install cron 
+ ipkg install rssh scp 
+ ipkg install textutils 
+ DSM 3 ou 4  ipkg -ash: ipkg: not found 
+ Editer le fichier  /etc/rc.local 
+#!/bin/sh mount -o bind /volume1/@optware /opt Editer le fichier du profil  root /root/.profile 
+PATH= /opt/bin:/opt/sbin: Rebooter le Synology. 
+ Remarque  TwonkyMedia /etc/rc.local 
+ Remarque du 01/03/2014 
+DS209xII top
+top: error while loading shared libraries: libproc-3.2.8.so: cannot open shared object file: 
+No such file or directory
+DS209xII ps
+ps: error while loading shared libraries: libproc-3.2.8.so: cannot open shared object file: 
+No such file or directory
+ /opt/bin/ps /opt/bin/top /usr/bin/top procps ipkg install procps 
+ Installation du BOOTSTRAP ou IPKG 
+ Overview on modifying the Synology Server, bootstrap, ipkg A short list of the more useful 900+ ipkg packages busybox(1)  Linux man page { Dsm 4 | -ash: ipkg: not found } Basic commands for the Linux vi Editor 
+        </text>
+</document>

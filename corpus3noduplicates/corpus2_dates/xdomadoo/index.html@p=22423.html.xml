@@ -1,0 +1,16 @@
+<document>
+	<date>2012-05-23</date>
+        <title>Guide dinstallation du dtecteur douverture Everspring HSM02</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Z-Wave Produits</category>
+        </categories_set>
+        <text>
+                                                          
+ Le detecteur HSM02 permet de detecter louverture dune porte ou dune fenetre, et denvoyer un signal radio  Z-Wave Il est constitue dune   partie avec un aimant (la partie mobile), fixe sur la porte ou la   fenetre, ainsi que de lunite principal positionnee sur la partie fixe   de la fenetre/porte avec des vis ou un adhesif. Lorsque les deux parties   ne sont plus en face, un message est automatiquement envoye. Ce detecteur est tres petit et permet ainsi de passer inapercu dans votre domicile. 
+     Le HSM02 est fourni avec des accessoires permettant son installation : vis, chevilles, scotch double face.   Enlevez tout dabord le morceau de plastique qui evite le dechargement de la pile. La LED doit clignoter periodiquement pour indiquer que le detecteur nest pas inclus dans un reseau  Z-Wave Ouvrez le couvercle du compartiment a pile. Pour inclure le detecteur dans un reseau  Z-Wave         Une fois votre HSM02 inclus dans un reseau  Z-Wave       Collez une partie sur le montant et lautre partie sur la porte. Essayez de les rapprocher au maximum tout en faisant attention a ce quon puisse ouvrir la porte normalement (la detection douverture se fait quand les 2 parties sont eloignes de plus de 3 cm).     La detection douverture sera envoyee a votre controleur  Z-Wave         Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

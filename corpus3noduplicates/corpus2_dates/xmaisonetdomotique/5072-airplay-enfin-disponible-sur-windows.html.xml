@@ -1,0 +1,15 @@
+<document>
+	<date>2011-07-25</date>
+        <title>
+Airplay enfin disponible sur Windows !</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Airplay</tag>
+                <tag>MCE</tag>
+        </tags_set>
+        <categories_set>
+                <category>Tests Logiciels</category>
+        </categories_set>
+        <text>Depuis que Apple a mis a disposition la fonction Airplay, qui permet denvoyer de la video ou des photos de son iBidule vers son AppleTV, cela me tentait vraiment: pas de fil, vraiment facile a utiliser ! Un film dispo sur mon iPad, une photo prise avec mon iPhone, hop, jenvoie direct laffichage sur la TV, sans cable, juste en selectionnant la TV comme peripherique de lecture. Seul frein: il fallait lAppleTV, qui est trop limitee a mon gout (pas de 1080 notamment :( ) Je laissais donc cette fonctionnalite de cote :/ Bien sur, plusieurs developpements ont eu lieu pour utiliser cette fonction, mais necessitant a chaque fois un Mac. Aujourdhui, le systeme Windows (Windows 7 avec le Media Center, notamment) peut enfin beneficier de la fonction Airplay grace a  Thomas Pleasance .  Linstallation est tres simple: il faut avant tout posseder le framework .Net 3.5 ( disponible ici si vous ne lavez pas deja ), puis installer  Bonjour! , disponible ici , et le plugin pour Windows Media Center 7, disponible la . Une fois ces deux elements installes, Airplay est disponible sur votre iBidule. Par exemple sur liPad, si je lance la lecture dun film, une petite icone apparait (rectangle avec fleche vers le haut), qui me permet de selectionner la lecture sur liPad ou sur le Media Center:   En selectionnant Windows Media Center, la lecture de la video est automatiquement basculee sur la TV grace a MCE:   Laffichage sur la TV se fait rapidement, sous 2-3 secondes, et laffichage de liPad se grise pendant ce temps. Difficile de faire plus simple ! La meme chose est possible pour la lecture dun diaporama photo, ou encore des videos Youtube. Il faut simplement que liPad ou liPhone soient sur le meme reseau que le Media Center. On veut montrer sur grand ecran une photo prise avec son iPhone ? On transfere la lecture vers le Media Center. Pas de transfert de fichier a effectuer ni de cable a brancher. Jadore !  Note: la premiere fois, si votre pare feu windows est active, il est possible quune fenetre popup souvre en arriere plan demandant lautorisation dacces, il faudra odnc reduire Media Center pour repondre oui a ce popup.  Bon, par contre il sagit encore dune version beta 1, qui peut souffrir de quelques bugs. Parmi les 180 commentaires qui suivent lannonce de ce plugin, certains rencontrent des problemes pour lire des videos, alors que pour dautres cela fonctionne parfaitement. Chez moi, un media Center fonctionne parfaitement, lautre plante en effet des que je lance une video. Ces quelques bugs seront sans doute corriges dans les prochaines versions, ce plugin interessant visiblement beaucoup de monde ! A suivre de pres, donc: avec ce plugin, m on Media Center se rapproche encore du PCHC parfait  :p   Airplay   MCE 
+        </text>
+</document>

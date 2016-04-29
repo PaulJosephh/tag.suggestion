@@ -1,0 +1,21 @@
+<document>
+	<date>2014-10-08</date>
+        <title>Mise  jour 0.9.999.1 de la Zipabox : support de Somfy RTS et de nombreuses amliorations</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>mise a jour</tag>
+                <tag>rts</tag>
+                <tag>somfy</tag>
+                <tag>somfy rts</tag>
+                <tag>z-wave</tag>
+                <tag>zipabox</tag>
+                <tag>zipato</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Voila plusieurs mois que la  Zipabox Somfy Apres la ZiBASE HomeWizard RFXCOM Zipato Somfy le module dextension RF433MHz Deux autres protocoles utilisant la frequence433MHz sont desormais aussi supportes comme vous pouvez le voir dans la liste des nouvelles fonctionnalites :  General: ajout de la configuration IP statique Zipabox Somfy De nombreuses corrections ont egalement apportees :  General: proprietes manquantes ajoutees pour assurer la compatibilite de decouverte API v2 UPnP Z-Wave Z-Wave Z-Wave Z-Wave ZigBee X10 3G 3G Lequipe  Zipato  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

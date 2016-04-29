@@ -1,0 +1,39 @@
+<document>
+	<date>2012-06-06</date>
+        <title>Cablage prise de tlphone en T</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Prise telephone</tag>
+        </tags_set>
+        <categories_set>
+                <category>Cablage de prises</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+La prise F-010 ou prise en T, surnommee ainsi du fait de sa forme semblable a la lettre T, est le type de connecteur telephonique historique en France. Elle a ete installee sur les installations terminales de France Telecom jusqua la fin 2003. Depuis, les nouvelles installations sont equipees de prises 8P8C a la norme CEI 60603-7 (appelees incorrectement  RJ45 
+En general, France Telecome installe la ligne sous la forme dun cable a une ou deux paires. La deuxieme paire nest utilisee que pour linstallation dune deuxieme ligne. Il suffit donc dune paire pour utiliser pleinement le telephone et ladsl. Voici comment cabler larrivee de la ligne France-Telecom sur une prise en T:
+ 
+ 
+ Plot Fonction Plot Fonction 
+ 1 Fil A ligne 1 2 Anti-tintement ligne 1 
+ 3 Fil B ligne 1 4 Non utilise 
+ 5 Non utilise 6 Fil A ligne 2 
+ 7 Anti-tintement ligne 2 8 Fil B ligne 2 
+ 
+ Pour faire simple il ny a que deux fils a connecter sur les bornes 1 et 3 en haut a gauche. 
+ 
+Les bornes 2 et 7 danti-tintement sont obsoletes et datent des anciens postes a cadran rotatif.
+ 
+ 
+ Produits 
+ 
+
+ 
+ 
+Shopping:
+ Prise Telephone en T saillie Legrand Prise Telephone en T saillie Legrand Blanc Prise Telephone a encastrer Neptune Legrand 
+ 
+Voir egalement sur ce blog:  Cablage prise telephone RJ11, RJ45 et prise en T Wikipedia : Prise en T Genie Electrique : Telephonie Le site de VieuxGeo : Telephonie 
+        </text>
+</document>

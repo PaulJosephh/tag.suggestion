@@ -1,0 +1,37 @@
+<document>
+	<date>2014-03-21</date>
+        <title>How to bypass Turkey's Twitter ban [Update : Youtube too !]</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Technologies</category>
+        </categories_set>
+        <text>
+                                                
+                                                         [ Update&#160;: On the 27th of March, the Turkish government also blocked Youtube. The following methods to bypass the ban are valid for Youtube as well. ]
+ Today&#160;the Turkish government blocked Twitter's website in reaction to Twitter's refusal to abide by court orders to delete certain contents. The government told earlier that the ban would be the last resort "to avert the unjust treatment of our citizens in case of a continuation of this ignorance of the court rulings". 
+ Neelie Kroes,&#160;European Commissioner for Digital Agenda,  tweeted  today&#160;: 
+ 
+ The Twitter ban in #Turkey is &#160;groundless, pointless, cowardly. Turkish people and intl community will see this as censorship. It is. 
+ 
+ There is a lot to say on the legal and ethical aspects of the ban, especially in the current Turkish political context, but let's focus on four ways to bypass the ban. 
+ 1. Use Tor Browser 
+ Tor,&#160; The Onion Router , is a  network  allowing users to bypass censorship as well as providing a better online anonymity. Using Tor ( download here ) makes your data transfers go through several relays in the world, which allows to hide your location and thus access Twitter even though you're using a Turkish IP address. 
+ Using Tor is free, pretty easy to use and doe not require any skill.  The transfer rates are slower but it's functional. 
+ This also exists on  iOS &#160;and  Android . 
+ 2. Change your DNS 
+ The DNS is a fundamental service on the Internet that allows computers to redirect users to the correct IP address of the server on which the desired web site is hosted.  It is however not confirmed that changing the DNS is fully efficient to bypass the censorship but it's worth trying . 
+ By going on the  OpenNIC Project 's web site, two IP address will be displayed. All you have to do is to enter these addresses in the correct field of your computer's configuration. Here are the  instructions  in Turkish and a  video for iOS . This method is quite straightforward. 
+ 3. Use a VPN 
+ A virtual private network (VPN) allows you to remotely and securely connect to a distant server or computer, enabling the user to use the IP address of this server or computer to access the uncensored web. Usually, unless you have a private VPN, using such a service isn't free. However, there are a few free public VPNs, like  VPN Gate . 
+ All the instructions are on the website.  This solution requires a few minutes to be well configured, nevertheless it is a good alternative to Tor if you want to use your favorite web browser  instead of the Tor browser. 
+ The VPN is definitely the best bypass method. 
+ 4. Tweet by SMS 
+ You can still tweet by using old fashioned SMS. With Avea and Vodafone, text&#160; START  to 2444&#160;; with Turkcell, text&#160; START  to 2555. 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

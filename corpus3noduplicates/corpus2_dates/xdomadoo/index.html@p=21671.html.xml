@@ -1,0 +1,14 @@
+<document>
+	<date>2011-07-19</date>
+        <title>Migration du serveur zibase.net vers un autre serveur</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>ZiBASE Applications</category>
+        </categories_set>
+        <text>
+                                                          Lors de la premiere utilisation, la  ZiBASE Zodianet zibase.net domadoo-zb.net A partir du configurateur  ZiBASE   Saisissez votre mot de passe puis cliquez sur Exporter dans un fichier. Notez que cette manipulation peut servir de sauvegarde de votre configuration.   Cliquez maintenant sur Changer de plateforme.   Entrez de nouveau votre mot de passe, puis selectionnez le serveur vers lequel vous souhaitez migrer votre  ZiBASE domadoo-zb.net   Un message vous indique que la manipulation a reussi. Cliquez sur OK.   Votre  ZiBASE   Vous devez creer un compte sur ce serveur comme si vous etiez un nouvel utilisateur. Cliquez donc sur Nouvel utilisateur ? Creez votre Compte !.   Cliquez sur OK et appuyez sur le bouton tout en haut a larriere de votre  ZiBASE   Entrez votre nom dutilisateur, mot de passe et adresse mail. De preference les memes que votre compte sur le serveur  zibase.net   Cliquez sur OK. Connectez vous ensuite en entrant votre nom dutilisateur et mot de passe. Puis cliquez sur Configurateur.   Vous arrivez sur une interface entierement vierge comme lors de la premiere utilisation de votre  ZiBASE Allez dans le mode EXPERT, puis dans longlet Compte et cliquez sur Importation/Exportation.   Entrez votre mot de passe et cliquez sur Importer dun fichier. Selectionnez alors votre fichier de configuration prealablement enregistre (au format *.zconf) et cliquez sur Ouvrir.   Un message vous confirme que limportation a reussi. Cliquez sur OK. Vous pouvez vous apercevoir que votre configuration a bien ete importee en consultant longlet  domotique   Afin de ne pas perdre vos Credits  SMS zibase.net   Un message vous indique que lexportation a reussi.   Cliquez sur OK. Limportation vers le nouveau serveur est automatique. Cette operation peut duree 10 minutes. Seuls les credits seront importes, les bonus photos ne peuvent pas migrer dun serveur a lautre.  Voila, vous avez migre entierement votre configuration et vos credits sur un nouveau serveur !   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

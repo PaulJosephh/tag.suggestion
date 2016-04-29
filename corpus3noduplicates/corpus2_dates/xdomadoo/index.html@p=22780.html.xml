@@ -1,0 +1,14 @@
+<document>
+	<date>2012-10-03</date>
+        <title>EtherRain, le contrleur darrosage IP</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          QuickSmart Ethernet   LEtherRain dispose de 8 borniers pour y connecter des electrovannes, permettant ainsi de gerer jusqua 8 zones darrosages. Il dispose aussi dune entree pour le branchement dun capteur de pluie, tres pratique pour ne pas arroser lorsquil pleut, et ainsi economiser leau.   LEtherRain nintegre pas dintelligence, il execute uniquement les commandes envoyees par un serveur. Ainsi il doit etre utilise en harmonie avec un logiciel comme  OptiRain HomeSeer LawnCheck domotique Vera De plus, une API est disponible ce qui permet de lutiliser avec nimporte quel systeme pouvant envoyer des requetes  HTTP Retrouvez les differents tests de notre partenaire  Maison et Domotique EtherRain : Pour automatiser son arrosage EtherRain et HomeSeer EtherRain et Vera LEtherRain8 ainsi que ses accessoires pour larrosage sont disponibles sur la boutique Domadoo !  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

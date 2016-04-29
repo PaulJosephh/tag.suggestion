@@ -1,0 +1,34 @@
+<document>
+	<date>2014-12-17</date>
+        <title>Projet de Gnie Logiciel : Monitoring Domotique</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Projet</tag>
+        </tags_set>
+        <categories_set>
+                <category>Cours</category>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                 
+ Contexte : la domotique 
+La domotique designe un ensemble de techniques (electronique, automatismes, informatique, reseaux et telecommunications) mises en uvre dans les batiments afin de centraliser ou dautomatiser le controle des differents systemes et sous-systemes (chauffage, volets roulants, eclairage, porte de garage, portail dentree, prises electriques, alarme. . .). La domotique vise a apporter des solutions techniques pour repondre aux besoins de confort (gestion denergie, optimisation de leclairage et du chauffage), de securite (alarme) et de communication (commandes a distance, signaux visuels ou sonores. . .) que lon peut retrouver dans les maisons, les hotels, les lieux publics
+ Objectifs 
+La domotique met en uvre un nombre important de capteurs et dactionneurs. Il est interessant de pouvoir monitorer les changements detats de tous ces modules pour rendre compte de levolution de la temperature, de la consommation electrique, du nombre de detection dun detecteur de mouvements
+ 
+La realisation dun tel monitoring necessite:
+ 
+ dans un premier temps de stocker linformation dans une base de donnees, et dans un deuxieme temps de permettre lexploration ou lexploitation cette information en produisant des graphiques intelligibles et interactifs. Points critiques du projet Un type de donnees particulier 
+Les donnees qui vont etre manipulees sont particulieres. On les appelle des series chronologiques ou encore des series temporelles ( Time Series Modele de base de donnees 
+La deuxieme etape consiste a elaborer un modele de base de donnees. Ce modele devra etre adapte a la prise en compte de 10000 a 100000 releves par jours tout en permettant de produire des graphiques ou lechelle de temps peut etre lannee. De plus, les releves sont de nature differentes.
+ 
+Il faut distinguer :
+ 
+ les informations detat (ouvert/ferme, detection) les mesures de grandeur (temperature, luminosite, humidite, consommation en watts) les compteurs (consommation electrique, de gaz ou deau) Interface de navigation 
+Linterface doit permettre dexplorer les donnees de la base de donnees. On doit pouvoir faire des graphiques en choisissant le ou les informations a observer ainsi que lechelle ou la plage temporelle. Elle doit fonctionner dans un navigateur Web. De nombreuses librairies existent pour faciliter le developpement dun telle interface
+ Remarque 
+ 
+Ce projet a ete donne a des etudiants de 2eme annee de DUT informatique en 2014-2015. 
+ 
+        </text>
+</document>

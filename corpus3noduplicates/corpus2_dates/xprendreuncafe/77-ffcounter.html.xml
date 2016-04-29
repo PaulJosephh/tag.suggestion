@@ -1,0 +1,69 @@
+<document>
+	<date>2005-04-19</date>
+        <title>FFCounter</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>firefox</tag>
+                <tag>flash</tag>
+                <tag>php</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Apparement, un pape a ete appelle arraignee. Drole de nom, mais passons directement a ce qui nous interesse. 
+
+ Suite a  ce billet d'infocraft  ( via ), j'ai eu envie moi aussi de coder (a l'arrache) un petit compteur temps-reel en Flash des telechargements de Firefox, le navigateur web qu'il est  bien   le plus mieux du monde . Ne cherchez pas a comprendre pourquoi j'ai des idees pareilles, moi-meme je m'interroge encore. 
+
+ 
+   wFlash('/blog/upload/swf/ffcounter.swf', '160', '25', 'FFCounter') 
+ 
+
+ Il est scalable, aussi, vous pouvez aussi  l'afficher plein-pot . La source est dispo  ici , et s'utilise comme ceci : 
+
+ var counter:FFCounter = new FFCounter(this, "ffcounter_rss.php"); 
+
+Le premier argument passe au constructeur est le clip cible dans lequel vous voulez dessiner le compteur (par defaut, _root sera choisi) et le deuxieme l'url de votre script mirroir du  fil RSS de Mozilla  - j'ai pour ma part utilise le meme qu'infocraft :
+
+ Fichier ffcounter_rss.php : 
+
+ ?php
+$host = "www.spreadfirefox.com";
+$path = "/download_counter.php?ff=1";
+$fp = fsockopen($host, 80, $errno, $errstr, 30);
+if (!$fp) {
+        echo "$errstr ($errno)
+";
+} else {
+        $out = "GET $path HTTP/1.1
+";
+        $out .= "Host: $host
+";
+        $out .= "Connection: Keep-Alive
+
+";
+        fwrite($fp, $out);
+        while (!feof($fp)) {
+                $buffer .= fgets($fp, 128);
+        }
+        fclose($fp);
+        header ('Content-Type: text/xml');
+        header ('Expires: Wed, 03 Nov 2004 00:00:00 GMT');
+        echo substr($buffer, strpos($buffer, "
+
+") + 4);
+}
+? 
+
+ Chouette, une eclaircie. Je fonce me promener  
+
+ Edit du lendemain desabuse 
+
+ Les gens de spreadfirefox ont modifie la frequence de mise a jour de leur fil RSS, et l'ont passe a une minute. Une minute entre chaque comptage, cela veut dire que desormais le compteur en Flash ci dessus devra effectuer une resynchronisation toute les minutes avant de bouger. Ben oui, le compteur n'avait d'interet que parcequ'il evoluait en temps reel, grace au calcul du download rate entre deux rafraichissement du flux (6 secondes par defaut). Des fois quand j'ecris et que je me relis, j'ai l'impression d'etre un dingue. 
+
+ Bref, vous l'aurez compris, j'ai developpe cette classe pour rien, sauf si vous avez la patience d'attendre une minute avant de le voir evoluer en temps reel. Note que vous pouvez aussi avoir de la chance et le lancer cinq secondes seulement avant que les serveurs mozilla ne mettent a jour leur ficher xml... 
+
+ Je me doute que ce fil bouffe beaucoup de bande passante et de temps processeur au serveurs qui l'heberge, mais disons que le seul interet qu'il presentait a mes yeux etait jusqu'ici sa frequence quasi-temps-reel de mise a jour. M'enfin bon. Sinon il pleut, je suis malade et Benoit XVI me les brise deja. Yiipee. 
+        </text>
+</document>

@@ -1,0 +1,28 @@
+<document>
+	<date>2007-10-30</date>
+        <title>Cours : Informatique  linguistique</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Cours</category>
+                <category>TALN</category>
+        </categories_set>
+        <text>
+                                                 
+La linguistique informatique ou, suivant lappellation anglo-saxonne, la linguistique computationnelle, est une discipline issue des developpements de linformatique dans le domaine des sciences du langage. Le domaine de la linguistique informatique recouvre toutes les applications informatiques qui ont trait au langage naturel. Par langage naturel on entend le langage tel quil est parle spontanement par les etres humains (le francais, langlais, le russe, le wolof, etc.), par opposition aux langages formels utilises en logique, en mathematique, en informatique, etc.
+ 
+ 
+La linguistique informatique
+ 
+Langages formels et leurs representations
+ 
+Langages reguliers (type 3)
+ 
+Langages hors contexte (type 2)
+ 
+Analyseurs (parser) syntaxiques
+ 
+ Le cours  Informatique  linguistique 
+        </text>
+</document>

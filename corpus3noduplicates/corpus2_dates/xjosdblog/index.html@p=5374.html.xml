@@ -1,0 +1,28 @@
+<document>
+	<date>2014-04-15</date>
+        <title>Lua : excuter une commande systme (ping, uptime )</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Lua</tag>
+                <tag>Vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Tutoriels</category>
+        </categories_set>
+        <text>
+                                                 
+
+ Executer une commande systeme (os.execute) 
+Voici une petite fonction permettant dexecuter une commande systeme.
+Cette fonction permet de recuperer la sortie sur stdout de la commande, comme le message derreur dans le cas ou la commande systeme echoue.
+ -- Permet d'executer une commande systeme sur la Vera -- commande    : la chaine de caracteres contenant la commande -- Retourne vrai en cas de succes plus le resultat (stdout) de la commande function ( ) local = .. '  /tmp/josdOsExecute.log 21' local = os.execute ( ) local = assert ( io.open ( "/tmp/josdOsExecute.log" , "r" ) ) local = : read ( "*all" ) assert ( : ( ) ) return ( == 0 or == true ) , end Ping 
+Voici maintenant une fonction Lua qui permet de tester laccessibilite dune autre machine a travers un reseau IP.
+ -- Permet de faire un ping sur une adresse function ( ) local = 3 -- -c CNT : Send only CNT pings local = 5 -- -w SEC : Seconds until ping exits assert ( type ( ) == "string" ) return ( "ping -c" .. .. " -w" .. .. " -W" .. .. " " .. ) end Load Average (uptime) 
+Le  load average -- Permet de connaitre le taux d'occupation du processeur de la VeraLite -- Retourne la charge systeme moyenne pour les 1, 5 et 15 dernieres minutes. function ( ) local , = ( "uptime" ) if ( ) then local , , = string . ( , "load average[^0-9.]*([0-9.]*)[^0-9.]*([0-9.]*)[^0-9.]*([0-9.]*)" ) return tonumber ( ) , tonumber ( ) , tonumber ( ) end end 
+Voici une fonction Lua permettant de tester si ces trois moyennes sont en dessous dun seuil passe en parametre.
+ -- Vrai si les trois valeurs du taux d'occupation du processeur sont inferieures a la limite function ( ) = or 0.33 -- Valeur par defaut local , , = ( ) return (  and  and  ) end 
+ 
+ Sommaire Domotique 
+        </text>
+</document>

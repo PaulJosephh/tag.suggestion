@@ -1,0 +1,78 @@
+<document>
+	<date>2013-12-31</date>
+        <title>
+Piloter ses lampes leds Dioder Ikea en Z-Wave</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Fibaro</tag>
+                <tag>Led</tag>
+                <tag>Z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Eclairage</category>
+        </categories_set>
+        <text>Lorsque  Fibaro a sorti son nouveau module Z-Wave RGB , je vous avais presente son utilisation avec un bandeau lumineux a leds. Mais lutilisation de ce module ne se limite pas a ces seuls bandeaux.Aujourdhui je vous en propose une autre demonstration. Venant de changer mes meubles de sejour par de tres modernes meubles  Ikea , jai bien sur pense a lajout de luminaires, notamment pour eclairer les vitrines. Pour cela, jai opte pour les eclairages a base de leds du meme magasin, qui possede la gamme  Dioder . Cette gamme declairage regroupe a la fois des reglettes a led blanches, ou de couleur. Une autre presentation existe egalement sous forme de petits spots ronds.  Cest ce dernier modele que nous avons choisi :   Ce kit coute 39.95 et integre 4 spots. Il est en fait constitue dun petit boitier central, relie a lalimentation, de 4 disques RGB avec chacun 1m de cable, qui viennent se brancher de chaque cote du boitier central, et dune telecommande qui vient elle aussi se brancher sur le boitier central:   La telecommande permet bien sur dallumer et eteindre les spots, mais egalement de changer la couleur, et de lancer quelques animations (fondu de couleurs enchainees, etc). A noter que les 4 spots adapteront le meme comportement simultanement. Le necessaire est egalement fourni pour fixer les spots: petites vis ou collant double face, selon si on fixe les spots a lhorizontale ou a la verticale.  Fixes dans une vitrine  Et egalement sous les meubles hauts  Le kit en lui meme fonctionne plutot bien, mais mon but etait de lintegrer au systeme domotique. La telecommande est sympa, mais avec 5 vitrines, et donc 5 kits, cela mobligerait a gerer chaque telecommande independamment. Et puis je voulais que cet eclairage dambiance se gere tout seul, en fonction de scenarios pre programmes (sinon on risquerait de ne jamais les utiliser sil faut penser a les allumer soit meme). Lidee a donc ete de remplacer la telecommande fournie par la notre, qui sera materialisee par un  module Z-Wave Fibaro RGB . Premiere operation: simplement couper le cable de la telecommande a la longueur quon souhaite, et denuder les 5 fils presents a linterieur, du cote de la prise (cest le morceau que nous utiliserons, la telecommande ne nous sera pas utile):   Gros plan sur les fils:   Le cablage nest pas tres complique, il fallait juste trouver la correspondance: noir: phase bleu: masse rouge: couleur rouge blanc: couleur verte jaune: couleur bleue Sachant cela, il suffit de raccorder notre cable au module Fibaro RGB de cette facon:   Voila le montage final:   Il ny a plus qua brancher et integrer le module Fibaro a la box, ici la HC2 de Fibaro, qui est la box gerant le mieux a ce jour ces eclairages. Une fois le module inclue sur la box, on obtient un module generique:   Il faut se rendre dans sa configuration et selectionner le type dutilisation quon souhaite, ici RGB Device:   On enregistre la nouvelle configuration, et tout de suite on obtient un affichage beaucoup plus parlant:   A partir de la on peut definir des couleurs favorites, quon pourra lancer dun simple clic, ou des scenes completes (certaines sont pre configurees, comme le vacillement dune flamme, le gyrophare de la police, etc). On peut apercevoir ces differents choix sur linterface de la box:   Petit apercu en video:   Le resultat est plutot sympa ! La puissance lumineuse nest pas enorme (4w), mais elles ne sont pas destinees non plus a eclairer une piece, simplement a creer une ambiance, notamment en eclairant une vitrine. Jen ai aujourdhui 4 installees dans le sejour, deux cote salle a manger et deux cote salon, que je peux donc piloter individuellement pour creer les ambiances que je souhaite, ou me signaler certains evenements. Jutilise par exemple  le script Lua de Krikroff , qui permet de lancer une ambiance pre programmee sur une vitrine (ou toutes, comme on souhaite) sil fait nuit et que quelquun est au portillon dehors:  --[[
+%% properties
+69 value
+69 armed
+Jour_Nuit
+%% globals
+--]]
+
+--Quand detecteur de mouvement rue est en alerte et armed
+local startSource = fibaro:getSourceTrigger();
+if (
+( (tonumber(fibaro:getValue(69, "value"))  0 and tonumber(fibaro:getValue(69, "armed"))  0) )
+--Et uniquement si il fait nuit (variable sur la semaine + coucher du soleil)
+--S'il fait jour aucune raison d'allumer les leds car je ne suis pas devant la TV
+and
+( fibaro:getGlobalValue("Jour_Nuit") == "Nuit" )
+--Alors allumer les led du meuble TV
+and
+( tonumber(fibaro:getValue(90, "value"))  0 )
+or
+startSource["type"] == "other"
+)
+then
+fibaro:call(90, "turnOn");
+
+--Si un programme led est actif
+local currentProgramID = tonumber(fibaro:getValue(90, "currentProgramID"));
+
+if (currentProgramID  0) then
+--stoper le prog en cours
+fibaro:call(90, "turnOff");
+
+--lancer le programme ALERTE 7
+fibaro:call(90, "startProgram", "7");
+
+--Passer en lunimosite maximal 100
+fibaro:call(90, "setValue", "100");
+
+--Fait une pause de 10 secondes
+fibaro:sleep(10000);
+
+--apres 10 secondes, relancer le programme precedent
+fibaro:call(90, "startProgram", currentProgramID);
+else
+
+--get last color
+local colorSet = fibaro:getValue(90, "lastColorSet");    
+--set old color
+local RGBWTable= {};
+local i = 1;
+
+for value in string.gmatch(colorSet,"(%d+)") do
+RGBWTable[i]= value;
+i = i + 1;
+end
+-- lance le prog ALERTE !!!!
+fibaro:call(90, "startProgram", "7");
+fibaro:sleep(10000);
+-- apres 10 secondes, relance la couleur fixe
+--fibaro:call(90, "stopProgram", "7"); -- pas utile mais a activer si probleme de changement de couleur
+fibaro:call(90, "setColor", RGBWTable[1], RGBWTable[2], RGBWTable[3], RGBWTable[4]);
+end
+end  Mais je pourrai tout aussi bien men servir pour me signaler la meteo de la journee quand je me leve le matin, par un jeu de couleurs, comme la fait  Olivier pour son armoire meteo . Les utilisations sont sont limites ! La seule limite est en fait le cout de cette installation: 39 pour les Dioder + 59 pour le module Fibaro, ce qui nous fait pres de 100 lensemble. Bon, a relativiser par rapport au prix des meubles, puisque dans notre cas nous changions tous nos meubles, nous avions integre le prix de leclairage au budget ;-) Voila, je sais que certains attendaient ces petites explications avec impatience, jespere que cela leur donnera des idees ;-)   Fibaro   Led   Z-wave 
+        </text>
+</document>

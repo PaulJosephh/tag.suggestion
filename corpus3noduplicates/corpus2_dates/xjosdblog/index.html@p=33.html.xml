@@ -1,0 +1,14 @@
+<document>
+	<date>2009-02-20</date>
+        <title>Conversion de lencodage dun fichier texte : iconv</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+        </categories_set>
+        <text>
+                                                 
+ iconv fic_source dic_dest  iconv -c -f UTF-8 -t ISO_8859-15 fic_source -o fic_dest  iconv -l  file -i fichier utrac Universal Text Recognizer and Converter  utrac -p fichier 
+        </text>
+</document>

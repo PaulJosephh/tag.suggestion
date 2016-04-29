@@ -1,0 +1,21 @@
+<document>
+	<date>2013-07-03</date>
+        <title>Guide dinstallation du compteur dnergie OWL +USB CM160</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>cm160</tag>
+                <tag>consommation</tag>
+                <tag>electricite</tag>
+                <tag>energie</tag>
+                <tag>mesure d'energie</tag>
+                <tag>owl</tag>
+                <tag>OWL +USB</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Compteurs d'energie</category>
+        </categories_set>
+        <text>
+                                                         Le  compteur denergie OWL +USB Le principe de fonctionnement est simple, il vous suffit de connecter la pince amperemetrique autour de votre cable de  phase 1. Deballage du produit A louverture du pack, nous retrouvons plusieurs elements essentiels tels que le moniteur qui permet laffichage de la consommation, un transmetteur qui envoie les informations au moniteur, une pince qui permet la mesure, 6 piles pour alimenter les deux appareils, un cable  USB 2. Installation Placez 3 piles dans le moniteur, puis 3 autres piles dans le transmetteur. Le transmetteur possede un bout de tissu a lemplacement prevu pour les piles. Faite le passer sous les piles pour faciliter leur enlevement par la suite. Branchez la pince amperemetrique au transmetteur et au fil de la  phase Appuyez 5 secondes sur le bouton Check situe dans le compartiment a pile du transmetteur. Restez ensuite appuye sur le bouton Search du moniteur jusqua entendre un BIP sonore. Lafficheur devrait afficher une valeur en rapport avec votre consommation mais cette information peut etre erronee puisquil na pas encore ete parametre. 3. Installation du logiciel Munissez-vous du CD dinstallation fourni dans la boite et mettez-le dans votre lecteur CD. Suivez ensuite les instructions. Cliquez sur Next. Cochez  I agree puiscliquez sur Next. Cliquez sur Next. Cliquez sur Next. Attendez la fin de linstallation et lorsque vous pourrez, cliquez sur Next. Cliquez sur Oui pour obtenir le manuel dutilisation (disponible en Francais) ou sur Non si vous ne souhaitez pas le consulter. Cliquez enfin sur Finish. 4. Configuration Connectez le moniteur a votre ordinateur via le cable  USB Lancez le logiciel ( Menu demarrer/ programme/ The  OWL Lenregistrement du produit est requis pour valider la garantie de votre produit et vous informer par email des mises a jour qui seront accessibles au telechargement sur le site Internet. Vous pouvez choisir de ne pas vous enregistrer mais vous y serez invite a chaque fois que vous lancerez le programme. Parametrez la tension, le facteur multiplicateur des gaz a effet de serre et la monnaie utilisee pour payer vos factures. Completez votre tarification delectricite. Les tarifs que vous inserez sont directement compter en centime deuro. Cest-a-dire que si vous payer 0,15 euro/KWh vous devrez entrer 15 dans la case appropriee. Jusqua 6 tarifs differents peuvent etre configures. Selectionnez le module qui va vous donnez les informations.  Une fois que vous avez rempli tous les champs de parametrage, cliquez sur le module dans le cadre de gauche et en restant appuye, faites le glisser dans le tableau de droite. Noubliez pas quil faut enregistrer les modifications apportees au module. Il ne vous reste plus qua connecter votre appareil tous les 30 jours sous peine de perdre les informations en depassant ce delai.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

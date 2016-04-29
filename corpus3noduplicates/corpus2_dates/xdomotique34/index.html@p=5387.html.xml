@@ -1,0 +1,218 @@
+<document>
+	<date>2013-08-26</date>
+        <title>IPX 800 V3.00 : le serveur domotique</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>HTTP</tag>
+                <tag>ip</tag>
+                <tag>IPX800 V3</tag>
+                <tag>serveur web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Evenements</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+  
+ 
+ Merci a Pascal de  Domotique-info qui ma confie la carte  IPX-800 V3.00 de chez GCE-electronics  afin que je la decouvre. Comme vous le savez cette carte est a sa 3eme evolution. Elle est tres complete et prete a etre integree dans dans vos coffrets electriques vu quelle est faite pour etre montee sur un Rail_Din. 
+ 
+ Definition du Rail_Din 
+ Un rail_Din est un rail metallique standardise de35mmlargement utilise en Europe dans les equipements industriels de controle en racks . 
+ 
+  
+ 
+  
+ Une video valant mieux quun long discourt 
+ 
+Il vous faudra un peu de place dans votre tableau ou bien avoir un deuxieme tableau electrique pour bien lintegrer ( un bon exemple sur le blog de Domotique-info, ou Sebastien Joly a cree un deuxieme tableau electrique pour lintegrer proprement ). 
+  
+ CARACTERISTIQUES TECHNIQUES 
+ 
+ 
+ 8 entrees digitales tout ou rien. (contact sec) extensible a 32. 
+ 
+ 
+ 4entrees analogiques. 
+ 
+ 
+ 8 sorties relais sur contact inverseur 250v/10A extensible a 32. 
+ 
+ 
+ 3 Compteurs dimpulsions. 
+ 
+ 128 Timers programmables individuellement. 
+ 
+ 1 Port dextension pour I/O supplementaire. 
+ 
+ 
+ Acces securise par login et mot de passe. 
+ 
+ 
+ Site WEB entierement personnalisable. 
+ 
+ 
+ Site optimise pour iPad et iPhone 
+ 
+ 
+ Compatible Android et tout navigateur internet. 
+ 
+ 
+ Programmateur sur 1 semaine integre. (Timer hebdomadaire). 
+ 
+ 
+ Alertes emails avec messages personnalisables par evenement. 
+ 
+ Gestion de 4 camera motorise Dericam ou tout clone Foscam. 
+ 
+ Envoi des donnees verslurl de son choix(Notification Push). 
+ 
+ Ping watchdog, reset votre box en cas de perte de connection. 
+ 
+ Protocole M2M pour pilotagepartrame TCP/IP. 
+ 
+ 
+ Memorisation de letat des relaisen cas decoupure secteur. 
+ 
+ 
+ Assignation des entrees vers les relais de son choix. 
+ 
+ 
+ Relais configurable en ON/OFF ou Impulsion. 
+ 
+ 
+ Mode telerupteur. 
+ 
+ Inversion des entrees digitales. 
+ 
+ Duree de declenchement et dimpulsion Ta et Tb configurable. 
+ 
+ 
+ Seuil reglable sur les4entrees analogiques (mode thermostat). 
+ 
+ 
+ Serveur NTP configurable. 
+ 
+ 
+ Configuration reseau avance. (DHCP, IP statique, port etc). 
+ 
+ 
+ Support du Dyn-Dns. 
+ 
+ 
+ Initialisation soft (pas de clac relais au demarrage). 
+ 
+ 
+ Boitier rail din pour une integration simple dans votre installation. 
+ 
+ 
+ Alimentation 12V continu (alimentation non fournie). 
+ 
+ 
+ Garantie1 an. 
+ 
+ Dimensions 160mm x 90mm x 60mm (9 modules) 
+ 
+  
+ Passons a son utilisation 
+ Il faut tout dabord se connecter a ladresse ip de la carte. Cest assez simple, soit vous utilisez le programme fourni (scandevice) soit vous vous rendez sur votre routeur (ou box) afin de trouver dans votre reseau ladresse ip. 
+ Petit tour rapide de lecran principal 
+ 
+  
+ LIPX800 est une carte electronique capable de controler des entrees digitales, analogiques et des sorties relais sur contact inverseur pour eteindre ou allumer des appareils electriques. 
+ elle est dotee dune interface Web et est capable de communiquer des informations sur votre reseau informatique des lors que des evenements interviennent. 
+ voici une petite video pour vous montrer les differents menus de cette interface. 
+ 
+Vous pourrez connecter des detecteurs de mouvements, des thermometres, des detecteurs de luminosite, des detecteurs douverture de porte et dinteragir dynamiquement sur les contacts inverseurs des lors que la temperature est basse ou que la luminosite dune piece est trop faible . 
+  
+ Par exemple vous pourrez connecter sur une des entrees digitales differents capteurs (un detecteur de niveau par exemple et de lautre cote sur un des relais en sortie, vous connecterez votre pompe de piscine pour larreter suite a un manque deau detecte). 
+ 
+ Passons aux menus du bas de service dadministration 
+ PRESET 
+ 
+ TIMERS 
+ 
+ Vous pouvez choisir le jour, lheure et le type daction pour les relais de votrechoix ou bien de repeter laction tous les jours. 
+ DYNDNS CONFIGURATION 
+ 
+ utile si vous navez pas dadresse ip fixe 
+ ADVANCED SETTINGS 
+ 
+ reglage de lheure grace au serveur NTP (plus que precis), reglage du fuseau horaire, reglage du port HTTP, memorisation de letat des relais 
+ 
+ Reglage de votre messagerie si vous voulez recevoir les alertes. 
+ ps:Les envois de mails de sont pas compatibles avec les serveurs SSLGCE Electronics met a votre disposition un serveur SMTP pour vostests dans la configuration par defaut. 
+ MACHINE 2 MACHINE CONFIGURATION 
+ 
+ cest a partir de ce menu que vous allez pouvoir controler votre carte a laide de commande TCP. 
+ Liste des commandes M2M pour IPX800 V3 
+**************************************************************************** 
+Mode  Set  permet de commander les relais individuellement 
+**************************************************************************** 
+Set10 = Relais 1 en position OFF (Reponse IPX800 = Success) 
+Set11 = Relais 1 en position ON (Reponse IPX800 = Success) 
+       
+Set80 = Relais 8 en position OFF (Reponse IPX800 = Success) 
+Set81 = Relais 8 en position ON (Reponse IPX800 = Success) 
+Pour envoyer une commande en mode impulsionnel, vous devez avoir au prealable configure le relais en 
+mode fugitif et determine la duree de limpulsion dans linterface WEB de lIPX800 v3. 
+ Set11 = Relais 1 en position ON pendant x secondes puis OFF. (Reponse IPX800 = Success) 
+       
+Set81 = Relais 8 en position ON pendant x secondes puis OFF. (Reponse IPX800 = Success) 
+***************************************************************************** 
+Mode  Bit  permet de commander tous les relais. 
+***************************************************************************** 
+Bit=00000000 met les relais de 0 a 8 a 0 (Reponse IPX800 = Success) 
+Bit=10101010 met les relais 1,3,5,7 a 1 et les relais 2,4,6,8,a 0 (Reponse IPX800 = Success), 
+***************************************************************************** 
+ Mode  Get  permet de recevoir les donnees de lIPX800 : 
+***************************************************************************** 
+GetIn1 = Etat de input 1 (reponse de lIPX800 = GetIn1=(0/1) 
+       
+GetIn8 = Etat de input 8 (reponse de lIPX800 = GetIn8=(0/1) 
+GetAn1 = Etat de analog1 (reponse de lIPX800 = GetAn1=(0-1023) 
+       
+GetAn4 = Etat de analog4 (reponse de lIPX800 = GetAn4=(0-1023) 
+GetCount1 = Renvoi la valeur du compteur 1 
+GetCount2 = Renvoi la valeur du compteur 2 
+***************************************************************************** 
+Reset provoque le reset de lIPX800 
+  
+ APPLICATIONS SUR VOS TELEPHONES 
+ Depuis quelques temps lapplication  ImperiHome  vous permet de controler votre carte. Cette application est vraiment tres complete. 
+ En Conclusion 
+ Cette  carte  est plus que complete, les possibilites sont infinies (controler vos equipements, rebooter vos serveurs..), vous pouvez tout gerer sans avoir a mettre vos donnees sur un serveur tiers, puisque la carte est elle meme un serveur Web. Cette carte pourra fonctionner avec vos box habituelles (Zibase, Vera, Homecenter 2 de Fibaro), tout ca grace aux requetes HTTP. 
+ Vous trouverez de multiples extension tel que  la X880  (afin detendre le nombre de sorties et dentrees. De la meme maniere vous aurez de multiples capteurs (niveau, temperature, luminosite, crepusculaire). 
+ Bref je suis loin davoir fait le tour de cette carte, sachant quil faut aussi que je travaille mes connaissances en Electricite. Jai dailleurs trouve ce forum  http://entraidelec.com/ . Ce forum vous aidera pour les montages electriques qui vous posent probleme, sachant quil y a des normes a respecter en electricite. 
+ Vous pourrez aller sur le forum de  GCE-electronics , il y a de tres bonnes informations ainsi que sur http://myipx800.com/ . 
+ Je tiens encore a remercier Pascal de  Domotique-info  pour mavoir preter cette carte . Dailleurs vous trouverez tout ce quil vous faut sur son site  ici  concernant cette carte 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

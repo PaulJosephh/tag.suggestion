@@ -1,0 +1,24 @@
+<document>
+	<date>2012-08-26</date>
+        <title>Synology deux baies RAID 1 : passage  3To</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Synology</category>
+        </categories_set>
+        <text>
+                                                 Problematique 
+ 
+Augmenter la capacite dun volume en RAID 1 (ou RAID 5 ou RAID 6) sur un synology est une operation simple:
+ 
+ Remplacez un disque par un autre de plus grande taille. Connectez-vous a DSM en tant quadmin, et allez dans  Menu principal  Gestionnaire de stockage  Volume Selectionnez le volume que vous voulez augmenter (marque comme Degrade), cliquez sur  Gerer Reparer Quand le statut du volume est change de  Degrade Normal 
+Lorsque tous les disques du volume sont remplaces, sa capacite sera augmentee automatiquement. 
+Le probleme survient quand les anciens disques sont formattes en ext3 ( i.e. Le volume est cree dans une ancienne version de DSM et ne prend pas en charge de disque dur superieur a 2To. Pour utiliser des disques durs superieurs a 2To, veuillez creer un nouveau volume avec la derniere version de DSM. Procedure perfectible 
+ Remplacemment du disque HDD2 par le nouveau disque de 3To. Formatage du disque 2 en ext4 :  Menu principal  Gestionnaire de stockage  Creer  Personnalise  Volume unique sur RAID  Disque 2  Basic  Oui  Appliquer Volume 2 Volume 1 Deplacement des donnees vers le  Volume 2 
+ Pour chacun des dossiers partages :  Menu principal  Panneau de configuration  Dossier partage  Modifier  Volume 2  Deplacement de la base de donnee MySQL (blog) :  Menu principal  Panneau de configuration  Services Web  Volume 2  Sauvegarde de la base de donnees de Photo Station (cf.  Synology Photo Station et commentaires Arret de tous les Paquets :  Menu principal  Centre de paquets  Stop Remplacemment du disque HDD1 par le nouveau disque de 3To. Preparation du  Disque 1 Menu principal  Gestionnaire de stockage  Creer  Rapide  Disque 1  Oui  Appliquer Deplacement des donnees vers le  Volume 1 
+ Pour chacun des dossiers partages :  Menu principal  Panneau de configuration  Dossier partage  Modifier  Volume 1  Deplacement de la base de donnee MySQL (blog) :  Menu principal  Panneau de configuration  Services Web  Volume 1  Volume 1  Volume 2  Volume 1 Volume 1 Volume 2 Restauration de la base de donnees de Photo Station (cf.  Synology Photo Station et commentaires Supprimer tous les paquets qui doivent etre casses puis les reinstaller (dans  Menu principal  Centre de paquets Restauration du RAID SHR :  Menu principal  Gestionnaire de stockage  Volume 2  Supprimer Volume 2 Menu principal  Gestionnaire de stockage  Volume 1  Gerer  Etendre le volume en ajoutant des disques durs  Disque 2  Oui  Appliquer 
+ 
+ Puis-je etendre la capacite de stockage avec des disques durs de plus grande taille (pour DSM 3.0 et versions ulterieures) ? Augmenter La Capacite Disque 3 To 
+        </text>
+</document>

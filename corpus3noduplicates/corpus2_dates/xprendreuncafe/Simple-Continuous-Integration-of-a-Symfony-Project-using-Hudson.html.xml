@@ -1,0 +1,93 @@
+<document>
+	<date>2009-10-06</date>
+        <title>Simple Continuous Integration of a Symfony Project using Hudson</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>continuous integration</tag>
+                <tag>hudson</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+                <tag>testing</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>I love tests, I just cannot program without them anymore, especially with  Symfony . And as I write a lot of them on a daily basis, the full test suite can take a very long time to be executed; running a  symfony test:all  command before every granular commit suppose you have to wait sometimes more than 5, 10 minutes or more for the whole tests to be ran: hardly acceptable.  Post commit hooks  can be a solution, but what if a lot of devs are working simultaneously on the same project? Added to the previously seen test execution duration, it can become a problem difficult to deal with. 
+
+
+ Here comes  continuous integration : regularly, eg. every hour, the symfony project will be built up and configured from scratch, then the full test suite will be executed and the resulting log will be aggregated. Its a very convenient way to keep an eye on the overall code quality and integrity of the project. 
+
+
+ There are several open source continuous integration software available on the market:  Cruise Control  (and  phpUnderControl ),  Continuum ,  Integrity , the uncertain but awesomely looking  Sismo  which powers the  Symfony continous integration server  But I recently had the opportunity to test  Hudson , a java based one. Its very simple to install, setup and configure, and has tons of plugins. So lets see how it can be used to test a Symfony project. 
+
+
+ 
+
+
+ Hudson Installation 
+
+
+ Thats really not the hardest part, because you just need a working  JRE 1.5  installation on your machine, and to  retrieve the latest version of the program . 
+
+
+ Then, you can launch it directly from a shell prompt: 
+
+
+ $  java -jar /path/to/hudson.war 
+
+
+ If you fear to break something or just want to give it a go without the hassle of firing a term, just launch the available  Java Web Start version . 
+
+
+ On debian/ubuntu, its just as easy as: 
+
+
+ $ sudo echo deb http://hudson-ci.org/debian binary/  /etc/apt/sources.list
+$ sudo apt-get update
+$ sudo apt-get install hudson
+$ sudo /etc/init.d/hudson start 
+
+
+ Configuration and Symfony Project Integration 
+
+
+ Once Hudson is installed an running, head up to  http://localhost:8080/  and start playing with the web based user interface of Hudson. The navigation and configuration forms are quite obvious, and therefore efficient. Creating a project following the provided guidelines is easy and can be achieved within minutes: 
+
+
+ First, create a new Job, choosing the  Build a free-style software project  option. 
+
+
+ Then, configure the subversion repository [ 1 ]  used by your project by entering its base URL in the  Source Code Management  field
+You can schedule builds, watch for SCM activity and even trigger builds from remote script using a neat XMLRPC interface [ 2 ] . 
+
+
+ 
+
+
+ 
+
+
+ Configuring the building process is as easy as writing down some commands, like the one youd execute to setup your project on a new box: 
+
+
+ 
+
+
+ As of Symfony 1.3, test result logs can be exported in a jUnit XML file, so Hudson will be able to parse them and provide some useful reports, metrics and charts: 
+
+
+ 
+
+
+ 
+
+
+ Of course, you can configure failure notifications: email, atom feed, theres even a  twitter plugin ! 
+
+
+ As a conclusion, Hudson is a very simple but efficient continous integration tool which can easily be configured to monitor the quality of your Symfony projects at least if you write tests  
+ Notes 
+ [ 1 ] If youre not using Subversion, lot of plugins are available for other SCM in the huge  Hudson plugins repository 
+ [ 2 ] Useful if you wish to use post-commit build hook 
+        </text>
+</document>

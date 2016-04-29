@@ -1,0 +1,14 @@
+<document>
+	<date>2012-03-29</date>
+        <title>Un nouveau dtecteur douverture porte/fentre Z-Wave</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          Everspring lavait presente en debut dannee au CES Z-Wave   Dote dun design tres sobre, mais surtout dune taille tres reduite, le detecteur HSM02 est alimente par une pile bouton CR2450 de 3V, dont la duree de vie est estimee a 3 ans (pour 14 ouvertures/fermetures par jour). Un detecteur douverture etant destine a surveiller une porte ou une fenetre, il est plutot appreciable quil soit de petite taille afin de passer inapercu a linterieur de la maison. Ci-dessous la comparaison entre le SM103 et le HSM02 :   A noter que, miniaturisation oblige, le HSM02 ne dispose pas de connecteur pour contact externe contrairement au SM103. Pour linstant le HSM02 est supporte uniquement par les box  eedomus Fibaro Home Center 2 HomeSeer Vera ZiBASE  Retrouver le test du HSM02 sur le blog Maison et domotique.  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

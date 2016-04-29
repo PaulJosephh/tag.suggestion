@@ -1,0 +1,39 @@
+<document>
+	<date>2006-06-20</date>
+        <title>Opera 9 sort de la beta</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>browsers</tag>
+                <tag>opera</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Opera 9  sort officiellement de son statut de beta et est directement disponible pour toutes les plateformes, dont  Ubuntu Linux . 
+
+
+ Le soft propose de nombreuses innovations et marche du tonnerre. Attention, si vous possedez une precedente version du soft, il faudra la desinstaller au prealable  [ 1 ] : 
+
+
+ $ sudo apt-get remove opera 
+
+
+ De plus, un message vous avertira de potentiels problemes d'instabilite lies a l'utilisation d'une version non presentes dans les depots officiels.  N'utilisez donc pas cette nouvelle version si vous souhaitez garantir une stabilite maximale de votre systeme. 
+
+
+ Enfin, un message d'erreur peut apparaitre vous signifiant un conflit avec le paquet  opera  que vous venez d'installer, n'en tenez pas compte (cela fonctionne tres bien malgre cela.) 
+
+
+ Telechargement direct: 
+
+ 
+ Opera 9 pour Ubuntu Dapper Drake 
+ 
+
+ Edit:  Bon il semblerait qu'il y ait pas mal de bugs d'affichage lies aux  CSS , sur ce site notamment mais aussi sur d'autres... 
+ Notes 
+ [ 1 ] N'oubliez pas de faire une sauvegarde de vos parametres au cas ou ! 
+ 
+        </text>
+</document>

@@ -1,0 +1,29 @@
+<document>
+	<date>2010-02-22</date>
+        <title>TEST : Ampoules OSRAM DULED avec systme domotique X10 et PLCBUS</title>
+        <author> Laurent </author>
+        <tags_set>
+                <tag>ampoule</tag>
+                <tag>domotique</tag>
+                <tag>economie d'energie</tag>
+                <tag>fluocompacte</tag>
+                <tag>gradation</tag>
+                <tag>lampe</tag>
+                <tag>MEGAMAN</tag>
+                <tag>variation</tag>
+                <tag>X10</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                         Nous vous avons parle en debut dannee des  ampoules OSRAM DULED Cec 
+ Nous avons decide de tester ces ampoules avec des modules  domotique X10 PLCBUS Ce quil faut savoir sur ces ampoules : 
+ Elles ont disponibles avec une puissance de 8 a 21 W (pour lampoule fluocompacte), ce qui correspond a des lampes classiques de 40 a 120 W. Le mode veilleuse LED a un consommation infime : 0,3 W. Existe avec culot E27 uniquement. Duree de vie exceptionnelle de plus de 10 000 heures.  1. Test avec des modules  X10    Le Test a ete realise avec lampoule  OSRAM DULED  80306 X10 AM12   AD10 Le schema ci-dessous decrit lensemble du montage realise : 
+  Conclusion : 
+ L OSRAM DULED  80306  recoit les ordres  X10. Lenvoi dun ordre ON une premiere fois allume la veilleuse LED, lenvoi dun ordre OFF leteint. Lenvoi dun second ordre ON allume lampoule fuocompacte, lenvoi dun ordre OFF leteint. Et ainsi de suite. Lenvoi dordre  X10 Test avec des modules  PLCBUS Le Test a ete realise avec lampoule  OSRAM DULED  80306 PLCBUS   PLC2268   PLC2225 Le schema ci-dessous decrit lensemble du montage realise :
+    Conclusion : 
+ L OSRAM DULED  80306  recoit les ordres PLCBUS . Lenvoi dun ordre ON une premiere fois allume la veilleuse LED, lenvoi dun ordre OFF leteint. Lenvoi dun second ordre ON allume lampoule fuocompacte, lenvoie dun ordre OFF leteint. Et ainsi de suite. Lenvoi dordre  PLCBUS Les tests ainsi realises confirme le bon fonctionnement des ampoules  OSRAM DULED domotique X10 PLCBUS    Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,21 @@
+<document>
+	<date>2012-08-26</date>
+        <title>Synology : email en ligne de commande</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Commandes</category>
+                <category>Synology</category>
+        </categories_set>
+        <text>
+                                                 
+Voici comment installer  nail 
+ Installer ipkg Installer  nail  ipkg install nail Configurer  nail /opt/etc/nail.rc 
+set smtp=smtp://smtp.free.fr Verifier que cela fonctionne :
+ 
+ echo -e "test email" | /opt/bin/nail -s "test sujet" destinataire@jemail.net
+ 
+ Configurer la commande mail sur un NAS Synology sous DSM-3.X Envoi de mail en ligne de commande: Nail et gmail sur le NAS synology Mail en ligne de commande, sous Telnet 
+        </text>
+</document>

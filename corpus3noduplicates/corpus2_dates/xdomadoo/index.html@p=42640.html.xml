@@ -1,0 +1,24 @@
+<document>
+	<date>2014-11-10</date>
+        <title>Jeedom  Guide dutilisation du capteur de temprature NodOn EnOcean</title>
+        <author> Algeroth </author>
+        <tags_set>
+                <tag>enocean</tag>
+                <tag>guide</tag>
+                <tag>jeedom</tag>
+                <tag>nodon</tag>
+                <tag>sonde temperature</tag>
+                <tag>STP-2-1-05</tag>
+                <tag>tuto</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Jeedom</category>
+        </categories_set>
+        <text>
+                                                         Jeedom EnOcean USB EnOcean Jeedom EnOcean Jeedom EnOcean Nodon Ce detecteur permet de renvoyer la temperature interieure. 1  Presentation du detecteur de temperature Nodon Le capteur de temperature interieure NodOn EnOcean Jeedom Description: Alimentation : Panneau solaire Plage de mesure : 0C a 40C (Resolution 0.16C)  Utilisation en interieur Montage mural par adhesif double face (inclus) ou vis (non incluses) Pile CR1216 en option (non incluse) pour utilisation en zone sombre (Autonomie 5 ans noir complet) Temperature de fonctionnement : 0C to 40C  Altitude : 2000m Protocole Radio  EnOcean Portee: 30m interieur Dimension : 80*26*18mm  2  Association Apres avoir prealablement telecharge le plugin  EnOcean Jeedom EnOcean EnOcean Cochez la case Creer automatiquement les nouveaux equipements Sauvegardez et redemarrez le demon. A noter que cette etape na besoin detre faite quune seule fois pour tous les modules  EnOcean Rendez-vous maintenant dans le plugin  EnOcean Domotique Enocean Activez votre module de temperature  NodOn NodOn Rafraichissez la page. Votre module de temperature  NodOn  3  Configuration Selectionnez votre sonde  NodOn Vous arrivez alors dans sa page de configuration. Il suffit de lui donner un nom, un emplacement dans votre logement (Objet) et selectionnez le type de module, a savoir Chauffage. Pour prendre en compte la temperature, il faut renseigner le type dequipement A5-02-05Capteur de temperature 0  40 C. Pour terminer, cliquez sur Sauvegarder (en bas de la page). Votre module de temperature  NodOn Jeedom 4  Exemples dutilisation Votre sonde de temperature  NodOn   Vous pouvez changer son apparence via les widgets. Un simple clique sur la temperature vous affiche la courbe de temperature sur la journee ou la semaine Votre sonde peut declencher des scenarios, mais egalement servir pour la regulation du chauffage. Par exemple en utilisant le plugin thermostat, disponible sur le Market  Jeedom Ce plugin va permettre de reguler la temperature du logement quelque soit le type de chauffage. Vous pourrez donc reutiliser votre sonde, comme sonde de temperature interieure pour le plugin thermostat. Dans le plugin Thermostat: Il suffira de cliquer sur le bouton de droite, et de selectionner dans la liste sa sonde de temperature  NodOn Il faudra ensuite terminer la configuration du thermostat. Une fois termine, votre sonde  NodOn  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Jeedom  Guide dutilisation de la telecommande Soft Remote NodOn EnOcean 
+ Jeedom  Guide dutilisation de lampoule connectee ZIPATO RGBW END .entry-content  
+        </text>
+</document>

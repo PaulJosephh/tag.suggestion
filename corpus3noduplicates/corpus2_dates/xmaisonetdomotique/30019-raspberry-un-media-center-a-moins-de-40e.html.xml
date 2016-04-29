@@ -1,0 +1,16 @@
+<document>
+	<date>2013-03-15</date>
+        <title>
+Raspberry: un mdia center  moins de 40</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Raspberry-Pi</tag>
+                <tag>XBMC</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Audio / Video</category>
+                <category>Guides Informatiques</category>
+        </categories_set>
+        <text>Apres avoir fait une  Squeezebox pour moins de 40 , nous allons voir aujourdhui comment realiser un  PC Media Center  pour moins de 40, la encore a base de  Raspberry Pi . Pour rappel, le Raspberry est un tout petit ordinateur coutant un peu moins de 40: Pour ceux qui ne connaissent pas, le Raspberry Pi, cest ca:   Caracteristiques techniques : Systeme : Broadcom BCM2835 SoC (System on Chip) Processeur ARM1176JZF-S cadence a 700MHz Circuit graphique Broadcom VideoCore IV Memoire vive 512 MB Espace de stockage : sur cartes SD/MMC/SDIO Connectique : 2 ports USB 2.0 Video : Composite (PAL et NTSC), HDMI ou Raw LCD (DSI) Audio : Jack 3.5mm ou Audio sur HDMI Ethernet : RJ45 10/100 Peripheriques (broches au pas de 2.54mm): 8 x GPIO UART Bus I2C Bus SPI Sorties dalimentation +3.3V et +5V Masse Alimentation : 5V  700 mA via MicroUSB ou header GPIO Dimensions : 85,60mm x 56mm x 21mm Poids : 45g Au vue de sa taille, on pourrait douter de ses capacites, pourtant son processeur graphique sait parfaitement decoder des videos en H264 1080 (videos haute definition). Nous naurons donc pas de probleme pour decoder la video HD. Pour le reste, en revanche, le processeur netant pas tres puissant, il faudra trouver un systeme assez leger. Il ne reste donc plus qua trouver un systeme leger, mais sympa, a installer dessus: bonne nouvelle,  XBMC , qui nest plus a presenter dans le monde des logiciels media center, a deja ete decline en plusieurs versions sur le Raspberry PI. Nous avons  RaspBMC ,  XBian , et enfin  Openelec . Apres les avoir toutes testees, jai opte pour  Openelec , pour sa facilite dinstallation et surtout son interface fluide, les deux autres distributions etant a mon avis un peu plus lourdes.  Sommaire I. Installation II. Configuration III. Utilisation 1. TV 2. Tablette / Smartphone 3. Interface Web IV. Conclusion Commentaires (12) Powered by SEO TOC 1.7.3      1   2   3   4   5 Raspberry-Pi   XBMC 
+        </text>
+</document>

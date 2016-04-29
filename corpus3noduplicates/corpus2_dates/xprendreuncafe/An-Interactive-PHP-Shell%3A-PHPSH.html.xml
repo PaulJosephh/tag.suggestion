@@ -1,0 +1,129 @@
+<document>
+	<date>2009-11-04</date>
+        <title>An Interactive PHP Shell: phpsh</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>cli</tag>
+                <tag>php</tag>
+                <tag>shell</tag>
+                <tag>symfony</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Just found this nice project contributed by the Facebook team,  phpsh . Basically, its an interactive and advanced command line interface to  php , a kind of super- php -r  similar to what you can find in  Python  or  Ruby . Ironically enough, phpsh is mostly written in Python, by the way. 
+
+
+ To install phpsh, just get it from github [ 1 ] : 
+
+ 
+$ git clone git://github.com/facebook/phpsh.git
+$ cd phpsh
+$ python setup.py build
+$ sudo python setup.py install
+ 
+
+
+ To run phpsh: 
+
+ 
+$ phpsh
+Starting php
+type 'h' or 'help' to see instructions  features
+php ="hello world"
+hello world
+php =2 + 2
+4
+php $a = 8
+
+php =$a
+8
+ 
+
+
+ Note that you dont have to open or close  ?php  tags, you can print something just by prepending an  =  sign to the command, and no need to type semicolum at the end of a call. Easy [ 2 ] . 
+
+
+ You can access a function documentation by just prepending the  d  keyword to its name: 
+
+ 
+
+php d strlen
+
+# strlen
+
+(PHP 4, PHP 5)
+
+strlen -- Get string length
+
+### Description
+
+int strlen ( string $string )
+
+Returns the length of the given string . 
+
+### Parameters
+
+string     
+
+The [string][1] being measured for length. 
+
+### Return Values
+
+The length of the string on success, and 0 if the string is empty. 
+
+### 
+
+   [1]: #language.types.string
+ 
+
+
+ You can define your own classes and functions, and run them: 
+
+ 
+php function foo($a){echo $a.'!';}
+php foo('bar')
+bar!
+ 
+
+
+ Same goes for classes: 
+
+ 
+php class Foo {public function bar($a){echo $a.'!';}}
+php $f = new Foo()
+php $f-bar('baz')
+baz!
+ 
+
+
+ You can even execute shell command from there: 
+
+ 
+php ! ls -la
+ 
+
+
+ Of course, you can  import  include and require files. As a concrete example, lets roughly play with the symfony API: 
+
+ 
+php ! symfony -V
+symfony version 1.2.2-DEV (/Users/niko/Sites/vendor/symfony12/lib)
+php c /Users/niko/Sites/vendor/symfony12/lib/autoload/sfCoreAutoload.class.php
+Extra includes are: ['/Users/niko/Sites/vendor/symfony12/lib/autoload/sfCoreAutoload.class.php']
+php sfCoreAutoload::register()
+php =sfYaml::load('foo: bar')
+array(
+  "foo" = "bar",
+)
+php =sfYaml::dump(array('foo' = array('bar' = 'baz')))
+"foo:\n  bar: baz\n"
+ 
+
+
+ Last but not least, when enough playing, type  q  or press  ctrl + d  to quit phpsh. 
+ Notes 
+ [ 1 ] So yeah, so you need  git . And Python, of course. 
+ [ 2 ] Anybody putting "rather use python then" will have serious troubles, even if I strongly agree. 
+        </text>
+</document>

@@ -1,0 +1,21 @@
+<document>
+	<date>2007-10-25</date>
+        <title>LaTeX</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>kile</tag>
+        </tags_set>
+        <categories_set>
+                <category>Applications</category>
+                <category>LaTeX</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Jutilise LaTeX pour mes publications,  mes cours 
+Pour editer du LaTeX je vous conseille lediteur Kile ou Texmaker. Je vous conseille egalement de generer directement du pdf (pdflatex, ou mieux xelatex) sans passer par du dvi, ce qui permet dinclure directement des images sans les convertir en eps.
+ 
+Pour les presentations, jutilise lexcellente classe LaTeX  Beamer HeVeA 
+Comme gestionnaire bibliographique, japprecie  JabRef 
+        </text>
+</document>

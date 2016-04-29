@@ -1,0 +1,24 @@
+<document>
+	<date>2012-03-21</date>
+        <title>UIMA : Les annotations</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Annotation (UIMA)</tag>
+        </tags_set>
+        <categories_set>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+Les annotations permettent dapporter des informations sur des elements. Dans le cas de corpus textuels, ces elements sont generalement des segments de textes. Les annotations peuvent etre integrees au document ou, au contraire, etre deportees dans un fichier ou une zone separes. UIMA a fait le choix de representer les annotations dune maniere deportee. Ce choix presente deux avantages principaux: 
+ 
+ Le document source nest pas altere par linsertion dannotations. Deporter les annotations peut autoriser la representation dannotations concurrentes ou enchassees. uima.tcas.annotation begin end 
+ 
+Il existe plusieurs facons de realiser une telle indexation. La figure ci-dessus en illustre deux. Le choix fait par UIMA correspond a lindexation inferieure qui pointe entre les caracteres (ce qui est coherent avec la  philosophie des iterateurs java 
+ Le mot  JULES begin = 0 end = 5 Le mot  VERNE begin = 6 end = 11 
+La capture decran ci-dessous montre un exemple dannotations visualisees dans loutil  Document Viewer 
+ 
+ 
+ Sommaire UIMA sur ce blog 
+        </text>
+</document>

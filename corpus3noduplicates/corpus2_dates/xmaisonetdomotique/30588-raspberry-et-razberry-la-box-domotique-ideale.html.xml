@@ -1,0 +1,18 @@
+<document>
+	<date>2013-04-12</date>
+        <title>
+Raspberry et Razberry: la box domotique idale ?</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>Raspberry-Pi</tag>
+                <tag>RaZberry</tag>
+                <tag>Z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Peripheriques Z-Wave</category>
+                <category>Test Materiel Informatique</category>
+        </categories_set>
+        <text>Presentee au  CES en debut dannee , voici enfin la  Razberry  ! Pour ceux qui prennent lhistoire en route, il sagit dune carte fille fabriquee par la societe  Z-Wave.Me  ajoutant le protocole  Z-Wave  au petit ordinateur maintenant bien connu, le Raspberry. Dou le nom RaZberry :D Vendue 59, cette carte fille permet de transformer son  Raspberry Pi  en box domotique pour pas cher. Nous allons voir aujourdhui ce que ce couple donne dans les faits  Sommaire I. Presentation II. Installation III. Utilisation IV. Application mobile V. Pour les experts VI. Conclusion Commentaires (5) Powered by SEO TOC 1.7.3  
+ I. Presentation  La RaZberry est donc une petite carte fille prevue pour se monter sur les ports GPIO du Raspberry.   Minuscule (2 x 4 cm), mais elle integre tout le necessaire, dont le firmware pour fonctionner:   Elle vient donc simplement se positionner sur les connecteurs GPIO de droite du Raspberry Pi:   Sa taille reduite permet meme de lintegrer dans la plupart des boitiers concus pour le Raspberyy Pi. Une fois lensemble referme, nous avons la la nouvelle plus petite box domotique que nous ayons vu :D   Mais la RaZberry nest pas quune petite carte electronique. Cest aussi une partie logicielle fournie, permettant de lexploiter: Z-Way. Controleur Z-Wave base sur le SDK 4.54 Fonction de sauvegarde et de recuperation, y compris la topologie du reseau Node Information Fram etendu (jusqua 20 classes de commandes possibles) Optimisation de la file dattente pour accelerer le processus de transmission Mise a jour du firmware a partir du systeme dexploitation du Raspberry Pi Notification de Wake-up amelioree afin de prolonger la duree de vie des batteries des appareils du reseau fonctionnant sur batterie Fonction Watchdog Middleware ecrit en C certifie Z-Wave (Numero de Certification ZC08-11040003) Gestion du reseau (inclure, exclure, Reorganiser) Gestion de la configuration des peripheriques Gestion des associations directes entre les peripheriques Moteur dautomatisation des regles, des scripts et des minuteries avec des scripts en JavaScript Pris en charge des classes de commande suivantes: Association, Basic, Battery, Configuration, Manufacturer Specific, Meter, Multichannel, Multichannel Association, MultiCommand, NodeNaming, SensorBinary, SensorMultilevel, SwitchAll, SwitchBinary, SwitchMultilevel, ThermostatMode, ThermostatSetpoint, Version, Wakeup Offre une API native en C, et une API Web en JSON Script local base sur le moteur Google Java Script V8 Localisation base sur des fichiers de langage XML Utilise la base de donnees des peripheriques Z-Wave de Pepper One Z-Way permet de communiquer avec la carte controleur, et donc de discuter avec les peripheriques Z-Wave:   Une API complete est disponible pour developper le systeme quon souhaite, Z-Way sadressant plutot aux developpeurs qui voudraient creer leur propre systeme. Mais une interface est tout de meme fournie pour jouer avec. Cest elle que nous allons maintenant decouvrir.      1   2   3   4   5   6 Raspberry-Pi   RaZberry   Z-wave 
+        </text>
+</document>

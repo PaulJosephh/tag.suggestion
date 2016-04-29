@@ -1,0 +1,20 @@
+<document>
+	<date>2014-06-19</date>
+        <title>MyFox Home Control 2 et EnOcean</title>
+        <author> Maximin </author>
+        <tags_set>
+                <tag>domotique</tag>
+                <tag>enocean</tag>
+                <tag>Home Control 2</tag>
+                <tag>MyFox</tag>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Guides Domotique EnOcean</category>
+                <category>Guides Domotiques</category>
+        </categories_set>
+        <text>
+                                                         Grace au  precedent test de la Home Control 2 de MyFox MyFox chacon EnOcean On retourne donc la centrale et on y branche la cartouche sur un des 3 slots disponibles. On se connecte maintenant a notre HomeControl 2 a ladresse  http://myfox.me EnOcean On va donc pouvoir commencer a ajouter des modules. Jai a ma disposition trois modules  EnOcean TRIO2SYS Vimar TRIO2SYS On va commencer avec le detecteur de temperature. On se rend donc dans Mon systeme puis Ajouter un module. Dans la categorie Capteurs  Detecteurs on choisit Capteur de temperature  EnOcean La centrale passe en mode inclusion et sa led dindication se met a clignoter. Il faut appuyer sur le bouton dinclusion du module present a son dos pour inclure le peripherique. La centrale emet un BIP indiquant la bonne inclusion. Pour linterrupteur double, on se rend dans Mon systeme puis Ajouter un module et dans la categorie Automatisme on clique sur Interrupteur  EnOcean  La centrale passe en mode dinclusion, sa led dindication clignote. Il suffit dappuyer sur le haut du bouton de gauche pour inclure le peripherique. La centrale BIP pour indiquer une bonne inclusion. Enfin linclusion du detecteur douverture est aussi simple que pour les deux autres modules. On se rend dans Mon systeme puis Ajouter un module et dans la categorie Securite on clique sur Contact douverture  EnOcean  La centrale passe en mode dinclusion, sa led dindication clignote. Il suffit dappuyer sur le bouton dinclusion a larriere du module pour inclure le peripherique. La centrale BIP pour indiquer une bonne inclusion. Une fois nos peripheriques reconnus et inclus, on peut les apercevoir dans leur categorie propre Securite, Automatisme et Capteurs et Detecteurs. On va donc sessayer aux scenarios. On va donc dans la categorie Mes scenarios puis Creer un scenario. On donne un nom a son scenario, on choisi son mode de declenchement puis on le configure ( Voir le test de la HomeControl2 Jai pu par exemple tres facilement commander une prise DI-O grace au detecteur douverture  TRIO2SYS Vous laurez donc vu, ce nouveau protocole prometteur est tres bien supporte par la Home Control 2. La reactivite est immediate lors de linclusion, je nai rencontre aucun probleme a ajouter mes 3 peripheriques. Si vous etes possesseur dune Home Control 2 et que la porte des peripheriques sans fils ni piles vous interesse, nhesitez pas vous ne serez pas decu!  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

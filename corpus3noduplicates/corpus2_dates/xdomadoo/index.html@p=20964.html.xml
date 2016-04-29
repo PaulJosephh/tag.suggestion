@@ -1,0 +1,14 @@
+<document>
+	<date>2011-03-03</date>
+        <title>Afficher un flux RSS dans HSTouch</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels Homeseer</category>
+        </categories_set>
+        <text>
+                                                          HSTouch peut etre configure pour importer des donnees de flux  RSS Cette  fonctionnalite est particulierement utile lors de la creation decrans pour afficher la meteo ou les nouvelles par exemple, a partir de nimporte quelle source. Nous allons donc voir comment proceder. Dans un premier temps, il faut creer un element text. A partir de longlet Others de la fenetre elements, selectionnez text, et faite le glisser sur votre ecran.  Selectionnez lelement text que vous venez de creer, et a partir de la fenetre Element Properties, accedez a la fonction Status/Device Associations, selectionnez StatusTrackingNormal et cliquez sur .  Une fenetre souvre alors.  Cochez la case Use the same for Normal/Pressed, et selectionnez dans le menu deroulant  RSS  Une nouvelle fenetre apparait.  Entrez ladresse du flux  RSS  A partir des fleches, selectionnez la page et les donnees a afficher.  Cliquez sur Ok pour fermer la derniere fenetre, et une nouvelle fois sur Ok pour fermer la premiere fenetre. Les donnees selectionnees saffichent alors dans lelement text.  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,36 @@
+<document>
+	<date>2014-02-17</date>
+        <title>Dans #Dungeon, les niveaux se cr&#233;ent en fonction de ce que les gens tweetent</title>
+        <author>Kocobe</author>
+        <tags_set>
+                <tag>Dungeon</tag>
+                <tag>Android</tag>
+                <tag>Indie</tag>
+                <tag>PC</tag>
+                <tag>Twitter</tag>
+        </tags_set>
+        <categories_set>
+                <category>Android</category>
+        </categories_set>
+        <text>
+                                                                                                 
+         
+                 #Dungeon  est  rogue like  singulier  qui va lire certains tweets pour d&#233;terminer le contenu des salles qu&#8217;il va vous proposer . 
+ more 
+ Il y a diff&#233;rentes mani&#232;res de d&#233;terminer comment les niveaux sont g&#233;n&#233;r&#233;s dans un rogue like. Nous vous en avions d&#233;j&#224; parl&#233;  l&#8217;autre fois  avec la m&#233;thode de g&#233;n&#233;ration de niveau dans  Spelunky . Ici, #Dungeon, sorte de  The Binding of Isaac  pr&#233;vu pour PC et terminaux Android, va utiliser le hashtag #HashtagDungeon sur Twitter pour faire d&#233;terminer le contenu du jeu par les twittos. 
+ Polygon  a interrog&#233; les d&#233;veloppeurs qui sont enthousiastes &#224; faire &#233;merger deux types de gameplay&#160;: celui du joueur et celui du constructeur de donjons. 
+ Nous aimerions vraiment voir une communaut&#233; grandir autour du jeu, tant du c&#244;t&#233; des maitres de donjons que des aventuriers. 
+ 
+ Avec un code particulier, les twittos pourront ainsi construire leurs propres salles dans la limite de certaines r&#232;gles d&#233;termin&#233;es par les d&#233;veloppeurs. 
+ Nous avons cherch&#233; plusieurs m&#233;thodes pour &#234;tre certains que les salles soient fonctionnelles, notamment par le nombre d&#8217;objets qui peuvent appara&#238;tre dans chacune d&#8217;entre elles (plus les salles sont &#233;loign&#233;es du point de d&#233;part, plus cette limite est &#233;lev&#233;e) et que le type d&#8217;objet apparaissant respecte une grille pr&#233;&#233;tablie. 
+ 
+ 
+ Il y aura bien entendu un &#233;diteur plus simple pour ceux qui n&#8217;aiment pas le code, mais certains objets ou monstres ne pourront appara&#238;tre qu&#8217;en utilisant le hashtag. 
+ Ce syst&#232;me est aussi int&#233;ressant dans son fonctionnement que dans la mani&#232;re dont il va g&#233;n&#233;rer sa propre promotion sur les r&#233;seaux sociaux.  
+ En tout cas,  #Dungeon est pr&#233;vu cet &#233;t&#233;, pour PC et appareils Android . 
+         
+ 
+                                                                                                         
+                                                                                                                                                                                                 
+        </text>
+</document>

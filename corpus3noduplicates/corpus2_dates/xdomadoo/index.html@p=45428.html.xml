@@ -1,0 +1,28 @@
+<document>
+	<date>2015-03-11</date>
+        <title>Guide dutilisation du dtecteur douverture Aeon Labs DSB29 avec la base domotique Homelive dOrange</title>
+        <author> Pedro </author>
+        <tags_set>
+                <tag>aeon labs</tag>
+                <tag>detecteur ouverture</tag>
+                <tag>domotique</tag>
+                <tag>dsb29</tag>
+                <tag>guide</tag>
+                <tag>homelive</tag>
+                <tag>orange</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Homelive</category>
+        </categories_set>
+        <text>
+                                                         La base  domotique Orange Z-Wave Aeon Labs 1. INCLUSION A partir du portail Homelive ( http://homelive.orange.fr/accueil/ notre test de la solution Homelive dOrange Une fois sur le portail, rendez-vous dans  objets connectes  puis  + ajouter un appareil . Une liste de peripheriques soffre a vous. Choisissez  Detecteur douverture Aeon DSB29. Retirez le couvercle du module et enlever la languette de protection si cest la premiere fois que vous lutiliser. Appuyez ensuite 3 fois sur le bouton dinclusion du module, situe a linterieur de celui-ci. Le module doit etre automatiquement reconnu.Si cest le cas, lappareil sera detecte. Il suffira de lui donner un nom, de selectionner une piece puis de cliquer sur  Terminer . Si ce nest pas le cas, vous pouvez le dissocier ou le restaurer avant de tenter de linclure a nouveau.Une fois inclus, vous pouvez retrouver votre module dans vos objets connectes. En cliquant sur Apple-converted-space  2. SCENARIOS On va maintenant pouvoir creer des scenarios. Pour cela on se rend dans longlet  scenarios  puis  + creer un scenario  en haut a droite. On imagine un scenario ou une camera enregistre lorsque la porte ou la fenetre souvre. On selectionne notre Apple-converted-space  On peut alors choisir un autre declencheur ou passer a letape 2. La on ajoute une action immediate si on veut que laction se declenche des que le capteur est active, ou differee si on veut attendre un certain temps. Jintegre donc une camera dans mon scenario (la camera a ete prealablement incluse). On choisit laction queffectuera la camera. Ici jai choisi quelle realise un enregistrement video de 20 secondes. Puis on enregistre cette etape et on passe a letape 3. A letape 3,  on finalise le scenario en choisissant dans quel(s) mode(s) le scenario va devoir senclencher ainsi que les personnes a avertir. Enfin on peut choisir de notifier des personnes par mail lorsque le scenario senclenche. Pour ce faire, cliquez sur: Puis rentrer ladresse mail desiree. On nomme ensuite le scenario, et on enregistre. Il est possible de tester celui-ci en cliquant sur  tester  une fois la configuration terminee. Ce nest bien sur quun exemple de scenario. Vous avez pu voir que la creation de celui-ci a ete tres simple. Plus vous possederez de peripheriques, plus les possibilites de creation de scenarios seront variees, comme par exemple declencher une sirene lors dune intrusion ou bien encore allumer la lumiere lorsquune porte souvre. Retrouvez le detecteur douverture  Aeon Labs sur la boutique Domadoo !  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Homelive  Guide dutilisation du repeteur Z-Wave DSD37 dAeon Labs 
+ Guide dutilisation du detecteur de mouvement Fibaro FGMS-001 avec la base domotique Homelive dOrange 
+ Guide dutilisation de la sirene Aeon Labs ZW080 avec la base domotique Homelive dOrange 
+ Guide dutilisation du detecteur douverture Fibaro FGK-101 avec la base domotique Homelive dOrange END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,25 @@
+<document>
+	<date>2014-11-19</date>
+        <title>Comment exploiter simplement ltat dun dtecteur filaire dans son rseau Z-Wave ?</title>
+        <author> Bruno </author>
+        <tags_set>
+                <tag>ds18b20</tag>
+                <tag>fgbs-001</tag>
+                <tag>fibaro</tag>
+                <tag>guide</tag>
+                <tag>hc2</tag>
+                <tag>Home Center 2</tag>
+                <tag>ouverture</tag>
+                <tag>temperature</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Z-Wave</category>
+                <category>Guides Domotiques</category>
+        </categories_set>
+        <text>
+                                                         Vous avez un portail, portillon ou tout type douvrant exterieur ou interieur et souhaitez connaitre son etat et lexploiter dans votre reseau  Z-Wave 1- Presentation de la solution Si vous desirez exploiter un detecteur filaire interieur (pour une porte, fenetre ou autre ouvrant dans votre logement), le produit  4STLF (ELMDENE) Voici ce produit dans ma main afin dapprecier la taille de celui-ci. Pour lutilisation dun detecteur filaire exterieur (portail, portillon etc), il sagit du  4HDTLF (ELMDENE) Voici egalement une photo du produit dans ma main pour constater sa taille reduite. Que vous utilisiez lun ou lautre voir les deux, il sera necessaire de connecter ceux-ci a un module  FGBS-001 Z-Wave Le dernier element a posseder est donc une box  domotique FGBS-001 Eedomus Jeedom Zibase Zipabox Pourquoi choisir cette solution ? Pour de nombreuses raisons ameliorant votrequalite de vie : Aucun detecteur exterieur  Z-Wave Z-Wave Prix de la solution Z-Wave FGBS-001 Z-Wave plus Fiabilite Z-Wave Reactivite :  Module FGBS-001 multifonctions Gestion simultanee de plusieurs elements par le FGBS-001 DS18B20 DS18B20WP Z-Wave Utilisation pour dinnombrables scenarios :  2- Mise en place des produits Afin de montrer plusieurs fonctions de ce module FGBS-001 DS18B20WP 4STLF (ELMDENE) 4HDTLF (ELMDENE) La sonde de temperature permettra de mesurer la temperature de notre jardin. Celle-ci se compose de 3 fils : Rouge Noir Jaune Voici le schema de notre installation. Voici les etapes de connexion de notre solution :  Pour debuter, nous prenons notre detecteur filaire interieur 4STLF (ELMDENE) fil rouge fil noir fil jaune filbleu  Nous prenons ensuite notre detecteur filaire exterieur 4HDTLF (ELMDENE) fil rouge fil rouge 4STLF (ELMDENE) fil noir  Nous positionnons le  fil vert fil jaune FGBS-001 fils noir  Nous connectons le  fil rouge FGBS-001 fil bleu FGBS-001 fils rouge  Nous connectons le  fil rouge fil rouge FGBS-001  fil bleu fils rouge fil bleu FGBS-001 FGBS-001  Nous branchons le  fil marron fil bleu fil blanc FGBS-001  Nous branchons le  fil rouge DS18B20WP fil marron FGBS-001 fil noir fil jaune  fil bleu  jaune FGBS-001  Pour finir ce montage, nous branchonsnotre alimentation (dans notre cas : 12V)au secteur et nous activons le  disjoncteur Voici le resultat de notre installation : Si vous exploitez le detecteur filaire exterieur 4HDTLF (ELMDENE) FGBS-001 Ce module FGBS-001 domotique domotique AEON LABS DSD 37 FGBS-001 3- Utilisation dans le reseau  Z-Wave domotique Etant donne que lemodule FGBS-001 Z-Wave domotique domotique domotique Suite a la bonne inclusion, votre module apparait desormais sur linterface de votre box  domotique Lorsque nous ouvrons notre porte dentree et portail, nous visualisons immediatement letat ouvert de ces deux elements (vous pouvez visualiser ceux-ci sur votre ordinateur, tablette ou smartphone). Linteret davoir integre un detecteur filaire dans un systeme  domotique Par exemple, pour securiser davantage votre logement, vous pouvez immediatement etre alerte par une notification PUSH sur votre smartphone lorsquun individu ouvre votre portillon, portail, porte ou fenetre durant votre absence et une sirene sactivera automatiquement durant une duree definie. Pour realiser des economies denergie, votre chauffage se coupera automatiquement dans une piece ayant une porte exterieure ou fenetre lorsque vous ouvrez celle-ci. Enfin, pour votre confort, vous pouvez imaginer fermer votre portail a distance si vous constatez que celui-ci est reste ouvert. Voici des idees parmi tant dautres possiblesgrace acette solution. Un grand avantage est de pouvoir utiliser ces elements pour un ou plusieurs scenarios simultanement (par exemple : un detecteur douverture pourra servir a la fois pour activer une sirene lors dune intrusion, couper le chauffage et vous informer lorsque votre enfant est entre chez vous). Nous avons choisi la box  domotique Eedomus Zipabox Jeedom Zibase 4- Bilan de cette solution Alors que lon peut voir certains reportages presentant des solutions  domotique Z-Wave Z-Wave Si tout comme moi, vous etes seduit par ces produits, retrouvez-les sur notre boutique en  cliquant ici  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

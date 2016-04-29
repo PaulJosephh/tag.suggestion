@@ -1,0 +1,89 @@
+<document>
+	<date>2005-05-23</date>
+        <title>Top commentateurs</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dev</tag>
+                <tag>dotclear</tag>
+                <tag>php</tag>
+                <tag>tips</tag>
+                <tag>web</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dotclear</category>
+        </categories_set>
+        <text>Ajoutez ce code dans votre fichier  prepend.php  du repertoire de votre theme courant: 
+
+ 
+ 
+ function  dcMeilleursCommentateurs ( $nb = 5 ,  $exclure = array ( ) ,  $display_site = false )   { 
+         GLOBAL   $blog ;
+         $con  =  $blog - con ;
+         $nb  =  is_int ( $nb )    $nb    0    $nb  =  100  ?  $nb  :  5 ;
+         $reqPlus  =  '' ;
+         if   ( ! is_array ( $exclure )  ||  count ( $exclure )  ==  0 )   { 
+                 $do_exclure  =  false ;
+         }   else   { 
+                 $do_exclure  =  true ;
+                 for   ( $i = 0 ;  $i count ( $exclure ) ;  $i ++ )   { 
+                         $reqPlus  .=  "AND comment_auteur != '" .str_replace ( "'" ,  " \' " ,  $exclure [ $i ] ) . "'" ;
+                 } 
+         } 
+         $sql  =  'SELECT DISTINCT(comment_auteur), COUNT(comment_auteur) AS nbposts, MAX(comment_site) AS comment_site FROM dc_comment WHERE 1 ' . $reqPlus . ' GROUP BY comment_auteur ORDER BY nbposts DESC, comment_site ASC LIMIT 0, '  .  $nb ;
+         if   ( $rc  =  $con - select ( $sql ) )   { 
+                 if   ( $rc - int_row_count    0 )   { 
+                         $pos  =  0 ;
+                         echo   'ol' ;
+                         while   ( $rc - fetch ( ) )   { 
+                                 if   ( $do_exclure  ==  false  || ! in_array ( $rc - f ( 'comment_auteur' ) ,  $exclure ) )   { 
+                                         if   ( $display_site  ==  true    $rc - f ( 'comment_site' ) )   { 
+                                                 $auteur  =  'a href="http://' . $rc - f ( 'comment_site' ) . '" rel="nofollow"' . $rc - f ( 'comment_auteur' ) . '/a' ;
+                                         }   else   { 
+                                                 $auteur  =  $rc - f ( 'comment_auteur' ) ;
+                                         } 
+                                         echo   'listrong' . $auteur . '/strong (' . $rc - f ( 'nbposts' ) . ')/li' ;
+                                 } 
+                         } 
+                         echo   '/ol' ;
+                 }   else   { 
+                         echo   'pAucun commentaire./p' ;
+                 } 
+         } 
+ } 
+
+
+ Cela s'utilise comme suit, par exemple dans votre fichier  template.php  du theme courant: 
+
+ ?php  dcMeilleursCommentateurs ( 5 ,  array ( 'NiKo' ,  'Jean-Pierre Rafarin' ,  'MecQueJ \' AimePas' ,  'Spammeur-Man' ) ,  true )   ? 
+
+
+ Le premier parametre permet de specifier le nombre de pseudos a afficher (5 par defaut), le deuxieme est un tableau contenant les pseudos a exclure de la liste et le troisieme specifie si vous desirez afficher un lien vers le site du commentateur. 
+
+
+ Enjoy  
+
+
+ Edit 
+
+
+ Suite a la  remarque de kNo' , voici une alteration de la table  dc_comment  ajoutant un index sur le champs  comment_auteur , destinee a alleger la charge genere par l'execution de la requete utilisee par la fonction: 
+
+
+ ALTER TABLE dc_comment ADD INDEX idxauteur ( comment_auteur ); 
+
+
+ N'etant pas expert absolu en SQL, je demande validation du principe aux sommites parcourant ce billet  
+
+
+ Edit 2 
+
+
+ Mise a jour de la fonction en version 0.2, avec un nouveau parametre qui permet de specifier si l'on veut afficher un lien vers le site du commentateur. C'est de la bouillie de bidouille SQL, j'ai honte [ 1 ] , mais ca tient en une seule requete, et je n'en ai pas de trace dans mes  slow_queries . 
+
+
+ Pour eviter que cette fonction ne se transforme en veritable appel au  SPAM  de commentaires, j'ai ajoute l'attribut  rel="nofollow"  aux liens generes, et ce afin de  dissuader les eventuels spammeurs . 
+ Notes 
+ [ 1 ] D'ailleurs si quelqu'un a quelque chose de plus optimise, qu'il ne se gene pas pour le signaler  
+ 
+        </text>
+</document>

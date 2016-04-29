@@ -1,0 +1,184 @@
+<document>
+	<date>2013-06-03</date>
+        <title>eedomus : mise  jour du 03 juin 2013</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>eedomus</tag>
+                <tag>mise a jour</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Evenements</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+  
+  
+ Cela faisait longtemps que nous navions pas eu de mise a jour. Mais aujourdhui cest chose faite, des nouveautes, des ameliorations et des corrections sont au programme. 
+ 
+ Mise a jour du 3 juin 2013 
+  
+ Les nouveautes 
+  eedomus devient multilingue, les langues disponibles sont le Francais, lAnglais, lEspagnol 
+  
+ Mode LAN automatique sur les apps iOS et Android : suivez et piloter votre box eedomus en direct ( Appli iOS disponible sous peu, en cours de validation par Apple ) 
+  
+ Support du moduleRFXUSB(RFXtrx433 RFXCOM ) (Protocoles Oregon Scientific et Lacrosse activables, autres protocoles a venir) 
+ RFXUSB 
+ 
+ 
+ 
+ Le module RFXtrx433  RFXCOM (appele egalement RFXUSB ) est un peripherique USB compatible avec la box eedomus qui permet de communiquer avec de nombreux peripheriques radios utilisant la bande de frequence des 433Mhz. 
+ A ce jour les protocoles Oregon Scientific et Lacrosse sont supportes avec la box eedomus , dautres protocoles seront actives dans les version ulterieures deedomus. 
+ 
+ Utilisation avec la box eedomus 
+ 
+ Connectez votre RFXUSB sur un port USB libre de la box eedomus 
+ Apres environ 1 minute, une section RFXUSB sera disponible dans la configuration de la box, selectionner les protocoles que vous souhaitez activer. 
+ 
+ Il est important de nactiver que les protocoles reellement utilises sans quoi les performances de votre RFXUSB se verront degradees. 
+ 
+ 
+ 
+ Creation automatisee 
+ Si des peripheriques de type capteur (ex. Thermometre Oregon Scientific) sont actifs dans lenvironnement du RFXUSB des notifications apparaitrons sur le portail eedomus . Il suffit alors de cliquer sur ladresse du peripherique pour amorcer sa creation. Il ne vous reste plus qua renseigner les champs necessaires et a sauvegarder. 
+ 
+ 
+ Creation manuelle 
+ Vous pouvez sinon ajouter a tout moment un peripherique RFXUSB en cliquant sur Configuration / Ajouter ou supprimer un peripherique / Ajouter un autre type de peripherique 
+ 
+  
+  
+ Macros a duree variable: il est possible de redefinir la duree des macros juste avant leur execution pour une meilleure ergonomie 
+ Macros a duree variable 
+ 
+ 
+ Ce parametrage specifique dans les macros permet de modifier rapidement la duree dune action juste avant de lancer la macro. 
+ Ceci est pratique pour definir une minuterie, par ex. pour eteindre une lampe 30 min avant daller au lit, allumer sa machine a laver dans 1h,  
+Par defaut, une macro a duree variable est cree pour les actionneurs de type lampe mais il est possible den ajouter manuellement en: 
+ 
+ cochant a cote de la duree qui sera variable 
+ inserant le tag [x] dans le nom de la macro (il sera remplace par la duree variable) 
+ 
+ 
+ Lors du lancement de la macro il sera ainsi possible de modifier cette duree a la demande: 
+ 
+ Dans lapplication eedomus pour iOS , la modification de la duree dune macro variable se fait avec un appui long sur le nom de la macro: 
+ 
+  
+ Dans lapplication eedomus pour Android , la modification de la duree dune macro variable se fait avec un appui long sur le nom de la macro: 
+ 
+ 
+  
+  
+ 
+ Possibilite dutiliser sa box eedomus derriere unproxy 
+ Fixer lIP de la box 
+ 
+ 
+ Si vous souhaitez fixer l IP de votre box eedomus , il est conseiller de realiser cela dans le parametrage de votre routeur ou box ADSL en lui indiquant ladresse MAC de votre box eedomus et ladresse IP souhaitee. 
+ Il est cependant possible de forcer le parametrage reseau de votre box eedomus en vous rendant depuis votre LAN a ladresse: 
+ http:// ip_de_votre_box /config 
+ Ce site indique quil faut etre connectee au serveur web local au prealable, pour des raisons de securite: 
+ 
+ 
+ 
+ Sur le serveur web local, saisissez vos identifiants: 
+ 
+ 
+ 
+ Retournez ensuite sur ladresse: 
+ http:// ip_de_votre_box /config 
+ Vous verrez la page pour fixer une adresse IP fixe a la box: 
+ 
+ 
+ 
+ Attention a ne pas faire derreur lors de la saisie!  Soyez patient sur ces differentes pages web LAN: la box est peut-etre occupee et repondra dans quelques instants 
+ La fonctionnalite de proxy http est disponible a partir du 15 avril 2013. 
+  
+ 
+ Le mode intimite des camera est maintenant etendu au direct (Disponible sur le portail web et les apps iOS et Android ) 
+  
+ Nouvelle fonction de lAPI get-periph.list disponible sur le serveur et en mode local 
+  
+ Loptimisation radio Z-Wave peut etre demandee immediatement dans la configuration des peripheriques ou depuis la matrice radio 
+ 
+ Alerte piles faibles: recevez un mail en cas de piles faibles sur vos peripherique (Configurable depuis Mon compte ) 
+  
+ 
+ Criteres de distance pour les GPS dans le moteur de regle (Declencher des actions lorsque vous rentrez ou sortez dune zone) 
+  
+ Ajout dun ecran historique sous forme de carte pour les GPS (Cliquer sur la loupe du widget) 
+  
+ Z-Wave: 
+ 
+ Support de la telecommande BeNext 
+ Support du Wall Plug de Fibaro 
+ Support du Module volet roulant 24V (DBMZ) 
+ Support du EzMotion+ 3 in 1 
+ Support de la nouvelle version du MoLiTe 
+ 
+ Les ameliorations 
+ Les peripheriques RFXLAN (et RFXUSB ) peuvent etre crees en cliquant directement sur le lien qui apparait dans les notifications 
+  
+ Ajout de la date et heure correspondant a la mise a jour de la matrice radio Z-Wave 
+  
+ La fonction de lAPI get-periph.caract est maintenant disponible en mode local 
+  
+ La fonction de lAPI get-periph.caract peut etre appelee pour plusieurs peripheriques a la fois (en separant les codes API par une virgule) 
+  
+ Les resultats de l API peuvent etre affiches en XML (en precisant format=xml dans vos requetes) 
+  
+ Amelioration du formatage des dates affichees dans les bulles daide des histogrammes 
+  
+  Les capteurs / actionneurs HTTP peuvent desormais appeler des URL HTTPS avec certificat personnel 
+  
+ Les actionneurs HTTP peuvent desormais realiser des requetes de type PUT et DELETE 
+  
+ Jusqua 200 images personnalisee peuvent etre uploadees simultanement (limite a 20 jusqualors) 
+  
+ Il est maintenant possible dexclure des detecteurs dans la programmation Surveillance intrusion 
+  
+ Des valeurs Texte peuvent etre utilises dans les criteres de regles (Pour les peripheriques etats de type Texte) 
+  
+ Les corrections 
+ Correction dun bug daffichage du niveau de la batterie apres un tri dans lecran de configuration 
+  
+ Apres la duplication dune regle, le groupe par defaut lui etait reaffecte 
+  
+ Limage des actionneurs de groupes de regle pouvait etre incorrecte sur les liens rapides de la page daccueil 
+  
+ Correction dun bug pouvant amener a des regles non supprimables 
+  
+ Voila donc une grosse mise a jour de la part de Connected object, bravo a lequipe pour ce magnifique travail. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

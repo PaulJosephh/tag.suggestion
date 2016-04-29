@@ -1,0 +1,30 @@
+<document>
+	<date>2015-04-02</date>
+        <title>Jeedom  Guide dutilisation du micromodule commutateur double Z-Wave Fibaro FGS-221</title>
+        <author> Maximin </author>
+        <tags_set>
+                <tag>charge</tag>
+                <tag>commutateur</tag>
+                <tag>eclairage</tag>
+                <tag>fgs-221</tag>
+                <tag>fibaro</tag>
+                <tag>guide</tag>
+                <tag>jeedom</tag>
+                <tag>relais</tag>
+                <tag>tuto</tag>
+                <tag>z-wave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guide Domotique Jeedom</category>
+        </categories_set>
+        <text>
+                                                         Grace a son plugin  Z-Wave Jeedom Z-Wave Fibaro Jeedom 1. Presentation du module Le module FGS-221 de  Fibaro relais Jeedom Z-Wave CARACTERISTIQUES TECHNIQUES : Type de module : Recepteur  Z-Wave Alimentation : 230V, 50 Hz Cablage : 3 fils,  neutre Puissance maxi : 2x 1500W (charge resistive) Courant maxi :
+ Sortie AC : 2x 8A / 230VAC Sortie DC : 2x 8A / 30V Frequence : 868,42 Mhz Distance de transmission : 50m champ libre, 30m en interieur Dimensions: 15 x 42 x 38 mm Temperature de fonctionnement : 0-40C Temperature limite : 105C Normes : EN 55015 et EN 60669-2-1 2. Installation du plugin  Z-Wave Si vous nen disposez pas encore, il va vous falloir installer le plugin  Z-Wave Enfin, cliquez sur le bouton Market situe en haut a gauche. Une fois sur le Market, dans la barre de recherche en haut a droite, tapez le mot  Z-wave Une fois le plugin active, vous avez acces a sa configuration. Si vous utilisez une box  Jeedom Z-wave 3. Association au reseau  Z-Wave Il faut maintenant inclure le module, pour cela, il faut se rendre dans le menu Plugins, Protocole  Domotique Z-Wave Une fois sur cette page, sur la gauche se trouve un menu avec notamment le bouton Mode inclusion, il suffit de cliquer dessus pour passer en mode inclusion : Apres avoir clique sur Mode inclusion, un message apparait pour vous rappeler que vous etes dans ce mode. Il faut donc maintenant appuyer 3 fois rapidement sur le bouton B (avec une allumette par exemple) du module afin de lancer linclusion (le module doit bien sur etre correctement alimente). Une fois linclusion en cours, un message apparait , il faut donc patienter le temps que  Jeedom Note : il est preferable deffectuer une exclusion avant une inclusion, pour effectuer lexclusion rien de bien complique, il suffit de cliquer sur Mode exclusion puis dappuyer 3 fois rapidement sur le bouton B du module (avec une allumette par exemple), un message apparaitra vous confirmant lexclusion du module. 4. Configuration Lorsque linclusion est terminee, la page de configuration du module apparait : Jeedom Puis dans la zone information, on peut verifier que le module est bien reconnu en tant que module  Fibaro Ensuite, dans la partie commande, on va pouvoir visualiser et adapter les differentes commandes disponibles sur ce module avec notamment les commandes On 1, Off 1 et Etat 1 qui correspondent au  relais relais Dans mon cas, nayant quun seul eclairage de raccorde sur ce module, jai decoche les cases Afficher pour les commandes On 2, Off 2 et Etat 2, ce qui aura pour effet de rendre invisible ce  relais 5. Configuration avancee En fonction de votre installation, il se peut que vous ayez besoin dacceder a la configuration avancee du module. Pour y acceder, cliquez sur licone Cle a molette de la zone information. Vous accedez ainsi a la configuration avancee du module. Les parametres sont a adapter en fonction de vos besoins et de vos attentes, voici quelques explications sur les principaux : relais relais relais Jeedom Les parametres 13 et 14 seront a configurer en fonction du type dinterrupteur que vous possedez, dans mon cas jai souhaite conserver mon simple interrupteur bistable mais avoir un fonctionnement monostable, lallumage/extinction nest plus fixe (haut=allumer et bas=eteindre) mais determine en fonction de letat de la lampe. 6. Attribution dun widget Notre module etant correctement inclus et configure, nous allons maintenant lui attribuer un Widget (optionnel), dans ce cas ce sera un Widget representant un Spot. Ensuite, cliquez sur licone Market en haut a gauche. Vous arrivez ensuite sur le Market des Widgets, dans la zone de recherche tapez le mot  spot  Une nouvelle fenetre souvre, cliquez sur installer beta. Une fois linstallation correctement effectuee, un message apparait. Maintenant, fermez la fenetre et retournez dans le menu Plugins, Programmation puis Widget ou actualisez la page si vous y etes deja. Recherchez le Widget precedemment installe a laide de la barre de recherche en tapant Spot et cliquez dessus. Selectionnez les commandes On 1 et Off 1 pour le  relais relais Comme precise un peu plus haut, je nutilise pas le  relais Maintenant, rendez-vous sur le Dashboard pour constater le resultat, si vous avez bien tout respecte votre equipement devrait maintenant ressembler a ca: relais Si vous utilisez les deux  relais 7. Exemple dutilisation Avec ce module, vous allez pouvoir gerer leclairage dun ou deux point lumineux mais aussi tout type de charge comme par exemple une chaudiere (en connectant le contact sec a la place du thermostat), une porte de garage ou encore une motorisation de portail coulissant ou battant. 1. Fibaro  1 Scenario    2 Scenario  Note: Si pour vous le delai entre la detection et lallumage doit etre tres rapide, cochez la case en haut a droite Executer le plus rapidement possibl 2. 3.  Merci a Rosty, beta testeur de  Jeedom Vous pourrez retrouver le FGS-221 sur  la boutique Domadoo.  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: 
+ 
+ Jeedom  Guide dutilisation du module volet roulant FGRM-222 de Fibaro 
+ Jeedom  Guide dutilisation du detecteur autonome de fumee Fibaro FGSD-002 
+ Jeedom  Guide dutilisation de lampoule connectee ZIPATO RGBW 
+ Jeedom  Guide dutilisation du compteur denergie HEM3 dAeon Labs END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,42 @@
+<document>
+	<date>2005-03-14</date>
+        <title>MTASC - Automatiser la compilation d'un projet</title>
+        <author>NiKo</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Imaginons un projet Toto, s'instanciant par la classe principale Toto contenue dans le fichier Toto.as, classe contenant un point d'entree sous la forme d'une classique fonction statique main(). MTASC, au meme titre que le compilateur de Macromedia, compilera les classes dependantes, quel qu'en soit le nombre et au fur et a mesure de leur appel; aussi pour compiler l'integralite du projet Toto, il suffit de creer un petit fichier Toto.sh dans le repertoire du projet: 
+
+
+ #!/bin/sh
+# Mon projet Toto
+mtasc -swf Toto.swf -cp /path/to/mtasc/std/classes -header 800:600:25 -main Toto.as 
+
+
+ Je vous renvoie a la  doc en ligne de MTASC  pour l'explication des parametre de compilation  
+
+
+ Si vous desirez visionner directement le fichier Toto.swf apres compilation, vous pouvez rajouter cette ligne en fin de fichier: 
+
+
+ firefox Toto.swf 
+
+
+ Il faut ensuite rendre le script en question executable (dans  Nautilus , clic droit  Proprietes  Permissions et cliquez sur Executable pour l'utilisateur courant). Il suffit desormais de double-cliquer sur Test.sh pour compiler l'integralite de votre projet  
+
+
+ Raffinement supreme, il devient possible de faire un backup systematique du fichier resultant de la precedente compilation en ajoutant une ligne en debut de fichier, comme ci-dessous: 
+
+
+ #!/bin/sh
+# Mon projet Toto
+cp -f Toto.swf Toto.bak.swf
+mtasc -swf Toto.swf -cp /path/to/mtasc/std/classes -header 800:600:25 -main Toto.as
+firefox Toto.swf 
+
+
+ On s'appercoit d'ailleurs que la tentation de mettre  Toto  dans une variable est grande, afin de creer un outil generique qui s'appliquerait a plusieurs projets   Je vais donc peaufiner la question dans les jours qui viennent  
+        </text>
+</document>

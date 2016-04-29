@@ -1,0 +1,68 @@
+<document>
+	<date>2014-10-02</date>
+        <title>Raspberry Pi Model B+, par o commencer ?</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+                <category>Raspberry</category>
+                <category>Systeme</category>
+        </categories_set>
+        <text>
+                                                 Presentation 
+ 
+Le  Raspberry Pi domotique Raspberry Pi 
+ Processeur integre ARM1176JZF-S core (ARM11) 700 MHz sur SoC Broadcom BCM2835 avec FPU et GPU double cur VideoCore IV RAM : 512 Mo SDRAM Lecteur de cartes Micro SD Port Ethernet RJ45 10/100 Base-T Prise audio/video HDMI 1.3 et 1.4 Sortie audio/video composite sur prise jack 3,5 mm a 4 poles 4 ports USB 2 Port GPIO 40pin Connecteur MPI CSI-2 15 contacts pour camera video HD Raspberry Pi (775-7731) Connecteur DSI dinterface serie daffichage a 15 contacts Alimentation : +5V/2A via le port micro-USB Dimensions : 85x56x17 mm 
+A titre de comparaison, la puissance de calcul est proche de celle dun  Pentium II Xbox 1 Que faut-il pour demarrer? 
+ 
+ Un  Raspberry Pi avec de preference un boitier adapte celui-ci Une  alimentation +5V/2A micro-USB Une  carte memoire micro SD  rapide celle-ci Des  dissipateurs Raspberry Pi Pour linstallation du systeme, un clavier USB, une souris USB, un moniteur HDMI, un cable HDMI et un cable Ethernet sont utiles Installation du systeme 
+ 
+Il existe plethore de distributions pour  Raspberry Pi 
+ Raspbian RaspBMC OpenELEC Media Center RaspyFI RaZberry Z-Wave RaZberry Domoticz RaspberryPi SD Image Domoticz  
+Mon besoin est de partir sur une distribution generique ( Raspbian BerryBoot Raspberry Pi 
+ Formater en FAT la carte microSD du  Raspberry Pi Telecharger BerryBoot Decompacter le contenue de larchive sur la carte microSD Placer la carte microSD dans le  Raspberry Pi Connecter clavier, souris, ecran, cable Ethernet et enfin lalimentation pour demarrer le  Raspberry Pi BerryBoot Puis  BerryBoot Premiers pas 
+ 
+Une fois la distribution installee, il est possible de se passer de clavier, souris et ecran en se connectant au  Raspberry Pi Raspbian pi raspberry ssh pc$  ssh @  ssh raspi-config pi pi$  sudo 
+Il est possible de lancer une application graphique via une connexion  ssh X11 Forwarding for GUI Application over SSH SSH 
+ Editer le fichier  sshd_config pi$  sudo nano / / / Ajouter la ligne  X11Forwarding yes Redemarrer le serveur  SSH pi$  sudo / / / ssh Depuis un autre terminal, etablir une nouvelle connexion  ssh pi$  ssh -X @  Il ne reste plus qua tester le bon fonctionnement de loperation:
+
+
+ pi$  pi$  
+Il est egalement pratique de pouvoir monter un repertoire du  Raspberry Pi NFS NFS Raspberry Pi 
+ Installer le serveur  NFS pi$  sudo apt-get install Editer le fichier  exports pi$  sudo nano / / Ajouter la ligne
+
+
+ / / * ( sync anonuid 1000 anongid 1000 ) 1000 uid pi pi$ id pi Il faut encore lancer les services adequats:
+
+
+ pi$  sudo enable pi$  sudo pi$  sudo 
+Pour acceder depuis le PC Linux via  NFS /home/pi Raspberry Pi /media/RaspeberryPi /etc/fstab   / / / / exec 0 0 
+Creer le repertoire sur le PC Linux:
+
+
+ pc$  sudo mkdir / / 
+Monter le repertoire:
+
+
+ pc$  sudo mount / / 
+ Remarque (does not support NFS export): sudo service nfs-kernel-server restart ... does not support NFS export BerryBoot sans clavier ni souris NFS BerryBoot NFS Mise-a-jour de Raspbian et du firmware du Raspberry 
+ 
+  Mise a jour de tous les paquets installes (a faire regulierement):
+
+
+ pi$  sudo apt-get update pi$  sudo apt-get upgrade pi$  sudo  Mise a jour de la distribution:
+
+
+ pi$  sudo apt-get update pi$  sudo apt-get dist-upgrade pi$  sudo  Afficher la version du firmware:
+
+
+ pi$  uname -a #1 PREEMPT Thu Aug 14 10:48:01 CEST 2014 armv6l GNU/Linux #1  Mise a jour du firmware:
+
+
+ pi$  sudo apt-get install pi$  sudo pi$  sudo Informations et sources 
+ 
+Shopping:  Raspberry Pi avec boitier alimentation +5V/2A micro-USB Carte memoire 16 Go micro SD rapide Raspbian France BerryBoot v2.0  bootloader / universal operating system installer Faire du multiboot tres facilement sur son Raspberry Pi How to remote control Raspberry Pi Partager un repertoire de sa Raspberry Pi via NFS Comment mettre a jour le firmware du Raspberry ? Installer Raspbian sur Raspberry Pi sans ecran ni clavier 
+ Sommaire Domotique 
+        </text>
+</document>

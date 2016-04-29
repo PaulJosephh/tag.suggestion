@@ -1,0 +1,34 @@
+<document>
+	<date>2009-11-22</date>
+        <title>YaTeA : un extracteur de candidats terme</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>TALN</category>
+        </categories_set>
+        <text>
+                                                 
+Un terme est une structure linguistique (un mot ou un groupe de mots) qui denote un concept. YaTeA (Yet Another Term ExtrActor) permet didentifier dans un corpus des groupes nominaux qui peuvent correspondre a des termes (c.-a-d. des candidats de terme). Cet outil a ete developpe par  Thierry Hamon LIPN Installation de YaTeA (en etant root) : 
+ 
+Configurer le module CPAN / Invoquer le shell :
+  perl -MCPAN -we 'shell' 
+Installer les modules dont YaTeA depend (quit pour quitter le shell CPAN)
+ cpan install YAML
+ 
+Telecharger Lingua-YaTeA-0.5.tar.gz :
+ http://search.cpan.org/~thhamon/Lingua-YaTeA-0.5/ 
+Le decompresser
+  tar -xvzf Lingua-YaTeA-0.5.tar.gz 
+Installer YaTe
+  perl Makefile.PL
+ 
+Verifier que linstallation a bien copie les repertoires  etc/yatea/ share/doc/ share/YaTeA 
+ cp -r etc/yatea /usr/local/etc/.
+ Utilisation de YaTeA 
+YaTeA prend en entree un  corpus tabulaire produit par TreeTagger  yatea -rcfile yatea.rc corpus.ttg yatea.rc /usr/local/etc/yatea/yatea.rc 
+CONFIG_DIR = /usr/local/share/YaTeA/config
+ EN FR 
+ YaTeA sur CPAN Improving Term Extraction with Terminological Resources, S. Aubin and T. Hamon YaTeA : Extraction des termes 
+        </text>
+</document>

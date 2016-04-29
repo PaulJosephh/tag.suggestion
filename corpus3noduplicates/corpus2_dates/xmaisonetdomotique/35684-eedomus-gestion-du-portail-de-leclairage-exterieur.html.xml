@@ -1,0 +1,14 @@
+<document>
+	<date>2014-03-14</date>
+        <title>
+Eedomus: gestion du portail et de lclairage extrieur</title>
+        <author>Sbastien</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Guides Automatismes</category>
+        </categories_set>
+        <text>Meme si  Cedric a deja presente lautomatisation de son portail ici , je vais vous decrire aujourdhui mon installation personnelle, car les portails sont differents et les besoins aussi. Comme je demarre avec la box  eedomus , ce sera egalement loccasion de revoir les bases des scenarios pour les petits nouveaux qui demarrent en domotique. Je vais donc vous decrire comment programmer simplement une ouverture de portail avec l eedomus , accompagne de lallumage de son eclairage exterieur automatiquement sil fait nuit. Bien sur en pleine journee seul le portail souvrira. Il suffit de quelques regles de base mais qui sont obligatoires pour que cela fonctionne correctement. On aurait pu piloter tout cela separement, mais pourquoi faire simple quand on peut faire complique ? Ce sera surtout beaucoup plus pratique a lusage, comme nous le verrons ;-)  Sommaire I. Materiel necessaire II. Mise en place du module ITL 1000 2.1 Branchement electrique 2.2 Integration du module ITL 1000 a la box Eedomus III. Installation du module FGS-221 3.1 Branchement electrique 3.2 Integration du module FGS-221 a la box Eedomus IV. Scenarios 4.1 Creation du Lever / Coucher du soleil 4.2 Creation regles pour Eclairage Lever / Coucher du soleil V. Conclusion Commentaires (39) Powered by SEO TOC 1.7.3  
+ I. Materiel necessaire Tout dabord, pour realiser cela, il va falloir un peu de materiel. Sur mon  eedomus , jai branche en plus un  boitier Rfxtrx , qui permet a ma box de communiquer avec des peripheriques comme du Chacon, en plus du Z-Wave quelle supporte nativement. Ces peripherique sont lavantage detre moins couteux que le Z-Wave. Pour le portail, jai donc utilise un  ITL1000  qui permet de gerer les contacts secs, et qui sera utilise en bistable (cest-a-dire envoi dune seule impulsion ). Compatible Chacon, il ne coute que 29, ce qui est tres abordable.   Pour la partie eclairage je me suis base sur un  module Fibaro FGS-221  qui permet de gerer 2 x 1 500 Watts. Ce qui est bien cest que lon peut integrer deux eclairages. Pour mon cas jai un eclairage exterieur par projecteur sur une sortie et des lampadaires sur la deuxieme sortie.      1   2   3   4 
+        </text>
+</document>

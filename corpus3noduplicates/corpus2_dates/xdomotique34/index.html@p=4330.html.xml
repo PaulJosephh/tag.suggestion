@@ -1,0 +1,74 @@
+<document>
+	<date>2013-05-07</date>
+        <title>Version ZiBASE V724 / V810 (enocean) et mise  jour plateforme</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>EnOcean</tag>
+                <tag>Multi server</tag>
+                <tag>zibase</tag>
+                <tag>Zodianet</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Evenements</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+  
+ Si vous ne le savez pas encore  votre Zibase a une mise a jour en attente : il sagit de la  Version ZiBASE V724 / V810 (enocean) et mise a jour plateforme 
+ 
+ Contenu de la mise a jour : 
+  
+ UNE PETITE REVOLUTION !Mise en place dun nouveau systeme de redondance Multi server* qui permet a ZIBASE detre en connexion permanente et simultanee avec plusieurs serveurs. (en loccurrence actuellement http://zibase.net et http://zibase-club.net : Les flux echanges sont donc doubles et prennent 2 directions geographiques differentes vers deux hebergeurs differents).La gestion precedente des serveurs vis-a-vis de ZIBASE etait de type lun ou lautre, elle devient maintenant lun et lautre. 
+  
+ Il nest plus necessaire de changer manuellement le serveur/plateforme de connexion de votre ZIBASE puisquelle se connecte aux deux serveurs simultanement. 
+  
+ Par contre, lenregistrement sur une plateforme est toujours necessaire (login/password/email). 
+  
+ Pour tester ce systeme: 
+ 1) Depuis votre smartphone/tablette, connectez vous au compte demo/demo sur zibase.net puis zibase-club.net 
+ 2) Mettez a jour votre ZIBASE avec V724. Enregistrez vous sur http://zibase-club.net , puis importer** dans zibase-club.net votre configuration domotique exportee de zibase.net. Connectez vous ensuite depuis votre PC/smartphone/tablette sur lune ou lautre plateforme zibase.net/ zibase-club.net. 
+ * La redondance multi server est reservee aux ZIBASEs avec Licence. 
+ ** la propagation de la configuration domotique entre serveurs sera bientot automatique. 
+  
+  Correction de bugs sur CRITERES (Timer, Comparaison  ) 
+  
+  Gestion de 60 variables: V0V59 avec V15V44 sauvegardees. Attention! Seules les variables V0V31 (comme avant) sont visibles des applications smartphones/tablettes, en consequence V32V59 ne peuvent etre utilisees dans les thermostats. 
+  
+  Gestion du ZXT120 
+  
+  Amelioration dans la gestion denocean (non detaillee, le dongle enocean netant pas encore disponible) 
+ PS: 
+ 1) Un nouveau serveur dedie zibase.net beaucoup plus puissant devrait bientot remplacer lancien qui accuse le poids des annees (2009). A noter que ce dernier na pas demerite une seule fois depuis le 7 juillet 2012 (dernier reboot) Ce qui donne une idee du niveau de fiabilite qui sera obtenu avec des serveurs en redondance. 
+ 2) Notre recette pour une redondance efficace : Sites dhebergement differents, hebergeurs differents, distributions dOS differentes . Cest notre experience (depuis 2009) qui parle pour chacun des items 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

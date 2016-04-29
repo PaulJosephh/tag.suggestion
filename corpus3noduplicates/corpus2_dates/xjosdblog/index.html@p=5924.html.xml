@@ -1,0 +1,44 @@
+<document>
+	<date>2014-10-04</date>
+        <title>Domoticz, contrleur Z-Wave libre et gratuit !</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Aeon Labs</tag>
+                <tag>Vera</tag>
+                <tag>ZWave</tag>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+                <category>Raspberry</category>
+        </categories_set>
+        <text>
+                                                 Presentation 
+ 
+ Domoticz open source Linux Windows Raspberry Pi NAS Synology Zipabox HC2 SynoZWave Blocky Domoticz Z-Wave OpenZWave RFXCom  YouLess Meter Pulse Counters 1-Wire EnOcean 
+Linterface de  Domoticz Domoticz Log Domoticz sur un Raspberry Pi 
+ 
+Le plus simple pour tester  Domoticz Raspberry Pi telecharger limage ou il est preinstalle 
+Il est egalement possible de linstaller sur la distribution en exploitation sur le  Raspberry Pi decrite ici Open-ZWave Domoticz Domoticz avec Aeon Labs Z-Stick Series 2 
+ 
+Lajout de la clef  Aeon Labs S2 Raspberry Pi pi $  tail -f / / / 2 22 39 32 [ 5238.763592 ] 1 1.5 7 2 22 39 32 [ 5238.868318 ] 1 1.5 idVendor idProduct 2 22 39 32 [ 5238.868355 ] 1 1.5 Mfr 1 Product 2 SerialNumber 3 2 22 39 32 [ 5238.868372 ] 1 1.5 2 22 39 32 [ 5238.868386 ] 1 1.5 2 22 39 32 [ 5238.868399 ] 1 1.5 2 22 39 32 [ 5238.875135 ] 1 1.5 1.0 2 22 39 32 [ 5238.876292 ] 1 1.5 Aeon Labs S2 ttyUSB1 Domoticz Setup Hardware Add Aeon Labs S2 Setup HardwareOpenZWave USB Setup Node management Hard reset controller Domoticz en controleur secondaire dune Vera Lite 
+ 
+Possedant deja une  Vera Lite Domoticz Aeon Labs S2 controleur secondaire Z-Wave Vera Lite Domoticz Vera Lite Domoticz Domoticz Vera Lite Datamine Vera Lite 
+ Linclusion de la clef  Aeon Labs S2 Vera Lite 
+ Initier le processus dinclusion de la  Vera Lite + [Autre solution : DEVICES Add Devices Advanced Z-Wave devices Add Recommended: Add the device to remote Veras network, letting Vera be the primary controller Add one] Sur  Domoticz Setup Hardware OpenZWave USB Setup Node management Receive configuration from other controller Mettre fin au processus dinclusion de la  Vera Lite 
+Du cote de la  Vera Lite scene controller Unable to get any information on node Domoticz Z-Wave Description Enable Polling Domoticz 
+Pour information,  lexclusion de la clef  Aeon Labs S2 
+ Initier le processus dexclusion de la  Vera Lite - Sur  Domoticz Setup Hardware OpenZWave USB Setup Node management Receive configuration from other controller Mettre fin au processus dexclusion de la  Vera Lite Domoticz en controleur secondaire: utilisation 
+ 
+Pour quun module soit utilisable, il faut le selectionner dans  Setup Devices fleche verte Setup Hardware OpenZWave USB Setup en aveugle 
+Apres avoir identifie une prise  Wall Plug 
+ La prise est bien pilotable depuis  Domoticz Le temps de reaction entre la commande et son effet sur la prise est tres long, entre quelques secondes et quelques dizaines de seconde (inacceptable, plusieurs utilisateurs font part de ce probleme sur le forum de discussion de  Domoticz Lorsque la prise change detat, son etat change aussi dans linterface de la  Vera Lite Par contre, un changement detat depuis linterface de la  Vera Lite Domoticz Domoticz Conclusion 
+ 
+Jai teste pendant deux journees completes  Domoticz V2.2037 Raspberry Pi Z-Wave Aeon Labs Z-Stick Series 2 Domoticz Vera SynoZWave Domoticz Z-Wave 
+Jai un peu teste  Domoticz Aeon Labs S2 Z-Wave Domoticz Domoticz SynoZWave Vera Lite Domoticz Vera 
+Je ne pense pas que  Domoticz Raspberry Pi Domoticz Imperihome Domoticz Imperihome et Domoticz : Iss-Domo Informations et sources 
+ 
+ Domoticz Domoticz, installation et premiers pas Domoticz, Raspberry Pi et Z-Wave Installing and running Domoticz on a Raspberry PI Running Domoticz as a secondary controller Aeon-Labs Stick S2 en controleur secondaire 
+ Sommaire Domotique 
+        </text>
+</document>

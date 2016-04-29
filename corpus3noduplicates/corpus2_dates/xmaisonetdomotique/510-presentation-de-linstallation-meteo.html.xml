@@ -1,0 +1,96 @@
+<document>
+	<date>2009-08-31</date>
+        <title>
+Prsentation de linstallation mto</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>meteo</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Chauffage</category>
+        </categories_set>
+        <text>Jai plusieurs fois parle des informations meteo utilisees par le systeme domotique, mais je nai jamais vraiment presente linstallation. Jutilise donc une station meteo semi professionnelle, qui peut etre raccordee a un ordinateur, le plus souvent via un port serie ou un port Usb. Cest la condition sine qua non si on veut pouvoir recuperer les informations sur lordinateur. Cest un peu plus cher que les stations meteo generalement utilisees, mais lutilite derriere ne sera pas la meme !  
+ I. Materiel  Personnellement, je suis equipe dune station La Crosse Technology WS2307, que jai pu avoir pour une centaine deuros.   Cette station est fournie avec plusieurs capteurs, dont un capteur de temperature et dhumidite exterieur, une jauge de pluie, et un anemometre (pour la direction et la vitesse du vent). Tres complete, donc, cette station permet de relever ces informations: Temperature Interieure Hygrometrie Interieure Prevision Meteo Pression Atmospherique Temperature Exterieure Hygrometrie Exterieure Point de rosee Vitesse et Direction du vent Windchill (temperature ressentie) Precipitations 
+ II. Installation  Afin de recuperer des donnees fiables, il faut correctement positionner les capteurs. En parcourant le web, on trouve de nombreux avis divergeant sur le sujet, certains preconisant une installation a hauteur dhomme (pour receuillir les informations reellement ressenties par une personne), dautres preferant une hauteur denviron 10m de haut (pour les informations sur la vitesse et la direction du vent). Pour ma part, lanemometre est fixe sur le mat de mon antenne TV, qui doit etre a environ 7-8m de haut.   Cela me permet de recueillir des informations suffisamment fiables, aucun obstacle ne venant perturber le vent quil peut y avoir (pas de voisinage trop pret, ni darbres a cette hauteur). La sonde de temperature / humidite, ainsi que le receuilleur de precipitations, ont ete places a la base du toit:   Ce cote de la maison est la plus grosse partie de la journee a lombre (une sonde exposee au soleil transmettra des informations erronees, car on parle toujours de temperature a lombre), et le recueilleur de precipitations est place a un endroit ou il ne peut pas heriter des precipitations dautres elements (eau qui tombe du toit, des arbres, etc). Le tout reste a une hauteur facilement atteignable pour la maintenance (le recueilleur de pluie devant etre nettoye de temps a autre). Ces capteurs peuvent etre relies entre eux par frequence radio, mais jai opte pour une liaison filaire, cela permettant une transmission des infos plus reguliere, et surtout une alimentation par la station meteo (des piles sont necessaires dans les capteurs si on utilise la transmission radio). Les cables passent simplement dans les combles et redescendent dans le garage jusqua larmoire de brassage, ou se situe la station meteo, reliee au serveur domotique par un cable serie.  
+ III. Logiciel  Jutilisais au debut le logiciel Heavy Weather fourni avec la station meteo. Ce logiciel etait assez lourd en memoire, et tres limite dans ses fonctions. Jutilise maintenant depuis quelques mois  le logiciel Cumulus, que jai presente ici en detail , je ne reviendrai donc pas dessus. Disons simplement que ce logiciel permet de recuperer les informations de la station meteo, et de les communiquer a divers sites web, comme Wunderground. Ce logiciel genere egalement un petit fichier texte, que jutilise pour afficher les informations meteo dans linterface de Homeseer. Pour cela, jutilise un petit script vbs qui est execute toutes les 30 min:  
+[sourcecode language=vb]
+Option Explicit 
+#include ..\lib\framework_domotics.vbs 
+#include local-parameters.inc Sub main Dim astrBuffer 
+Dim tabLines 
+Dim tabValues 
+Dim astrDevices 
+Dim astrConfig 
+Dim atabDv 
+Dim astrNbDv 
+Dim i, l 
+Dim astrDevice 
+Dim astrparam1 
+Dim ligne, section, parametre, valeur WriteLog G_FOLDER_NAME, G_SCRIPT_EVT, G_TIV_INF, "Launching " amp;amp; G_FOLDER_NAME  " script", G_LOG_FILE 
+If CheckDevices(G_FOLDER_NAME, G_FILE_INI, G_STATUS_EXIST) Then 
+astrDevices = hs.GetINISetting("COMMON","DEVICES","", G_FILE_INI) 
+astrConfig = hs.GetINISetting("COMMON","CONFIG","..\scripts\config\", G_FILE_INI) 
+atabDv = Split(astrDevices, G_SEP) 
+astrNbDv = UBound(atabDv) 
+astrBuffer = loadfile("C:\Program Files\Cumulus\realtime.txt",False) REcupEration des infos de la station mEtEo LaCrosse 
+If (astrBuffer  "") Then 
+tabLines = Split(astrbuffer,chr(13)) 
+tabValues = split(tablines(ubound(tabLines)-1),chr(32)) 
+End if Correction des points en virgules 
+i = 0 
+While (i  = ubound(tabvalues)) 
+tabvalues(i) = replace(tabvalues(i), ".",",") 
+i = i+1 
+Wend DEtermination de la saison en cours en fonction de la date du jour 
+if (DateDiff("d", date(), "20/03/" amp;amp;amp; year(date()))  0) then tabValues(0) = "Hiver" 
+if (DateDiff("d", date(), "20/03/" amp;amp;amp; year(date())) = 0) then tabValues(0) = "Printemps" 
+if (DateDiff("d", date(), "21/06/" amp;amp;amp; year(date())) = 0) then tabValues(0) = "EtE" 
+if (DateDiff("d", date(), "22/09/" amp;amp;amp; year(date())) = 0) then tabValues(0) = "Automne" 
+if (DateDiff("d", date(), "21/12/" amp;amp;amp; year(date())) = 0) then tabValues(0) = "Hiver" Affectation des valeurs rEcupErEes aux bons devices 
+i = 0 
+While (i  = CInt(astrNbDv)) 
+astrDevice = hs.GetINISetting("DEVICE", "HC", "", astrConfig  atabDv(i))  _ 
+hs.GetINISetting("DEVICE", "DC", "", astrConfig  atabDv(i)) 
+astrparam1 = hs.GetINISetting("DEVICE", "PARAM1", "", astrConfig  atabDv(i)) 
+If (astrparam1 = "PREVISION") Then 
+setDevice astrDevice, tabValues(1), "", "" 
+ElseIf (astrparam1 = "TENDANCE") Then 
+setDevice astrDevice, tabValues(18), "", "" 
+ElseIf (astrparam1 = "TEMPERATUREINTERIEURE") Then 
+setDevice astrDevice, tabValues(22) amp; "C", "", tabValues(22)*100 
+ElseIf (astrparam1 = "TEMPERATUREEXTERIEURE" and tabValues(2)"") Then 
+setDevice astrDevice, tabValues(2) amp; "C", "", tabValues(2)*100 
+ElseIf (astrparam1 = "HUMIDITEINTERIEURE") Then 
+setDevice astrDevice, tabValues(23) amp; "%", "", tabValues(23)*100 
+ElseIf (astrparam1 = "HUMIDITEEXTERIEURE" and tabValues(6)"") Then 
+setDevice astrDevice, tabValues(3) amp; "%", "", tabValues(3)*100 
+ElseIf (astrparam1 = "VITESSEVENT" and tabValues(5)"") Then 
+setDevice astrDevice, tabValues(5) amp; " km/h", "", tabValues(5)*100 
+ElseIf (astrparam1 = "DIRECTIONVENT" and tabValues(11)"") Then 
+setDevice astrDevice, tabValues(11), "", "" 
+ElseIf (astrparam1 = "PRECIPITATIONJOUR" and tabValues(9)"") Then 
+setDevice astrDevice, tabValues(9) amp; " mm", "", tabValues(9)*100 
+ElseIf (astrparam1 = "PRESSION") Then 
+setDevice astrDevice, tabValues(10) amp; " hpa", "", tabValues(10)*100 
+ElseIf (astrparam1 = "PRECIPITATIONHEURE" and tabValues(47)"") Then 
+setDevice astrDevice, tabValues(47) amp; " mm", "", tabValues(47)*100 
+ElseIf (astrparam1 = "TEMPERATURERESSENTIE" and tabValues(24)"") Then 
+setDevice astrDevice, tabValues(24) amp; "C", "", tabValues(24)*100 
+ElseIf (astrparam1 = "POINTDEROSEE" and tabValues(4)"") Then 
+setDevice astrDevice, tabValues(4) amp; "C", "", tabValues(4)*100 
+ElseIf (astrparam1 = "SAISON") Then 
+setDevice astrDevice, tabValues(0), "", "" 
+Else 
+WriteLog G_FOLDER_NAME, G_SCRIPT_EVT, G_TIV_INF, "PARAM1 is unknown for " amp; astrDevice, G_LOG_FILE 
+End if 
+i = i+1 
+Wend 
+Else 
+WriteLog G_FOLDER_NAME, G_SCRIPT_EVT, G_TIV_SEV, "Expected Device is unknown !", G_LOG_FILE 
+End if 
+WriteLog G_FOLDER_NAME, G_SCRIPT_EVT, G_TIV_INF, "End of the script", G_LOG_FILE End sub 
+[/sourcecode] Vous trouverez dans le  zip ci joint le module complet , car celui ci fonctionne avec le  framework de domotic , tres pratique pour developper de nouveaux modules dans Homeseer a laide de quelques scripts. Ce script permet dafficher cela dans Homeseer: Les informations meteo etant maintenant dans Homeseer, il est tres facile de les faire lire par le systeme: [sourcecode language=vb]hs.Speak "Il fait actuellement " hs.DeviceValue("W26")/100 " degres dehors, avec un taux dhumidite de " hs.DeviceValue("W27")/100 " pour cent. La temperature dans la maison est de " hs.DeviceValue("^8")/10 " degres"[/sourcecode] ou encore de les afficher sur lecran tactile via HSTouch: Enfin, il est bien sur possible dutiliser ces informations pour faire reagir le systeme, chose quil me reste a configurer chez moi. Par exemple, si vitesse du vent  40 km/h, alors fermeture du store banne de la terrasse. Ou encore sil pleut, fermeture automatique des volets. Etc 
+ IV. Previsions meteo  Pour les previsions, je nai rien invente, Domotic avait deja developpe un petit module qui se charge de recuperer la meteo sur le site Yahoo.  Vous le trouverez ici . Une fois installe, cela permet davoir ces informations dans Homeseer: Des informations un peu plus succintes, mais qui peuvent par exemple permettre de gerer larrosage automatique du jardin: si de la pluie est annoncee pour J+1, alors on narrose pas aujourdhui. 
+ V. Conclusion  Vous laurez compris, pour un budget relativement leger, il est possible de recuperer des informations meteo qui peuvent etre tres utiles au systeme domotique. Pour ma part, la recuperation dinformations fonctionne parfaitement chez moi, il ne me reste plus qua les utiliser. Quand jaurai assez de moyens pour acheter le store banne electrique, automatiser les volets, et mettre en place larrosage automatique :D   meteo 
+        </text>
+</document>

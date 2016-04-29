@@ -1,0 +1,163 @@
+<document>
+	<date>2013-03-30</date>
+        <title>TEST Home Control 2 de MyFOX : installation et connection</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>DI-O</tag>
+                <tag>Home Control 2</tag>
+                <tag>MyFOX</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Alarme</category>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ Comme tous les autres systemes domotiques, MyFOX permet de surveiller son domicile a laide de capteurs, de detecteurs et de cameras de surveillance, mais aussi den prendre le controle a distance et delaborer des scenarios domotiques.Elle communique avec lensemble des elements de votre systeme par liaison radio cryptee. Cette box utilise la gamme de  module DI-0 , mais vous pouvez trouver sur le site de  MyFOX , un ensemble de produits disponibles. 
+ 
+ Deballage : 
+ Vous avez le choix de plusieurs solutions : 
+ 
+ je suis en train de tester le pack Securite, le prix de ce pack est a 599 . A ce prix la vous avez : 
+  
+ 
+ 1 centrale MyFOX HC2 
+ 1 capteur anti-effraction TAG brevete 
+ 1 detecteur de mouvement 
+ 1 sirene interieurerelais radio110 dB 
+ 1 telecommande 4 boutons 
+ 
+ mais rien ne vous empeche dacheter uniquement la box qui ne vaut que 229.00  et vous equiper par la suite. 
+ 
+ 
+ On ouvre le carton et la surprise une nouvelle boite ainsi que les modules inscritsprecedemment. MyFox affiche clairement ses intentions avec de la qualite au niveau de la presentation des modules, lorganisation et le soin apportes aux emballages. 
+ 
+ on voit le module de detection de mouvement sur la photo ci-dessus 
+ Le module detection de mouvement enleve, on decouvre les 4 piles, le capteur anti effraction TAG. Dans la feutrine, en guise de protection, on trouve la sirene interieur. Un bon point pour la protection du materiel 
+ 
+ En deballant, on retrouve la sirene, les piles, le detecteur TAG, et la telecommande et le detecteur de mouvement ainsi que les cordons dalimentation. 
+ 
+ Reste a decouvrir ce que contient lautre carton 
+ 
+ Quand on ouvre le carton, on trouve en tout premier lieu un fascicule vous guidant pour installer la box, la box, un cable USB et des autocollants site protege par alarme et videosurveillance. 
+ 
+ 
+ Quand on regarde la box, on voit tres vite quil n y a aucun bouton mais seulement une LED bleue dans le coin avant gauche. Vous remarquerez quelle a aussi une taille relativement important en comparaison des autres box dont leedomus et la Zipabox. 
+ 
+ caracteristiques techniques 
+ 
+ 
+ 
+ 
+ 
+ 
+ Type de boitier 
+ Centrale en ABS blanc, couvercle noir. Diode detat. 
+ 
+ 
+ Dimensions 
+ L 220 mm x l 170 mm x h 80 mm 
+ 
+ 
+ Capacite memoire 
+ La centrale gere jusqua 4 cameras, 150 accessoires de securite (capteurs TAG, detecteurs de mouvement et de fumee, relais sirenes et telecommandes) et 32 groupes daccessoires domotiques DI-O 
+ 
+ 
+ Type dalimentation 
+ 5 V par transformateur 220 V / 5 V, 50-60 Hz 
+ 
+ 
+ Batterie 
+ Lithium 3.7V / 1100 mA auto rechargeable. Autonomie superieure a 3 heures en cas de panne secteur 
+ 
+ 
+ Sirene 
+ Signalisation sonore integree a la centrale (75 dB) et sirenes additionnelles possible interieure (110 dB) et exterieure (104 dB) 
+ 
+ 
+ Module radio 
+ 433 et 868 MHz. Fonction detection de brouillage 
+ 
+ 
+ Divers 
+ Garantie 5 ans (sous reserve du retour du bon dextension de garantie) 
+ 
+ 
+ 
+ Retournons la box : 
+ 
+ La box dispose de trois emplacements permettant daccueillir des extensions supplementaires, on y voit le connecteur ADSL, ainsi que le connecteur dalimentation. Vous pourrez poser cette box sur un meuble ou bien la fixer a un murgrace aux emplacements prevus a cet effet. 
+ Je vous parlais demplacement pour de futures extensions, on pourra mettre desClefs optionnelles prochainement disponibles afin de faire evoluer la centrale vers de nouvelles technologies (GSM/GPRS,  EnOcean ,). Cette box est donc tres evolutive. 
+ Merci a Alban pour menvoyer un pack Securite, nous allons voir ce quil contient. 
+  
+ Pack MyFOX HC2 Securite 
+ Dans ce pack jai donc recu : 
+  la centrale que nous venons de decouvrir. 
+  une telecommande 4 boutons 
+  
+ 
+  1 capteur anti-effraction TAG brevete 
+ 
+  
+ 1 detecteur de mouvement 
+ 
+  
+  
+ 1 sirene interieurerelais radio110 dB 
+ 
+  
+  
+ Installation 
+ My Fox sinstalle rapidement, et cest vraiment tel que cest marque sur lemballage (tout se fait pas a pas sur le site https://myfox.me/ ) 
+ 
+  
+ Il suffit de creer son compte sur le site de My Fox en indiquant les numeros inscrits sous la centrale 
+ 
+  
+ Il faut maintenant raccorder la centrale 
+ 
+  
+ Une fois la centrale raccordee, celle ci va se connecter a internet et verifier si des mises a jours sont disponibles 
+ 
+  
+ 
+  
+ Les mises a jours telechargees et installees, vous aurez un message vous signalant que votre box est prete et que vous pouvez acceder au Tableau de bord. 
+ 
+  
+ Nous allons acceder au tableau de bord. 
+ 
+ 
+ Nous verrons la presentation du tableau de bord et lenregistrement de nouveaux peripheriques dans le prochain article. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

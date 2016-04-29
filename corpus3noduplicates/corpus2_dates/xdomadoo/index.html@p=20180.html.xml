@@ -1,0 +1,20 @@
+<document>
+	<date>2009-12-15</date>
+        <title>Guide dutilisation de ActiveHome Pro : Pices et Modules</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels Active Home</category>
+        </categories_set>
+        <text>
+                                                         Ce guide va vous aider a utiliser  ActiveHome Pro 1. Creation dune Piece Une piece peut-etre par exemple une chambre, un bureau ou un ensemble de pieces. De base, dans  ActiveHome Pro 
+ Cliquez sur + pour creer une nouvelle piece. 
+ Donnez un nom a cette piece, par exemple Salon. La piece est alors creee. Il faut maintenant ajouter les modules existants physiquement dans cette piece. Il existe differents types de modules classes par categories :  
+ En cliquant sur une des categories, la liste la liste des modules y appartenant apparait en bas de lecran. 
+ Pour ajouter un module dans la piece, il suffit de faire un clic gauche sur le module souhaite, par exemple un LM12, et de maintenir le clic tout en le faisant glisser dans la zone de la piece souhaitee juste au dessus. Reglez ensuite ladresse du module en adequation avec son adresse physique parametree que vous avez parametree sur le module avec les selecteurs rotatifs (par exemple ladresse C1). Il est egalement possible de changer le nom du module situe en haut (LM12) en cliquant dessus pour faire apparaitre le curseur. Les 3 petites icones situees en bas correspondent de gauche a droite :
+ Commentaire, pour commenter ou annoter le module Suivi dactivite, pour voir lactivite du module  Timer, pour programmer lallumage ou lextinction du module Le module LM12 peut maintenant etre pilote a distance via  ActiveHome Pro USB 
+ Un guide pour la creation des Timers et des Macros est egalement disponible  ici    Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

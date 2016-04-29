@@ -1,0 +1,17 @@
+<document>
+	<date>2007-12-15</date>
+        <title>Dual boot Windows NT/2k/XP et Linux</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Generalitees</category>
+        </categories_set>
+        <text>
+                                                 
+Lobjectif est de conserver le menu de demarrage de  Windows Windows NT 2k XP Linux Linux Windows Windows BootPart 
+ 
+Installez Linux sur une partition libre de votre disque dur (personnellement, je fais trois partitions : 2Go de  swap /boot / vous devez specifier une partition Linux comme support de boot /boot Master Boot Record Restaurer le menu de demarrage de Windows ecrase par grub Windows 
+A laide de  BootPart BOOTPART xx c:bootsect.lin Linux  xx Linux BootPart 
+        </text>
+</document>

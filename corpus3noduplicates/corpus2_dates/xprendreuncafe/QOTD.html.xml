@@ -1,0 +1,29 @@
+<document>
+	<date>2008-05-04</date>
+        <title>QOTD</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>architecture</tag>
+                <tag>bestpractices</tag>
+                <tag>framework</tag>
+                <tag>quote</tag>
+                <tag>scale</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Une belle quote comme ca, je me la note dans un coin pour la ressortir la prochaine fois qu'on trolle sur les performances du  framework X  ou du  langage Y : 
+
+
+ Languages, libraries and frameworks don't scale. Architectures do. 
+
+
+ En francais approchant: 
+
+
+ Les langages de programmation, les librairies et les frameworks ne tiennent pas la charge. Les architectures, si. 
+
+
+ ( via , apparement attribuable a  Cal Henderson ) 
+        </text>
+</document>

@@ -1,0 +1,25 @@
+<document>
+	<date>2008-05-01</date>
+        <title>Note de service</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>dotclear</tag>
+                <tag>prendreuncafe</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>A l'occasion de la  sortie de Dotclear 2 RC1 , j'ai mis a jour le blog et en ai profite pour ajouter quelques petites choses qui me trottaient dans la tete depuis quelques temps: 
+
+ 
+ Un  colophon , sorte  d'a-propos du site , base sur la nouvelle gestion de pages autonomes, 
+ Le depot d'un commentaire ne necessite desormais plus la saisie d'une adresse email (sauf si vous desirez voir apparaitre votre gravatar), grace au plugin  emailOptionnel , 
+ La notification des commentaires par messagerie instantannee Jabber, via le plugin  jabberNotifications  (mais ca ne concerne que moi), 
+ J'ai failli utiliser le theme personnalisable fourni en standard, vraiment tres reussi [ 1 ] . 
+ 
+
+ Cette version de Dotclear est un vrai bonheur a l'utilisation (et en plus c'est vraiment bien code), felicitations a toute l'equipe. 
+ Notes 
+ [ 1 ] Mais je me suis trop habitue a mon theme perso, a tort certainement... 
+        </text>
+</document>

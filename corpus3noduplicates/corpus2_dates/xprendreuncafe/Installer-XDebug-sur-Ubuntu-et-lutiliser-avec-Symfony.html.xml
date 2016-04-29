@@ -1,0 +1,45 @@
+<document>
+	<date>2006-11-29</date>
+        <title>Installer XDebug sur Ubuntu et l'utiliser avec Symfony</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>bug</tag>
+                <tag>linux</tag>
+                <tag>pecl</tag>
+                <tag>php</tag>
+                <tag>symfony</tag>
+                <tag>tests</tag>
+                <tag>ubuntu</tag>
+                <tag>xdebug</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>Si comme moi vous developpez beaucoup avec  Symfony   [ 1 ]  (ou avec PHP en general), les informations fournies par  XDebug  peuvent etre tres utiles. Pour installer  XDebug 2.0RC1  sur une  Ubuntu Edgy , voici la demarche a suivre: 
+
+
+ $ sudo apt-get install php-pear php5-dev
+$ sudo pecl install xdebug-beta 
+
+
+ C'est dur hein? Bon, il reste une petite manipulation: il faut activer l'extension dans votre (ou vos) fichier(s)  php.ini . Par exemple chez moi, je rajoute cette ligne a la toute fin du fichier: 
+
+
+ zend_extension="/usr/lib/php5/20051025/xdebug.so" 
+
+
+ Et je relance Apache. Pour ceux qui connaissent la barre de debug en ligne de Symfony, vous allez voir du changement ( avant  /  apres ) 
+
+
+ Evidemment les perfs en prennent un coup, mais le jeu en vaut la chandelle quand on cherche le vilain dysfonctionnement volatile. 
+
+
+ Merci XDebug, merci Symfony! 
+
+
+ Edit :  Ajout du paquet  php_pear  contenant  pecl , merci Mat. 
+ Notes 
+ [ 1 ] Qui vient tout juste de  sortir en 1.0 beta 1  ! 
+        </text>
+</document>

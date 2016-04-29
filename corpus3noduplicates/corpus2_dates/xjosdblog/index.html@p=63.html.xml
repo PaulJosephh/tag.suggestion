@@ -1,0 +1,20 @@
+<document>
+	<date>2008-02-04</date>
+        <title>Configurer un moniteur LCD 22 pouces large (16:10) sous Ubuntu gutsy</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Galeres</category>
+                <category>Generalitees</category>
+                <category>Systeme</category>
+        </categories_set>
+        <text>
+                                                Pour configurer un moniteur large (16:10) sous Ubuntu gutsy, il faut proceder de la maniere suivante.
+ 
+ 
+Aller dans :  Systeme  Administration  Ecran et Affichage 
+Choisissez votre modele, par exemple  Generique  LCD Panel 1680 x 1050 
+ Cocher la case  Ecran large LCD Panel 1680 x 1050 Ecran large 
+        </text>
+</document>

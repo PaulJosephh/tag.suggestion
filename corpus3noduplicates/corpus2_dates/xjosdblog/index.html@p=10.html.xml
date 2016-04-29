@@ -1,0 +1,24 @@
+<document>
+	<date>2011-11-23</date>
+        <title>UIMA : La chane de traitement (Collection Processing Engine)</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Analysis engine</tag>
+        </tags_set>
+        <categories_set>
+                <category>UIMA</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+ 
+Une chaine de traitement UIMA comporte trois types delements : 
+ 
+Le  Collection Reader CAS 
+Les  Analysis Engines (AE) CAS CAS CAS Consumer Analysis Engine CAS 
+Le  Workflow  Controller Analysis Engines Workflow Controller 
+ le  CPM Collection Processing Manager Vinci Services et le tout nouveau  AS Asynchronous Scaleout Collection Processing Engine Configurator Workflow Controller CPM FixedFlow Collection Reader Analysis Engine CAS Consumer Collection Processing Engine 
+ 
+ Collection Processing Engine Apache UIMA par la pratique Sommaire UIMA sur ce blog 
+        </text>
+</document>

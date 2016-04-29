@@ -1,0 +1,39 @@
+<document>
+	<date>2015-01-06</date>
+        <title>[TAS] Vous connaissiez Twitch Plays Pok&#233;mon ? D&#233;couvrez maintenant Pok&#233;mon Plays Twitch</title>
+        <author>Kocobe</author>
+        <tags_set>
+                <tag>AGDQ</tag>
+                <tag>Insolite</tag>
+                <tag>Oldies</tag>
+                <tag>TAS</tag>
+                <tag>vid&#233;o</tag>
+        </tags_set>
+        <categories_set>
+                <category>Oldies</category>
+        </categories_set>
+        <text>
+                                                                                                 
+         
+                 Apr&#232;s l&#8217;impressionnant  Mario-ception d&#8217;hier , il est temps de vous parler de Pok&#233;mon Plays Twitch. 
+ 
+ 
+ more 
+ Il n&#8217;y a pas &#224; dire, le bloc TAS de l&#8217; AGDQ  d&#8217;avant-hier pr&#233;sent&#233; par  MasterJun  &#233;tait vraiment impressionnant. Je ne vais pas m&#8217;encombrer &#224; vous r&#233;expliquer le pourquoi du comment puisque je l&#8217;ai d&#233;j&#224; fait hier. Je vous invite donc &#224; aller lire mon papier sur  le &#171; total control &#187; de Super Mario World  avant de continuer avec celui-ci. 
+ Et c&#8217;&#233;tait au tour de  Pok&#233;mon version Rouge  de subir un &#171; total control &#187;. Il s&#8217;agissait ici d&#8217;une Super NES classique, &#233;quip&#233;e du Super Game Boy (le lecteur cartouche officiel pour lire les jeux Game Boy sur Super NES) dans lequel &#233;tait ins&#233;r&#233;e la cartouche de  Pok&#233;mon version Rouge . Branch&#233; sur la console,  TASBot , bien &#233;videmment. Je vous laisse regarder ce qu&#8217;il s&#8217;est produit. 
+ [La &#171; run &#187; commence &#224; 1&#8217;36&#8217;&#8217;.] 
+ 
+ Wow. Que s&#8217;est-il encore pass&#233; ? Eh bien, comme sur la run de  Super Mario World ,  TASBot  a pris le contr&#244;le total du jeu puis l&#8217;a r&#233;arrang&#233; pour en faire ce qu&#8217;il voulait. Dans le cas pr&#233;sent, il a permis de transformer  Pok&#233;mon Rouge  en une version op&#233;rationnelle du chat de Twitch.  
+ D&#8217;abord, il faut savoir que  TASBot  n&#8217;a aucun moyen d&#8217;ins&#233;rer des inputs naturellement dans une Game Boy. Le seul moyen de le faire &#171; entrer &#187; aurait &#233;t&#233; de le connecter directement sur la PCB de la console portable, ce qui est moins impressionnant que de simplement le brancher &#224; un port manette. La solution a donc &#233;t&#233; de passer par le Super Game Boy, m&#234;me si ce dernier a apport&#233; son lot de difficult&#233;s (frames ajout&#233;es arbitrairement par le p&#233;riph&#233;rique, s&#233;curit&#233;s emp&#234;chant d&#8217;effectuer des commandes comme haut + bas ou gauche + droite et qui sont n&#233;cessaires pour prendre le contr&#244;le sur le jeu). 
+ Quoi qu&#8217;il en soit,  TASbot  devait dans un premier temps prendre le contr&#244;le du jeu. Pour cela, il faut d&#233;clencher un glitch via une sauvegarde corrompue. En &#233;teignant la console pile au bon moment durant le processus de sauvegarde (ce qui est extr&#234;mement facile &#224; faire en &#233;mulation, mais tr&#232;s compliqu&#233; en vrai), le jeu va cr&#233;er un fichier qui permettra, une fois relanc&#233;, de d&#233;placer des Pok&#233;mon imaginaires et des objets qui n&#8217;existent pas dans les menus (&#224; ce moment-l&#224; de la partie, le joueur est cens&#233; ne poss&#233;der aucun Pok&#233;mon et aucun objet). En r&#233;alit&#233;, en faisant cela,  TASBot  d&#233;place des bouts de m&#233;moire dans la RAM du jeu et commence &#224; en prendre le contr&#244;le. Il s&#8217;agit de la porte d&#8217;entr&#233;e classique pour un &#171; total control &#187;. Vous pouvez en voir d&#8217;autres,  comme ici  o&#249; un TASseur faisait danser des symboles &#960; &#224; l&#8217;&#233;cran, ou bien l&#224;, quand un autre TASseur a fait jouer au jeu le th&#232;me principal du dessin anim&#233;  My Little Pony . 
+ 
+ Une fois le contr&#244;le du jeu pris,  TASbot  devait prendre le contr&#244;le du Super Game Boy pour pouvoir afficher ce qu&#8217;il voulait sur la totalit&#233; de l&#8217;&#233;cran, mais surtout pour pouvoir prendre le contr&#244;le sur la RAM de la console elle-m&#234;me. &#192; partir de l&#224; et &#224; grands coups de r&#233;arrangement de la m&#233;moire, les TASseurs n&#8217;avaient plus qu&#8217;&#224; coder un affichage pour que les commentaires du chat de Twitch apparaissent &#224; l&#8217;&#233;cran.  
+ Vous devez alors vous demander comment ils ont pu proc&#233;der pour faire en sorte que les commentaires soient mis &#224; jour en direct. Apr&#232;s tout, la Super NES ne poss&#232;de aucun moyen de se connecter &#224; internet. En r&#233;alit&#233;, la r&#233;ponse est tr&#232;s simple :  TASbot . Le petit robot, agissait comme un greffier ultra rapide et retranscrivait tout le chat en direct, par des inputs manette envoy&#233;s &#224; la console.  TASbot  est en effet reli&#233; &#224; un MacBook et ce dernier est connect&#233; &#224; internet. La console et le jeu ne servent plus alors qu&#8217;&#224; afficher les inputs. Et la magie op&#232;re.  Pok&#233;mon Plays Twitch . La foule est en d&#233;lire. 
+ Voil&#224; pour la Super NES qui faisait marcher un chat Twitch devant de milliers de personnes. Int&#233;ressez-vous au TAS les amis, c&#8217;est vraiment une chouette mani&#232;re d&#8217;aborder le speedrun, le powerplay ou le jeu vid&#233;o de mani&#232;re plus g&#233;n&#233;rale. 
+ &amp;gt; Avec l&#8217;aide d&#8217; Ars Technica  qui m&#8217;a aid&#233; &#224; y voir plus clair. 
+         
+ 
+                                                                                                         
+                                                                                                                                                                                                 
+        </text>
+</document>

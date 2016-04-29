@@ -1,0 +1,20 @@
+<document>
+	<date>2014-01-16</date>
+        <title>#CES2014 : Almond+, un projet  mi-chemin entre le routeur et la box de domotique</title>
+        <author> David G. </author>
+        <tags_set>
+                <tag>almond+</tag>
+                <tag>CES</tag>
+                <tag>CES2014</tag>
+                <tag>securifi</tag>
+                <tag>z-wave</tag>
+                <tag>zigbee</tag>
+        </tags_set>
+        <categories_set>
+                <category>CES 2014</category>
+        </categories_set>
+        <text>
+                                                         Almond+ est un projet issu de KickStarter. Nous avons eu loccasion de le voir dans sa derniere version au CES. Securifi Wi-Fi ZigBee Z-Wave Cette campagne KickStarter a ete un grand succes Almond+ est base sur une meilleure machine et un boitier plus grand quAlmond (sans le +). Il tourne toujours sous le firmware OpenWRT. Il offre des fonctions reseaux et switch  Ethernet Mais Almond+, cest lintegration de la  domotique domotique A ce jour, on a un Almond+ par grandes regions : Europe, Australie et USA. Cette difference vient du fait que la puce  Z-Wave Z-Wave Il suffit dutiliser le crayon tactile pour naviguer rapidement dans les pages de cette box  domotique Z-Wave Puis on repasse en inclusion, on appuie 3 fois sur le module et on lassocie a Almond+. Linterface graphique permet de saisir le nom du peripherique. Pas besoin de PC ou de telephone pour ces etapes de configuration. Dans lexemple ci-dessus, on a inclus une prise avec calcul de la consommation de courant. Dans la photo suivante, on voit quautomatiquement, Almond+ sait recuperer la consommation. Pour linstant la donnee est juste affichee, mais dans lavenir,  Securifi On peut deja inclure plusieurs peripheriques avec la version actuelle. Securifi Z-Wave Alliance Du cote des interfaces mobiles, a ce jour, seulement la version iOS fonctionne. Les autres (Android et Windows Phone) nexistent pas encore mais sont dans la liste des versions a developper. Il existe tout de meme une interface  HTML5 Sur la photo ci-dessous, on voit bien linterface HTML qui est utilisee sur un telephone HTC (donc un Android). A lheure actuelle, on peut creer des peripheriques et les commander. Les scenes sont developpees mais ne fonctionnent pas encore. Ils ont du debogage a faire avant de distribuer ces produits. Nous avons aussi eu loccasion de voir la version pour iPhone. Pour finir, Securifi Philips Hue Insteon OSRAM Zigbee Almond+ utilise pour linstant un cloud et ne peut fonctionner quavec son cloud. Le concepteur que jai rencontre au CES me dit quil a eu plein de remarques a ce sujet et quil planifie une nouvelle version dAlmond+ qui ne dependrait plus dun cloud. A sa sortie, il ny aura pas dAPI, mais Almond+ proposera un  SDK Je naccroche pas a cette box car je trouve que lecran est trop petit. Securifi Securifi   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,40 @@
+<document>
+	<date>2011-09-20</date>
+        <title>Android avec CyanogenMod sur la HP TouchPad : &#231;a avance !</title>
+        <author>Roxarmy</author>
+        <tags_set>
+                <tag>android</tag>
+                <tag>CyanogenMod</tag>
+                <tag>HP</tag>
+                <tag>TouchPad</tag>
+                <tag>webOs</tag>
+        </tags_set>
+        <categories_set>
+                <category>actu</category>
+                <category>Android</category>
+                <category>High-tech</category>
+        </categories_set>
+        <text>
+                                                 La TouchPad d&#8217;HP, une grande histoire qui marquera &#224; jamais les annales des ardoises  (alias tablette en France)  pour avoir cr&#233;&#233; un v&#233;ritable buzz gr&#226;ce &#224; sa baisse de prix ph&#233;nom&#233;nale qui a cr&#233;&#233;  un&#160;v&#233;ritable&#160;culte du TouchPad &#224; 99&#8364; !  Malheureusement, une bonne nouvelle n&#8217;arrive jamais seule, avec cette grande braderie, webOS prend un v&#233;ritable coup qui annonce sa mort. Qui dit abandon d&#8217;OS, dit licenciement. En effet, HP pr&#233;voit de licencier&#160;plus de 500 postes qui &#233;taient autour du d&#233;veloppement de webOS. Mais bon, &#231;a c&#8217;est une autre histoire&#8230; 
+ 
+ Bref, nous sommes ici pour parler de choses un peu plus joyeuse ! Les rares chanceux qui ont pu se procurer une petite TouchPad (dont j&#8217;en fait un peu parti :p) attendent une chose : le portage d&#8217;Android.  Attention, webOS est un tr&#232;s, tr&#232;s bon OS !  Mais malheureusement  bien vide niveau applications  disponible ce qui rend la tablette un peu &#8230; vide. Le portage d&#8217;Android aura pour but : d&#8217;une&#160;d&#8217;utiliser&#160;un bon OS et surtout de profiter de tr&#232;s bon  catalogue bien fourni d&#8217;Android  ! 
+ 
+ CyanogenMod c&#8217;est port&#233; volontaire pour r&#233;aliser ce portage  et c&#8217;est une bonne chose  ! La CyanogenMod est une rom des plus connus du monde d&#8217;Android, elle est support&#233; sur la plupart des grands t&#233;l&#233;phones et apporte fluidit&#233;, rapidit&#233; et surtout mises &#224; jours constantes  l&#224; o&#249; les&#160;constructeurs&#160;abandonnent leurs t&#233;l&#233;phones . Le portage a commenc&#233; il y a quelques semaines et force de dire que cela avance &#224; grand pas ! 
+ De nombreuses fonctionnalit&#233;s ont d&#233;j&#224; &#233;t&#233; implant&#233; au fur et &#224; mesure dont : 
+ 
+ Le Wi-Fi 
+ L&#8217;acc&#233;l&#233;ration mat&#233;rielle 
+ L&#8217;acc&#233;l&#233;rom&#232;tre 
+ Le TouchScreen multipoints (10) 
+ L&#8217;aAndroid Market 
+ L&#8217;Audio 
+ L&#8217;Acc&#233;l&#233;ration vid&#233;o 
+ 
+ 
+ Mais attention,  il reste encore pas mal de chose &#224; impl&#233;menter  comme l&#8217;utilisation du deuxi&#232;me coeur du CPU, la boussole, la cam&#233;ra, le bluetooth, l&#8217;optimisation, etc.. Mais bon, comme vous pouvez le voir sur cette seconde vid&#233;o, les jeux tournent vraiment bien  (notamment le gourmand Dungeon Defenders). 
+ 
+ Autre bonne nouvelle : CyanogenMod a bien pr&#233;cis&#233; que  le dual boot avec webOS serai de parti.  Aucune date de sortie n&#8217;est annonc&#233;, m&#234;me si les rumeurs parlent  d&#8217;une version alpha pour le mois d&#8217;octobre.  Pour plus d&#8217;info, suivez l&#8217;avancez &#224;  cette adresse . 
+ Quoi qu&#8217;il en soit, je vous tiendrai au courant des avanc&#233;s du projet  (que j&#8217;attends de pied ferme) . Et j&#8217;essayerai de vous faire une vid&#233;o de pr&#233;sentation de webOS afin de vous donner une id&#233;e de cet OS. 
+                                                                                         
+        </text>
+</document>

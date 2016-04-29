@@ -1,0 +1,69 @@
+<document>
+	<date>2013-01-18</date>
+        <title>De l'impossibilit&#233; de masquer son profil Facebook de son moteur de recherche, et bonus pour le week-end</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Protection des donn&#233;es</tag>
+        </tags_set>
+        <categories_set>
+                <category>Technologies</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Facebook a officialis&#233; son  moteur de recherche Graph  et a, par cette m&#234;me occasion, inform&#233; sur le  retrait futur de l'option permettant aux utilisateurs de ne pas apparaitre dans les r&#233;sultats de recherche du r&#233;seau social . Cela permettra au site et aux utilisateurs d'obtenir des r&#233;sultats de recherche plus complets, plus compr&#233;hensibles, voire plus pr&#233;cis&#160;; ce syst&#232;me pourrait violer la vie priv&#233;e des personnes qui utilisaient (et utilisent encore) cette fonction. 
+ A l'origine, cette fonction permettait aux utilisateurs de ne pas permettre aux personnes avec lesquelles ils n'&#233;taient pas "amis" de trouver leur profil Facebook au moyen du champ de recherche. Afin que Graph soit performant, il faut que les profils et leur contenu lui soient totalement accessibles afin d'en rassembler les informations (les pages que vous aimez, les endroits o&#249; vous avez &#233;t&#233;, les langues que vous parlez, votre &#226;ge, etc.). Facebook justifie la suppression de cette fonction notamment par le fait qu'un faible pourcentage d'utilisateurs l'ont activ&#233;e. Pourtant, 1% sur le milliard d'utilisateurs repr&#233;sente 10 millions de personnes, ce qui constitue un chiffre tout de m&#234;me important. 
+ Il faut donc se faire &#224; l'id&#233;e que m&#234;me  les informations datant de plusieurs mois ou ann&#233;es vont ressurgir de votre profil  gr&#226;ce &#224; ce moteur de recherche et qu' il sera impossible d'utiliser Facebook en &#233;tant "cach&#233;" . Il est temps de faire le m&#233;nage. Le plus simple, mais aussi le plus radical &#8211; ce que j'ai fait &#8211; est de supprimer totalement votre compte Facebook pour quelques semaines, puis d'en cr&#233;er un nouveau en utilisant une autre adresse e-mail que celle du profil pr&#233;c&#233;dent. Un bon moyen de faire table rase du pass&#233; (pour autant qu'on admette que cela puisse se faire sur Internet). 
+ 
+ Quelques changements &#224; faire dans vos param&#232;tres avant d'utiliser Graph  1 
+ Tout d'abord, vous voulez peut-&#234;tre &#233;viter que votre profil apparaisse dans les r&#233;sultats de recherche quand un(e) amie(e) de vos amis tape "homme/femme c&#233;libataire habitant Lausanne et aimant la numismatique". Pour cela, limitez les personnes pouvant faire des recherches sur vous en n'autorisant que vos amis &#224; le faire.  Cliquez sur ce lien  et s&#233;lectionnez "Amis" dans la liste d&#233;roulante, comme sur l'image. 
+ 
+ Ensuite, consultez votre "historique personnel" et v&#233;rifiez les lieux dans lesquels vous &#234;tes all&#233;s, les photos dans lesquelles vous &#234;tes identifi&#233;(e), les pages et statuts que vous aimez, etc. &#192; c&#244;t&#233; de vos publications, limitez la visibilit&#233; &#224; vos amis (comme sur l'image ci-dessous) voire retirez votre identification des photos de vos amis qui sont publiques ou en acc&#232;s &#224; un cercle trop &#233;tendu de personnes. Vous pouvez aussi signaler une photo ind&#233;sirable et demander son retrait. 
+
+                 
+                        #gallery-2 {
+                                margin: auto;
+                        }
+                        #gallery-2 .gallery-item {
+                                float: left;
+                                margin-top: 10px;
+                                text-align: center;
+                                width: 50%;
+                        }
+                        #gallery-2 img {
+                                border: 2px solid #cfcfcf;
+                        }
+                        #gallery-2 .gallery-caption {
+                                margin-left: 0;
+                        }
+                        /* see gallery_shortcode() in wp-includes/media.php */
+                 
+                 
+                         
+                                 
+                         
+                         
+                                 
+                         
+                         
+                                 
+                         
+                         
+                                 
+                         
+                 
+
+ Enfin, si vous avez bien r&#233;gl&#233; la visibilit&#233; de vos futures publications sur "amis", il est probable que vos anciennes publications soient encore publiques ou accessibles plus largement. Pour ce faire,  cliquez sur ce lien  et ensuite sur "Limiter l&#8217;audience des anciennes publications". 
+ 
+ Quelques comportements &#224; adopter pour garder un semblant de vie priv&#233;e  2 
+ Premi&#232;rement, n'aimez pas tout et n'importe quoi. Imaginons que vous aimiez la page de Nestl&#233;. D&#232;s le moment o&#249; vous cliquez sur "J'aime", Nestl&#233; a votre autorisation pour afficher sur les pages Facebook de vos amis sa publicit&#233; avec la mention que vous aimez cette soci&#233;t&#233;. Si cela ne vous plait pas,  cliquez sur ce lien  puis "associez vos actions sociales avec les publicit&#233;s pour personne". 
+ 
+ Deuxi&#232;mement, afin d'&#233;viter que vos amis publient des photos ou statuts o&#249; vous &#234;tes identifi&#233;s, il faut savoir que les options sont limit&#233;es. Le mieux &#233;tant de demander &#224; vos amis de ne pas vous identifier. Il existe cependant deux choses pour passer outre un refus. Tout d'abord, retirez l'identification. Ensuite, configurez Facebook pour qu'il ne fasse pas apparaitre automatiquement ces identifications sur votre profil, mais pour qu'il vous demande d'approuver la mention sur votre profil. Pour ce faire,  allez sur cette page  et activez les options "Examiner les publications dans lesquelles vos amis vous identifient avant qu&#8217;elles n&#8217;apparaissent sur votre journal" et "Examiner les identifications que d&#8217;autres ajoutent &#224; vos propres publications avant qu&#8217;elles n&#8217;apparaissent sur Facebook". Aussi, d&#233;sactivez la possibilit&#233; pour Facebook de sugg&#233;rer votre identification dans une photo (oui, Facebook a depuis quelques mois un  syst&#232;me de reconnaissance faciale ). 
+ 
+ Pour r&#233;sumer,  param&#233;trer Facebook  comme sur l'image ci-dessous est un bon moyen pour conserver le peu de vie priv&#233;e qu'il vous reste sur Facebook, et peut-&#234;tre vous &#233;viter des ennuis. 
+ 
+
+         Notes &#160;&#160;&#160;[  +  ]                                                 1.      &#8629;         Source&#160;:  Gizmodo          2.      &#8629;         Source&#160;:  DailyFinance                                                                            
+                                                                                                        
+                                                 
+        </text>
+</document>

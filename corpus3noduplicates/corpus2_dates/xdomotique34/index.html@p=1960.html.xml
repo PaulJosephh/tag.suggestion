@@ -1,0 +1,100 @@
+<document>
+	<date>2012-12-04</date>
+        <title>la Zipabox en testet en image 1re partie</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>box domotique</tag>
+                <tag>KNX</tag>
+                <tag>z-wave</tag>
+                <tag>ZigBee</tag>
+                <tag>Zipabox</tag>
+                <tag>zipato</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ Je vais vous presenter la nouvelle box domotique.Cette box ma ete pretee par notre partenaire  Domadoo . Je vais la garder pendant quelques temps a fin de la tester au mieux et vous faire profiter de ce petit joyaux. 
+ La  Zipabox  de Zipato 
+ 
+ 
+  
+ Zipato est une societe croate recente qui a concu ce projet en presque 3 ans. Cette box estextremementpetite puisquelle est prete a sintegrer dans votre tableauelectriquesur un rail din. Cest une box a la technologie Z-wave. cest un systeme modulaire, cest a dire que vous pourrez rajouter des extensions (de nouvelles interfaces physiques augmentant ses fonctionnalites, ZigBee, KNX). 
+  
+ voici une petite presentation officielle de la box, apres nous passerons aux choses serieuses en deballant, ce petit coffret. 
+  
+ 
+ 
+ Open publication   Free  publishing    More alarm 
+ 
+  
+ Deballage 
+ Comme vous pouvez le voir, cest pas le colis qui va vous prendre le plus de place . 
+ 
+ 
+ Maintenant pour vous donner une idee de la taille du carton, jai place ma montre juste devant : 
+ 
+ La box est livree avec un cable reseau, une alimentation, et un antenne quil vous faudra visser au dos avant le branchement, ainsi quune notice dune trentaine de page (dans la langue de Shakespeare). 
+ 
+ 
+ 
+  
+ On sen rend pas compte mais elle est vraiment toute petite (jai une eedomus qui nest deja pas tres grande). Je vous laisse voir la video pour comparer. 
+ 
+Une fois sortie de son carton, 
+ 
+ 
+on continue a la decouvrir, une petite merveille de 150 grammes 
+ 
+  
+ 
+ on voit tres bien sur la photo, en partant du bas, la prise pour lalimentation, la prise reseau, le bouton reset, et le pas de vis pour lantenne Z-wave. 
+  
+ 
+  
+ Au dos on distingue, les glissieres permettant de lintegrer aussi dans votre coffretelectriquegraceau rail din. 
+  
+ 
+  
+ En plus des glissieres, vous pouvez voir aussi un des ports dextension permettant dajouter des modules tels quun module ZigBee ou un module de securite (comprenant une batterie, un port usb permettant de brancher une cle 3G). 
+  
+ voila cest la fin de ce premier article, concernant la presentation physique de cette nouvelle boxdemain nous verrons le branchement et leparametragede la box avant lintegration des peripheriques Z-wave. 
+ 
+Nous accederons au Dashboard de la Zipabox. 
+ 
+  
+  
+ Encore merci a notre partenaire  Domadoo  pour le pret de cette box. 
+ A demain pour la suite du test de cette box tres prometteuse a mon gout. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

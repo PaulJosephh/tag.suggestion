@@ -1,0 +1,17 @@
+<document>
+	<date>2014-06-25</date>
+        <title>
+Leedomus maintenant compatible Somfy !</title>
+        <author>Cdric Locqueneux</author>
+        <tags_set>
+                <tag>eedomus</tag>
+                <tag>rfxcom</tag>
+                <tag>Somfy</tag>
+        </tags_set>
+        <categories_set>
+                <category>eeDomus</category>
+                <category>News</category>
+        </categories_set>
+        <text>Lequipe de  Connected Object  a deploye hier une petite mise a jour sur nos box, qui apporte quelques ajouts et corrections: La sirene du Smoke Detector (KD101) peut desormais etre actionnee. Z-Wave : Support de la Sirene-Flash (SSA3) Fortrezz Une modification dun capteur ou actionneur HTTP via lAPI serveur declenche desormais lanalyse des regles Les cookies peuvent etre geres par la fonction httpQuery() des scripts  eedomus Le contenu des mails de notifications des regles peut desormais atteindre les 500 caracteres. Le parametre dynamic_value peut etre precise avec la fonction set periph.macro de lAPI La surveillance intrusion netait pas toujours correctement desactivee si un critere de desactivation etait defini. Les historiques importants de donnees ne devraient plus poser de probleme au telechargement  Mais surtout cette mise a jour apporte des nouveautes interessantes avec le RFXtrx, et plus particulierement le  RFXtrxE dont nous avons parle recemment: Support experimental des peripheriques Blyss avec tous les RFXtrx: ces peripheriques peu chers sont disponibles dans toutes les boutiques Castorama, quipropose un catalogue de peripheriques impressionnant Support experimental du protocole X10 avec tous les RFXtrx Support du nouveau RFXtrx433E compatible RFY !    Oui, vous avez bien compris, cela permet donc a l eedomus  de piloter les automatismes Somfy (RTS): volets, portail, etc Une excellente nouvelle pour tous ceux qui galeraient pour le pilotage de leurs volets :p Netant pas equipe Somfy, je ne peux pas tester, mais nhesitez pas a partager vos remarques dans les commentaires !   eedomus   rfxcom   Somfy 
+        </text>
+</document>

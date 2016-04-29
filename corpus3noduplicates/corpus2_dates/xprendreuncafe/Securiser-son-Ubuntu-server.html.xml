@@ -1,0 +1,178 @@
+<document>
+	<date>2007-02-05</date>
+        <title>Scuriser son Ubuntu-server</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>bestpractices</tag>
+                <tag>serveur</tag>
+                <tag>sysadmin</tag>
+                <tag>securite</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>L'interet d'avoir une  Dedibox  sur une classe C reputee  niche a boulets , c'est qu'on est confronte a de nombreuses tentatives de hacks,  DDOS  et autres  bruteforce  quasi-quotidiennement. De quoi envisager une approche totalement paranoiaque de la securite du systeme; voila quelques bonnes resolutions pour une  Ubuntu-server . 
+
+
+ Utilisez de  vrais  mots de passe 
+
+
+ Minimum 8 caracteres avec des lettres, des chiffres et de la ponctuation. Changez-en regulierement. 
+
+
+ Mieux,  utilisez des cles SSH . 
+
+
+ Desactiver l' acces root  depuis SSH 
+
+
+ Si quelqu'un arrivait a craquer votre acces  SSH , il serait dommage qu'il arrive directement en  root . Le moyen le plus simple pour eviter cela, c'est de desactiver l'acces SSH en root, en editant le fichier  /etc/ssh/sshd_config  et en remplacant la ligne: 
+
+
+ PermitRootLogin: yes 
+
+
+ par 
+
+
+ PermitRootLogin: no 
+
+
+ Changer le  port SSH  par defaut 
+
+
+ Toujours dans le meme fichier  /etc/ssh/sshd_config , changer le numero de port par defaut (22) par un autre: 
+
+
+ Port 12345 
+
+
+ Attention, ne prenez pas un numero de port utilise par un des autres services que vous utilisez sur le serveur (80 pour http, 25 pour smtp, 443 pour https, etc.) 
+
+
+ Par exemple si vous declarez le port 12345 pour SSH, vous vous connecterez ainsi sur la machine: 
+
+
+ $ ssh user@machine.tld -p 12345 
+
+
+ Note :  Chaque modification du fichier  sshd_config  doit occasionner un redemarrage du service: 
+
+
+ $ sudo /etc/init.d/ssh restart 
+
+ Blacklister  les IP malsaines 
+
+
+ fail2ban  est un petit utilitaire qui scanne les logs d'acces sshd et blackliste les IP depuis lesquelles emanent trop de tentatives de connexion echouees. Pour l'installer: 
+
+
+ $ sudo apt-get install fail2ban 
+
+ Plus d'infos sur la  configuration et l'utilisation de fail2ban . 
+
+
+ Interdire l'execution depuis  /tmp 
+
+
+ Le repertoire  /tmp  est souvent utilise par les script-kiddies de tous poils pour y deposer leurs executables et les lancer. Une approche intelligente du phenomene est d'interdire l'execution de programme sur ce point de montage, en ajoutant la directive  noexec  a votre fichier  /etc/fstab , comme dans cet exemple: 
+
+
+ /dev/sda3   /tmp    ext3   noexec,nosuid     0    2 
+
+
+ Si vous ne possedez pas de point de montage pour  /tmp , pas de panique: vous allez pouvoir  en creer un a l'arrache   
+
+
+ Attention : 
+
+ 
+ Le gestionnaire de paquet  apt  a parfois besoin d'executer des scripts depuis cet emplacement lors de certaines mises a jour, chose que la drective  noexec  interdit; 
+ MySQL a parfois besoin de creer des tables temporaires a cet emplacement pour traiter des requetes couteuses, chose que le  nosuid  interdit. 
+ 
+
+ La manipulation decrite ci-dessus n'est donc a appliquer en connaissance de cause.  (voire a ne pas appliquer du tout, en fait. Hem.) 
+
+
+ Installer un  firewall 
+
+
+ Shorewall  est un  firewall  simple a administrer, mais pas pour autant moins efficace que les autres. L'installation se fait par un traditionnel: 
+
+
+ $ sudo apt-get install shorewall 
+
+
+ Un tres bon  tutoriel de configuration du logiciel existe , n'hesitez pas a aller y faire un tour. L'idee est dans tous les cas de tout interdire par defaut et d'ouvrir les ports un a un en fonction de vos besoins. 
+
+
+ Verifier regulierement la presence de  rootkits 
+
+
+ Chkrootkit  scanne votre machine et y deniche les  rootkits  les plus repandus. Le programme s'installe facilement via la commande: 
+
+
+ $ sudo apt-get install chkrootkit 
+
+
+ Et se lance de cette facon: 
+
+
+ $ sudo chkrootkit 
+
+
+ Vous pouvez  croner  l'execution du programme quotidiennement et vous en envoyer le resultat par email, en ajoutant cette ligne dans votre  crontab : 
+
+
+ 0 3    *   *   *   chkrootkit 21 | mail vous@domain.tld -s "Rapport de chkrootkit" 
+
+
+ D'autres outils peuvent tout aussi bien faire l'affaire et peuvent etre utilises de facon complementaires: 
+
+ 
+ rkhunter 
+ tiger 
+ 
+
+ Ces deux outils sont disponibles dans les depots officiels Ubuntu et sont d'une utilisation tres simple. 
+
+
+ Note: si la commande  mail  est inconnue de votre systeme, installez le paquet  mailx : 
+
+
+ $ sudo apt-get install mailx 
+
+
+ Emprisonnez  vos programmes et utilisateurs 
+
+
+ Chroot  est un programme qui permet de litteralement  emprisonner  un utilisateur ou un programme dans un environnement desolidarise du reste du systeme, ce qui garanti une reversibilite des dommages occasionnes. 
+
+
+ Plus d'informations sur la  commande chroot . 
+
+
+ Encore quelques  conseils  de base 
+
+ 
+ Mettez regulierement a jour votre systeme 
+ Utilisez toujours les depots officiels Ubuntu 
+ N'installez jamais de softs  pour tester  en oubliant de les desinstaller par la suite 
+ N'ouvrez de nouveaux services que si vous en avez reellement besoin 
+ Surveillez vos logs 
+ Surveillez regulierement les process systeme 
+ Monitorez votre machine, surveillez les comportements anormaux 
+ Ne donnez jamais vos mots de passe 
+ Touchez du bois 
+ 
+
+ Les commentaires bouillent d'impatience de recevoir vos remarques, suggestions et contributions. 
+
+
+ Edit :  Prise en compte de certains commentaires judicieux. 
+
+
+ Edit 2 :   JJL  pose une vraie question:  Ubuntu est-elle prete pour le serveur ?  Sachant que les paquets Universe contenant des choses comme Trac ou Bacula ne sont pas maintenues au niveau patches de securite, cela laisse songeur... 
+        </text>
+</document>

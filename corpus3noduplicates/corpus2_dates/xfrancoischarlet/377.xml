@@ -1,0 +1,49 @@
+<document>
+	<date>2013-07-09</date>
+        <title>iO, la nouvelle app de Swisscom, transmet des donn&#233;es &#224; des tiers &#224; l'&#233;tranger [Actualis&#233;]</title>
+        <author>Fran&#231;ois Charlet</author>
+        <tags_set>
+                <tag>Conditions g&#233;n&#233;rales</tag>
+                <tag>Protection des donn&#233;es</tag>
+        </tags_set>
+        <categories_set>
+                <category>Technologies</category>
+        </categories_set>
+        <text>
+                                                
+                                                         Comme beaucoup de personnes, j'ai appris il y a plusieurs jours, avec une demi-surprise, que Swiccom venait de lancer une nouvelle application pour smartphone qui jouait directement dans la cour de  Whatsapp  et de Viber, pour ne citer qu'eux. 
+ Sur le papier, cette application a de quoi s&#233;duire puisqu'elle&#160;permet de communiquer gratuitement (oralement ou par &#233;crit)&#160;entre appareils iOS et Android ayant install&#233; l'application, m&#234;me si on est &#224; l'&#233;tranger, que l'on soit client Swisscom ou non. 
+ Cependant, comme &#224; mon habitude, avant m&#234;me de lancer l'application,&#160;je me suis pench&#233; sur les conditions g&#233;n&#233;rales d'utilisation d'iO. Rien que de tr&#232;s banal, en somme. &#192; l'exception du point 5 sur la protection des donn&#233;es, o&#249; l'on trouve notamment ce paragraphe&#160;: 
+ 
+ Pour &#233;valuer les habitudes d&#8217;utilisation de l&#8217;app,  Swisscom travaille en collaboration avec des soci&#233;t&#233;s &#233;trang&#232;res, raison pour laquelle des donn&#233;es sont transf&#233;r&#233;es &#224; l&#8217;&#233;tranger . Swisscom veille &#224; ce que les soci&#233;t&#233;s qu&#8217;elle mandate soient tenues d&#8217;assurer la protection et la s&#233;curit&#233; des donn&#233;es de la m&#234;me mani&#232;re que Swisscom elle-m&#234;me. Swisscom oblige les tiers &#224; traiter les donn&#233;es uniquement de la fa&#231;on dont elle est elle-m&#234;me habilit&#233;e &#224; le faire et ne leur  communique que les donn&#233;es n&#233;cessaires &#224; l&#8217;ex&#233;cution de leur mandat . Si le client n&#8217;accepte pas le traitement de ces donn&#233;es, il ne peut pas utiliser l&#8217;app. 
+ 
+ J'ai &#233;crit &#224; Swisscom afin d'obtenir des r&#233;ponses &#224;  deux questions&#160; : 
+ 
+ Qui sont ces soci&#233;t&#233;s &#233;trang&#232;res&#160;?&#160;Quelles sont ces donn&#233;es transmises &#224; l'&#233;trangers&#160;? 
+ 
+ Ma demande a &#233;t&#233; transmise au service juridique qui n'a pas (encore&#160;?) r&#233;pondu. J'attends toujours et vous communiquerai leur r&#233;ponse, s'il y en a une. 
+ J'avais bon espoir de pouvoir me passer totalement d'une application comme Whatsapp ou iMessages qui font transiter et stockent mes communications sur des serveurs &#224; l'&#233;tranger. Enfin une application suisse, offerte par l'op&#233;rateur historique, me suis-je dit&#160;!&#160;Et qui n'a en principe aucune raison de faire transiter des donn&#233;es par l'&#233;tranger ou d'utiliser des services de tiers. Pourtant, il s'av&#232;re que c'est le cas. Dommage, Swisscom aurait pu marquer des points et vanter la confidentialit&#233; de son application.  En plein scandale PRISM , cela aurait &#233;t&#233; un argument int&#233;ressant auquel les gens auraient &#233;t&#233; plus sensibles qu'avant. 
+ [Mise &#224; jour du 10 juillet 2013, 21h00] 
+ Selon la  NZZ , iO n'enverrait que des donn&#233;es fragment&#233;es &#8211; ne permettant pas d'identifier qui se "cache" derri&#232;re ces informations &#8211; sur les serveurs de&#160;Crittercism et Localytics qui analyseraient les erreurs et probl&#232;mes rencontr&#233;s dans l'application et l'utilisation qui est faite de cette derni&#232;re. Selon Swisscom, aucune soci&#233;t&#233; europ&#233;enne ne peut r&#233;aliser ces t&#226;ches. 
+ Un  utilisateur de l'application &#160;confirme qu'iO envoie des donn&#233;es "exhaustives" aux Etats-Unis, sur les serveurs d&#8217;Amazon (crittercism.com). Dans ces donn&#233;es, on trouverait  notamment  : 
+ 
+ L'id du smartphone 
+ L'orientation du smartphone 
+ Le mod&#232;le du smartphone 
+ La version de l'OS 
+ Le timestamp (date et heure) 
+ La langue 
+ Diverses informations sur le WiFi (activ&#233;, connect&#233;) 
+ La capacit&#233; totale de la m&#233;moire 
+ La capacit&#233; totale de la SD Card 
+ La capacit&#233; de libre 
+ Diverses informations sur le r&#233;seau mobile (activ&#233;, connect&#233;) 
+ L&#8217;op&#233;rateur t&#233;l&#233;phonique 
+ 
+ Alors que dans ses CGU, Swisscom annonce r&#233;colter lui-m&#234;me certaines donn&#233;es, il semblerait qu'il en r&#233;colte d'autres et les transmettent &#224; l'&#233;tranger. 
+
+                                                        
+                                                                                                        
+                                                 
+        </text>
+</document>

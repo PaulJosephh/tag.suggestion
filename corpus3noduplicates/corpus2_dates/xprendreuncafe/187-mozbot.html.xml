@@ -1,0 +1,25 @@
+<document>
+	<date>2005-07-05</date>
+        <title>MozBot</title>
+        <author>NiKo</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text>  MozBot  est un nouveau moteur de recherche, ou plus exactement un nouveau  frontend  a  Google . Son interface possede quelques particularites qui me plaisent bien, dont, en vrac: 
+
+ 
+ affichage par defaut de la definition du ou des mots recherches, ainsi que d'autres suggestions par associations d'idees, 
+ historique des recherches effectuees  (desactivable), 
+ copie d'ecran des sites (optionnel), 
+ recherche par defaut sur le web francophone (desactivable), 
+ gestion des recherches favorites, 
+ gestion de templates, 
+ exclusion possible d'un resultat de la liste (dieu que c'est pratique), 
+ statistiques de recherche sur chaque entrees de resultat. 
+ 
+
+ Pour ceux que ca interesse, il est possible d'ajouter MozBot a la liste des moteurs de recherche de Firefox, en suivant  les instructions disponibles a cette adresse . 
+        </text>
+</document>

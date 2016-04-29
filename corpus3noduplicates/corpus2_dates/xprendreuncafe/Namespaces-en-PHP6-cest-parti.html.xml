@@ -1,0 +1,21 @@
+<document>
+	<date>2007-07-13</date>
+        <title>Namespaces en PHP6, c'est parti</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>namespaces</tag>
+                <tag>php</tag>
+                <tag>php6</tag>
+        </tags_set>
+        <categories_set>
+                <category>Dev</category>
+        </categories_set>
+        <text>[Via la liste technique de  Clever Age ] 
+
+
+ Ceux qui suivent le developpement de PHP6 en scrutant le depot CVS ont exulte: la future mouture du langage se voit dotee d'une fonctionnalite tres attendue des developpeurs: la  gestion des espaces de noms  ( namespaces  en anglais.) L'implementation retenue est  celle proposee par Dmitry Stogov . 
+
+
+ Mais alors qu'il est encore  difficile d'imposer PHP 5 a l'ensemble des hebergeurs et developpeurs , combien de temps allons-nous devoir attendre pour deployer des outils utilisant ces allechantes fonctionnalites de PHP 6? 
+        </text>
+</document>

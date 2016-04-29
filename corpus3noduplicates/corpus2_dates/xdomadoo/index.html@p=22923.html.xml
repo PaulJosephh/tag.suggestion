@@ -1,0 +1,14 @@
+<document>
+	<date>2012-09-04</date>
+        <title>eedomus : support du multisensor et des tlcommandes porte-cls Aeon Labs</title>
+        <author> Laurent </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                          Aujourdhui cest la rentree pour les ecoliers, mais aussi pour les fabricants comme  Connected Object sa box domotique eedomus Comme dhabitude, cest une mise a jour tres riche qui apporte la gestion de nouveaux peripheriques, des ameliorations et des corrections de bugs.  De nouveaux peripheriques  Z-Wave Module universel Fibaro FGBS-001 Telecommande porte-cles 1 bouton Aeon Labs (2 scenes) Telecommande porte-cles 4 boutons Aeon Labs (8 scenes) Sirene  BeNext Wintop Detecteur 4 en 1 Multisensor Aeon Labs (version definitive)   Telecommande  Remotec eedomus Detecteur dinondation Fortrezz WWA02 (Canal inondation uniquement) La box  eedomus HTTP HTTP Cec XML Plusieurs ameliorations et nouvelles fonctionnalites font leur apparition : Configuration de la frequence de polling pour chaque peripheriques  Z-Wave Possibilite dactiver / desactiver loptimisation  Z-Wave   Option de box: Notification en cas dechec repete dune action sur un peripherique (apres 10min) Option de box: Abandonner une action en erreur apres 10min Meilleure gestion des valeurs intermediaires pour les modules  Z-Wave Possibilite dactiver immediatement lalarme (dans le cas dun digicode externe par exemple) Possibilite de creer plusieurs programmation du type Surveillance presence Les etats peuvent maintenant etre definis en tant que Autre indicateur (Capteur) et Autre indicateur (Actionneur) Possibilite de saisir des parametres de configuration  Z-Wave Filtrage de certaines valeurs erronees dans les indicateurs meteos Meilleur gestion des valeurs Non dispo. dans le moteur de regles Controle de lutilisation des macros dans les regles avant leur suppression Gestion des capteurs  xPL  Elargissement de la liste de notification pour une meilleur lisibilite   Ajout du tag  apple  Quelques bugs ont egalement ete corriges : Correction dun bug empechant lexecution de regles sur les peripheriques Etat recueillant des valeurs decimales Correction dun bug: Lors de lexecution dune regle, les peripheriques desactives pouvaient parfois etre actionnes Correction dun bug a la suppression dune programmation Correction dun bug empechant de detecter levenement: le Mir:ror est retourne Correction dun bug pouvant affecter les notifications Le nom de la regle a lorigine du changement dun Etat netait pas affichee  Correction dun probleme concernant les messages twitters accentues   Felicitation a lequipe  Connected Object  Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

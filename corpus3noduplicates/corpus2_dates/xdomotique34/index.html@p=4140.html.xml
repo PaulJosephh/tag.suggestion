@@ -1,0 +1,84 @@
+<document>
+	<date>2013-04-24</date>
+        <title>TEST module EnOcean RCM 250 et STM 330</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Non classe</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+ 
+ Dans un precedent article je vous avais presente  le pack Expert EnOcean  prete par  Univers-Domotique  et  Giga-Concept . 
+ Aujourdhui nous allons voir comment connecter le module RCM250 et lappairer avec un interrupteur EnOcean (PTM210) ainsi que le capteur de temperature  STM 330 . 
+ 
+ PTM 210 
+ RCM 250 
+  
+  
+ Pour le raccordement tout est tres simple, sur le RCM 250, on peut voir 4 bornes 
+ 
+  
+  
+ 
+  
+ Les cablesbleu et marron fonce sont raccordes au reseau electrique, le marron clair et le rouge sont raccordes a la lampe 
+ 
+  
+ Nous allons utiliser linterrupteur PMT 210 avec son habillage pour appairer la lampe. 
+ En tout premier lieu, il faudra connecter le stick USB 300 a votre PC et lancer le programme DolphinView pour activer votre interrupteur : 
+ 
+  
+ 
+  
+ Sur le module RCM 250 vous trouverez deux boutons sur la face avant LRN (Learn) et CLR (Clear) 
+ Capacite dappairage : 30 interrupteurs EnOcean type  PTM250  OU 2 capteurs contact de fenetre/portes enocean type  STM250 . 
+ Votre lampe est maintenant appairer et fonctionne de pair avec votre interrupteur (la preuve en video) 
+ 
+Vous pourrez positionner votre interrupteur ou bon vous semble dans votre piece (voire meme le prendre avec vous en guise de telecommande). 
+  
+ Passons a notre capteur de temperature  STM 330 
+ STM 330 
+  
+ Ce capteur est tres petit (4cm) ; jai du le laisser se charger pendant 1 bonne journee en pleine lumiere pour quil puisse se charger. Une fois recharge, je nai eu aucun soucis pour lappairer ; un petit clic au dos de celui-ci et il a ete immediatement reconnu dans mon DolphinView. 
+ 
+  
+ Rendons nous sur lecran de DolphinView pour commencer a voir les donnees safficher : 
+ 
+ Le capteur est tres fiable et annonce des temperatures jusquau centieme. (entre 0 et 40 ) et si vous cliquez sur la loupe vous pourrez avoir toutes les mesures precises a un moment donne. 
+ une derniere video pour vous montrer le reflet du graphe : 
+ 
+  
+ En Conclusion 
+ Vous avez pu remarquer la facilite pour appairer les divers modules. Linterrupteur fait un bruit tres mecanique (cest un peu normal car le but du jeu est de recuperer de lenergie produite par laction de linterrupteur). Le capteur de temperature a ete bien reconnu, il a fallu plus de temps que prevu pour le recharger, mais il tient bien dans la duree, une nuit plus une journee dans le noir et celui-ci donne encore les temperatures. Encore merci a  Univers-Domotique  et  Giga-Concept  pour le pret du pack expert. La prochaine etape sera de faire reconnaitre tous ces modules dans la  Zibase . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>

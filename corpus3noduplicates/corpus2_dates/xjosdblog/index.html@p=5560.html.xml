@@ -1,0 +1,47 @@
+<document>
+	<date>2014-05-18</date>
+        <title>Vera Lite : Plantage svre</title>
+        <author>Laurent</author>
+        <tags_set>
+                <tag>Vera</tag>
+        </tags_set>
+        <categories_set>
+                <category>Controleurs</category>
+                <category>Domotique</category>
+        </categories_set>
+        <text>
+                                                 Description du plantage 
+Ma  Vera Lite 01        05/15/14 12:06:37.009   Failed to get lock(0xa3e20c) Variable: ../ZWave/ZWaveJobHandler.h:372 last used UserData.cpp:463  first used UserData.cpp:463  thread: 0x2c315680 (579995)  handler 0x424934 bOkToFail 0 0x2c915680
+01      05/15/14 12:06:37.019   Deadlock problem. going to reload and quit 0x2c915680
+01      05/15/14 12:06:44.231   Main WatchDogRoutine: blocked - terminating 1 0x2d92f680 
+Jai immediatement tente de la redemarrer en la debranchant puis en la rebranchant, et la, plus rien: plus dinterface web, plus de ssh, aucune reponse au ping.
+ Vera 
+ Le voyant bleu clignote environ 40 secondes Le voyant vert sallume quelques secondes Les quatre voyants seteignent puis sallument puis seteignent Retour au 1 Remise en service de la Vera 
+Jai contacte le support technique de la  Vera la marche a suivre 
+ Connecter un cable ethernet entre un ordinateur (sous Linux dans mon cas) et la  Vera Lite Configurer la connexion de lordinateur en IP statique avec les parametres suivant:
+ Brancher lalimentation de la  Vera Lite Au moment ou la led bleu sallume, appuyer sur le bouton Reset avec un trombone puis le relacher Ouvrir un terminal et taper  telnet 192.168.1.1 Dans la fenetre telnet, executer les commandes suivantes:
+
+
+ flash_eraseall -j /dev/mtd7
+sync
+echo b  /proc/sysrq-trigger Configurer la connexion de lordinateur en IP statique avec les parametres suivant:
+ Verifier que linterface de la  Vera Lite 192.168.81.1 Remettre la  Vera Lite Se connecter a linterface de gestion et sauthentifier aupres des serveurs de  Vera ACCOUNT My Contact Info Recharger une sauvegarde automatique valide des parametres depuis  SETUP Backup 
+Jai ainsi retrouve une  Vera Lite association du module thermostat SCS317 avec le module recepteur SSR303 Quen retenir ? 
+ 
+La  Vera Lite ping watch dog Vera Tentative danalyse (27-05-2014) 
+ 
+La  Vera Lite /var/log/cmh/LuaUPnP.log /var/log/cmh/FailedRotate.log top Mem: 46656K used, 15824K free, 0K shrd, 0K buff, 24080K cached
+CPU:   0% usr   9% sys   0% nic  90% idle   0% io   0% irq   0% sirq
+Load average: 4.00 4.01 4.05 1/53 4217
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+ 4217  4033 root     R     1680   3%   9% top -b -n 1
+... 
+La ligne  Load average: 4.00 4.01 4.05 top 
+Les deux fois, dapres mon mecanisme de log externe (depuis le NAS), jai constate que le plantage est survenu alors que la box capturait des images des cameras IP afin de les envoyer par courriel (plusieurs courriels avec trois captures pour chacun). La piste de plantages consecutifs a une surcharge de la  Vera Lite Resolution du probleme ? (27-05-2014) 
+ 
+Maintenant, je consulte la charge de la  Vera Lite grace a la commande  uptime Informations et sources 
+ 
+ Lua : executer une commande systeme (ping, uptime ) How to restore Vera Lite 
+ Sommaire Domotique 
+        </text>
+</document>

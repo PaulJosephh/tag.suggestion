@@ -1,0 +1,14 @@
+<document>
+	<date>2010-11-16</date>
+        <title>Dessiner votre propre bouton pour HSTouch</title>
+        <author> Loc </author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Logiciels Homeseer</category>
+        </categories_set>
+        <text>
+                                                          Creation graphique dun bouton avec 2 etats dans un logiciel de creation (ici:  Photoshop   Pour realiser un bouton il faut creer au moins 2 etats donc, 2 images: - 1 image du bouton a letatnormal Cest deux images sappelleront respectivement:  xxx -norm.png  xxx -pressed.png xxx Il est important de bien nomme vos images de cette maniere  Passons aux choses serieuses et ouvrons un nouveau fichier Photoshop. Ouvrez Photoshop Fichier  Nouveau    Creer une nouvelle forme (ici un rond)  Ajoutez un degrade et un contour sur notre nouvelle forme. Double Clic   Creation dune nouvelle forme pour creer un effet de reflet sur le bouton - Creation dun masque de fusion, pour donner leffet de degrade     -    Nous allons maintenant supprimer les parties qui depassent du bouton - Selectionner la forme de votre bouton en faisant un  CTRL + Clic    - Puis inverser la selection, afin de ne selectionner que la partie exterieure. Raccourcis  CTRL + MAJ + I Selection Intervertir       Enfin, faite un  clic droit Convertir en objet dynamique    - Faites a nouveau un  clic droit Pixelliser le calque  - Et supprimez lexcedent qui depasse de votre bouton, pour enfin obtenir un joli reflet. Donnant ainsi un cote un peu plus sympa a votre bouton.  Voici le resultat:  Ensuite importez la forme de votre choix (ici une illustration d ampoule disponible ici   - Ajout dune petite ombre portee:   Nous allons dupliquer le calque rond pour creer un autre bouton qui sera le bouton a letat  appuye.   - Creer ensuite sur ce nouveau calque une petite lueur interne qui nous donnera plus tard la sensation que le bouton est selectionne         Il ne vous reste plus qua enregistrer vos deux images. ATTENTION:  xxx -norm.png  xxx -pressed.png HSTouch  Veillez a enregistrer vos elements graphiques dans le dossier SKIN. Celui-ci se trouve dans  Mes Documents  HSTouch  SKIN Default boutons Lancer  HSTouch     Vous pouvez a present retrouver votre bouton dans le dossier SKIN. Vous remarquerez aussi que les 2 images ont directement ete associees       Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

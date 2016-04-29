@@ -1,0 +1,36 @@
+<document>
+	<date>2007-10-30</date>
+        <title>Cours : Introduction au monde dUnix</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>Cours</category>
+                <category>Generalitees</category>
+        </categories_set>
+        <text>
+                                                 
+ 
+Ce cours est une introduction au monde dUnix dispense (2002-2004) au Centre Informatique pour les Lettres et les Sciences Humaines (CILSH). Les objectifs de ce cours sont multiples. Il doit, tout dabord, permettre aux etudiants davoir un premier contact reel avec le monde de Linux. Dautre part, certains etudiants seront amenes a poursuivre leurs etudes par un  DESS informatique double competence boite a outils 
+ 
+Systeme dexploitation
+ 
+Introduction au monde dUnix
+ 
+Systeme de fichiers dUnix
+ 
+Operations sur les fichiers et repertoires
+ 
+Visualiser et editer des fichiers
+ 
+Installation de Linux et de Cygwin/XFree86
+ 
+Redirections, tubes et filtres : principes
+ 
+Filtres
+ 
+Pratique des filtres, redirections et tubes
+ 
+ Le cours d Introduction au monde dUnix 
+        </text>
+</document>

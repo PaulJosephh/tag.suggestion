@@ -1,0 +1,20 @@
+<document>
+	<date>2014-01-13</date>
+        <title>#CES2014 : Wigwag le systme de domotique ouvert</title>
+        <author> David G. </author>
+        <tags_set>
+                <tag>CES</tag>
+                <tag>CES2014</tag>
+                <tag>domotique</tag>
+                <tag>iot</tag>
+                <tag>kickstarter</tag>
+                <tag>wigwag</tag>
+        </tags_set>
+        <categories_set>
+                <category>CES 2014</category>
+        </categories_set>
+        <text>
+                                                         WigWag domotique WigWag une campagne KickStarter qui a eu un grand succes Jai trouve au CES une equipe WigWag HomeSeer Le principe est simple, une box, un capteur unique qui fait tout, un module pour piloter les rubans de LEDs, un badge et une integration des principaux actionneurs du moment : Wemo, Hue,  Sonos IFTTT IFTTT Mais ce nest pas tout, si une regle ne vous va pas, vous pouvez ouvrir laction ou la condition et ajouter votre propre developpement pour personnaliser votre  domotique Cette plateforme fonctionne avec iOS et Android. On peut aussi utiliser le navigateur web de son PC pour configurer ou piloter sa  domotique La solution est basee sur une passerelle (WigWag Control) qui se connecte sur votre box Internet. Elle communique avec tous les modules par radio. La passerelle a des ports  USB Zigbee Insteon La solution utilise un cloud pour lier des services en ligne comme Dropbox, Twitter,  Elle reste autonome en cas de coupure dInternet. Vous pourrez interagir en local. Parmi les modules, le plus important est le WigWag Sensor. Cest un capteur 8-en-1 qui propose aussi le pilotage dun relai pour actionner un contact. Pourquoi un capteur unique ? en fait, les concepteurs du systeme ont souhaite faire le systeme le moins couteux possible, le developpement, la production et la maintenance dun capteur revient moins cher si on groupe les fonctions. Cela permet donc detre mieux place sur le marche. Ce WigWag sensor possede les fonctionnalites suivantes : Ce capteur prend 4 piles AA, ou peut etre alimente par  USB domotique WigWag possede aussi un controleur de ruban LEDs, et un badge. Ils sont a fond dans lintegration de produits tiers pour agrandir le cercle des utilisateurs. A ce jour, on peut piloter des modules Wemo (prises, ), des ampoules  Philips Hue Le premier Kit est a 150 Euros. On peut commander directement sur leur site. Ils servent dabord le marche le US, mais un des fondateurs est Suisse, il a contribue au developpement de linterface graphique et compte bien distribuer ses produits en Europe.   Simple Share Buttons Adder (5.6) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

@@ -1,0 +1,34 @@
+<document>
+	<date>2013-10-18</date>
+        <title>Systmes de dtection dune camera IP</title>
+        <author>Laurent</author>
+        <tags_set>
+        </tags_set>
+        <categories_set>
+                <category>DLink</category>
+                <category>Domotique</category>
+                <category>Surveillance</category>
+                <category>Synology</category>
+        </categories_set>
+        <text>
+                                                 Detection de la camera 
+ 
+Les cameras IP sont equipees de systemes de detection. En general, on trouve au moins un systeme de detection de mouvement par video. Parfois, la camera est egalement equipee dun systeme de detection infra-rouge.
+ 
+Dans tous les cas, le parametrage de ces systemes est indispensable si cest la camera qui doit declencher ou realiser (sur carte SD, sur disque reseau) lenregistrement.
+ 
+Linconvenient est quun systeme de detection de mouvement par video est difficile a parametrer, que les parametres dependent un peu de la camera et que linfluence de ces parametres depend beaucoup de la camera. Sur les cameras IP D-Link (du moins la DCS-2230 et la DCS-6511), ce reglage se fait en precisant une valeur comprise entre 0 et 100 pour deux parametres:
+ 
+ Sensibilite: Sensibilite de la detection de mouvement. Plus la valeur est grande plus la detection est sensible. Pourcentage: Proportion de la fenetre de detection devant etre remplie par le mouvement pour declencher la detection. Plus la valeur est petite plus la detection est sensible. 
+Mes deux cameras D-Link ( DCS-2230 DCS-6511 Detection par logiciel tiers 
+ 
+Il est possible de deleguer le declenchement de lenregistrement par detection video a un logiciel tiers comme  Surveillance Station Synology ZoneMinder Surveillance Station 
+ Sensibilite de detection: Sensibilite de la detection de mouvement. Plus la valeur est grande plus la detection est sensible. Seuil: Seuil de la detection de mouvement. Plus la valeur est petite plus la detection est sensible. Comment limiter les fausses detections? 
+ 
+Les sources de fausses detections sont nombreuses: variation de la luminosite (passage de nuages, allumage/extinction de lampes), mouvements causes par le vent (arbres, ombres), animaux divers (chats, chiens, herissons), insectes (papillons, araignees), bruit blanc de la camera (la nuit) Excepte dans des configurations tres specifiques, il faudra faire avec de nombreuses fausses detections (bien plus nombreuses que les vrais). Voici cependant quelques techniques pour en limiter le nombre:
+ 
+ Reduire au maximum les zones de detection au seules portions utiles de limage. Le cas echeant, comparer le systeme de detection de la camera avec celui de la solution de surveillance. Il est probable que lun des deux fonctionne mieux que lautre. Passer du temps a apprehender le fonctionnement et affiner le reglage des parametres de detection pour trouver un bon compromis. Eventuellement baisser le contraste de limage. 
+Une autre solution consiste a utiliser un capteur infrarouge integre, quand la camera en possede un, ou deporte, si la camera est dotee dun port dentree numerique. Cette solution permet deliminer un grand nombre de fausses detections, mais le capteur infrarouge peut rester sensible au passage danimaux. Dautre part, il est plus difficile dajuster la portee dun capteur infrarouge que de parametrer une zone de detection dans limage, ce qui peut constituer egalement un inconvenient dans certaines configurations.
+ 
+        </text>
+</document>

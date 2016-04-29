@@ -1,0 +1,23 @@
+<document>
+	<date>2013-11-04</date>
+        <title>eedomus : Configurer une sonde de temprature/humidit Trio2Sys O2Line EnOcean</title>
+        <author> Guillaume </author>
+        <tags_set>
+                <tag>capteur</tag>
+                <tag>eedomus</tag>
+                <tag>enocean</tag>
+                <tag>guide</tag>
+                <tag>humidite</tag>
+                <tag>o2line</tag>
+                <tag>temperature</tag>
+                <tag>trio2sys</tag>
+                <tag>tuto</tag>
+        </tags_set>
+        <categories_set>
+                <category>Guides Domotique EnOcean</category>
+        </categories_set>
+        <text>
+                                                         Depuis le mois de septembre, leedomus de Connected Object supporte Enocean Trio2Sys 1. Le materiel necessaire Une Box  eedomus Un dongle  USB EnOcean USB300 Une sonde de temperature et dhumidite O2Line Confort (reference : T2S10020041  2. Prerequis Cette installation sous entend que vous ayez deja installe le Dongle  USB EnOcean eedomus Eedomus : Ajouter la technologie EnOcean 3. Installation de la sonde a. Configuration du capteur de temperature Appuyez sur le bouton LRN de votre sonde. Un message vous donnant ladresse de votre nouveau capteur va apparaitre dans la barre de notification. Cliquez sur cette adresse (en bleue) pour faire une installation automatique, la page de configuration du peripherique va souvrir. Notez quil est aussi possible dajouter le peripherique en passant par : Configuration - Ajouter ou supprimer un peripherique - Ajouter un autre type de peripherique -  EnOcean Renseignez les differents champs en specifiant bien TMP: Temperature pour le champ Shortcut et C pour Unite. Sauver votre configuration. b. Configuration du capteur dhumidite Pour configurer le capteur dhumidite, se rendre dans la configuration du systeme. Puis Notifications. Cliquez sur ladresse (en bleue) de votre capteur. Cest la meme que celle que lon a utilise pour configurer le capteur de temperature. La page de configuration du peripherique souvre. Renseignez les differents champs en specifiant bien HUM: Humidity pour le champ Shortcut et % pour Unite. Sauver votre configuration. Votre sonde de temperature / Humidite  EnOcean  Simple Share Buttons Adder (4.8) simplesharebuttons.com  
+ Ces sujets pourraient vous interesser aussi: Aucune proposition. END .entry-content  
+        </text>
+</document>

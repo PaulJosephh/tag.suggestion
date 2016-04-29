@@ -1,0 +1,27 @@
+<document>
+	<date>2005-05-22</date>
+        <title>Accs impossible  Mozilla Update sous Ubuntu</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>firefox</tag>
+                <tag>tips</tag>
+                <tag>ubuntu</tag>
+        </tags_set>
+        <categories_set>
+                <category>Ubuntu</category>
+        </categories_set>
+        <text>Quand on essaye d'acceder a  Mozilla Update  depuis Firefox 1.0.4 sous Ubuntu, on se retrouve avec un  message d'erreur  nous invitant a upgrader Firefox en version... 1.0.4  
+
+
+ 
+
+
+ Pour contrer ce probleme, du a une erreur de numero de version sur le paquet Firefox d'Ubuntu, on peut regler facilement ce souci  en utilisant les variables de configuration utilisateur  de Firefox. 
+
+
+ Pour y acceder, tappez dans la barre d'adresse l'url suivante:  about:config . Rechercher la chaine  useragent  et modifiez la cle  general.useragent.vendorSub  en lui affectant la valeur  1.0.4  au lieu de  1.0 , comme dans la capture ci-dessous: 
+
+
+ 
+        </text>
+</document>

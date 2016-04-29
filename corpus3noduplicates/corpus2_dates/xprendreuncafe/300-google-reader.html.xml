@@ -1,0 +1,27 @@
+<document>
+	<date>2005-10-09</date>
+        <title>Google Reader</title>
+        <author>NiKo</author>
+        <tags_set>
+                <tag>google</tag>
+                <tag>rss</tag>
+        </tags_set>
+        <categories_set>
+                <category>Divers</category>
+        </categories_set>
+        <text> C'est en beta, c'est buggue (chez moi), c'est tres lent, uniquement en anglais, mais c'est terriblement prometteur...  Google Reader : 
+
+ 
+ Agregateur en ligne, 
+ Import de fichiers  OPML , 
+ Tagging des feeds et des items, 
+ Flagging des items, 
+ Integration de  GMail  et de  Blogger , 
+ Navigation au clavier, 
+ AJAX  a donf (ca brille, donc), 
+ Moteur integre performant (Google, quoi)... 
+ 
+
+ Necessite un compte  GMail  pour l'utiliser ( invitations par la ). 
+        </text>
+</document>

@@ -1,0 +1,96 @@
+<document>
+	<date>2013-06-14</date>
+        <title>Installer une camra hberge sur la Zibase (source Zodianet)</title>
+        <author>Olivier VALETTE </author>
+        <tags_set>
+                <tag>3G</tag>
+                <tag>camera</tag>
+                <tag>wifi</tag>
+                <tag>Zodianet</tag>
+        </tags_set>
+        <categories_set>
+                <category>Actualite</category>
+                <category>Box Domotique</category>
+                <category>Camera</category>
+                <category>Tutoriel</category>
+        </categories_set>
+        <text>
+                                        
+                                        
+                                        
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+ 
+  
+ Le systeme Zodianet offre un service de video-streaming gratuit avec des cameras IP de toutes marques. Celles-ci doivent etre de type MJPEG , ce qui est generalement le cas. 
+ 
+ 
+ Une option permet lusage de cameras securisees par https, (plutot que http), tandis que le mot de passe peut etre demande a la volee sans devoir etre obligatoirement consigne dans la configuration. 
+ Sur les applications iOS/Android, leffleurement de la fenetre de video-streaming permet dorienter les cameras motorisees (pan/tilt) dans les 4 directions et de zoomer/dezoomer (pincer/depincer avec 2 doigts). Bien-sur, ces commandes doivent etre presentes sur les cameras pour pouvoir en beneficier. 
+ Pour executer des fonctions diverses a la guise de lutilisateur, jusqua 8 URLs supplementaires peuvent etre consignees sur le configurateur. Celles-ci sont ensuite activables depuis lesles applications iOS/Android, en cours de video-streaming. 
+ Lintegration de cameras de toutes marques possede lavantage de pouvoir dintegrer au systeme Zodianet des cameras repondant exactement au besoin de lutilisateur. 
+ Par contre, linconvenient est que la configuration sen trouve alourdie et Zodianet ne peut pas vous assurer, ni le bon interfonctionnement, ni le support lors de la mise en place. Zodianet ne peut assurer le support de centaines de marques de cameras ayant chacune des dizaines de modeles ! 
+ Pour cette raison, nous vous conseillons dacquerir ces camerasexclusivementaupres de votre revendeur de ZiBASE pour une raison tres simple : Lui seul peut vous assurer de leur compatibilite avec ZiBASE et vous assurer un support lors de la mise en place. 
+ Cette mise en place dune camera necessite un certain nombre de manipulations techniques qui sont detaillees ci dessous et etayees par un exemple. Cette approche est certes pas a pas mais permet de cerner precisement un probleme qui pourrait survenir. 
+  
+ Configuration initiale de la camera 
+ Dans un premier temps, il est necessaire dinstaller la camera et de la faire fonctionner localement (sur votre LAN), conformement au manuel fourni par le constructeur. Il nest pas encore question de Zodianet ! 
+ Lors de cette etape, figez ces 3 items:  1) Adresse IP camera,  2) Cle Wifi,  3) Mot de passe camera : 
+  Rentrer dans le configurateur embarque de la camera. (le manuel du constructeur doit vous guider pour cela) 
+  1) Assigner une adresse IP fixe a votre camera: Regardez dans votre BOX Internet la plage assignee a DHCP, puis choisissez une adresse IP hors de cette plage. Ici , la plage DHCP va de 192.168.1.10 a 192.168.1.200. Ici , on choisit donc ladresse IP egale a (par exemple) 192.168.1.231 dans la camera. On peut redemarrer la camera et verifier que la camera est maintenant accessible a http://192.168.1.231. 
+  2) Si votre camera est Wifi, parametrez la camera pour quelle puisse se connecter par Wifi. Une fois cette operation realisee, deconnectez le lien Ethernet et verifiez que le lien Wifi setablit avec la camera en y accedant a nouveau parhttp://192.168.1.231. 
+  3) Redefinissez imperativement le mot de passe de votre camera, notamment celui defini en usine. Sur Edimax, login: admin, pass: 1234. Vous devez avoir aussi la possibilite de definir des mots de passe avec des droits inferieurs qui ne permettent pas dacceder a toutes les fonctions de la camera. Peut-etre aussi le moment de naviguer parmi toutes les options offertes par votre camera 
+ En dernier lieu, connectez vous a nouveau ahttp://192.168.1.231 et verifiez instantanement : IP Ok, Wifi Ok, Mot de passe Ok 
+ On le regrette rarement, notezquelque partladresse IP et le login/mot de passe. A maxima sous la camera. A minima enfonction de votre degre de paranoia. 
+  
+ Configurationinitiale de votre box Internet 
+ La camera marche correctement lorsque vous etes chez vous, il faut maintenant la faire fonctionner lorsque vous etes sorti ! 
+ Il nest toujours pas question de Zodianet ! 
+ Pour cela, votre Box Internet doit etre configuree carhttp://192.168.1.231 est une adresse locale a votre LAN(Local Area Network)sans existence sur Internet. En revanche, votre foyer presente une adresse dite WAN (Wide Area Network) unique et visible sur Internet. Celle-ci peut changer periodiquement (cest votre operateur vous lattribue) mais Zodianet fait de de sorte de la connaitre en temps-reel grace a ZIBASE. 
+ Il est necessaire de mettre en oeuvre un canal entrant de sorte quune sollicitation exterieure (par votre smartphone!) est routee vers la camera, sans quoi votre Box Internet fait office de Firewall sur les flux entrants. 
+ On choisit ici arbitrairement le port 81 de ladresse WAN en TCP (exemple83.112.123.124)pour etre etre route vers la camera. Votre Box Internet doit vous proposer un formulaire pour realiser cette operation de port forwarding. Sur LiveBox2, la configuration est celle-ci. On retrouve ici ladresse de la camera (la livebox fait ici elle-meme un alias ) avec le port 81 presente sur le WAN et le classique port 80 http de la camera. 
+ Pour tester le canal alors que vous etes chez vous, forcez temporairementvotre smartphone en 3G en devalidant le Wifi. puis dans le navigateur saisissez ladresse IP WAN suiviapres :du port , soit par exemplehttp://83.112.123.124:81. La camera doit alors repondre avecune demande de login/pass. Ne pas cherchez a faire du video streaming (il est probable que cela ne marche pas directement de votre smartphone), cherchez juste a savoir si la camera est accessible 
+ PS: Si uPnP est validee sur votre camera, ZIBASE peut etablir ce canal automatiquement, ce qui vous affranchit de modifier la configuration de votre Box Internet. Lexperience montre quil est souhaitable de fermer et ouvrir le canal periodiquement. Un exemple est donne ici (camera en IP=192.168.1.99 et port WAN=84). Utilisez luneoulautre methode, et non luneetlautre ! 
+ PS: Les operateurs peuvent limiter le debit sur certains ports. Le port WAN 80 semblerait moins penalise que les autres. 
+  
+ Configurationfinale de votre ZiBASE 
+ Il vous faut maintenant inclure votre camera dans votre environnement Zodianet, afin davoir une icone bleue representant votre camera sur votre smartphone/tablette et cliquer dessus pour avoir le video-streaming recherche 
+ Allez sur le configurateur de ZiBASE, menu EXPERT/CAMERAS/CAMERAS HEBERGEES et faites Ajouter une camera. 
+ Remplissez les champs demandes avec le login, le mot de passe de camera (si vous laissez vide le champ, il vous sera demande sur le smartphone/tablette), le chemin dacces au flux MJPEG, le numero de port WAN de la camera, ladresse IP LAN de la camera et son numero de port WAN (80 par defaut). En reprenant lexemple ci dessus, vous avez cela . 
+ Le chemin dacces au flux MJPEG depend de la camera. Vous devriez le trouver: 
+  Sur Internet, 
+  Dans des annuaires comme celui-ci , 
+  Dans la notice detaillee de lAPI de la camera, 
+  Chez votre revendeur de ZiBASE et de ladite camera. 
+ Si votre camera est orientable ou si vous souhaitez executer des fonctions particulieres sur votre camera pendant le video-streaming, vous devez consigner les URLs correspondantes (seuls les chemins sont a specifier, ladresse IP+login/mot de passe sont implicites) comme ici sur une camera FOSCAM. 
+ Noubliez pas de relancer lapplication iOS/Android si vous faites des modifications de configuration. 
+ La configuration de votre camera est terminee. 
+ Elle fonctionne aussi bien lorsque vous etes chez vous, quen dehors de chez vous, en Wifi et en 3G. 
+ Les fonctions particulieres de la camera sont accessibles ainsi que vos commandes domotiques en cliquant sur les icones en bas sur iOS et sur le bouton parametres sur Android. 
+  
+ source :  zodianet 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(adsbygoogle = window.adsbygoogle || []).push({});
+ 
+ 
+
+ Partager: Plus Imprimer Partager sur Tumblr E-mail WordPress: J'aime   chargement 
+ 
+         Sur le meme theme 
+                                                                                
+                                                                         
+        </text>
+</document>
